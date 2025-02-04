@@ -1,2 +1,2 @@
 # OPAC
-Operation Arctic Citadel
+Operation Arctic Citadel.

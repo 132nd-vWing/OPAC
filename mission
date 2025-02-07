@@ -2670,6 +2670,292 @@ mission =
                             }, -- end of [13]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
+                    ["static"] =
+                    {
+                        ["group"] =
+                        {
+                            [1] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 148,
+                                ["heading"] = 0.10509300982641,
+                                ["name"] = "ATIS Rovaniemi 394.150, TRAFFIC 394.650, VOICE en-US-Standard-E",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -152021.4125704,
+                                            ["y"] = 151182.49694633,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0.10509300982641,
+                                        ["name"] = "ATIS Rovaniemi 394.150, TRAFFIC 394.650, VOICE en-US-Standard-E",
+                                        ["rate"] = 10,
+                                        ["type"] = "house2arm",
+                                        ["unitId"] = 297,
+                                        ["x"] = -152021.4125704,
+                                        ["y"] = 151182.49694633,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -152021.4125704,
+                                ["y"] = 151182.49694633,
+                            }, -- end of [1]
+                            [2] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 149,
+                                ["heading"] = 0.10509300982641,
+                                ["name"] = "ATIS Banak 392.150, TRAFFIC 392.650, VOICE en-US-Standard-E",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 234714.29059131,
+                                            ["y"] = 88785.429250204,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0.10509300982641,
+                                        ["name"] = "ATIS Banak 392.150, TRAFFIC 392.650, VOICE en-US-Standard-E",
+                                        ["rate"] = 10,
+                                        ["type"] = "house2arm",
+                                        ["unitId"] = 298,
+                                        ["x"] = 234714.29059131,
+                                        ["y"] = 88785.429250204,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 234714.29059131,
+                                ["y"] = 88785.429250204,
+                            }, -- end of [2]
+                            [3] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 150,
+                                ["heading"] = 0.10509300982641,
+                                ["name"] = "ATIS Ivalo 397.150, TRAFFIC 397.650, VOICE en-US-Standard-E",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 80714.301170227,
+                                            ["y"] = 198430.94201275,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0.10509300982641,
+                                        ["name"] = "ATIS Ivalo 397.150, TRAFFIC 397.650, VOICE en-US-Standard-E",
+                                        ["rate"] = 10,
+                                        ["type"] = "house2arm",
+                                        ["unitId"] = 299,
+                                        ["x"] = 80714.301170227,
+                                        ["y"] = 198430.94201275,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 80714.301170227,
+                                ["y"] = 198430.94201275,
+                            }, -- end of [3]
+                            [4] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 152,
+                                ["heading"] = 0.10509300982641,
+                                ["name"] = "ATIS Kittila 390.150, TRAFFIC 390.650, VOICE en-US-Standard-E",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -29380.114221402,
+                                            ["y"] = 100593.73043537,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0.10509300982641,
+                                        ["name"] = "ATIS Kittila 390.150, TRAFFIC 390.650, VOICE en-US-Standard-E",
+                                        ["rate"] = 10,
+                                        ["type"] = "house2arm",
+                                        ["unitId"] = 301,
+                                        ["x"] = -29380.114221402,
+                                        ["y"] = 100593.73043537,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -29380.114221402,
+                                ["y"] = 100593.73043537,
+                            }, -- end of [4]
+                            [5] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 153,
+                                ["heading"] = 0.10509300982641,
+                                ["name"] = "ATIS Vuojarvi 391.150, TRAFFIC 391.650, VOICE en-US-Standard-E",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -92920.188624322,
+                                            ["y"] = 178787.91080109,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0.10509300982641,
+                                        ["name"] = "ATIS Vuojarvi 391.150, TRAFFIC 391.650, VOICE en-US-Standard-E",
+                                        ["rate"] = 10,
+                                        ["type"] = "house2arm",
+                                        ["unitId"] = 302,
+                                        ["x"] = -92920.188624322,
+                                        ["y"] = 178787.91080109,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -92920.188624322,
+                                ["y"] = 178787.91080109,
+                            }, -- end of [5]
+                            [6] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 154,
+                                ["heading"] = 0.10509300982641,
+                                ["name"] = "ATIS Bardufoss 396.150, TRAFFIC 396.650, VOICE en-US-Standard-E",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 119291.11135952,
+                                            ["y"] = -160595.54268492,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0.10509300982641,
+                                        ["name"] = "ATIS Bardufoss 396.150, TRAFFIC 396.650, VOICE en-US-Standard-E",
+                                        ["rate"] = 10,
+                                        ["type"] = "house2arm",
+                                        ["unitId"] = 303,
+                                        ["x"] = 119291.11135952,
+                                        ["y"] = -160595.54268492,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 119291.11135952,
+                                ["y"] = -160595.54268492,
+                            }, -- end of [6]
+                            [7] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 155,
+                                ["heading"] = 0.10509300982641,
+                                ["name"] = "ATIS Andoya 393.150, TRAFFIC 393.650, VOICE en-US-Standard-E",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 153048.36429604,
+                                            ["y"] = -254887.13711348,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0.10509300982641,
+                                        ["name"] = "ATIS Andoya 393.150, TRAFFIC 393.650, VOICE en-US-Standard-E",
+                                        ["rate"] = 10,
+                                        ["type"] = "house2arm",
+                                        ["unitId"] = 304,
+                                        ["x"] = 153048.36429604,
+                                        ["y"] = -254887.13711348,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 153048.36429604,
+                                ["y"] = -254887.13711348,
+                            }, -- end of [7]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
                 }, -- end of [1]
             }, -- end of ["country"]
             ["name"] = "blue",
@@ -7910,7 +8196,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 124186,
+    ["currentKey"] = 126532,
     ["date"] =
     {
         ["Day"] = 20,
@@ -15058,9 +15344,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 21029.16732563,
-        ["centerY"] = 190749.96470866,
-        ["zoom"] = 1434604.15189,
+        ["centerX"] = -52416.677289803,
+        ["centerY"] = 226204.19878881,
+        ["zoom"] = 1242767.1219496,
     }, -- end of ["map"]
     ["maxDictId"] = 6,
     ["pictureFileNameB"] =
@@ -15170,7 +15456,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT107 - Notian SAM test and training site",
                 ["properties"] =
                 {
@@ -15191,7 +15477,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT025 - Lovozero Air Defense Test and Training Range",
                 ["properties"] =
                 {
@@ -15235,7 +15521,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT026 - Lovozero Air Defense Academy",
                 ["properties"] =
                 {
@@ -15279,7 +15565,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT070  -Notian 4th Corps HQ",
                 ["properties"] =
                 {
@@ -15323,7 +15609,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT001 - Severomorsk 1",
                 ["properties"] =
                 {
@@ -15344,7 +15630,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT002 -Severomorsk 3",
                 ["properties"] =
                 {
@@ -15365,7 +15651,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT003 - Murmansk International",
                 ["properties"] =
                 {
@@ -15386,7 +15672,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT004 - Olenya Airbase",
                 ["properties"] =
                 {
@@ -15407,7 +15693,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT005 - Monchegorsk",
                 ["properties"] =
                 {
@@ -15428,7 +15714,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT006  - Gadzniyevo dock",
                 ["properties"] =
                 {
@@ -15449,7 +15735,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT007  - Snezhnogorsk dock",
                 ["properties"] =
                 {
@@ -15470,7 +15756,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT096 - Severomorsk Fuel and Chemicals Depot",
                 ["properties"] =
                 {
@@ -15491,7 +15777,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT057 - Olenegorsk Vehicle Factory",
                 ["properties"] =
                 {
@@ -15535,7 +15821,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT059 - Nickel Production Complex",
                 ["properties"] =
                 {
@@ -15579,7 +15865,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT027 - Koashva Research Facility",
                 ["properties"] =
                 {
@@ -15623,7 +15909,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT046 - Apatite Steel Production Facility",
                 ["properties"] =
                 {
@@ -15667,7 +15953,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT071 - Apatite Veichle Factory",
                 ["properties"] =
                 {
@@ -15711,7 +15997,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT072 - Apatite SAM Factory",
                 ["properties"] =
                 {
@@ -15755,7 +16041,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT073  - Apatite Radar Factory",
                 ["properties"] =
                 {
@@ -15799,7 +16085,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT074 - Apatite West Vehicle Factory",
                 ["properties"] =
                 {
@@ -15843,7 +16129,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT058  -R-21 Highway Bridge",
                 ["properties"] =
                 {
@@ -15887,7 +16173,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT056 - Oz Imandra Bridge",
                 ["properties"] =
                 {
@@ -15931,7 +16217,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT055 - GES-12  Hydroelectric Dam",
                 ["properties"] =
                 {
@@ -15952,7 +16238,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT044 - Directorate of National Security and Intelligence secret facility",
                 ["properties"] =
                 {
@@ -15996,7 +16282,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT045 -  Poliarnie Zori Power Maintenance Depot",
                 ["properties"] =
                 {
@@ -16040,7 +16326,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT028 - Apatity Powerplant 1",
                 ["properties"] =
                 {
@@ -16084,7 +16370,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT029 - Apatity Powerplant 2",
                 ["properties"] =
                 {
@@ -16128,7 +16414,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT018 - Petchenga Research Facility",
                 ["properties"] =
                 {
@@ -16172,7 +16458,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT019 - Olenogersk Research Facility",
                 ["properties"] =
                 {
@@ -16216,7 +16502,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT054 - Murmashi Railway Bridge",
                 ["properties"] =
                 {
@@ -16237,7 +16523,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT049 - Murmansk Oil&Fuel Terminal",
                 ["properties"] =
                 {
@@ -16281,7 +16567,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT050 - Murmansk Oil&Fuel Storage",
                 ["properties"] =
                 {
@@ -16325,7 +16611,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT010 - Murmansk docks",
                 ["properties"] =
                 {
@@ -16369,7 +16655,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT011 - Notia Army HQ building",
                 ["properties"] =
                 {
@@ -16413,7 +16699,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT012 - National Party Headquarter",
                 ["properties"] =
                 {
@@ -16457,7 +16743,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT021 - Apatity Chemical Weapon production facility",
                 ["properties"] =
                 {
@@ -16501,7 +16787,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT023 - Ostrovnoy Naval HQ Building",
                 ["properties"] =
                 {
@@ -16545,7 +16831,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT024 - Ostrovnoy Munitions Factory",
                 ["properties"] =
                 {
@@ -16589,7 +16875,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT030 - Olenogorsk West Air Defense Academy",
                 ["properties"] =
                 {
@@ -16633,7 +16919,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT047 - Poliarnie Zori Railway Bridge",
                 ["properties"] =
                 {
@@ -16677,7 +16963,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT017 - Lovozero Laboratory",
                 ["properties"] =
                 {
@@ -16721,7 +17007,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT060 - Vaydaguba Radio Mast",
                 ["properties"] =
                 {
@@ -16742,7 +17028,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT048 - VaydaGuba Early Warning Station",
                 ["properties"] =
                 {
@@ -16786,7 +17072,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT053 - GES-13  Hydroelectric Dam",
                 ["properties"] =
                 {
@@ -16807,7 +17093,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT061 - Notian Army 2nd Corps HQ",
                 ["properties"] =
                 {
@@ -16851,7 +17137,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT068 - Notian Army 1st Corps HQ",
                 ["properties"] =
                 {
@@ -16895,7 +17181,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT069 - Notian Army 3rd Corps HQ",
                 ["properties"] =
                 {
@@ -16939,7 +17225,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT052 - Novyy Most Bridge",
                 ["properties"] =
                 {
@@ -16983,7 +17269,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT051 - Notia Naval Academy",
                 ["properties"] =
                 {
@@ -17027,7 +17313,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT022 - Ostrovnoy Navy Station",
                 ["properties"] =
                 {
@@ -17048,7 +17334,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT075 - Food Logistic Depot",
                 ["properties"] =
                 {
@@ -17069,7 +17355,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT076 - Fish Factory",
                 ["properties"] =
                 {
@@ -17113,7 +17399,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT077 - Shipyard",
                 ["properties"] =
                 {
@@ -17134,7 +17420,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT078 - Military Clothing supplier",
                 ["properties"] =
                 {
@@ -17178,7 +17464,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT079 - KOLA NUCLEAR PLANT",
                 ["properties"] =
                 {
@@ -17199,7 +17485,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT080 - Railway Distribution Node",
                 ["properties"] =
                 {
@@ -17243,7 +17529,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT081 -  National TV Studio",
                 ["properties"] =
                 {
@@ -17287,7 +17573,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT083 - BRIDGE",
                 ["properties"] =
                 {
@@ -17308,7 +17594,7 @@ mission =
                     [4] = 0.15,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "DRKTGT004 - Fuel and Gas Storage",
                 ["properties"] =
                 {
@@ -17329,7 +17615,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT082 - Shipyard Complex - Sukhoy Dok",
                 ["properties"] =
                 {
@@ -17373,7 +17659,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT084 - Main Metallurgy Plant",
                 ["properties"] =
                 {
@@ -17417,7 +17703,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT086 - KOLA BAY",
                 ["properties"] =
                 {
@@ -17438,7 +17724,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT087 - Tuloma Powerplant",
                 ["properties"] =
                 {
@@ -17482,7 +17768,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT088 - ARMY Fuel Storage",
                 ["properties"] =
                 {
@@ -17526,7 +17812,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT089 - SCUD Facility",
                 ["properties"] =
                 {
@@ -17547,7 +17833,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "DRKTGT005 - Railway Maintenance Depot",
                 ["properties"] =
                 {
@@ -17591,7 +17877,7 @@ mission =
                     [4] = 0.15,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "DRKTGT003 - 81st  Guards Armored Division (Strategic reserve)",
                 ["properties"] =
                 {
@@ -17612,7 +17898,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT090 - ARMY Vehicle Repair Center",
                 ["properties"] =
                 {
@@ -17656,7 +17942,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT091 - Kovdor Ammunition Factory",
                 ["properties"] =
                 {
@@ -17700,7 +17986,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT085 - Coal Powerplant 'Tets'",
                 ["properties"] =
                 {
@@ -17744,7 +18030,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT092 - Monchegorsk Rocket Factory",
                 ["properties"] =
                 {
@@ -17788,7 +18074,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT093 - Severomorsk Chemical Weapon Production Facility",
                 ["properties"] =
                 {
@@ -17832,7 +18118,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT094 - Apatity Chemical Weapon Handling facility",
                 ["properties"] =
                 {
@@ -17876,7 +18162,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT095 - Apatity Rocket Fuel Factory",
                 ["properties"] =
                 {
@@ -17920,7 +18206,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT096 -A: Rocket propellant for SCUDs",
                 ["properties"] =
                 {
@@ -17941,7 +18227,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT096 -B: Chemical precursor for WMD production",
                 ["properties"] =
                 {
@@ -17962,7 +18248,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT089 A: Rocket propellant storage",
                 ["properties"] =
                 {
@@ -18006,7 +18292,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT097 - Olenogorsk SAM factory",
                 ["properties"] =
                 {
@@ -18050,7 +18336,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT097 B:Production line 2",
                 ["properties"] =
                 {
@@ -18071,7 +18357,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT097 C:Production line 3",
                 ["properties"] =
                 {
@@ -18092,7 +18378,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT097 A:Production line 1",
                 ["properties"] =
                 {
@@ -18113,7 +18399,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT097 D: Power to all production lines",
                 ["properties"] =
                 {
@@ -18134,7 +18420,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT097 E:Administration",
                 ["properties"] =
                 {
@@ -18155,7 +18441,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT089 C: Repair facility",
                 ["properties"] =
                 {
@@ -18176,7 +18462,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT089 D: Storage Facility",
                 ["properties"] =
                 {
@@ -18197,7 +18483,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT089 B: Headquarter",
                 ["properties"] =
                 {
@@ -18218,7 +18504,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT098 - Poliarnie SAM factory",
                 ["properties"] =
                 {
@@ -18262,7 +18548,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT098 -A: Productionline 1",
                 ["properties"] =
                 {
@@ -18283,7 +18569,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT098 -B: Production line 2",
                 ["properties"] =
                 {
@@ -18304,7 +18590,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT099 - Poliarnie Ammuniction Factory",
                 ["properties"] =
                 {
@@ -18348,7 +18634,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT099 - A: Production hall 1",
                 ["properties"] =
                 {
@@ -18369,7 +18655,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT099 -B: Production hall 2",
                 ["properties"] =
                 {
@@ -18390,7 +18676,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT099 -C: Power to production halls",
                 ["properties"] =
                 {
@@ -18411,7 +18697,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT099 -D: Chemicals for production",
                 ["properties"] =
                 {
@@ -18432,7 +18718,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT099 -E: Chemicals for production",
                 ["properties"] =
                 {
@@ -18453,7 +18739,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT099 -F: Admin building",
                 ["properties"] =
                 {
@@ -18474,7 +18760,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT099 -G: Support to production",
                 ["properties"] =
                 {
@@ -18495,7 +18781,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT099 -H: Support to production",
                 ["properties"] =
                 {
@@ -18516,7 +18802,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT100: Severomorsk Ammunition Factory",
                 ["properties"] =
                 {
@@ -18560,7 +18846,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT100 - A: Bomb factory",
                 ["properties"] =
                 {
@@ -18581,7 +18867,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT100 -B: Rocket factory",
                 ["properties"] =
                 {
@@ -18625,7 +18911,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT100 -C: Artillery shell factory",
                 ["properties"] =
                 {
@@ -18646,7 +18932,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT100 -D: Chemicals needed for production",
                 ["properties"] =
                 {
@@ -18667,7 +18953,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT100 -E: Chemicals needed for production",
                 ["properties"] =
                 {
@@ -18711,7 +18997,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT100 -F:Chemicals needed for production",
                 ["properties"] =
                 {
@@ -18732,7 +19018,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT100 -G: Power for factories",
                 ["properties"] =
                 {
@@ -18753,7 +19039,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT101: Severomorsk SAM Factory",
                 ["properties"] =
                 {
@@ -18797,7 +19083,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT101 -A: Radar production facility",
                 ["properties"] =
                 {
@@ -18818,7 +19104,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT101 -D: SA-10 launcher production facility",
                 ["properties"] =
                 {
@@ -18839,7 +19125,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT101 -E: SA-10 launcher production facility",
                 ["properties"] =
                 {
@@ -18860,7 +19146,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT101 -F: SA-10 launcher production facility",
                 ["properties"] =
                 {
@@ -18881,7 +19167,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT101 -C: C2 production facility",
                 ["properties"] =
                 {
@@ -18902,7 +19188,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT101 -B: Radar production facility",
                 ["properties"] =
                 {
@@ -18923,7 +19209,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT101 -G: Power for all production facilities",
                 ["properties"] =
                 {
@@ -18944,7 +19230,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT101 -J: Admin and HQ building",
                 ["properties"] =
                 {
@@ -18965,7 +19251,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT101 -I: Chemicals for production",
                 ["properties"] =
                 {
@@ -18986,7 +19272,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT101 -H: Chemicals for production",
                 ["properties"] =
                 {
@@ -19007,7 +19293,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT091 -A:",
                 ["properties"] =
                 {
@@ -19028,7 +19314,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT091 -B:",
                 ["properties"] =
                 {
@@ -19049,7 +19335,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT091 -C:",
                 ["properties"] =
                 {
@@ -19070,7 +19356,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT091 -D:",
                 ["properties"] =
                 {
@@ -19091,7 +19377,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT091 -E:",
                 ["properties"] =
                 {
@@ -19112,7 +19398,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT091 -F:",
                 ["properties"] =
                 {
@@ -19133,7 +19419,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT091 -G:",
                 ["properties"] =
                 {
@@ -19154,7 +19440,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT021 -A: Output Chemicals for chemical weapon program",
                 ["properties"] =
                 {
@@ -19175,7 +19461,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT021 -B: Raw chemicals",
                 ["properties"] =
                 {
@@ -19196,7 +19482,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT021 -C: Output chemicals for ammunition production",
                 ["properties"] =
                 {
@@ -19217,7 +19503,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT021 -E: Processing plant",
                 ["properties"] =
                 {
@@ -19238,7 +19524,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT021 -D: Processing plant",
                 ["properties"] =
                 {
@@ -19259,7 +19545,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT020 - Olenogorsk Ammunition Factory",
                 ["properties"] =
                 {
@@ -19303,7 +19589,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT020 -A: Bomb production facility",
                 ["properties"] =
                 {
@@ -19324,7 +19610,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT020 -B: Missile production facility",
                 ["properties"] =
                 {
@@ -19345,7 +19631,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT020 -D: Chemicals for missile production",
                 ["properties"] =
                 {
@@ -19366,7 +19652,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT020 -E: Power to production facilities",
                 ["properties"] =
                 {
@@ -19387,7 +19673,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT020 -C: Chemicals for bomb production",
                 ["properties"] =
                 {
@@ -19408,7 +19694,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT092 -B: Rocket production facility 2",
                 ["properties"] =
                 {
@@ -19429,7 +19715,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT092 -C: Power to production facilities",
                 ["properties"] =
                 {
@@ -19450,7 +19736,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT092 -D: Chemicals to production facility",
                 ["properties"] =
                 {
@@ -19471,7 +19757,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT092 -E: Chemicals to production facility",
                 ["properties"] =
                 {
@@ -19492,7 +19778,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT092 -A: Rocket production facility 1",
                 ["properties"] =
                 {
@@ -19513,7 +19799,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT102 - Olenogorsk West Missile Factory",
                 ["properties"] =
                 {
@@ -19557,7 +19843,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT102 -A: Missile production facility",
                 ["properties"] =
                 {
@@ -19578,7 +19864,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT102 -B: Missile production facility",
                 ["properties"] =
                 {
@@ -19599,7 +19885,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT102 -C: Power for production facility",
                 ["properties"] =
                 {
@@ -19620,7 +19906,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT102 -D: Chemicals for missile production",
                 ["properties"] =
                 {
@@ -19641,7 +19927,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT102 -E: Chemicals for missile production",
                 ["properties"] =
                 {
@@ -19662,7 +19948,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "Chemicals",
                 ["properties"] =
                 {
@@ -19683,7 +19969,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT103 - Murmashi Bomb Factory",
                 ["properties"] =
                 {
@@ -19727,7 +20013,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT103 -A: Bomb production facility",
                 ["properties"] =
                 {
@@ -19748,7 +20034,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT103 -B: Bomb production facility",
                 ["properties"] =
                 {
@@ -19769,7 +20055,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT103 -C: Chemicals for bombs",
                 ["properties"] =
                 {
@@ -19790,7 +20076,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT103 -D: Chemicals for bombs",
                 ["properties"] =
                 {
@@ -19811,7 +20097,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT104 - War Cabinet Building",
                 ["properties"] =
                 {
@@ -19855,7 +20141,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT105 - HQ Supreme High Command",
                 ["properties"] =
                 {
@@ -19899,7 +20185,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT106 - General Staff Building",
                 ["properties"] =
                 {
@@ -19943,7 +20229,7 @@ mission =
                     [4] = 0.15,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "@Bomb",
                 ["properties"] =
                 {
@@ -19964,7 +20250,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT011 -A: Building 1: Current operations",
                 ["properties"] =
                 {
@@ -19985,7 +20271,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT011 -B: Building 2: Long term plans",
                 ["properties"] =
                 {
@@ -20006,7 +20292,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT013 - Ministry of Foreign Affairs",
                 ["properties"] =
                 {
@@ -20050,7 +20336,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT014 - Ministry of Internal Affairs",
                 ["properties"] =
                 {
@@ -20094,7 +20380,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT013 -A: Handles DUSS alliance",
                 ["properties"] =
                 {
@@ -20115,7 +20401,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT013 -B; Handles other external relations",
                 ["properties"] =
                 {
@@ -20136,7 +20422,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT012 -A: President residence",
                 ["properties"] =
                 {
@@ -20157,7 +20443,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT012 -B: Administration",
                 ["properties"] =
                 {
@@ -20178,7 +20464,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT095 -A:",
                 ["properties"] =
                 {
@@ -20199,7 +20485,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT095 -E:  Rocket fuel (output)",
                 ["properties"] =
                 {
@@ -20220,7 +20506,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT095 -2",
                 ["properties"] =
                 {
@@ -20241,7 +20527,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT095 -D: Rocket fuel (output)",
                 ["properties"] =
                 {
@@ -20262,7 +20548,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT095 -B: Production facility",
                 ["properties"] =
                 {
@@ -20283,7 +20569,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT095 -C: Power to production facility",
                 ["properties"] =
                 {
@@ -20304,7 +20590,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT095 -G: Chemicals (input)",
                 ["properties"] =
                 {
@@ -20325,7 +20611,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT095 -F: Administration Building",
                 ["properties"] =
                 {
@@ -20346,7 +20632,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT095 -H: Chemicals (Input)",
                 ["properties"] =
                 {
@@ -20367,7 +20653,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT095 -I: Chemicals (input)",
                 ["properties"] =
                 {
@@ -20388,7 +20674,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT095 -J: Chemicals (input)",
                 ["properties"] =
                 {
@@ -20409,7 +20695,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT095 -A: Production facility",
                 ["properties"] =
                 {
@@ -20430,7 +20716,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT094 -B: Chemical Weapon warhead storage",
                 ["properties"] =
                 {
@@ -20451,7 +20737,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT094 -G: Chemicals (input)",
                 ["properties"] =
                 {
@@ -20472,7 +20758,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT094 -D: Chemicals (input)",
                 ["properties"] =
                 {
@@ -20493,7 +20779,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT094 -C: Chemicals (input)",
                 ["properties"] =
                 {
@@ -20514,7 +20800,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT094 -A: Chemical Weapon handling facility",
                 ["properties"] =
                 {
@@ -20535,7 +20821,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT094 -E: Researcher living quarters",
                 ["properties"] =
                 {
@@ -20556,7 +20842,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT094 -F: Test and research building",
                 ["properties"] =
                 {
@@ -20577,7 +20863,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT071 -A: Production facility",
                 ["properties"] =
                 {
@@ -20598,7 +20884,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT071 -B: Power for production hall",
                 ["properties"] =
                 {
@@ -20619,7 +20905,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT071 -C: Backup power",
                 ["properties"] =
                 {
@@ -20640,7 +20926,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT071 -D: Fuel",
                 ["properties"] =
                 {
@@ -20661,7 +20947,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT072 -C: Power to production facility",
                 ["properties"] =
                 {
@@ -20682,7 +20968,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT072 -D: Backup power",
                 ["properties"] =
                 {
@@ -20703,7 +20989,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT072 -E: Fuel ",
                 ["properties"] =
                 {
@@ -20724,7 +21010,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT072 -A: Production facility",
                 ["properties"] =
                 {
@@ -20745,7 +21031,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT072 -B: Production facility",
                 ["properties"] =
                 {
@@ -20766,7 +21052,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT073  -A: Production facility",
                 ["properties"] =
                 {
@@ -20787,7 +21073,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT073  -C: Power to production facility",
                 ["properties"] =
                 {
@@ -20808,7 +21094,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT073  D: Research and Development",
                 ["properties"] =
                 {
@@ -20829,7 +21115,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT073  -B: Storage of finished products",
                 ["properties"] =
                 {
@@ -20850,7 +21136,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT073  E: Testing building",
                 ["properties"] =
                 {
@@ -20871,7 +21157,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT016 - Kovdor research facility",
                 ["properties"] =
                 {
@@ -20915,7 +21201,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT016 -A: Laboratory 1",
                 ["properties"] =
                 {
@@ -20936,7 +21222,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT016 -F: Test facility",
                 ["properties"] =
                 {
@@ -20957,7 +21243,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT016 -D: Laboratory 2",
                 ["properties"] =
                 {
@@ -20978,7 +21264,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT016 -D: Power to laboratory 2",
                 ["properties"] =
                 {
@@ -20999,7 +21285,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT016 -C: Power to laboratory 1",
                 ["properties"] =
                 {
@@ -21020,7 +21306,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT016 -E: Fuel for power",
                 ["properties"] =
                 {
@@ -21041,7 +21327,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT016 -G: Chemical storage",
                 ["properties"] =
                 {
@@ -21062,7 +21348,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT017 -B: External power to Uranian Enrichment program",
                 ["properties"] =
                 {
@@ -21083,7 +21369,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT017 -A: Underground Uranian Enrichment program",
                 ["properties"] =
                 {
@@ -21104,7 +21390,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT015 - Olenogorsk Uranium Enrichment Facility",
                 ["properties"] =
                 {
@@ -21148,7 +21434,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT015 -A: Centrifuge hall 1",
                 ["properties"] =
                 {
@@ -21169,7 +21455,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT015 -B: Centrifuge hall 2",
                 ["properties"] =
                 {
@@ -21190,7 +21476,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT015 -C: Power to Centrifuge hall 1",
                 ["properties"] =
                 {
@@ -21211,7 +21497,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT015 -D: Power to centrifuge hall 2",
                 ["properties"] =
                 {
@@ -21232,7 +21518,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT015 -E: Research facility",
                 ["properties"] =
                 {
@@ -21253,7 +21539,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT019 -B: Testing hall",
                 ["properties"] =
                 {
@@ -21274,7 +21560,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT019 -C:Testing hall",
                 ["properties"] =
                 {
@@ -21295,7 +21581,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT019 -D: Testing hall",
                 ["properties"] =
                 {
@@ -21316,7 +21602,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT019 -E: Testing hall",
                 ["properties"] =
                 {
@@ -21337,7 +21623,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT019 -F: Testing hall",
                 ["properties"] =
                 {
@@ -21358,7 +21644,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT019 -G: Testing hall",
                 ["properties"] =
                 {
@@ -21379,7 +21665,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT019 -A: Main laboratory",
                 ["properties"] =
                 {
@@ -21400,7 +21686,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT018 -C: Power to Research facility",
                 ["properties"] =
                 {
@@ -21421,7 +21707,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT018 -A: Main research facility",
                 ["properties"] =
                 {
@@ -21442,7 +21728,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT018 -B: Testing hall",
                 ["properties"] =
                 {
@@ -21463,7 +21749,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT018 -D: Secondary research facility",
                 ["properties"] =
                 {
@@ -21484,7 +21770,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT018 -E: Secondary research facility",
                 ["properties"] =
                 {
@@ -21505,7 +21791,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT018 -F: Chemicals needed for research",
                 ["properties"] =
                 {
@@ -21526,7 +21812,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT018 -G: Fuel for power",
                 ["properties"] =
                 {
@@ -21547,7 +21833,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT093 -B: Production Facility",
                 ["properties"] =
                 {
@@ -21568,7 +21854,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT093 -A: Production Facility",
                 ["properties"] =
                 {
@@ -21589,7 +21875,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT093 -E: Chemicals needed for production (input)",
                 ["properties"] =
                 {
@@ -21610,7 +21896,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT093 -M: Storage",
                 ["properties"] =
                 {
@@ -21631,7 +21917,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT093 -N: Research facility",
                 ["properties"] =
                 {
@@ -21652,7 +21938,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT093 -J: Chemical Weapon storage",
                 ["properties"] =
                 {
@@ -21673,7 +21959,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT093 -K: Chemical Weapon storage",
                 ["properties"] =
                 {
@@ -21694,7 +21980,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT093 -H: Chemicals needed for production (input)",
                 ["properties"] =
                 {
@@ -21715,7 +22001,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT093 -I: Chemicals needed for production (input)",
                 ["properties"] =
                 {
@@ -21736,7 +22022,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT093 -F: Chemicals needed for production (input)",
                 ["properties"] =
                 {
@@ -21757,7 +22043,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT093 -G: Chemicals needed for production (input)",
                 ["properties"] =
                 {
@@ -21778,7 +22064,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT093 -C: Power to production facilities",
                 ["properties"] =
                 {
@@ -21799,7 +22085,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT093 -L:  storage",
                 ["properties"] =
                 {
@@ -21820,7 +22106,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT093 -D: Fuel for power production",
                 ["properties"] =
                 {
@@ -21841,7 +22127,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT030 -A: School building 1",
                 ["properties"] =
                 {
@@ -21862,7 +22148,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT030 -B: School building 2",
                 ["properties"] =
                 {
@@ -21883,7 +22169,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT028 -A: Fuel for powerplant",
                 ["properties"] =
                 {
@@ -21904,7 +22190,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT028 -B: Fuel for powerplant",
                 ["properties"] =
                 {
@@ -21925,7 +22211,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT029 -A: Fuel for powerplant",
                 ["properties"] =
                 {
@@ -21946,7 +22232,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT029 -B: Fuel for powerplant",
                 ["properties"] =
                 {
@@ -21967,7 +22253,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT090 -A: Repair facility",
                 ["properties"] =
                 {
@@ -21988,7 +22274,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT090 -B: Repair facility",
                 ["properties"] =
                 {
@@ -22009,7 +22295,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT090 -C: Repair facility",
                 ["properties"] =
                 {
@@ -22030,7 +22316,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT090 -H: Workshop",
                 ["properties"] =
                 {
@@ -22051,7 +22337,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT090 -F: Workshop",
                 ["properties"] =
                 {
@@ -22072,7 +22358,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT090 -E: Workshop",
                 ["properties"] =
                 {
@@ -22093,7 +22379,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT090 -G: Power (generators) for repair center",
                 ["properties"] =
                 {
@@ -22114,7 +22400,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT090 -D: Workshop",
                 ["properties"] =
                 {
@@ -22135,7 +22421,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT088 -B: Fuel storage",
                 ["properties"] =
                 {
@@ -22156,7 +22442,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT088 -A: Fuel storage",
                 ["properties"] =
                 {
@@ -22177,7 +22463,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT088 -C: Fuel storage",
                 ["properties"] =
                 {
@@ -22198,7 +22484,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT088 -D: Fuel storage",
                 ["properties"] =
                 {
@@ -22219,7 +22505,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT087 -A: Fuel for powerplant",
                 ["properties"] =
                 {
@@ -22240,7 +22526,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT087 -B: Fuel for powerplant",
                 ["properties"] =
                 {
@@ -22261,7 +22547,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT087 -D: Workshop",
                 ["properties"] =
                 {
@@ -22282,7 +22568,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT087 -C: Generator",
                 ["properties"] =
                 {
@@ -22303,7 +22589,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT087 -E: Gas for the powerplant",
                 ["properties"] =
                 {
@@ -22324,7 +22610,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT087 -F: Gas for the powerplant",
                 ["properties"] =
                 {
@@ -22345,7 +22631,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT085 -D: Gas for powerplant",
                 ["properties"] =
                 {
@@ -22366,7 +22652,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT085 -2",
                 ["properties"] =
                 {
@@ -22387,7 +22673,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT085 -A: Fuel for powerplant",
                 ["properties"] =
                 {
@@ -22408,7 +22694,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT085 -B: Fuel for powerplant",
                 ["properties"] =
                 {
@@ -22429,7 +22715,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT085 -C: Generators",
                 ["properties"] =
                 {
@@ -22450,7 +22736,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT085 -E: Gas for powerplant",
                 ["properties"] =
                 {
@@ -22471,7 +22757,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT084 -E: Fuel for powerplant",
                 ["properties"] =
                 {
@@ -22492,7 +22778,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT084 -F; Fuel for powerplant",
                 ["properties"] =
                 {
@@ -22513,7 +22799,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT084 -C: Gas for production",
                 ["properties"] =
                 {
@@ -22534,7 +22820,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT084 -D: Gas for production",
                 ["properties"] =
                 {
@@ -22555,7 +22841,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT084 -A: Main factory hall",
                 ["properties"] =
                 {
@@ -22576,7 +22862,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT084 -B: Secondary factory hall",
                 ["properties"] =
                 {
@@ -22597,7 +22883,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT084 -H: Tertiary factory hall",
                 ["properties"] =
                 {
@@ -22618,7 +22904,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT084 -I: Generators",
                 ["properties"] =
                 {
@@ -22639,7 +22925,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT084 -G: Workshop",
                 ["properties"] =
                 {
@@ -22660,7 +22946,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT084 -J: Research and development building",
                 ["properties"] =
                 {
@@ -22681,7 +22967,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT001 -D: Ammunition storage",
                 ["properties"] =
                 {
@@ -22702,7 +22988,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT001 -E: Fuel Storage",
                 ["properties"] =
                 {
@@ -22723,7 +23009,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT001 -F: Fuel Storage",
                 ["properties"] =
                 {
@@ -22744,7 +23030,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT001 -C: Runway WEST",
                 ["properties"] =
                 {
@@ -22765,7 +23051,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT001 -B: Runway Center",
                 ["properties"] =
                 {
@@ -22786,7 +23072,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT001 -A: Runway EAST",
                 ["properties"] =
                 {
@@ -22807,7 +23093,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT003 -1",
                 ["properties"] =
                 {
@@ -22828,7 +23114,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT003 -2",
                 ["properties"] =
                 {
@@ -22849,7 +23135,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT003 -A: Ammo storage",
                 ["properties"] =
                 {
@@ -22870,7 +23156,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT003 -B: Fuel storage",
                 ["properties"] =
                 {
@@ -22891,7 +23177,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT003 -C: Ammo storage",
                 ["properties"] =
                 {
@@ -22912,7 +23198,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT003 -D: Ammo storage",
                 ["properties"] =
                 {
@@ -22933,7 +23219,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT003 -G: Fuel storage",
                 ["properties"] =
                 {
@@ -22954,7 +23240,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT003 -E: Fuel storage",
                 ["properties"] =
                 {
@@ -22975,7 +23261,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT003 -F: Fuel storage",
                 ["properties"] =
                 {
@@ -22996,7 +23282,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT003 -J: Runwat WEST",
                 ["properties"] =
                 {
@@ -23017,7 +23303,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT003 -I: Runway CENTER",
                 ["properties"] =
                 {
@@ -23038,7 +23324,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT003 -H: Runway EAST",
                 ["properties"] =
                 {
@@ -23059,7 +23345,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT004 -D: Fuel storage",
                 ["properties"] =
                 {
@@ -23080,7 +23366,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT004 -E: Fuel storage",
                 ["properties"] =
                 {
@@ -23101,7 +23387,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT004 -G: Fuel storage",
                 ["properties"] =
                 {
@@ -23122,7 +23408,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT004 -F: Fuel storage",
                 ["properties"] =
                 {
@@ -23143,7 +23429,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT004 -I: Fuel storage",
                 ["properties"] =
                 {
@@ -23164,7 +23450,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT004 -H: Fuel storage",
                 ["properties"] =
                 {
@@ -23185,7 +23471,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT004 -J: Ammo storage",
                 ["properties"] =
                 {
@@ -23206,7 +23492,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT004 -K: Ammo storage",
                 ["properties"] =
                 {
@@ -23227,7 +23513,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT004 -L: Ammo storage",
                 ["properties"] =
                 {
@@ -23248,7 +23534,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT004 -M: Ammo storage",
                 ["properties"] =
                 {
@@ -23269,7 +23555,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT004 -N: Ammo storage",
                 ["properties"] =
                 {
@@ -23290,7 +23576,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT004 -C: Runway SOUTH",
                 ["properties"] =
                 {
@@ -23311,7 +23597,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT004 -A: Runway NORTH",
                 ["properties"] =
                 {
@@ -23332,7 +23618,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT004 -B: Runway CENTER",
                 ["properties"] =
                 {
@@ -23353,7 +23639,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT005 -C: Runway SOUTH",
                 ["properties"] =
                 {
@@ -23374,7 +23660,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT005 -A: Runway NORTH",
                 ["properties"] =
                 {
@@ -23395,7 +23681,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT005 -B: Runway CENTER",
                 ["properties"] =
                 {
@@ -23416,7 +23702,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT005 -L: Ammo storage",
                 ["properties"] =
                 {
@@ -23437,7 +23723,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT005 -M: Fuel storage",
                 ["properties"] =
                 {
@@ -23458,7 +23744,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT005 -K: Ammo storage",
                 ["properties"] =
                 {
@@ -23479,7 +23765,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT005 -N Fuel storage",
                 ["properties"] =
                 {
@@ -23500,7 +23786,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT005 -G: Ammo storage",
                 ["properties"] =
                 {
@@ -23521,7 +23807,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT005 -F: Ammo storage",
                 ["properties"] =
                 {
@@ -23542,7 +23828,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT005 -D: Ammo storage",
                 ["properties"] =
                 {
@@ -23563,7 +23849,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT005 -P: Fuel storage",
                 ["properties"] =
                 {
@@ -23584,7 +23870,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT005 -O: Fuel storage",
                 ["properties"] =
                 {
@@ -23605,7 +23891,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT005 -Q: Fuel storage",
                 ["properties"] =
                 {
@@ -23626,7 +23912,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT005 -R: Fuel storage",
                 ["properties"] =
                 {
@@ -23647,7 +23933,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT005 -S: Fuel storage",
                 ["properties"] =
                 {
@@ -23668,7 +23954,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT005 -T: Fuel storage",
                 ["properties"] =
                 {
@@ -23689,7 +23975,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT005 -U: Fuel storage",
                 ["properties"] =
                 {
@@ -23710,7 +23996,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT005 -V: Fuel storage",
                 ["properties"] =
                 {
@@ -23731,7 +24017,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT005 -J: Ammo storage",
                 ["properties"] =
                 {
@@ -23752,7 +24038,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT005 -I: Ammo storage",
                 ["properties"] =
                 {
@@ -23773,7 +24059,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT005 -H: Ammo storage",
                 ["properties"] =
                 {
@@ -23794,7 +24080,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT005 -E: Ammo storage",
                 ["properties"] =
                 {
@@ -23815,7 +24101,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT002 -A: Runway NORTH",
                 ["properties"] =
                 {
@@ -23836,7 +24122,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT002 -B: Runway Center",
                 ["properties"] =
                 {
@@ -23857,7 +24143,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT002 -C: Runway SOUTH",
                 ["properties"] =
                 {
@@ -23878,7 +24164,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT002 -E:  Fuel storage",
                 ["properties"] =
                 {
@@ -23899,7 +24185,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT002 -D: Fuel storage",
                 ["properties"] =
                 {
@@ -23920,7 +24206,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT002 -F:  Fuel storage",
                 ["properties"] =
                 {
@@ -23941,7 +24227,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT002 -G:  Fuel storage",
                 ["properties"] =
                 {
@@ -23962,7 +24248,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT002 -H:  Fuel storage",
                 ["properties"] =
                 {
@@ -23983,7 +24269,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT002 -I: Ammo storage",
                 ["properties"] =
                 {
@@ -24004,7 +24290,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT002 -M: Ammo storage",
                 ["properties"] =
                 {
@@ -24025,7 +24311,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT002 -N:Ammo storage",
                 ["properties"] =
                 {
@@ -24046,7 +24332,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT002 -L: Ammo storage",
                 ["properties"] =
                 {
@@ -24067,7 +24353,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT002 -K: Ammo storage",
                 ["properties"] =
                 {
@@ -24088,7 +24374,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT002 -J: Ammo storage",
                 ["properties"] =
                 {
@@ -24109,7 +24395,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT008 - Olenya Guba dock",
                 ["properties"] =
                 {
@@ -24130,7 +24416,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT009 - Polyarny Naval Base",
                 ["properties"] =
                 {
@@ -24151,7 +24437,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT010 -A: Container crane",
                 ["properties"] =
                 {
@@ -24172,7 +24458,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT010 -B: Container Crane",
                 ["properties"] =
                 {
@@ -24193,7 +24479,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT010 -C: Railwayconnection",
                 ["properties"] =
                 {
@@ -24214,7 +24500,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT010 -E: Railway connection",
                 ["properties"] =
                 {
@@ -24235,7 +24521,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT010 -D: Railway connection",
                 ["properties"] =
                 {
@@ -24256,7 +24542,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT024 -A: Production facility",
                 ["properties"] =
                 {
@@ -24277,7 +24563,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT024 -B: Production facility",
                 ["properties"] =
                 {
@@ -24298,7 +24584,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT024 -C: Power for production facilities (generators)",
                 ["properties"] =
                 {
@@ -24319,7 +24605,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT024 -D: Research and development building",
                 ["properties"] =
                 {
@@ -24340,7 +24626,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT024 -E: Chemicals for production",
                 ["properties"] =
                 {
@@ -24361,7 +24647,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT024 -F: Chemicals for production",
                 ["properties"] =
                 {
@@ -24382,7 +24668,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT026 -1",
                 ["properties"] =
                 {
@@ -24403,7 +24689,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT026 -2",
                 ["properties"] =
                 {
@@ -24424,7 +24710,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT026 -3",
                 ["properties"] =
                 {
@@ -24445,7 +24731,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT026 -4",
                 ["properties"] =
                 {
@@ -24466,7 +24752,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT025 -A: Command Center bunker",
                 ["properties"] =
                 {
@@ -24487,7 +24773,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT027 -A: Entrance to underground facility",
                 ["properties"] =
                 {
@@ -24508,7 +24794,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT027 -B: Entrance to underground facility",
                 ["properties"] =
                 {
@@ -24529,7 +24815,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT044 -B: Communications building",
                 ["properties"] =
                 {
@@ -24550,7 +24836,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT044 -A: Main office building",
                 ["properties"] =
                 {
@@ -24571,7 +24857,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT044 -C: Prison",
                 ["properties"] =
                 {
@@ -24592,7 +24878,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT044 -H: Living Quarters",
                 ["properties"] =
                 {
@@ -24613,7 +24899,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT044 -F: Living quarters",
                 ["properties"] =
                 {
@@ -24634,7 +24920,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT044 -E: Living quarters",
                 ["properties"] =
                 {
@@ -24655,7 +24941,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT044 -D: Storage facility",
                 ["properties"] =
                 {
@@ -24676,7 +24962,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT045 -B: Maintenance facility 1",
                 ["properties"] =
                 {
@@ -24697,7 +24983,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT045 -A: Maintenance facility 1",
                 ["properties"] =
                 {
@@ -24718,7 +25004,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT046 -E: Power for production (generators)",
                 ["properties"] =
                 {
@@ -24739,7 +25025,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT046 -A: Main production facility",
                 ["properties"] =
                 {
@@ -24760,7 +25046,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT046 -B: Secondary production facility ",
                 ["properties"] =
                 {
@@ -24781,7 +25067,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT046 -F: Oxygen for steel production",
                 ["properties"] =
                 {
@@ -24802,7 +25088,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT046 -C: Tertiary production facility",
                 ["properties"] =
                 {
@@ -24823,7 +25109,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT046 -D: Tertiary production facility",
                 ["properties"] =
                 {
@@ -24844,7 +25130,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT046 -G: Oxygen for production",
                 ["properties"] =
                 {
@@ -24865,7 +25151,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT048 -F: Radar",
                 ["properties"] =
                 {
@@ -24886,7 +25172,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT048 -E: Radar",
                 ["properties"] =
                 {
@@ -24907,7 +25193,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT048 -D: Radar",
                 ["properties"] =
                 {
@@ -24928,7 +25214,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT048 -C: Radar",
                 ["properties"] =
                 {
@@ -24949,7 +25235,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT048 -B: Radio Tower",
                 ["properties"] =
                 {
@@ -24970,7 +25256,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT048 -A: Command Post (basement)",
                 ["properties"] =
                 {
@@ -24991,7 +25277,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT049 -A: Oil storage",
                 ["properties"] =
                 {
@@ -25012,7 +25298,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT049 -E: Oil storage",
                 ["properties"] =
                 {
@@ -25033,7 +25319,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT049 -D: Oil storage",
                 ["properties"] =
                 {
@@ -25054,7 +25340,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT049 -C: Oil storage",
                 ["properties"] =
                 {
@@ -25075,7 +25361,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT049 -B: Oil storage",
                 ["properties"] =
                 {
@@ -25096,7 +25382,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT049 -F: Fuel storage",
                 ["properties"] =
                 {
@@ -25117,7 +25403,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT049 -I: Fuel storage",
                 ["properties"] =
                 {
@@ -25138,7 +25424,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT049 -H: Fuel storage",
                 ["properties"] =
                 {
@@ -25159,7 +25445,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT049 -G: Fuel storage",
                 ["properties"] =
                 {
@@ -25180,7 +25466,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT049 -J: Fuel storage",
                 ["properties"] =
                 {
@@ -25201,7 +25487,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT049 -K: Fuel storage",
                 ["properties"] =
                 {
@@ -25222,7 +25508,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT049 -L: Fuel storage",
                 ["properties"] =
                 {
@@ -25243,7 +25529,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT049 -N: Fuel storage",
                 ["properties"] =
                 {
@@ -25264,7 +25550,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT049 -M: Fuel storage",
                 ["properties"] =
                 {
@@ -25285,7 +25571,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT050 -A: Oil storage",
                 ["properties"] =
                 {
@@ -25306,7 +25592,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT050 -B: Oil storage",
                 ["properties"] =
                 {
@@ -25327,7 +25613,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT050 -C: Oil storage",
                 ["properties"] =
                 {
@@ -25348,7 +25634,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT050 -D. Oil storage",
                 ["properties"] =
                 {
@@ -25369,7 +25655,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT050 -M: Fuel storage",
                 ["properties"] =
                 {
@@ -25390,7 +25676,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT050 -L: Fuel storage",
                 ["properties"] =
                 {
@@ -25411,7 +25697,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT050 -K: Fuel storage",
                 ["properties"] =
                 {
@@ -25432,7 +25718,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT050 -J: Fuel storage",
                 ["properties"] =
                 {
@@ -25453,7 +25739,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT050 -I: Fuel storage",
                 ["properties"] =
                 {
@@ -25474,7 +25760,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT050 -H: Oil storage",
                 ["properties"] =
                 {
@@ -25495,7 +25781,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT050 -G. Oil storage",
                 ["properties"] =
                 {
@@ -25516,7 +25802,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT050 -F. Oil storage",
                 ["properties"] =
                 {
@@ -25537,7 +25823,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT050 -E: Oil storage",
                 ["properties"] =
                 {
@@ -25558,7 +25844,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT051 -A: School Building 1",
                 ["properties"] =
                 {
@@ -25579,7 +25865,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT051 -B: School building 2",
                 ["properties"] =
                 {
@@ -25600,7 +25886,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT051 -C: Communications Building",
                 ["properties"] =
                 {
@@ -25621,7 +25907,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT051 D: Research department",
                 ["properties"] =
                 {
@@ -25642,7 +25928,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT057 -A: Production facility",
                 ["properties"] =
                 {
@@ -25663,7 +25949,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT057 -B: Production facility",
                 ["properties"] =
                 {
@@ -25684,7 +25970,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT057 -C: Production facility",
                 ["properties"] =
                 {
@@ -25705,7 +25991,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT057 -D: Production facility",
                 ["properties"] =
                 {
@@ -25726,7 +26012,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT057 -E: Production facility",
                 ["properties"] =
                 {
@@ -25747,7 +26033,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT057 -F: Power to production facilities (generators)",
                 ["properties"] =
                 {
@@ -25768,7 +26054,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT057 -G: Power to production facilities (generators)",
                 ["properties"] =
                 {
@@ -25789,7 +26075,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT057 -H: Power to production facilities (generators)",
                 ["properties"] =
                 {
@@ -25810,7 +26096,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT059 -B: PRoduction facility",
                 ["properties"] =
                 {
@@ -25831,7 +26117,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT059 -A: Production facility",
                 ["properties"] =
                 {
@@ -25852,7 +26138,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT059 -C: Necessary chemicals for production",
                 ["properties"] =
                 {
@@ -25873,7 +26159,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT059 -D: Power generator building",
                 ["properties"] =
                 {
@@ -25894,7 +26180,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT059 -E: Fuel for generators",
                 ["properties"] =
                 {
@@ -25915,7 +26201,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT061 -A: Leadership building",
                 ["properties"] =
                 {
@@ -25936,7 +26222,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT061 -B: Current operations",
                 ["properties"] =
                 {
@@ -25957,7 +26243,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT068 -A: Leadership building",
                 ["properties"] =
                 {
@@ -25978,7 +26264,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT068 -B: Current operations",
                 ["properties"] =
                 {
@@ -25999,7 +26285,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT069 -A: Leadership building",
                 ["properties"] =
                 {
@@ -26020,7 +26306,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT069 -B: Current operations building",
                 ["properties"] =
                 {
@@ -26041,7 +26327,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT070  -A: Leadership building",
                 ["properties"] =
                 {
@@ -26062,7 +26348,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT070  -B: Current operations building",
                 ["properties"] =
                 {
@@ -26083,7 +26369,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT070  -C: Radio Tower",
                 ["properties"] =
                 {
@@ -26104,7 +26390,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT074 -C: Production facility",
                 ["properties"] =
                 {
@@ -26125,7 +26411,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT074 -B: production facility",
                 ["properties"] =
                 {
@@ -26146,7 +26432,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT074 -D: production facility",
                 ["properties"] =
                 {
@@ -26167,7 +26453,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT074 -A: production facility",
                 ["properties"] =
                 {
@@ -26188,7 +26474,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT074 -E: Power to production facilities (generators)",
                 ["properties"] =
                 {
@@ -26209,7 +26495,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT074 -F: Fuel to generators",
                 ["properties"] =
                 {
@@ -26230,7 +26516,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT074 -G: Fuel to generators",
                 ["properties"] =
                 {
@@ -26251,7 +26537,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT076 -B: Production Hall",
                 ["properties"] =
                 {
@@ -26272,7 +26558,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT076 -E: Power to production halls (generators)",
                 ["properties"] =
                 {
@@ -26293,7 +26579,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT076 -D: Production hall",
                 ["properties"] =
                 {
@@ -26314,7 +26600,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT076 -C: Production hall",
                 ["properties"] =
                 {
@@ -26335,7 +26621,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT076 -G: Chemicals for food production",
                 ["properties"] =
                 {
@@ -26356,7 +26642,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT076 -A: Production fall",
                 ["properties"] =
                 {
@@ -26377,7 +26663,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT076 -F: Fuel to generators",
                 ["properties"] =
                 {
@@ -26398,7 +26684,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT081 -TV channel 2",
                 ["properties"] =
                 {
@@ -26419,7 +26705,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT081 -A: TV channel 1",
                 ["properties"] =
                 {
@@ -26440,7 +26726,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT080 -A: Railway junction",
                 ["properties"] =
                 {
@@ -26461,7 +26747,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT080 -B: Railway Junction",
                 ["properties"] =
                 {
@@ -26482,7 +26768,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT078 -A: Factory 1",
                 ["properties"] =
                 {
@@ -26503,7 +26789,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT078 -B: Factory 2",
                 ["properties"] =
                 {
@@ -26524,7 +26810,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT110 - SCC South",
                 ["properties"] =
                 {
@@ -26568,7 +26854,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT109 - SCC North",
                 ["properties"] =
                 {
@@ -26612,7 +26898,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT108 - ADCC",
                 ["properties"] =
                 {
@@ -26656,7 +26942,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT111  - AWACS Connection Node",
                 ["properties"] =
                 {
@@ -26700,7 +26986,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT112 - 40th Composite Maritime Aviation Division HQ",
                 ["properties"] =
                 {
@@ -26744,7 +27030,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT113 - 60th Air Division HQ",
                 ["properties"] =
                 {
@@ -26788,7 +27074,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT114 - 70th Air Division HQ",
                 ["properties"] =
                 {
@@ -26832,7 +27118,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["heading"] = 0,
-                ["hidden"] = false,
+                ["hidden"] = true,
                 ["name"] = "SRNTGT115 - 80th Air Support Division HQ",
                 ["properties"] =
                 {

@@ -4,4 +4,5 @@ mapResource =
     ["ResKey_Action_7"] = "Moose.lua",
     ["ResKey_Action_8"] = "skynet-iads-setup-OPAC.lua",
     ["ResKey_Action_9"] = "skynet-iads-compiled.lua",
+    ["ResKey_Action_10"] = "skynet-iads-setup-OPAC_1st_corps.lua",
 } -- end of mapResource

@@ -1,4 +1,5 @@
 mapResource = 
 {
     ["ResKey_Action_6"] = "mist_4_5_98.lua",
+    ["ResKey_Action_7"] = "skynet-iads-compiled.lua",
 } -- end of mapResource

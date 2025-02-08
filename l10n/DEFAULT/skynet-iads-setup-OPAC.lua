@@ -15,6 +15,9 @@ commandCenter = StaticObject.getByName('ADCC')
 redIADS:addCommandCenter(commandCenter)
 
 
+-- Warm up SAM sites in the IADS
+redIADS:setupSAMSitesAndThenActivate()
+
 -- EWR CONNECTION NODES
 
 --EWR CONNECTION TO SECTOR COMMAND CENTER - NORTH
@@ -61,46 +64,51 @@ redIADS:getEarlyWarningRadarByUnitName('EWR_SOUTH_3'):addConnectionNode(connecti
 -- POINT DEFENCE
 -- POINT DEFENCE SECTOR NORTH
 -- SA-2 Rybachy peninsula
---local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD1_SA15_1')
---redIADS:getSAMSiteByGroupName('IADS_NORTH _8011_SA2_BN'):addPointDefence(sa15)
+local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD1_SA15_1')
+redIADS:getSAMSiteByGroupName('IADS_NORTH _8011_SA2_BN'):addPointDefence(sa15)
 
---local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD1_SA15_2')
---redIADS:getSAMSiteByGroupName('IADS_NORTH _8011_SA2_BN'):addPointDefence(sa15)
+local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD1_SA15_2')
+redIADS:getSAMSiteByGroupName('IADS_NORTH _8011_SA2_BN'):addPointDefence(sa15)
 
---local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD1_SA15_3')
---redIADS:getSAMSiteByGroupName('IADS_NORTH _8011_SA2_BN'):addPointDefence(sa15)
+local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD1_SA15_3')
+redIADS:getSAMSiteByGroupName('IADS_NORTH _8011_SA2_BN'):addPointDefence(sa15)
 
 -- SA-5 
---local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD2_SA15_1')
---redIADS:getSAMSiteByGroupName('IADS_NORTH_8001_SA5_BN'):addPointDefence(sa15)
+local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD2_SA15_1')
+redIADS:getSAMSiteByGroupName('IADS_NORTH_8001_SA5_BN'):addPointDefence(sa15)
 
---local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD2_SA15_2')
---redIADS:getSAMSiteByGroupName('IADS_NORTH_8001_SA5_BN'):addPointDefence(sa15)
+local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD2_SA15_2')
+redIADS:getSAMSiteByGroupName('IADS_NORTH_8001_SA5_BN'):addPointDefence(sa15)
 
---local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD2_SA15_3')
---redIADS:getSAMSiteByGroupName('IADS_NORTH_8001_SA5_BN'):addPointDefence(sa15)
+local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD2_SA15_3')
+redIADS:getSAMSiteByGroupName('IADS_NORTH_8001_SA5_BN'):addPointDefence(sa15)
 
 
 -- SA-10 
---local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD3_SA15_1')
---redIADS:getSAMSiteByGroupName('IADS_NORTH_8291_SA10_BN'):addPointDefence(sa15)
+redIADS:getSAMSiteByGroupName('IADS_NORTH_8291_SA10_BN'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE)
 
---local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD3_SA15_2')
---redIADS:getSAMSiteByGroupName('IADS_NORTH_8291_SA10_BN'):addPointDefence(sa15)
+local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD3_SA15_1')
+redIADS:getSAMSiteByGroupName('IADS_NORTH_8291_SA10_BN'):addPointDefence(sa15)
 
---local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD3_SA15_3')
---redIADS:getSAMSiteByGroupName('IADS_NORTH_8291_SA10_BN'):addPointDefence(sa15)
+local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD3_SA15_2')
+redIADS:getSAMSiteByGroupName('IADS_NORTH_8291_SA10_BN'):addPointDefence(sa15)
+
+local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD3_SA15_3')
+redIADS:getSAMSiteByGroupName('IADS_NORTH_8291_SA10_BN'):addPointDefence(sa15)
 
 
 -- SA-2 ivo MURMANSK
---local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD4_SA15_1')
---redIADS:getSAMSiteByGroupName('IADS_NORTH_8111_SA2_BN'):addPointDefence(sa15)
+--set this SA-2 site to go live at maximunm search range (default is at maximung firing range):
+redIADS:getSAMSiteByGroupName('IADS_NORTH_8111_SA2_BN'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE)
 
---local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD4_SA15_2')
---redIADS:getSAMSiteByGroupName('IADS_NORTH_8111_SA2_BN'):addPointDefence(sa15)
+local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD4_SA15_1')
+redIADS:getSAMSiteByGroupName('IADS_NORTH_8111_SA2_BN'):addPointDefence(sa15)
 
---local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD4_SA15_3')
---redIADS:getSAMSiteByGroupName('IADS_NORTH_8111_SA2_BN'):addPointDefence(sa15)
+local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD4_SA15_2')
+redIADS:getSAMSiteByGroupName('IADS_NORTH_8111_SA2_BN'):addPointDefence(sa15)
+
+local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD4_SA15_3')
+redIADS:getSAMSiteByGroupName('IADS_NORTH_8111_SA2_BN'):addPointDefence(sa15)
 
 
 

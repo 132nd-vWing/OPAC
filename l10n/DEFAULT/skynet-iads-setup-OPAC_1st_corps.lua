@@ -11,10 +11,7 @@ redIADS:addSAMSitesByPrefix('FIRSTAD')
 
 --add a command center:
 commandCenter = StaticObject.getByName('FIRSTCORPSCOMMANDCENTER')
-redIADS:addCommandCenter(FIRSTCORPSCOMMANDCENTER)
-
---commandCenter = StaticObject.getByName('FIRSTCORPSCOMMANDCENTER')
---redIADS:addCommandCenter(commandCenter)
+redIADS:addCommandCenter(commandCenter)
 
 
 --activate the IADS

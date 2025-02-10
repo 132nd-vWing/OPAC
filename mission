@@ -16179,6 +16179,907 @@ mission =
                                 ["x"] = 110605.84248554,
                                 ["y"] = 322716.46788358,
                             }, -- end of [36]
+                            [37] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 260,
+                                ["heading"] = 1.5707963267949,
+                                ["name"] = "1st Corp HQ Tents-13",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 24079.114325443,
+                                            ["y"] = 327605.50278098,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 1.5707963267949,
+                                        ["name"] = "1st Corp HQ Tents-13-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 715,
+                                        ["x"] = 24079.114325443,
+                                        ["y"] = 327605.50278098,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 24079.114325443,
+                                ["y"] = 327605.50278098,
+                            }, -- end of [37]
+                            [38] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 261,
+                                ["heading"] = 0,
+                                ["name"] = "1st Corp HQ Tents-14",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 24068.716006853,
+                                            ["y"] = 327559.30265661,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0,
+                                        ["name"] = "1st Corp HQ Tents-14-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 716,
+                                        ["x"] = 24068.716006853,
+                                        ["y"] = 327559.30265661,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 24068.716006853,
+                                ["y"] = 327559.30265661,
+                            }, -- end of [38]
+                            [39] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 262,
+                                ["heading"] = 0,
+                                ["name"] = "1st Corp HQ Tents-15",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 24068.650194713,
+                                            ["y"] = 327594.90702596,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0,
+                                        ["name"] = "1st Corp HQ Tents-15-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 717,
+                                        ["x"] = 24068.650194713,
+                                        ["y"] = 327594.90702596,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 24068.650194713,
+                                ["y"] = 327594.90702596,
+                            }, -- end of [39]
+                            [40] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 263,
+                                ["heading"] = 0,
+                                ["name"] = "THIRDCORPSCOMMANDCENTER",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 24103.281469733,
+                                            ["y"] = 327667.07093861,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["heading"] = 0,
+                                        ["name"] = "THIRDCORPSCOMMANDCENTER",
+                                        ["rate"] = 20,
+                                        ["type"] = "SKP-11",
+                                        ["unitId"] = 718,
+                                        ["x"] = 24103.281469733,
+                                        ["y"] = 327667.07093861,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 24103.281469733,
+                                ["y"] = 327667.07093861,
+                            }, -- end of [40]
+                            [41] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 265,
+                                ["heading"] = 1.5707963267949,
+                                ["name"] = "1st Corp HQ Tents-16",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 24079.156381463,
+                                            ["y"] = 327563.00574619,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 1.5707963267949,
+                                        ["name"] = "1st Corp HQ Tents-16-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 727,
+                                        ["x"] = 24079.156381463,
+                                        ["y"] = 327563.00574619,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 24079.156381463,
+                                ["y"] = 327563.00574619,
+                            }, -- end of [41]
+                            [42] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 266,
+                                ["heading"] = 1.5707963267949,
+                                ["name"] = "1st Corp HQ Tents-17",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 24079.114325443,
+                                            ["y"] = 327591.35317024,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 1.5707963267949,
+                                        ["name"] = "1st Corp HQ Tents-17-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 728,
+                                        ["x"] = 24079.114325443,
+                                        ["y"] = 327591.35317024,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 24079.114325443,
+                                ["y"] = 327591.35317024,
+                            }, -- end of [42]
+                            [43] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 267,
+                                ["heading"] = 0,
+                                ["name"] = "1st Corp HQ Tents-18",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 24089.446831893,
+                                            ["y"] = 327623.33787173,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0,
+                                        ["name"] = "1st Corp HQ Tents-18-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 729,
+                                        ["x"] = 24089.446831893,
+                                        ["y"] = 327623.33787173,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 24089.446831893,
+                                ["y"] = 327623.33787173,
+                            }, -- end of [43]
+                            [44] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 268,
+                                ["heading"] = 0,
+                                ["name"] = "1st Corp HQ Tents-19",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 24089.578456183,
+                                            ["y"] = 327595.03865025,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0,
+                                        ["name"] = "1st Corp HQ Tents-19-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 730,
+                                        ["x"] = 24089.578456183,
+                                        ["y"] = 327595.03865025,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 24089.578456183,
+                                ["y"] = 327595.03865025,
+                            }, -- end of [44]
+                            [45] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 270,
+                                ["heading"] = 1.5707963267949,
+                                ["name"] = "1st Corp HQ Tents-20",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 24079.114325443,
+                                            ["y"] = 327619.65239172,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 1.5707963267949,
+                                        ["name"] = "1st Corp HQ Tents-20-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 736,
+                                        ["x"] = 24079.114325443,
+                                        ["y"] = 327619.65239172,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 24079.114325443,
+                                ["y"] = 327619.65239172,
+                            }, -- end of [45]
+                            [46] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 271,
+                                ["heading"] = 0,
+                                ["name"] = "1st Corp HQ Tents-21",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 24068.716006853,
+                                            ["y"] = 327623.27205959,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0,
+                                        ["name"] = "1st Corp HQ Tents-21-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 737,
+                                        ["x"] = 24068.716006853,
+                                        ["y"] = 327623.27205959,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 24068.716006853,
+                                ["y"] = 327623.27205959,
+                            }, -- end of [46]
+                            [47] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 272,
+                                ["heading"] = 0,
+                                ["name"] = "1st Corp HQ Tents-22",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 24089.512644033,
+                                            ["y"] = 327609.25407313,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0,
+                                        ["name"] = "1st Corp HQ Tents-22-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 738,
+                                        ["x"] = 24089.512644033,
+                                        ["y"] = 327609.25407313,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 24089.512644033,
+                                ["y"] = 327609.25407313,
+                            }, -- end of [47]
+                            [48] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 274,
+                                ["heading"] = 1.5707963267949,
+                                ["name"] = "1st Corp HQ Tents-23",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 24079.171862173,
+                                            ["y"] = 327577.1502959,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 1.5707963267949,
+                                        ["name"] = "1st Corp HQ Tents-23-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 744,
+                                        ["x"] = 24079.171862173,
+                                        ["y"] = 327577.1502959,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 24079.171862173,
+                                ["y"] = 327577.1502959,
+                            }, -- end of [48]
+                            [49] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 275,
+                                ["heading"] = 1.5707963267949,
+                                ["name"] = "1st Corp HQ Tents-24",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 24058.317688263,
+                                            ["y"] = 327563.05394876,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 1.5707963267949,
+                                        ["name"] = "1st Corp HQ Tents-24-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 745,
+                                        ["x"] = 24058.317688263,
+                                        ["y"] = 327563.05394876,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 24058.317688263,
+                                ["y"] = 327563.05394876,
+                            }, -- end of [49]
+                            [50] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 276,
+                                ["heading"] = 0,
+                                ["name"] = "1st Corp HQ Tents-25",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 24068.650194713,
+                                            ["y"] = 327609.25407313,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0,
+                                        ["name"] = "1st Corp HQ Tents-25-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 746,
+                                        ["x"] = 24068.650194713,
+                                        ["y"] = 327609.25407313,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 24068.650194713,
+                                ["y"] = 327609.25407313,
+                            }, -- end of [50]
+                            [51] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 296,
+                                ["heading"] = 0,
+                                ["name"] = "1st Corp _11th_Armor_HQ_Tent-1",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 9901.9165435052,
+                                            ["y"] = 316268.54185213,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0,
+                                        ["name"] = "1st Corp _11th_Armor_HQ_Tent-1-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 791,
+                                        ["x"] = 9901.9165435052,
+                                        ["y"] = 316268.54185213,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 9901.9165435052,
+                                ["y"] = 316268.54185213,
+                            }, -- end of [51]
+                            [52] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 298,
+                                ["heading"] = 1.5707963267949,
+                                ["name"] = "1st Corp _11th_Armor_HQ_Tent-2",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 9912.2857198253,
+                                            ["y"] = 316247.24468161,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 1.5707963267949,
+                                        ["name"] = "1st Corp _11th_Armor_HQ_Tent-2-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 800,
+                                        ["x"] = 9912.2857198253,
+                                        ["y"] = 316247.24468161,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 9912.2857198253,
+                                ["y"] = 316247.24468161,
+                            }, -- end of [52]
+                            [53] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 299,
+                                ["heading"] = 0,
+                                ["name"] = "1st Corp _11th_Armor_HQ_Tent-3",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 9922.7169870153,
+                                            ["y"] = 316254.44722324,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0,
+                                        ["name"] = "1st Corp _11th_Armor_HQ_Tent-3-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 801,
+                                        ["x"] = 9922.7169870153,
+                                        ["y"] = 316254.44722324,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 9922.7169870153,
+                                ["y"] = 316254.44722324,
+                            }, -- end of [53]
+                            [54] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 300,
+                                ["heading"] = 0,
+                                ["name"] = "1st Corp _11th_Armor_HQ_Tent-4",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 9901.9165435052,
+                                            ["y"] = 316254.32304149,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0,
+                                        ["name"] = "1st Corp _11th_Armor_HQ_Tent-4-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 802,
+                                        ["x"] = 9901.9165435052,
+                                        ["y"] = 316254.32304149,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 9901.9165435052,
+                                ["y"] = 316254.32304149,
+                            }, -- end of [54]
+                            [55] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 302,
+                                ["heading"] = 0,
+                                ["name"] = "1st Corp _11th_Armor_HQ_Tent-5",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 9912.0926367152,
+                                            ["y"] = 316236.8995797,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0,
+                                        ["name"] = "1st Corp _11th_Armor_HQ_Tent-5-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 810,
+                                        ["x"] = 9912.0926367152,
+                                        ["y"] = 316236.8995797,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 9912.0926367152,
+                                ["y"] = 316236.8995797,
+                            }, -- end of [55]
+                            [56] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 303,
+                                ["heading"] = 1.5707963267949,
+                                ["name"] = "1st Corp _11th_Armor_HQ_Tent-6",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 9912.3478106952,
+                                            ["y"] = 316275.55812113,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 1.5707963267949,
+                                        ["name"] = "1st Corp _11th_Armor_HQ_Tent-6-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 811,
+                                        ["x"] = 9912.3478106952,
+                                        ["y"] = 316275.55812113,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 9912.3478106952,
+                                ["y"] = 316275.55812113,
+                            }, -- end of [56]
+                            [57] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 304,
+                                ["heading"] = 1.5707963267949,
+                                ["name"] = "1st Corp _11th_Armor_HQ_Tent-7",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 9912.3478106952,
+                                            ["y"] = 316261.40140137,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 1.5707963267949,
+                                        ["name"] = "1st Corp _11th_Armor_HQ_Tent-7-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 812,
+                                        ["x"] = 9912.3478106952,
+                                        ["y"] = 316261.40140137,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 9912.3478106952,
+                                ["y"] = 316261.40140137,
+                            }, -- end of [57]
+                            [58] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 307,
+                                ["heading"] = 0,
+                                ["name"] = "1st Corp _11th_Armor_HQ_Tent-16",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 9922.7169870153,
+                                            ["y"] = 316268.23139775,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0,
+                                        ["name"] = "1st Corp _11th_Armor_HQ_Tent-16-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 822,
+                                        ["x"] = 9922.7169870153,
+                                        ["y"] = 316268.23139775,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 9922.7169870153,
+                                ["y"] = 316268.23139775,
+                            }, -- end of [58]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["vehicle"] =
@@ -18910,7 +19811,9 @@ mission =
                             [33] =
                             {
                                 ["groupId"] = 229,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRSTAD_SA6_BN",
                                 ["route"] =
                                 {
@@ -19220,7 +20123,7 @@ mission =
                                         ["heading"] = 0,
                                         ["name"] = "FIRSTAD_SA11_Battery_2-1",
                                         ["playerCanDrive"] = false,
-                                        ["skill"] = "High",
+                                        ["skill"] = "Excellent",
                                         ["type"] = "SA-11 Buk SR 9S18M1",
                                         ["unitId"] = 631,
                                         ["x"] = 185559.54348068,
@@ -19232,7 +20135,7 @@ mission =
                                         ["heading"] = 0,
                                         ["name"] = "FIRSTAD_SA11_Battery_2-2",
                                         ["playerCanDrive"] = false,
-                                        ["skill"] = "High",
+                                        ["skill"] = "Excellent",
                                         ["type"] = "SA-11 Buk CC 9S470M1",
                                         ["unitId"] = 632,
                                         ["x"] = 185606.34308418,
@@ -19244,7 +20147,7 @@ mission =
                                         ["heading"] = 4.3458698374659,
                                         ["name"] = "FIRSTAD_SA11_Battery_2-3",
                                         ["playerCanDrive"] = false,
-                                        ["skill"] = "High",
+                                        ["skill"] = "Excellent",
                                         ["type"] = "SA-11 Buk LN 9A310M1",
                                         ["unitId"] = 633,
                                         ["x"] = 185530.56207485,
@@ -19256,7 +20159,7 @@ mission =
                                         ["heading"] = 5.9864793343406,
                                         ["name"] = "FIRSTAD_SA11_Battery_2-4",
                                         ["playerCanDrive"] = false,
-                                        ["skill"] = "High",
+                                        ["skill"] = "Excellent",
                                         ["type"] = "SA-11 Buk LN 9A310M1",
                                         ["unitId"] = 634,
                                         ["x"] = 185681.69473936,
@@ -20283,6 +21186,1156 @@ mission =
                                 ["x"] = 110618.42878428,
                                 ["y"] = 322736.93429111,
                             }, -- end of [43]
+                            [44] =
+                            {
+                                ["groupId"] = 258,
+                                ["hidden"] = false,
+                                ["name"] = "3rd Corps  HQ vehicles",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 200.64436620084,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 24082.073638663,
+                                            ["y"] = 327641.22336393,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                        [1] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["x"] = 24082.073638663,
+                                                ["y"] = 327641.22336393,
+                                            }, -- end of [1]
+                                            [2] =
+                                            {
+                                                ["x"] = 24082.073638663,
+                                                ["y"] = 327641.22336393,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 1.4311699866353,
+                                        ["name"] = "3rd Corps  HQ vehicles-1",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "Ural-4320 APA-5D",
+                                        ["unitId"] = 703,
+                                        ["x"] = 24082.073638663,
+                                        ["y"] = 327641.22336393,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 2.757620218151,
+                                        ["name"] = "3rd Corps  HQ vehicles-2",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "UAZ-469",
+                                        ["unitId"] = 704,
+                                        ["x"] = 24050.748618543,
+                                        ["y"] = 327571.36128417,
+                                    }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 2.6703537555513,
+                                        ["name"] = "3rd Corps  HQ vehicles-3",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "UAZ-469",
+                                        ["unitId"] = 705,
+                                        ["x"] = 24062.695835523,
+                                        ["y"] = 327577.40774154,
+                                    }, -- end of [3]
+                                    [4] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 5.0090949532237,
+                                        ["name"] = "3rd Corps  HQ vehicles-4",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "KAMAZ Truck",
+                                        ["unitId"] = 706,
+                                        ["x"] = 24087.464456083,
+                                        ["y"] = 327537.85079753,
+                                    }, -- end of [4]
+                                    [5] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 5.0090949532237,
+                                        ["name"] = "3rd Corps  HQ vehicles-5",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "KAMAZ Truck",
+                                        ["unitId"] = 707,
+                                        ["x"] = 24094.749344483,
+                                        ["y"] = 327540.32765959,
+                                    }, -- end of [5]
+                                    [6] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 5.0090949532237,
+                                        ["name"] = "3rd Corps  HQ vehicles-6",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "KAMAZ Truck",
+                                        ["unitId"] = 708,
+                                        ["x"] = 24103.345512793,
+                                        ["y"] = 327542.14888169,
+                                    }, -- end of [6]
+                                    [7] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 3.1415926535898,
+                                        ["name"] = "3rd Corps  HQ vehicles-7",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "ZIL-131 KUNG",
+                                        ["unitId"] = 709,
+                                        ["x"] = 24056.524597243,
+                                        ["y"] = 327595.07280627,
+                                    }, -- end of [7]
+                                    [8] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 1.5707963267949,
+                                        ["name"] = "3rd Corps  HQ vehicles-8",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "ZIL-131 KUNG",
+                                        ["unitId"] = 710,
+                                        ["x"] = 24095.332135553,
+                                        ["y"] = 327630.00463579,
+                                    }, -- end of [8]
+                                    [9] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 3.1415926535898,
+                                        ["name"] = "3rd Corps  HQ vehicles-9",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "ZIL-131 KUNG",
+                                        ["unitId"] = 711,
+                                        ["x"] = 24058.387420843,
+                                        ["y"] = 327609.13712449,
+                                    }, -- end of [9]
+                                    [10] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 0.017453292519943,
+                                        ["name"] = "3rd Corps  HQ vehicles-10",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "ZIL-131 KUNG",
+                                        ["unitId"] = 712,
+                                        ["x"] = 24100.487234323,
+                                        ["y"] = 327607.6468656,
+                                    }, -- end of [10]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 24082.073638663,
+                                ["y"] = 327641.22336393,
+                            }, -- end of [44]
+                            [45] =
+                            {
+                                ["groupId"] = 259,
+                                ["hidden"] = false,
+                                ["name"] = "3rd Corps  Command center vehicles",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 199.57597523987,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 24093.315363443,
+                                            ["y"] = 327673.31139769,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                        [1] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["x"] = 24093.315363443,
+                                                ["y"] = 327673.31139769,
+                                            }, -- end of [1]
+                                            [2] =
+                                            {
+                                                ["x"] = 24093.315363443,
+                                                ["y"] = 327673.31139769,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 2.800692788584,
+                                        ["name"] = "3rd Corps  Command center vehicles-1",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "Ural-4320 APA-5D",
+                                        ["unitId"] = 713,
+                                        ["x"] = 24093.315363443,
+                                        ["y"] = 327673.31139769,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.7123889803847,
+                                        ["name"] = "3rd Corps  Command center vehicles-2",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "ZIL-131 KUNG",
+                                        ["unitId"] = 714,
+                                        ["x"] = 24098.172463303,
+                                        ["y"] = 327662.37367999,
+                                    }, -- end of [2]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 24093.315363443,
+                                ["y"] = 327673.31139769,
+                            }, -- end of [45]
+                            [46] =
+                            {
+                                ["groupId"] = 264,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "THIRDAD_SA6_BN-1",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 134,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 23459.406141433,
+                                            ["y"] = 326242.63596776,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.7123889803847,
+                                        ["name"] = "THIRDAD_SA6_BN-1-1",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "Kub 1S91 str",
+                                        ["unitId"] = 719,
+                                        ["x"] = 23459.406141433,
+                                        ["y"] = 326242.63596776,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 0,
+                                        ["name"] = "THIRDAD_SA6_BN-1-2",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "Kub 2P25 ln",
+                                        ["unitId"] = 720,
+                                        ["x"] = 23578.604649003,
+                                        ["y"] = 326242.43369784,
+                                    }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.7123889803847,
+                                        ["name"] = "THIRDAD_SA6_BN-1-3",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "Kub 2P25 ln",
+                                        ["unitId"] = 721,
+                                        ["x"] = 23458.279991573,
+                                        ["y"] = 326130.89022794,
+                                    }, -- end of [3]
+                                    [4] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 3.1415926535898,
+                                        ["name"] = "THIRDAD_SA6_BN-1-4",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "Kub 2P25 ln",
+                                        ["unitId"] = 722,
+                                        ["x"] = 23342.308614083,
+                                        ["y"] = 326244.17500981,
+                                    }, -- end of [4]
+                                    [5] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 1.5707963267949,
+                                        ["name"] = "THIRDAD_SA6_BN-1-5",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "Kub 2P25 ln",
+                                        ["unitId"] = 723,
+                                        ["x"] = 23461.687987873,
+                                        ["y"] = 326356.11649388,
+                                    }, -- end of [5]
+                                    [6] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 0.47123889803847,
+                                        ["name"] = "THIRDAD_SA6_BN-1-6",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "ZIL-131 KUNG",
+                                        ["unitId"] = 724,
+                                        ["x"] = 23469.192533893,
+                                        ["y"] = 326251.60151401,
+                                    }, -- end of [6]
+                                    [7] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.1015237421867,
+                                        ["name"] = "THIRDAD_SA6_BN-1-7",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 725,
+                                        ["x"] = 23426.209214103,
+                                        ["y"] = 326255.11266528,
+                                    }, -- end of [7]
+                                    [8] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.1015237421867,
+                                        ["name"] = "THIRDAD_SA6_BN-1-8",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 726,
+                                        ["x"] = 23419.320734443,
+                                        ["y"] = 326259.56182046,
+                                    }, -- end of [8]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 23459.406141433,
+                                ["y"] = 326242.63596776,
+                            }, -- end of [46]
+                            [47] =
+                            {
+                                ["groupId"] = 269,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "THIRDAD_SA11_Battery_1",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 137,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 23981.733328718,
+                                            ["y"] = 328001.45679472,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 0,
+                                        ["name"] = "THIRDAD_SA11_Battery_1-1",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "SA-11 Buk SR 9S18M1",
+                                        ["unitId"] = 731,
+                                        ["x"] = 23981.733328718,
+                                        ["y"] = 328001.45679472,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 0,
+                                        ["name"] = "THIRDAD_SA11_Battery_1-2",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "SA-11 Buk CC 9S470M1",
+                                        ["unitId"] = 732,
+                                        ["x"] = 24028.532932218,
+                                        ["y"] = 327964.96169107,
+                                    }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.3458698374659,
+                                        ["name"] = "THIRDAD_SA11_Battery_1-3",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "SA-11 Buk LN 9A310M1",
+                                        ["unitId"] = 733,
+                                        ["x"] = 23952.751922888,
+                                        ["y"] = 327933.61883735,
+                                    }, -- end of [3]
+                                    [4] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 5.9864793343406,
+                                        ["name"] = "THIRDAD_SA11_Battery_1-4",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "SA-11 Buk LN 9A310M1",
+                                        ["unitId"] = 734,
+                                        ["x"] = 24103.884587398,
+                                        ["y"] = 327956.15993078,
+                                    }, -- end of [4]
+                                    [5] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 0,
+                                        ["name"] = "THIRDAD_SA11_Battery_1-5",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "High",
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 735,
+                                        ["x"] = 24029.820994698,
+                                        ["y"] = 328037.5225442,
+                                    }, -- end of [5]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 23981.733328718,
+                                ["y"] = 328001.45679472,
+                            }, -- end of [47]
+                            [48] =
+                            {
+                                ["groupId"] = 273,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "THIRDAD_SA11_Battery_2",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 132,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 23936.226907681,
+                                            ["y"] = 326213.25838501,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 0,
+                                        ["name"] = "THIRDAD_SA11_Battery_2-1",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Excellent",
+                                        ["type"] = "SA-11 Buk SR 9S18M1",
+                                        ["unitId"] = 739,
+                                        ["x"] = 23936.226907681,
+                                        ["y"] = 326213.25838501,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 0,
+                                        ["name"] = "THIRDAD_SA11_Battery_2-2",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Excellent",
+                                        ["type"] = "SA-11 Buk CC 9S470M1",
+                                        ["unitId"] = 740,
+                                        ["x"] = 24009.178093506,
+                                        ["y"] = 326198.29976143,
+                                    }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.3458698374659,
+                                        ["name"] = "THIRDAD_SA11_Battery_2-3",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Excellent",
+                                        ["type"] = "SA-11 Buk LN 9A310M1",
+                                        ["unitId"] = 741,
+                                        ["x"] = 23907.245501851,
+                                        ["y"] = 326145.42042764,
+                                    }, -- end of [3]
+                                    [4] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 5.9864793343406,
+                                        ["name"] = "THIRDAD_SA11_Battery_2-4",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Excellent",
+                                        ["type"] = "SA-11 Buk LN 9A310M1",
+                                        ["unitId"] = 742,
+                                        ["x"] = 24058.378166361,
+                                        ["y"] = 326167.96152107,
+                                    }, -- end of [4]
+                                    [5] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 0,
+                                        ["name"] = "THIRDAD_SA11_Battery_2-5",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "High",
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 743,
+                                        ["x"] = 23984.314573661,
+                                        ["y"] = 326249.32413449,
+                                    }, -- end of [5]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 23936.226907681,
+                                ["y"] = 326213.25838501,
+                            }, -- end of [48]
+                            [49] =
+                            {
+                                ["groupId"] = 297,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "THIRSAD_SA15_BN_2",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 240,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 10123.774075267,
+                                            ["y"] = 315773.96503462,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.8171087355043,
+                                        ["name"] = "THIRSAD_SA15_BN_2-1",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "Tor 9A331",
+                                        ["unitId"] = 792,
+                                        ["x"] = 10123.774075267,
+                                        ["y"] = 315773.96503462,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 6.2482787221397,
+                                        ["name"] = "THIRSAD_SA15_BN_2-2",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "Tor 9A331",
+                                        ["unitId"] = 793,
+                                        ["x"] = 10513.951741706,
+                                        ["y"] = 316400.86154264,
+                                    }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 3.4208453339089,
+                                        ["name"] = "THIRSAD_SA15_BN_2-3",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "Tor 9A331",
+                                        ["unitId"] = 794,
+                                        ["x"] = 9668.4503682261,
+                                        ["y"] = 316148.59372177,
+                                    }, -- end of [3]
+                                    [4] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 1.6406094968747,
+                                        ["name"] = "THIRSAD_SA15_BN_2-4",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "Tor 9A331",
+                                        ["unitId"] = 795,
+                                        ["x"] = 10148.992693451,
+                                        ["y"] = 316643.73907881,
+                                    }, -- end of [4]
+                                    [5] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 1.5707963267949,
+                                        ["name"] = "THIRSAD_SA15_BN_2-5",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 796,
+                                        ["x"] = 10115.155299547,
+                                        ["y"] = 315779.86209169,
+                                    }, -- end of [5]
+                                    [6] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.6425758103049,
+                                        ["name"] = "THIRSAD_SA15_BN_2-6",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 797,
+                                        ["x"] = 10155.431489583,
+                                        ["y"] = 316634.61745096,
+                                    }, -- end of [6]
+                                    [7] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 6.0039326268605,
+                                        ["name"] = "THIRSAD_SA15_BN_2-7",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 798,
+                                        ["x"] = 9663.4072332787,
+                                        ["y"] = 316142.28980308,
+                                    }, -- end of [7]
+                                    [8] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 3.1415926535898,
+                                        ["name"] = "THIRSAD_SA15_BN_2-8",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 799,
+                                        ["x"] = 10496.095482724,
+                                        ["y"] = 316386.35333222,
+                                    }, -- end of [8]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 10123.774075267,
+                                ["y"] = 315773.96503462,
+                            }, -- end of [49]
+                            [50] =
+                            {
+                                ["groupId"] = 301,
+                                ["hidden"] = false,
+                                ["name"] = "3rd_Corps_11th_HQ_units",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 345.98417218503,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 9924.9341094352,
+                                            ["y"] = 316281.8678089,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 1.5707963267949,
+                                        ["name"] = "3rd_Corps_11th_HQ_units-1",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "Ural-4320 APA-5D",
+                                        ["unitId"] = 803,
+                                        ["x"] = 9924.9341094352,
+                                        ["y"] = 316281.8678089,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 3.8048177693476,
+                                        ["name"] = "3rd_Corps_11th_HQ_units-2",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "UAZ-469",
+                                        ["unitId"] = 804,
+                                        ["x"] = 9900.0377057052,
+                                        ["y"] = 316236.25015581,
+                                    }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 3.996803987067,
+                                        ["name"] = "3rd_Corps_11th_HQ_units-3",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "UAZ-469",
+                                        ["unitId"] = 805,
+                                        ["x"] = 9901.8236214152,
+                                        ["y"] = 316231.66359957,
+                                    }, -- end of [3]
+                                    [4] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 2.2340214425527,
+                                        ["name"] = "3rd_Corps_11th_HQ_units-4",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "KAMAZ Truck",
+                                        ["unitId"] = 806,
+                                        ["x"] = 9893.9650021253,
+                                        ["y"] = 316283.69167361,
+                                    }, -- end of [4]
+                                    [5] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 2.2340214425527,
+                                        ["name"] = "3rd_Corps_11th_HQ_units-5",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "KAMAZ Truck",
+                                        ["unitId"] = 807,
+                                        ["x"] = 9899.2543771053,
+                                        ["y"] = 316286.03013413,
+                                    }, -- end of [5]
+                                    [6] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 0,
+                                        ["name"] = "3rd_Corps_11th_HQ_units-6",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "ZIL-131 KUNG",
+                                        ["unitId"] = 808,
+                                        ["x"] = 9932.9959682753,
+                                        ["y"] = 316252.72928709,
+                                    }, -- end of [6]
+                                    [7] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 1.5707963267949,
+                                        ["name"] = "3rd_Corps_11th_HQ_units-7",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "ZIL-131 KUNG",
+                                        ["unitId"] = 809,
+                                        ["x"] = 9912.3361706753,
+                                        ["y"] = 316285.89049463,
+                                    }, -- end of [7]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 9924.9341094352,
+                                ["y"] = 316281.8678089,
+                            }, -- end of [50]
+                            [51] =
+                            {
+                                ["groupId"] = 305,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "THIRDSBORKA_SBORKA_2",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 237,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 9983.7302593905,
+                                            ["y"] = 316193.02334955,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.1015237421867,
+                                        ["name"] = "THIRDSBORKA_SBORKA_2-1",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "Dog Ear radar",
+                                        ["unitId"] = 813,
+                                        ["x"] = 9983.7302593905,
+                                        ["y"] = 316193.02334955,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 9983.7302593905,
+                                ["y"] = 316193.02334955,
+                            }, -- end of [51]
+                            [52] =
+                            {
+                                ["groupId"] = 306,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "THIRDAD_SA8_BN_2",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 142,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 13255.29948932,
+                                            ["y"] = 318312.86873549,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.6600291028249,
+                                        ["name"] = "THIRDAD_SA8_BN_2-1",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "Osa 9A33 ln",
+                                        ["unitId"] = 814,
+                                        ["x"] = 13255.29948932,
+                                        ["y"] = 318312.86873549,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 1.535889741755,
+                                        ["name"] = "THIRDAD_SA8_BN_2-2",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "Osa 9A33 ln",
+                                        ["unitId"] = 815,
+                                        ["x"] = 13249.6857906,
+                                        ["y"] = 318575.84892929,
+                                    }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 3.0543261909901,
+                                        ["name"] = "THIRDAD_SA8_BN_2-3",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "Osa 9A33 ln",
+                                        ["unitId"] = 816,
+                                        ["x"] = 13113.66155243,
+                                        ["y"] = 318456.66578727,
+                                    }, -- end of [3]
+                                    [4] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 0,
+                                        ["name"] = "THIRDAD_SA8_BN_2-4",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "Osa 9A33 ln",
+                                        ["unitId"] = 817,
+                                        ["x"] = 13392.18737344,
+                                        ["y"] = 318443.71109792,
+                                    }, -- end of [4]
+                                    [5] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 1.3089969389957,
+                                        ["name"] = "THIRDAD_SA8_BN_2-5",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 818,
+                                        ["x"] = 13249.6857906,
+                                        ["y"] = 318318.48243421,
+                                    }, -- end of [5]
+                                    [6] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 2.9146998508305,
+                                        ["name"] = "THIRDAD_SA8_BN_2-6",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 819,
+                                        ["x"] = 13381.39179899,
+                                        ["y"] = 318434.2109924,
+                                    }, -- end of [6]
+                                    [7] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.5204027626653,
+                                        ["name"] = "THIRDAD_SA8_BN_2-7",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 820,
+                                        ["x"] = 13258.75407315,
+                                        ["y"] = 318580.16715907,
+                                    }, -- end of [7]
+                                    [8] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 0.78539816339745,
+                                        ["name"] = "THIRDAD_SA8_BN_2-8",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 821,
+                                        ["x"] = 13114.95702137,
+                                        ["y"] = 318441.55198303,
+                                    }, -- end of [8]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 13255.29948932,
+                                ["y"] = 318312.86873549,
+                            }, -- end of [52]
                         }, -- end of ["group"]
                     }, -- end of ["vehicle"]
                 }, -- end of [2]
@@ -20397,7 +22450,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 161320,
+    ["currentKey"] = 164170,
     ["date"] =
     {
         ["Day"] = 20,
@@ -27568,9 +29621,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 147394.23387907,
-        ["centerY"] = 253418.35814779,
-        ["zoom"] = 699811.53793195,
+        ["centerX"] = 27795.580001839,
+        ["centerY"] = 353748.73341052,
+        ["zoom"] = 1182087.4064373,
     }, -- end of ["map"]
     ["maxDictId"] = 10,
     ["pictureFileNameB"] =

@@ -35,6 +35,10 @@ redIADS:getEarlyWarningRadarByUnitName('FIRSTSBORKA_SBORKA_1'):addConnectionNode
 local connectionNodeEW = StaticObject.getByName('FIRSTCORPSCOMMANDCENTER')
 redIADS:getEarlyWarningRadarByUnitName('FIRSTSBORKA_SBORKA_2'):addConnectionNode(connectionNodeEW)
 
+--add a power source and a connection node for this EW radar:
+local connectionNodeEW = StaticObject.getByName('FIRSTCORPSCOMMANDCENTER')
+redIADS:getEarlyWarningRadarByUnitName('FIRSTSBORKA_SBORKA_3'):addConnectionNode(connectionNodeEW)
+
 --activate the IADS
 redIADS:activate()
 

@@ -85,7 +85,7 @@ redIADS:getSAMSiteByGroupName('IADS_NORTH_8001_SA5_BN'):addPointDefence(sa15)
 
 
 -- SA-10 
-redIADS:getSAMSiteByGroupName('IADS_NORTH_8291_SA10_BN'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE)
+redIADS:getSAMSiteByGroupName('IADS_NORTH_8291_SA10_BN'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(150)
 
 local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD3_SA15_1')
 redIADS:getSAMSiteByGroupName('IADS_NORTH_8291_SA10_BN'):addPointDefence(sa15)
@@ -99,7 +99,7 @@ redIADS:getSAMSiteByGroupName('IADS_NORTH_8291_SA10_BN'):addPointDefence(sa15)
 
 -- SA-2 ivo MURMANSK
 --set this SA-2 site to go live at maximunm search range (default is at maximung firing range):
-redIADS:getSAMSiteByGroupName('IADS_NORTH_8111_SA2_BN'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE)
+redIADS:getSAMSiteByGroupName('IADS_NORTH_8111_SA2_BN'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(130)
 
 local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD4_SA15_1')
 redIADS:getSAMSiteByGroupName('IADS_NORTH_8111_SA2_BN'):addPointDefence(sa15)

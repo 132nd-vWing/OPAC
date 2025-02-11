@@ -2187,6 +2187,298 @@ mission =
                                 ["x"] = 102372.48394979,
                                 ["y"] = -25302.957536859,
                             }, -- end of [12]
+                            [13] =
+                            {
+                                ["communication"] = true,
+                                ["dynSpawnTemplate"] = false,
+                                ["frequency"] = 305,
+                                ["groupId"] = 321,
+                                ["hidden"] = false,
+                                ["lateActivation"] = true,
+                                ["modulation"] = 0,
+                                ["name"] = "ColdBorder",
+                                ["radioSet"] = false,
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 2000,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 220.97222222222,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EngageTargets",
+                                                            ["key"] = "CAP",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["priority"] = 0,
+                                                                ["targetTypes"] =
+                                                                {
+                                                                    [1] = "Air",
+                                                                }, -- end of ["targetTypes"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 2,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 17,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                        [3] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 3,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 18,
+                                                                        ["value"] = 4,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [3]
+                                                        [4] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 4,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 19,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [4]
+                                                        [5] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 5,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 21,
+                                                                        ["noTargetTypes"] =
+                                                                        {
+                                                                            [1] = "Fighters",
+                                                                            [2] = "Multirole fighters",
+                                                                            [3] = "Bombers",
+                                                                            [4] = "Helicopters",
+                                                                            [5] = "UAVs",
+                                                                            [6] = "Infantry",
+                                                                            [7] = "Fortifications",
+                                                                            [8] = "Tanks",
+                                                                            [9] = "IFV",
+                                                                            [10] = "APC",
+                                                                            [11] = "Artillery",
+                                                                            [12] = "Unarmed vehicles",
+                                                                            [13] = "AAA",
+                                                                            [14] = "SR SAM",
+                                                                            [15] = "MR SAM",
+                                                                            [16] = "LR SAM",
+                                                                            [17] = "Aircraft Carriers",
+                                                                            [18] = "Cruisers",
+                                                                            [19] = "Destroyers",
+                                                                            [20] = "Frigates",
+                                                                            [21] = "Corvettes",
+                                                                            [22] = "Light armed ships",
+                                                                            [23] = "Unarmed ships",
+                                                                            [24] = "Submarines",
+                                                                            [25] = "Cruise missiles",
+                                                                            [26] = "Antiship Missiles",
+                                                                            [27] = "AA Missiles",
+                                                                            [28] = "AG Missiles",
+                                                                            [29] = "SA Missiles",
+                                                                        }, -- end of ["noTargetTypes"]
+                                                                        ["targetTypes"] =
+                                                                        {
+                                                                        }, -- end of ["targetTypes"]
+                                                                        ["value"] = "none;",
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [5]
+                                                        [6] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 6,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["groupId"] = 19,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [6]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 62498.131086062,
+                                            ["y"] = 74674.936650398,
+                                        }, -- end of [1]
+                                        [2] =
+                                        {
+                                            ["ETA"] = 618.31308717238,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 2000,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 220.97222222222,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -16818.981475467,
+                                            ["y"] = 185924.91271072,
+                                        }, -- end of [2]
+                                    }, -- end of ["points"]
+                                    ["routeRelativeTOT"] = true,
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "CAP",
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrolled"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["AddPropAircraft"] =
+                                        {
+                                            ["STN_L16"] = "01730",
+                                            ["VoiceCallsignLabel"] = "ED",
+                                            ["VoiceCallsignNumber"] = "11",
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 2000,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 1,
+                                            [2] = 1,
+                                            [3] = 1,
+                                            ["name"] = "Enfield11",
+                                        }, -- end of ["callsign"]
+                                        ["datalinks"] =
+                                        {
+                                            ["Link16"] =
+                                            {
+                                                ["network"] =
+                                                {
+                                                    ["donors"] =
+                                                    {
+                                                    }, -- end of ["donors"]
+                                                    ["teamMembers"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["TDOA"] = true,
+                                                            ["missionUnitId"] = 856,
+                                                        }, -- end of [1]
+                                                    }, -- end of ["teamMembers"]
+                                                }, -- end of ["network"]
+                                                ["settings"] =
+                                                {
+                                                    ["fighterChannel"] = 1,
+                                                    ["flightLead"] = true,
+                                                    ["missionChannel"] = 1,
+                                                    ["specialChannel"] = 1,
+                                                    ["transmitPower"] = 3,
+                                                }, -- end of ["settings"]
+                                            }, -- end of ["Link16"]
+                                        }, -- end of ["datalinks"]
+                                        ["heading"] = 2.1901693888128,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "ColdBorder",
+                                        ["onboard_num"] = "010",
+                                        ["payload"] =
+                                        {
+                                            ["ammo_type"] = 5,
+                                            ["chaff"] = 60,
+                                            ["flare"] = 60,
+                                            ["fuel"] = 3249,
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -2.1901693888128,
+                                        ["skill"] = "High",
+                                        ["speed"] = 220.97222222222,
+                                        ["type"] = "F-16C_50",
+                                        ["unitId"] = 856,
+                                        ["x"] = 62498.131086062,
+                                        ["y"] = 74674.936650398,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 62498.131086062,
+                                ["y"] = 74674.936650398,
+                            }, -- end of [13]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
                     ["static"] =
@@ -23266,7 +23558,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 174364,
+    ["currentKey"] = 179568,
     ["date"] =
     {
         ["Day"] = 20,
@@ -30437,11 +30729,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 139880.42755863,
-        ["centerY"] = 439528.2722355,
-        ["zoom"] = 925050.45967198,
+        ["centerX"] = 130226.70447464,
+        ["centerY"] = 374431.81659072,
+        ["zoom"] = 1802661.6491256,
     }, -- end of ["map"]
-    ["maxDictId"] = 10,
+    ["maxDictId"] = 15,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
@@ -30505,20 +30797,24 @@ mission =
         ["actions"] =
         {
             [1] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_6\"));",
-            [2] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_7\")); mission.trig.func[2]=nil;",
-            [3] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_9\")); mission.trig.func[3]=nil;",
-            [4] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_8\")); mission.trig.func[4]=nil;",
-            [5] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_10\")); mission.trig.func[5]=nil;",
-            [6] = "a_group_off(228);a_group_off(224);a_group_off(248); mission.trig.func[6]=nil;",
+            [2] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_12\"));",
+            [3] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_13\")); mission.trig.func[3]=nil;",
+            [4] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_9\")); mission.trig.func[4]=nil;",
+            [5] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_8\")); mission.trig.func[5]=nil;",
+            [6] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_10\")); mission.trig.func[6]=nil;",
+            [7] = "a_group_off(228);a_group_off(224);a_group_off(248); mission.trig.func[7]=nil;",
+            [8] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_15\")); mission.trig.func[8]=nil;",
         }, -- end of ["actions"]
         ["conditions"] =
         {
             [1] = "return(true)",
-            [2] = "return(c_time_after(1) )",
-            [3] = "return(c_time_after(3) )",
-            [4] = "return(c_time_after(6) )",
-            [5] = "return(c_time_after(8) )",
-            [6] = "return(c_time_after(10) )",
+            [2] = "return(true)",
+            [3] = "return(c_time_after(1) )",
+            [4] = "return(c_time_after(3) )",
+            [5] = "return(c_time_after(4) )",
+            [6] = "return(c_time_after(5) )",
+            [7] = "return(c_time_after(6) )",
+            [8] = "return(c_time_after(7) )",
         }, -- end of ["conditions"]
         ["custom"] =
         {
@@ -30537,18 +30833,22 @@ mission =
             [4] = true,
             [5] = true,
             [6] = true,
+            [7] = true,
+            [8] = true,
         }, -- end of ["flag"]
         ["func"] =
         {
-            [2] = "if mission.trig.conditions[2]() then mission.trig.actions[2]() end",
             [3] = "if mission.trig.conditions[3]() then mission.trig.actions[3]() end",
             [4] = "if mission.trig.conditions[4]() then mission.trig.actions[4]() end",
             [5] = "if mission.trig.conditions[5]() then mission.trig.actions[5]() end",
             [6] = "if mission.trig.conditions[6]() then mission.trig.actions[6]() end",
+            [7] = "if mission.trig.conditions[7]() then mission.trig.actions[7]() end",
+            [8] = "if mission.trig.conditions[8]() then mission.trig.actions[8]() end",
         }, -- end of ["func"]
         ["funcStartup"] =
         {
             [1] = "if mission.trig.conditions[1]() then mission.trig.actions[1]() end",
+            [2] = "if mission.trig.conditions[2]() then mission.trig.actions[2]() end",
         }, -- end of ["funcStartup"]
     }, -- end of ["trig"]
     ["triggers"] =
@@ -42288,11 +42588,28 @@ mission =
             {
                 [1] =
                 {
-                    ["file"] = "ResKey_Action_7",
+                    ["file"] = "ResKey_Action_12",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [1]
             }, -- end of ["actions"]
-            ["comment"] = "Load Moose",
+            ["comment"] = "Load MOOSE",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerStart",
+            ["rules"] =
+            {
+            }, -- end of ["rules"]
+        }, -- end of [2]
+        [3] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["file"] = "ResKey_Action_13",
+                    ["predicate"] = "a_do_script_file",
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["comment"] = "OPAC_MISC",
             ["eventlist"] = "",
             ["predicate"] = "triggerOnce",
             ["rules"] =
@@ -42300,14 +42617,15 @@ mission =
                 [1] =
                 {
                     ["coalitionlist"] = "red",
+                    ["flag"] = "1",
                     ["predicate"] = "c_time_after",
                     ["seconds"] = 1,
                     ["unitType"] = "ALL",
                     ["zone"] = 2831,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [2]
-        [3] =
+        }, -- end of [3]
+        [4] =
         {
             ["actions"] =
             {
@@ -42331,8 +42649,8 @@ mission =
                     ["zone"] = 2831,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [3]
-        [4] =
+        }, -- end of [4]
+        [5] =
         {
             ["actions"] =
             {
@@ -42351,13 +42669,13 @@ mission =
                 {
                     ["coalitionlist"] = "red",
                     ["predicate"] = "c_time_after",
-                    ["seconds"] = 6,
+                    ["seconds"] = 4,
                     ["unitType"] = "ALL",
                     ["zone"] = 2831,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [4]
-        [5] =
+        }, -- end of [5]
+        [6] =
         {
             ["actions"] =
             {
@@ -42376,13 +42694,13 @@ mission =
                 {
                     ["coalitionlist"] = "red",
                     ["predicate"] = "c_time_after",
-                    ["seconds"] = 8,
+                    ["seconds"] = 5,
                     ["unitType"] = "ALL",
                     ["zone"] = 2831,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [5]
-        [6] =
+        }, -- end of [6]
+        [7] =
         {
             ["actions"] =
             {
@@ -42411,12 +42729,38 @@ mission =
                 {
                     ["coalitionlist"] = "red",
                     ["predicate"] = "c_time_after",
-                    ["seconds"] = 10,
+                    ["seconds"] = 6,
                     ["unitType"] = "ALL",
                     ["zone"] = 2831,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [6]
+        }, -- end of [7]
+        [8] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["file"] = "ResKey_Action_15",
+                    ["predicate"] = "a_do_script_file",
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["comment"] = "OPAC_RedAir",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["coalitionlist"] = "red",
+                    ["flag"] = "1",
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 7,
+                    ["unitType"] = "ALL",
+                    ["zone"] = 2831,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [8]
     }, -- end of ["trigrules"]
     ["version"] = 23,
     ["weather"] =

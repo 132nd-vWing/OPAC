@@ -7,7 +7,6 @@ local Redair_Debugging = true --change to false to silence the messages
 
 
 airfield_Cap_table = {
---"Alakourtti",
 --"Andoya",
 --"Banak",
 --"Bardufoss",
@@ -16,42 +15,50 @@ airfield_Cap_table = {
 --"Jokkmokk",
 --"Kalixfors",
 --"Kallax",
-"Kemi_Tornio",
+--"Kemi_Tornio",
 --"Kirkenes",
 --"Kiruna",
-"Kittila",
+--"Kittila",
 --"Kuusamo",
-"Monchegorsk",
---"Murmansk_International",
---"Olenya",
 --"Rovaniemi",
---"Severomorsk",
 --"Vidsel",
 --"Vuojarvi",
+
+--"Severomorsk-1",
+"Severomorsk-3",
+--"Monchegorsk",
+"Murmansk_International",
+--"Olenya",
+
+--"Alakourtti",
 }
 -- these are the airfields that will launch QRF fighters upon detection by Skynet. you can comment out as many as you want..
 airfield_GCI_table = {
---"Alakourtti",
 --"Andoya",
 --"Banak",
 --"Bardufoss",
 --"Bodo",
 --"Ivalo",
-"Jokkmokk",
+--"Jokkmokk",
 --"Kalixfors",
 --"Kallax",
 --"Kemi_Tornio",
 --"Kirkenes",
-"Kiruna",
+--"Kiruna",
 --"Kittila",
 --"Kuusamo",
---"Monchegorsk",
---"Murmansk_International",
---"Olenya",
 --"Rovaniemi",
---"Severomorsk",
 --"Vidsel",
 --"Vuojarvi",
+
+--"Severomorsk-1",
+--"Severomorsk-3",
+"Monchegorsk",
+--"Murmansk_International",
+"Olenya",
+
+--"Alakourtti",
+
 }
 
 local function pickNumber() -- picks a random number of 1-4 with a weighting of 2 about 2/3rds of the time

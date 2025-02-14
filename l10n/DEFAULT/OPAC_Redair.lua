@@ -24,11 +24,11 @@ airfield_Cap_table = {
 --"Vidsel",
 --"Vuojarvi",
 
---"Severomorsk-1",
+"Severomorsk-1",
 "Severomorsk-3",
---"Monchegorsk",
-"Murmansk_International",
---"Olenya",
+"Monchegorsk",
+--"Murmansk_International",
+"Olenya",
 
 --"Alakourtti",
 }

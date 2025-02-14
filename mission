@@ -33076,6 +33076,20 @@ mission =
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
                                                         }, -- end of [7]
+                                                        [8] =
+                                                        {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "Orbit",
+                                                            ["number"] = 8,
+                                                            ["params"] =
+                                                            {
+                                                                ["altitude"] = 7620,
+                                                                ["pattern"] = "Race-Track",
+                                                                ["speed"] = 231.25,
+                                                                ["speedEdited"] = true,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [8]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -33085,7 +33099,7 @@ mission =
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 423.85305476393,
+                                            ["ETA"] = 338.06166292918,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 7620,
@@ -33104,8 +33118,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 131727.38306908,
-                                            ["y"] = 409467.27206952,
+                                            ["x"] = 130562.01536686,
+                                            ["y"] = 408634.88456724,
                                         }, -- end of [2]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = true,
@@ -33131,7 +33145,7 @@ mission =
                                             ["name"] = "Uzi11",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = -1.5748779173061,
+                                        ["heading"] = -1.5897334846402,
                                         ["livery_id"] = "Air Force Standard",
                                         ["name"] = "Cap_Severomorsk-3",
                                         ["onboard_num"] = "901",
@@ -33185,7 +33199,7 @@ mission =
                                                 }, -- end of [10]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 1.5748779173061,
+                                        ["psi"] = 1.5897334846402,
                                         ["skill"] = "Excellent",
                                         ["speed"] = 231.3780667263,
                                         ["type"] = "Su-27",
@@ -33217,10 +33231,10 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Turning Point",
-                                            ["alt"] = 2000,
+                                            ["alt"] = 7620,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
-                                            ["speed"] = 169.58333333333,
+                                            ["speed"] = 231.3780667263,
                                             ["speed_locked"] = true,
                                             ["task"] =
                                             {
@@ -33356,6 +33370,35 @@ mission =
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
                                                         }, -- end of [5]
+                                                        [6] =
+                                                        {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "Orbit",
+                                                            ["number"] = 6,
+                                                            ["params"] =
+                                                            {
+                                                                ["altitude"] = 7620,
+                                                                ["altitudeEdited"] = true,
+                                                                ["pattern"] = "Race-Track",
+                                                                ["speed"] = 231.25,
+                                                                ["speedEdited"] = true,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [6]
+                                                        [7] =
+                                                        {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "Orbit",
+                                                            ["number"] = 7,
+                                                            ["params"] =
+                                                            {
+                                                                ["altitude"] = 7620,
+                                                                ["pattern"] = "Race-Track",
+                                                                ["speed"] = 231.25,
+                                                                ["speedEdited"] = true,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [7]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -33363,6 +33406,30 @@ mission =
                                             ["x"] = 363454.2485412,
                                             ["y"] = 585205.97219034,
                                         }, -- end of [1]
+                                        [2] =
+                                        {
+                                            ["ETA"] = 504.07839815119,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 7620,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 231.3780667263,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 266493.59425756,
+                                            ["y"] = 520384.56532645,
+                                        }, -- end of [2]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = true,
                                 }, -- end of ["route"]
@@ -33376,7 +33443,7 @@ mission =
                                 {
                                     [1] =
                                     {
-                                        ["alt"] = 2000,
+                                        ["alt"] = 7620,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] =
                                         {
@@ -33387,7 +33454,7 @@ mission =
                                             ["name"] = "Uzi211",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = 0,
+                                        ["heading"] = -2.5522990161888,
                                         ["livery_id"] = "279th kiap 2nd squad navy",
                                         ["name"] = "Cap_Severomorsk-1",
                                         ["onboard_num"] = "910",
@@ -33449,9 +33516,9 @@ mission =
                                                 }, -- end of [12]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0,
+                                        ["psi"] = 2.5522990161888,
                                         ["skill"] = "Excellent",
-                                        ["speed"] = 169.58333333333,
+                                        ["speed"] = 231.3780667263,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 967,
                                         ["x"] = 363454.2485412,
@@ -33662,30 +33729,6 @@ mission =
                                             ["x"] = 210378.35509372,
                                             ["y"] = 464881.38427986,
                                         }, -- end of [1]
-                                        [2] =
-                                        {
-                                            ["ETA"] = 320.44751714477,
-                                            ["ETA_locked"] = false,
-                                            ["action"] = "Turning Point",
-                                            ["alt"] = 7620,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["speed"] = 231.3780667263,
-                                            ["speed_locked"] = true,
-                                            ["task"] =
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] =
-                                                {
-                                                    ["tasks"] =
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["x"] = 229897.93663147,
-                                            ["y"] = 393352.39140797,
-                                        }, -- end of [2]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = true,
                                 }, -- end of ["route"]
@@ -33796,10 +33839,10 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Turning Point",
-                                            ["alt"] = 2000,
+                                            ["alt"] = 7620,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
-                                            ["speed"] = 277.5,
+                                            ["speed"] = 231.25,
                                             ["speed_locked"] = true,
                                             ["task"] =
                                             {
@@ -33919,6 +33962,34 @@ mission =
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
                                                         }, -- end of [4]
+                                                        [5] =
+                                                        {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "Orbit",
+                                                            ["number"] = 5,
+                                                            ["params"] =
+                                                            {
+                                                                ["altitude"] = 7620,
+                                                                ["pattern"] = "Race-Track",
+                                                                ["speed"] = 231.25,
+                                                                ["speedEdited"] = true,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [5]
+                                                        [6] =
+                                                        {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "Orbit",
+                                                            ["number"] = 6,
+                                                            ["params"] =
+                                                            {
+                                                                ["altitude"] = 7620,
+                                                                ["pattern"] = "Race-Track",
+                                                                ["speed"] = 231.25,
+                                                                ["speedEdited"] = true,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [6]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -33926,6 +33997,30 @@ mission =
                                             ["x"] = 361938.61032585,
                                             ["y"] = 615518.73649739,
                                         }, -- end of [1]
+                                        [2] =
+                                        {
+                                            ["ETA"] = 329.66024721956,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 7620,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 231.25,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 285912.39124195,
+                                            ["y"] = 621142.4742077,
+                                        }, -- end of [2]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = true,
                                 }, -- end of ["route"]
@@ -33939,7 +34034,7 @@ mission =
                                 {
                                     [1] =
                                     {
-                                        ["alt"] = 2000,
+                                        ["alt"] = 7620,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] =
                                         {
@@ -33950,7 +34045,7 @@ mission =
                                             ["name"] = "Uzi41",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = 0,
+                                        ["heading"] = 3.0677560987615,
                                         ["livery_id"] = "174 GvIAP_Boris Safonov",
                                         ["name"] = "Cap_Olenya",
                                         ["onboard_num"] = "941",
@@ -33988,9 +34083,9 @@ mission =
                                                 }, -- end of [6]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0,
+                                        ["psi"] = -3.0677560987615,
                                         ["skill"] = "Excellent",
-                                        ["speed"] = 277.5,
+                                        ["speed"] = 231.25,
                                         ["type"] = "MiG-31",
                                         ["unitId"] = 969,
                                         ["x"] = 361938.61032585,
@@ -34020,10 +34115,10 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Turning Point",
-                                            ["alt"] = 2000,
+                                            ["alt"] = 7620,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
-                                            ["speed"] = 220.97222222222,
+                                            ["speed"] = 231.3780667263,
                                             ["speed_locked"] = true,
                                             ["task"] =
                                             {
@@ -34159,6 +34254,20 @@ mission =
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
                                                         }, -- end of [5]
+                                                        [6] =
+                                                        {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "Orbit",
+                                                            ["number"] = 6,
+                                                            ["params"] =
+                                                            {
+                                                                ["altitude"] = 7620,
+                                                                ["pattern"] = "Race-Track",
+                                                                ["speed"] = 231.25,
+                                                                ["speedEdited"] = true,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [6]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -34179,7 +34288,7 @@ mission =
                                 {
                                     [1] =
                                     {
-                                        ["alt"] = 2000,
+                                        ["alt"] = 7620,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] =
                                         {
@@ -34190,7 +34299,7 @@ mission =
                                             ["name"] = "Uzi51",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = 0,
+                                        ["heading"] = -2.8943753880542,
                                         ["livery_id"] = "Strizhi (W)",
                                         ["name"] = "Cap_Monchegorsk",
                                         ["onboard_num"] = "951",
@@ -34232,9 +34341,9 @@ mission =
                                                 }, -- end of [7]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0,
+                                        ["psi"] = 2.8943753880542,
                                         ["skill"] = "Excellent",
-                                        ["speed"] = 220.97222222222,
+                                        ["speed"] = 231.3780667263,
                                         ["type"] = "MiG-29A",
                                         ["unitId"] = 970,
                                         ["x"] = 362949.03580275,
@@ -43025,7 +43134,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 204153,
+    ["currentKey"] = 213814,
     ["date"] =
     {
         ["Day"] = 20,
@@ -50196,9 +50305,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 184758.90432542,
-        ["centerY"] = 418907.63302647,
-        ["zoom"] = 449464.04856666,
+        ["centerX"] = 152728.75532073,
+        ["centerY"] = 396177.54310556,
+        ["zoom"] = 1282373.3857614,
     }, -- end of ["map"]
     ["maxDictId"] = 15,
     ["pictureFileNameB"] =

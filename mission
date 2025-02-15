@@ -38826,7 +38826,7 @@ mission =
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 612.4389078748,
+                                            ["ETA"] = 612.43890787479,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6400.8,
@@ -38933,8 +38933,25 @@ mission =
                                 ["taskSelected"] = true,
                                 ["tasks"] =
                                 {
+                                    [1] =
+                                    {
+                                        ["auto"] = false,
+                                        ["enabled"] = true,
+                                        ["id"] = "WrappedAction",
+                                        ["number"] = 1,
+                                        ["params"] =
+                                        {
+                                            ["action"] =
+                                            {
+                                                ["id"] = "Start",
+                                                ["params"] =
+                                                {
+                                                }, -- end of ["params"]
+                                            }, -- end of ["action"]
+                                        }, -- end of ["params"]
+                                    }, -- end of [1]
                                 }, -- end of ["tasks"]
-                                ["uncontrolled"] = false,
+                                ["uncontrolled"] = true,
                                 ["units"] =
                                 {
                                     [1] =
@@ -39489,7 +39506,7 @@ mission =
                                     [1] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 4.9468830997858,
+                                        ["heading"] = 4.9468830997859,
                                         ["modulation"] = 0,
                                         ["name"] = "Naval-18-1",
                                         ["skill"] = "Average",
@@ -39598,7 +39615,7 @@ mission =
                                     [1] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.99602046509592,
+                                        ["heading"] = 0.99602046509556,
                                         ["modulation"] = 0,
                                         ["name"] = "Naval-19-1",
                                         ["skill"] = "Average",
@@ -72270,7 +72287,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 253701,
+    ["currentKey"] = 259297,
     ["date"] =
     {
         ["Day"] = 20,
@@ -79441,9 +79458,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 164576.89243028,
-        ["centerY"] = -22000,
-        ["zoom"] = 2448605.5776892,
+        ["centerX"] = 112902.50174982,
+        ["centerY"] = 431086.39851179,
+        ["zoom"] = 1185018.0121185,
     }, -- end of ["map"]
     ["maxDictId"] = 15,
     ["pictureFileNameB"] =
@@ -79518,6 +79535,13 @@ mission =
             [8] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_15\")); mission.trig.func[8]=nil;",
             [9] = "a_ai_task(392, 1); mission.trig.func[9]=nil;",
             [10] = "a_ai_task(397, 1); mission.trig.func[10]=nil;",
+            [11] = "a_ai_task(402, 1); mission.trig.func[11]=nil;",
+            [12] = "a_ai_task(401, 1); mission.trig.func[12]=nil;",
+            [13] = "a_ai_task(403, 1); mission.trig.func[13]=nil;",
+            [14] = "a_ai_task(398, 1); mission.trig.func[14]=nil;",
+            [15] = "a_ai_task(399, 1); mission.trig.func[15]=nil;",
+            [16] = "a_ai_task(400, 1); mission.trig.func[16]=nil;",
+            [17] = "a_ai_task(404, 1); mission.trig.func[17]=nil;",
         }, -- end of ["actions"]
         ["conditions"] =
         {
@@ -79531,6 +79555,13 @@ mission =
             [8] = "return(c_time_after(7) )",
             [9] = "return(c_time_after(5600) )",
             [10] = "return(c_time_after(5300) )",
+            [11] = "return(c_time_after(3600) )",
+            [12] = "return(c_time_after(3592) )",
+            [13] = "return(c_time_after(3604) )",
+            [14] = "return(c_time_after(3604) )",
+            [15] = "return(c_time_after(3630) )",
+            [16] = "return(c_time_after(3611) )",
+            [17] = "return(c_part_of_group_in_zone(398, 5284) )",
         }, -- end of ["conditions"]
         ["custom"] =
         {
@@ -79553,6 +79584,13 @@ mission =
             [8] = true,
             [9] = true,
             [10] = true,
+            [11] = true,
+            [12] = true,
+            [13] = true,
+            [14] = true,
+            [15] = true,
+            [16] = true,
+            [17] = true,
         }, -- end of ["flag"]
         ["func"] =
         {
@@ -79564,6 +79602,13 @@ mission =
             [8] = "if mission.trig.conditions[8]() then mission.trig.actions[8]() end",
             [9] = "if mission.trig.conditions[9]() then mission.trig.actions[9]() end",
             [10] = "if mission.trig.conditions[10]() then mission.trig.actions[10]() end",
+            [11] = "if mission.trig.conditions[11]() then mission.trig.actions[11]() end",
+            [12] = "if mission.trig.conditions[12]() then mission.trig.actions[12]() end",
+            [13] = "if mission.trig.conditions[13]() then mission.trig.actions[13]() end",
+            [14] = "if mission.trig.conditions[14]() then mission.trig.actions[14]() end",
+            [15] = "if mission.trig.conditions[15]() then mission.trig.actions[15]() end",
+            [16] = "if mission.trig.conditions[16]() then mission.trig.actions[16]() end",
+            [17] = "if mission.trig.conditions[17]() then mission.trig.actions[17]() end",
         }, -- end of ["func"]
         ["funcStartup"] =
         {
@@ -91751,6 +91796,217 @@ mission =
                 }, -- end of [1]
             }, -- end of ["rules"]
         }, -- end of [10]
+        [11] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["ai_task"] =
+                    {
+                        [1] = 402,
+                        [2] = 1,
+                    }, -- end of ["ai_task"]
+                    ["predicate"] = "a_ai_task",
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x00ffffff",
+            ["comment"] = "Start FW recon insert",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["coalitionlist"] = "red",
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 3600,
+                    ["unitType"] = "ALL",
+                    ["zone"] = 5284,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [11]
+        [12] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["ai_task"] =
+                    {
+                        [1] = 401,
+                        [2] = 1,
+                    }, -- end of ["ai_task"]
+                    ["predicate"] = "a_ai_task",
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x00ffffff",
+            ["comment"] = "Start FW RECONflight",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["coalitionlist"] = "red",
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 3592,
+                    ["unitType"] = "ALL",
+                    ["zone"] = 5284,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [12]
+        [13] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["ai_task"] =
+                    {
+                        [1] = 403,
+                        [2] = 1,
+                    }, -- end of ["ai_task"]
+                    ["predicate"] = "a_ai_task",
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x00ffffff",
+            ["comment"] = "Start AWACS",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["coalitionlist"] = "red",
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 3604,
+                    ["unitType"] = "ALL",
+                    ["zone"] = 5284,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [13]
+        [14] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["ai_task"] =
+                    {
+                        [1] = 398,
+                        [2] = 1,
+                    }, -- end of ["ai_task"]
+                    ["predicate"] = "a_ai_task",
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x00ffffff",
+            ["comment"] = "Start TU142 patrol",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["coalitionlist"] = "red",
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 3604,
+                    ["unitType"] = "ALL",
+                    ["zone"] = 5284,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [14]
+        [15] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["ai_task"] =
+                    {
+                        [1] = 399,
+                        [2] = 1,
+                    }, -- end of ["ai_task"]
+                    ["predicate"] = "a_ai_task",
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x00ffffff",
+            ["comment"] = "Start TU160 simulated strike",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["coalitionlist"] = "red",
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 3630,
+                    ["unitType"] = "ALL",
+                    ["zone"] = 5284,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [15]
+        [16] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["ai_task"] =
+                    {
+                        [1] = 400,
+                        [2] = 1,
+                    }, -- end of ["ai_task"]
+                    ["predicate"] = "a_ai_task",
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x00ffffff",
+            ["comment"] = "Start TU95 simulated strike",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["coalitionlist"] = "red",
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 3611,
+                    ["unitType"] = "ALL",
+                    ["zone"] = 5284,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [16]
+        [17] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["ai_task"] =
+                    {
+                        [1] = 404,
+                        [2] = 1,
+                    }, -- end of ["ai_task"]
+                    ["predicate"] = "a_ai_task",
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x00ffffff",
+            ["comment"] = "Start training QRA",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 398,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["seconds"] = 3604,
+                    ["unitType"] = "ALL",
+                    ["zone"] = 5284,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [17]
     }, -- end of ["trigrules"]
     ["version"] = 23,
     ["weather"] =

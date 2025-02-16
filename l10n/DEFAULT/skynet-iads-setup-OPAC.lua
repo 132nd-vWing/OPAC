@@ -74,14 +74,14 @@ local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD1_SA15_3')
 redIADS:getSAMSiteByGroupName('IADS_NORTH _8011_SA2_BN'):addPointDefence(sa15)
 
 -- SA-5 
-local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD2_SA15_1')
-redIADS:getSAMSiteByGroupName('IADS_NORTH_8001_SA5_BN'):addPointDefence(sa15)
+--local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD2_SA15_1')
+--redIADS:getSAMSiteByGroupName('IADS_NORTH_8001_SA5_BN'):addPointDefence(sa15)
 
-local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD2_SA15_2')
-redIADS:getSAMSiteByGroupName('IADS_NORTH_8001_SA5_BN'):addPointDefence(sa15)
+--local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD2_SA15_2')
+--redIADS:getSAMSiteByGroupName('IADS_NORTH_8001_SA5_BN'):addPointDefence(sa15)
 
-local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD2_SA15_3')
-redIADS:getSAMSiteByGroupName('IADS_NORTH_8001_SA5_BN'):addPointDefence(sa15)
+--local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD2_SA15_3')
+--redIADS:getSAMSiteByGroupName('IADS_NORTH_8001_SA5_BN'):addPointDefence(sa15)
 
 
 -- SA-10 

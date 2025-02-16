@@ -40017,8 +40017,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 283,
-                                        ["x"] = 436301.54367478,
-                                        ["y"] = 425724.68152781,
+                                        ["x"] = 435987.86299252,
+                                        ["y"] = 424451.52009218,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -40029,8 +40029,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 282,
-                                        ["x"] = 442024.68067616,
-                                        ["y"] = 434705.60420691,
+                                        ["x"] = 426514.24609428,
+                                        ["y"] = 431900.43258737,
                                     }, -- end of [3]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
@@ -40460,7 +40460,7 @@ mission =
                                         }, -- end of [2]
                                         [3] =
                                         {
-                                            ["ETA"] = 22567.083775643,
+                                            ["ETA"] = 43519.773241812,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
@@ -40479,8 +40479,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 217081.30877641,
-                                            ["y"] = 517680.86186319,
+                                            ["x"] = 343721.74618818,
+                                            ["y"] = 346848.75171765,
                                         }, -- end of [3]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -51504,6 +51504,1141 @@ mission =
                                 ["x"] = 192506.27080562,
                                 ["y"] = 315382.72551254,
                             }, -- end of [199]
+                            [200] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 543,
+                                ["heading"] = 4.7123889803847,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Static Su-27-1",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 67138.941032809,
+                                            ["y"] = 451602.59525396,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Planes",
+                                        ["heading"] = 4.7123889803847,
+                                        ["livery_id"] = "Air Force Standard",
+                                        ["name"] = "Static Su-27-1-1",
+                                        ["rate"] = "50",
+                                        ["type"] = "Su-27",
+                                        ["unitId"] = 1482,
+                                        ["x"] = 67138.941032809,
+                                        ["y"] = 451602.59525396,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 67138.941032809,
+                                ["y"] = 451602.59525396,
+                            }, -- end of [200]
+                            [201] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 544,
+                                ["heading"] = 4.7123889803847,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Static MiG-31-1",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 67058.044349671,
+                                            ["y"] = 451595.24082573,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Planes",
+                                        ["heading"] = 4.7123889803847,
+                                        ["livery_id"] = "174 GvIAP_Boris Safonov",
+                                        ["name"] = "Static MiG-31-1",
+                                        ["rate"] = "50",
+                                        ["type"] = "MiG-31",
+                                        ["unitId"] = 1483,
+                                        ["x"] = 67058.044349671,
+                                        ["y"] = 451595.24082573,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 67058.044349671,
+                                ["y"] = 451595.24082573,
+                            }, -- end of [201]
+                            [202] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 545,
+                                ["heading"] = 4.7123889803847,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Static Su-33-2",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 67116.34705586,
+                                            ["y"] = 451602.29796478,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Planes",
+                                        ["heading"] = 4.7123889803847,
+                                        ["livery_id"] = "AAF BLUE 68",
+                                        ["name"] = "Static Su-33-2-1",
+                                        ["rate"] = "50",
+                                        ["type"] = "Su-33",
+                                        ["unitId"] = 1484,
+                                        ["x"] = 67116.34705586,
+                                        ["y"] = 451602.29796478,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 67116.34705586,
+                                ["y"] = 451602.29796478,
+                            }, -- end of [202]
+                            [203] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 546,
+                                ["heading"] = 4.7123889803847,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Static Su-34-2",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 67096.428681445,
+                                            ["y"] = 451599.02778391,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Planes",
+                                        ["heading"] = 4.7123889803847,
+                                        ["livery_id"] = "russian air force",
+                                        ["name"] = "Static Su-34-2-1",
+                                        ["rate"] = 70,
+                                        ["type"] = "Su-34",
+                                        ["unitId"] = 1485,
+                                        ["x"] = 67096.428681445,
+                                        ["y"] = 451599.02778391,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 67096.428681445,
+                                ["y"] = 451599.02778391,
+                            }, -- end of [203]
+                            [204] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 547,
+                                ["heading"] = 4.7123889803847,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Static MiG-29A-2",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 67072.588403591,
+                                            ["y"] = 451596.69523113,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Planes",
+                                        ["heading"] = 4.7123889803847,
+                                        ["livery_id"] = "Air Force Standard",
+                                        ["name"] = "Static MiG-29A-2-1",
+                                        ["rate"] = "50",
+                                        ["type"] = "MiG-29A",
+                                        ["unitId"] = 1486,
+                                        ["x"] = 67072.588403591,
+                                        ["y"] = 451596.69523113,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 67072.588403591,
+                                ["y"] = 451596.69523113,
+                            }, -- end of [204]
+                            [205] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 548,
+                                ["heading"] = 4.7123889803847,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Field Hospital",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 76237.151153531,
+                                            ["y"] = 252916.72128863,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 4.7123889803847,
+                                        ["name"] = "Field Hospital-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 1487,
+                                        ["x"] = 76237.151153531,
+                                        ["y"] = 252916.72128863,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 76237.151153531,
+                                ["y"] = 252916.72128863,
+                            }, -- end of [205]
+                            [206] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 549,
+                                ["heading"] = 0,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Field Hospital-1",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 76230.148216096,
+                                            ["y"] = 252906.31741658,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0,
+                                        ["name"] = "Field Hospital-1-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 1488,
+                                        ["x"] = 76230.148216096,
+                                        ["y"] = 252906.31741658,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 76230.148216096,
+                                ["y"] = 252906.31741658,
+                            }, -- end of [206]
+                            [207] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 550,
+                                ["heading"] = 0,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Field Hospital-2",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 76244.294385895,
+                                            ["y"] = 252906.31465062,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0,
+                                        ["name"] = "Field Hospital-2-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 1489,
+                                        ["x"] = 76244.294385895,
+                                        ["y"] = 252906.31465062,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 76244.294385895,
+                                ["y"] = 252906.31465062,
+                            }, -- end of [207]
+                            [208] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 551,
+                                ["heading"] = 4.7123889803847,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Field Hospital-3",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 76237.223673657,
+                                            ["y"] = 252895.87175255,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 4.7123889803847,
+                                        ["name"] = "Field Hospital-3-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 1490,
+                                        ["x"] = 76237.223673657,
+                                        ["y"] = 252895.87175255,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 76237.223673657,
+                                ["y"] = 252895.87175255,
+                            }, -- end of [208]
+                            [209] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 552,
+                                ["heading"] = 3.7175513067479,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Static LUV Tigr-1",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 76227.68727715,
+                                            ["y"] = 252890.7590837,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["heading"] = 3.7175513067479,
+                                        ["name"] = "Static LUV Tigr-1",
+                                        ["rate"] = 3,
+                                        ["type"] = "Tigr_233036",
+                                        ["unitId"] = 1491,
+                                        ["x"] = 76227.68727715,
+                                        ["y"] = 252890.7590837,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 76227.68727715,
+                                ["y"] = 252890.7590837,
+                            }, -- end of [209]
+                            [210] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 553,
+                                ["heading"] = 3.1415926535898,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Static LUV Tigr-2",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 76218.36844102,
+                                            ["y"] = 252906.64099119,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["heading"] = 3.1415926535898,
+                                        ["name"] = "Static LUV Tigr-2-1",
+                                        ["rate"] = 3,
+                                        ["type"] = "Tigr_233036",
+                                        ["unitId"] = 1492,
+                                        ["x"] = 76218.36844102,
+                                        ["y"] = 252906.64099119,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 76218.36844102,
+                                ["y"] = 252906.64099119,
+                            }, -- end of [210]
+                            [211] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 554,
+                                ["heading"] = 3.7175513067479,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Static LUV Tigr-3",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 76223.734930309,
+                                            ["y"] = 252895.61793211,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["heading"] = 3.7175513067479,
+                                        ["name"] = "Static LUV Tigr-3-1",
+                                        ["rate"] = 3,
+                                        ["type"] = "Tigr_233036",
+                                        ["unitId"] = 1493,
+                                        ["x"] = 76223.734930309,
+                                        ["y"] = 252895.61793211,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 76223.734930309,
+                                ["y"] = 252895.61793211,
+                            }, -- end of [211]
+                            [212] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 555,
+                                ["heading"] = 4.7123889803847,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Field Hospital-4",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 124683.28146176,
+                                            ["y"] = 250702.12076697,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 4.7123889803847,
+                                        ["name"] = "Field Hospital-4-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 1494,
+                                        ["x"] = 124683.28146176,
+                                        ["y"] = 250702.12076697,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 124683.28146176,
+                                ["y"] = 250702.12076697,
+                            }, -- end of [212]
+                            [213] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 556,
+                                ["heading"] = 3.1415926535898,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Static LUV Tigr-4",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 124664.42622912,
+                                            ["y"] = 250712.89000561,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["heading"] = 3.1415926535898,
+                                        ["name"] = "Static LUV Tigr-4-1",
+                                        ["rate"] = 3,
+                                        ["type"] = "Tigr_233036",
+                                        ["unitId"] = 1495,
+                                        ["x"] = 124664.42622912,
+                                        ["y"] = 250712.89000561,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 124664.42622912,
+                                ["y"] = 250712.89000561,
+                            }, -- end of [213]
+                            [214] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 557,
+                                ["heading"] = 4.7123889803847,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Field Hospital-5",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 124683.20894163,
+                                            ["y"] = 250722.97030305,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 4.7123889803847,
+                                        ["name"] = "Field Hospital-5-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 1496,
+                                        ["x"] = 124683.20894163,
+                                        ["y"] = 250722.97030305,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 124683.20894163,
+                                ["y"] = 250722.97030305,
+                            }, -- end of [214]
+                            [215] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 558,
+                                ["heading"] = 0,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Field Hospital-6",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 124690.35217399,
+                                            ["y"] = 250712.56366504,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0,
+                                        ["name"] = "Field Hospital-6-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 1497,
+                                        ["x"] = 124690.35217399,
+                                        ["y"] = 250712.56366504,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 124690.35217399,
+                                ["y"] = 250712.56366504,
+                            }, -- end of [215]
+                            [216] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 559,
+                                ["heading"] = 3.7175513067479,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Static LUV Tigr-5",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 124673.74506525,
+                                            ["y"] = 250697.00809812,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["heading"] = 3.7175513067479,
+                                        ["name"] = "Static LUV Tigr-5-1",
+                                        ["rate"] = 3,
+                                        ["type"] = "Tigr_233036",
+                                        ["unitId"] = 1498,
+                                        ["x"] = 124673.74506525,
+                                        ["y"] = 250697.00809812,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 124673.74506525,
+                                ["y"] = 250697.00809812,
+                            }, -- end of [216]
+                            [217] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 560,
+                                ["heading"] = 3.7175513067479,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Static LUV Tigr-6",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 124669.79271841,
+                                            ["y"] = 250701.86694653,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["heading"] = 3.7175513067479,
+                                        ["name"] = "Static LUV Tigr-6-1",
+                                        ["rate"] = 3,
+                                        ["type"] = "Tigr_233036",
+                                        ["unitId"] = 1499,
+                                        ["x"] = 124669.79271841,
+                                        ["y"] = 250701.86694653,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 124669.79271841,
+                                ["y"] = 250701.86694653,
+                            }, -- end of [217]
+                            [218] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 561,
+                                ["heading"] = 0,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Field Hospital-7",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 124676.20600419,
+                                            ["y"] = 250712.566431,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0,
+                                        ["name"] = "Field Hospital-7-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 1500,
+                                        ["x"] = 124676.20600419,
+                                        ["y"] = 250712.566431,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 124676.20600419,
+                                ["y"] = 250712.566431,
+                            }, -- end of [218]
+                            [219] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 562,
+                                ["heading"] = 0,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Field Hospital-8",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 1080.3780035887,
+                                            ["y"] = 315783.11371086,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0,
+                                        ["name"] = "Field Hospital-8-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 1501,
+                                        ["x"] = 1080.3780035887,
+                                        ["y"] = 315783.11371086,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 1080.3780035887,
+                                ["y"] = 315783.11371086,
+                            }, -- end of [219]
+                            [220] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 563,
+                                ["heading"] = 3.7175513067479,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Static LUV Tigr-7",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 1059.8185480025,
+                                            ["y"] = 315772.41699234,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["heading"] = 3.7175513067479,
+                                        ["name"] = "Static LUV Tigr-7-1",
+                                        ["rate"] = 3,
+                                        ["type"] = "Tigr_233036",
+                                        ["unitId"] = 1502,
+                                        ["x"] = 1059.8185480025,
+                                        ["y"] = 315772.41699234,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 1059.8185480025,
+                                ["y"] = 315772.41699234,
+                            }, -- end of [220]
+                            [221] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 564,
+                                ["heading"] = 4.7123889803847,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Field Hospital-9",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 1073.3072913501,
+                                            ["y"] = 315772.67081278,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 4.7123889803847,
+                                        ["name"] = "Field Hospital-9-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 1503,
+                                        ["x"] = 1073.3072913501,
+                                        ["y"] = 315772.67081278,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 1073.3072913501,
+                                ["y"] = 315772.67081278,
+                            }, -- end of [221]
+                            [222] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 565,
+                                ["heading"] = 4.7123889803847,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Field Hospital-10",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 1073.2347712245,
+                                            ["y"] = 315793.52034887,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 4.7123889803847,
+                                        ["name"] = "Field Hospital-10-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 1504,
+                                        ["x"] = 1073.2347712245,
+                                        ["y"] = 315793.52034887,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 1073.2347712245,
+                                ["y"] = 315793.52034887,
+                            }, -- end of [222]
+                            [223] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 566,
+                                ["heading"] = 3.7175513067479,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Static LUV Tigr-8",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 1063.7708948436,
+                                            ["y"] = 315767.55814393,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["heading"] = 3.7175513067479,
+                                        ["name"] = "Static LUV Tigr-8-1",
+                                        ["rate"] = 3,
+                                        ["type"] = "Tigr_233036",
+                                        ["unitId"] = 1505,
+                                        ["x"] = 1063.7708948436,
+                                        ["y"] = 315767.55814393,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 1063.7708948436,
+                                ["y"] = 315767.55814393,
+                            }, -- end of [223]
+                            [224] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 567,
+                                ["heading"] = 0,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Field Hospital-11",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 1066.2318337893,
+                                            ["y"] = 315783.11647681,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0,
+                                        ["name"] = "Field Hospital-11-1",
+                                        ["rate"] = 50,
+                                        ["shape_name"] = "PalatkaB",
+                                        ["type"] = "FARP Tent",
+                                        ["unitId"] = 1506,
+                                        ["x"] = 1066.2318337893,
+                                        ["y"] = 315783.11647681,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 1066.2318337893,
+                                ["y"] = 315783.11647681,
+                            }, -- end of [224]
+                            [225] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 568,
+                                ["heading"] = 3.1415926535898,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Static LUV Tigr-9",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 1054.4520587137,
+                                            ["y"] = 315783.44005142,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["heading"] = 3.1415926535898,
+                                        ["name"] = "Static LUV Tigr-9-1",
+                                        ["rate"] = 3,
+                                        ["type"] = "Tigr_233036",
+                                        ["unitId"] = 1507,
+                                        ["x"] = 1054.4520587137,
+                                        ["y"] = 315783.44005142,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 1054.4520587137,
+                                ["y"] = 315783.44005142,
+                            }, -- end of [225]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["vehicle"] =
@@ -81127,7 +82262,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 386232,
+    ["currentKey"] = 405105,
     ["date"] =
     {
         ["Day"] = 20,
@@ -88298,9 +89433,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 167176.58645533,
-        ["centerY"] = 315687.31312019,
-        ["zoom"] = 1011212.9152672,
+        ["centerX"] = 34876.060190001,
+        ["centerY"] = 215453.74830277,
+        ["zoom"] = 1786383.9688767,
     }, -- end of ["map"]
     ["maxDictId"] = 15,
     ["pictureFileNameB"] =

@@ -37593,7 +37593,9 @@ mission =
                                 ["dynSpawnTemplate"] = false,
                                 ["frequency"] = 251,
                                 ["groupId"] = 577,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["modulation"] = 0,
                                 ["name"] = "1_StrikeAC_SU30_S",
                                 ["radioSet"] = false,
@@ -37901,7 +37903,7 @@ mission =
                                         }, -- end of [6]
                                         [7] =
                                         {
-                                            ["ETA"] = 3018.6352127886,
+                                            ["ETA"] = 3296.1461215364,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Landing",
                                             ["airdromeId"] = 10,
@@ -38113,7 +38115,9 @@ mission =
                                 ["dynSpawnTemplate"] = false,
                                 ["frequency"] = 251,
                                 ["groupId"] = 578,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["modulation"] = 0,
                                 ["name"] = "1_StrikeAC_SU30_Fake_S",
                                 ["radioSet"] = false,
@@ -38419,7 +38423,7 @@ mission =
                                         }, -- end of [6]
                                         [7] =
                                         {
-                                            ["ETA"] = 2538.6747856242,
+                                            ["ETA"] = 2746.9239024163,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Landing",
                                             ["airdromeId"] = 10,
@@ -38631,7 +38635,9 @@ mission =
                                 ["dynSpawnTemplate"] = false,
                                 ["frequency"] = 127.5,
                                 ["groupId"] = 579,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["modulation"] = 0,
                                 ["name"] = "1_SU27_escort_S",
                                 ["radioSet"] = false,
@@ -38832,14 +38838,14 @@ mission =
                                         }, -- end of [2]
                                         [3] =
                                         {
-                                            ["ETA"] = 777.05129484753,
+                                            ["ETA"] = 892.18580990455,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Landing",
-                                            ["airdromeId"] = 10,
-                                            ["alt"] = 172,
+                                            ["airdromeId"] = 9,
+                                            ["alt"] = 208,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
-                                            ["speed"] = 169.58333333333,
+                                            ["speed"] = 138.88888888889,
                                             ["speed_locked"] = true,
                                             ["task"] =
                                             {
@@ -38852,8 +38858,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Land",
-                                            ["x"] = 46867.561851,
-                                            ["y"] = 437312.674304,
+                                            ["x"] = 68386.710938,
+                                            ["y"] = 451986.390625,
                                         }, -- end of [3]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -39045,7 +39051,9 @@ mission =
                                 ["dynSpawnTemplate"] = false,
                                 ["frequency"] = 127.5,
                                 ["groupId"] = 580,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["modulation"] = 0,
                                 ["name"] = "1_ SU27_escort_N",
                                 ["radioSet"] = false,
@@ -39481,7 +39489,9 @@ mission =
                                 ["dynSpawnTemplate"] = false,
                                 ["frequency"] = 251,
                                 ["groupId"] = 581,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["modulation"] = 0,
                                 ["name"] = "1_ SU34_Strike_N",
                                 ["radioSet"] = false,
@@ -39786,7 +39796,7 @@ mission =
                                         }, -- end of [5]
                                         [6] =
                                         {
-                                            ["ETA"] = 1061.9138255211,
+                                            ["ETA"] = 1224.9518037203,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
@@ -40038,7 +40048,9 @@ mission =
                                 ["dynSpawnTemplate"] = false,
                                 ["frequency"] = 251,
                                 ["groupId"] = 582,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["modulation"] = 0,
                                 ["name"] = "1_ SU34_Strike_fake_N",
                                 ["radioSet"] = false,
@@ -40296,7 +40308,7 @@ mission =
                                         }, -- end of [4]
                                         [5] =
                                         {
-                                            ["ETA"] = 1061.9138255211,
+                                            ["ETA"] = 975.00251560791,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
@@ -40548,7 +40560,9 @@ mission =
                                 ["dynSpawnTemplate"] = false,
                                 ["frequency"] = 127.5,
                                 ["groupId"] = 583,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["modulation"] = 0,
                                 ["name"] = "1_SU27_Sweep_1",
                                 ["radioSet"] = false,
@@ -40935,11 +40949,11 @@ mission =
                                         }, -- end of [9]
                                         [10] =
                                         {
-                                            ["ETA"] = 3104.756151541,
+                                            ["ETA"] = 3356.8420631209,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Landing",
-                                            ["airdromeId"] = 10,
-                                            ["alt"] = 172,
+                                            ["airdromeId"] = 9,
+                                            ["alt"] = 208,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 138.88888888889,
@@ -40955,8 +40969,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Land",
-                                            ["x"] = 46867.561851,
-                                            ["y"] = 437312.674304,
+                                            ["x"] = 68386.710938,
+                                            ["y"] = 451986.390625,
                                         }, -- end of [10]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -41147,7 +41161,9 @@ mission =
                                 ["dynSpawnTemplate"] = false,
                                 ["frequency"] = 127.5,
                                 ["groupId"] = 762,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["modulation"] = 0,
                                 ["name"] = "1_SU27_Sweep_2",
                                 ["radioSet"] = false,
@@ -41534,11 +41550,11 @@ mission =
                                         }, -- end of [9]
                                         [10] =
                                         {
-                                            ["ETA"] = 3104.756151541,
+                                            ["ETA"] = 3367.74662145,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Landing",
-                                            ["airdromeId"] = 10,
-                                            ["alt"] = 172,
+                                            ["airdromeId"] = 9,
+                                            ["alt"] = 208,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 138.88888888889,
@@ -41554,8 +41570,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Land",
-                                            ["x"] = 46867.561851,
-                                            ["y"] = 437312.674304,
+                                            ["x"] = 68386.710938,
+                                            ["y"] = 451986.390625,
                                         }, -- end of [10]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -41746,9 +41762,12 @@ mission =
                                 ["dynSpawnTemplate"] = false,
                                 ["frequency"] = 251,
                                 ["groupId"] = 765,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["modulation"] = 0,
                                 ["name"] = "1_SU34_SEAD",
+                                ["radioSet"] = false,
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -42130,7 +42149,7 @@ mission =
                                             ["name"] = "Springfield11",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = 0,
+                                        ["heading"] = 2.0581587931106,
                                         ["livery_id"] = "russian air force old",
                                         ["name"] = "Aerial-1-2",
                                         ["onboard_num"] = "011",
@@ -42205,7 +42224,7 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Springfield12",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0,
+                                        ["heading"] = 2.0581587931106,
                                         ["livery_id"] = "russian air force old",
                                         ["name"] = "1_SU34_SEAD-1",
                                         ["onboard_num"] = "025",
@@ -42280,7 +42299,7 @@ mission =
                                             [3] = 3,
                                             ["name"] = "Springfield13",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0,
+                                        ["heading"] = 2.0581587931106,
                                         ["livery_id"] = "russian air force old",
                                         ["name"] = "1_SU34_SEAD-2",
                                         ["onboard_num"] = "026",
@@ -42355,7 +42374,7 @@ mission =
                                             [3] = 4,
                                             ["name"] = "Springfield14",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0,
+                                        ["heading"] = 2.0581587931106,
                                         ["livery_id"] = "russian air force old",
                                         ["name"] = "1_SU34_SEAD-4",
                                         ["onboard_num"] = "027",
@@ -53195,6 +53214,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 584,
                                 ["heading"] = 0,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static Excavator-1",
                                 ["route"] =
                                 {
@@ -53236,6 +53258,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 585,
                                 ["heading"] = 2.8448866807508,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static Excavator-2",
                                 ["route"] =
                                 {
@@ -53277,6 +53302,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 586,
                                 ["heading"] = 1.4486232791553,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static Truck ZIL-4331-1",
                                 ["route"] =
                                 {
@@ -53317,6 +53345,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 587,
                                 ["heading"] = 0.34906585039887,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static Truck ZIL-4331-2",
                                 ["route"] =
                                 {
@@ -53357,6 +53388,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 588,
                                 ["heading"] = 3.6302848441482,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static MiG-29S-1",
                                 ["route"] =
                                 {
@@ -53398,6 +53432,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 589,
                                 ["heading"] = 3.6302848441482,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static MiG-29S-2",
                                 ["route"] =
                                 {
@@ -53439,6 +53476,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 590,
                                 ["heading"] = 3.6302848441482,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static MiG-29S-3",
                                 ["route"] =
                                 {
@@ -53480,6 +53520,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 591,
                                 ["heading"] = 3.6302848441482,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static MiG-29S-4",
                                 ["route"] =
                                 {
@@ -53521,6 +53564,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 592,
                                 ["heading"] = 3.6302848441482,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static MiG-29S-5",
                                 ["route"] =
                                 {
@@ -53562,6 +53608,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 593,
                                 ["heading"] = 3.6302848441482,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static MiG-29S-6",
                                 ["route"] =
                                 {
@@ -53603,6 +53652,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 594,
                                 ["heading"] = 3.6302848441482,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static MiG-29S-7",
                                 ["route"] =
                                 {
@@ -53644,6 +53696,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 595,
                                 ["heading"] = 3.6302848441482,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static MiG-29S-8",
                                 ["route"] =
                                 {
@@ -53685,6 +53740,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 596,
                                 ["heading"] = 3.6302848441482,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static MiG-25RBT-1",
                                 ["route"] =
                                 {
@@ -53726,6 +53784,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 597,
                                 ["heading"] = 3.6302848441482,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static MiG-25RBT-2",
                                 ["route"] =
                                 {
@@ -53767,6 +53828,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 598,
                                 ["heading"] = 3.6302848441482,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static MiG-25RBT-3",
                                 ["route"] =
                                 {
@@ -53808,6 +53872,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 599,
                                 ["heading"] = 3.6302848441482,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static MiG-25RBT-4",
                                 ["route"] =
                                 {
@@ -53849,6 +53916,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 600,
                                 ["heading"] = 3.6302848441482,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static MiG-25RBT-5",
                                 ["route"] =
                                 {
@@ -53890,6 +53960,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 601,
                                 ["heading"] = 3.6302848441482,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static MiG-25RBT-6",
                                 ["route"] =
                                 {
@@ -53931,6 +54004,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 602,
                                 ["heading"] = 3.6302848441482,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static MiG-29S-9",
                                 ["route"] =
                                 {
@@ -53972,6 +54048,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 603,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-1",
                                 ["route"] =
                                 {
@@ -54012,6 +54091,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 604,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-2",
                                 ["route"] =
                                 {
@@ -54052,6 +54134,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 605,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-3",
                                 ["route"] =
                                 {
@@ -54092,6 +54177,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 606,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-4",
                                 ["route"] =
                                 {
@@ -54132,6 +54220,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 607,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-5",
                                 ["route"] =
                                 {
@@ -54172,6 +54263,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 608,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-6",
                                 ["route"] =
                                 {
@@ -54212,6 +54306,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 609,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-7",
                                 ["route"] =
                                 {
@@ -54252,6 +54349,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 610,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-8",
                                 ["route"] =
                                 {
@@ -54292,6 +54392,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 611,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-9",
                                 ["route"] =
                                 {
@@ -54332,6 +54435,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 612,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-10",
                                 ["route"] =
                                 {
@@ -54372,6 +54478,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 613,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-11",
                                 ["route"] =
                                 {
@@ -54412,6 +54521,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 614,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-12",
                                 ["route"] =
                                 {
@@ -54452,6 +54564,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 615,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-13",
                                 ["route"] =
                                 {
@@ -54492,6 +54607,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 616,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-14",
                                 ["route"] =
                                 {
@@ -54532,6 +54650,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 617,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-15",
                                 ["route"] =
                                 {
@@ -54572,6 +54693,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 618,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-16",
                                 ["route"] =
                                 {
@@ -54612,6 +54736,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 619,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-17",
                                 ["route"] =
                                 {
@@ -54652,6 +54779,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 620,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-18",
                                 ["route"] =
                                 {
@@ -54692,6 +54822,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 621,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-19",
                                 ["route"] =
                                 {
@@ -54732,6 +54865,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 622,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-20",
                                 ["route"] =
                                 {
@@ -54772,6 +54908,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 623,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-21",
                                 ["route"] =
                                 {
@@ -54812,6 +54951,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 624,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-22",
                                 ["route"] =
                                 {
@@ -54852,6 +54994,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 625,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-23",
                                 ["route"] =
                                 {
@@ -54892,6 +55037,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 626,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-24",
                                 ["route"] =
                                 {
@@ -54932,6 +55080,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 627,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-25",
                                 ["route"] =
                                 {
@@ -54972,6 +55123,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 628,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-26",
                                 ["route"] =
                                 {
@@ -55012,6 +55166,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 629,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-27",
                                 ["route"] =
                                 {
@@ -55052,6 +55209,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 630,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-28",
                                 ["route"] =
                                 {
@@ -55092,6 +55252,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 631,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-29",
                                 ["route"] =
                                 {
@@ -55132,6 +55295,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 632,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-30",
                                 ["route"] =
                                 {
@@ -55172,6 +55338,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 633,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-31",
                                 ["route"] =
                                 {
@@ -55212,6 +55381,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 634,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-32",
                                 ["route"] =
                                 {
@@ -55252,6 +55424,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 635,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-33",
                                 ["route"] =
                                 {
@@ -55292,6 +55467,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 636,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-34",
                                 ["route"] =
                                 {
@@ -55332,6 +55510,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 637,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-35",
                                 ["route"] =
                                 {
@@ -55372,6 +55553,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 638,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-36",
                                 ["route"] =
                                 {
@@ -55412,6 +55596,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 639,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-37",
                                 ["route"] =
                                 {
@@ -55452,6 +55639,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 640,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-38",
                                 ["route"] =
                                 {
@@ -55492,6 +55682,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 641,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-39",
                                 ["route"] =
                                 {
@@ -55532,6 +55725,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 642,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-40",
                                 ["route"] =
                                 {
@@ -55572,6 +55768,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 643,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-41",
                                 ["route"] =
                                 {
@@ -55612,6 +55811,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 644,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-42",
                                 ["route"] =
                                 {
@@ -55652,6 +55854,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 645,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-43",
                                 ["route"] =
                                 {
@@ -55692,6 +55897,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 646,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-44",
                                 ["route"] =
                                 {
@@ -55732,6 +55940,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 647,
                                 ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-3-45",
                                 ["route"] =
                                 {
@@ -55772,6 +55983,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 648,
                                 ["heading"] = 3.0194196059502,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-2-1",
                                 ["route"] =
                                 {
@@ -55812,6 +56026,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 649,
                                 ["heading"] = 3.0368728984701,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-2-2",
                                 ["route"] =
                                 {
@@ -55852,6 +56069,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 650,
                                 ["heading"] = 3.1066860685499,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-2-3",
                                 ["route"] =
                                 {
@@ -55892,6 +56112,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 651,
                                 ["heading"] = 2.9845130209103,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-2-4",
                                 ["route"] =
                                 {
@@ -55932,6 +56155,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 652,
                                 ["heading"] = 3.1415926535898,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-2-5",
                                 ["route"] =
                                 {
@@ -55972,6 +56198,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 653,
                                 ["heading"] = 2.8797932657906,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-2-6",
                                 ["route"] =
                                 {
@@ -56012,6 +56241,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 654,
                                 ["heading"] = 3.682644721708,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-2-7",
                                 ["route"] =
                                 {
@@ -56052,6 +56284,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 655,
                                 ["heading"] = 3.9618974020271,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-2-8",
                                 ["route"] =
                                 {
@@ -56092,6 +56327,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 656,
                                 ["heading"] = 4.2411500823462,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-2-9",
                                 ["route"] =
                                 {
@@ -56105,8 +56343,8 @@ mission =
                                             ["name"] = "",
                                             ["speed"] = 0,
                                             ["type"] = "",
-                                            ["x"] = -5057.9308218319,
-                                            ["y"] = 313312.84875915,
+                                            ["x"] = -5058.0059648139,
+                                            ["y"] = 313312.09754978,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -56120,12 +56358,12 @@ mission =
                                         ["rate"] = 10,
                                         ["type"] = "BMP-2",
                                         ["unitId"] = 1614,
-                                        ["x"] = -5057.9308218319,
-                                        ["y"] = 313312.84875915,
+                                        ["x"] = -5058.0059648139,
+                                        ["y"] = 313312.09754978,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = -5057.9308218319,
-                                ["y"] = 313312.84875915,
+                                ["x"] = -5058.0059648139,
+                                ["y"] = 313312.09754978,
                             }, -- end of [298]
                             [299] =
                             {
@@ -59246,6 +59484,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 750,
                                 ["heading"] = 3.682644721708,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-2-10",
                                 ["route"] =
                                 {
@@ -59259,8 +59500,8 @@ mission =
                                             ["name"] = "",
                                             ["speed"] = 0,
                                             ["type"] = "",
-                                            ["x"] = -2784.9915294193,
-                                            ["y"] = 312951.64686257,
+                                            ["x"] = -2782.2881706663,
+                                            ["y"] = 312953.18577867,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -59274,18 +59515,21 @@ mission =
                                         ["rate"] = 10,
                                         ["type"] = "BMP-2",
                                         ["unitId"] = 1710,
-                                        ["x"] = -2784.9915294193,
-                                        ["y"] = 312951.64686257,
+                                        ["x"] = -2782.2881706663,
+                                        ["y"] = 312953.18577867,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = -2784.9915294193,
-                                ["y"] = 312951.64686257,
+                                ["x"] = -2782.2881706663,
+                                ["y"] = 312953.18577867,
                             }, -- end of [371]
                             [372] =
                             {
                                 ["dead"] = false,
                                 ["groupId"] = 751,
                                 ["heading"] = 3.682644721708,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-2-11",
                                 ["route"] =
                                 {
@@ -59326,6 +59570,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 752,
                                 ["heading"] = 3.682644721708,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-2-12",
                                 ["route"] =
                                 {
@@ -59366,6 +59613,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 753,
                                 ["heading"] = 3.682644721708,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-2-13",
                                 ["route"] =
                                 {
@@ -59406,6 +59656,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 754,
                                 ["heading"] = 3.682644721708,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-2-14",
                                 ["route"] =
                                 {
@@ -59446,6 +59699,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 755,
                                 ["heading"] = 4.1538836197465,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-2-15",
                                 ["route"] =
                                 {
@@ -59486,6 +59742,8 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 756,
                                 ["heading"] = 3.2288591161895,
+                                ["hidden"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-2-16",
                                 ["route"] =
                                 {
@@ -59526,6 +59784,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 757,
                                 ["heading"] = 4.014257279587,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-2-17",
                                 ["route"] =
                                 {
@@ -59566,6 +59827,9 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 758,
                                 ["heading"] = 4.4680428851055,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "Static IFV BMP-2-18",
                                 ["route"] =
                                 {
@@ -145259,7 +145523,9 @@ mission =
                             [89] =
                             {
                                 ["groupId"] = 749,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "3C_31_MECH_DIV_Airdefense_SA13",
                                 ["route"] =
                                 {
@@ -145347,7 +145613,9 @@ mission =
                             [90] =
                             {
                                 ["groupId"] = 759,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "1C_11_DIV_Airdefense_SA13",
                                 ["route"] =
                                 {
@@ -145435,7 +145703,9 @@ mission =
                             [91] =
                             {
                                 ["groupId"] = 760,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "1C_10DIV_Airdefense_SA19",
                                 ["route"] =
                                 {
@@ -145523,7 +145793,9 @@ mission =
                             [92] =
                             {
                                 ["groupId"] = 761,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "3C_31_MECH_DIV_Airdefense_SA13_PLT_2",
                                 ["route"] =
                                 {
@@ -145722,7 +145994,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 526395,
+    ["currentKey"] = 546172,
     ["date"] =
     {
         ["Day"] = 21,
@@ -152893,9 +153165,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 32365.358743998,
-        ["centerY"] = 407754.16399891,
-        ["zoom"] = 636248.10467208,
+        ["centerX"] = 118566.36173417,
+        ["centerY"] = 145938.34651746,
+        ["zoom"] = 1810958.084549,
     }, -- end of ["map"]
     ["maxDictId"] = 16,
     ["pictureFileNameB"] =

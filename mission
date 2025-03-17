@@ -23196,8 +23196,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffGround",
-                                            ["x"] = -29350.812278901,
-                                            ["y"] = 100473.09760306,
+                                            ["x"] = -29348.898580721,
+                                            ["y"] = 100479.67573127,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = false,
@@ -23440,8 +23440,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "A-10C_2",
                                         ["unitId"] = 937,
-                                        ["x"] = -29350.812278901,
-                                        ["y"] = 100473.09760306,
+                                        ["x"] = -29348.898580721,
+                                        ["y"] = 100479.67573127,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -23671,8 +23671,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "A-10C_2",
                                         ["unitId"] = 948,
-                                        ["x"] = -29394.289938981,
-                                        ["y"] = 100486.82099856,
+                                        ["x"] = -29392.376240801,
+                                        ["y"] = 100493.39912677,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -23902,8 +23902,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "A-10C_2",
                                         ["unitId"] = 949,
-                                        ["x"] = -29440.439410575,
-                                        ["y"] = 100503.21620557,
+                                        ["x"] = -29438.421059109,
+                                        ["y"] = 100509.33546772,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -24133,12 +24133,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "A-10C_2",
                                         ["unitId"] = 950,
-                                        ["x"] = -29463.757038328,
-                                        ["y"] = 100510.50296424,
+                                        ["x"] = -29460.911161114,
+                                        ["y"] = 100516.32044821,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = -29350.812278901,
-                                ["y"] = 100473.09760306,
+                                ["x"] = -29348.898580721,
+                                ["y"] = 100479.67573127,
                             }, -- end of [17]
                             [18] =
                             {
@@ -24158,8 +24158,7 @@ mission =
                                         {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
-                                            ["action"] = "From Parking Area",
-                                            ["airdromeId"] = 22,
+                                            ["action"] = "From Ground Area",
                                             ["alt"] = 197,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
@@ -24371,9 +24370,9 @@ mission =
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
-                                            ["type"] = "TakeOffParking",
-                                            ["x"] = -29632.015625,
-                                            ["y"] = 100565.578125,
+                                            ["type"] = "TakeOffGround",
+                                            ["x"] = -29740.013754051,
+                                            ["y"] = 100609.06905628,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -24552,10 +24551,11 @@ mission =
                                         ["alt_type"] = "BARO",
                                         ["callsign"] =
                                         {
-                                            [1] = 3,
+                                            [1] = 9,
                                             [2] = 1,
                                             [3] = 1,
-                                            ["name"] = "Uzi11",
+                                            [4] = "Hawg11",
+                                            ["name"] = "Hawg11",
                                         }, -- end of ["callsign"]
                                         ["datalinks"] =
                                         {
@@ -24594,12 +24594,10 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["SADL"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 1.9136165597424,
+                                        ["heading"] = 4.3982297150257,
                                         ["livery_id"] = "132 617th Standard skin",
                                         ["name"] = "HAWG 2-1-1",
                                         ["onboard_num"] = "015",
-                                        ["parking"] = "10",
-                                        ["parking_id"] = "A05",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -24611,13 +24609,13 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0,
+                                        ["psi"] = -4.3982297150257,
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "A-10C_2",
                                         ["unitId"] = 944,
-                                        ["x"] = -29632.015625,
-                                        ["y"] = 100565.578125,
+                                        ["x"] = -29740.013754051,
+                                        ["y"] = 100609.06905628,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -24785,10 +24783,11 @@ mission =
                                         ["alt_type"] = "BARO",
                                         ["callsign"] =
                                         {
-                                            [1] = 3,
+                                            [1] = 9,
                                             [2] = 1,
                                             [3] = 2,
-                                            ["name"] = "Uzi12",
+                                            [4] = "Hawg12",
+                                            ["name"] = "Hawg12",
                                         }, -- end of ["callsign"]
                                         ["datalinks"] =
                                         {
@@ -24827,12 +24826,10 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["SADL"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0,
+                                        ["heading"] = 4.3982297150257,
                                         ["livery_id"] = "132 617th Standard skin",
                                         ["name"] = "HAWG 2-1-2",
                                         ["onboard_num"] = "016",
-                                        ["parking"] = "0",
-                                        ["parking_id"] = "A06",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -24844,13 +24841,13 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0,
+                                        ["psi"] = -4.3982297150257,
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "A-10C_2",
                                         ["unitId"] = 945,
-                                        ["x"] = -29580.435433848,
-                                        ["y"] = 100552.27277406,
+                                        ["x"] = -29673.237992751,
+                                        ["y"] = 100582.89687144,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -25018,10 +25015,11 @@ mission =
                                         ["alt_type"] = "BARO",
                                         ["callsign"] =
                                         {
-                                            [1] = 3,
+                                            [1] = 9,
                                             [2] = 1,
                                             [3] = 3,
-                                            ["name"] = "Uzi13",
+                                            [4] = "Hawg13",
+                                            ["name"] = "Hawg13",
                                         }, -- end of ["callsign"]
                                         ["datalinks"] =
                                         {
@@ -25060,12 +25058,10 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["SADL"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0,
+                                        ["heading"] = 4.3982297150257,
                                         ["livery_id"] = "132 617th Standard skin",
                                         ["name"] = "HAWG 2-1-3",
                                         ["onboard_num"] = "017",
-                                        ["parking"] = "12",
-                                        ["parking_id"] = "A07",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -25077,13 +25073,13 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0,
+                                        ["psi"] = -4.3982297150257,
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "A-10C_2",
                                         ["unitId"] = 946,
-                                        ["x"] = -29530.070561201,
-                                        ["y"] = 100540.21770412,
+                                        ["x"] = -29631.166817133,
+                                        ["y"] = 100569.44387924,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -25251,10 +25247,11 @@ mission =
                                         ["alt_type"] = "BARO",
                                         ["callsign"] =
                                         {
-                                            [1] = 3,
+                                            [1] = 9,
                                             [2] = 1,
                                             [3] = 4,
-                                            ["name"] = "Uzi14",
+                                            [4] = "Hawg14",
+                                            ["name"] = "Hawg14",
                                         }, -- end of ["callsign"]
                                         ["datalinks"] =
                                         {
@@ -25293,12 +25290,10 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["SADL"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0,
+                                        ["heading"] = 4.3982297150257,
                                         ["livery_id"] = "132 617th Standard skin",
                                         ["name"] = "HAWG 2-1-4",
                                         ["onboard_num"] = "018",
-                                        ["parking"] = "5",
-                                        ["parking_id"] = "A08",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -25310,17 +25305,17 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0,
+                                        ["psi"] = -4.3982297150257,
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "A-10C_2",
                                         ["unitId"] = 947,
-                                        ["x"] = -29480.777162252,
-                                        ["y"] = 100529.08665595,
+                                        ["x"] = -29603.527033152,
+                                        ["y"] = 100559.41528505,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = -29632.015625,
-                                ["y"] = 100565.578125,
+                                ["x"] = -29740.013754051,
+                                ["y"] = 100609.06905628,
                             }, -- end of [18]
                             [19] =
                             {
@@ -25329,7 +25324,7 @@ mission =
                                 ["frequency"] = 390.15,
                                 ["groupId"] = 340,
                                 ["hidden"] = false,
-                                ["lateActivation"] = true,
+                                ["lateActivation"] = false,
                                 ["modulation"] = 0,
                                 ["name"] = "PONTIAC 4",
                                 ["radioSet"] = true,
@@ -25342,7 +25337,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "From Ground Area",
-                                            ["alt"] = 196,
+                                            ["alt"] = 197,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["properties"] =
@@ -25554,11 +25549,11 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffGround",
-                                            ["x"] = -29336.192539679,
-                                            ["y"] = 100786.27289809,
+                                            ["x"] = -29481.960903605,
+                                            ["y"] = 100524.68210518,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
-                                    ["routeRelativeTOT"] = true,
+                                    ["routeRelativeTOT"] = false,
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
                                 ["task"] = "CAS",
@@ -25566,7 +25561,7 @@ mission =
                                 {
                                 }, -- end of ["tasks"]
                                 ["uncontrollable"] = false,
-                                ["uncontrolled"] = true,
+                                ["uncontrolled"] = false,
                                 ["units"] =
                                 {
                                     [1] =
@@ -25731,7 +25726,7 @@ mission =
                                                 }, -- end of ["modulations"]
                                             }, -- end of [3]
                                         }, -- end of ["Radio"]
-                                        ["alt"] = 196,
+                                        ["alt"] = 197,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] =
                                         {
@@ -25778,7 +25773,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["SADL"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 4.4156830075457,
+                                        ["heading"] = 4.3982297150257,
                                         ["livery_id"] = "132 617th Standard skin",
                                         ["name"] = "PONTIAC 4-1",
                                         ["onboard_num"] = "141",
@@ -25793,13 +25788,13 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -4.4156830075457,
+                                        ["psi"] = -4.3982297150257,
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "A-10C_2",
                                         ["unitId"] = 951,
-                                        ["x"] = -29336.192539679,
-                                        ["y"] = 100786.27289809,
+                                        ["x"] = -29481.960903605,
+                                        ["y"] = 100524.68210518,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -25963,7 +25958,7 @@ mission =
                                                 }, -- end of ["modulations"]
                                             }, -- end of [3]
                                         }, -- end of ["Radio"]
-                                        ["alt"] = 196,
+                                        ["alt"] = 197,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] =
                                         {
@@ -26009,7 +26004,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["SADL"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 4.4156830075457,
+                                        ["heading"] = 4.3982297150257,
                                         ["livery_id"] = "132 617th Standard skin",
                                         ["name"] = "PONTIAC 4-2",
                                         ["onboard_num"] = "142",
@@ -26024,13 +26019,13 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -4.4156830075457,
+                                        ["psi"] = -4.3982297150257,
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "A-10C_2",
                                         ["unitId"] = 955,
-                                        ["x"] = -29314.571760528,
-                                        ["y"] = 100779.23244675,
+                                        ["x"] = -29505.96812315,
+                                        ["y"] = 100532.74666605,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -26194,7 +26189,7 @@ mission =
                                                 }, -- end of ["modulations"]
                                             }, -- end of [3]
                                         }, -- end of ["Radio"]
-                                        ["alt"] = 196,
+                                        ["alt"] = 197,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] =
                                         {
@@ -26240,7 +26235,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["SADL"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 4.4156830075457,
+                                        ["heading"] = 4.3982297150257,
                                         ["livery_id"] = "132 617th Standard skin",
                                         ["name"] = "PONTIAC 4-3",
                                         ["onboard_num"] = "143",
@@ -26255,13 +26250,13 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -4.4156830075457,
+                                        ["psi"] = -4.3982297150257,
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "A-10C_2",
                                         ["unitId"] = 956,
-                                        ["x"] = -29268.854322254,
-                                        ["y"] = 100762.21459907,
+                                        ["x"] = -29530.914482028,
+                                        ["y"] = 100539.73164654,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -26425,7 +26420,7 @@ mission =
                                                 }, -- end of ["modulations"]
                                             }, -- end of [3]
                                         }, -- end of ["Radio"]
-                                        ["alt"] = 196,
+                                        ["alt"] = 197,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] =
                                         {
@@ -26471,7 +26466,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["SADL"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 4.4156830075457,
+                                        ["heading"] = 4.3982297150257,
                                         ["livery_id"] = "132 617th Standard skin",
                                         ["name"] = "PONTIAC 4-4",
                                         ["onboard_num"] = "144",
@@ -26486,17 +26481,17 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -4.4156830075457,
+                                        ["psi"] = -4.3982297150257,
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "A-10C_2",
                                         ["unitId"] = 957,
-                                        ["x"] = -29225.877045895,
-                                        ["y"] = 100747.79269425,
+                                        ["x"] = -29579.556247044,
+                                        ["y"] = 100551.09888987,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = -29336.192539679,
-                                ["y"] = 100786.27289809,
+                                ["x"] = -29481.960903605,
+                                ["y"] = 100524.68210518,
                             }, -- end of [19]
                             [20] =
                             {
@@ -40391,7 +40386,7 @@ mission =
                                         }, -- end of ["params"]
                                     }, -- end of [1]
                                 }, -- end of ["tasks"]
-                                ["uncontrolled"] = false,
+                                ["uncontrolled"] = true,
                                 ["units"] =
                                 {
                                     [1] =
@@ -147154,7 +147149,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 619518,
+    ["currentKey"] = 705297,
     ["date"] =
     {
         ["Day"] = 21,
@@ -154257,14 +154252,14 @@ mission =
         ["cockpitVisualRM"] = false,
         ["easyCommunication"] = false,
         ["easyFlight"] = false,
-        ["externalViews"] = false,
+        ["externalViews"] = true,
         ["fuel"] = false,
         ["gWarmUp"] = false,
         ["geffect"] = "realistic",
         ["immortal"] = false,
         ["labels"] = 0,
         ["miniHUD"] = false,
-        ["optionsView"] = "optview_onlymap",
+        ["optionsView"] = "optview_all",
         ["padlock"] = false,
         ["permitCrash"] = false,
         ["radio"] = false,
@@ -154325,9 +154320,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 138801.4570702,
-        ["centerY"] = 217485.7063123,
-        ["zoom"] = 1511093.1860373,
+        ["centerX"] = 37057.158661559,
+        ["centerY"] = 359144.05047009,
+        ["zoom"] = 1385654.0425137,
     }, -- end of ["map"]
     ["maxDictId"] = 16,
     ["pictureFileNameB"] =
@@ -154386,7 +154381,7 @@ mission =
         ["total"] = 0,
     }, -- end of ["result"]
     ["sortie"] = "DictKey_sortie_5",
-    ["start_time"] = 43200,
+    ["start_time"] = 57600,
     ["theatre"] = "Kola",
     ["trig"] =
     {
@@ -167626,7 +167621,7 @@ mission =
         }, -- end of ["halo"]
         ["modifiedTime"] = true,
         ["name"] = "Winter, clean sky",
-        ["qnh"] = 762.508,
+        ["qnh"] = 761.746,
         ["season"] =
         {
             ["temperature"] = 12,
@@ -167640,17 +167635,17 @@ mission =
         {
             ["at2000"] =
             {
-                ["dir"] = 170,
+                ["dir"] = 218,
                 ["speed"] = 3.0924,
             }, -- end of ["at2000"]
             ["at8000"] =
             {
-                ["dir"] = 184,
+                ["dir"] = 231,
                 ["speed"] = 6.1848,
             }, -- end of ["at8000"]
             ["atGround"] =
             {
-                ["dir"] = 171,
+                ["dir"] = 217,
                 ["speed"] = 2.0616,
             }, -- end of ["atGround"]
         }, -- end of ["wind"]

@@ -79807,10 +79807,10 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 901400,
+    ["currentKey"] = 931150,
     ["date"] =
     {
-        ["Day"] = 21,
+        ["Day"] = 22,
         ["Month"] = 9,
         ["Year"] = 2020,
     }, -- end of ["date"]
@@ -86978,9 +86978,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 106576.5642395,
-        ["centerY"] = 84185.867074287,
-        ["zoom"] = 2152469.6934183,
+        ["centerX"] = 45438.295800259,
+        ["centerY"] = 250401.83422657,
+        ["zoom"] = 865395.92526657,
     }, -- end of ["map"]
     ["maxDictId"] = 16,
     ["pictureFileNameB"] =
@@ -87039,7 +87039,7 @@ mission =
         ["total"] = 0,
     }, -- end of ["result"]
     ["sortie"] = "DictKey_sortie_5",
-    ["start_time"] = 57600,
+    ["start_time"] = 27300,
     ["theatre"] = "Kola",
     ["trig"] =
     {
@@ -100261,10 +100261,10 @@ mission =
         ["atmosphere_type"] = 0,
         ["clouds"] =
         {
-            ["base"] = 4200,
+            ["base"] = 3400,
             ["density"] = 0,
             ["iprecptns"] = 0,
-            ["preset"] = "Preset1",
+            ["preset"] = "Preset12",
             ["thickness"] = 200,
         }, -- end of ["clouds"]
         ["cyclones"] =
@@ -100285,10 +100285,10 @@ mission =
         }, -- end of ["halo"]
         ["modifiedTime"] = true,
         ["name"] = "Winter, clean sky",
-        ["qnh"] = 761.746,
+        ["qnh"] = 761.238,
         ["season"] =
         {
-            ["temperature"] = 12,
+            ["temperature"] = 10,
         }, -- end of ["season"]
         ["type_weather"] = 0,
         ["visibility"] =
@@ -100299,17 +100299,17 @@ mission =
         {
             ["at2000"] =
             {
-                ["dir"] = 218,
+                ["dir"] = 270,
                 ["speed"] = 3.0924,
             }, -- end of ["at2000"]
             ["at8000"] =
             {
-                ["dir"] = 231,
+                ["dir"] = 270,
                 ["speed"] = 6.1848,
             }, -- end of ["at8000"]
             ["atGround"] =
             {
-                ["dir"] = 217,
+                ["dir"] = 266,
                 ["speed"] = 2.0616,
             }, -- end of ["atGround"]
         }, -- end of ["wind"]

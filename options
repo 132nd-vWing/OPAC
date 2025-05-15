@@ -147,17 +147,10 @@ options =
 	}, -- end of ["graphics"]
 	["plugins"] = 
 	{
-		["CA"] = 
+		["Su-25T"] = 
 		{
-			["kompass_options"] = 1,
-			["ground_aim_helper"] = true,
-			["ground_platform_shake"] = true,
-			["ground_target_info"] = true,
-			["ground_isometric"] = true,
-			["ground_engine_autostart"] = true,
-			["ground_automatic"] = true,
-			["automatic_clutch"] = true,
-		}, -- end of ["CA"]
+			["CPLocalList"] = "default",
+		}, -- end of ["Su-25T"]
 		["UltraLeap"] = 
 		{
 			["handOffsetY"] = 0,
@@ -208,44 +201,6 @@ options =
 			["tacviewRemoteControlPassword"] = "",
 			["tacviewExportPath"] = "",
 		}, -- end of ["Tacview"]
-		["F-16C"] = 
-		{
-			["hmdEye"] = 1,
-			["CPLocalList"] = "default",
-			["rollForceStickGradient"] = 1,
-			["abDetent"] = 0,
-			["canopyReflections"] = 0,
-			["pitchDeadzoneValue"] = 4.375,
-			["rollDeadzoneValue"] = 5.9,
-			["mfdReflections"] = 0,
-			["canopyTint"] = 1,
-			["pitchForceStickGradient"] = 1,
-		}, -- end of ["F-16C"]
-		["DCS-SRS"] = 
-		{
-			["srsOverlayHelpTextEnabled"] = false,
-			["srsOverlayEnabled"] = false,
-			["srsAutoLaunchEnabled"] = true,
-			["srsOverlayCompactModeEnabled"] = false,
-		}, -- end of ["DCS-SRS"]
-		["Su-25T"] = 
-		{
-			["CPLocalList"] = "default",
-		}, -- end of ["Su-25T"]
-		["VRFree"] = 
-		{
-			["handUseThrottle"] = false,
-			["handUseStick"] = false,
-			["set_debug"] = false,
-			["enable"] = false,
-			["mouseClickSrc"] = 0,
-		}, -- end of ["VRFree"]
-		["TF-51D"] = 
-		{
-			["assistance"] = 100,
-			["CPLocalList"] = "default",
-			["autoRudder"] = false,
-		}, -- end of ["TF-51D"]
 		["CaptoGlove"] = 
 		{
 			["fingerPinkyBentRight"] = "0",
@@ -309,6 +264,51 @@ options =
 			["gloveRotationRoll_Right"] = 0,
 			["fingerPinkyBentLeft"] = "0",
 		}, -- end of ["CaptoGlove"]
+		["DCS-SRS"] = 
+		{
+			["srsOverlayHelpTextEnabled"] = false,
+			["srsOverlayEnabled"] = false,
+			["srsAutoLaunchEnabled"] = true,
+			["srsOverlayCompactModeEnabled"] = false,
+		}, -- end of ["DCS-SRS"]
+		["CA"] = 
+		{
+			["kompass_options"] = 1,
+			["ground_aim_helper"] = true,
+			["ground_platform_shake"] = true,
+			["ground_target_info"] = true,
+			["ground_isometric"] = true,
+			["ground_engine_autostart"] = true,
+			["ground_automatic"] = true,
+			["automatic_clutch"] = true,
+		}, -- end of ["CA"]
+		["VRFree"] = 
+		{
+			["handUseThrottle"] = false,
+			["handUseStick"] = false,
+			["set_debug"] = false,
+			["enable"] = false,
+			["mouseClickSrc"] = 0,
+		}, -- end of ["VRFree"]
+		["TF-51D"] = 
+		{
+			["assistance"] = 100,
+			["CPLocalList"] = "default",
+			["autoRudder"] = false,
+		}, -- end of ["TF-51D"]
+		["F-16C"] = 
+		{
+			["hmdEye"] = 1,
+			["CPLocalList"] = "default",
+			["rollForceStickGradient"] = 1,
+			["abDetent"] = 0,
+			["canopyReflections"] = 0,
+			["pitchDeadzoneValue"] = 4.375,
+			["rollDeadzoneValue"] = 5.9,
+			["mfdReflections"] = 0,
+			["canopyTint"] = 1,
+			["pitchForceStickGradient"] = 1,
+		}, -- end of ["F-16C"]
 		["LotAtc"] = 
 		{
 			["enable"] = false,

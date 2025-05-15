@@ -861,12 +861,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -84074.853473661,
-                                            ["y"] = 74742.317732114,
+                                            ["x"] = -83118.546869837,
+                                            ["y"] = 107611.44402057,
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 307.15327871036,
+                                            ["ETA"] = 299.76888745228,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 7315.2,
@@ -885,8 +885,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -14743.59876913,
-                                            ["y"] = 74533.488651678,
+                                            ["x"] = -16877.949656424,
+                                            ["y"] = 107611.44402057,
                                         }, -- end of [2]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -917,7 +917,7 @@ mission =
                                             [4] = "Magic11",
                                             ["name"] = "Magic11",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -0.0030120390839605,
+                                        ["heading"] = 0,
                                         ["livery_id"] = "nato",
                                         ["name"] = "#IFF:5611FR",
                                         ["onboard_num"] = "611",
@@ -931,17 +931,17 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.0030120390839605,
+                                        ["psi"] = 0,
                                         ["skill"] = "High",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "E-3A",
                                         ["unitId"] = 295,
-                                        ["x"] = -84074.853473661,
-                                        ["y"] = 74742.317732114,
+                                        ["x"] = -83118.546869837,
+                                        ["y"] = 107611.44402057,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = -84074.853473661,
-                                ["y"] = 74742.317732114,
+                                ["x"] = -83118.546869837,
+                                ["y"] = 107611.44402057,
                             }, -- end of [5]
                             [6] =
                             {
@@ -1040,12 +1040,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 182701.41995972,
-                                            ["y"] = 9437.6213732997,
+                                            ["x"] = 182832.50761387,
+                                            ["y"] = 39063.960337042,
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 370.18360401656,
+                                            ["ETA"] = 356.59446248953,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 7315.2,
@@ -1064,8 +1064,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 264501.71356949,
-                                            ["y"] = 9437.6213732997,
+                                            ["x"] = 261596.20280792,
+                                            ["y"] = 36757.073866923,
                                         }, -- end of [2]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -1095,7 +1095,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Overlord11",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0,
+                                        ["heading"] = -0.029280332345783,
                                         ["livery_id"] = "nato",
                                         ["name"] = "#IFF:5603FR",
                                         ["onboard_num"] = "603",
@@ -1109,17 +1109,17 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0,
+                                        ["psi"] = 0.029280332345783,
                                         ["skill"] = "High",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "E-3A",
                                         ["unitId"] = 296,
-                                        ["x"] = 182701.41995972,
-                                        ["y"] = 9437.6213732997,
+                                        ["x"] = 182832.50761387,
+                                        ["y"] = 39063.960337042,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 182701.41995972,
-                                ["y"] = 9437.6213732997,
+                                ["x"] = 182832.50761387,
+                                ["y"] = 39063.960337042,
                             }, -- end of [6]
                             [7] =
                             {
@@ -15646,39 +15646,6 @@ mission =
                                             [4] = "Hornet11",
                                             ["name"] = "Hornet11",
                                         }, -- end of ["callsign"]
-                                        ["dataCartridge"] =
-                                        {
-                                            ["GroupsPoints"] =
-                                            {
-                                                ["A/A Waypoint"] =
-                                                {
-                                                }, -- end of ["A/A Waypoint"]
-                                                ["Initial Point"] =
-                                                {
-                                                }, -- end of ["Initial Point"]
-                                                ["PB"] =
-                                                {
-                                                }, -- end of ["PB"]
-                                                ["PP"] =
-                                                {
-                                                }, -- end of ["PP"]
-                                                ["Sequence 1 Blue"] =
-                                                {
-                                                }, -- end of ["Sequence 1 Blue"]
-                                                ["Sequence 2 Red"] =
-                                                {
-                                                }, -- end of ["Sequence 2 Red"]
-                                                ["Sequence 3 Yellow"] =
-                                                {
-                                                }, -- end of ["Sequence 3 Yellow"]
-                                                ["Start Location"] =
-                                                {
-                                                }, -- end of ["Start Location"]
-                                            }, -- end of ["GroupsPoints"]
-                                            ["Points"] =
-                                            {
-                                            }, -- end of ["Points"]
-                                        }, -- end of ["dataCartridge"]
                                         ["datalinks"] =
                                         {
                                             ["Link16"] =
@@ -15871,39 +15838,6 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Hornet12",
                                         }, -- end of ["callsign"]
-                                        ["dataCartridge"] =
-                                        {
-                                            ["GroupsPoints"] =
-                                            {
-                                                ["A/A Waypoint"] =
-                                                {
-                                                }, -- end of ["A/A Waypoint"]
-                                                ["Initial Point"] =
-                                                {
-                                                }, -- end of ["Initial Point"]
-                                                ["PB"] =
-                                                {
-                                                }, -- end of ["PB"]
-                                                ["PP"] =
-                                                {
-                                                }, -- end of ["PP"]
-                                                ["Sequence 1 Blue"] =
-                                                {
-                                                }, -- end of ["Sequence 1 Blue"]
-                                                ["Sequence 2 Red"] =
-                                                {
-                                                }, -- end of ["Sequence 2 Red"]
-                                                ["Sequence 3 Yellow"] =
-                                                {
-                                                }, -- end of ["Sequence 3 Yellow"]
-                                                ["Start Location"] =
-                                                {
-                                                }, -- end of ["Start Location"]
-                                            }, -- end of ["GroupsPoints"]
-                                            ["Points"] =
-                                            {
-                                            }, -- end of ["Points"]
-                                        }, -- end of ["dataCartridge"]
                                         ["datalinks"] =
                                         {
                                             ["Link16"] =
@@ -16096,39 +16030,6 @@ mission =
                                             [3] = 3,
                                             ["name"] = "Hornet13",
                                         }, -- end of ["callsign"]
-                                        ["dataCartridge"] =
-                                        {
-                                            ["GroupsPoints"] =
-                                            {
-                                                ["A/A Waypoint"] =
-                                                {
-                                                }, -- end of ["A/A Waypoint"]
-                                                ["Initial Point"] =
-                                                {
-                                                }, -- end of ["Initial Point"]
-                                                ["PB"] =
-                                                {
-                                                }, -- end of ["PB"]
-                                                ["PP"] =
-                                                {
-                                                }, -- end of ["PP"]
-                                                ["Sequence 1 Blue"] =
-                                                {
-                                                }, -- end of ["Sequence 1 Blue"]
-                                                ["Sequence 2 Red"] =
-                                                {
-                                                }, -- end of ["Sequence 2 Red"]
-                                                ["Sequence 3 Yellow"] =
-                                                {
-                                                }, -- end of ["Sequence 3 Yellow"]
-                                                ["Start Location"] =
-                                                {
-                                                }, -- end of ["Start Location"]
-                                            }, -- end of ["GroupsPoints"]
-                                            ["Points"] =
-                                            {
-                                            }, -- end of ["Points"]
-                                        }, -- end of ["dataCartridge"]
                                         ["datalinks"] =
                                         {
                                             ["Link16"] =
@@ -16321,39 +16222,6 @@ mission =
                                             [3] = 4,
                                             ["name"] = "Hornet14",
                                         }, -- end of ["callsign"]
-                                        ["dataCartridge"] =
-                                        {
-                                            ["GroupsPoints"] =
-                                            {
-                                                ["A/A Waypoint"] =
-                                                {
-                                                }, -- end of ["A/A Waypoint"]
-                                                ["Initial Point"] =
-                                                {
-                                                }, -- end of ["Initial Point"]
-                                                ["PB"] =
-                                                {
-                                                }, -- end of ["PB"]
-                                                ["PP"] =
-                                                {
-                                                }, -- end of ["PP"]
-                                                ["Sequence 1 Blue"] =
-                                                {
-                                                }, -- end of ["Sequence 1 Blue"]
-                                                ["Sequence 2 Red"] =
-                                                {
-                                                }, -- end of ["Sequence 2 Red"]
-                                                ["Sequence 3 Yellow"] =
-                                                {
-                                                }, -- end of ["Sequence 3 Yellow"]
-                                                ["Start Location"] =
-                                                {
-                                                }, -- end of ["Start Location"]
-                                            }, -- end of ["GroupsPoints"]
-                                            ["Points"] =
-                                            {
-                                            }, -- end of ["Points"]
-                                        }, -- end of ["dataCartridge"]
                                         ["datalinks"] =
                                         {
                                             ["Link16"] =
@@ -16747,39 +16615,6 @@ mission =
                                             [4] = "Squid21",
                                             ["name"] = "Squid21",
                                         }, -- end of ["callsign"]
-                                        ["dataCartridge"] =
-                                        {
-                                            ["GroupsPoints"] =
-                                            {
-                                                ["A/A Waypoint"] =
-                                                {
-                                                }, -- end of ["A/A Waypoint"]
-                                                ["Initial Point"] =
-                                                {
-                                                }, -- end of ["Initial Point"]
-                                                ["PB"] =
-                                                {
-                                                }, -- end of ["PB"]
-                                                ["PP"] =
-                                                {
-                                                }, -- end of ["PP"]
-                                                ["Sequence 1 Blue"] =
-                                                {
-                                                }, -- end of ["Sequence 1 Blue"]
-                                                ["Sequence 2 Red"] =
-                                                {
-                                                }, -- end of ["Sequence 2 Red"]
-                                                ["Sequence 3 Yellow"] =
-                                                {
-                                                }, -- end of ["Sequence 3 Yellow"]
-                                                ["Start Location"] =
-                                                {
-                                                }, -- end of ["Start Location"]
-                                            }, -- end of ["GroupsPoints"]
-                                            ["Points"] =
-                                            {
-                                            }, -- end of ["Points"]
-                                        }, -- end of ["dataCartridge"]
                                         ["datalinks"] =
                                         {
                                             ["Link16"] =
@@ -16972,39 +16807,6 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Squid22",
                                         }, -- end of ["callsign"]
-                                        ["dataCartridge"] =
-                                        {
-                                            ["GroupsPoints"] =
-                                            {
-                                                ["A/A Waypoint"] =
-                                                {
-                                                }, -- end of ["A/A Waypoint"]
-                                                ["Initial Point"] =
-                                                {
-                                                }, -- end of ["Initial Point"]
-                                                ["PB"] =
-                                                {
-                                                }, -- end of ["PB"]
-                                                ["PP"] =
-                                                {
-                                                }, -- end of ["PP"]
-                                                ["Sequence 1 Blue"] =
-                                                {
-                                                }, -- end of ["Sequence 1 Blue"]
-                                                ["Sequence 2 Red"] =
-                                                {
-                                                }, -- end of ["Sequence 2 Red"]
-                                                ["Sequence 3 Yellow"] =
-                                                {
-                                                }, -- end of ["Sequence 3 Yellow"]
-                                                ["Start Location"] =
-                                                {
-                                                }, -- end of ["Start Location"]
-                                            }, -- end of ["GroupsPoints"]
-                                            ["Points"] =
-                                            {
-                                            }, -- end of ["Points"]
-                                        }, -- end of ["dataCartridge"]
                                         ["datalinks"] =
                                         {
                                             ["Link16"] =
@@ -17197,39 +16999,6 @@ mission =
                                             [3] = 3,
                                             ["name"] = "Squid23",
                                         }, -- end of ["callsign"]
-                                        ["dataCartridge"] =
-                                        {
-                                            ["GroupsPoints"] =
-                                            {
-                                                ["A/A Waypoint"] =
-                                                {
-                                                }, -- end of ["A/A Waypoint"]
-                                                ["Initial Point"] =
-                                                {
-                                                }, -- end of ["Initial Point"]
-                                                ["PB"] =
-                                                {
-                                                }, -- end of ["PB"]
-                                                ["PP"] =
-                                                {
-                                                }, -- end of ["PP"]
-                                                ["Sequence 1 Blue"] =
-                                                {
-                                                }, -- end of ["Sequence 1 Blue"]
-                                                ["Sequence 2 Red"] =
-                                                {
-                                                }, -- end of ["Sequence 2 Red"]
-                                                ["Sequence 3 Yellow"] =
-                                                {
-                                                }, -- end of ["Sequence 3 Yellow"]
-                                                ["Start Location"] =
-                                                {
-                                                }, -- end of ["Start Location"]
-                                            }, -- end of ["GroupsPoints"]
-                                            ["Points"] =
-                                            {
-                                            }, -- end of ["Points"]
-                                        }, -- end of ["dataCartridge"]
                                         ["datalinks"] =
                                         {
                                             ["Link16"] =
@@ -17422,39 +17191,6 @@ mission =
                                             [3] = 4,
                                             ["name"] = "Squid24",
                                         }, -- end of ["callsign"]
-                                        ["dataCartridge"] =
-                                        {
-                                            ["GroupsPoints"] =
-                                            {
-                                                ["A/A Waypoint"] =
-                                                {
-                                                }, -- end of ["A/A Waypoint"]
-                                                ["Initial Point"] =
-                                                {
-                                                }, -- end of ["Initial Point"]
-                                                ["PB"] =
-                                                {
-                                                }, -- end of ["PB"]
-                                                ["PP"] =
-                                                {
-                                                }, -- end of ["PP"]
-                                                ["Sequence 1 Blue"] =
-                                                {
-                                                }, -- end of ["Sequence 1 Blue"]
-                                                ["Sequence 2 Red"] =
-                                                {
-                                                }, -- end of ["Sequence 2 Red"]
-                                                ["Sequence 3 Yellow"] =
-                                                {
-                                                }, -- end of ["Sequence 3 Yellow"]
-                                                ["Start Location"] =
-                                                {
-                                                }, -- end of ["Start Location"]
-                                            }, -- end of ["GroupsPoints"]
-                                            ["Points"] =
-                                            {
-                                            }, -- end of ["Points"]
-                                        }, -- end of ["dataCartridge"]
                                         ["datalinks"] =
                                         {
                                             ["Link16"] =
@@ -17848,39 +17584,6 @@ mission =
                                             [4] = "Roman31",
                                             ["name"] = "Roman31",
                                         }, -- end of ["callsign"]
-                                        ["dataCartridge"] =
-                                        {
-                                            ["GroupsPoints"] =
-                                            {
-                                                ["A/A Waypoint"] =
-                                                {
-                                                }, -- end of ["A/A Waypoint"]
-                                                ["Initial Point"] =
-                                                {
-                                                }, -- end of ["Initial Point"]
-                                                ["PB"] =
-                                                {
-                                                }, -- end of ["PB"]
-                                                ["PP"] =
-                                                {
-                                                }, -- end of ["PP"]
-                                                ["Sequence 1 Blue"] =
-                                                {
-                                                }, -- end of ["Sequence 1 Blue"]
-                                                ["Sequence 2 Red"] =
-                                                {
-                                                }, -- end of ["Sequence 2 Red"]
-                                                ["Sequence 3 Yellow"] =
-                                                {
-                                                }, -- end of ["Sequence 3 Yellow"]
-                                                ["Start Location"] =
-                                                {
-                                                }, -- end of ["Start Location"]
-                                            }, -- end of ["GroupsPoints"]
-                                            ["Points"] =
-                                            {
-                                            }, -- end of ["Points"]
-                                        }, -- end of ["dataCartridge"]
                                         ["datalinks"] =
                                         {
                                             ["Link16"] =
@@ -18073,39 +17776,6 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Roman32",
                                         }, -- end of ["callsign"]
-                                        ["dataCartridge"] =
-                                        {
-                                            ["GroupsPoints"] =
-                                            {
-                                                ["A/A Waypoint"] =
-                                                {
-                                                }, -- end of ["A/A Waypoint"]
-                                                ["Initial Point"] =
-                                                {
-                                                }, -- end of ["Initial Point"]
-                                                ["PB"] =
-                                                {
-                                                }, -- end of ["PB"]
-                                                ["PP"] =
-                                                {
-                                                }, -- end of ["PP"]
-                                                ["Sequence 1 Blue"] =
-                                                {
-                                                }, -- end of ["Sequence 1 Blue"]
-                                                ["Sequence 2 Red"] =
-                                                {
-                                                }, -- end of ["Sequence 2 Red"]
-                                                ["Sequence 3 Yellow"] =
-                                                {
-                                                }, -- end of ["Sequence 3 Yellow"]
-                                                ["Start Location"] =
-                                                {
-                                                }, -- end of ["Start Location"]
-                                            }, -- end of ["GroupsPoints"]
-                                            ["Points"] =
-                                            {
-                                            }, -- end of ["Points"]
-                                        }, -- end of ["dataCartridge"]
                                         ["datalinks"] =
                                         {
                                             ["Link16"] =
@@ -18298,39 +17968,6 @@ mission =
                                             [3] = 3,
                                             ["name"] = "Roman33",
                                         }, -- end of ["callsign"]
-                                        ["dataCartridge"] =
-                                        {
-                                            ["GroupsPoints"] =
-                                            {
-                                                ["A/A Waypoint"] =
-                                                {
-                                                }, -- end of ["A/A Waypoint"]
-                                                ["Initial Point"] =
-                                                {
-                                                }, -- end of ["Initial Point"]
-                                                ["PB"] =
-                                                {
-                                                }, -- end of ["PB"]
-                                                ["PP"] =
-                                                {
-                                                }, -- end of ["PP"]
-                                                ["Sequence 1 Blue"] =
-                                                {
-                                                }, -- end of ["Sequence 1 Blue"]
-                                                ["Sequence 2 Red"] =
-                                                {
-                                                }, -- end of ["Sequence 2 Red"]
-                                                ["Sequence 3 Yellow"] =
-                                                {
-                                                }, -- end of ["Sequence 3 Yellow"]
-                                                ["Start Location"] =
-                                                {
-                                                }, -- end of ["Start Location"]
-                                            }, -- end of ["GroupsPoints"]
-                                            ["Points"] =
-                                            {
-                                            }, -- end of ["Points"]
-                                        }, -- end of ["dataCartridge"]
                                         ["datalinks"] =
                                         {
                                             ["Link16"] =
@@ -18523,39 +18160,6 @@ mission =
                                             [3] = 4,
                                             ["name"] = "Roman34",
                                         }, -- end of ["callsign"]
-                                        ["dataCartridge"] =
-                                        {
-                                            ["GroupsPoints"] =
-                                            {
-                                                ["A/A Waypoint"] =
-                                                {
-                                                }, -- end of ["A/A Waypoint"]
-                                                ["Initial Point"] =
-                                                {
-                                                }, -- end of ["Initial Point"]
-                                                ["PB"] =
-                                                {
-                                                }, -- end of ["PB"]
-                                                ["PP"] =
-                                                {
-                                                }, -- end of ["PP"]
-                                                ["Sequence 1 Blue"] =
-                                                {
-                                                }, -- end of ["Sequence 1 Blue"]
-                                                ["Sequence 2 Red"] =
-                                                {
-                                                }, -- end of ["Sequence 2 Red"]
-                                                ["Sequence 3 Yellow"] =
-                                                {
-                                                }, -- end of ["Sequence 3 Yellow"]
-                                                ["Start Location"] =
-                                                {
-                                                }, -- end of ["Start Location"]
-                                            }, -- end of ["GroupsPoints"]
-                                            ["Points"] =
-                                            {
-                                            }, -- end of ["Points"]
-                                        }, -- end of ["dataCartridge"]
                                         ["datalinks"] =
                                         {
                                             ["Link16"] =
@@ -18949,39 +18553,6 @@ mission =
                                             [4] = "Sting41",
                                             ["name"] = "Sting41",
                                         }, -- end of ["callsign"]
-                                        ["dataCartridge"] =
-                                        {
-                                            ["GroupsPoints"] =
-                                            {
-                                                ["A/A Waypoint"] =
-                                                {
-                                                }, -- end of ["A/A Waypoint"]
-                                                ["Initial Point"] =
-                                                {
-                                                }, -- end of ["Initial Point"]
-                                                ["PB"] =
-                                                {
-                                                }, -- end of ["PB"]
-                                                ["PP"] =
-                                                {
-                                                }, -- end of ["PP"]
-                                                ["Sequence 1 Blue"] =
-                                                {
-                                                }, -- end of ["Sequence 1 Blue"]
-                                                ["Sequence 2 Red"] =
-                                                {
-                                                }, -- end of ["Sequence 2 Red"]
-                                                ["Sequence 3 Yellow"] =
-                                                {
-                                                }, -- end of ["Sequence 3 Yellow"]
-                                                ["Start Location"] =
-                                                {
-                                                }, -- end of ["Start Location"]
-                                            }, -- end of ["GroupsPoints"]
-                                            ["Points"] =
-                                            {
-                                            }, -- end of ["Points"]
-                                        }, -- end of ["dataCartridge"]
                                         ["datalinks"] =
                                         {
                                             ["Link16"] =
@@ -19174,39 +18745,6 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Sting42",
                                         }, -- end of ["callsign"]
-                                        ["dataCartridge"] =
-                                        {
-                                            ["GroupsPoints"] =
-                                            {
-                                                ["A/A Waypoint"] =
-                                                {
-                                                }, -- end of ["A/A Waypoint"]
-                                                ["Initial Point"] =
-                                                {
-                                                }, -- end of ["Initial Point"]
-                                                ["PB"] =
-                                                {
-                                                }, -- end of ["PB"]
-                                                ["PP"] =
-                                                {
-                                                }, -- end of ["PP"]
-                                                ["Sequence 1 Blue"] =
-                                                {
-                                                }, -- end of ["Sequence 1 Blue"]
-                                                ["Sequence 2 Red"] =
-                                                {
-                                                }, -- end of ["Sequence 2 Red"]
-                                                ["Sequence 3 Yellow"] =
-                                                {
-                                                }, -- end of ["Sequence 3 Yellow"]
-                                                ["Start Location"] =
-                                                {
-                                                }, -- end of ["Start Location"]
-                                            }, -- end of ["GroupsPoints"]
-                                            ["Points"] =
-                                            {
-                                            }, -- end of ["Points"]
-                                        }, -- end of ["dataCartridge"]
                                         ["datalinks"] =
                                         {
                                             ["Link16"] =
@@ -19399,39 +18937,6 @@ mission =
                                             [3] = 3,
                                             ["name"] = "Sting43",
                                         }, -- end of ["callsign"]
-                                        ["dataCartridge"] =
-                                        {
-                                            ["GroupsPoints"] =
-                                            {
-                                                ["A/A Waypoint"] =
-                                                {
-                                                }, -- end of ["A/A Waypoint"]
-                                                ["Initial Point"] =
-                                                {
-                                                }, -- end of ["Initial Point"]
-                                                ["PB"] =
-                                                {
-                                                }, -- end of ["PB"]
-                                                ["PP"] =
-                                                {
-                                                }, -- end of ["PP"]
-                                                ["Sequence 1 Blue"] =
-                                                {
-                                                }, -- end of ["Sequence 1 Blue"]
-                                                ["Sequence 2 Red"] =
-                                                {
-                                                }, -- end of ["Sequence 2 Red"]
-                                                ["Sequence 3 Yellow"] =
-                                                {
-                                                }, -- end of ["Sequence 3 Yellow"]
-                                                ["Start Location"] =
-                                                {
-                                                }, -- end of ["Start Location"]
-                                            }, -- end of ["GroupsPoints"]
-                                            ["Points"] =
-                                            {
-                                            }, -- end of ["Points"]
-                                        }, -- end of ["dataCartridge"]
                                         ["datalinks"] =
                                         {
                                             ["Link16"] =
@@ -19624,39 +19129,6 @@ mission =
                                             [3] = 4,
                                             ["name"] = "Sting44",
                                         }, -- end of ["callsign"]
-                                        ["dataCartridge"] =
-                                        {
-                                            ["GroupsPoints"] =
-                                            {
-                                                ["A/A Waypoint"] =
-                                                {
-                                                }, -- end of ["A/A Waypoint"]
-                                                ["Initial Point"] =
-                                                {
-                                                }, -- end of ["Initial Point"]
-                                                ["PB"] =
-                                                {
-                                                }, -- end of ["PB"]
-                                                ["PP"] =
-                                                {
-                                                }, -- end of ["PP"]
-                                                ["Sequence 1 Blue"] =
-                                                {
-                                                }, -- end of ["Sequence 1 Blue"]
-                                                ["Sequence 2 Red"] =
-                                                {
-                                                }, -- end of ["Sequence 2 Red"]
-                                                ["Sequence 3 Yellow"] =
-                                                {
-                                                }, -- end of ["Sequence 3 Yellow"]
-                                                ["Start Location"] =
-                                                {
-                                                }, -- end of ["Start Location"]
-                                            }, -- end of ["GroupsPoints"]
-                                            ["Points"] =
-                                            {
-                                            }, -- end of ["Points"]
-                                        }, -- end of ["dataCartridge"]
                                         ["datalinks"] =
                                         {
                                             ["Link16"] =
@@ -20049,39 +19521,6 @@ mission =
                                             [4] = "Jury51",
                                             ["name"] = "Jury51",
                                         }, -- end of ["callsign"]
-                                        ["dataCartridge"] =
-                                        {
-                                            ["GroupsPoints"] =
-                                            {
-                                                ["A/A Waypoint"] =
-                                                {
-                                                }, -- end of ["A/A Waypoint"]
-                                                ["Initial Point"] =
-                                                {
-                                                }, -- end of ["Initial Point"]
-                                                ["PB"] =
-                                                {
-                                                }, -- end of ["PB"]
-                                                ["PP"] =
-                                                {
-                                                }, -- end of ["PP"]
-                                                ["Sequence 1 Blue"] =
-                                                {
-                                                }, -- end of ["Sequence 1 Blue"]
-                                                ["Sequence 2 Red"] =
-                                                {
-                                                }, -- end of ["Sequence 2 Red"]
-                                                ["Sequence 3 Yellow"] =
-                                                {
-                                                }, -- end of ["Sequence 3 Yellow"]
-                                                ["Start Location"] =
-                                                {
-                                                }, -- end of ["Start Location"]
-                                            }, -- end of ["GroupsPoints"]
-                                            ["Points"] =
-                                            {
-                                            }, -- end of ["Points"]
-                                        }, -- end of ["dataCartridge"]
                                         ["datalinks"] =
                                         {
                                             ["Link16"] =
@@ -20272,39 +19711,6 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Jury52",
                                         }, -- end of ["callsign"]
-                                        ["dataCartridge"] =
-                                        {
-                                            ["GroupsPoints"] =
-                                            {
-                                                ["A/A Waypoint"] =
-                                                {
-                                                }, -- end of ["A/A Waypoint"]
-                                                ["Initial Point"] =
-                                                {
-                                                }, -- end of ["Initial Point"]
-                                                ["PB"] =
-                                                {
-                                                }, -- end of ["PB"]
-                                                ["PP"] =
-                                                {
-                                                }, -- end of ["PP"]
-                                                ["Sequence 1 Blue"] =
-                                                {
-                                                }, -- end of ["Sequence 1 Blue"]
-                                                ["Sequence 2 Red"] =
-                                                {
-                                                }, -- end of ["Sequence 2 Red"]
-                                                ["Sequence 3 Yellow"] =
-                                                {
-                                                }, -- end of ["Sequence 3 Yellow"]
-                                                ["Start Location"] =
-                                                {
-                                                }, -- end of ["Start Location"]
-                                            }, -- end of ["GroupsPoints"]
-                                            ["Points"] =
-                                            {
-                                            }, -- end of ["Points"]
-                                        }, -- end of ["dataCartridge"]
                                         ["datalinks"] =
                                         {
                                             ["Link16"] =
@@ -20495,39 +19901,6 @@ mission =
                                             [3] = 3,
                                             ["name"] = "Jury53",
                                         }, -- end of ["callsign"]
-                                        ["dataCartridge"] =
-                                        {
-                                            ["GroupsPoints"] =
-                                            {
-                                                ["A/A Waypoint"] =
-                                                {
-                                                }, -- end of ["A/A Waypoint"]
-                                                ["Initial Point"] =
-                                                {
-                                                }, -- end of ["Initial Point"]
-                                                ["PB"] =
-                                                {
-                                                }, -- end of ["PB"]
-                                                ["PP"] =
-                                                {
-                                                }, -- end of ["PP"]
-                                                ["Sequence 1 Blue"] =
-                                                {
-                                                }, -- end of ["Sequence 1 Blue"]
-                                                ["Sequence 2 Red"] =
-                                                {
-                                                }, -- end of ["Sequence 2 Red"]
-                                                ["Sequence 3 Yellow"] =
-                                                {
-                                                }, -- end of ["Sequence 3 Yellow"]
-                                                ["Start Location"] =
-                                                {
-                                                }, -- end of ["Start Location"]
-                                            }, -- end of ["GroupsPoints"]
-                                            ["Points"] =
-                                            {
-                                            }, -- end of ["Points"]
-                                        }, -- end of ["dataCartridge"]
                                         ["datalinks"] =
                                         {
                                             ["Link16"] =
@@ -20718,39 +20091,6 @@ mission =
                                             [3] = 4,
                                             ["name"] = "Jury54",
                                         }, -- end of ["callsign"]
-                                        ["dataCartridge"] =
-                                        {
-                                            ["GroupsPoints"] =
-                                            {
-                                                ["A/A Waypoint"] =
-                                                {
-                                                }, -- end of ["A/A Waypoint"]
-                                                ["Initial Point"] =
-                                                {
-                                                }, -- end of ["Initial Point"]
-                                                ["PB"] =
-                                                {
-                                                }, -- end of ["PB"]
-                                                ["PP"] =
-                                                {
-                                                }, -- end of ["PP"]
-                                                ["Sequence 1 Blue"] =
-                                                {
-                                                }, -- end of ["Sequence 1 Blue"]
-                                                ["Sequence 2 Red"] =
-                                                {
-                                                }, -- end of ["Sequence 2 Red"]
-                                                ["Sequence 3 Yellow"] =
-                                                {
-                                                }, -- end of ["Sequence 3 Yellow"]
-                                                ["Start Location"] =
-                                                {
-                                                }, -- end of ["Start Location"]
-                                            }, -- end of ["GroupsPoints"]
-                                            ["Points"] =
-                                            {
-                                            }, -- end of ["Points"]
-                                        }, -- end of ["dataCartridge"]
                                         ["datalinks"] =
                                         {
                                             ["Link16"] =
@@ -21142,39 +20482,6 @@ mission =
                                             [4] = "Ram61",
                                             ["name"] = "Ram61",
                                         }, -- end of ["callsign"]
-                                        ["dataCartridge"] =
-                                        {
-                                            ["GroupsPoints"] =
-                                            {
-                                                ["A/A Waypoint"] =
-                                                {
-                                                }, -- end of ["A/A Waypoint"]
-                                                ["Initial Point"] =
-                                                {
-                                                }, -- end of ["Initial Point"]
-                                                ["PB"] =
-                                                {
-                                                }, -- end of ["PB"]
-                                                ["PP"] =
-                                                {
-                                                }, -- end of ["PP"]
-                                                ["Sequence 1 Blue"] =
-                                                {
-                                                }, -- end of ["Sequence 1 Blue"]
-                                                ["Sequence 2 Red"] =
-                                                {
-                                                }, -- end of ["Sequence 2 Red"]
-                                                ["Sequence 3 Yellow"] =
-                                                {
-                                                }, -- end of ["Sequence 3 Yellow"]
-                                                ["Start Location"] =
-                                                {
-                                                }, -- end of ["Start Location"]
-                                            }, -- end of ["GroupsPoints"]
-                                            ["Points"] =
-                                            {
-                                            }, -- end of ["Points"]
-                                        }, -- end of ["dataCartridge"]
                                         ["datalinks"] =
                                         {
                                             ["Link16"] =
@@ -21359,39 +20666,6 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Ram62",
                                         }, -- end of ["callsign"]
-                                        ["dataCartridge"] =
-                                        {
-                                            ["GroupsPoints"] =
-                                            {
-                                                ["A/A Waypoint"] =
-                                                {
-                                                }, -- end of ["A/A Waypoint"]
-                                                ["Initial Point"] =
-                                                {
-                                                }, -- end of ["Initial Point"]
-                                                ["PB"] =
-                                                {
-                                                }, -- end of ["PB"]
-                                                ["PP"] =
-                                                {
-                                                }, -- end of ["PP"]
-                                                ["Sequence 1 Blue"] =
-                                                {
-                                                }, -- end of ["Sequence 1 Blue"]
-                                                ["Sequence 2 Red"] =
-                                                {
-                                                }, -- end of ["Sequence 2 Red"]
-                                                ["Sequence 3 Yellow"] =
-                                                {
-                                                }, -- end of ["Sequence 3 Yellow"]
-                                                ["Start Location"] =
-                                                {
-                                                }, -- end of ["Start Location"]
-                                            }, -- end of ["GroupsPoints"]
-                                            ["Points"] =
-                                            {
-                                            }, -- end of ["Points"]
-                                        }, -- end of ["dataCartridge"]
                                         ["datalinks"] =
                                         {
                                             ["Link16"] =
@@ -21776,39 +21050,6 @@ mission =
                                             [4] = "Snake71",
                                             ["name"] = "Snake71",
                                         }, -- end of ["callsign"]
-                                        ["dataCartridge"] =
-                                        {
-                                            ["GroupsPoints"] =
-                                            {
-                                                ["A/A Waypoint"] =
-                                                {
-                                                }, -- end of ["A/A Waypoint"]
-                                                ["Initial Point"] =
-                                                {
-                                                }, -- end of ["Initial Point"]
-                                                ["PB"] =
-                                                {
-                                                }, -- end of ["PB"]
-                                                ["PP"] =
-                                                {
-                                                }, -- end of ["PP"]
-                                                ["Sequence 1 Blue"] =
-                                                {
-                                                }, -- end of ["Sequence 1 Blue"]
-                                                ["Sequence 2 Red"] =
-                                                {
-                                                }, -- end of ["Sequence 2 Red"]
-                                                ["Sequence 3 Yellow"] =
-                                                {
-                                                }, -- end of ["Sequence 3 Yellow"]
-                                                ["Start Location"] =
-                                                {
-                                                }, -- end of ["Start Location"]
-                                            }, -- end of ["GroupsPoints"]
-                                            ["Points"] =
-                                            {
-                                            }, -- end of ["Points"]
-                                        }, -- end of ["dataCartridge"]
                                         ["datalinks"] =
                                         {
                                             ["Link16"] =
@@ -21991,39 +21232,6 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Snake72",
                                         }, -- end of ["callsign"]
-                                        ["dataCartridge"] =
-                                        {
-                                            ["GroupsPoints"] =
-                                            {
-                                                ["A/A Waypoint"] =
-                                                {
-                                                }, -- end of ["A/A Waypoint"]
-                                                ["Initial Point"] =
-                                                {
-                                                }, -- end of ["Initial Point"]
-                                                ["PB"] =
-                                                {
-                                                }, -- end of ["PB"]
-                                                ["PP"] =
-                                                {
-                                                }, -- end of ["PP"]
-                                                ["Sequence 1 Blue"] =
-                                                {
-                                                }, -- end of ["Sequence 1 Blue"]
-                                                ["Sequence 2 Red"] =
-                                                {
-                                                }, -- end of ["Sequence 2 Red"]
-                                                ["Sequence 3 Yellow"] =
-                                                {
-                                                }, -- end of ["Sequence 3 Yellow"]
-                                                ["Start Location"] =
-                                                {
-                                                }, -- end of ["Start Location"]
-                                            }, -- end of ["GroupsPoints"]
-                                            ["Points"] =
-                                            {
-                                            }, -- end of ["Points"]
-                                        }, -- end of ["dataCartridge"]
                                         ["datalinks"] =
                                         {
                                             ["Link16"] =
@@ -79807,7 +79015,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 971001,
+    ["currentKey"] = 985862,
     ["date"] =
     {
         ["Day"] = 22,
@@ -87020,9 +86228,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = -30685.424834649,
-        ["centerY"] = 335482.43350472,
-        ["zoom"] = 1451642.6157239,
+        ["centerX"] = 164576.89243028,
+        ["centerY"] = -22000,
+        ["zoom"] = 2448605.5776892,
     }, -- end of ["map"]
     ["maxDictId"] = 16,
     ["pictureFileNameB"] =

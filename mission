@@ -497,6 +497,24 @@ mission =
                                                                 ["speedEdited"] = true,
                                                             }, -- end of ["params"]
                                                         }, -- end of [4]
+                                                        [5] =
+                                                        {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 5,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "SetUnlimitedFuel",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [5]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -506,7 +524,7 @@ mission =
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 267.65162322211,
+                                            ["ETA"] = 267.65162322209,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6400.8,
@@ -1692,7 +1710,7 @@ mission =
                                         }, -- end of [17]
                                         [18] =
                                         {
-                                            ["ETA"] = 3391.8799650597,
+                                            ["ETA"] = 3544.8240587667,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -1711,12 +1729,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 29904.977293455,
-                                            ["y"] = 244287.69557541,
+                                            ["x"] = 32573.466033911,
+                                            ["y"] = 248225.70886797,
                                         }, -- end of [18]
                                         [19] =
                                         {
-                                            ["ETA"] = 3624.0539635571,
+                                            ["ETA"] = 3624.0829922784,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -1735,12 +1753,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 17636.158080072,
-                                            ["y"] = 254744.08050488,
+                                            ["x"] = 23972.88644242,
+                                            ["y"] = 259283.59691417,
                                         }, -- end of [19]
                                         [20] =
                                         {
-                                            ["ETA"] = 3758.4848897228,
+                                            ["ETA"] = 3742.5891178763,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -1759,12 +1777,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -874.64588160482,
-                                            ["y"] = 263428.16137579,
+                                            ["x"] = -3057.5065594087,
+                                            ["y"] = 246997.05464061,
                                         }, -- end of [20]
                                         [21] =
                                         {
-                                            ["ETA"] = 3838.2960659478,
+                                            ["ETA"] = 3936.6311571546,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -1783,12 +1801,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -18471.336067397,
-                                            ["y"] = 260685.82004813,
+                                            ["x"] = -41964.890425678,
+                                            ["y"] = 228976.79263939,
                                         }, -- end of [21]
                                         [22] =
                                         {
-                                            ["ETA"] = 4032.4224335594,
+                                            ["ETA"] = 4273.4467232712,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -1807,8 +1825,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -54950.136611364,
-                                            ["y"] = 273802.51780317,
+                                            ["x"] = -52203.675653643,
+                                            ["y"] = 302696.04628074,
                                         }, -- end of [22]
                                         [23] =
                                         {
@@ -2341,7 +2359,7 @@ mission =
                                 ["frequency"] = 288,
                                 ["groupId"] = 955,
                                 ["hidden"] = false,
-                                ["lateActivation"] = true,
+                                ["lateActivation"] = false,
                                 ["modulation"] = 0,
                                 ["name"] = "AR302 #IFF:5302FR",
                                 ["radioSet"] = true,
@@ -2436,16 +2454,34 @@ mission =
                                                                 ["speedEdited"] = true,
                                                             }, -- end of ["params"]
                                                         }, -- end of [4]
+                                                        [5] =
+                                                        {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 5,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "SetUnlimitedFuel",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [5]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 96825.302483537,
-                                            ["y"] = -629045.7212408,
+                                            ["x"] = 100296.53366772,
+                                            ["y"] = 74758.423272826,
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 375.27073580008,
+                                            ["ETA"] = 272.28528009113,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 7315.2,
@@ -2464,11 +2500,11 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 99235.978381615,
-                                            ["y"] = -553511.2097677,
+                                            ["x"] = 45463.753841777,
+                                            ["y"] = 75039.13716272,
                                         }, -- end of [2]
                                     }, -- end of ["points"]
-                                    ["routeRelativeTOT"] = true,
+                                    ["routeRelativeTOT"] = false,
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
                                 ["task"] = "Refueling",
@@ -2490,7 +2526,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Shell21",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 1.5388922623099,
+                                        ["heading"] = 3.1364732443891,
                                         ["livery_id"] = "100th arw",
                                         ["name"] = "AR302 #IFF:5302FR-1",
                                         ["onboard_num"] = "013",
@@ -2504,17 +2540,17 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -1.5388922623099,
+                                        ["psi"] = -3.1364732443891,
                                         ["skill"] = "High",
                                         ["speed"] = 201.38252921274,
                                         ["type"] = "KC135MPRS",
                                         ["unitId"] = 2041,
-                                        ["x"] = 96825.302483537,
-                                        ["y"] = -629045.7212408,
+                                        ["x"] = 100296.53366772,
+                                        ["y"] = 74758.423272826,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 96825.302483537,
-                                ["y"] = -629045.7212408,
+                                ["x"] = 100296.53366772,
+                                ["y"] = 74758.423272826,
                             }, -- end of [10]
                             [11] =
                             {
@@ -34880,7 +34916,7 @@ mission =
                                         }, -- end of [3]
                                         [4] =
                                         {
-                                            ["ETA"] = 1607.528208701,
+                                            ["ETA"] = 1628.9777571368,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 7620,
@@ -34912,8 +34948,8 @@ mission =
                                                                 ["expend"] = "Half",
                                                                 ["groupAttack"] = false,
                                                                 ["weaponType"] = 2097152,
-                                                                ["x"] = -153118.44133357,
-                                                                ["y"] = 151952.15819597,
+                                                                ["x"] = -153089.49054424,
+                                                                ["y"] = 151734.69599536,
                                                             }, -- end of ["params"]
                                                         }, -- end of [1]
                                                         [2] =
@@ -34933,20 +34969,20 @@ mission =
                                                                 ["expend"] = "Auto",
                                                                 ["groupAttack"] = false,
                                                                 ["weaponType"] = 4030478,
-                                                                ["x"] = -153090.5463111,
-                                                                ["y"] = 151734.42208926,
+                                                                ["x"] = -153647.00834076,
+                                                                ["y"] = 151058.36435495,
                                                             }, -- end of ["params"]
                                                         }, -- end of [2]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -72946.630613893,
-                                            ["y"] = 298152.7169823,
+                                            ["x"] = -142439.27613646,
+                                            ["y"] = 335018.31738851,
                                         }, -- end of [4]
                                         [5] =
                                         {
-                                            ["ETA"] = 1800.0176491889,
+                                            ["ETA"] = 1783.2252122702,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 7620,
@@ -34965,8 +35001,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -106545.59903773,
-                                            ["y"] = 313866.77720487,
+                                            ["x"] = -148429.07047104,
+                                            ["y"] = 364131.50380541,
                                         }, -- end of [5]
                                         [6] =
                                         {
@@ -81655,7 +81691,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 1083859,
+    ["currentKey"] = 1103974,
     ["date"] =
     {
         ["Day"] = 22,
@@ -88868,9 +88904,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 52439.408197046,
-        ["centerY"] = 245290.70879541,
-        ["zoom"] = 1249677.3719753,
+        ["centerX"] = 22244.831410136,
+        ["centerY"] = 130329.88103929,
+        ["zoom"] = 831661.94583379,
     }, -- end of ["map"]
     ["maxDictId"] = 16,
     ["pictureFileNameB"] =
@@ -88944,7 +88980,7 @@ mission =
             [7] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_16\")); mission.trig.func[7]=nil;",
             [8] = "a_group_off(763);a_group_off(764); mission.trig.func[8]=nil;",
             [9] = "a_explosion(5611, 1, 700);a_explosion(5669, 1, 700);a_explosion(5671, 1, 700);a_explosion(5671, 1, 700); mission.trig.func[9]=nil;",
-            [10] = "a_explosion(6002, 1, 700);a_explosion(6003, 1, 700);a_explosion(6004, 1, 700);a_explosion(6005, 1, 700);a_explosion(6006, 1, 700);a_explosion(6007, 1, 700);a_explosion(6008, 1, 700);a_explosion(6009, 1, 700);a_explosion(6010, 1, 700);a_explosion(6011, 1, 700);a_explosion(6012, 1, 700);a_explosion(6013, 1, 700);a_explosion(6014, 1, 700);a_explosion(6015, 1, 700);a_explosion(5919, 1, 700);a_explosion(5927, 1, 700);a_explosion(5928, 1, 700);a_explosion(5929, 1, 700);a_explosion(5930, 1, 700);a_explosion(5931, 1, 700);a_explosion(5932, 1, 700);a_explosion(5933, 1, 700);a_explosion(5934, 1, 700);a_explosion(5935, 1, 700);a_explosion(5920, 1, 700);a_explosion(5921, 1, 700);a_explosion(5923, 1, 700);a_explosion(5918, 1, 700);a_explosion(5924, 1, 700);a_explosion(5925, 1, 700);a_explosion(5926, 1, 700);a_explosion(5922, 1, 700);a_explosion(5916, 1, 700);a_explosion(5940, 1, 700);a_explosion(5941, 1, 700);a_explosion(5936, 1, 700);a_explosion(5937, 1, 700);a_explosion(5938, 1, 700);a_explosion(5939, 1, 700); mission.trig.func[10]=nil;",
+            [10] = "a_explosion(6002, 1, 700);a_explosion(6003, 1, 700);a_explosion(6004, 1, 700);a_explosion(6005, 1, 700);a_explosion(6006, 1, 700);a_explosion(6007, 1, 700);a_explosion(6008, 1, 700);a_explosion(6009, 1, 700);a_explosion(6010, 1, 700);a_explosion(6011, 1, 700);a_explosion(6012, 1, 700);a_explosion(6013, 1, 700);a_explosion(6014, 1, 700);a_explosion(6015, 1, 700);a_explosion(5919, 1, 700);a_explosion(5927, 1, 700);a_explosion(5928, 1, 700);a_explosion(5929, 1, 700);a_explosion(5930, 1, 700);a_explosion(5931, 1, 700);a_explosion(5932, 1, 700);a_explosion(5933, 1, 700);a_explosion(5934, 1, 700);a_explosion(5935, 1, 700);a_explosion(5920, 1, 700);a_explosion(5921, 1, 700);a_explosion(5923, 1, 700);a_explosion(5918, 1, 700);a_explosion(5924, 1, 700);a_explosion(5925, 1, 700);a_explosion(5926, 1, 700);a_explosion(5922, 1, 700);a_explosion(5916, 1, 700);a_explosion(5940, 1, 700);a_explosion(5941, 1, 700);a_explosion(5936, 1, 700);a_explosion(5937, 1, 700);a_explosion(5938, 1, 700);a_explosion(5939, 1, 700);a_explosion(6137, 1, 2500); mission.trig.func[10]=nil;",
             [11] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_15\")); mission.trig.func[11]=nil;",
             [12] = "a_group_off(760);a_group_off(387);a_group_off(390);a_group_off(389);a_group_off(386);a_group_off(388);a_group_off(356);a_group_off(362);a_group_off(925);a_group_off(355);a_group_off(361);a_group_off(352);a_group_off(248);a_group_off(228);a_group_off(224);a_group_off(255);a_group_off(759);a_group_off(383);a_group_off(385);a_group_off(384);a_group_off(902);a_group_off(363); mission.trig.func[12]=nil;",
             [13] = "a_group_off(409);a_group_off(749);a_group_off(761);a_group_off(353);a_group_off(354);a_group_off(359);a_group_off(360);a_group_off(366);a_group_off(373);a_group_off(378);a_group_off(350);a_group_off(358);a_group_off(432);a_group_off(259);a_group_off(258);a_group_off(301);a_group_off(317);a_group_off(365);a_group_off(33);a_group_off(368);a_group_off(369);a_group_off(367); mission.trig.func[13]=nil;",
@@ -102146,6 +102182,27 @@ mission =
                 ["y"] = 217016.5362028,
                 ["zoneId"] = 6076,
             }, -- end of [533]
+            [534] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "D1.2_Banak ammo storage",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 7.62,
+                ["type"] = 0,
+                ["x"] = 233791.24249504,
+                ["y"] = 87851.806801759,
+                ["zoneId"] = 6137,
+            }, -- end of [534]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] =
@@ -102664,6 +102721,13 @@ mission =
                     ["volume"] = 700,
                     ["zone"] = 5939,
                 }, -- end of [39]
+                [40] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 2500,
+                    ["zone"] = 6137,
+                }, -- end of [40]
             }, -- end of ["actions"]
             ["colorItem"] = "0x808080ff",
             ["comment"] = "Bomb_D1.2",
@@ -103581,7 +103645,7 @@ mission =
         ["atmosphere_type"] = 0,
         ["clouds"] =
         {
-            ["base"] = 3400,
+            ["base"] = 3360,
             ["density"] = 0,
             ["iprecptns"] = 0,
             ["preset"] = "Preset12",

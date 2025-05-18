@@ -187,7 +187,7 @@ options =
 			["tacviewSinglePlayerFlights"] = 2,
 			["tacviewPlaybackDelay"] = 600,
 			["tacviewMultiplayerFlightsAsClient"] = 2,
-			["tacviewModuleEnabled"] = false,
+			["tacviewModuleEnabled"] = true,
 			["tacviewDebugMode"] = 0,
 			["tacviewRemoteControlPort"] = "42675",
 			["tacviewRealTimeTelemetryEnabled"] = true,
@@ -197,7 +197,7 @@ options =
 			["tacviewRemoteControlEnabled"] = false,
 			["tacviewBookmarkShortcut"] = 0,
 			["tacviewAutoDiscardFlights"] = 10,
-			["tacviewFlightDataRecordingEnabled"] = false,
+			["tacviewFlightDataRecordingEnabled"] = true,
 			["tacviewRemoteControlPassword"] = "",
 			["tacviewExportPath"] = "",
 		}, -- end of ["Tacview"]

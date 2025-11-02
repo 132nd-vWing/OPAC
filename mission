@@ -3369,8 +3369,8 @@ mission =
                                             ["name"] = "",
                                             ["speed"] = 0,
                                             ["type"] = "",
-                                            ["x"] = -66446.430851686,
-                                            ["y"] = -335623.65876057,
+                                            ["x"] = -66462.632612525,
+                                            ["y"] = -335640.891202,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -3384,12 +3384,12 @@ mission =
                                         ["rate"] = 20,
                                         ["type"] = "speedboat",
                                         ["unitId"] = 2105,
-                                        ["x"] = -66446.430851686,
-                                        ["y"] = -335623.65876057,
+                                        ["x"] = -66462.632612525,
+                                        ["y"] = -335640.891202,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = -66446.430851686,
-                                ["y"] = -335623.65876057,
+                                ["x"] = -66462.632612525,
+                                ["y"] = -335640.891202,
                             }, -- end of [7]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
@@ -41947,7 +41947,7 @@ mission =
                                         }, -- end of [8]
                                         [9] =
                                         {
-                                            ["ETA"] = 3407.5641895223,
+                                            ["ETA"] = 3393.3537703306,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 152.4,
@@ -41986,8 +41986,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 246522.38398403,
-                                            ["y"] = 87556.203554185,
+                                            ["x"] = 248159.58346795,
+                                            ["y"] = 87974.133821816,
                                         }, -- end of [9]
                                         [10] =
                                         {
@@ -84639,8 +84639,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "ATMZ-5",
                                         ["unitId"] = 1322,
-                                        ["x"] = 33980.089860791,
-                                        ["y"] = 291667.80489799,
+                                        ["x"] = 33980.13313764,
+                                        ["y"] = 291667.25852896,
                                     }, -- end of [17]
                                     [18] =
                                     {
@@ -88127,8 +88127,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "KAMAZ Truck",
                                         ["unitId"] = 2194,
-                                        ["x"] = 34158.79352705,
-                                        ["y"] = 291859.6862971,
+                                        ["x"] = 34158.63338487,
+                                        ["y"] = 291859.73045517,
                                     }, -- end of [8]
                                     [9] =
                                     {
@@ -88151,8 +88151,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "KAMAZ Truck",
                                         ["unitId"] = 2196,
-                                        ["x"] = 34139.111395732,
-                                        ["y"] = 291868.54437176,
+                                        ["x"] = 34139.77432278,
+                                        ["y"] = 291868.00534976,
                                     }, -- end of [10]
                                     [11] =
                                     {
@@ -89226,7 +89226,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 1366519,
+    ["currentKey"] = 1412984,
     ["date"] =
     {
         ["Day"] = 23,
@@ -96439,9 +96439,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 16663.951188337,
-        ["centerY"] = 328637.24888635,
-        ["zoom"] = 711273.4974666,
+        ["centerX"] = 317029.0323749,
+        ["centerY"] = 55919.748487105,
+        ["zoom"] = 2231299.5062113,
     }, -- end of ["map"]
     ["maxDictId"] = 18,
     ["pictureFileNameB"] =
@@ -96517,37 +96517,38 @@ mission =
             [9] = "a_explosion(5611, 1, 700);a_explosion(5669, 1, 700);a_explosion(5671, 1, 700);a_explosion(5671, 1, 700); mission.trig.func[9]=nil;",
             [10] = "a_explosion(6002, 1, 700);a_explosion(6003, 1, 700);a_explosion(6004, 1, 700);a_explosion(6005, 1, 700);a_explosion(6006, 1, 700);a_explosion(6007, 1, 700);a_explosion(6008, 1, 700);a_explosion(6009, 1, 700);a_explosion(6010, 1, 700);a_explosion(6011, 1, 700);a_explosion(6012, 1, 700);a_explosion(6013, 1, 700);a_explosion(6014, 1, 700);a_explosion(6015, 1, 700);a_explosion(5919, 1, 700);a_explosion(5927, 1, 700);a_explosion(5928, 1, 700);a_explosion(5929, 1, 700);a_explosion(5930, 1, 700);a_explosion(5931, 1, 700);a_explosion(5932, 1, 700);a_explosion(5933, 1, 700);a_explosion(5934, 1, 700);a_explosion(5935, 1, 700);a_explosion(5920, 1, 700);a_explosion(5921, 1, 700);a_explosion(5923, 1, 700);a_explosion(5918, 1, 700);a_explosion(5924, 1, 700);a_explosion(5925, 1, 700);a_explosion(5926, 1, 700);a_explosion(5922, 1, 700);a_explosion(5916, 1, 700);a_explosion(5940, 1, 700);a_explosion(5941, 1, 700);a_explosion(5936, 1, 700);a_explosion(5937, 1, 700);a_explosion(5938, 1, 700);a_explosion(5939, 1, 700);a_explosion(6137, 1, 2500); mission.trig.func[10]=nil;",
             [11] = "a_explosion(6536, 1, 750);a_explosion(6530, 1, 750);a_explosion(6526, 1, 750);a_explosion(6527, 1, 750);a_explosion(6528, 1, 750);a_explosion(6529, 1, 750);a_explosion(6531, 1, 750);a_explosion(6524, 1, 750);a_explosion(6525, 1, 750);a_explosion(6508, 1, 750);a_explosion(6509, 1, 750);a_explosion(6510, 1, 750);a_explosion(6511, 1, 750);a_explosion(6512, 1, 750);a_explosion(6513, 1, 750);a_explosion(6514, 1, 750);a_explosion(6515, 1, 750);a_explosion(6516, 1, 750);a_explosion(6517, 1, 750);a_explosion(6518, 1, 750);a_explosion(6519, 1, 750);a_explosion(6520, 1, 750);a_explosion(6521, 1, 750);a_explosion(6522, 1, 750);a_explosion(6522, 1, 750);a_explosion(6523, 1, 750);a_explosion(6532, 1, 750);a_explosion(6533, 1, 750);a_explosion(6534, 1, 750);a_explosion(6535, 1, 750);a_explosion(6537, 1, 750);a_explosion(6538, 1, 750);a_explosion(6542, 1, 750);a_explosion(6540, 1, 750);a_explosion(6539, 1, 750);a_explosion(6541, 1, 750);a_explosion(6543, 1, 750);a_explosion(6505, 1, 750);a_explosion(6506, 1, 750);a_explosion(6507, 1, 750); mission.trig.func[11]=nil;",
-            [12] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_15\")); mission.trig.func[12]=nil;",
-            [13] = "a_group_off(760);a_group_off(387);a_group_off(390);a_group_off(389);a_group_off(386);a_group_off(388);a_group_off(356);a_group_off(362);a_group_off(925);a_group_off(355);a_group_off(361);a_group_off(352);a_group_off(248);a_group_off(228);a_group_off(224);a_group_off(255);a_group_off(759);a_group_off(383);a_group_off(385);a_group_off(384);a_group_off(902);a_group_off(363); mission.trig.func[13]=nil;",
-            [14] = "a_group_off(409);a_group_off(749);a_group_off(761);a_group_off(353);a_group_off(354);a_group_off(359);a_group_off(360);a_group_off(366);a_group_off(373);a_group_off(378);a_group_off(350);a_group_off(358);a_group_off(432);a_group_off(259);a_group_off(258);a_group_off(301);a_group_off(317);a_group_off(365);a_group_off(33);a_group_off(368);a_group_off(369);a_group_off(367); mission.trig.func[14]=nil;",
-            [15] = "a_ai_task(403, 1);a_ai_task(542, 1); mission.trig.func[15]=nil;",
-            [16] = "a_ai_task(399, 1); mission.trig.func[16]=nil;",
-            [17] = "a_ai_task(404, 1); mission.trig.func[17]=nil;",
-            [18] = "a_ai_task(400, 1); mission.trig.func[18]=nil;",
-            [19] = "a_ai_task(952, 1); mission.trig.func[19]=nil;",
-            [20] = "a_ai_task(949, 1); mission.trig.func[20]=nil;",
-            [21] = "a_ai_task(980, 1); mission.trig.func[21]=nil;",
-            [22] = "a_ai_task(976, 1); mission.trig.func[22]=nil;",
-            [23] = "a_ai_task(978, 1); mission.trig.func[23]=nil;",
-            [24] = "a_ai_task(1042, 1); mission.trig.func[24]=nil;",
-            [25] = "a_ai_task(974, 1); mission.trig.func[25]=nil;",
-            [26] = "a_ai_task(583, 1);a_ai_task(762, 1); mission.trig.func[26]=nil;",
-            [27] = "a_ai_task(950, 1);a_ai_task(951, 1); mission.trig.func[27]=nil;",
-            [28] = "a_ai_task(765, 1); mission.trig.func[28]=nil;",
-            [29] = "a_group_on(749);a_group_on(1065);a_group_on(761);a_group_on(759);a_group_on(916);a_group_on(760);a_group_on(384); mission.trig.func[29]=nil;",
-            [30] = "a_group_on(763); mission.trig.func[30]=nil;",
-            [31] = "a_group_on(764); mission.trig.func[31]=nil;",
-            [32] = "a_ai_task(135, 1); mission.trig.func[32]=nil;",
-            [33] = "a_remove_scene_objects(5732, 1); mission.trig.func[33]=nil;",
-            [34] = "a_remove_scene_objects(5733, 1); mission.trig.func[34]=nil;",
-            [35] = "a_remove_scene_objects(5794, 1); mission.trig.func[35]=nil;",
-            [36] = "a_group_on(387);a_group_on(390);a_group_on(969); mission.trig.func[36]=nil;",
-            [37] = "a_group_on(385);a_group_on(967);a_group_on(759);a_group_on(915); mission.trig.func[37]=nil;",
-            [38] = "a_set_flag(\"50\");a_group_on(356);a_group_on(362); mission.trig.func[38]=nil;",
-            [39] = "a_activate_group(971); mission.trig.func[39]=nil;",
-            [40] = "a_activate_group(977); mission.trig.func[40]=nil;",
-            [41] = "a_ai_task(996, 1);a_group_on(997); mission.trig.func[41]=nil;",
-            [42] = "a_ai_task(1069, 1);a_ai_task(1070, 1); mission.trig.func[42]=nil;",
+            [12] = "a_explosion(6623, 1, 750);a_explosion(6624, 1, 750);a_explosion(6625, 1, 750);a_explosion(6626, 1, 750);a_explosion(6622, 1, 750);a_explosion(6620, 1, 750);a_explosion(6621, 1, 750);a_explosion(6617, 1, 750);a_explosion(6618, 1, 750);a_explosion(6619, 1, 750);a_explosion(6612, 1, 750);a_explosion(6615, 1, 750);a_explosion(6616, 1, 750);a_explosion(6613, 1, 750);a_explosion(6614, 1, 750);a_explosion(6609, 1, 750);a_explosion(6610, 1, 750);a_explosion(6611, 1, 750); mission.trig.func[12]=nil;",
+            [13] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_15\")); mission.trig.func[13]=nil;",
+            [14] = "a_group_off(760);a_group_off(387);a_group_off(390);a_group_off(389);a_group_off(386);a_group_off(388);a_group_off(356);a_group_off(362);a_group_off(925);a_group_off(355);a_group_off(361);a_group_off(352);a_group_off(248);a_group_off(228);a_group_off(224);a_group_off(255);a_group_off(759);a_group_off(383);a_group_off(385);a_group_off(384);a_group_off(902);a_group_off(363); mission.trig.func[14]=nil;",
+            [15] = "a_group_off(409);a_group_off(749);a_group_off(761);a_group_off(353);a_group_off(354);a_group_off(359);a_group_off(360);a_group_off(366);a_group_off(373);a_group_off(378);a_group_off(350);a_group_off(358);a_group_off(432);a_group_off(259);a_group_off(258);a_group_off(301);a_group_off(317);a_group_off(365);a_group_off(33);a_group_off(368);a_group_off(369);a_group_off(367); mission.trig.func[15]=nil;",
+            [16] = "a_ai_task(403, 1);a_ai_task(542, 1); mission.trig.func[16]=nil;",
+            [17] = "a_ai_task(399, 1); mission.trig.func[17]=nil;",
+            [18] = "a_ai_task(404, 1); mission.trig.func[18]=nil;",
+            [19] = "a_ai_task(400, 1); mission.trig.func[19]=nil;",
+            [20] = "a_ai_task(952, 1); mission.trig.func[20]=nil;",
+            [21] = "a_ai_task(949, 1); mission.trig.func[21]=nil;",
+            [22] = "a_ai_task(980, 1); mission.trig.func[22]=nil;",
+            [23] = "a_ai_task(976, 1); mission.trig.func[23]=nil;",
+            [24] = "a_ai_task(978, 1); mission.trig.func[24]=nil;",
+            [25] = "a_ai_task(1042, 1); mission.trig.func[25]=nil;",
+            [26] = "a_ai_task(974, 1); mission.trig.func[26]=nil;",
+            [27] = "a_ai_task(583, 1);a_ai_task(762, 1); mission.trig.func[27]=nil;",
+            [28] = "a_ai_task(950, 1);a_ai_task(951, 1); mission.trig.func[28]=nil;",
+            [29] = "a_ai_task(765, 1); mission.trig.func[29]=nil;",
+            [30] = "a_group_on(749);a_group_on(1065);a_group_on(761);a_group_on(759);a_group_on(916);a_group_on(760);a_group_on(384); mission.trig.func[30]=nil;",
+            [31] = "a_group_on(763); mission.trig.func[31]=nil;",
+            [32] = "a_group_on(764); mission.trig.func[32]=nil;",
+            [33] = "a_ai_task(135, 1); mission.trig.func[33]=nil;",
+            [34] = "a_remove_scene_objects(5732, 1); mission.trig.func[34]=nil;",
+            [35] = "a_remove_scene_objects(5733, 1); mission.trig.func[35]=nil;",
+            [36] = "a_remove_scene_objects(5794, 1); mission.trig.func[36]=nil;",
+            [37] = "a_group_on(387);a_group_on(390);a_group_on(969); mission.trig.func[37]=nil;",
+            [38] = "a_group_on(385);a_group_on(967);a_group_on(759);a_group_on(915); mission.trig.func[38]=nil;",
+            [39] = "a_set_flag(\"50\");a_group_on(356);a_group_on(362); mission.trig.func[39]=nil;",
+            [40] = "a_activate_group(971); mission.trig.func[40]=nil;",
+            [41] = "a_activate_group(977); mission.trig.func[41]=nil;",
+            [42] = "a_ai_task(996, 1);a_group_on(997); mission.trig.func[42]=nil;",
+            [43] = "a_ai_task(1069, 1);a_ai_task(1070, 1); mission.trig.func[43]=nil;",
         }, -- end of ["actions"]
         ["conditions"] =
         {
@@ -96562,37 +96563,38 @@ mission =
             [9] = "return(c_time_after(14) )",
             [10] = "return(c_time_after(16) )",
             [11] = "return(c_time_after(18) )",
-            [12] = "return(c_time_after(1800) )",
-            [13] = "return(c_time_after(20) )",
-            [14] = "return(c_time_after(15) )",
-            [15] = "return(c_time_after(3610) )",
-            [16] = "return(c_time_after(2520) )",
-            [17] = "return(c_time_after(5620) )",
-            [18] = "return(c_time_after(7000) )",
-            [19] = "return(c_time_after(7300) )",
-            [20] = "return(c_time_after(5600) )",
-            [21] = "return(c_time_after(6800) )",
-            [22] = "return(c_time_after(6380) )",
-            [23] = "return(c_time_after(5000) )",
-            [24] = "return(c_time_after(5600) )",
-            [25] = "return(c_time_after(7100) )",
-            [26] = "return(c_time_after(5700) )",
-            [27] = "return(c_time_after(7900) )",
-            [28] = "return(c_time_after(7000) )",
-            [29] = "return(c_time_after(3600) )",
-            [30] = "return(c_part_of_coalition_in_zone(\"red\", 5502, \"ALL\") )",
-            [31] = "return(c_part_of_coalition_in_zone(\"red\", 5503, \"ALL\") )",
-            [32] = "return(c_part_of_coalition_in_zone(\"blue\", 5557, \"ALL\") )",
-            [33] = "return(c_time_after(10) )",
+            [12] = "return(c_time_after(20) )",
+            [13] = "return(c_time_after(1800) )",
+            [14] = "return(c_time_after(20) )",
+            [15] = "return(c_time_after(15) )",
+            [16] = "return(c_time_after(3610) )",
+            [17] = "return(c_time_after(2520) )",
+            [18] = "return(c_time_after(5620) )",
+            [19] = "return(c_time_after(7000) )",
+            [20] = "return(c_time_after(7300) )",
+            [21] = "return(c_time_after(5600) )",
+            [22] = "return(c_time_after(6800) )",
+            [23] = "return(c_time_after(6380) )",
+            [24] = "return(c_time_after(5000) )",
+            [25] = "return(c_time_after(5600) )",
+            [26] = "return(c_time_after(7100) )",
+            [27] = "return(c_time_after(5700) )",
+            [28] = "return(c_time_after(7900) )",
+            [29] = "return(c_time_after(7000) )",
+            [30] = "return(c_time_after(3600) )",
+            [31] = "return(c_part_of_coalition_in_zone(\"red\", 5502, \"ALL\") )",
+            [32] = "return(c_part_of_coalition_in_zone(\"red\", 5503, \"ALL\") )",
+            [33] = "return(c_part_of_coalition_in_zone(\"blue\", 5557, \"ALL\") )",
             [34] = "return(c_time_after(10) )",
             [35] = "return(c_time_after(10) )",
-            [36] = "return(c_group_life_less(356, 95) or c_group_life_less(362, 95) )",
-            [37] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"ALL\") )",
-            [38] = "return(c_part_of_coalition_in_zone(\"blue\", 6198, \"HELICOPTER\") or c_time_after(6800) )",
-            [39] = "return(c_time_after(7000) )",
-            [40] = "return(c_time_after(7500) )",
-            [41] = "return(c_time_after(6300) )",
-            [42] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"HELICOPTER\") )",
+            [36] = "return(c_time_after(10) )",
+            [37] = "return(c_group_life_less(356, 95) or c_group_life_less(362, 95) )",
+            [38] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"ALL\") )",
+            [39] = "return(c_part_of_coalition_in_zone(\"blue\", 6198, \"HELICOPTER\") or c_time_after(6800) )",
+            [40] = "return(c_time_after(7000) )",
+            [41] = "return(c_time_after(7500) )",
+            [42] = "return(c_time_after(6300) )",
+            [43] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"HELICOPTER\") )",
         }, -- end of ["conditions"]
         ["custom"] =
         {
@@ -96647,6 +96649,7 @@ mission =
             [40] = true,
             [41] = true,
             [42] = true,
+            [43] = true,
         }, -- end of ["flag"]
         ["func"] =
         {
@@ -96690,6 +96693,7 @@ mission =
             [40] = "if mission.trig.conditions[40]() then mission.trig.actions[40]() end",
             [41] = "if mission.trig.conditions[41]() then mission.trig.actions[41]() end",
             [42] = "if mission.trig.conditions[42]() then mission.trig.actions[42]() end",
+            [43] = "if mission.trig.conditions[43]() then mission.trig.actions[43]() end",
         }, -- end of ["func"]
         ["funcStartup"] =
         {
@@ -109418,7 +109422,7 @@ mission =
                 ["radius"] = 45.72,
                 ["type"] = 0,
                 ["x"] = -14747.789446683,
-                ["y"] = 337784.7012928,
+                ["y"] = 337784.722184,
                 ["zoneId"] = 5940,
             }, -- end of [517]
             [518] =
@@ -110723,6 +110727,384 @@ mission =
                 ["y"] = 204244.80857422,
                 ["zoneId"] = 6543,
             }, -- end of [579]
+            [580] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "D2.2_3rd_SA6BN",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 45.72,
+                ["type"] = 0,
+                ["x"] = -14210.219470083,
+                ["y"] = 339340.52011932,
+                ["zoneId"] = 6609,
+            }, -- end of [580]
+            [581] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "D2.2_3rd_SA6BN-1",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 45.72,
+                ["type"] = 0,
+                ["x"] = -14266.385592775,
+                ["y"] = 339380.0301884,
+                ["zoneId"] = 6610,
+            }, -- end of [581]
+            [582] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "D2.2_3rd_SA6BN-2",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 45.72,
+                ["type"] = 0,
+                ["x"] = -14300.898624308,
+                ["y"] = 339394.0910531,
+                ["zoneId"] = 6611,
+            }, -- end of [582]
+            [583] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "D2.2_3rd_Heavy rocket regimentBN1",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 45.72,
+                ["type"] = 0,
+                ["x"] = -14556.209840293,
+                ["y"] = 339467.59102766,
+                ["zoneId"] = 6612,
+            }, -- end of [583]
+            [584] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "D2.2_3rd_Heavy rocket regimentBN1-3",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 45.72,
+                ["type"] = 0,
+                ["x"] = -14629.782041274,
+                ["y"] = 339435.42459194,
+                ["zoneId"] = 6613,
+            }, -- end of [584]
+            [585] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "D2.2_3rd_Heavy rocket regimentBN1-4",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 45.72,
+                ["type"] = 0,
+                ["x"] = -14591.36200204,
+                ["y"] = 339457.74842238,
+                ["zoneId"] = 6614,
+            }, -- end of [585]
+            [586] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "D2.2_3rd_Heavy rocket regimentBN1-1",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 45.72,
+                ["type"] = 0,
+                ["x"] = -14583.783230498,
+                ["y"] = 339461.4198211,
+                ["zoneId"] = 6615,
+            }, -- end of [586]
+            [587] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "D2.2_3rd_Heavy rocket regimentBN1-2",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 45.72,
+                ["type"] = 0,
+                ["x"] = -14590.406487638,
+                ["y"] = 339464.56162047,
+                ["zoneId"] = 6616,
+            }, -- end of [587]
+            [588] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "D2.2_3rd_3C Logistics BN_fuel",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 22.86,
+                ["type"] = 0,
+                ["x"] = 33980.042414208,
+                ["y"] = 291667.33863761,
+                ["zoneId"] = 6617,
+            }, -- end of [588]
+            [589] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "D2.2_3rd_3C Logistics BN_fuel-1",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 22.86,
+                ["type"] = 0,
+                ["x"] = 33987.832304041,
+                ["y"] = 291678.7508251,
+                ["zoneId"] = 6618,
+            }, -- end of [589]
+            [590] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "D2.2_3rd_3C Logistics BN_fuel-2",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 22.86,
+                ["type"] = 0,
+                ["x"] = 33997.224153896,
+                ["y"] = 291691.56943098,
+                ["zoneId"] = 6619,
+            }, -- end of [590]
+            [591] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "D2.2_3rd_3C Logistics BN_food-1",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 22.86,
+                ["type"] = 0,
+                ["x"] = 34161.564055498,
+                ["y"] = 291854.96490155,
+                ["zoneId"] = 6620,
+            }, -- end of [591]
+            [592] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "D2.2_3rd_3C Logistics BN_food-2",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 22.86,
+                ["type"] = 0,
+                ["x"] = 34139.77432278,
+                ["y"] = 291867.62047094,
+                ["zoneId"] = 6621,
+            }, -- end of [592]
+            [593] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "D2.2_3rd_3C Logistics BN_food",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 22.86,
+                ["type"] = 0,
+                ["x"] = 34158.45428931,
+                ["y"] = 291859.48199572,
+                ["zoneId"] = 6622,
+            }, -- end of [593]
+            [594] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "D2.2_3rd_3C Logistics BN_ammo",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 22.86,
+                ["type"] = 0,
+                ["x"] = 34222.866330086,
+                ["y"] = 291589.12050339,
+                ["zoneId"] = 6623,
+            }, -- end of [594]
+            [595] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "D2.2_3rd_3C Logistics BN_ammo-1",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 22.86,
+                ["type"] = 0,
+                ["x"] = 34215.566633035,
+                ["y"] = 291578.08985007,
+                ["zoneId"] = 6624,
+            }, -- end of [595]
+            [596] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "D2.2_3rd_3C Logistics BN_ammo-2",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 22.86,
+                ["type"] = 0,
+                ["x"] = 34230.977104587,
+                ["y"] = 291565.76147283,
+                ["zoneId"] = 6625,
+            }, -- end of [596]
+            [597] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "D2.2_3rd_3C Logistics BN_ammo-3",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 22.86,
+                ["type"] = 0,
+                ["x"] = 34240.061172029,
+                ["y"] = 291580.36086693,
+                ["zoneId"] = 6626,
+            }, -- end of [597]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] =
@@ -111576,6 +111958,150 @@ mission =
             {
                 [1] =
                 {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 6623,
+                }, -- end of [1]
+                [2] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 6624,
+                }, -- end of [2]
+                [3] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 6625,
+                }, -- end of [3]
+                [4] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 6626,
+                }, -- end of [4]
+                [5] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 6622,
+                }, -- end of [5]
+                [6] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 6620,
+                }, -- end of [6]
+                [7] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 6621,
+                }, -- end of [7]
+                [8] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 6617,
+                }, -- end of [8]
+                [9] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 6618,
+                }, -- end of [9]
+                [10] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 6619,
+                }, -- end of [10]
+                [11] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 6612,
+                }, -- end of [11]
+                [12] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 6615,
+                }, -- end of [12]
+                [13] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 6616,
+                }, -- end of [13]
+                [14] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 6613,
+                }, -- end of [14]
+                [15] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 6614,
+                }, -- end of [15]
+                [16] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 6609,
+                }, -- end of [16]
+                [17] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 6610,
+                }, -- end of [17]
+                [18] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 6611,
+                }, -- end of [18]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x808080ff",
+            ["comment"] = "Bomb_D2.2",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 20,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [12]
+        [13] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
                     ["file"] = "ResKey_Action_15",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [1]
@@ -111595,8 +112121,8 @@ mission =
                     ["zone"] = 2831,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [12]
-        [13] =
+        }, -- end of [13]
+        [14] =
         {
             ["actions"] =
             {
@@ -111726,8 +112252,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [13]
-        [14] =
+        }, -- end of [14]
+        [15] =
         {
             ["actions"] =
             {
@@ -111859,8 +112385,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [14]
-        [15] =
+        }, -- end of [15]
+        [16] =
         {
             ["actions"] =
             {
@@ -111898,8 +112424,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [15]
-        [16] =
+        }, -- end of [16]
+        [17] =
         {
             ["actions"] =
             {
@@ -111928,8 +112454,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [16]
-        [17] =
+        }, -- end of [17]
+        [18] =
         {
             ["actions"] =
             {
@@ -111960,8 +112486,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [17]
-        [18] =
+        }, -- end of [18]
+        [19] =
         {
             ["actions"] =
             {
@@ -111990,8 +112516,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [18]
-        [19] =
+        }, -- end of [19]
+        [20] =
         {
             ["actions"] =
             {
@@ -112020,8 +112546,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [19]
-        [20] =
+        }, -- end of [20]
+        [21] =
         {
             ["actions"] =
             {
@@ -112050,8 +112576,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [20]
-        [21] =
+        }, -- end of [21]
+        [22] =
         {
             ["actions"] =
             {
@@ -112080,8 +112606,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [21]
-        [22] =
+        }, -- end of [22]
+        [23] =
         {
             ["actions"] =
             {
@@ -112110,8 +112636,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [22]
-        [23] =
+        }, -- end of [23]
+        [24] =
         {
             ["actions"] =
             {
@@ -112140,8 +112666,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [23]
-        [24] =
+        }, -- end of [24]
+        [25] =
         {
             ["actions"] =
             {
@@ -112170,8 +112696,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [24]
-        [25] =
+        }, -- end of [25]
+        [26] =
         {
             ["actions"] =
             {
@@ -112200,8 +112726,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [25]
-        [26] =
+        }, -- end of [26]
+        [27] =
         {
             ["actions"] =
             {
@@ -112239,8 +112765,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [26]
-        [27] =
+        }, -- end of [27]
+        [28] =
         {
             ["actions"] =
             {
@@ -112278,8 +112804,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [27]
-        [28] =
+        }, -- end of [28]
+        [29] =
         {
             ["actions"] =
             {
@@ -112308,8 +112834,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [28]
-        [29] =
+        }, -- end of [29]
+        [30] =
         {
             ["actions"] =
             {
@@ -112364,8 +112890,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [29]
-        [30] =
+        }, -- end of [30]
+        [31] =
         {
             ["actions"] =
             {
@@ -112389,8 +112915,8 @@ mission =
                     ["zone"] = 5502,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [30]
-        [31] =
+        }, -- end of [31]
+        [32] =
         {
             ["actions"] =
             {
@@ -112414,8 +112940,8 @@ mission =
                     ["zone"] = 5503,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [31]
-        [32] =
+        }, -- end of [32]
+        [33] =
         {
             ["actions"] =
             {
@@ -112443,29 +112969,6 @@ mission =
                     ["zone"] = 5557,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [32]
-        [33] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
-                    ["objects_mask"] = 1,
-                    ["predicate"] = "a_remove_scene_objects",
-                    ["zone"] = 5732,
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["comment"] = "Clear trees_JTAC 1",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["predicate"] = "c_time_after",
-                    ["seconds"] = 10,
-                }, -- end of [1]
-            }, -- end of ["rules"]
         }, -- end of [33]
         [34] =
         {
@@ -112475,7 +112978,7 @@ mission =
                 {
                     ["objects_mask"] = 1,
                     ["predicate"] = "a_remove_scene_objects",
-                    ["zone"] = 5733,
+                    ["zone"] = 5732,
                 }, -- end of [1]
             }, -- end of ["actions"]
             ["comment"] = "Clear trees_JTAC 1",
@@ -112498,7 +113001,7 @@ mission =
                 {
                     ["objects_mask"] = 1,
                     ["predicate"] = "a_remove_scene_objects",
-                    ["zone"] = 5794,
+                    ["zone"] = 5733,
                 }, -- end of [1]
             }, -- end of ["actions"]
             ["comment"] = "Clear trees_JTAC 1",
@@ -112514,6 +113017,29 @@ mission =
             }, -- end of ["rules"]
         }, -- end of [35]
         [36] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["objects_mask"] = 1,
+                    ["predicate"] = "a_remove_scene_objects",
+                    ["zone"] = 5794,
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["comment"] = "Clear trees_JTAC 1",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 10,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [36]
+        [37] =
         {
             ["actions"] =
             {
@@ -112556,8 +113082,8 @@ mission =
                     ["predicate"] = "c_group_life_less",
                 }, -- end of [3]
             }, -- end of ["rules"]
-        }, -- end of [36]
-        [37] =
+        }, -- end of [37]
+        [38] =
         {
             ["actions"] =
             {
@@ -112596,8 +113122,8 @@ mission =
                     ["zone"] = 6076,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [37]
-        [38] =
+        }, -- end of [38]
+        [39] =
         {
             ["actions"] =
             {
@@ -112640,8 +113166,8 @@ mission =
                     ["seconds"] = 6800,
                 }, -- end of [3]
             }, -- end of ["rules"]
-        }, -- end of [38]
-        [39] =
+        }, -- end of [39]
+        [40] =
         {
             ["actions"] =
             {
@@ -112663,8 +113189,8 @@ mission =
                     ["seconds"] = 7000,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [39]
-        [40] =
+        }, -- end of [40]
+        [41] =
         {
             ["actions"] =
             {
@@ -112686,8 +113212,8 @@ mission =
                     ["seconds"] = 7500,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [40]
-        [41] =
+        }, -- end of [41]
+        [42] =
         {
             ["actions"] =
             {
@@ -112717,8 +113243,8 @@ mission =
                     ["seconds"] = 6300,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [41]
-        [42] =
+        }, -- end of [42]
+        [43] =
         {
             ["actions"] =
             {
@@ -112754,7 +113280,7 @@ mission =
                     ["zone"] = 6076,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [42]
+        }, -- end of [43]
     }, -- end of ["trigrules"]
     ["version"] = 23,
     ["weather"] =

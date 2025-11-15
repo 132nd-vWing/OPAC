@@ -801,7 +801,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Turning Point",
-                                            ["alt"] = 10972.8,
+                                            ["alt"] = 12192,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 220.97222222222,
@@ -850,7 +850,7 @@ mission =
                                                             ["number"] = 3,
                                                             ["params"] =
                                                             {
-                                                                ["altitude"] = 10668,
+                                                                ["altitude"] = 12192,
                                                                 ["altitudeEdited"] = true,
                                                                 ["pattern"] = "Race-Track",
                                                                 ["speed"] = 201.44444444444,
@@ -925,7 +925,7 @@ mission =
                                             ["VoiceCallsignLabel"] = "OD",
                                             ["VoiceCallsignNumber"] = "11",
                                         }, -- end of ["AddPropAircraft"]
-                                        ["alt"] = 10972.8,
+                                        ["alt"] = 12192,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] =
                                         {
@@ -980,7 +980,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Turning Point",
-                                            ["alt"] = 10972.8,
+                                            ["alt"] = 12192,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 220.97222222222,
@@ -1029,10 +1029,10 @@ mission =
                                                             ["number"] = 3,
                                                             ["params"] =
                                                             {
-                                                                ["altitude"] = 10668,
+                                                                ["altitude"] = 12192,
                                                                 ["altitudeEdited"] = true,
                                                                 ["pattern"] = "Race-Track",
-                                                                ["speed"] = 201.44444444444,
+                                                                ["speed"] = 205.55555555556,
                                                                 ["speedEdited"] = true,
                                                             }, -- end of ["params"]
                                                         }, -- end of [3]
@@ -1058,8 +1058,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 182832.50761387,
-                                            ["y"] = 39063.960337042,
+                                            ["x"] = 182936.24935978,
+                                            ["y"] = 41157.710215283,
                                         }, -- end of [1]
                                         [2] =
                                         {
@@ -1104,7 +1104,7 @@ mission =
                                             ["VoiceCallsignLabel"] = "OD",
                                             ["VoiceCallsignNumber"] = "11",
                                         }, -- end of ["AddPropAircraft"]
-                                        ["alt"] = 10972.8,
+                                        ["alt"] = 12192,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] =
                                         {
@@ -1113,7 +1113,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Overlord11",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -0.029280332345783,
+                                        ["heading"] = -0.055886809575075,
                                         ["livery_id"] = "nato",
                                         ["name"] = "#IFF:5603FR",
                                         ["onboard_num"] = "603",
@@ -1127,17 +1127,17 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.029280332345783,
+                                        ["psi"] = 0.055886809575075,
                                         ["skill"] = "High",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "E-3A",
                                         ["unitId"] = 296,
-                                        ["x"] = 182832.50761387,
-                                        ["y"] = 39063.960337042,
+                                        ["x"] = 182936.24935978,
+                                        ["y"] = 41157.710215283,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 182832.50761387,
-                                ["y"] = 39063.960337042,
+                                ["x"] = 182936.24935978,
+                                ["y"] = 41157.710215283,
                             }, -- end of [6]
                             [7] =
                             {
@@ -3324,6 +3324,43 @@ mission =
                                                 {
                                                     ["tasks"] =
                                                     {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 0,
+                                                                        ["value"] = 3,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] =
+                                                        {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 2,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "SetInvisible",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -3726,49 +3763,6 @@ mission =
                                 ["x"] = 15728.512879094,
                                 ["y"] = 213023.51181323,
                             }, -- end of [6]
-                            [7] =
-                            {
-                                ["dead"] = false,
-                                ["groupId"] = 991,
-                                ["heading"] = 0.0082246703342411,
-                                ["hidden"] = true,
-                                ["hiddenOnMFD"] = true,
-                                ["hiddenOnPlanner"] = true,
-                                ["name"] = "Static Boat Armed Hi-speed-1",
-                                ["route"] =
-                                {
-                                    ["points"] =
-                                    {
-                                        [1] =
-                                        {
-                                            ["action"] = "",
-                                            ["alt"] = 0,
-                                            ["formation_template"] = "",
-                                            ["name"] = "",
-                                            ["speed"] = 0,
-                                            ["type"] = "",
-                                            ["x"] = -66462.632612525,
-                                            ["y"] = -335640.891202,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["units"] =
-                                {
-                                    [1] =
-                                    {
-                                        ["category"] = "Ships",
-                                        ["heading"] = 0.0082246703342411,
-                                        ["name"] = "Static Boat Armed Hi-speed-1",
-                                        ["rate"] = 20,
-                                        ["type"] = "speedboat",
-                                        ["unitId"] = 2105,
-                                        ["x"] = -66462.632612525,
-                                        ["y"] = -335640.891202,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["x"] = -66462.632612525,
-                                ["y"] = -335640.891202,
-                            }, -- end of [7]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["vehicle"] =
@@ -36172,7 +36166,7 @@ mission =
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
                                         ["psi"] = 1.5897334846402,
-                                        ["skill"] = "Excellent",
+                                        ["skill"] = "Good",
                                         ["speed"] = 215.96313889643,
                                         ["type"] = "Su-27",
                                         ["unitId"] = 966,
@@ -36456,7 +36450,7 @@ mission =
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
                                         ["psi"] = 2.5522990161888,
-                                        ["skill"] = "Excellent",
+                                        ["skill"] = "Good",
                                         ["speed"] = 215.96313889643,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 967,
@@ -36732,7 +36726,7 @@ mission =
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
                                         ["psi"] = 1.3043923712195,
-                                        ["skill"] = "Excellent",
+                                        ["skill"] = "Good",
                                         ["speed"] = 215.96313889643,
                                         ["type"] = "Su-27",
                                         ["unitId"] = 968,
@@ -36976,7 +36970,7 @@ mission =
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
                                         ["psi"] = -3.0677560987615,
-                                        ["skill"] = "Excellent",
+                                        ["skill"] = "Good",
                                         ["speed"] = 215.96313889643,
                                         ["type"] = "MiG-31",
                                         ["unitId"] = 969,
@@ -37240,7 +37234,7 @@ mission =
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
                                         ["psi"] = 2.8943753880542,
-                                        ["skill"] = "Excellent",
+                                        ["skill"] = "Good",
                                         ["speed"] = 215.96313889643,
                                         ["type"] = "MiG-29A",
                                         ["unitId"] = 970,
@@ -38004,7 +37998,7 @@ mission =
                                         }, -- end of [3]
                                         [4] =
                                         {
-                                            ["ETA"] = 1628.9777571368,
+                                            ["ETA"] = 1636.1042356969,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 7620,
@@ -38057,16 +38051,16 @@ mission =
                                                                 ["expend"] = "Half",
                                                                 ["groupAttack"] = false,
                                                                 ["weaponType"] = 2097152,
-                                                                ["x"] = -153256.15525825,
-                                                                ["y"] = 150984.31220026,
+                                                                ["x"] = -153219.95907824,
+                                                                ["y"] = 151011.20013607,
                                                             }, -- end of ["params"]
                                                         }, -- end of [2]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -142439.27613646,
-                                            ["y"] = 335018.31738851,
+                                            ["x"] = -142618.0211989,
+                                            ["y"] = 334124.7861091,
                                         }, -- end of [4]
                                         [5] =
                                         {
@@ -41585,7 +41579,7 @@ mission =
                                         }, -- end of [5]
                                         [6] =
                                         {
-                                            ["ETA"] = 2098.8804864314,
+                                            ["ETA"] = 2098.7541538804,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 152.4,
@@ -42326,7 +42320,7 @@ mission =
                                         }, -- end of [6]
                                         [7] =
                                         {
-                                            ["ETA"] = 2993.4510249172,
+                                            ["ETA"] = 2987.3212359197,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 152.4,
@@ -42418,7 +42412,7 @@ mission =
                                         }, -- end of [9]
                                         [10] =
                                         {
-                                            ["ETA"] = 4022.561654754,
+                                            ["ETA"] = 4000.2771890034,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 152.4,
@@ -42442,7 +42436,7 @@ mission =
                                         }, -- end of [10]
                                         [11] =
                                         {
-                                            ["ETA"] = 4722.5616572587,
+                                            ["ETA"] = 4700.2771915081,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 152.4,
@@ -42466,7 +42460,7 @@ mission =
                                         }, -- end of [11]
                                         [12] =
                                         {
-                                            ["ETA"] = 5469.7483160598,
+                                            ["ETA"] = 5447.500038489,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 1199.9976,
@@ -42637,7 +42631,7 @@ mission =
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
                                         ["psi"] = -0.7348278772148,
-                                        ["skill"] = "High",
+                                        ["skill"] = "Excellent",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Tu-22M3",
                                         ["unitId"] = 2031,
@@ -46188,7 +46182,7 @@ mission =
                                         }, -- end of [23]
                                         [24] =
                                         {
-                                            ["ETA"] = 6820.8057638116,
+                                            ["ETA"] = 6929.1665095133,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 762,
@@ -46207,12 +46201,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 314281.21330611,
-                                            ["y"] = 313601.62925181,
+                                            ["x"] = 319915.09695553,
+                                            ["y"] = 300497.23269111,
                                         }, -- end of [24]
                                         [25] =
                                         {
-                                            ["ETA"] = 7076.92394602,
+                                            ["ETA"] = 7219.0089880799,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 762,
@@ -46231,8 +46225,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 330825.9773527,
-                                            ["y"] = 338418.7753217,
+                                            ["x"] = 337491.89528956,
+                                            ["y"] = 329471.48619486,
                                         }, -- end of [25]
                                         [26] =
                                         {
@@ -46578,7 +46572,7 @@ mission =
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
                                         ["psi"] = -0.86981428844199,
-                                        ["skill"] = "High",
+                                        ["skill"] = "Excellent",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Tu-142",
                                         ["unitId"] = 2091,
@@ -47021,7 +47015,7 @@ mission =
                                         }, -- end of [10]
                                         [11] =
                                         {
-                                            ["ETA"] = 4722.5616572587,
+                                            ["ETA"] = 4719.3122719768,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 152.4,
@@ -47216,7 +47210,7 @@ mission =
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
                                         ["psi"] = -0.73937227636731,
-                                        ["skill"] = "High",
+                                        ["skill"] = "Excellent",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Tu-22M3",
                                         ["unitId"] = 2093,
@@ -47791,7 +47785,7 @@ mission =
                                             ["alt"] = 0,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
-                                            ["speed"] = 2.0555555555556,
+                                            ["speed"] = 6.1666666666667,
                                             ["speed_locked"] = true,
                                             ["task"] =
                                             {
@@ -47823,18 +47817,18 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 296065.65307097,
-                                            ["y"] = 430601.10274877,
+                                            ["x"] = 226001.13138052,
+                                            ["y"] = 442926.6469041,
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 16706.91428348,
+                                            ["ETA"] = 17466.485385282,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
-                                            ["speed"] = 5.6527777777778,
+                                            ["speed"] = 6.6805555555556,
                                             ["speed_locked"] = true,
                                             ["task"] =
                                             {
@@ -47847,8 +47841,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 201629.07141572,
-                                            ["y"] = 431458.50361983,
+                                            ["x"] = 339436.50667346,
+                                            ["y"] = 470276.19198275,
                                         }, -- end of [2]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -47881,52 +47875,51 @@ mission =
                                     [1] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 3.132513785014,
+                                        ["heading"] = 0.23658711178652,
                                         ["modulation"] = 0,
                                         ["name"] = "02_ SAG_Pyotr_veliky-1",
                                         ["skill"] = "Average",
                                         ["type"] = "PIOTR",
                                         ["unitId"] = 284,
-                                        ["x"] = 296065.65307097,
-                                        ["y"] = 430601.10274877,
+                                        ["x"] = 226001.13138052,
+                                        ["y"] = 442926.6469041,
                                     }, -- end of [1]
                                     [2] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 3.132513785014,
+                                        ["heading"] = 0.23658711178652,
                                         ["modulation"] = 0,
                                         ["name"] = "02_ SAG_Pyotr_veliky-2",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 283,
-                                        ["x"] = 298125.19020854,
-                                        ["y"] = 421240.05173577,
+                                        ["x"] = 229205.25018586,
+                                        ["y"] = 444124.14585155,
                                     }, -- end of [2]
                                     [3] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 3.132513785014,
+                                        ["heading"] = 0.23658711178652,
                                         ["modulation"] = 0,
                                         ["name"] = "02_ SAG_Pyotr_veliky-3",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 282,
-                                        ["x"] = 288606.51186318,
-                                        ["y"] = 427747.9440309,
+                                        ["x"] = 223185.3906122,
+                                        ["y"] = 442052.79632082,
                                     }, -- end of [3]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 296065.65307097,
-                                ["y"] = 430601.10274877,
+                                ["x"] = 226001.13138052,
+                                ["y"] = 442926.6469041,
                             }, -- end of [1]
                             [2] =
                             {
-                                ["groupId"] = 990,
+                                ["groupId"] = 1144,
                                 ["hidden"] = true,
                                 ["hiddenOnMFD"] = true,
                                 ["hiddenOnPlanner"] = true,
-                                ["lateActivation"] = false,
-                                ["name"] = "SRN_Navy_Speedboat_insertion_1",
+                                ["name"] = "03_ RUS_CSG",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -47939,7 +47932,7 @@ mission =
                                             ["alt"] = 0,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
-                                            ["speed"] = 0.51388888888889,
+                                            ["speed"] = 6.1666666666667,
                                             ["speed_locked"] = true,
                                             ["task"] =
                                             {
@@ -47952,18 +47945,18 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 237926.42776563,
-                                            ["y"] = 402914.4468117,
+                                            ["x"] = 200829.40157992,
+                                            ["y"] = 430300.7788159,
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 3846.6457606904,
+                                            ["ETA"] = 26478.895553238,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
-                                            ["speed"] = 1.0277777777778,
+                                            ["speed"] = 5.6527777777778,
                                             ["speed_locked"] = true,
                                             ["task"] =
                                             {
@@ -47976,107 +47969,10 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 241521.16889142,
-                                            ["y"] = 404560.03941595,
+                                            ["x"] = 333478.27277799,
+                                            ["y"] = 499641.77332472,
                                         }, -- end of [2]
-                                        [3] =
-                                        {
-                                            ["ETA"] = 9900.3695134969,
-                                            ["ETA_locked"] = false,
-                                            ["action"] = "Turning Point",
-                                            ["alt"] = 0,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["speed"] = 19.013888888889,
-                                            ["speed_locked"] = true,
-                                            ["task"] =
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] =
-                                                {
-                                                    ["tasks"] =
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["x"] = 275341.37305161,
-                                            ["y"] = 294535.87905088,
-                                        }, -- end of [3]
-                                        [4] =
-                                        {
-                                            ["ETA"] = 11015.456432782,
-                                            ["ETA_locked"] = false,
-                                            ["action"] = "Turning Point",
-                                            ["alt"] = 0,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["speed"] = 0.51388888888889,
-                                            ["speed_locked"] = true,
-                                            ["task"] =
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] =
-                                                {
-                                                    ["tasks"] =
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["x"] = 275866.55062126,
-                                            ["y"] = 294765.12301008,
-                                        }, -- end of [4]
-                                        [5] =
-                                        {
-                                            ["ETA"] = 17066.772721297,
-                                            ["ETA_locked"] = false,
-                                            ["action"] = "Turning Point",
-                                            ["alt"] = 0,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["speed"] = 19.013888888889,
-                                            ["speed_locked"] = true,
-                                            ["task"] =
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] =
-                                                {
-                                                    ["tasks"] =
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["x"] = 241513.18057781,
-                                            ["y"] = 404576.01604318,
-                                        }, -- end of [5]
-                                        [6] =
-                                        {
-                                            ["ETA"] = 17215.269375579,
-                                            ["ETA_locked"] = false,
-                                            ["action"] = "Turning Point",
-                                            ["alt"] = 0,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["speed"] = 2.5694444444444,
-                                            ["speed_locked"] = true,
-                                            ["task"] =
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] =
-                                                {
-                                                    ["tasks"] =
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["x"] = 237867.30943661,
-                                            ["y"] = 403252.81157159,
-                                        }, -- end of [6]
                                     }, -- end of ["points"]
-                                    ["routeRelativeTOT"] = false,
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
                                 ["tasks"] =
@@ -48088,32 +47984,225 @@ mission =
                                     [1] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.42930307202644,
+                                        ["heading"] = 0.48167440513045,
                                         ["modulation"] = 0,
-                                        ["name"] = "SRN_Navy_Speedboat_insertion_1-1",
+                                        ["name"] = "03_ RUS_CSG_CV",
                                         ["skill"] = "Average",
-                                        ["type"] = "speedboat",
-                                        ["unitId"] = 2104,
-                                        ["x"] = 237926.42776563,
-                                        ["y"] = 402914.4468117,
+                                        ["type"] = "CV_1143_5",
+                                        ["unitId"] = 2359,
+                                        ["x"] = 200829.40157992,
+                                        ["y"] = 430300.7788159,
                                     }, -- end of [1]
                                     [2] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.42930307202644,
+                                        ["heading"] = 0.48167440513045,
                                         ["modulation"] = 0,
-                                        ["name"] = "SRN_Navy_Speedboat_insertion_1-2",
+                                        ["name"] = "03_ RUS_CSG_Rezky_3",
                                         ["skill"] = "Average",
-                                        ["type"] = "speedboat",
-                                        ["unitId"] = 2103,
-                                        ["x"] = 237858.71584639,
-                                        ["y"] = 403071.45995778,
+                                        ["type"] = "REZKY",
+                                        ["unitId"] = 2358,
+                                        ["x"] = 197321.68586015,
+                                        ["y"] = 430612.11453068,
                                     }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["frequency"] = 127500000,
+                                        ["heading"] = 0.48167440513045,
+                                        ["modulation"] = 0,
+                                        ["name"] = "03_ RUS_CSG_Rezky_2",
+                                        ["skill"] = "Average",
+                                        ["type"] = "REZKY",
+                                        ["unitId"] = 2357,
+                                        ["x"] = 207035.36016106,
+                                        ["y"] = 428391.25309863,
+                                    }, -- end of [3]
+                                    [4] =
+                                    {
+                                        ["frequency"] = 127500000,
+                                        ["heading"] = 0.48167440513045,
+                                        ["modulation"] = 0,
+                                        ["name"] = "03_ RUS_CSG_Rezky_1",
+                                        ["skill"] = "Average",
+                                        ["type"] = "REZKY",
+                                        ["unitId"] = 2356,
+                                        ["x"] = 203133.28586924,
+                                        ["y"] = 436070.86739636,
+                                    }, -- end of [4]
+                                    [5] =
+                                    {
+                                        ["frequency"] = 127500000,
+                                        ["heading"] = 0.48167440513045,
+                                        ["modulation"] = 0,
+                                        ["name"] = "03_ RUS_CSG:Moskva",
+                                        ["skill"] = "Average",
+                                        ["type"] = "MOSCOW",
+                                        ["unitId"] = 2355,
+                                        ["x"] = 201659.63015265,
+                                        ["y"] = 428525.01214646,
+                                    }, -- end of [5]
+                                    [6] =
+                                    {
+                                        ["frequency"] = 127500000,
+                                        ["heading"] = 0.48167440513045,
+                                        ["modulation"] = 0,
+                                        ["name"] = "03_ RUS_CSG_Rezky_4",
+                                        ["skill"] = "Average",
+                                        ["type"] = "REZKY",
+                                        ["unitId"] = 2354,
+                                        ["x"] = 198560.1101478,
+                                        ["y"] = 426790.75690565,
+                                    }, -- end of [6]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 237926.42776563,
-                                ["y"] = 402914.4468117,
+                                ["x"] = 200829.40157992,
+                                ["y"] = 430300.7788159,
                             }, -- end of [2]
+                            [3] =
+                            {
+                                ["groupId"] = 1145,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "04_ RUS_ATG",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 3.0833333333333,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 205142.59316573,
+                                            ["y"] = 440914.66560637,
+                                        }, -- end of [1]
+                                        [2] =
+                                        {
+                                            ["ETA"] = 18474.066741495,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 3.0833333333333,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 255062.55308014,
+                                            ["y"] = 413480.49843793,
+                                        }, -- end of [2]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["frequency"] = 127500000,
+                                        ["heading"] = 5.7806776015959,
+                                        ["modulation"] = 0,
+                                        ["name"] = "04_ RUS_ATG_Moskva",
+                                        ["skill"] = "Average",
+                                        ["type"] = "MOSCOW",
+                                        ["unitId"] = 2365,
+                                        ["x"] = 205142.59316573,
+                                        ["y"] = 440914.66560637,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["frequency"] = 127500000,
+                                        ["heading"] = 5.7806776015959,
+                                        ["modulation"] = 0,
+                                        ["name"] = "04_ RUS_ATG_Ropucha1",
+                                        ["skill"] = "Average",
+                                        ["type"] = "BDK-775",
+                                        ["unitId"] = 2364,
+                                        ["x"] = 204662.6940241,
+                                        ["y"] = 439770.04838697,
+                                    }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["frequency"] = 127500000,
+                                        ["heading"] = 5.7806776015959,
+                                        ["modulation"] = 0,
+                                        ["name"] = "04_ RUS_ATG_Ropucha2",
+                                        ["skill"] = "Average",
+                                        ["type"] = "BDK-775",
+                                        ["unitId"] = 2363,
+                                        ["x"] = 205683.61038791,
+                                        ["y"] = 442180.88702922,
+                                    }, -- end of [3]
+                                    [4] =
+                                    {
+                                        ["frequency"] = 127500000,
+                                        ["heading"] = 5.7806776015959,
+                                        ["modulation"] = 0,
+                                        ["name"] = "04_ RUS_ATG_Ropucha_3",
+                                        ["skill"] = "Average",
+                                        ["type"] = "BDK-775",
+                                        ["unitId"] = 2362,
+                                        ["x"] = 206064.9164997,
+                                        ["y"] = 440483.45982192,
+                                    }, -- end of [4]
+                                    [5] =
+                                    {
+                                        ["frequency"] = 127500000,
+                                        ["heading"] = 5.7806776015959,
+                                        ["modulation"] = 0,
+                                        ["name"] = "04_ RUS_ATG_Neustrashimy1",
+                                        ["skill"] = "Average",
+                                        ["type"] = "NEUSTRASH",
+                                        ["unitId"] = 2361,
+                                        ["x"] = 207983.74725577,
+                                        ["y"] = 435784.78450896,
+                                    }, -- end of [5]
+                                    [6] =
+                                    {
+                                        ["frequency"] = 127500000,
+                                        ["heading"] = 5.7806776015959,
+                                        ["modulation"] = 0,
+                                        ["name"] = "04_ RUS_ATG_Neustrashimy2",
+                                        ["skill"] = "Average",
+                                        ["type"] = "NEUSTRASH",
+                                        ["unitId"] = 2360,
+                                        ["x"] = 210234.68333502,
+                                        ["y"] = 442193.18722637,
+                                    }, -- end of [6]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 205142.59316573,
+                                ["y"] = 440914.66560637,
+                            }, -- end of [3]
                         }, -- end of ["group"]
                     }, -- end of ["ship"]
                     ["static"] =
@@ -70673,8 +70762,8 @@ mission =
                                             ["name"] = "",
                                             ["speed"] = 0,
                                             ["type"] = "",
-                                            ["x"] = 116198.23659661,
-                                            ["y"] = 234621.53198342,
+                                            ["x"] = 116190.55791446,
+                                            ["y"] = 234578.40522627,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -70688,12 +70777,12 @@ mission =
                                         ["rate"] = 20,
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 2010,
-                                        ["x"] = 116198.23659661,
-                                        ["y"] = 234621.53198342,
+                                        ["x"] = 116190.55791446,
+                                        ["y"] = 234578.40522627,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 116198.23659661,
-                                ["y"] = 234621.53198342,
+                                ["x"] = 116190.55791446,
+                                ["y"] = 234578.40522627,
                             }, -- end of [519]
                             [520] =
                             {
@@ -74904,6 +74993,967 @@ mission =
                                 ["x"] = 193454.07355626,
                                 ["y"] = 310464.62434794,
                             }, -- end of [614]
+                            [615] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1122,
+                                ["heading"] = 4.3982297150257,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "1C_10DIV_T80_static-21",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 92638.691585137,
+                                            ["y"] = 210303.36360499,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 4.3982297150257,
+                                        ["name"] = "1C_10DIV_T80_static-21-1",
+                                        ["rate"] = 20,
+                                        ["type"] = "T-80UD",
+                                        ["unitId"] = 2332,
+                                        ["x"] = 92638.691585137,
+                                        ["y"] = 210303.36360499,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 92638.691585137,
+                                ["y"] = 210303.36360499,
+                            }, -- end of [615]
+                            [616] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1123,
+                                ["heading"] = 4.3982297150257,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "1C_10DIV_T80_static-22",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 92596.708724764,
+                                            ["y"] = 210256.78886927,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 4.3982297150257,
+                                        ["name"] = "1C_10DIV_T80_static-22-1",
+                                        ["rate"] = 20,
+                                        ["type"] = "T-80UD",
+                                        ["unitId"] = 2333,
+                                        ["x"] = 92596.708724764,
+                                        ["y"] = 210256.78886927,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 92596.708724764,
+                                ["y"] = 210256.78886927,
+                            }, -- end of [616]
+                            [617] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1124,
+                                ["heading"] = 4.0666171571468,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "1C_10DIV_T80_static-23",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 92656.403104357,
+                                            ["y"] = 210266.62860217,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 4.0666171571468,
+                                        ["name"] = "1C_10DIV_T80_static-23-1",
+                                        ["rate"] = 20,
+                                        ["type"] = "T-80UD",
+                                        ["unitId"] = 2334,
+                                        ["x"] = 92656.403104357,
+                                        ["y"] = 210266.62860217,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 92656.403104357,
+                                ["y"] = 210266.62860217,
+                            }, -- end of [617]
+                            [618] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1125,
+                                ["heading"] = 5.235987755983,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "1C_10DIV_T80_static-24",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 92391.751719228,
+                                            ["y"] = 208467.51216644,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 5.235987755983,
+                                        ["name"] = "1C_10DIV_T80_static-24-1",
+                                        ["rate"] = 20,
+                                        ["type"] = "T-80UD",
+                                        ["unitId"] = 2335,
+                                        ["x"] = 92391.751719228,
+                                        ["y"] = 208467.51216644,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 92391.751719228,
+                                ["y"] = 208467.51216644,
+                            }, -- end of [618]
+                            [619] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1126,
+                                ["heading"] = 6.0039326268605,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "1C_10DIV_T80_static-25",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 92393.101393959,
+                                            ["y"] = 208449.51650336,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 6.0039326268605,
+                                        ["name"] = "1C_10DIV_T80_static-25-1",
+                                        ["rate"] = 20,
+                                        ["type"] = "T-80UD",
+                                        ["unitId"] = 2336,
+                                        ["x"] = 92393.101393959,
+                                        ["y"] = 208449.51650336,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 92393.101393959,
+                                ["y"] = 208449.51650336,
+                            }, -- end of [619]
+                            [620] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1127,
+                                ["heading"] = 4.7123889803847,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "1C_10DIV_T80_static-26",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 91551.321911622,
+                                            ["y"] = 209043.13569603,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 4.7123889803847,
+                                        ["name"] = "1C_10DIV_T80_static-26-1",
+                                        ["rate"] = 20,
+                                        ["type"] = "T-80UD",
+                                        ["unitId"] = 2337,
+                                        ["x"] = 91551.321911622,
+                                        ["y"] = 209043.13569603,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 91551.321911622,
+                                ["y"] = 209043.13569603,
+                            }, -- end of [620]
+                            [621] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1128,
+                                ["heading"] = 3.9269908169872,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "1C_10DIV_T80_static-27",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 91582.953628382,
+                                            ["y"] = 209010.21288879,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 3.9269908169872,
+                                        ["name"] = "1C_10DIV_T80_static-27-1",
+                                        ["rate"] = 20,
+                                        ["type"] = "T-80UD",
+                                        ["unitId"] = 2338,
+                                        ["x"] = 91582.953628382,
+                                        ["y"] = 209010.21288879,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 91582.953628382,
+                                ["y"] = 209010.21288879,
+                            }, -- end of [621]
+                            [622] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1129,
+                                ["heading"] = 1.9373154697137,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "162nd_transport_RW",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 187211.66885457,
+                                            ["y"] = 328261.13479916,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Helicopters",
+                                        ["heading"] = 1.9373154697137,
+                                        ["livery_id"] = "RF Air Force",
+                                        ["name"] = "162nd_transport_RW-1",
+                                        ["rate"] = "30",
+                                        ["type"] = "Mi-26",
+                                        ["unitId"] = 2339,
+                                        ["x"] = 187211.66885457,
+                                        ["y"] = 328261.13479916,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 187211.66885457,
+                                ["y"] = 328261.13479916,
+                            }, -- end of [622]
+                            [623] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1130,
+                                ["heading"] = 1.9373154697137,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "162nd_transport_RW-1",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 187049.92452294,
+                                            ["y"] = 328202.87830615,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Helicopters",
+                                        ["heading"] = 1.9373154697137,
+                                        ["livery_id"] = "RF Air Force",
+                                        ["name"] = "162nd_transport_RW-1-1",
+                                        ["rate"] = "30",
+                                        ["type"] = "Mi-26",
+                                        ["unitId"] = 2340,
+                                        ["x"] = 187049.92452294,
+                                        ["y"] = 328202.87830615,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 187049.92452294,
+                                ["y"] = 328202.87830615,
+                            }, -- end of [623]
+                            [624] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1131,
+                                ["heading"] = 5.0440015382636,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "162nd_transport_RW-2",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 187149.85112683,
+                                            ["y"] = 328330.86494263,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Helicopters",
+                                        ["heading"] = 5.0440015382636,
+                                        ["livery_id"] = "RF Air Force",
+                                        ["name"] = "162nd_transport_RW-2-1",
+                                        ["rate"] = "30",
+                                        ["type"] = "Mi-26",
+                                        ["unitId"] = 2341,
+                                        ["x"] = 187149.85112683,
+                                        ["y"] = 328330.86494263,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 187149.85112683,
+                                ["y"] = 328330.86494263,
+                            }, -- end of [624]
+                            [625] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1132,
+                                ["heading"] = 1.9373154697137,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "162nd_transport_RW-3",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 187083.03725467,
+                                            ["y"] = 328213.29144527,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Helicopters",
+                                        ["heading"] = 1.9373154697137,
+                                        ["livery_id"] = "RF Air Force",
+                                        ["name"] = "162nd_transport_RW-3-1",
+                                        ["rate"] = "30",
+                                        ["type"] = "Mi-26",
+                                        ["unitId"] = 2342,
+                                        ["x"] = 187083.03725467,
+                                        ["y"] = 328213.29144527,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 187083.03725467,
+                                ["y"] = 328213.29144527,
+                            }, -- end of [625]
+                            [626] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1133,
+                                ["heading"] = 1.9373154697137,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "162nd_transport_RW-4",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 187145.98056355,
+                                            ["y"] = 328234.26231647,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Helicopters",
+                                        ["heading"] = 1.9373154697137,
+                                        ["livery_id"] = "RF Air Force",
+                                        ["name"] = "162nd_transport_RW-4-1",
+                                        ["rate"] = "30",
+                                        ["type"] = "Mi-26",
+                                        ["unitId"] = 2343,
+                                        ["x"] = 187145.98056355,
+                                        ["y"] = 328234.26231647,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 187145.98056355,
+                                ["y"] = 328234.26231647,
+                            }, -- end of [626]
+                            [627] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1134,
+                                ["heading"] = 5.0440015382636,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "162nd_transport_RW-5",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 187115.07411857,
+                                            ["y"] = 328367.3808013,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Helicopters",
+                                        ["heading"] = 5.0440015382636,
+                                        ["livery_id"] = "RF Air Force",
+                                        ["name"] = "162nd_transport_RW-5-1",
+                                        ["rate"] = "30",
+                                        ["type"] = "Mi-26",
+                                        ["unitId"] = 2344,
+                                        ["x"] = 187115.07411857,
+                                        ["y"] = 328367.3808013,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 187115.07411857,
+                                ["y"] = 328367.3808013,
+                            }, -- end of [627]
+                            [628] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1135,
+                                ["heading"] = 5.0440015382636,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "162nd_transport_RW-6",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 187110.98270583,
+                                            ["y"] = 328304.88447175,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Helicopters",
+                                        ["heading"] = 5.0440015382636,
+                                        ["livery_id"] = "RF Air Force",
+                                        ["name"] = "162nd_transport_RW-6-1",
+                                        ["rate"] = "30",
+                                        ["type"] = "Mi-26",
+                                        ["unitId"] = 2345,
+                                        ["x"] = 187110.98270583,
+                                        ["y"] = 328304.88447175,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 187110.98270583,
+                                ["y"] = 328304.88447175,
+                            }, -- end of [628]
+                            [629] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1136,
+                                ["heading"] = 1.9373154697137,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "161nd_attack_RW",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 187993.65485126,
+                                            ["y"] = 328554.97499928,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Helicopters",
+                                        ["heading"] = 1.9373154697137,
+                                        ["livery_id"] = "af standard3 old",
+                                        ["name"] = "161nd_attack_RW",
+                                        ["rate"] = 20,
+                                        ["type"] = "Mi-24P",
+                                        ["unitId"] = 2346,
+                                        ["x"] = 187993.65485126,
+                                        ["y"] = 328554.97499928,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 187993.65485126,
+                                ["y"] = 328554.97499928,
+                            }, -- end of [629]
+                            [630] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1137,
+                                ["heading"] = 1.9373154697137,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "161nd_attack_RW-1",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 187951.61644398,
+                                            ["y"] = 328537.88246005,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Helicopters",
+                                        ["heading"] = 1.9373154697137,
+                                        ["livery_id"] = "af standard3 old",
+                                        ["name"] = "161nd_attack_RW-1-1",
+                                        ["rate"] = 20,
+                                        ["type"] = "Mi-24P",
+                                        ["unitId"] = 2347,
+                                        ["x"] = 187951.61644398,
+                                        ["y"] = 328537.88246005,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 187951.61644398,
+                                ["y"] = 328537.88246005,
+                            }, -- end of [630]
+                            [631] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1138,
+                                ["heading"] = 1.9373154697137,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "161nd_attack_RW-2",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 187909.03908275,
+                                            ["y"] = 328522.63776291,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Helicopters",
+                                        ["heading"] = 1.9373154697137,
+                                        ["livery_id"] = "af standard3 old",
+                                        ["name"] = "161nd_attack_RW-2-1",
+                                        ["rate"] = 20,
+                                        ["type"] = "Mi-24P",
+                                        ["unitId"] = 2348,
+                                        ["x"] = 187909.03908275,
+                                        ["y"] = 328522.63776291,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 187909.03908275,
+                                ["y"] = 328522.63776291,
+                            }, -- end of [631]
+                            [632] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1139,
+                                ["heading"] = 1.9373154697137,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "161nd_attack_RW-3",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 187866.3847281,
+                                            ["y"] = 328505.77620394,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Helicopters",
+                                        ["heading"] = 1.9373154697137,
+                                        ["livery_id"] = "af standard3 old",
+                                        ["name"] = "161nd_attack_RW-3-1",
+                                        ["rate"] = 20,
+                                        ["type"] = "Mi-24P",
+                                        ["unitId"] = 2349,
+                                        ["x"] = 187866.3847281,
+                                        ["y"] = 328505.77620394,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 187866.3847281,
+                                ["y"] = 328505.77620394,
+                            }, -- end of [632]
+                            [633] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1140,
+                                ["heading"] = 1.9373154697137,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "161nd_attack_RW-4",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 187827.23936379,
+                                            ["y"] = 328489.57616437,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Helicopters",
+                                        ["heading"] = 1.9373154697137,
+                                        ["livery_id"] = "af standard3 old",
+                                        ["name"] = "161nd_attack_RW-4-1",
+                                        ["rate"] = 20,
+                                        ["type"] = "Mi-24P",
+                                        ["unitId"] = 2350,
+                                        ["x"] = 187827.23936379,
+                                        ["y"] = 328489.57616437,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 187827.23936379,
+                                ["y"] = 328489.57616437,
+                            }, -- end of [633]
+                            [634] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1141,
+                                ["heading"] = 1.9373154697137,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "161nd_attack_RW-5",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 187778.45009853,
+                                            ["y"] = 328470.94168676,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Helicopters",
+                                        ["heading"] = 1.9373154697137,
+                                        ["livery_id"] = "af standard3 old",
+                                        ["name"] = "161nd_attack_RW-5-1",
+                                        ["rate"] = 20,
+                                        ["type"] = "Mi-24P",
+                                        ["unitId"] = 2351,
+                                        ["x"] = 187778.45009853,
+                                        ["y"] = 328470.94168676,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 187778.45009853,
+                                ["y"] = 328470.94168676,
+                            }, -- end of [634]
+                            [635] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1142,
+                                ["heading"] = 1.9373154697137,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "161nd_attack_RW-6",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 187728.51388261,
+                                            ["y"] = 328454.11760553,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Helicopters",
+                                        ["heading"] = 1.9373154697137,
+                                        ["livery_id"] = "af standard3 old",
+                                        ["name"] = "161nd_attack_RW-6-1",
+                                        ["rate"] = 20,
+                                        ["type"] = "Mi-24P",
+                                        ["unitId"] = 2352,
+                                        ["x"] = 187728.51388261,
+                                        ["y"] = 328454.11760553,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 187728.51388261,
+                                ["y"] = 328454.11760553,
+                            }, -- end of [635]
+                            [636] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1143,
+                                ["heading"] = 1.9373154697137,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "161nd_attack_RW-7",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 187680.39280198,
+                                            ["y"] = 328435.22343891,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Helicopters",
+                                        ["heading"] = 1.9373154697137,
+                                        ["livery_id"] = "af standard3 old",
+                                        ["name"] = "161nd_attack_RW-7-1",
+                                        ["rate"] = 20,
+                                        ["type"] = "Mi-24P",
+                                        ["unitId"] = 2353,
+                                        ["x"] = 187680.39280198,
+                                        ["y"] = 328435.22343891,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 187680.39280198,
+                                ["y"] = 328435.22343891,
+                            }, -- end of [636]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["vehicle"] =
@@ -82511,8 +83561,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "SAU Msta",
                                         ["unitId"] = 1087,
-                                        ["x"] = 90637.980328346,
-                                        ["y"] = 206441.73619002,
+                                        ["x"] = 90660.089642388,
+                                        ["y"] = 206427.36805865,
                                     }, -- end of [6]
                                     [7] =
                                     {
@@ -84672,8 +85722,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 93613.097480802,
-                                            ["y"] = 212788.76932545,
+                                            ["x"] = 93618.159690961,
+                                            ["y"] = 212786.65445277,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -84682,13 +85732,13 @@ mission =
                                         {
                                             [1] =
                                             {
-                                                ["x"] = 93613.097480802,
-                                                ["y"] = 212788.76932545,
+                                                ["x"] = 93618.159690961,
+                                                ["y"] = 212786.65445277,
                                             }, -- end of [1]
                                             [2] =
                                             {
-                                                ["x"] = 93613.097480802,
-                                                ["y"] = 212788.76932545,
+                                                ["x"] = 93618.159690961,
+                                                ["y"] = 212786.65445277,
                                             }, -- end of [2]
                                         }, -- end of [1]
                                     }, -- end of ["spans"]
@@ -84709,8 +85759,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1221,
-                                        ["x"] = 93613.097480802,
-                                        ["y"] = 212788.76932545,
+                                        ["x"] = 93618.159690961,
+                                        ["y"] = 212786.65445277,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -84721,8 +85771,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1222,
-                                        ["x"] = 93539.841453719,
-                                        ["y"] = 212795.58162904,
+                                        ["x"] = 93544.903663878,
+                                        ["y"] = 212793.46675636,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -84733,80 +85783,80 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1223,
-                                        ["x"] = 93577.480656005,
-                                        ["y"] = 212888.28559022,
+                                        ["x"] = 93582.542866164,
+                                        ["y"] = 212886.17071754,
                                     }, -- end of [3]
                                     [4] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 4.1218942241988,
+                                        ["heading"] = 3.6058502346203,
                                         ["name"] = "1C_10DIV_T80_Coy_-4",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1224,
-                                        ["x"] = 94310.51919553,
-                                        ["y"] = 214437.54687484,
+                                        ["x"] = 83793.061582048,
+                                        ["y"] = 202993.61599564,
                                     }, -- end of [4]
                                     [5] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 4.1218942241988,
+                                        ["heading"] = 3.6058502346203,
                                         ["name"] = "1C_10DIV_T80_Coy_-5",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1225,
-                                        ["x"] = 94071.333935269,
-                                        ["y"] = 214583.63607571,
+                                        ["x"] = 83780.537446534,
+                                        ["y"] = 203031.99641093,
                                     }, -- end of [5]
                                     [6] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 4.0840704496667,
+                                        ["heading"] = 3.5604716740684,
                                         ["name"] = "1C_10DIV_T80_Coy_-6",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1226,
-                                        ["x"] = 94189.494318333,
-                                        ["y"] = 214486.24327513,
+                                        ["x"] = 83767.609306648,
+                                        ["y"] = 203110.77726336,
                                     }, -- end of [6]
                                     [7] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 3.2986722862693,
+                                        ["heading"] = 2.3212879051525,
                                         ["name"] = "1C_10DIV_T80_Coy_-7",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1227,
-                                        ["x"] = 95810.505773438,
-                                        ["y"] = 215419.14391952,
+                                        ["x"] = 84692.197280115,
+                                        ["y"] = 199779.96247469,
                                     }, -- end of [7]
                                     [8] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 3.8048177693476,
+                                        ["heading"] = 2.7471482426391,
                                         ["name"] = "1C_10DIV_T80_Coy_-8",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1228,
-                                        ["x"] = 95814.93827697,
-                                        ["y"] = 215338.62010536,
+                                        ["x"] = 84708.141603236,
+                                        ["y"] = 199737.66572863,
                                     }, -- end of [8]
                                     [9] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 4.1218942241988,
+                                        ["heading"] = 3.6355208319042,
                                         ["name"] = "1C_10DIV_T80_Coy_-9",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1229,
-                                        ["x"] = 95964.165895868,
-                                        ["y"] = 215360.78262302,
+                                        ["x"] = 84687.103954673,
+                                        ["y"] = 199723.7144459,
                                     }, -- end of [9]
                                     [10] =
                                     {
@@ -84817,8 +85867,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "Ural-375",
                                         ["unitId"] = 1230,
-                                        ["x"] = 85934.989990865,
-                                        ["y"] = 202784.22900245,
+                                        ["x"] = 85940.052201024,
+                                        ["y"] = 202782.11412977,
                                     }, -- end of [10]
                                     [11] =
                                     {
@@ -84829,13 +85879,13 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "ATMZ-5",
                                         ["unitId"] = 1231,
-                                        ["x"] = 85987.443949439,
-                                        ["y"] = 202782.43952839,
+                                        ["x"] = 85992.506159598,
+                                        ["y"] = 202780.32465571,
                                     }, -- end of [11]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 93613.097480802,
-                                ["y"] = 212788.76932545,
+                                ["x"] = 93618.159690961,
+                                ["y"] = 212786.65445277,
                             }, -- end of [79]
                             [80] =
                             {
@@ -84936,26 +85986,26 @@ mission =
                                     [4] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 5.5551260351047,
+                                        ["heading"] = 4.7961647844804,
                                         ["name"] = "1C_10DIV_T80_Coy-1_MOVING-4",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1235,
-                                        ["x"] = 87279.100502308,
-                                        ["y"] = 202370.42460209,
+                                        ["x"] = 88018.138650166,
+                                        ["y"] = 201640.71428796,
                                     }, -- end of [4]
                                     [5] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 1.1344640137963,
+                                        ["heading"] = 1.1763519158442,
                                         ["name"] = "1C_10DIV_T80_Coy-1_MOVING-5",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1236,
-                                        ["x"] = 87275.83730738,
-                                        ["y"] = 202395.62371848,
+                                        ["x"] = 88038.353926457,
+                                        ["y"] = 201608.56085638,
                                     }, -- end of [5]
                                     [6] =
                                     {
@@ -84966,8 +86016,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1237,
-                                        ["x"] = 87276.018595987,
-                                        ["y"] = 202345.58806291,
+                                        ["x"] = 88001.743583568,
+                                        ["y"] = 201575.92989859,
                                     }, -- end of [6]
                                     [7] =
                                     {
@@ -85223,7 +86273,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 136,
+                                            ["alt"] = 141,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 2.5694444444444,
@@ -85239,8 +86289,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 91552.496521976,
-                                            ["y"] = 209029.12195226,
+                                            ["x"] = 83095.844500081,
+                                            ["y"] = 203075.43203046,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -85249,13 +86299,13 @@ mission =
                                         {
                                             [1] =
                                             {
-                                                ["x"] = 91552.496521976,
-                                                ["y"] = 209029.12195226,
+                                                ["x"] = 83095.844500081,
+                                                ["y"] = 203075.43203046,
                                             }, -- end of [1]
                                             [2] =
                                             {
-                                                ["x"] = 91552.496521976,
-                                                ["y"] = 209029.12195226,
+                                                ["x"] = 83095.844500081,
+                                                ["y"] = 203075.43203046,
                                             }, -- end of [2]
                                         }, -- end of [1]
                                     }, -- end of ["spans"]
@@ -85276,8 +86326,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1254,
-                                        ["x"] = 91552.496521976,
-                                        ["y"] = 209029.12195226,
+                                        ["x"] = 83095.844500081,
+                                        ["y"] = 203075.43203046,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -85288,8 +86338,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1255,
-                                        ["x"] = 91637.380280066,
-                                        ["y"] = 208908.60192013,
+                                        ["x"] = 83180.728258171,
+                                        ["y"] = 202954.91199833,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -85300,85 +86350,85 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1256,
-                                        ["x"] = 91591.917687034,
-                                        ["y"] = 208981.76357646,
+                                        ["x"] = 83135.265665139,
+                                        ["y"] = 203028.07365466,
                                     }, -- end of [3]
                                     [4] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 5.846852994181,
+                                        ["heading"] = 3.6285395148962,
                                         ["name"] = "1C_10DIV_T80_Coy-3-4",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1257,
-                                        ["x"] = 92457.317820139,
-                                        ["y"] = 208512.66584261,
+                                        ["x"] = 85009.819538866,
+                                        ["y"] = 202809.56812108,
                                     }, -- end of [4]
                                     [5] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 3.2986722862693,
+                                        ["heading"] = 3.1415926535898,
                                         ["name"] = "1C_10DIV_T80_Coy-3-5",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1258,
-                                        ["x"] = 92426.155830492,
-                                        ["y"] = 208464.29045086,
+                                        ["x"] = 84986.612413436,
+                                        ["y"] = 202788.4340858,
                                     }, -- end of [5]
                                     [6] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 5.7421332390613,
+                                        ["heading"] = 2.8972465583106,
                                         ["name"] = "1C_10DIV_T80_Coy-3-6",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1259,
-                                        ["x"] = 92453.887358301,
-                                        ["y"] = 208465.08278022,
+                                        ["x"] = 85010.275820035,
+                                        ["y"] = 202795.42340484,
                                     }, -- end of [6]
                                     [7] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 3.6128315516283,
+                                        ["heading"] = 3.5011304795006,
                                         ["name"] = "1C_10DIV_T80_Coy-3-7",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1260,
-                                        ["x"] = 92659.300845896,
-                                        ["y"] = 210239.09939574,
+                                        ["x"] = 85954.229879008,
+                                        ["y"] = 200561.67364302,
                                     }, -- end of [7]
                                     [8] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 3.8287168637312,
+                                        ["heading"] = 3.4854225162327,
                                         ["name"] = "1C_10DIV_T80_Coy-3-8",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1261,
-                                        ["x"] = 92619.820673201,
-                                        ["y"] = 210289.85961777,
+                                        ["x"] = 85893.777644572,
+                                        ["y"] = 200559.68071222,
                                     }, -- end of [8]
                                     [9] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 3.4382986264288,
+                                        ["heading"] = 4.7472955654246,
                                         ["name"] = "1C_10DIV_T80_Coy-3-9",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1262,
-                                        ["x"] = 92615.590654699,
-                                        ["y"] = 210210.85457519,
+                                        ["x"] = 85939.092340642,
+                                        ["y"] = 200546.8724386,
                                     }, -- end of [9]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 91552.496521976,
-                                ["y"] = 209029.12195226,
+                                ["x"] = 83095.844500081,
+                                ["y"] = 203075.43203046,
                             }, -- end of [82]
                             [83] =
                             {
@@ -85473,44 +86523,44 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1267,
-                                        ["x"] = 85496.343067407,
-                                        ["y"] = 202811.35773136,
+                                        ["x"] = 85497.07389388,
+                                        ["y"] = 202810.47426863,
                                     }, -- end of [3]
                                     [4] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 2.4085543677522,
+                                        ["heading"] = 3.0054569719342,
                                         ["name"] = "1C_10DIV_T80_Coy-2_MOVING-4",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1268,
-                                        ["x"] = 85526.744206835,
-                                        ["y"] = 202817.54706862,
+                                        ["x"] = 85237.782244122,
+                                        ["y"] = 199917.16668338,
                                     }, -- end of [4]
                                     [5] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 2.460914245312,
+                                        ["heading"] = 3.2079151651656,
                                         ["name"] = "1C_10DIV_T80_Coy-2_MOVING-5",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1269,
-                                        ["x"] = 85526.516816414,
-                                        ["y"] = 202846.6922389,
+                                        ["x"] = 85226.729068478,
+                                        ["y"] = 199868.51357801,
                                     }, -- end of [5]
                                     [6] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 3.0856510823564,
+                                        ["heading"] = 3.8746309394274,
                                         ["name"] = "1C_10DIV_T80_Coy-2_MOVING-6",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1270,
-                                        ["x"] = 85519.313874642,
-                                        ["y"] = 202886.58723858,
+                                        ["x"] = 85233.093497755,
+                                        ["y"] = 199914.39050572,
                                     }, -- end of [6]
                                     [7] =
                                     {
@@ -85521,8 +86571,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1271,
-                                        ["x"] = 85980.399384597,
-                                        ["y"] = 202735.68712811,
+                                        ["x"] = 84629.441599372,
+                                        ["y"] = 202842.84464144,
                                     }, -- end of [7]
                                     [8] =
                                     {
@@ -85533,8 +86583,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1272,
-                                        ["x"] = 85847.21064512,
-                                        ["y"] = 202748.03735668,
+                                        ["x"] = 84661.661384305,
+                                        ["y"] = 202858.21357105,
                                     }, -- end of [8]
                                     [9] =
                                     {
@@ -85545,8 +86595,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1273,
-                                        ["x"] = 85964.174574515,
-                                        ["y"] = 202894.06064741,
+                                        ["x"] = 84659.048425882,
+                                        ["y"] = 202852.1941656,
                                     }, -- end of [9]
                                     [10] =
                                     {
@@ -88780,8 +89830,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "ZSU-23-4 Shilka",
                                         ["unitId"] = 2144,
-                                        ["x"] = 85967.304532745,
-                                        ["y"] = 202830.45141633,
+                                        ["x"] = 84740.282813692,
+                                        ["y"] = 199731.14409296,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -89153,8 +90203,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "2S6 Tunguska",
                                         ["unitId"] = 2177,
-                                        ["x"] = 95905.968975979,
-                                        ["y"] = 215415.87052372,
+                                        ["x"] = 85473.864152278,
+                                        ["y"] = 202828.99293519,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -90327,7 +91377,9 @@ mission =
                             [122] =
                             {
                                 ["groupId"] = 1085,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "2C_241st_Heavy Rocket Arty BN",
                                 ["route"] =
                                 {
@@ -90498,7 +91550,9 @@ mission =
                             [123] =
                             {
                                 ["groupId"] = 1086,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "2C_242nd_Heavy Rocket Arty BN",
                                 ["route"] =
                                 {
@@ -91655,7 +92709,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 1532005,
+    ["currentKey"] = 1585300,
     ["date"] =
     {
         ["Day"] = 23,
@@ -98868,9 +99922,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 150286.05539292,
-        ["centerY"] = 4163.3850939214,
-        ["zoom"] = 2375639.9618895,
+        ["centerX"] = 33918.578860598,
+        ["centerY"] = 251414.64172459,
+        ["zoom"] = 1686094.6246725,
     }, -- end of ["map"]
     ["maxDictId"] = 20,
     ["pictureFileNameB"] =
@@ -115444,7 +116498,7 @@ mission =
                 }, -- end of [1]
             }, -- end of ["actions"]
             ["colorItem"] = "0xff0080ff",
-            ["comment"] = "Trigger 1742145503",
+            ["comment"] = "RUS SAG_weapon free",
             ["eventlist"] = "",
             ["predicate"] = "triggerOnce",
             ["rules"] =

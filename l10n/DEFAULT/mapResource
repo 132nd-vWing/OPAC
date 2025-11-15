@@ -8,4 +8,6 @@ mapResource =
     ["ResKey_Action_13"] = "OPAC_MISC.lua",
     ["ResKey_Action_15"] = "OPAC_Redair.lua",
     ["ResKey_Action_16"] = "skynet-iads-setup-OPAC_3rd_corps.lua",
+    ["ResKey_Action_19"] = "OPAC_Navygroup_old.lua",
+    ["ResKey_Action_20"] = "skynet-iads-setup-OPAC_2nd_corps.lua",
 } -- end of mapResource

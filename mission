@@ -24691,6 +24691,7 @@ mission =
                                     {
                                         ["AddPropAircraft"] =
                                         {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["SADL_TN"] = "0111",
                                             ["VoiceCallsignLabel"] = "TK",
                                             ["VoiceCallsignNumber"] = "11",
@@ -24925,6 +24926,7 @@ mission =
                                     {
                                         ["AddPropAircraft"] =
                                         {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["SADL_TN"] = "0112",
                                             ["VoiceCallsignLabel"] = "TK",
                                             ["VoiceCallsignNumber"] = "12",
@@ -25158,6 +25160,7 @@ mission =
                                     {
                                         ["AddPropAircraft"] =
                                         {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["SADL_TN"] = "0113",
                                             ["VoiceCallsignLabel"] = "TK",
                                             ["VoiceCallsignNumber"] = "13",
@@ -25391,6 +25394,7 @@ mission =
                                     {
                                         ["AddPropAircraft"] =
                                         {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["SADL_TN"] = "0114",
                                             ["VoiceCallsignLabel"] = "TK",
                                             ["VoiceCallsignNumber"] = "14",
@@ -25875,6 +25879,7 @@ mission =
                                     {
                                         ["AddPropAircraft"] =
                                         {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["SADL_TN"] = "0131",
                                             ["VoiceCallsignLabel"] = "CT",
                                             ["VoiceCallsignNumber"] = "31",
@@ -26107,6 +26112,7 @@ mission =
                                     {
                                         ["AddPropAircraft"] =
                                         {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["SADL_TN"] = "0132",
                                             ["VoiceCallsignLabel"] = "CT",
                                             ["VoiceCallsignNumber"] = "32",
@@ -26338,6 +26344,7 @@ mission =
                                     {
                                         ["AddPropAircraft"] =
                                         {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["SADL_TN"] = "0133",
                                             ["VoiceCallsignLabel"] = "CT",
                                             ["VoiceCallsignNumber"] = "33",
@@ -26569,6 +26576,7 @@ mission =
                                     {
                                         ["AddPropAircraft"] =
                                         {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["SADL_TN"] = "0134",
                                             ["VoiceCallsignLabel"] = "CT",
                                             ["VoiceCallsignNumber"] = "34",
@@ -27049,6 +27057,7 @@ mission =
                                     {
                                         ["AddPropAircraft"] =
                                         {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["SADL_TN"] = "0133",
                                             ["VoiceCallsignLabel"] = "UI",
                                             ["VoiceCallsignNumber"] = "11",
@@ -27281,6 +27290,7 @@ mission =
                                     {
                                         ["AddPropAircraft"] =
                                         {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["SADL_TN"] = "0233",
                                             ["VoiceCallsignLabel"] = "UI",
                                             ["VoiceCallsignNumber"] = "12",
@@ -27513,6 +27523,7 @@ mission =
                                     {
                                         ["AddPropAircraft"] =
                                         {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["SADL_TN"] = "0333",
                                             ["VoiceCallsignLabel"] = "UI",
                                             ["VoiceCallsignNumber"] = "13",
@@ -27745,6 +27756,7 @@ mission =
                                     {
                                         ["AddPropAircraft"] =
                                         {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["SADL_TN"] = "0433",
                                             ["VoiceCallsignLabel"] = "UI",
                                             ["VoiceCallsignNumber"] = "14",
@@ -28228,6 +28240,7 @@ mission =
                                     {
                                         ["AddPropAircraft"] =
                                         {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["SADL_TN"] = "0141",
                                             ["VoiceCallsignLabel"] = "PC",
                                             ["VoiceCallsignNumber"] = "41",
@@ -28460,6 +28473,7 @@ mission =
                                     {
                                         ["AddPropAircraft"] =
                                         {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["SADL_TN"] = "0142",
                                             ["VoiceCallsignLabel"] = "PC",
                                             ["VoiceCallsignNumber"] = "42",
@@ -28691,6 +28705,7 @@ mission =
                                     {
                                         ["AddPropAircraft"] =
                                         {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["SADL_TN"] = "0143",
                                             ["VoiceCallsignLabel"] = "PC",
                                             ["VoiceCallsignNumber"] = "43",
@@ -28922,6 +28937,7 @@ mission =
                                     {
                                         ["AddPropAircraft"] =
                                         {
+                                            ["HelmetMountedDevice"] = 1,
                                             ["SADL_TN"] = "0144",
                                             ["VoiceCallsignLabel"] = "PC",
                                             ["VoiceCallsignNumber"] = "44",
@@ -96703,7 +96719,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 1936295,
+    ["currentKey"] = 1950549,
     ["date"] =
     {
         ["Day"] = 24,
@@ -103916,9 +103932,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = -20575.247910894,
-        ["centerY"] = 318828.95229972,
-        ["zoom"] = 809870.50385496,
+        ["centerX"] = 127017.87283064,
+        ["centerY"] = 46762.318887748,
+        ["zoom"] = 2256838.1544963,
     }, -- end of ["map"]
     ["maxDictId"] = 20,
     ["pictureFileNameB"] =
@@ -103977,7 +103993,7 @@ mission =
         ["total"] = 0,
     }, -- end of ["result"]
     ["sortie"] = "DictKey_sortie_5",
-    ["start_time"] = 14400,
+    ["start_time"] = 28500,
     ["theatre"] = "Kola",
     ["trig"] =
     {
@@ -121205,10 +121221,10 @@ mission =
         ["atmosphere_type"] = 0,
         ["clouds"] =
         {
-            ["base"] = 2500,
+            ["base"] = 2520.0864,
             ["density"] = 0,
             ["iprecptns"] = 0,
-            ["preset"] = "Preset27",
+            ["preset"] = "RainyPreset2",
             ["thickness"] = 200,
         }, -- end of ["clouds"]
         ["cyclones"] =
@@ -121222,17 +121238,17 @@ mission =
             ["thickness"] = 0,
             ["visibility"] = 0,
         }, -- end of ["fog"]
-        ["groundTurbulence"] = 5.6694,
+        ["groundTurbulence"] = 7.731,
         ["halo"] =
         {
             ["preset"] = "auto",
         }, -- end of ["halo"]
         ["modifiedTime"] = true,
         ["name"] = "Winter, clean sky",
-        ["qnh"] = 758.19,
+        ["qnh"] = 755.396,
         ["season"] =
         {
-            ["temperature"] = 4,
+            ["temperature"] = 6,
         }, -- end of ["season"]
         ["type_weather"] = 0,
         ["visibility"] =
@@ -121243,18 +121259,18 @@ mission =
         {
             ["at2000"] =
             {
-                ["dir"] = 40,
-                ["speed"] = 3.0924,
+                ["dir"] = 86,
+                ["speed"] = 9.2772,
             }, -- end of ["at2000"]
             ["at8000"] =
             {
-                ["dir"] = 52,
-                ["speed"] = 9.2772,
+                ["dir"] = 95,
+                ["speed"] = 14.4312,
             }, -- end of ["at8000"]
             ["atGround"] =
             {
-                ["dir"] = 42.999995579803,
-                ["speed"] = 2,
+                ["dir"] = 85.999991159607,
+                ["speed"] = 4.1232,
             }, -- end of ["atGround"]
         }, -- end of ["wind"]
     }, -- end of ["weather"]

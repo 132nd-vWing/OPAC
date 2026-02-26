@@ -51882,6 +51882,775 @@ mission =
                                 ["x"] = 67428.921875,
                                 ["y"] = 451519.34375,
                             }, -- end of [30]
+                            [31] =
+                            {
+                                ["communication"] = true,
+                                ["dynSpawnTemplate"] = false,
+                                ["frequency"] = 251,
+                                ["groupId"] = 1181,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["modulation"] = 0,
+                                ["name"] = "731_SU24_731Sqn-2",
+                                ["radioSet"] = false,
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 30,
+                                            ["alt"] = 144,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 1,
+                                                                        ["value"] = 1,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 2,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 3,
+                                                                        ["value"] = 1,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                        [3] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 3,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["formationIndex"] = 2,
+                                                                        ["name"] = 5,
+                                                                        ["value"] = 131074,
+                                                                        ["variantIndex"] = 2,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [3]
+                                                        [4] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 4,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 15,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [4]
+                                                        [5] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 5,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 21,
+                                                                        ["noTargetTypes"] =
+                                                                        {
+                                                                            [1] = "Fighters",
+                                                                            [2] = "Multirole fighters",
+                                                                            [3] = "Bombers",
+                                                                            [4] = "Helicopters",
+                                                                            [5] = "UAVs",
+                                                                            [6] = "Infantry",
+                                                                            [7] = "Fortifications",
+                                                                            [8] = "Tanks",
+                                                                            [9] = "IFV",
+                                                                            [10] = "APC",
+                                                                            [11] = "Artillery",
+                                                                            [12] = "Unarmed vehicles",
+                                                                            [13] = "AAA",
+                                                                            [14] = "SR SAM",
+                                                                            [15] = "MR SAM",
+                                                                            [16] = "LR SAM",
+                                                                            [17] = "Aircraft Carriers",
+                                                                            [18] = "Cruisers",
+                                                                            [19] = "Destroyers",
+                                                                            [20] = "Frigates",
+                                                                            [21] = "Corvettes",
+                                                                            [22] = "Light armed ships",
+                                                                            [23] = "Unarmed ships",
+                                                                            [24] = "Submarines",
+                                                                            [25] = "Cruise missiles",
+                                                                            [26] = "Antiship Missiles",
+                                                                            [27] = "AA Missiles",
+                                                                            [28] = "AG Missiles",
+                                                                            [29] = "SA Missiles",
+                                                                        }, -- end of ["noTargetTypes"]
+                                                                        ["targetTypes"] =
+                                                                        {
+                                                                        }, -- end of ["targetTypes"]
+                                                                        ["value"] = "none;",
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [5]
+                                                        [6] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 6,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 35,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [6]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = 171681.53125,
+                                            ["y"] = 339016.03125,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Attack",
+                                ["tasks"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["auto"] = false,
+                                        ["enabled"] = true,
+                                        ["id"] = "WrappedAction",
+                                        ["number"] = 1,
+                                        ["params"] =
+                                        {
+                                            ["action"] =
+                                            {
+                                                ["id"] = "Start",
+                                                ["params"] =
+                                                {
+                                                }, -- end of ["params"]
+                                            }, -- end of ["action"]
+                                        }, -- end of ["params"]
+                                    }, -- end of [1]
+                                }, -- end of ["tasks"]
+                                ["uncontrolled"] = true,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["alt"] = 144,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 4,
+                                            [2] = 2,
+                                            [3] = 1,
+                                            ["name"] = "Colt21",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0.29201640859304,
+                                        ["livery_id"] = "Kazakhstan Air Force",
+                                        ["name"] = "731_SU24_731Sqn-2-1",
+                                        ["onboard_num"] = "026",
+                                        ["parking"] = "10",
+                                        ["parking_id"] = "C14",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 96,
+                                            ["flare"] = 96,
+                                            ["fuel"] = "11700",
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                                [1] =
+                                                {
+                                                    ["CLSID"] = "{APU-60-1_R_60M}",
+                                                }, -- end of [1]
+                                                [2] =
+                                                {
+                                                    ["CLSID"] = "{37DCC01E-9E02-432F-B61D-10C166CA2798}",
+                                                    ["settings"] =
+                                                    {
+                                                        ["00_prfx_arm_delay_ctrl_AVUE_NOSE"] = 4.5,
+                                                        ["00_prfx_function_delay_ctrl_AVUE_NOSE"] = 0,
+                                                        ["NFP_PRESID"] = "MDRN_B_USSR_FABMedium",
+                                                        ["NFP_PRESVER"] = 1,
+                                                        ["NFP_fuze_type_nose"] = 1,
+                                                        ["NFP_fuze_type_tail"] = "EMPTY_TAIL",
+                                                    }, -- end of ["settings"]
+                                                }, -- end of [2]
+                                                [3] =
+                                                {
+                                                    ["CLSID"] = "{37DCC01E-9E02-432F-B61D-10C166CA2798}",
+                                                    ["settings"] =
+                                                    {
+                                                        ["00_prfx_arm_delay_ctrl_AVUE_NOSE"] = 4.5,
+                                                        ["00_prfx_function_delay_ctrl_AVUE_NOSE"] = 0,
+                                                        ["NFP_PRESID"] = "MDRN_B_USSR_FABMedium",
+                                                        ["NFP_PRESVER"] = 1,
+                                                        ["NFP_fuze_type_nose"] = 1,
+                                                        ["NFP_fuze_type_tail"] = "EMPTY_TAIL",
+                                                    }, -- end of ["settings"]
+                                                }, -- end of [3]
+                                                [6] =
+                                                {
+                                                    ["CLSID"] = "{37DCC01E-9E02-432F-B61D-10C166CA2798}",
+                                                    ["settings"] =
+                                                    {
+                                                        ["00_prfx_arm_delay_ctrl_AVUE_NOSE"] = 4.5,
+                                                        ["00_prfx_function_delay_ctrl_AVUE_NOSE"] = 0,
+                                                        ["NFP_PRESID"] = "MDRN_B_USSR_FABMedium",
+                                                        ["NFP_PRESVER"] = 1,
+                                                        ["NFP_fuze_type_nose"] = 1,
+                                                        ["NFP_fuze_type_tail"] = "EMPTY_TAIL",
+                                                    }, -- end of ["settings"]
+                                                }, -- end of [6]
+                                                [7] =
+                                                {
+                                                    ["CLSID"] = "{37DCC01E-9E02-432F-B61D-10C166CA2798}",
+                                                    ["settings"] =
+                                                    {
+                                                        ["00_prfx_arm_delay_ctrl_AVUE_NOSE"] = 4.5,
+                                                        ["00_prfx_function_delay_ctrl_AVUE_NOSE"] = 0,
+                                                        ["NFP_PRESID"] = "MDRN_B_USSR_FABMedium",
+                                                        ["NFP_PRESVER"] = 1,
+                                                        ["NFP_fuze_type_nose"] = 1,
+                                                        ["NFP_fuze_type_tail"] = "EMPTY_TAIL",
+                                                    }, -- end of ["settings"]
+                                                }, -- end of [7]
+                                                [8] =
+                                                {
+                                                    ["CLSID"] = "{APU-60-1_R_60M}",
+                                                }, -- end of [8]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -0.29201640859304,
+                                        ["skill"] = "Excellent",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "Su-24M",
+                                        ["unitId"] = 2425,
+                                        ["x"] = 171681.53125,
+                                        ["y"] = 339016.03125,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["alt"] = 144,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 4,
+                                            [2] = 2,
+                                            [3] = 2,
+                                            ["name"] = "Colt22",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0.29201640859304,
+                                        ["livery_id"] = "Kazakhstan Air Force",
+                                        ["name"] = "731_SU24_731Sqn-2-2",
+                                        ["onboard_num"] = "027",
+                                        ["parking"] = "11",
+                                        ["parking_id"] = "C15",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 96,
+                                            ["flare"] = 96,
+                                            ["fuel"] = "11700",
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                                [1] =
+                                                {
+                                                    ["CLSID"] = "{APU-60-1_R_60M}",
+                                                }, -- end of [1]
+                                                [2] =
+                                                {
+                                                    ["CLSID"] = "{37DCC01E-9E02-432F-B61D-10C166CA2798}",
+                                                    ["settings"] =
+                                                    {
+                                                        ["00_prfx_arm_delay_ctrl_AVUE_NOSE"] = 4.5,
+                                                        ["00_prfx_function_delay_ctrl_AVUE_NOSE"] = 0,
+                                                        ["NFP_PRESID"] = "MDRN_B_USSR_FABMedium",
+                                                        ["NFP_PRESVER"] = 1,
+                                                        ["NFP_fuze_type_nose"] = 1,
+                                                        ["NFP_fuze_type_tail"] = "EMPTY_TAIL",
+                                                    }, -- end of ["settings"]
+                                                }, -- end of [2]
+                                                [3] =
+                                                {
+                                                    ["CLSID"] = "{37DCC01E-9E02-432F-B61D-10C166CA2798}",
+                                                    ["settings"] =
+                                                    {
+                                                        ["00_prfx_arm_delay_ctrl_AVUE_NOSE"] = 4.5,
+                                                        ["00_prfx_function_delay_ctrl_AVUE_NOSE"] = 0,
+                                                        ["NFP_PRESID"] = "MDRN_B_USSR_FABMedium",
+                                                        ["NFP_PRESVER"] = 1,
+                                                        ["NFP_fuze_type_nose"] = 1,
+                                                        ["NFP_fuze_type_tail"] = "EMPTY_TAIL",
+                                                    }, -- end of ["settings"]
+                                                }, -- end of [3]
+                                                [6] =
+                                                {
+                                                    ["CLSID"] = "{37DCC01E-9E02-432F-B61D-10C166CA2798}",
+                                                    ["settings"] =
+                                                    {
+                                                        ["00_prfx_arm_delay_ctrl_AVUE_NOSE"] = 4.5,
+                                                        ["00_prfx_function_delay_ctrl_AVUE_NOSE"] = 0,
+                                                        ["NFP_PRESID"] = "MDRN_B_USSR_FABMedium",
+                                                        ["NFP_PRESVER"] = 1,
+                                                        ["NFP_fuze_type_nose"] = 1,
+                                                        ["NFP_fuze_type_tail"] = "EMPTY_TAIL",
+                                                    }, -- end of ["settings"]
+                                                }, -- end of [6]
+                                                [7] =
+                                                {
+                                                    ["CLSID"] = "{37DCC01E-9E02-432F-B61D-10C166CA2798}",
+                                                    ["settings"] =
+                                                    {
+                                                        ["00_prfx_arm_delay_ctrl_AVUE_NOSE"] = 4.5,
+                                                        ["00_prfx_function_delay_ctrl_AVUE_NOSE"] = 0,
+                                                        ["NFP_PRESID"] = "MDRN_B_USSR_FABMedium",
+                                                        ["NFP_PRESVER"] = 1,
+                                                        ["NFP_fuze_type_nose"] = 1,
+                                                        ["NFP_fuze_type_tail"] = "EMPTY_TAIL",
+                                                    }, -- end of ["settings"]
+                                                }, -- end of [7]
+                                                [8] =
+                                                {
+                                                    ["CLSID"] = "{APU-60-1_R_60M}",
+                                                }, -- end of [8]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -0.29201640859304,
+                                        ["skill"] = "Excellent",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "Su-24M",
+                                        ["unitId"] = 2426,
+                                        ["x"] = 171723.453125,
+                                        ["y"] = 339018.1875,
+                                    }, -- end of [2]
+                                }, -- end of ["units"]
+                                ["x"] = 171681.53125,
+                                ["y"] = 339016.03125,
+                            }, -- end of [31]
+                            [32] =
+                            {
+                                ["communication"] = true,
+                                ["dynSpawnTemplate"] = false,
+                                ["frequency"] = 124,
+                                ["groupId"] = 1182,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "AIR_712SQN_MiG29_Forward staged Kilpyavr",
+                                ["radioSet"] = false,
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 28,
+                                            ["alt"] = 93,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EngageTargets",
+                                                            ["key"] = "CAP",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["priority"] = 0,
+                                                                ["targetTypes"] =
+                                                                {
+                                                                    [1] = "Air",
+                                                                }, -- end of ["targetTypes"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 2,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 17,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                        [3] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 3,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 18,
+                                                                        ["value"] = 4,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [3]
+                                                        [4] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 4,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 19,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [4]
+                                                        [5] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 5,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 21,
+                                                                        ["noTargetTypes"] =
+                                                                        {
+                                                                            [1] = "Fighters",
+                                                                            [2] = "Multirole fighters",
+                                                                            [3] = "Bombers",
+                                                                            [4] = "Helicopters",
+                                                                            [5] = "UAVs",
+                                                                            [6] = "Infantry",
+                                                                            [7] = "Fortifications",
+                                                                            [8] = "Tanks",
+                                                                            [9] = "IFV",
+                                                                            [10] = "APC",
+                                                                            [11] = "Artillery",
+                                                                            [12] = "Unarmed vehicles",
+                                                                            [13] = "AAA",
+                                                                            [14] = "SR SAM",
+                                                                            [15] = "MR SAM",
+                                                                            [16] = "LR SAM",
+                                                                            [17] = "Aircraft Carriers",
+                                                                            [18] = "Cruisers",
+                                                                            [19] = "Destroyers",
+                                                                            [20] = "Frigates",
+                                                                            [21] = "Corvettes",
+                                                                            [22] = "Light armed ships",
+                                                                            [23] = "Unarmed ships",
+                                                                            [24] = "Submarines",
+                                                                            [25] = "Cruise missiles",
+                                                                            [26] = "Antiship Missiles",
+                                                                            [27] = "AA Missiles",
+                                                                            [28] = "AG Missiles",
+                                                                            [29] = "SA Missiles",
+                                                                        }, -- end of ["noTargetTypes"]
+                                                                        ["targetTypes"] =
+                                                                        {
+                                                                        }, -- end of ["targetTypes"]
+                                                                        ["value"] = "none;",
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [5]
+                                                        [6] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 6,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 35,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [6]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = 162312.1875,
+                                            ["y"] = 388438.0625,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "CAP",
+                                ["tasks"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["auto"] = false,
+                                        ["enabled"] = true,
+                                        ["id"] = "WrappedAction",
+                                        ["number"] = 1,
+                                        ["params"] =
+                                        {
+                                            ["action"] =
+                                            {
+                                                ["id"] = "Start",
+                                                ["params"] =
+                                                {
+                                                }, -- end of ["params"]
+                                            }, -- end of ["action"]
+                                        }, -- end of ["params"]
+                                    }, -- end of [1]
+                                }, -- end of ["tasks"]
+                                ["uncontrolled"] = true,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["alt"] = 93,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 2,
+                                            [2] = 1,
+                                            [3] = 1,
+                                            ["name"] = "Springfield11",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = -1.4025895549378,
+                                        ["livery_id"] = "31 GvIAP_Zernograd",
+                                        ["name"] = "AIR_712SQN_MiG29_Forward staged Kilpyavr",
+                                        ["onboard_num"] = "018",
+                                        ["parking"] = 18,
+                                        ["parking_id"] = "QRF01",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 30,
+                                            ["flare"] = 30,
+                                            ["fuel"] = "3493",
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "High",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "MiG-29S",
+                                        ["unitId"] = 2427,
+                                        ["x"] = 162312.1875,
+                                        ["y"] = 388438.0625,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["alt"] = 93,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 2,
+                                            [2] = 1,
+                                            [3] = 2,
+                                            ["name"] = "Springfield12",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "31 GvIAP_Zernograd",
+                                        ["name"] = "AIR_712SQN_MiG29_Forward staged Kilpyavr-1",
+                                        ["onboard_num"] = "038",
+                                        ["parking"] = 29,
+                                        ["parking_id"] = "QRF04",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 30,
+                                            ["flare"] = 30,
+                                            ["fuel"] = "3493",
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "High",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "MiG-29S",
+                                        ["unitId"] = 2428,
+                                        ["x"] = 162379.25,
+                                        ["y"] = 388482.65625,
+                                    }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["alt"] = 93,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 2,
+                                            [2] = 1,
+                                            [3] = 3,
+                                            ["name"] = "Springfield13",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "31 GvIAP_Zernograd",
+                                        ["name"] = "AIR_712SQN_MiG29_Forward staged Kilpyavr-2",
+                                        ["onboard_num"] = "039",
+                                        ["parking"] = 19,
+                                        ["parking_id"] = "B01",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 30,
+                                            ["flare"] = 30,
+                                            ["fuel"] = "3493",
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "High",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "MiG-29S",
+                                        ["unitId"] = 2429,
+                                        ["x"] = 162519.328125,
+                                        ["y"] = 388598.65625,
+                                    }, -- end of [3]
+                                    [4] =
+                                    {
+                                        ["alt"] = 93,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 2,
+                                            [2] = 1,
+                                            [3] = 4,
+                                            ["name"] = "Springfield14",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "31 GvIAP_Zernograd",
+                                        ["name"] = "AIR_712SQN_MiG29_Forward staged Kilpyavr-3",
+                                        ["onboard_num"] = "040",
+                                        ["parking"] = 22,
+                                        ["parking_id"] = "B04",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 30,
+                                            ["flare"] = 30,
+                                            ["fuel"] = "3493",
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "High",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "MiG-29S",
+                                        ["unitId"] = 2430,
+                                        ["x"] = 162579.609375,
+                                        ["y"] = 388639,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["x"] = 162312.1875,
+                                ["y"] = 388438.0625,
+                            }, -- end of [32]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
                     ["ship"] =
@@ -64103,8 +64872,8 @@ mission =
                                             ["name"] = "",
                                             ["speed"] = 0,
                                             ["type"] = "",
-                                            ["x"] = 69679.735484164,
-                                            ["y"] = 236529.21663126,
+                                            ["x"] = 69694.999747003,
+                                            ["y"] = 236496.73703041,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -64121,12 +64890,12 @@ mission =
                                         }, -- end of ["tasks"]
                                         ["type"] = "BMP-3",
                                         ["unitId"] = 1585,
-                                        ["x"] = 69679.735484164,
-                                        ["y"] = 236529.21663126,
+                                        ["x"] = 69694.999747003,
+                                        ["y"] = 236496.73703041,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 69679.735484164,
-                                ["y"] = 236529.21663126,
+                                ["x"] = 69694.999747003,
+                                ["y"] = 236496.73703041,
                             }, -- end of [269]
                             [270] =
                             {
@@ -64192,8 +64961,8 @@ mission =
                                             ["name"] = "",
                                             ["speed"] = 0,
                                             ["type"] = "",
-                                            ["x"] = 69594.387238128,
-                                            ["y"] = 236555.43808034,
+                                            ["x"] = 69595.283651398,
+                                            ["y"] = 236575.08539124,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -64205,14 +64974,17 @@ mission =
                                         ["heading"] = 4.5204027626653,
                                         ["name"] = "Static IFV BMP-3-34-1",
                                         ["rate"] = 15,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
                                         ["type"] = "BMP-3",
                                         ["unitId"] = 1591,
-                                        ["x"] = 69594.387238128,
-                                        ["y"] = 236555.43808034,
+                                        ["x"] = 69595.283651398,
+                                        ["y"] = 236575.08539124,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 69594.387238128,
-                                ["y"] = 236555.43808034,
+                                ["x"] = 69595.283651398,
+                                ["y"] = 236575.08539124,
                             }, -- end of [271]
                             [272] =
                             {
@@ -64321,8 +65093,8 @@ mission =
                                             ["name"] = "",
                                             ["speed"] = 0,
                                             ["type"] = "",
-                                            ["x"] = 69784.30017496,
-                                            ["y"] = 234503.10415113,
+                                            ["x"] = 69778.729091665,
+                                            ["y"] = 234691.95915234,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -64339,12 +65111,12 @@ mission =
                                         }, -- end of ["tasks"]
                                         ["type"] = "BMP-3",
                                         ["unitId"] = 1594,
-                                        ["x"] = 69784.30017496,
-                                        ["y"] = 234503.10415113,
+                                        ["x"] = 69778.729091665,
+                                        ["y"] = 234691.95915234,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 69784.30017496,
-                                ["y"] = 234503.10415113,
+                                ["x"] = 69778.729091665,
+                                ["y"] = 234691.95915234,
                             }, -- end of [274]
                             [275] =
                             {
@@ -95984,20 +96756,20 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "BMP-3",
                                         ["unitId"] = 2403,
-                                        ["x"] = 69777.683770102,
-                                        ["y"] = 234469.49619584,
+                                        ["x"] = 69728.768950902,
+                                        ["y"] = 234732.20335457,
                                     }, -- end of [7]
                                     [8] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 5.1312680008633,
+                                        ["heading"] = 4.3737951054978,
                                         ["name"] = "1C_11_DIV_BMP3_Coy-3_ACTIVE-8",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "BMP-3",
                                         ["unitId"] = 2404,
-                                        ["x"] = 69709.412725894,
-                                        ["y"] = 234507.81583134,
+                                        ["x"] = 69798.40749399,
+                                        ["y"] = 234574.56730399,
                                     }, -- end of [8]
                                     [9] =
                                     {
@@ -96719,7 +97491,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 1950549,
+    ["currentKey"] = 2078161,
     ["date"] =
     {
         ["Day"] = 24,
@@ -103932,9 +104704,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 127017.87283064,
-        ["centerY"] = 46762.318887748,
-        ["zoom"] = 2256838.1544963,
+        ["centerX"] = 192310.23616696,
+        ["centerY"] = 218180.39919019,
+        ["zoom"] = 1778779.7632146,
     }, -- end of ["map"]
     ["maxDictId"] = 20,
     ["pictureFileNameB"] =
@@ -104014,44 +104786,45 @@ mission =
             [13] = "a_explosion(6536, 1, 750);a_explosion(6530, 1, 750);a_explosion(6526, 1, 750);a_explosion(6527, 1, 750);a_explosion(6528, 1, 750);a_explosion(6529, 1, 750);a_explosion(6531, 1, 750);a_explosion(6524, 1, 750);a_explosion(6525, 1, 750);a_explosion(6508, 1, 750);a_explosion(6509, 1, 750);a_explosion(6510, 1, 750);a_explosion(6511, 1, 750);a_explosion(6512, 1, 750);a_explosion(6513, 1, 750);a_explosion(6514, 1, 750);a_explosion(6515, 1, 750);a_explosion(6516, 1, 750);a_explosion(6517, 1, 750);a_explosion(6518, 1, 750);a_explosion(6519, 1, 750);a_explosion(6520, 1, 750);a_explosion(6521, 1, 750);a_explosion(6522, 1, 750);a_explosion(6522, 1, 750);a_explosion(6523, 1, 750);a_explosion(6532, 1, 750);a_explosion(6533, 1, 750);a_explosion(6534, 1, 750);a_explosion(6535, 1, 750);a_explosion(6537, 1, 750);a_explosion(6538, 1, 750);a_explosion(6542, 1, 750);a_explosion(6540, 1, 750);a_explosion(6539, 1, 750);a_explosion(6541, 1, 750);a_explosion(6543, 1, 750);a_explosion(6505, 1, 750);a_explosion(6506, 1, 750);a_explosion(6507, 1, 750); mission.trig.func[13]=nil;",
             [14] = "a_explosion(6623, 1, 750);a_explosion(6624, 1, 750);a_explosion(6625, 1, 750);a_explosion(6626, 1, 750);a_explosion(6622, 1, 750);a_explosion(6620, 1, 750);a_explosion(6621, 1, 750);a_explosion(6617, 1, 750);a_explosion(6618, 1, 750);a_explosion(6619, 1, 750);a_explosion(6612, 1, 750);a_explosion(6615, 1, 750);a_explosion(6616, 1, 750);a_explosion(6613, 1, 750);a_explosion(6614, 1, 750);a_explosion(6609, 1, 750);a_explosion(6610, 1, 750);a_explosion(6611, 1, 750); mission.trig.func[14]=nil;",
             [15] = "a_explosion(6758, 1, 750);a_explosion(6759, 1, 750);a_explosion(6825, 1, 750);a_explosion(6826, 1, 750); mission.trig.func[15]=nil;",
-            [16] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_15\")); mission.trig.func[16]=nil;",
-            [17] = "a_group_off(760);a_group_off(387);a_group_off(390);a_group_off(389);a_group_off(386);a_group_off(388);a_group_off(356);a_group_off(362);a_group_off(925);a_group_off(355);a_group_off(361);a_group_off(352);a_group_off(248);a_group_off(228);a_group_off(224);a_group_off(255);a_group_off(759);a_group_off(383);a_group_off(385);a_group_off(384);a_group_off(902);a_group_off(363); mission.trig.func[17]=nil;",
-            [18] = "a_group_off(409);a_group_off(749);a_group_off(761);a_group_off(353);a_group_off(354);a_group_off(359);a_group_off(360);a_group_off(366);a_group_off(373);a_group_off(378);a_group_off(350);a_group_off(358);a_group_off(432);a_group_off(259);a_group_off(258);a_group_off(301);a_group_off(317);a_group_off(365);a_group_off(33);a_group_off(368);a_group_off(369);a_group_off(367); mission.trig.func[18]=nil;",
-            [19] = "a_ai_task(403, 1);a_ai_task(542, 1); mission.trig.func[19]=nil;",
-            [20] = "a_ai_task(399, 1); mission.trig.func[20]=nil;",
-            [21] = "a_ai_task(404, 1); mission.trig.func[21]=nil;",
-            [22] = "a_ai_task(400, 1); mission.trig.func[22]=nil;",
-            [23] = "a_ai_task(952, 1); mission.trig.func[23]=nil;",
-            [24] = "a_ai_task(949, 1); mission.trig.func[24]=nil;",
-            [25] = "a_ai_task(980, 1); mission.trig.func[25]=nil;",
-            [26] = "a_ai_task(976, 1); mission.trig.func[26]=nil;",
-            [27] = "a_ai_task(978, 1); mission.trig.func[27]=nil;",
-            [28] = "a_ai_task(1042, 1); mission.trig.func[28]=nil;",
-            [29] = "a_ai_task(974, 1); mission.trig.func[29]=nil;",
-            [30] = "a_ai_task(583, 1);a_ai_task(762, 1); mission.trig.func[30]=nil;",
-            [31] = "a_ai_task(950, 1);a_ai_task(951, 1); mission.trig.func[31]=nil;",
-            [32] = "a_ai_task(765, 1); mission.trig.func[32]=nil;",
-            [33] = "a_ai_task(1175, 1); mission.trig.func[33]=nil;",
-            [34] = "a_ai_task(1176, 1); mission.trig.func[34]=nil;",
-            [35] = "a_ai_task(1178, 1); mission.trig.func[35]=nil;",
-            [36] = "a_ai_task(1177, 1); mission.trig.func[36]=nil;",
-            [37] = "a_group_on(749);a_group_on(1065);a_group_on(761);a_group_on(759);a_group_on(916);a_group_on(760);a_group_on(384); mission.trig.func[37]=nil;",
-            [38] = "a_group_on(763); mission.trig.func[38]=nil;",
-            [39] = "a_group_on(764); mission.trig.func[39]=nil;",
-            [40] = "a_ai_task(135, 1); mission.trig.func[40]=nil;",
-            [41] = "a_remove_scene_objects(5732, 1); mission.trig.func[41]=nil;",
-            [42] = "a_remove_scene_objects(5733, 1); mission.trig.func[42]=nil;",
-            [43] = "a_remove_scene_objects(5794, 1); mission.trig.func[43]=nil;",
-            [44] = "a_group_on(387);a_group_on(390); mission.trig.func[44]=nil;",
-            [45] = "a_group_on(385);a_group_on(967);a_group_on(759);a_group_on(915);a_group_on(1172);a_group_on(384); mission.trig.func[45]=nil;",
-            [46] = "a_set_flag(\"50\");a_group_on(356);a_group_on(362); mission.trig.func[46]=nil;",
-            [47] = "a_activate_group(971); mission.trig.func[47]=nil;",
-            [48] = "a_activate_group(977); mission.trig.func[48]=nil;",
-            [49] = "a_group_on(997); mission.trig.func[49]=nil;",
-            [50] = "a_ai_task(1069, 1);a_ai_task(1070, 1); mission.trig.func[50]=nil;",
-            [51] = "a_ai_task(1146, 1); mission.trig.func[51]=nil;",
-            [52] = "a_ai_task(1180, 1); mission.trig.func[52]=nil;",
-            [53] = "a_group_off(1179); mission.trig.func[53]=nil;",
+            [16] = "a_explosion(6958, 1, 2000);a_explosion(6959, 1, 2000);a_explosion(7100, 1, 750);a_explosion(7034, 1, 750);a_explosion(7033, 1, 750);a_explosion(7032, 1, 750);a_explosion(7028, 1, 750);a_explosion(7029, 1, 750);a_explosion(7030, 1, 750);a_explosion(7025, 1, 750);a_explosion(7026, 1, 750);a_explosion(7027, 1, 750);a_explosion(7031, 1, 750); mission.trig.func[16]=nil;",
+            [17] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_15\")); mission.trig.func[17]=nil;",
+            [18] = "a_group_off(760);a_group_off(387);a_group_off(390);a_group_off(389);a_group_off(386);a_group_off(388);a_group_off(356);a_group_off(362);a_group_off(925);a_group_off(355);a_group_off(361);a_group_off(352);a_group_off(248);a_group_off(228);a_group_off(224);a_group_off(255);a_group_off(759);a_group_off(383);a_group_off(385);a_group_off(384);a_group_off(902);a_group_off(363); mission.trig.func[18]=nil;",
+            [19] = "a_group_off(409);a_group_off(749);a_group_off(761);a_group_off(353);a_group_off(354);a_group_off(359);a_group_off(360);a_group_off(366);a_group_off(373);a_group_off(378);a_group_off(350);a_group_off(358);a_group_off(432);a_group_off(259);a_group_off(258);a_group_off(301);a_group_off(317);a_group_off(365);a_group_off(33);a_group_off(368);a_group_off(369);a_group_off(367); mission.trig.func[19]=nil;",
+            [20] = "a_ai_task(403, 1);a_ai_task(542, 1); mission.trig.func[20]=nil;",
+            [21] = "a_ai_task(399, 1); mission.trig.func[21]=nil;",
+            [22] = "a_ai_task(404, 1); mission.trig.func[22]=nil;",
+            [23] = "a_ai_task(400, 1); mission.trig.func[23]=nil;",
+            [24] = "a_ai_task(952, 1); mission.trig.func[24]=nil;",
+            [25] = "a_ai_task(949, 1); mission.trig.func[25]=nil;",
+            [26] = "a_ai_task(980, 1); mission.trig.func[26]=nil;",
+            [27] = "a_ai_task(976, 1); mission.trig.func[27]=nil;",
+            [28] = "a_ai_task(978, 1); mission.trig.func[28]=nil;",
+            [29] = "a_ai_task(1042, 1); mission.trig.func[29]=nil;",
+            [30] = "a_ai_task(974, 1); mission.trig.func[30]=nil;",
+            [31] = "a_ai_task(583, 1);a_ai_task(762, 1); mission.trig.func[31]=nil;",
+            [32] = "a_ai_task(950, 1);a_ai_task(951, 1); mission.trig.func[32]=nil;",
+            [33] = "a_ai_task(765, 1); mission.trig.func[33]=nil;",
+            [34] = "a_ai_task(1175, 1); mission.trig.func[34]=nil;",
+            [35] = "a_ai_task(1176, 1); mission.trig.func[35]=nil;",
+            [36] = "a_ai_task(1178, 1); mission.trig.func[36]=nil;",
+            [37] = "a_ai_task(1177, 1); mission.trig.func[37]=nil;",
+            [38] = "a_group_on(749);a_group_on(1065);a_group_on(761);a_group_on(759);a_group_on(916);a_group_on(760);a_group_on(384); mission.trig.func[38]=nil;",
+            [39] = "a_group_on(763); mission.trig.func[39]=nil;",
+            [40] = "a_group_on(764); mission.trig.func[40]=nil;",
+            [41] = "a_ai_task(135, 1); mission.trig.func[41]=nil;",
+            [42] = "a_remove_scene_objects(5732, 1); mission.trig.func[42]=nil;",
+            [43] = "a_remove_scene_objects(5733, 1); mission.trig.func[43]=nil;",
+            [44] = "a_remove_scene_objects(5794, 1); mission.trig.func[44]=nil;",
+            [45] = "a_group_on(387);a_group_on(390); mission.trig.func[45]=nil;",
+            [46] = "a_group_on(385);a_group_on(967);a_group_on(759);a_group_on(915);a_group_on(1172);a_group_on(384); mission.trig.func[46]=nil;",
+            [47] = "a_set_flag(\"50\");a_group_on(356);a_group_on(362); mission.trig.func[47]=nil;",
+            [48] = "a_activate_group(971); mission.trig.func[48]=nil;",
+            [49] = "a_activate_group(977); mission.trig.func[49]=nil;",
+            [50] = "a_group_on(997); mission.trig.func[50]=nil;",
+            [51] = "a_ai_task(1069, 1);a_ai_task(1070, 1); mission.trig.func[51]=nil;",
+            [52] = "a_ai_task(1146, 1); mission.trig.func[52]=nil;",
+            [53] = "a_ai_task(1180, 1); mission.trig.func[53]=nil;",
+            [54] = "a_group_off(1179); mission.trig.func[54]=nil;",
         }, -- end of ["actions"]
         ["conditions"] =
         {
@@ -104070,44 +104843,45 @@ mission =
             [13] = "return(c_time_after(18) )",
             [14] = "return(c_time_after(20) )",
             [15] = "return(c_time_after(22) )",
-            [16] = "return(c_time_after(1800) )",
-            [17] = "return(c_time_after(20) )",
-            [18] = "return(c_time_after(15) )",
-            [19] = "return(c_time_after(3610) )",
-            [20] = "return(c_time_after(99992520) )",
-            [21] = "return(c_time_after(99995620) )",
-            [22] = "return(c_time_after(7000) )",
-            [23] = "return(c_time_after(99997300) )",
-            [24] = "return(c_time_after(99995600) )",
-            [25] = "return(c_time_after(99996800) )",
-            [26] = "return(c_time_after(99996380) )",
-            [27] = "return(c_time_after(99995000) )",
-            [28] = "return(c_time_after(99995600) )",
-            [29] = "return(c_time_after(99997100) )",
-            [30] = "return(c_time_after(99995700) )",
-            [31] = "return(c_time_after(7100) )",
-            [32] = "return(c_time_after(99997000) )",
-            [33] = "return(c_time_after(6700) )",
-            [34] = "return(c_time_after(6800) )",
-            [35] = "return(c_time_after(7000) )",
-            [36] = "return(c_time_after(6700) )",
-            [37] = "return(c_time_after(3600) )",
-            [38] = "return(c_part_of_coalition_in_zone(\"red\", 5502, \"ALL\") )",
-            [39] = "return(c_part_of_coalition_in_zone(\"red\", 5503, \"ALL\") )",
-            [40] = "return(c_part_of_coalition_in_zone(\"blue\", 5557, \"ALL\") )",
-            [41] = "return(c_time_after(10) )",
+            [16] = "return(c_time_after(24) )",
+            [17] = "return(c_time_after(1800) )",
+            [18] = "return(c_time_after(20) )",
+            [19] = "return(c_time_after(15) )",
+            [20] = "return(c_time_after(3610) )",
+            [21] = "return(c_time_after(99992520) )",
+            [22] = "return(c_time_after(99995620) )",
+            [23] = "return(c_time_after(7000) )",
+            [24] = "return(c_time_after(99997300) )",
+            [25] = "return(c_time_after(99995600) )",
+            [26] = "return(c_time_after(99996800) )",
+            [27] = "return(c_time_after(99996380) )",
+            [28] = "return(c_time_after(99995000) )",
+            [29] = "return(c_time_after(99995600) )",
+            [30] = "return(c_time_after(99997100) )",
+            [31] = "return(c_time_after(99995700) )",
+            [32] = "return(c_time_after(7100) )",
+            [33] = "return(c_time_after(99997000) )",
+            [34] = "return(c_time_after(6700) )",
+            [35] = "return(c_time_after(6800) )",
+            [36] = "return(c_time_after(7000) )",
+            [37] = "return(c_time_after(6700) )",
+            [38] = "return(c_time_after(3600) )",
+            [39] = "return(c_part_of_coalition_in_zone(\"red\", 5502, \"ALL\") )",
+            [40] = "return(c_part_of_coalition_in_zone(\"red\", 5503, \"ALL\") )",
+            [41] = "return(c_part_of_coalition_in_zone(\"blue\", 5557, \"ALL\") )",
             [42] = "return(c_time_after(10) )",
             [43] = "return(c_time_after(10) )",
-            [44] = "return(c_group_life_less(356, 95) or c_group_life_less(362, 95) )",
-            [45] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"ALL\") or c_part_of_coalition_in_zone(\"blue\", 6198, \"ALL\") )",
-            [46] = "return(c_part_of_coalition_in_zone(\"blue\", 6198, \"HELICOPTER\") or c_time_after(6800) )",
-            [47] = "return(c_time_after(7000) )",
-            [48] = "return(c_time_after(7500) )",
-            [49] = "return(c_time_after(6300) )",
-            [50] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"HELICOPTER\") )",
-            [51] = "return(c_time_after(7100) )",
-            [52] = "return(c_time_after(7600) )",
-            [53] = "return(c_time_after(10) )",
+            [44] = "return(c_time_after(10) )",
+            [45] = "return(c_group_life_less(356, 95) or c_group_life_less(362, 95) )",
+            [46] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"ALL\") or c_part_of_coalition_in_zone(\"blue\", 6198, \"ALL\") )",
+            [47] = "return(c_part_of_coalition_in_zone(\"blue\", 6198, \"HELICOPTER\") or c_time_after(6800) )",
+            [48] = "return(c_time_after(7000) )",
+            [49] = "return(c_time_after(7500) )",
+            [50] = "return(c_time_after(6300) )",
+            [51] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"HELICOPTER\") )",
+            [52] = "return(c_time_after(7100) )",
+            [53] = "return(c_time_after(7600) )",
+            [54] = "return(c_time_after(10) )",
         }, -- end of ["conditions"]
         ["custom"] =
         {
@@ -104173,6 +104947,7 @@ mission =
             [51] = true,
             [52] = true,
             [53] = true,
+            [54] = true,
         }, -- end of ["flag"]
         ["func"] =
         {
@@ -104227,6 +105002,7 @@ mission =
             [51] = "if mission.trig.conditions[51]() then mission.trig.actions[51]() end",
             [52] = "if mission.trig.conditions[52]() then mission.trig.actions[52]() end",
             [53] = "if mission.trig.conditions[53]() then mission.trig.actions[53]() end",
+            [54] = "if mission.trig.conditions[54]() then mission.trig.actions[54]() end",
         }, -- end of ["func"]
         ["funcStartup"] =
         {
@@ -118743,6 +119519,279 @@ mission =
                 ["y"] = 332034.16032868,
                 ["zoneId"] = 6826,
             }, -- end of [602]
+            [603] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "Bomb_D3.2 SRNTGT049",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = 253475.53214558,
+                ["y"] = 354825.17899698,
+                ["zoneId"] = 6958,
+            }, -- end of [603]
+            [604] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "Bomb_D3.2 SRNTGT060-Vaydaguba Radio Mast",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = 252954.60032448,
+                ["y"] = 355284.46754993,
+                ["zoneId"] = 6959,
+            }, -- end of [604]
+            [605] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "Bomb_D3.2_SECONDAD_SA11_Battery_1",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = 202456.76592289,
+                ["y"] = 332042.4942581,
+                ["zoneId"] = 7025,
+            }, -- end of [605]
+            [606] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "Bomb_D3.2_SECONDAD_SA11_Battery_1-1",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = 202519.89569649,
+                ["y"] = 332065.72952199,
+                ["zoneId"] = 7026,
+            }, -- end of [606]
+            [607] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "Bomb_D3.2_SECONDAD_SA11_Battery_1-2",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = 202532.17093024,
+                ["y"] = 332072.74394128,
+                ["zoneId"] = 7027,
+            }, -- end of [607]
+            [608] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "Bomb_D3.2_2C_242nd_Heavy Rocket Arty BN",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = 202481.17486647,
+                ["y"] = 332235.10643207,
+                ["zoneId"] = 7028,
+            }, -- end of [608]
+            [609] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "Bomb_D3.2_2C_242nd_Heavy Rocket Arty BN-1",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = 202465.40176739,
+                ["y"] = 332244.12337292,
+                ["zoneId"] = 7029,
+            }, -- end of [609]
+            [610] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "Bomb_D3.2_2C_242nd_Heavy Rocket Arty BN-2",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = 202449.87654506,
+                ["y"] = 332240.87390778,
+                ["zoneId"] = 7030,
+            }, -- end of [610]
+            [611] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "Bomb_D3.2_SECONDAD_SA11_Battery_2",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = 185138.72952487,
+                ["y"] = 328567.95470782,
+                ["zoneId"] = 7031,
+            }, -- end of [611]
+            [612] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "Bomb_D3.2_2C_241st_Heavy Rocket Arty BN-2",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = 185107.4368793,
+                ["y"] = 328559.32988581,
+                ["zoneId"] = 7032,
+            }, -- end of [612]
+            [613] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "Bomb_D3.2_2C_241st_Heavy Rocket Arty BN-1",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = 185162.53647828,
+                ["y"] = 328507.67523352,
+                ["zoneId"] = 7033,
+            }, -- end of [613]
+            [614] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "Bomb_D3.2_2C_241st_Heavy Rocket Arty BN",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = 185102.10628282,
+                ["y"] = 328542.08090097,
+                ["zoneId"] = 7034,
+            }, -- end of [614]
+            [615] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "Bomb_D3.2_1C_10DIV_Airdefense_SA19-2",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = 86733.157883647,
+                ["y"] = 203099.03722257,
+                ["zoneId"] = 7100,
+            }, -- end of [615]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] =
@@ -119832,6 +120881,115 @@ mission =
             {
                 [1] =
                 {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 2000,
+                    ["zone"] = 6958,
+                }, -- end of [1]
+                [2] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 2000,
+                    ["zone"] = 6959,
+                }, -- end of [2]
+                [3] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 7100,
+                }, -- end of [3]
+                [4] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 7034,
+                }, -- end of [4]
+                [5] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 7033,
+                }, -- end of [5]
+                [6] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 7032,
+                }, -- end of [6]
+                [7] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 7028,
+                }, -- end of [7]
+                [8] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 7029,
+                }, -- end of [8]
+                [9] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 7030,
+                }, -- end of [9]
+                [10] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 7025,
+                }, -- end of [10]
+                [11] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 7026,
+                }, -- end of [11]
+                [12] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 7027,
+                }, -- end of [12]
+                [13] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 7031,
+                }, -- end of [13]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x808080ff",
+            ["comment"] = "Bomb_D3.2",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 24,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [16]
+        [17] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
                     ["file"] = "ResKey_Action_15",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [1]
@@ -119851,8 +121009,8 @@ mission =
                     ["zone"] = 2831,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [16]
-        [17] =
+        }, -- end of [17]
+        [18] =
         {
             ["actions"] =
             {
@@ -119982,8 +121140,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [17]
-        [18] =
+        }, -- end of [18]
+        [19] =
         {
             ["actions"] =
             {
@@ -120115,8 +121273,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [18]
-        [19] =
+        }, -- end of [19]
+        [20] =
         {
             ["actions"] =
             {
@@ -120154,8 +121312,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [19]
-        [20] =
+        }, -- end of [20]
+        [21] =
         {
             ["actions"] =
             {
@@ -120184,8 +121342,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [20]
-        [21] =
+        }, -- end of [21]
+        [22] =
         {
             ["actions"] =
             {
@@ -120216,8 +121374,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [21]
-        [22] =
+        }, -- end of [22]
+        [23] =
         {
             ["actions"] =
             {
@@ -120246,8 +121404,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [22]
-        [23] =
+        }, -- end of [23]
+        [24] =
         {
             ["actions"] =
             {
@@ -120276,8 +121434,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [23]
-        [24] =
+        }, -- end of [24]
+        [25] =
         {
             ["actions"] =
             {
@@ -120306,8 +121464,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [24]
-        [25] =
+        }, -- end of [25]
+        [26] =
         {
             ["actions"] =
             {
@@ -120336,8 +121494,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [25]
-        [26] =
+        }, -- end of [26]
+        [27] =
         {
             ["actions"] =
             {
@@ -120366,8 +121524,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [26]
-        [27] =
+        }, -- end of [27]
+        [28] =
         {
             ["actions"] =
             {
@@ -120396,8 +121554,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [27]
-        [28] =
+        }, -- end of [28]
+        [29] =
         {
             ["actions"] =
             {
@@ -120426,8 +121584,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [28]
-        [29] =
+        }, -- end of [29]
+        [30] =
         {
             ["actions"] =
             {
@@ -120456,8 +121614,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [29]
-        [30] =
+        }, -- end of [30]
+        [31] =
         {
             ["actions"] =
             {
@@ -120495,8 +121653,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [30]
-        [31] =
+        }, -- end of [31]
+        [32] =
         {
             ["actions"] =
             {
@@ -120534,8 +121692,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [31]
-        [32] =
+        }, -- end of [32]
+        [33] =
         {
             ["actions"] =
             {
@@ -120564,8 +121722,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [32]
-        [33] =
+        }, -- end of [33]
+        [34] =
         {
             ["actions"] =
             {
@@ -120594,8 +121752,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [33]
-        [34] =
+        }, -- end of [34]
+        [35] =
         {
             ["actions"] =
             {
@@ -120624,8 +121782,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [34]
-        [35] =
+        }, -- end of [35]
+        [36] =
         {
             ["actions"] =
             {
@@ -120654,8 +121812,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [35]
-        [36] =
+        }, -- end of [36]
+        [37] =
         {
             ["actions"] =
             {
@@ -120684,8 +121842,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [36]
-        [37] =
+        }, -- end of [37]
+        [38] =
         {
             ["actions"] =
             {
@@ -120740,8 +121898,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [37]
-        [38] =
+        }, -- end of [38]
+        [39] =
         {
             ["actions"] =
             {
@@ -120765,8 +121923,8 @@ mission =
                     ["zone"] = 5502,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [38]
-        [39] =
+        }, -- end of [39]
+        [40] =
         {
             ["actions"] =
             {
@@ -120790,8 +121948,8 @@ mission =
                     ["zone"] = 5503,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [39]
-        [40] =
+        }, -- end of [40]
+        [41] =
         {
             ["actions"] =
             {
@@ -120819,29 +121977,6 @@ mission =
                     ["zone"] = 5557,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [40]
-        [41] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
-                    ["objects_mask"] = 1,
-                    ["predicate"] = "a_remove_scene_objects",
-                    ["zone"] = 5732,
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["comment"] = "Clear trees_JTAC 1",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["predicate"] = "c_time_after",
-                    ["seconds"] = 10,
-                }, -- end of [1]
-            }, -- end of ["rules"]
         }, -- end of [41]
         [42] =
         {
@@ -120851,7 +121986,7 @@ mission =
                 {
                     ["objects_mask"] = 1,
                     ["predicate"] = "a_remove_scene_objects",
-                    ["zone"] = 5733,
+                    ["zone"] = 5732,
                 }, -- end of [1]
             }, -- end of ["actions"]
             ["comment"] = "Clear trees_JTAC 1",
@@ -120874,7 +122009,7 @@ mission =
                 {
                     ["objects_mask"] = 1,
                     ["predicate"] = "a_remove_scene_objects",
-                    ["zone"] = 5794,
+                    ["zone"] = 5733,
                 }, -- end of [1]
             }, -- end of ["actions"]
             ["comment"] = "Clear trees_JTAC 1",
@@ -120890,6 +122025,29 @@ mission =
             }, -- end of ["rules"]
         }, -- end of [43]
         [44] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["objects_mask"] = 1,
+                    ["predicate"] = "a_remove_scene_objects",
+                    ["zone"] = 5794,
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["comment"] = "Clear trees_JTAC 1",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 10,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [44]
+        [45] =
         {
             ["actions"] =
             {
@@ -120927,8 +122085,8 @@ mission =
                     ["predicate"] = "c_group_life_less",
                 }, -- end of [3]
             }, -- end of ["rules"]
-        }, -- end of [44]
-        [45] =
+        }, -- end of [45]
+        [46] =
         {
             ["actions"] =
             {
@@ -120988,8 +122146,8 @@ mission =
                     ["zone"] = 6198,
                 }, -- end of [3]
             }, -- end of ["rules"]
-        }, -- end of [45]
-        [46] =
+        }, -- end of [46]
+        [47] =
         {
             ["actions"] =
             {
@@ -121032,8 +122190,8 @@ mission =
                     ["seconds"] = 6800,
                 }, -- end of [3]
             }, -- end of ["rules"]
-        }, -- end of [46]
-        [47] =
+        }, -- end of [47]
+        [48] =
         {
             ["actions"] =
             {
@@ -121055,8 +122213,8 @@ mission =
                     ["seconds"] = 7000,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [47]
-        [48] =
+        }, -- end of [48]
+        [49] =
         {
             ["actions"] =
             {
@@ -121078,8 +122236,8 @@ mission =
                     ["seconds"] = 7500,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [48]
-        [49] =
+        }, -- end of [49]
+        [50] =
         {
             ["actions"] =
             {
@@ -121100,8 +122258,8 @@ mission =
                     ["seconds"] = 6300,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [49]
-        [50] =
+        }, -- end of [50]
+        [51] =
         {
             ["actions"] =
             {
@@ -121137,8 +122295,8 @@ mission =
                     ["zone"] = 6076,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [50]
-        [51] =
+        }, -- end of [51]
+        [52] =
         {
             ["actions"] =
             {
@@ -121164,8 +122322,8 @@ mission =
                     ["seconds"] = 7100,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [51]
-        [52] =
+        }, -- end of [52]
+        [53] =
         {
             ["actions"] =
             {
@@ -121191,8 +122349,8 @@ mission =
                     ["seconds"] = 7600,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [52]
-        [53] =
+        }, -- end of [53]
+        [54] =
         {
             ["actions"] =
             {
@@ -121213,7 +122371,7 @@ mission =
                     ["seconds"] = 10,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [53]
+        }, -- end of [54]
     }, -- end of ["trigrules"]
     ["version"] = 23,
     ["weather"] =
@@ -121221,7 +122379,7 @@ mission =
         ["atmosphere_type"] = 0,
         ["clouds"] =
         {
-            ["base"] = 2520.0864,
+            ["base"] = 2500,
             ["density"] = 0,
             ["iprecptns"] = 0,
             ["preset"] = "RainyPreset2",

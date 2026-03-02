@@ -70,7 +70,20 @@ local function pickNumber() -- picks a random number of 1-4 with a weighting of 
   end
 end
 
+
+-----------------------------------------------------------------------
+-- CAP CONFIGURATION (Fixed Racetrack Parameters)
+-----------------------------------------------------------------------
+
+local CAP_ALTITUDE_FT = 25000
+local CAP_SPEED_KTS   = 440      -- Mach 0.75 approx at 25,000 ft
+local CAP_LEG_NM      = 20
+local CAP_HDG_OUT     = 270
+local CAP_HDG_IN      = 90
+
 --- CAP
+
+
 
 local number_of_CAP_Airfield = math.random(1,#airfield_Cap_table)
 for i,_cap_airfield in ipairs(airfield_Cap_table) do
@@ -111,9 +124,25 @@ if CAP_Airfield1 then
   --A2ADispatcher:SetSquadronOverhead( CAP_Airfield1, 1 )
   A2ADispatcher:SetSquadronTakeoffFromParkingHot(CAP_Airfield1)
   A2ADispatcher:SetSquadronLandingAtRunway(CAP_Airfield1)
-  A2ADispatcher:SetSquadronCap(CAP_Airfield1,ZONE:New("Cap_"..CAP_Airfield1), 5000, 20000, 400, 700, 400, 1000, "BARO")
+  A2ADispatcher:SetSquadronCap(
+	CAP_Airfield1,
+	ZONE:New("Cap_"..CAP_Airfield1),
+	CAP_ALTITUDE_FT, CAP_ALTITUDE_FT,   -- Fixed altitude
+	CAP_SPEED_KTS, CAP_SPEED_KTS,       -- Fixed patrol speed
+	400, 1000,
+	"BARO"
+)	
   A2ADispatcher:SetSquadronCapInterval( CAP_Airfield1, 1, 15*60, 20*60 ) -- only one CAP ever, between 15mins and 20mins
-  A2ADispatcher:SetSquadronCapRacetrack(CAP_Airfield1, UTILS.NMToMeters(20), UTILS.NMToMeters(20), 0, 180, nil, nil, ZONE:New("Cap_"..CAP_Airfield1):GetCoordinate())
+  A2ADispatcher:SetSquadronCapRacetrack(
+	CAP_Airfield1,
+	UTILS.NMToMeters(CAP_LEG_NM),
+	UTILS.NMToMeters(CAP_LEG_NM),
+	CAP_HDG_OUT,
+	CAP_HDG_IN,
+	nil,
+	nil,
+	ZONE:New("Cap_"..CAP_Airfield1):GetCoordinate()
+)
   A2ADispatcher:SchedulerCAP(CAP_Airfield1)
 end
 
@@ -129,9 +158,25 @@ if number_of_CAPs == 2 then
       --A2ADispatcher:SetSquadronOverhead( CAP_Airfield2, 1 )
       A2ADispatcher:SetSquadronTakeoffFromParkingHot(CAP_Airfield2)
       A2ADispatcher:SetSquadronLandingAtRunway(CAP_Airfield2)
-      A2ADispatcher:SetSquadronCap(CAP_Airfield2,ZONE:New("Cap_"..CAP_Airfield2), 5000, 20000, 400, 700, 400, 1000, "BARO")
+  A2ADispatcher:SetSquadronCap(
+	CAP_Airfield2,
+	ZONE:New("Cap_"..CAP_Airfield2),
+	CAP_ALTITUDE_FT, CAP_ALTITUDE_FT,   -- Fixed altitude
+	CAP_SPEED_KTS, CAP_SPEED_KTS,       -- Fixed patrol speed
+	400, 1000,
+	"BARO"
+)
       A2ADispatcher:SetSquadronCapInterval( CAP_Airfield2, 1, 15*60, 20*60 ) -- only one CAP ever, between 15mins and 20mins
-      A2ADispatcher:SetSquadronCapRacetrack(CAP_Airfield2, UTILS.NMToMeters(20), UTILS.NMToMeters(20), 0, 180, nil, nil, ZONE:New("Cap_"..CAP_Airfield2):GetCoordinate())
+	A2ADispatcher:SetSquadronCapRacetrack(
+		CAP_Airfield2,
+		UTILS.NMToMeters(CAP_LEG_NM),
+		UTILS.NMToMeters(CAP_LEG_NM),
+		CAP_HDG_OUT,
+		CAP_HDG_IN,
+		nil,
+		nil,
+		ZONE:New("Cap_"..CAP_Airfield2):GetCoordinate()
+)
       A2ADispatcher:SchedulerCAP(CAP_Airfield2)
     end
   end
@@ -214,15 +259,15 @@ local function PushRacetrackIfIdle(squadronName)
     -------------------------------------------------------------------
 
     A2ADispatcher:SetSquadronCapRacetrack(
-      squadronName,
-      UTILS.NMToMeters(20),  -- Racetrack leg length
-      UTILS.NMToMeters(20),
-      0,                     -- Heading outbound
-      180,                   -- Heading inbound
-      nil,
-      nil,
-      ZONE:New("Cap_" .. squadronName):GetCoordinate()
-    )
+  squadronName,
+  UTILS.NMToMeters(CAP_LEG_NM),
+  UTILS.NMToMeters(CAP_LEG_NM),
+  CAP_HDG_OUT,
+  CAP_HDG_IN,
+  nil,
+  nil,
+  ZONE:New("Cap_" .. squadronName):GetCoordinate()
+)
 
   end)
 end

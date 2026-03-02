@@ -129,7 +129,7 @@ if CAP_Airfield1 then
 	ZONE:New("Cap_"..CAP_Airfield1),
 	CAP_ALTITUDE_FT, CAP_ALTITUDE_FT,   -- Fixed altitude
 	CAP_SPEED_KTS, CAP_SPEED_KTS,       -- Fixed patrol speed
-	400, 1000,
+	35000, 110000, -- MIN and MAX engagement range  110000:59.4NM   35000:18.9NM
 	"BARO"
 )	
   A2ADispatcher:SetSquadronCapInterval( CAP_Airfield1, 1, 15*60, 20*60 ) -- only one CAP ever, between 15mins and 20mins
@@ -163,7 +163,7 @@ if number_of_CAPs == 2 then
 	ZONE:New("Cap_"..CAP_Airfield2),
 	CAP_ALTITUDE_FT, CAP_ALTITUDE_FT,   -- Fixed altitude
 	CAP_SPEED_KTS, CAP_SPEED_KTS,       -- Fixed patrol speed
-	400, 1000,
+	35000, 110000,  -- MIN and MAX engagement range  110000:59.4NM   35000:18.9NM
 	"BARO"
 )
       A2ADispatcher:SetSquadronCapInterval( CAP_Airfield2, 1, 15*60, 20*60 ) -- only one CAP ever, between 15mins and 20mins

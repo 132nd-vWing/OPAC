@@ -82,6 +82,14 @@ end
 if CAP_Airfield1 then
   env.info(CAP_Airfield1.." has CAP enabled")
 end
+
+-- DETECTION SET (EWR)
+DetectionSetGroup = SET_GROUP:New()
+  :FilterCoalitions("red")
+  :FilterCategories("ground")
+  :FilterPrefixes("EWR")
+  :FilterStart()
+  
 Detection = DETECTION_AREAS:New( DetectionSetGroup, 30000 ) --range in meters for targets to be grouped
 A2ADispatcher = AI_A2A_DISPATCHER:New( Detection )
 A2ADispatcher:SetEngageRadius() -- 100000 is the default value. Set 100km as the radius to engage any target by airborne friendlies.

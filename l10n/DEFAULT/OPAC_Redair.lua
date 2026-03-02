@@ -97,8 +97,8 @@ A2ADispatcher:SetGciRadius() -- 200000 is the default value. Set 200km as the ra
 
 CCCPBorderZone = ZONE_POLYGON:New( "ColdBorder", GROUP:FindByName( "ColdBorder" ) )
 A2ADispatcher:SetBorderZone( CCCPBorderZone )
-A2ADispatcher:SetDisengageRadius( 460000 )--important to stop caps drifting 460km is 250nm, and covers coast from Shiraz to a bit east of Abbas
-A2ADispatcher:SetEngageRadius(200000) --everything inside 200km from the aircraft is handled by the CAP
+A2ADispatcher:SetDisengageRadius( 185000 )--important to stop caps drifting 460km is 250nm, and covers coast from Shiraz to a bit east of Abbas
+A2ADispatcher:SetEngageRadius(120000) --everything inside 200km from the aircraft is handled by the CAP
 A2ADispatcher:SetTacticalDisplay( Redair_Debugging )
 A2ADispatcher:SetDefaultCapTimeInterval( 900, 1200 ) --between 15mins and 20mins  NECK: DAY 900, 1200  NIGHT: 1700,1900
 A2ADispatcher:SetDefaultFuelThreshold( 0.3 ) -- % including tanks before heading to refuel. Note refuel is on INTERNAL max only for AI.
@@ -113,7 +113,7 @@ if CAP_Airfield1 then
   A2ADispatcher:SetSquadronLandingAtRunway(CAP_Airfield1)
   A2ADispatcher:SetSquadronCap(CAP_Airfield1,ZONE:New("Cap_"..CAP_Airfield1), 5000, 20000, 400, 700, 400, 1000, "BARO")
   A2ADispatcher:SetSquadronCapInterval( CAP_Airfield1, 1, 15*60, 20*60 ) -- only one CAP ever, between 15mins and 20mins
-  A2ADispatcher:SetSquadronCapRacetrack(CAP_Airfield1, UTILS.NMToMeters(20), UTILS.NMToMeters(20), 0, 180, nil, nil, {ZONE:New("Cap_"..CAP_Airfield1):GetCoordinate()})
+  A2ADispatcher:SetSquadronCapRacetrack(CAP_Airfield1, UTILS.NMToMeters(20), UTILS.NMToMeters(20), 0, 180, nil, nil, ZONE:New("Cap_"..CAP_Airfield1):GetCoordinate())
   A2ADispatcher:SchedulerCAP(CAP_Airfield1)
 end
 
@@ -131,11 +131,125 @@ if number_of_CAPs == 2 then
       A2ADispatcher:SetSquadronLandingAtRunway(CAP_Airfield2)
       A2ADispatcher:SetSquadronCap(CAP_Airfield2,ZONE:New("Cap_"..CAP_Airfield2), 5000, 20000, 400, 700, 400, 1000, "BARO")
       A2ADispatcher:SetSquadronCapInterval( CAP_Airfield2, 1, 15*60, 20*60 ) -- only one CAP ever, between 15mins and 20mins
-      A2ADispatcher:SetSquadronCapRacetrack(CAP_Airfield2, UTILS.NMToMeters(20), UTILS.NMToMeters(20), 0, 180, nil, nil, {ZONE:New("Cap_"..CAP_Airfield2):GetCoordinate()})
+      A2ADispatcher:SetSquadronCapRacetrack(CAP_Airfield2, UTILS.NMToMeters(20), UTILS.NMToMeters(20), 0, 180, nil, nil, ZONE:New("Cap_"..CAP_Airfield2):GetCoordinate())
       A2ADispatcher:SchedulerCAP(CAP_Airfield2)
     end
   end
 end
+
+-----------------------------------------------------------------------
+-- CAP RACETRACK RETURN WATCHDOG
+--
+-- Purpose:
+-- Ensures CAP flights return to their defined racetrack pattern
+-- when they are no longer actively engaging enemy aircraft.
+--
+-- Behavior:
+-- - If hostile aircraft are detected within a defined radius,
+--   the dispatcher is allowed to control the CAP normally.
+-- - If no hostiles are nearby, the racetrack pattern is re-applied.
+--
+-- This allows:
+--   ✔ Dynamic interception when tracks exist (Skynet + Dispatcher)
+--   ✔ Proper racetrack orbit when idle
+-----------------------------------------------------------------------
+
+-- Distance (in meters) within which enemy aircraft count as "active engagement"
+local WATCHDOG_HOSTILE_CHECK_RADIUS = 80000  -- 80 km
+
+-- How often (seconds) the watchdog checks CAP groups
+local WATCHDOG_INTERVAL = 60
+
+
+-- Function: Re-apply racetrack if CAP group is idle
+local function PushRacetrackIfIdle(squadronName)
+
+  -- Get squadron object from dispatcher
+  local squad = A2ADispatcher:GetSquadron(squadronName)
+  if not squad then return end
+
+  -- Get active CAP groups belonging to this squadron
+  local capSet = squad.CAPSet
+  if not capSet then return end
+
+  capSet:ForEachGroupAlive(function(grp)
+
+    -- Only process airborne aircraft
+    if not grp:InAir() then return end
+
+    local coord = grp:GetCoordinate()
+    if not coord then return end
+
+    -------------------------------------------------------------------
+    -- Check for nearby hostile aircraft
+    -------------------------------------------------------------------
+
+    local hostileNearby = false
+
+    -- Adjust coalition filter if needed (blue/red depending on your mission)
+    local hostileSet = SET_GROUP:New()
+      :FilterCoalitions("blue")   -- Change if your CAP is blue
+      :FilterCategoryAirplane()
+      :FilterStart()
+
+    hostileSet:ForEachGroupAlive(function(enemyGrp)
+      if hostileNearby then return end
+
+      local enemyCoord = enemyGrp:GetCoordinate()
+      if enemyCoord then
+        local distance = coord:Get2DDistance(enemyCoord)
+        if distance < WATCHDOG_HOSTILE_CHECK_RADIUS then
+          hostileNearby = true
+        end
+      end
+    end)
+
+    -- If hostiles are nearby, do nothing (dispatcher controls intercept)
+    if hostileNearby then
+      return
+    end
+
+    -------------------------------------------------------------------
+    -- No nearby hostiles → re-apply racetrack pattern
+    -------------------------------------------------------------------
+
+    A2ADispatcher:SetSquadronCapRacetrack(
+      squadronName,
+      UTILS.NMToMeters(20),  -- Racetrack leg length
+      UTILS.NMToMeters(20),
+      0,                     -- Heading outbound
+      180,                   -- Heading inbound
+      nil,
+      nil,
+      ZONE:New("Cap_" .. squadronName):GetCoordinate()
+    )
+
+  end)
+end
+
+
+-----------------------------------------------------------------------
+-- Scheduler: Runs watchdog every WATCHDOG_INTERVAL seconds
+-----------------------------------------------------------------------
+
+SCHEDULER:New(nil,
+  function()
+
+    if CAP_Airfield1 then
+      PushRacetrackIfIdle(CAP_Airfield1)
+    end
+
+    if CAP_Airfield2 then
+      PushRacetrackIfIdle(CAP_Airfield2)
+    end
+
+  end,
+{},
+WATCHDOG_INTERVAL,
+WATCHDOG_INTERVAL
+)
+
+
 
 --- CAP
 

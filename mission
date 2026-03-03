@@ -4279,6 +4279,51 @@ mission =
                                 ["x"] = 15557.746104235,
                                 ["y"] = 213026.15874795,
                             }, -- end of [18]
+                            [19] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 1336,
+                                ["heading"] = 1.4486232791553,
+                                ["hidden"] = false,
+                                ["name"] = "Static Repair workshop-1",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 5399.0486279205,
+                                            ["y"] = 461604.88818307,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 1.4486232791553,
+                                        ["name"] = "Static Repair workshop-1",
+                                        ["rate"] = 100,
+                                        ["shape_name"] = "tech",
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "Repair workshop",
+                                        ["unitId"] = 2760,
+                                        ["x"] = 5399.0486279205,
+                                        ["y"] = 461604.88818307,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 5399.0486279205,
+                                ["y"] = 461604.88818307,
+                            }, -- end of [19]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["vehicle"] =
@@ -43619,6 +43664,198 @@ mission =
                                 ["x"] = 252813.34660973,
                                 ["y"] = 355295.37156945,
                             }, -- end of [24]
+                            [25] =
+                            {
+                                ["groupId"] = 1332,
+                                ["hidden"] = false,
+                                ["name"] = "Ground-1",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 155,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 5521.977818766,
+                                            ["y"] = 461722.14604954,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 0,
+                                        ["name"] = "Ground-1-1",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 2756,
+                                        ["x"] = 5521.977818766,
+                                        ["y"] = 461722.14604954,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 5521.977818766,
+                                ["y"] = 461722.14604954,
+                            }, -- end of [25]
+                            [26] =
+                            {
+                                ["groupId"] = 1333,
+                                ["hidden"] = false,
+                                ["name"] = "Ground-2",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 153,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 5274.8368110122,
+                                            ["y"] = 461319.03160578,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 0,
+                                        ["name"] = "Ground-2-1",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 2757,
+                                        ["x"] = 5274.8368110122,
+                                        ["y"] = 461319.03160578,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 5274.8368110122,
+                                ["y"] = 461319.03160578,
+                            }, -- end of [26]
+                            [27] =
+                            {
+                                ["groupId"] = 1335,
+                                ["hidden"] = false,
+                                ["name"] = "Ground-3",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 148,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 6198.3872265291,
+                                            ["y"] = 461382.85850641,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 0,
+                                        ["name"] = "Ground-3-1",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 2759,
+                                        ["x"] = 6198.3872265291,
+                                        ["y"] = 461382.85850641,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 6198.3872265291,
+                                ["y"] = 461382.85850641,
+                            }, -- end of [27]
                         }, -- end of ["group"]
                     }, -- end of ["vehicle"]
                 }, -- end of [1]
@@ -64302,7 +64539,7 @@ mission =
                                         ["frequency"] = 127500000,
                                         ["heading"] = 0.23081295920725,
                                         ["modulation"] = 0,
-                                        ["name"] = "02_ SAG_Pyotr_veliky-1",
+                                        ["name"] = "NN_10th_Pyotr_veliky",
                                         ["skill"] = "Average",
                                         ["type"] = "PIOTR",
                                         ["unitId"] = 284,
@@ -64314,7 +64551,7 @@ mission =
                                         ["frequency"] = 127500000,
                                         ["heading"] = 0.23081295920725,
                                         ["modulation"] = 0,
-                                        ["name"] = "02_ SAG_Pyotr_veliky-2",
+                                        ["name"] = "NN_ 211_Rezky6_SAG_Pyotr_veliky",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 283,
@@ -64326,7 +64563,7 @@ mission =
                                         ["frequency"] = 127500000,
                                         ["heading"] = 0.23081295920725,
                                         ["modulation"] = 0,
-                                        ["name"] = "02_ SAG_Pyotr_veliky-3",
+                                        ["name"] = "NN_ 211_Rezky5_SAG_Pyotr_veliky",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 282,
@@ -64370,8 +64607,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 231839.53693693,
-                                            ["y"] = 446925.16895547,
+                                            ["x"] = 231969.01195306,
+                                            ["y"] = 446908.54020771,
                                         }, -- end of [1]
                                         [2] =
                                         {
@@ -64409,79 +64646,79 @@ mission =
                                     [1] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.47846902636468,
+                                        ["heading"] = 0.4791192121637,
                                         ["modulation"] = 0,
-                                        ["name"] = "03_ RUS_CSG_CV",
+                                        ["name"] = "NN_CV_RUS_CSG_CV",
                                         ["skill"] = "Average",
                                         ["type"] = "CV_1143_5",
                                         ["unitId"] = 2359,
-                                        ["x"] = 231839.53693693,
-                                        ["y"] = 446925.16895547,
+                                        ["x"] = 231969.01195306,
+                                        ["y"] = 446908.54020771,
                                     }, -- end of [1]
                                     [2] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.47846902636468,
+                                        ["heading"] = 0.4791192121637,
                                         ["modulation"] = 0,
-                                        ["name"] = "03_ RUS_CSG_Rezky_3",
+                                        ["name"] = "NN_ 211_Rezky2_CSG_Rezky",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 2358,
-                                        ["x"] = 227219.62215959,
-                                        ["y"] = 447242.10573682,
+                                        ["x"] = 227349.09717572,
+                                        ["y"] = 447225.47698906,
                                     }, -- end of [2]
                                     [3] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.47846902636468,
+                                        ["heading"] = 0.4791192121637,
                                         ["modulation"] = 0,
-                                        ["name"] = "03_ RUS_CSG_Rezky_2",
+                                        ["name"] = "NN_ 211_Rezky4_CSG",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 2357,
-                                        ["x"] = 239224.79715312,
-                                        ["y"] = 444810.02287175,
+                                        ["x"] = 239354.27216925,
+                                        ["y"] = 444793.39412399,
                                     }, -- end of [3]
                                     [4] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.47846902636468,
+                                        ["heading"] = 0.4791192121637,
                                         ["modulation"] = 0,
-                                        ["name"] = "03_ RUS_CSG_Rezky_1",
+                                        ["name"] = "NN_ 211_Rezky3_CSG_Rezky",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 2356,
-                                        ["x"] = 234671.11008661,
-                                        ["y"] = 454383.11500021,
+                                        ["x"] = 234800.58510274,
+                                        ["y"] = 454366.48625245,
                                     }, -- end of [4]
                                     [5] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.47846902636468,
+                                        ["heading"] = 0.4791192121637,
                                         ["modulation"] = 0,
-                                        ["name"] = "03_ RUS_CSG:Moskva",
+                                        ["name"] = "NN_10th_Moskva_1",
                                         ["skill"] = "Average",
                                         ["type"] = "MOSCOW",
                                         ["unitId"] = 2355,
-                                        ["x"] = 232669.76550966,
-                                        ["y"] = 445149.40228603,
+                                        ["x"] = 232799.24052579,
+                                        ["y"] = 445132.77353827,
                                     }, -- end of [5]
                                     [6] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.47846902636468,
+                                        ["heading"] = 0.4791192121637,
                                         ["modulation"] = 0,
-                                        ["name"] = "03_ RUS_CSG_Rezky_4",
+                                        ["name"] = "NN_ 211_Rezky1_CSG_Rezky",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 2354,
-                                        ["x"] = 229237.73347316,
-                                        ["y"] = 441239.51824006,
+                                        ["x"] = 229367.20848929,
+                                        ["y"] = 441222.8894923,
                                     }, -- end of [6]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 231839.53693693,
-                                ["y"] = 446925.16895547,
+                                ["x"] = 231969.01195306,
+                                ["y"] = 446908.54020771,
                             }, -- end of [2]
                             [3] =
                             {
@@ -64489,7 +64726,7 @@ mission =
                                 ["hidden"] = true,
                                 ["hiddenOnMFD"] = true,
                                 ["hiddenOnPlanner"] = true,
-                                ["name"] = "04_ RUS_ATG",
+                                ["name"] = "NN_ RUS_ATG1",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -64580,7 +64817,7 @@ mission =
                                         ["frequency"] = 127500000,
                                         ["heading"] = 5.7183141623489,
                                         ["modulation"] = 0,
-                                        ["name"] = "04_ RUS_ATG_Moskva",
+                                        ["name"] = "NN_10th_Moskva_2",
                                         ["skill"] = "Average",
                                         ["type"] = "MOSCOW",
                                         ["unitId"] = 2365,
@@ -64592,7 +64829,7 @@ mission =
                                         ["frequency"] = 127500000,
                                         ["heading"] = 5.7183141623489,
                                         ["modulation"] = 0,
-                                        ["name"] = "04_ RUS_ATG_Ropucha1",
+                                        ["name"] = "NN_ 30th_Ropucha2_ATG",
                                         ["skill"] = "Average",
                                         ["type"] = "BDK-775",
                                         ["unitId"] = 2364,
@@ -64604,7 +64841,7 @@ mission =
                                         ["frequency"] = 127500000,
                                         ["heading"] = 5.7183141623489,
                                         ["modulation"] = 0,
-                                        ["name"] = "04_ RUS_ATG_Ropucha2",
+                                        ["name"] = "NN_ 30th_Ropucha1_ATG",
                                         ["skill"] = "Average",
                                         ["type"] = "BDK-775",
                                         ["unitId"] = 2363,
@@ -64616,7 +64853,7 @@ mission =
                                         ["frequency"] = 127500000,
                                         ["heading"] = 5.7183141623489,
                                         ["modulation"] = 0,
-                                        ["name"] = "04_ RUS_ATG_Ropucha_3",
+                                        ["name"] = "NN_ 30th_Ropucha3_ATG_Ropucha",
                                         ["skill"] = "Average",
                                         ["type"] = "BDK-775",
                                         ["unitId"] = 2362,
@@ -64628,19 +64865,19 @@ mission =
                                         ["frequency"] = 127500000,
                                         ["heading"] = 5.7183141623489,
                                         ["modulation"] = 0,
-                                        ["name"] = "04_ RUS_ATG_Neustrashimy1",
+                                        ["name"] = "NN_ 212_Neustrashimy1_ATG1",
                                         ["skill"] = "Average",
                                         ["type"] = "NEUSTRASH",
                                         ["unitId"] = 2361,
-                                        ["x"] = 239122.42421571,
-                                        ["y"] = 416733.14061208,
+                                        ["x"] = 239132.87923095,
+                                        ["y"] = 416925.68410399,
                                     }, -- end of [5]
                                     [6] =
                                     {
                                         ["frequency"] = 127500000,
                                         ["heading"] = 5.7183141623489,
                                         ["modulation"] = 0,
-                                        ["name"] = "04_ RUS_ATG_Neustrashimy2",
+                                        ["name"] = "NN_ 212_Neustrashimy2_ATG",
                                         ["skill"] = "Average",
                                         ["type"] = "NEUSTRASH",
                                         ["unitId"] = 2360,
@@ -92890,6 +93127,1283 @@ mission =
                                 ["x"] = 132271.97598686,
                                 ["y"] = 409424.56020434,
                             }, -- end of [644]
+                            [645] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1304,
+                                ["heading"] = 0.5235987755983,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "NN_ 212_Neustrashimy3",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 183693.38379736,
+                                            ["y"] = 427732.95500248,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Ships",
+                                        ["heading"] = 0.5235987755983,
+                                        ["name"] = "NN_ 212_Neustrashimy3",
+                                        ["rate"] = 1500,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "NEUSTRASH",
+                                        ["unitId"] = 2728,
+                                        ["x"] = 183693.38379736,
+                                        ["y"] = 427732.95500248,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 183693.38379736,
+                                ["y"] = 427732.95500248,
+                            }, -- end of [645]
+                            [646] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1305,
+                                ["heading"] = 1.0995574287564,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "NN_10th_Moskva_3",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 183454.67116264,
+                                            ["y"] = 428374.85259642,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Ships",
+                                        ["heading"] = 1.0995574287564,
+                                        ["name"] = "NN_10th_Moskva_3",
+                                        ["rate"] = 4500,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "MOSCOW",
+                                        ["unitId"] = 2729,
+                                        ["x"] = 183454.67116264,
+                                        ["y"] = 428374.85259642,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 183454.67116264,
+                                ["y"] = 428374.85259642,
+                            }, -- end of [646]
+                            [647] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1306,
+                                ["heading"] = 5.4977871437821,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "NN_ 212_Neustrashimy4",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 183625.01044124,
+                                            ["y"] = 428505.84821669,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Ships",
+                                        ["heading"] = 5.4977871437821,
+                                        ["name"] = "NN_ 212_Neustrashimy4",
+                                        ["rate"] = 1500,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "NEUSTRASH",
+                                        ["unitId"] = 2730,
+                                        ["x"] = 183625.01044124,
+                                        ["y"] = 428505.84821669,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 183625.01044124,
+                                ["y"] = 428505.84821669,
+                            }, -- end of [647]
+                            [648] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1307,
+                                ["heading"] = 0,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "NN_ 212_Neustrashimy5",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 183609.29380112,
+                                            ["y"] = 428000.5322481,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Ships",
+                                        ["heading"] = 0,
+                                        ["name"] = "NN_ 212_Neustrashimy5",
+                                        ["rate"] = 1500,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "NEUSTRASH",
+                                        ["unitId"] = 2731,
+                                        ["x"] = 183609.29380112,
+                                        ["y"] = 428000.5322481,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 183609.29380112,
+                                ["y"] = 428000.5322481,
+                            }, -- end of [648]
+                            [649] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1308,
+                                ["heading"] = 5.4454272662223,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "NN_ 212_Neustrashimy6",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 183605.0555517,
+                                            ["y"] = 428485.65576894,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Ships",
+                                        ["heading"] = 5.4454272662223,
+                                        ["name"] = "NN_ 212_Neustrashimy6",
+                                        ["rate"] = 1500,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "NEUSTRASH",
+                                        ["unitId"] = 2732,
+                                        ["x"] = 183605.0555517,
+                                        ["y"] = 428485.65576894,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 183605.0555517,
+                                ["y"] = 428485.65576894,
+                            }, -- end of [649]
+                            [650] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1309,
+                                ["heading"] = 1.5707963267949,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "NN_10th_Molnya_1",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 183552.6438186,
+                                            ["y"] = 427837.49083498,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Ships",
+                                        ["heading"] = 1.5707963267949,
+                                        ["livery_id"] = "952",
+                                        ["name"] = "NN_10th_Molnya_1",
+                                        ["rate"] = 1000,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "MOLNIYA",
+                                        ["unitId"] = 2733,
+                                        ["x"] = 183552.6438186,
+                                        ["y"] = 427837.49083498,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 183552.6438186,
+                                ["y"] = 427837.49083498,
+                            }, -- end of [650]
+                            [651] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1310,
+                                ["heading"] = 0.13962634015955,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "NN_10th_Molnya_2",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 183620.34745625,
+                                            ["y"] = 427770.47805077,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Ships",
+                                        ["heading"] = 0.13962634015955,
+                                        ["livery_id"] = "952",
+                                        ["name"] = "NN_10th_Molnya_2",
+                                        ["rate"] = 1000,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "MOLNIYA",
+                                        ["unitId"] = 2734,
+                                        ["x"] = 183620.34745625,
+                                        ["y"] = 427770.47805077,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 183620.34745625,
+                                ["y"] = 427770.47805077,
+                            }, -- end of [651]
+                            [652] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1311,
+                                ["heading"] = 0,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "NN_10th_Molnya_3",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 183584.28635666,
+                                            ["y"] = 428042.81424363,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Ships",
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "952",
+                                        ["name"] = "NN_10th_Molnya_3",
+                                        ["rate"] = 1000,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "MOLNIYA",
+                                        ["unitId"] = 2735,
+                                        ["x"] = 183584.28635666,
+                                        ["y"] = 428042.81424363,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 183584.28635666,
+                                ["y"] = 428042.81424363,
+                            }, -- end of [652]
+                            [653] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1312,
+                                ["heading"] = 0.69813170079773,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "NN_ 30th_Ropucha4",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 170482.67727397,
+                                            ["y"] = 429547.93328399,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Ships",
+                                        ["heading"] = 0.69813170079773,
+                                        ["name"] = "NN_ 30th_Ropucha4",
+                                        ["rate"] = 300,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "BDK-775",
+                                        ["unitId"] = 2736,
+                                        ["x"] = 170482.67727397,
+                                        ["y"] = 429547.93328399,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 170482.67727397,
+                                ["y"] = 429547.93328399,
+                            }, -- end of [653]
+                            [654] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1313,
+                                ["heading"] = 0.75049157835756,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "NN_ 30th_Ropucha5",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 170248.99054412,
+                                            ["y"] = 429515.7628953,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Ships",
+                                        ["heading"] = 0.75049157835756,
+                                        ["name"] = "NN_ 30th_Ropucha5",
+                                        ["rate"] = 300,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "BDK-775",
+                                        ["unitId"] = 2737,
+                                        ["x"] = 170248.99054412,
+                                        ["y"] = 429515.7628953,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 170248.99054412,
+                                ["y"] = 429515.7628953,
+                            }, -- end of [654]
+                            [655] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1314,
+                                ["heading"] = 0.66322511575785,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "NN_ 30th_Ropucha6",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 170180.91132425,
+                                            ["y"] = 429598.12816908,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Ships",
+                                        ["heading"] = 0.66322511575785,
+                                        ["name"] = "NN_ 30th_Ropucha6",
+                                        ["rate"] = 300,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "BDK-775",
+                                        ["unitId"] = 2738,
+                                        ["x"] = 170180.91132425,
+                                        ["y"] = 429598.12816908,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 170180.91132425,
+                                ["y"] = 429598.12816908,
+                            }, -- end of [655]
+                            [656] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1315,
+                                ["heading"] = 4.0666171571468,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "NN_ 511_tanker_Elnya1",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 171724.88767723,
+                                            ["y"] = 429939.22387025,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["cargo"] = 100,
+                                        ["category"] = "Ships",
+                                        ["heading"] = 4.0666171571468,
+                                        ["name"] = "NN_ 511_tanker_Elnya1",
+                                        ["rate"] = 700,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "ELNYA",
+                                        ["unitId"] = 2739,
+                                        ["x"] = 171724.88767723,
+                                        ["y"] = 429939.22387025,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 171724.88767723,
+                                ["y"] = 429939.22387025,
+                            }, -- end of [656]
+                            [657] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1316,
+                                ["heading"] = 4.0666171571468,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "NN_ 511_tanker_Elnya2",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 171624.79447922,
+                                            ["y"] = 430014.50404859,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["cargo"] = 100,
+                                        ["category"] = "Ships",
+                                        ["heading"] = 4.0666171571468,
+                                        ["name"] = "NN_ 511_tanker_Elnya2",
+                                        ["rate"] = 700,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "ELNYA",
+                                        ["unitId"] = 2740,
+                                        ["x"] = 171624.79447922,
+                                        ["y"] = 430014.50404859,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 171624.79447922,
+                                ["y"] = 430014.50404859,
+                            }, -- end of [657]
+                            [658] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1317,
+                                ["heading"] = 4.0666171571468,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "NN_ 511_tanker_Elnya3",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 171699.23353824,
+                                            ["y"] = 429956.88737579,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["cargo"] = 100,
+                                        ["category"] = "Ships",
+                                        ["heading"] = 4.0666171571468,
+                                        ["name"] = "NN_ 511_tanker_Elnya3",
+                                        ["rate"] = 700,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "ELNYA",
+                                        ["unitId"] = 2741,
+                                        ["x"] = 171699.23353824,
+                                        ["y"] = 429956.88737579,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 171699.23353824,
+                                ["y"] = 429956.88737579,
+                            }, -- end of [658]
+                            [659] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1318,
+                                ["heading"] = 4.0666171571468,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "NN_ 511_tanker_Elnya4",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 171602.92537713,
+                                            ["y"] = 430034.2703524,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["cargo"] = 100,
+                                        ["category"] = "Ships",
+                                        ["heading"] = 4.0666171571468,
+                                        ["name"] = "NN_ 511_tanker_Elnya4",
+                                        ["rate"] = 700,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "ELNYA",
+                                        ["unitId"] = 2742,
+                                        ["x"] = 171602.92537713,
+                                        ["y"] = 430034.2703524,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 171602.92537713,
+                                ["y"] = 430034.2703524,
+                            }, -- end of [659]
+                            [660] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1319,
+                                ["heading"] = 0.45378560551853,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "NN_ 512_cargo_Ivanov1",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 170124.61415912,
+                                            ["y"] = 430014.93397629,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Ships",
+                                        ["heading"] = 0.45378560551853,
+                                        ["name"] = "NN_ 512_cargo_Ivanov1",
+                                        ["rate"] = 50,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "Dry-cargo ship-2",
+                                        ["unitId"] = 2743,
+                                        ["x"] = 170124.61415912,
+                                        ["y"] = 430014.93397629,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 170124.61415912,
+                                ["y"] = 430014.93397629,
+                            }, -- end of [660]
+                            [661] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1320,
+                                ["heading"] = 6.14355896702,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "NN_ 512_cargo_Ivanov2",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 170333.94137112,
+                                            ["y"] = 430203.28289964,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Ships",
+                                        ["heading"] = 6.14355896702,
+                                        ["name"] = "NN_ 512_cargo_Ivanov2",
+                                        ["rate"] = 50,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "Dry-cargo ship-2",
+                                        ["unitId"] = 2744,
+                                        ["x"] = 170333.94137112,
+                                        ["y"] = 430203.28289964,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 170333.94137112,
+                                ["y"] = 430203.28289964,
+                            }, -- end of [661]
+                            [662] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1321,
+                                ["heading"] = 6.16101225954,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "NN_ 512_cargo_Ivanov3",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 170329.7234054,
+                                            ["y"] = 430174.96227267,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Ships",
+                                        ["heading"] = 6.16101225954,
+                                        ["name"] = "NN_ 512_cargo_Ivanov3",
+                                        ["rate"] = 50,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "Dry-cargo ship-2",
+                                        ["unitId"] = 2745,
+                                        ["x"] = 170329.7234054,
+                                        ["y"] = 430174.96227267,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 170329.7234054,
+                                ["y"] = 430174.96227267,
+                            }, -- end of [662]
+                            [663] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1322,
+                                ["heading"] = 0.45378560551853,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "NN_ 512_cargo_Ivanov4",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 170019.28646487,
+                                            ["y"] = 429964.69789517,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Ships",
+                                        ["heading"] = 0.45378560551853,
+                                        ["name"] = "NN_ 512_cargo_Ivanov4",
+                                        ["rate"] = 50,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "Dry-cargo ship-2",
+                                        ["unitId"] = 2746,
+                                        ["x"] = 170019.28646487,
+                                        ["y"] = 429964.69789517,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 170019.28646487,
+                                ["y"] = 429964.69789517,
+                            }, -- end of [663]
+                            [664] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1323,
+                                ["heading"] = 0.10783456660449,
+                                ["name"] = "Static Container 20ft-1",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 170043.30942711,
+                                            ["y"] = 429988.28279526,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0.10783456660449,
+                                        ["name"] = "Static Container 20ft-1-1",
+                                        ["rate"] = 1,
+                                        ["shape_name"] = "container_20ft",
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "container_20ft",
+                                        ["unitId"] = 2747,
+                                        ["x"] = 170043.30942711,
+                                        ["y"] = 429988.28279526,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 170043.30942711,
+                                ["y"] = 429988.28279526,
+                            }, -- end of [664]
+                            [665] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1324,
+                                ["heading"] = 0.41887902047864,
+                                ["name"] = "Static M92 Cargo 02-1",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 170040.51537298,
+                                            ["y"] = 429970.75990298,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0.41887902047864,
+                                        ["name"] = "Static M92 Cargo 02-1",
+                                        ["rate"] = 1,
+                                        ["shape_name"] = "M92_Cargo02",
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "Cargo02",
+                                        ["unitId"] = 2748,
+                                        ["x"] = 170040.51537298,
+                                        ["y"] = 429970.75990298,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 170040.51537298,
+                                ["y"] = 429970.75990298,
+                            }, -- end of [665]
+                            [666] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1325,
+                                ["heading"] = 0.10783456660449,
+                                ["name"] = "Static M92 Cargo 01-2",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 170038.0234556,
+                                            ["y"] = 429984.75881425,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0.10783456660449,
+                                        ["name"] = "Static M92 Cargo 01-2-1",
+                                        ["rate"] = 1,
+                                        ["shape_name"] = "M92_Cargo01",
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "Cargo01",
+                                        ["unitId"] = 2749,
+                                        ["x"] = 170038.0234556,
+                                        ["y"] = 429984.75881425,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 170038.0234556,
+                                ["y"] = 429984.75881425,
+                            }, -- end of [666]
+                            [667] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1326,
+                                ["heading"] = 0.10783456660449,
+                                ["name"] = "Static M92 Cargo 03-1",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 170123.57296727,
+                                            ["y"] = 430009.46639827,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0.10783456660449,
+                                        ["name"] = "Static M92 Cargo 03-1",
+                                        ["rate"] = 1,
+                                        ["shape_name"] = "M92_Cargo03",
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "Cargo03",
+                                        ["unitId"] = 2750,
+                                        ["x"] = 170123.57296727,
+                                        ["y"] = 430009.46639827,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 170123.57296727,
+                                ["y"] = 430009.46639827,
+                            }, -- end of [667]
+                            [668] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1327,
+                                ["heading"] = 0.10783456660449,
+                                ["name"] = "Static M92 Cargo 05-1",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 170032.29698647,
+                                            ["y"] = 429991.36627864,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0.10783456660449,
+                                        ["name"] = "Static M92 Cargo 05-1",
+                                        ["rate"] = 1,
+                                        ["shape_name"] = "M92_Cargo05",
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "Cargo05",
+                                        ["unitId"] = 2751,
+                                        ["x"] = 170032.29698647,
+                                        ["y"] = 429991.36627864,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 170032.29698647,
+                                ["y"] = 429991.36627864,
+                            }, -- end of [668]
+                            [669] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1328,
+                                ["heading"] = 0.10783456660449,
+                                ["name"] = "Static M92 Cargo 04-2",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 170034.93997223,
+                                            ["y"] = 429985.6398095,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0.10783456660449,
+                                        ["name"] = "Static M92 Cargo 04-2-1",
+                                        ["rate"] = 1,
+                                        ["shape_name"] = "M92_Cargo04",
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "Cargo04",
+                                        ["unitId"] = 2752,
+                                        ["x"] = 170034.93997223,
+                                        ["y"] = 429985.6398095,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 170034.93997223,
+                                ["y"] = 429985.6398095,
+                            }, -- end of [669]
+                            [670] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1329,
+                                ["heading"] = 5.8643062867009,
+                                ["name"] = "Static TowerCrane-1",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 170025.96543708,
+                                            ["y"] = 429981.86297778,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 5.8643062867009,
+                                        ["name"] = "Static TowerCrane-1",
+                                        ["rate"] = 3,
+                                        ["shape_name"] = "TowerCrane_01",
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "Tower Crane",
+                                        ["unitId"] = 2753,
+                                        ["x"] = 170025.96543708,
+                                        ["y"] = 429981.86297778,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 170025.96543708,
+                                ["y"] = 429981.86297778,
+                            }, -- end of [670]
+                            [671] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1330,
+                                ["heading"] = 0.10783456660449,
+                                ["name"] = "Static M92 Cargo 06-2",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 170039.34494848,
+                                            ["y"] = 429990.92578101,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 0.10783456660449,
+                                        ["name"] = "Static M92 Cargo 06-2-1",
+                                        ["rate"] = 1,
+                                        ["shape_name"] = "M92_Cargo06",
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "Cargo06",
+                                        ["unitId"] = 2754,
+                                        ["x"] = 170039.34494848,
+                                        ["y"] = 429990.92578101,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 170039.34494848,
+                                ["y"] = 429990.92578101,
+                            }, -- end of [671]
+                            [672] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1331,
+                                ["heading"] = 5.8643062867009,
+                                ["name"] = "Static TowerCrane-2",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 170134.3379077,
+                                            ["y"] = 430033.74618946,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 5.8643062867009,
+                                        ["name"] = "Static TowerCrane-2-1",
+                                        ["rate"] = 3,
+                                        ["shape_name"] = "TowerCrane_01",
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "Tower Crane",
+                                        ["unitId"] = 2755,
+                                        ["x"] = 170134.3379077,
+                                        ["y"] = 430033.74618946,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 170134.3379077,
+                                ["y"] = 430033.74618946,
+                            }, -- end of [672]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["vehicle"] =
@@ -109842,7 +111356,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 2217879,
+    ["currentKey"] = 2297481,
     ["date"] =
     {
         ["Day"] = 24,
@@ -110406,6 +111920,15 @@ mission =
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of ["AOASENSOR"]
+        ["APU_FAIL"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "APU_FAIL",
+            ["mm"] = 0,
+            ["mmint"] = 10,
+            ["prob"] = 100,
+        }, -- end of ["APU_FAIL"]
         ["APU_Fire"] =
         {
             ["enable"] = false,
@@ -110478,6 +112001,15 @@ mission =
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of ["BATTERY"]
+        ["BATTERY_FAIL"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "BATTERY_FAIL",
+            ["mm"] = 0,
+            ["mmint"] = 10,
+            ["prob"] = 100,
+        }, -- end of ["BATTERY_FAIL"]
         ["BATTERY_OVERHEAT"] =
         {
             ["enable"] = false,
@@ -112017,6 +113549,42 @@ mission =
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of ["ENG0_WATERRADIATOR1_PIERCED"]
+        ["ENG1_FAIL"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ENG1_FAIL",
+            ["mm"] = 0,
+            ["mmint"] = 10,
+            ["prob"] = 100,
+        }, -- end of ["ENG1_FAIL"]
+        ["ENG2FAIL"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ENG2FAIL",
+            ["mm"] = 0,
+            ["mmint"] = 10,
+            ["prob"] = 100,
+        }, -- end of ["ENG2FAIL"]
+        ["ENG3_FAIL"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ENG3_FAIL",
+            ["mm"] = 0,
+            ["mmint"] = 10,
+            ["prob"] = 100,
+        }, -- end of ["ENG3_FAIL"]
+        ["ENG4_FAIL"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ENG4_FAIL",
+            ["mm"] = 0,
+            ["mmint"] = 10,
+            ["prob"] = 100,
+        }, -- end of ["ENG4_FAIL"]
         ["ENGINE_FAILURE_TOTAL"] =
         {
             ["enable"] = false,
@@ -112035,6 +113603,222 @@ mission =
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of ["ENGINE_JAM"]
+        ["ENG_1_FIRE"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ENG_1_FIRE",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["ENG_1_FIRE"]
+        ["ENG_1_FLAMEOUT"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ENG_1_FLAMEOUT",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["ENG_1_FLAMEOUT"]
+        ["ENG_1_FLAMEOUT_ON_START"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ENG_1_FLAMEOUT_ON_START",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["ENG_1_FLAMEOUT_ON_START"]
+        ["ENG_1_HOT_START"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ENG_1_HOT_START",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["ENG_1_HOT_START"]
+        ["ENG_1_NO_LIGHTOFF"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ENG_1_NO_LIGHTOFF",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["ENG_1_NO_LIGHTOFF"]
+        ["ENG_1_STAGNATED_START"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ENG_1_STAGNATED_START",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["ENG_1_STAGNATED_START"]
+        ["ENG_2_FIRE"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ENG_2_FIRE",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["ENG_2_FIRE"]
+        ["ENG_2_FLAMEOUT"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ENG_2_FLAMEOUT",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["ENG_2_FLAMEOUT"]
+        ["ENG_2_FLAMEOUT_ON_START"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ENG_2_FLAMEOUT_ON_START",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["ENG_2_FLAMEOUT_ON_START"]
+        ["ENG_2_HOT_START"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ENG_2_HOT_START",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["ENG_2_HOT_START"]
+        ["ENG_2_NO_LIGHTOFF"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ENG_2_NO_LIGHTOFF",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["ENG_2_NO_LIGHTOFF"]
+        ["ENG_2_STAGNATED_START"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ENG_2_STAGNATED_START",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["ENG_2_STAGNATED_START"]
+        ["ENG_3_FIRE"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ENG_3_FIRE",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["ENG_3_FIRE"]
+        ["ENG_3_FLAMEOUT"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ENG_3_FLAMEOUT",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["ENG_3_FLAMEOUT"]
+        ["ENG_3_FLAMEOUT_ON_START"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ENG_3_FLAMEOUT_ON_START",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["ENG_3_FLAMEOUT_ON_START"]
+        ["ENG_3_HOT_START"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ENG_3_HOT_START",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["ENG_3_HOT_START"]
+        ["ENG_3_NO_LIGHTOFF"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ENG_3_NO_LIGHTOFF",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["ENG_3_NO_LIGHTOFF"]
+        ["ENG_3_STAGNATED_START"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ENG_3_STAGNATED_START",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["ENG_3_STAGNATED_START"]
+        ["ENG_4_FIRE"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ENG_4_FIRE",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["ENG_4_FIRE"]
+        ["ENG_4_FLAMEOUT"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ENG_4_FLAMEOUT",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["ENG_4_FLAMEOUT"]
+        ["ENG_4_FLAMEOUT_ON_START"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ENG_4_FLAMEOUT_ON_START",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["ENG_4_FLAMEOUT_ON_START"]
+        ["ENG_4_HOT_START"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ENG_4_HOT_START",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["ENG_4_HOT_START"]
+        ["ENG_4_NO_LIGHTOFF"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ENG_4_NO_LIGHTOFF",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["ENG_4_NO_LIGHTOFF"]
+        ["ENG_4_STAGNATED_START"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ENG_4_STAGNATED_START",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["ENG_4_STAGNATED_START"]
         ["ENG_ALT_1_FAIL"] =
         {
             ["enable"] = false,
@@ -112935,6 +114719,24 @@ mission =
             ["mmint"] = 1,
             ["prob"] = 100,
         }, -- end of ["GMC_TOTAL_FAILURE"]
+        ["GPS1_FAIL"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "GPS1_FAIL",
+            ["mm"] = 0,
+            ["mmint"] = 10,
+            ["prob"] = 100,
+        }, -- end of ["GPS1_FAIL"]
+        ["GPS2_FAIL"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "GPS2_FAIL",
+            ["mm"] = 0,
+            ["mmint"] = 10,
+            ["prob"] = 100,
+        }, -- end of ["GPS2_FAIL"]
         ["GSH23_CHARGED_FAILURE"] =
         {
             ["enable"] = false,
@@ -117055,9 +118857,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 178057.38257202,
-        ["centerY"] = 396421.65187702,
-        ["zoom"] = 421528.82144764,
+        ["centerX"] = 5534.2235058506,
+        ["centerY"] = 461769.94382349,
+        ["zoom"] = 1106.6949070305,
     }, -- end of ["map"]
     ["maxDictId"] = 20,
     ["pictureFileNameB"] =
@@ -117161,6 +118963,7 @@ mission =
             [37] = "a_ai_task(1146, 1); mission.trig.func[37]=nil;",
             [38] = "a_ai_task(1180, 1); mission.trig.func[38]=nil;",
             [39] = "a_group_off(1179); mission.trig.func[39]=nil;",
+            [40] = "a_scenery_destruction_zone(7166, 70);a_scenery_destruction_zone(7234, 70);a_scenery_destruction_zone(7235, 70); mission.trig.func[40]=nil;",
         }, -- end of ["actions"]
         ["conditions"] =
         {
@@ -117203,6 +119006,7 @@ mission =
             [37] = "return(c_time_after(7100) )",
             [38] = "return(c_time_after(7600) )",
             [39] = "return(c_time_after(10) )",
+            [40] = "return(c_time_after(25) )",
         }, -- end of ["conditions"]
         ["custom"] =
         {
@@ -117254,6 +119058,7 @@ mission =
             [37] = true,
             [38] = true,
             [39] = true,
+            [40] = true,
         }, -- end of ["flag"]
         ["func"] =
         {
@@ -117294,6 +119099,7 @@ mission =
             [37] = "if mission.trig.conditions[37]() then mission.trig.actions[37]() end",
             [38] = "if mission.trig.conditions[38]() then mission.trig.actions[38]() end",
             [39] = "if mission.trig.conditions[39]() then mission.trig.actions[39]() end",
+            [40] = "if mission.trig.conditions[40]() then mission.trig.actions[40]() end",
         }, -- end of ["func"]
         ["funcStartup"] =
         {
@@ -132083,6 +133889,69 @@ mission =
                 ["y"] = 203099.03722257,
                 ["zoneId"] = 7100,
             }, -- end of [615]
+            [616] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "@@@TEST1",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 91.44,
+                ["type"] = 0,
+                ["x"] = 6070.7388121693,
+                ["y"] = 461339.10111364,
+                ["zoneId"] = 7166,
+            }, -- end of [616]
+            [617] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "@@@TEST1-3",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 91.44,
+                ["type"] = 0,
+                ["x"] = 5436.3722365786,
+                ["y"] = 461595.80400168,
+                ["zoneId"] = 7234,
+            }, -- end of [617]
+            [618] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "@@@TEST1-1",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 91.44,
+                ["type"] = 0,
+                ["x"] = 5347.5012061459,
+                ["y"] = 461193.66919938,
+                ["zoneId"] = 7235,
+            }, -- end of [618]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] =
@@ -134193,6 +136062,41 @@ mission =
                 }, -- end of [1]
             }, -- end of ["rules"]
         }, -- end of [39]
+        [40] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["destruction_level"] = 70,
+                    ["predicate"] = "a_scenery_destruction_zone",
+                    ["zone"] = 7166,
+                }, -- end of [1]
+                [2] =
+                {
+                    ["destruction_level"] = 70,
+                    ["predicate"] = "a_scenery_destruction_zone",
+                    ["zone"] = 7234,
+                }, -- end of [2]
+                [3] =
+                {
+                    ["destruction_level"] = 70,
+                    ["predicate"] = "a_scenery_destruction_zone",
+                    ["zone"] = 7235,
+                }, -- end of [3]
+            }, -- end of ["actions"]
+            ["comment"] = "Trigger 1772565613",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 25,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [40]
     }, -- end of ["trigrules"]
     ["version"] = 23,
     ["weather"] =

@@ -879,12 +879,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -83118.546869837,
-                                            ["y"] = 107611.44402057,
+                                            ["x"] = -80052.008109727,
+                                            ["y"] = 133614.58457815,
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 299.76888745228,
+                                            ["ETA"] = 295.80473700447,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 7315.2,
@@ -903,8 +903,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -16877.949656424,
-                                            ["y"] = 107611.44402057,
+                                            ["x"] = -16510.148057225,
+                                            ["y"] = 125671.85207159,
                                         }, -- end of [2]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -935,7 +935,7 @@ mission =
                                             [4] = "Magic11",
                                             ["name"] = "Magic11",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0,
+                                        ["heading"] = -0.12435499454676,
                                         ["livery_id"] = "nato",
                                         ["name"] = "#IFF:5611FR",
                                         ["onboard_num"] = "611",
@@ -949,17 +949,17 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0,
+                                        ["psi"] = 0.12435499454676,
                                         ["skill"] = "High",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "E-3A",
                                         ["unitId"] = 295,
-                                        ["x"] = -83118.546869837,
-                                        ["y"] = 107611.44402057,
+                                        ["x"] = -80052.008109727,
+                                        ["y"] = 133614.58457815,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = -83118.546869837,
-                                ["y"] = 107611.44402057,
+                                ["x"] = -80052.008109727,
+                                ["y"] = 133614.58457815,
                             }, -- end of [5]
                             [6] =
                             {
@@ -1058,12 +1058,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 182936.24935978,
-                                            ["y"] = 41157.710215283,
+                                            ["x"] = 182058.16460685,
+                                            ["y"] = 59009.632820077,
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 356.59446248953,
+                                            ["ETA"] = 356.96048651054,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 7315.2,
@@ -1082,8 +1082,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 261596.20280792,
-                                            ["y"] = 36757.073866923,
+                                            ["x"] = 260918.15163629,
+                                            ["y"] = 57307.618711528,
                                         }, -- end of [2]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -1113,7 +1113,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Overlord11",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -0.055886809575073,
+                                        ["heading"] = -0.02157938356653,
                                         ["livery_id"] = "nato",
                                         ["name"] = "#IFF:5603FR",
                                         ["onboard_num"] = "603",
@@ -1127,17 +1127,17 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.055886809575073,
+                                        ["psi"] = 0.02157938356653,
                                         ["skill"] = "High",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "E-3A",
                                         ["unitId"] = 296,
-                                        ["x"] = 182936.24935978,
-                                        ["y"] = 41157.710215283,
+                                        ["x"] = 182058.16460685,
+                                        ["y"] = 59009.632820077,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 182936.24935978,
-                                ["y"] = 41157.710215283,
+                                ["x"] = 182058.16460685,
+                                ["y"] = 59009.632820077,
                             }, -- end of [6]
                             [7] =
                             {
@@ -1470,7 +1470,7 @@ mission =
                                         }, -- end of [7]
                                         [8] =
                                         {
-                                            ["ETA"] = 4750.6518140363,
+                                            ["ETA"] = 4741.5907094412,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -1489,12 +1489,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 349312.48165901,
-                                            ["y"] = 174406.74461069,
+                                            ["x"] = 349974.17578552,
+                                            ["y"] = 160168.93538477,
                                         }, -- end of [8]
                                         [9] =
                                         {
-                                            ["ETA"] = 3344.834668528,
+                                            ["ETA"] = 5090.3055268564,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -1513,12 +1513,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 270328.02926655,
-                                            ["y"] = 187624.21178725,
+                                            ["x"] = 277178.43695638,
+                                            ["y"] = 153675.4187756,
                                         }, -- end of [9]
                                         [10] =
                                         {
-                                            ["ETA"] = 5519.2204503738,
+                                            ["ETA"] = 5396.3120460547,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -1537,12 +1537,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 212754.30278753,
-                                            ["y"] = 224559.67884379,
+                                            ["x"] = 230015.00053188,
+                                            ["y"] = 141713.67765344,
                                         }, -- end of [10]
                                         [11] =
                                         {
-                                            ["ETA"] = 5624.9045722959,
+                                            ["ETA"] = 5524.5293790283,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -1561,8 +1561,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 203653.69207373,
-                                            ["y"] = 247636.2274395,
+                                            ["x"] = 191395.66490891,
+                                            ["y"] = 145814.84603818,
                                         }, -- end of [11]
                                         [12] =
                                         {
@@ -3276,6 +3276,24 @@ mission =
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
                                                         }, -- end of [1]
+                                                        [2] =
+                                                        {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 2,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "SetInvisible",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -3324,43 +3342,6 @@ mission =
                                                 {
                                                     ["tasks"] =
                                                     {
-                                                        [1] =
-                                                        {
-                                                            ["auto"] = false,
-                                                            ["enabled"] = true,
-                                                            ["id"] = "WrappedAction",
-                                                            ["number"] = 1,
-                                                            ["params"] =
-                                                            {
-                                                                ["action"] =
-                                                                {
-                                                                    ["id"] = "Option",
-                                                                    ["params"] =
-                                                                    {
-                                                                        ["name"] = 0,
-                                                                        ["value"] = 3,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
-                                                        [2] =
-                                                        {
-                                                            ["auto"] = false,
-                                                            ["enabled"] = true,
-                                                            ["id"] = "WrappedAction",
-                                                            ["number"] = 2,
-                                                            ["params"] =
-                                                            {
-                                                                ["action"] =
-                                                                {
-                                                                    ["id"] = "SetInvisible",
-                                                                    ["params"] =
-                                                                    {
-                                                                        ["value"] = true,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [2]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -3370,7 +3351,7 @@ mission =
                                         }, -- end of [3]
                                         [4] =
                                         {
-                                            ["ETA"] = 20991.124420094,
+                                            ["ETA"] = 27048.997798172,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
@@ -3394,7 +3375,7 @@ mission =
                                         }, -- end of [4]
                                         [5] =
                                         {
-                                            ["ETA"] = 23386.941620714,
+                                            ["ETA"] = 29444.814998792,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
@@ -3418,7 +3399,7 @@ mission =
                                         }, -- end of [5]
                                         [6] =
                                         {
-                                            ["ETA"] = 35226.687151516,
+                                            ["ETA"] = 41583.74185818,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
@@ -3442,7 +3423,7 @@ mission =
                                         }, -- end of [6]
                                         [7] =
                                         {
-                                            ["ETA"] = 38090.217340477,
+                                            ["ETA"] = 44447.272047141,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
@@ -3466,7 +3447,7 @@ mission =
                                         }, -- end of [7]
                                         [8] =
                                         {
-                                            ["ETA"] = 50409.185990768,
+                                            ["ETA"] = 56766.240697432,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
@@ -4279,51 +4260,6 @@ mission =
                                 ["x"] = 15557.746104235,
                                 ["y"] = 213026.15874795,
                             }, -- end of [18]
-                            [19] =
-                            {
-                                ["dead"] = true,
-                                ["groupId"] = 1336,
-                                ["heading"] = 1.4486232791553,
-                                ["hidden"] = false,
-                                ["name"] = "Static Repair workshop-1",
-                                ["route"] =
-                                {
-                                    ["points"] =
-                                    {
-                                        [1] =
-                                        {
-                                            ["action"] = "",
-                                            ["alt"] = 0,
-                                            ["formation_template"] = "",
-                                            ["name"] = "",
-                                            ["speed"] = 0,
-                                            ["type"] = "",
-                                            ["x"] = 5399.0486279205,
-                                            ["y"] = 461604.88818307,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["units"] =
-                                {
-                                    [1] =
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["heading"] = 1.4486232791553,
-                                        ["name"] = "Static Repair workshop-1",
-                                        ["rate"] = 100,
-                                        ["shape_name"] = "tech",
-                                        ["tasks"] =
-                                        {
-                                        }, -- end of ["tasks"]
-                                        ["type"] = "Repair workshop",
-                                        ["unitId"] = 2760,
-                                        ["x"] = 5399.0486279205,
-                                        ["y"] = 461604.88818307,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["x"] = 5399.0486279205,
-                                ["y"] = 461604.88818307,
-                            }, -- end of [19]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["vehicle"] =
@@ -17757,10 +17693,11 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "From Parking Area",
-                                            ["airdromeId"] = 1,
                                             ["alt"] = 5,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
+                                            ["helipadId"] = 2239,
+                                            ["linkUnit"] = 2239,
                                             ["speed"] = 138.88888888889,
                                             ["speed_locked"] = true,
                                             ["task"] =
@@ -17920,8 +17857,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 233590.71875,
-                                            ["y"] = 88389.0625,
+                                            ["x"] = 316180.52745649,
+                                            ["y"] = -151612.89567683,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -18106,8 +18043,8 @@ mission =
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "HORNET 1-1",
                                         ["onboard_num"] = "311",
-                                        ["parking"] = 18,
-                                        ["parking_id"] = "M01",
+                                        ["parking"] = "1",
+                                        ["parking_id"] = "1",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -18124,8 +18061,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 857,
-                                        ["x"] = 233590.71875,
-                                        ["y"] = 88389.0625,
+                                        ["x"] = 316180.52745649,
+                                        ["y"] = -151612.89567683,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -18298,8 +18235,8 @@ mission =
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "HORNET 1-2",
                                         ["onboard_num"] = "312",
-                                        ["parking"] = 17,
-                                        ["parking_id"] = "M02",
+                                        ["parking"] = "3",
+                                        ["parking_id"] = "3",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -18316,8 +18253,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 858,
-                                        ["x"] = 233607.953125,
-                                        ["y"] = 88386.484375,
+                                        ["x"] = 316217.68648917,
+                                        ["y"] = -151710.61881124,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -18490,8 +18427,8 @@ mission =
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "HORNET 1-3",
                                         ["onboard_num"] = "313",
-                                        ["parking"] = 16,
-                                        ["parking_id"] = "M03",
+                                        ["parking"] = "2",
+                                        ["parking_id"] = "2",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -18508,8 +18445,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 859,
-                                        ["x"] = 233625.125,
-                                        ["y"] = 88384.1640625,
+                                        ["x"] = 316202.28615458,
+                                        ["y"] = -151614.27797841,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -18682,8 +18619,8 @@ mission =
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "HORNET 1-4",
                                         ["onboard_num"] = "314",
-                                        ["parking"] = 15,
-                                        ["parking_id"] = "M04",
+                                        ["parking"] = "4",
+                                        ["parking_id"] = "4",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -18700,12 +18637,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 860,
-                                        ["x"] = 233642.328125,
-                                        ["y"] = 88381.5546875,
+                                        ["x"] = 316230.22657552,
+                                        ["y"] = -151729.55338497,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = 233590.71875,
-                                ["y"] = 88389.0625,
+                                ["x"] = 316180.52745649,
+                                ["y"] = -151612.89567683,
                             }, -- end of [8]
                             [9] =
                             {
@@ -18726,10 +18663,11 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "From Parking Area",
-                                            ["airdromeId"] = 1,
                                             ["alt"] = 5,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
+                                            ["helipadId"] = 2239,
+                                            ["linkUnit"] = 2239,
                                             ["speed"] = 138.88888888889,
                                             ["speed_locked"] = true,
                                             ["task"] =
@@ -18889,8 +18827,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 233864.84375,
-                                            ["y"] = 88349.859375,
+                                            ["x"] = 316180.52745649,
+                                            ["y"] = -151612.89567683,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -19075,8 +19013,8 @@ mission =
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "SQUID 2-1",
                                         ["onboard_num"] = "321",
-                                        ["parking"] = "2",
-                                        ["parking_id"] = "M17",
+                                        ["parking"] = "1",
+                                        ["parking_id"] = "1",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -19093,8 +19031,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 861,
-                                        ["x"] = 233864.84375,
-                                        ["y"] = 88349.859375,
+                                        ["x"] = 316180.52745649,
+                                        ["y"] = -151612.89567683,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -19268,7 +19206,7 @@ mission =
                                         ["name"] = "SQUID 2-2",
                                         ["onboard_num"] = "322",
                                         ["parking"] = "3",
-                                        ["parking_id"] = "M16",
+                                        ["parking_id"] = "3",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -19285,8 +19223,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 865,
-                                        ["x"] = 233847.78125,
-                                        ["y"] = 88352.3125,
+                                        ["x"] = 316217.68648917,
+                                        ["y"] = -151710.61881124,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -19459,8 +19397,8 @@ mission =
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "SQUID 2-3",
                                         ["onboard_num"] = "323",
-                                        ["parking"] = "4",
-                                        ["parking_id"] = "M15",
+                                        ["parking"] = "2",
+                                        ["parking_id"] = "2",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -19477,8 +19415,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 866,
-                                        ["x"] = 233830.71875,
-                                        ["y"] = 88354.7890625,
+                                        ["x"] = 316202.28615458,
+                                        ["y"] = -151614.27797841,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -19651,8 +19589,8 @@ mission =
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "SQUID 2-4",
                                         ["onboard_num"] = "324",
-                                        ["parking"] = "5",
-                                        ["parking_id"] = "M14",
+                                        ["parking"] = "4",
+                                        ["parking_id"] = "4",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -19669,12 +19607,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 867,
-                                        ["x"] = 233813.59375,
-                                        ["y"] = 88357.0390625,
+                                        ["x"] = 316230.22657552,
+                                        ["y"] = -151729.55338497,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = 233864.84375,
-                                ["y"] = 88349.859375,
+                                ["x"] = 316180.52745649,
+                                ["y"] = -151612.89567683,
                             }, -- end of [9]
                             [10] =
                             {
@@ -19695,10 +19633,11 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "From Parking Area",
-                                            ["airdromeId"] = 1,
                                             ["alt"] = 5,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
+                                            ["helipadId"] = 2239,
+                                            ["linkUnit"] = 2239,
                                             ["speed"] = 138.88888888889,
                                             ["speed_locked"] = true,
                                             ["task"] =
@@ -19858,8 +19797,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 233796.28125,
-                                            ["y"] = 88359.859375,
+                                            ["x"] = 316180.52745649,
+                                            ["y"] = -151612.89567683,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -20044,8 +19983,8 @@ mission =
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "ROMAN 3-1",
                                         ["onboard_num"] = "331",
-                                        ["parking"] = "6",
-                                        ["parking_id"] = "M13",
+                                        ["parking"] = "1",
+                                        ["parking_id"] = "1",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -20062,8 +20001,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 868,
-                                        ["x"] = 233796.28125,
-                                        ["y"] = 88359.859375,
+                                        ["x"] = 316180.52745649,
+                                        ["y"] = -151612.89567683,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -20236,8 +20175,8 @@ mission =
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "ROMAN 3-1-1",
                                         ["onboard_num"] = "332",
-                                        ["parking"] = "7",
-                                        ["parking_id"] = "M12",
+                                        ["parking"] = "3",
+                                        ["parking_id"] = "3",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -20254,8 +20193,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 872,
-                                        ["x"] = 233779.109375,
-                                        ["y"] = 88362.2734375,
+                                        ["x"] = 316217.68648917,
+                                        ["y"] = -151710.61881124,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -20428,8 +20367,8 @@ mission =
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "ROMAN 3-1-2",
                                         ["onboard_num"] = "333",
-                                        ["parking"] = "8",
-                                        ["parking_id"] = "M11",
+                                        ["parking"] = "2",
+                                        ["parking_id"] = "2",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -20446,8 +20385,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 873,
-                                        ["x"] = 233762.171875,
-                                        ["y"] = 88364.609375,
+                                        ["x"] = 316202.28615458,
+                                        ["y"] = -151614.27797841,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -20620,8 +20559,8 @@ mission =
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "ROMAN 3-1-3",
                                         ["onboard_num"] = "334",
-                                        ["parking"] = "9",
-                                        ["parking_id"] = "M10",
+                                        ["parking"] = "4",
+                                        ["parking_id"] = "4",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -20638,12 +20577,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 874,
-                                        ["x"] = 233745.09375,
-                                        ["y"] = 88367.09375,
+                                        ["x"] = 316230.22657552,
+                                        ["y"] = -151729.55338497,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = 233796.28125,
-                                ["y"] = 88359.859375,
+                                ["x"] = 316180.52745649,
+                                ["y"] = -151612.89567683,
                             }, -- end of [10]
                             [11] =
                             {
@@ -20664,10 +20603,11 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "From Parking Area",
-                                            ["airdromeId"] = 1,
                                             ["alt"] = 5,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
+                                            ["helipadId"] = 2239,
+                                            ["linkUnit"] = 2239,
                                             ["speed"] = 138.88888888889,
                                             ["speed_locked"] = true,
                                             ["task"] =
@@ -20827,8 +20767,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 233710.984375,
-                                            ["y"] = 88371.7578125,
+                                            ["x"] = 316180.52745649,
+                                            ["y"] = -151612.89567683,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -21013,8 +20953,8 @@ mission =
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "STING 4-1",
                                         ["onboard_num"] = "341",
-                                        ["parking"] = 11,
-                                        ["parking_id"] = "M08",
+                                        ["parking"] = "1",
+                                        ["parking_id"] = "1",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -21031,8 +20971,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 875,
-                                        ["x"] = 233710.984375,
-                                        ["y"] = 88371.7578125,
+                                        ["x"] = 316180.52745649,
+                                        ["y"] = -151612.89567683,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -21205,8 +21145,8 @@ mission =
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "STING 4-1-1",
                                         ["onboard_num"] = "342",
-                                        ["parking"] = 12,
-                                        ["parking_id"] = "M07",
+                                        ["parking"] = "3",
+                                        ["parking_id"] = "3",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -21223,8 +21163,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 885,
-                                        ["x"] = 233694.109375,
-                                        ["y"] = 88374.1953125,
+                                        ["x"] = 316217.68648917,
+                                        ["y"] = -151710.61881124,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -21397,8 +21337,8 @@ mission =
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "STING 4-1-2",
                                         ["onboard_num"] = "343",
-                                        ["parking"] = "14",
-                                        ["parking_id"] = "M05",
+                                        ["parking"] = "2",
+                                        ["parking_id"] = "2",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -21415,8 +21355,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 886,
-                                        ["x"] = 233660.0625,
-                                        ["y"] = 88379.234375,
+                                        ["x"] = 316202.28615458,
+                                        ["y"] = -151614.27797841,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -21589,8 +21529,8 @@ mission =
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "STING 4-1-3",
                                         ["onboard_num"] = "344",
-                                        ["parking"] = "13",
-                                        ["parking_id"] = "M06",
+                                        ["parking"] = "4",
+                                        ["parking_id"] = "4",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -21607,12 +21547,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 887,
-                                        ["x"] = 233677.1875,
-                                        ["y"] = 88376.5234375,
+                                        ["x"] = 316230.22657552,
+                                        ["y"] = -151729.55338497,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = 233710.984375,
-                                ["y"] = 88371.7578125,
+                                ["x"] = 316180.52745649,
+                                ["y"] = -151612.89567683,
                             }, -- end of [11]
                             [12] =
                             {
@@ -21632,10 +21572,12 @@ mission =
                                         {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
-                                            ["action"] = "From Ground Area",
+                                            ["action"] = "From Parking Area",
                                             ["alt"] = 5,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
+                                            ["helipadId"] = 2239,
+                                            ["linkUnit"] = 2239,
                                             ["speed"] = 138.88888888889,
                                             ["speed_locked"] = true,
                                             ["task"] =
@@ -21794,9 +21736,9 @@ mission =
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
-                                            ["type"] = "TakeOffGround",
-                                            ["x"] = 233751.54683412,
-                                            ["y"] = 88129.542579765,
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = 316180.52745649,
+                                            ["y"] = -151612.89567683,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -21981,6 +21923,8 @@ mission =
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "JURY 5-1",
                                         ["onboard_num"] = "351",
+                                        ["parking"] = "1",
+                                        ["parking_id"] = "1",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -21997,8 +21941,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 891,
-                                        ["x"] = 233751.54683412,
-                                        ["y"] = 88129.542579765,
+                                        ["x"] = 316180.52745649,
+                                        ["y"] = -151612.89567683,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -22171,6 +22115,8 @@ mission =
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "JURY 5-1-1",
                                         ["onboard_num"] = "352",
+                                        ["parking"] = "3",
+                                        ["parking_id"] = "3",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -22187,8 +22133,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 895,
-                                        ["x"] = 233701.7201952,
-                                        ["y"] = 88080.455208483,
+                                        ["x"] = 316217.68648917,
+                                        ["y"] = -151710.61881124,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -22361,6 +22307,8 @@ mission =
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "JURY 5-1-2",
                                         ["onboard_num"] = "353",
+                                        ["parking"] = "2",
+                                        ["parking_id"] = "2",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -22377,8 +22325,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 896,
-                                        ["x"] = 233682.79494362,
-                                        ["y"] = 88111.208742298,
+                                        ["x"] = 316202.28615458,
+                                        ["y"] = -151614.27797841,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -22551,6 +22499,8 @@ mission =
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "JURY 5-1-3",
                                         ["onboard_num"] = "354",
+                                        ["parking"] = "4",
+                                        ["parking_id"] = "4",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -22567,12 +22517,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 897,
-                                        ["x"] = 233662.09544971,
-                                        ["y"] = 88142.701543754,
+                                        ["x"] = 316230.22657552,
+                                        ["y"] = -151729.55338497,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = 233751.54683412,
-                                ["y"] = 88129.542579765,
+                                ["x"] = 316180.52745649,
+                                ["y"] = -151612.89567683,
                             }, -- end of [12]
                             [13] =
                             {
@@ -22593,10 +22543,11 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "From Parking Area",
-                                            ["airdromeId"] = 1,
                                             ["alt"] = 5,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
+                                            ["helipadId"] = 2239,
+                                            ["linkUnit"] = 2239,
                                             ["speed"] = 138.88888888889,
                                             ["speed_locked"] = true,
                                             ["task"] =
@@ -22756,8 +22707,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 233592.84375,
-                                            ["y"] = 88164.0078125,
+                                            ["x"] = 316180.52745649,
+                                            ["y"] = -151612.89567683,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -22934,8 +22885,8 @@ mission =
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "RAM 6-1",
                                         ["onboard_num"] = "361",
-                                        ["parking"] = "26",
-                                        ["parking_id"] = "M19",
+                                        ["parking"] = "1",
+                                        ["parking_id"] = "1",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -22952,8 +22903,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 898,
-                                        ["x"] = 233592.84375,
-                                        ["y"] = 88164.0078125,
+                                        ["x"] = 316180.52745649,
+                                        ["y"] = -151612.89567683,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -23118,8 +23069,8 @@ mission =
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "RAM 6-1-1",
                                         ["onboard_num"] = "362",
-                                        ["parking"] = 27,
-                                        ["parking_id"] = "M18",
+                                        ["parking"] = "3",
+                                        ["parking_id"] = "3",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -23136,12 +23087,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 902,
-                                        ["x"] = 233566.046875,
-                                        ["y"] = 88208.6484375,
+                                        ["x"] = 316217.68648917,
+                                        ["y"] = -151710.61881124,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 233592.84375,
-                                ["y"] = 88164.0078125,
+                                ["x"] = 316180.52745649,
+                                ["y"] = -151612.89567683,
                             }, -- end of [13]
                             [14] =
                             {
@@ -23161,10 +23112,12 @@ mission =
                                         {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
-                                            ["action"] = "From Ground Area",
-                                            ["alt"] = 5,
+                                            ["action"] = "From Parking Area",
+                                            ["alt"] = 3,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
+                                            ["helipadId"] = 2239,
+                                            ["linkUnit"] = 2239,
                                             ["speed"] = 138.88888888889,
                                             ["speed_locked"] = true,
                                             ["task"] =
@@ -23323,9 +23276,9 @@ mission =
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
-                                            ["type"] = "TakeOffGround",
-                                            ["x"] = 233549.79025487,
-                                            ["y"] = 88243.240933627,
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = 316180.52745649,
+                                            ["y"] = -151612.89567683,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -23456,7 +23409,7 @@ mission =
                                                 }, -- end of ["modulations"]
                                             }, -- end of [2]
                                         }, -- end of ["Radio"]
-                                        ["alt"] = 5,
+                                        ["alt"] = 3,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] =
                                         {
@@ -23502,6 +23455,8 @@ mission =
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "SNAKE 7-1",
                                         ["onboard_num"] = "371",
+                                        ["parking"] = "1",
+                                        ["parking_id"] = "1",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -23518,8 +23473,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 905,
-                                        ["x"] = 233549.79025487,
-                                        ["y"] = 88243.240933627,
+                                        ["x"] = 316180.52745649,
+                                        ["y"] = -151612.89567683,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -23639,7 +23594,7 @@ mission =
                                                 }, -- end of ["modulations"]
                                             }, -- end of [2]
                                         }, -- end of ["Radio"]
-                                        ["alt"] = 5,
+                                        ["alt"] = 3,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] =
                                         {
@@ -23684,6 +23639,8 @@ mission =
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "SNAKE 7-1-1",
                                         ["onboard_num"] = "372",
+                                        ["parking"] = "3",
+                                        ["parking_id"] = "3",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -23700,12 +23657,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 909,
-                                        ["x"] = 233541.30318015,
-                                        ["y"] = 88258.717364006,
+                                        ["x"] = 316217.68648917,
+                                        ["y"] = -151710.61881124,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 233549.79025487,
-                                ["y"] = 88243.240933627,
+                                ["x"] = 316180.52745649,
+                                ["y"] = -151612.89567683,
                             }, -- end of [14]
                             [15] =
                             {
@@ -23726,10 +23683,11 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "From Parking Area",
-                                            ["airdromeId"] = 1,
                                             ["alt"] = 5,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
+                                            ["helipadId"] = 2239,
+                                            ["linkUnit"] = 2239,
                                             ["speed"] = 138.88888888889,
                                             ["speed_locked"] = true,
                                             ["task"] =
@@ -23854,8 +23812,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 234552.1875,
-                                            ["y"] = 88664.4375,
+                                            ["x"] = 316180.52745649,
+                                            ["y"] = -151612.89567683,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -24002,8 +23960,8 @@ mission =
                                         ["livery_id"] = "vf-102 diamondbacks",
                                         ["name"] = "SPECTRE 1-1",
                                         ["onboard_num"] = "211",
-                                        ["parking"] = "25",
-                                        ["parking_id"] = "CIV01",
+                                        ["parking"] = "1",
+                                        ["parking_id"] = "1",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -24020,8 +23978,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "F-14B",
                                         ["unitId"] = 888,
-                                        ["x"] = 234552.1875,
-                                        ["y"] = 88664.4375,
+                                        ["x"] = 316180.52745649,
+                                        ["y"] = -151612.89567683,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -24156,8 +24114,8 @@ mission =
                                         ["livery_id"] = "vf-102 diamondbacks",
                                         ["name"] = "SPECTRE 1-2",
                                         ["onboard_num"] = "212",
-                                        ["parking"] = "23",
-                                        ["parking_id"] = "CIV02",
+                                        ["parking"] = "3",
+                                        ["parking_id"] = "3",
                                         ["payload"] =
                                         {
                                             ["chaff"] = 140,
@@ -24173,8 +24131,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "F-14B",
                                         ["unitId"] = 959,
-                                        ["x"] = 234597.75,
-                                        ["y"] = 88657.203125,
+                                        ["x"] = 316217.68648917,
+                                        ["y"] = -151710.61881124,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -24309,8 +24267,8 @@ mission =
                                         ["livery_id"] = "vf-102 diamondbacks",
                                         ["name"] = "SPECTRE 1-3",
                                         ["onboard_num"] = "213",
-                                        ["parking"] = "24",
-                                        ["parking_id"] = "CIV03",
+                                        ["parking"] = "2",
+                                        ["parking_id"] = "2",
                                         ["payload"] =
                                         {
                                             ["chaff"] = 140,
@@ -24326,8 +24284,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "F-14B",
                                         ["unitId"] = 960,
-                                        ["x"] = 234642.9375,
-                                        ["y"] = 88650.8515625,
+                                        ["x"] = 316202.28615458,
+                                        ["y"] = -151614.27797841,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -24462,8 +24420,8 @@ mission =
                                         ["livery_id"] = "vf-102 diamondbacks",
                                         ["name"] = "SPECTRE 1-4",
                                         ["onboard_num"] = "214",
-                                        ["parking"] = "10",
-                                        ["parking_id"] = "M09",
+                                        ["parking"] = "4",
+                                        ["parking_id"] = "4",
                                         ["payload"] =
                                         {
                                             ["chaff"] = 140,
@@ -24479,12 +24437,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "F-14B",
                                         ["unitId"] = 961,
-                                        ["x"] = 233728.203125,
-                                        ["y"] = 88369.3828125,
+                                        ["x"] = 316230.22657552,
+                                        ["y"] = -151729.55338497,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = 234552.1875,
-                                ["y"] = 88664.4375,
+                                ["x"] = 316180.52745649,
+                                ["y"] = -151612.89567683,
                             }, -- end of [15]
                             [16] =
                             {
@@ -29232,11 +29190,13 @@ mission =
                                         {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
-                                            ["action"] = "From Ground Area",
+                                            ["action"] = "From Parking Area",
                                             ["alt"] = 5,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
-                                            ["speed"] = 220.97222222222,
+                                            ["helipadId"] = 2239,
+                                            ["linkUnit"] = 2239,
+                                            ["speed"] = 138.88888888889,
                                             ["speed_locked"] = true,
                                             ["task"] =
                                             {
@@ -29359,9 +29319,9 @@ mission =
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
-                                            ["type"] = "TakeOffGround",
-                                            ["x"] = 233591.07136264,
-                                            ["y"] = 88270.9868538,
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = 316180.52745649,
+                                            ["y"] = -151612.89567683,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -29508,6 +29468,8 @@ mission =
                                         ["livery_id"] = "108th - High-Vis",
                                         ["name"] = "GHOST 2-1",
                                         ["onboard_num"] = "221",
+                                        ["parking"] = "1",
+                                        ["parking_id"] = "1",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -29521,11 +29483,11 @@ mission =
                                         }, -- end of ["payload"]
                                         ["psi"] = -3.6651914291881,
                                         ["skill"] = "Client",
-                                        ["speed"] = 220.97222222222,
+                                        ["speed"] = 138.88888888889,
                                         ["type"] = "F-14B",
                                         ["unitId"] = 962,
-                                        ["x"] = 233591.07136264,
-                                        ["y"] = 88270.9868538,
+                                        ["x"] = 316180.52745649,
+                                        ["y"] = -151612.89567683,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -29661,6 +29623,8 @@ mission =
                                         ["livery_id"] = "vf-102 diamondbacks",
                                         ["name"] = "GHOST 2-2",
                                         ["onboard_num"] = "020",
+                                        ["parking"] = "3",
+                                        ["parking_id"] = "3",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -29674,11 +29638,11 @@ mission =
                                         }, -- end of ["payload"]
                                         ["psi"] = -3.6651914291881,
                                         ["skill"] = "Client",
-                                        ["speed"] = 220.97222222222,
+                                        ["speed"] = 138.88888888889,
                                         ["type"] = "F-14B",
                                         ["unitId"] = 963,
-                                        ["x"] = 233607.24737298,
-                                        ["y"] = 88248.248247425,
+                                        ["x"] = 316217.68648917,
+                                        ["y"] = -151710.61881124,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -29814,6 +29778,8 @@ mission =
                                         ["livery_id"] = "vf-102 diamondbacks",
                                         ["name"] = "GHOST 2-3",
                                         ["onboard_num"] = "021",
+                                        ["parking"] = "2",
+                                        ["parking_id"] = "2",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -29827,11 +29793,11 @@ mission =
                                         }, -- end of ["payload"]
                                         ["psi"] = -3.6651914291881,
                                         ["skill"] = "Client",
-                                        ["speed"] = 220.97222222222,
+                                        ["speed"] = 138.88888888889,
                                         ["type"] = "F-14B",
                                         ["unitId"] = 964,
-                                        ["x"] = 233622.41028359,
-                                        ["y"] = 88222.207142047,
+                                        ["x"] = 316202.28615458,
+                                        ["y"] = -151614.27797841,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -29967,6 +29933,8 @@ mission =
                                         ["livery_id"] = "vf-102 diamondbacks",
                                         ["name"] = "GHOST 2-4",
                                         ["onboard_num"] = "022",
+                                        ["parking"] = "4",
+                                        ["parking_id"] = "4",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 1,
@@ -29980,15 +29948,15 @@ mission =
                                         }, -- end of ["payload"]
                                         ["psi"] = -3.6651914291881,
                                         ["skill"] = "Client",
-                                        ["speed"] = 220.97222222222,
+                                        ["speed"] = 138.88888888889,
                                         ["type"] = "F-14B",
                                         ["unitId"] = 965,
-                                        ["x"] = 233634.26457109,
-                                        ["y"] = 88193.59334465,
+                                        ["x"] = 316230.22657552,
+                                        ["y"] = -151729.55338497,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = 233591.07136264,
-                                ["y"] = 88270.9868538,
+                                ["x"] = 316180.52745649,
+                                ["y"] = -151612.89567683,
                             }, -- end of [20]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
@@ -30992,6 +30960,9 @@ mission =
                                         ["heading"] = 0.47123889803847,
                                         ["name"] = "Static MBT M1A2 Abrams-9-1",
                                         ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
                                         ["type"] = "M-1 Abrams",
                                         ["unitId"] = 2102,
                                         ["x"] = 61436.708477953,
@@ -38824,6 +38795,9 @@ mission =
                                         ["heading"] = 0,
                                         ["name"] = "Static SAM SA-15 Tor \"Gauntlet\"-1",
                                         ["rate"] = 25,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
                                         ["type"] = "Tor 9A331",
                                         ["unitId"] = 2241,
                                         ["x"] = 190320.88471732,
@@ -39606,8 +39580,8 @@ mission =
                                             ["name"] = "",
                                             ["speed"] = 0,
                                             ["type"] = "",
-                                            ["x"] = 163750.50811685,
-                                            ["y"] = 430522.54088138,
+                                            ["x"] = 163734.19961155,
+                                            ["y"] = 430514.30562994,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -39625,12 +39599,12 @@ mission =
                                         }, -- end of ["tasks"]
                                         ["type"] = "Su-34",
                                         ["unitId"] = 2684,
-                                        ["x"] = 163750.50811685,
-                                        ["y"] = 430522.54088138,
+                                        ["x"] = 163734.19961155,
+                                        ["y"] = 430514.30562994,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 163750.50811685,
-                                ["y"] = 430522.54088138,
+                                ["x"] = 163734.19961155,
+                                ["y"] = 430514.30562994,
                             }, -- end of [18]
                             [19] =
                             {
@@ -43591,7 +43565,9 @@ mission =
                             [24] =
                             {
                                 ["groupId"] = 1179,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "BDA SRNTGT Voidaguba radio mast",
                                 ["route"] =
                                 {
@@ -43666,9 +43642,11 @@ mission =
                             }, -- end of [24]
                             [25] =
                             {
-                                ["groupId"] = 1332,
-                                ["hidden"] = false,
-                                ["name"] = "Ground-1",
+                                ["groupId"] = 1337,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "SRNTGT061 - Notian Army 2nd Corps HQ_BDA_veichle",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -43678,7 +43656,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 155,
+                                            ["alt"] = 89,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -43694,8 +43672,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 5521.977818766,
-                                            ["y"] = 461722.14604954,
+                                            ["x"] = 190402.56800183,
+                                            ["y"] = 323223.28595876,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -43714,148 +43692,56 @@ mission =
                                     [1] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 0,
-                                        ["name"] = "Ground-1-1",
-                                        ["playerCanDrive"] = false,
-                                        ["skill"] = "Average",
+                                        ["heading"] = 4.5326200674293,
+                                        ["name"] = "SRNTGT061 - Notian Army 2nd Corps HQ_BDA_veichle-3",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "High",
                                         ["type"] = "BTR-80",
-                                        ["unitId"] = 2756,
-                                        ["x"] = 5521.977818766,
-                                        ["y"] = 461722.14604954,
+                                        ["unitId"] = 2764,
+                                        ["x"] = 190402.56800183,
+                                        ["y"] = 323223.28595876,
                                     }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 3.8990655489553,
+                                        ["name"] = "SRNTGT061 - Notian Army 2nd Corps HQ_BDA_veichle-2",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "High",
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 2763,
+                                        ["x"] = 190353.25556015,
+                                        ["y"] = 323245.28525925,
+                                    }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 1.2130038301361,
+                                        ["name"] = "SRNTGT061 - Notian Army 2nd Corps HQ_BDA_veichle-1",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "High",
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 2762,
+                                        ["x"] = 190396.2976698,
+                                        ["y"] = 323258.35730737,
+                                    }, -- end of [3]
+                                    [4] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 2.0001473227855,
+                                        ["name"] = "SRNTGT061 - Notian Army 2nd Corps HQ_BDA_veichle-4",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "High",
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 2761,
+                                        ["x"] = 190363.98951836,
+                                        ["y"] = 323274.40510628,
+                                    }, -- end of [4]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 5521.977818766,
-                                ["y"] = 461722.14604954,
+                                ["x"] = 190402.56800183,
+                                ["y"] = 323223.28595876,
                             }, -- end of [25]
-                            [26] =
-                            {
-                                ["groupId"] = 1333,
-                                ["hidden"] = false,
-                                ["name"] = "Ground-2",
-                                ["route"] =
-                                {
-                                    ["points"] =
-                                    {
-                                        [1] =
-                                        {
-                                            ["ETA"] = 0,
-                                            ["ETA_locked"] = true,
-                                            ["action"] = "Off Road",
-                                            ["alt"] = 153,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["speed"] = 0,
-                                            ["speed_locked"] = true,
-                                            ["task"] =
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] =
-                                                {
-                                                    ["tasks"] =
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["x"] = 5274.8368110122,
-                                            ["y"] = 461319.03160578,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                    ["spans"] =
-                                    {
-                                    }, -- end of ["spans"]
-                                }, -- end of ["route"]
-                                ["start_time"] = 0,
-                                ["task"] = "Ground Nothing",
-                                ["taskSelected"] = true,
-                                ["tasks"] =
-                                {
-                                }, -- end of ["tasks"]
-                                ["uncontrollable"] = false,
-                                ["units"] =
-                                {
-                                    [1] =
-                                    {
-                                        ["coldAtStart"] = false,
-                                        ["heading"] = 0,
-                                        ["name"] = "Ground-2-1",
-                                        ["playerCanDrive"] = false,
-                                        ["skill"] = "Average",
-                                        ["type"] = "BTR-80",
-                                        ["unitId"] = 2757,
-                                        ["x"] = 5274.8368110122,
-                                        ["y"] = 461319.03160578,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["visible"] = false,
-                                ["x"] = 5274.8368110122,
-                                ["y"] = 461319.03160578,
-                            }, -- end of [26]
-                            [27] =
-                            {
-                                ["groupId"] = 1335,
-                                ["hidden"] = false,
-                                ["name"] = "Ground-3",
-                                ["route"] =
-                                {
-                                    ["points"] =
-                                    {
-                                        [1] =
-                                        {
-                                            ["ETA"] = 0,
-                                            ["ETA_locked"] = true,
-                                            ["action"] = "Off Road",
-                                            ["alt"] = 148,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["speed"] = 0,
-                                            ["speed_locked"] = true,
-                                            ["task"] =
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] =
-                                                {
-                                                    ["tasks"] =
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["x"] = 6198.3872265291,
-                                            ["y"] = 461382.85850641,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                    ["spans"] =
-                                    {
-                                    }, -- end of ["spans"]
-                                }, -- end of ["route"]
-                                ["start_time"] = 0,
-                                ["task"] = "Ground Nothing",
-                                ["taskSelected"] = true,
-                                ["tasks"] =
-                                {
-                                }, -- end of ["tasks"]
-                                ["uncontrollable"] = false,
-                                ["units"] =
-                                {
-                                    [1] =
-                                    {
-                                        ["coldAtStart"] = false,
-                                        ["heading"] = 0,
-                                        ["name"] = "Ground-3-1",
-                                        ["playerCanDrive"] = false,
-                                        ["skill"] = "Average",
-                                        ["type"] = "BTR-80",
-                                        ["unitId"] = 2759,
-                                        ["x"] = 6198.3872265291,
-                                        ["y"] = 461382.85850641,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["visible"] = false,
-                                ["x"] = 6198.3872265291,
-                                ["y"] = 461382.85850641,
-                            }, -- end of [27]
                         }, -- end of ["group"]
                     }, -- end of ["vehicle"]
                 }, -- end of [1]
@@ -54552,6 +54438,222 @@ mission =
                                             ["x"] = 68943.2421875,
                                             ["y"] = 451707.9375,
                                         }, -- end of [1]
+                                        [2] =
+                                        {
+                                            ["ETA"] = 527.38010083495,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 4572,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 189.67893036181,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 145044.78120175,
+                                            ["y"] = 516632.01258571,
+                                        }, -- end of [2]
+                                        [3] =
+                                        {
+                                            ["ETA"] = 1020.6041957053,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 189.67893036181,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 226870.45694914,
+                                            ["y"] = 471278.39494363,
+                                        }, -- end of [3]
+                                        [4] =
+                                        {
+                                            ["ETA"] = 1721.1320882568,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 189.67893036181,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 356222.56607959,
+                                            ["y"] = 440882.6907764,
+                                        }, -- end of [4]
+                                        [5] =
+                                        {
+                                            ["ETA"] = 2822.6198323051,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 189.67893036181,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 443107.58428918,
+                                            ["y"] = 250876.56509583,
+                                        }, -- end of [5]
+                                        [6] =
+                                        {
+                                            ["ETA"] = 2877.6099739336,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 189.67893036181,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 433453.693377,
+                                            ["y"] = 246927.2460863,
+                                        }, -- end of [6]
+                                        [7] =
+                                        {
+                                            ["ETA"] = 3966.6541386471,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 189.67893036181,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 347446.30161397,
+                                            ["y"] = 434739.30565047,
+                                        }, -- end of [7]
+                                        [8] =
+                                        {
+                                            ["ETA"] = 4630.6904890909,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 189.67893036181,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 226894.48570096,
+                                            ["y"] = 471230.33743999,
+                                        }, -- end of [8]
+                                        [9] =
+                                        {
+                                            ["ETA"] = 5124.6364066862,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 4572,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 189.67893036181,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 144938.9102095,
+                                            ["y"] = 516632.01258571,
+                                        }, -- end of [9]
+                                        [10] =
+                                        {
+                                            ["ETA"] = 5846.0496631482,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 2000,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 68386.710938,
+                                            ["y"] = 451986.390625,
+                                        }, -- end of [10]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
@@ -54559,8 +54661,25 @@ mission =
                                 ["taskSelected"] = true,
                                 ["tasks"] =
                                 {
+                                    [1] =
+                                    {
+                                        ["auto"] = false,
+                                        ["enabled"] = true,
+                                        ["id"] = "WrappedAction",
+                                        ["number"] = 1,
+                                        ["params"] =
+                                        {
+                                            ["action"] =
+                                            {
+                                                ["id"] = "Start",
+                                                ["params"] =
+                                                {
+                                                }, -- end of ["params"]
+                                            }, -- end of ["action"]
+                                        }, -- end of ["params"]
+                                    }, -- end of [1]
                                 }, -- end of ["tasks"]
-                                ["uncontrolled"] = true,
+                                ["uncontrolled"] = false,
                                 ["units"] =
                                 {
                                     [1] =
@@ -54593,7 +54712,7 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0,
+                                        ["psi"] = -0.70630510919339,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "H-6J",
@@ -63341,7 +63460,9 @@ mission =
                                 ["dynSpawnTemplate"] = false,
                                 ["frequency"] = 251,
                                 ["groupId"] = 1285,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["modulation"] = 0,
                                 ["name"] = "AA_801_IL76transport_Murmansk_1",
                                 ["radioSet"] = false,
@@ -63401,7 +63522,7 @@ mission =
                                 ["tasks"] =
                                 {
                                 }, -- end of ["tasks"]
-                                ["uncontrolled"] = false,
+                                ["uncontrolled"] = true,
                                 ["units"] =
                                 {
                                     [1] =
@@ -63510,6 +63631,23 @@ mission =
                                 ["taskSelected"] = true,
                                 ["tasks"] =
                                 {
+                                    [1] =
+                                    {
+                                        ["auto"] = false,
+                                        ["enabled"] = true,
+                                        ["id"] = "WrappedAction",
+                                        ["number"] = 1,
+                                        ["params"] =
+                                        {
+                                            ["action"] =
+                                            {
+                                                ["id"] = "Start",
+                                                ["params"] =
+                                                {
+                                                }, -- end of ["params"]
+                                            }, -- end of ["action"]
+                                        }, -- end of ["params"]
+                                    }, -- end of [1]
                                 }, -- end of ["tasks"]
                                 ["uncontrolled"] = true,
                                 ["units"] =
@@ -64105,8 +64243,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["name"] = 1,
-                                                                        ["value"] = 1,
+                                                                        ["name"] = 17,
+                                                                        ["value"] = true,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -64124,8 +64262,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["name"] = 3,
-                                                                        ["value"] = 1,
+                                                                        ["name"] = 18,
+                                                                        ["value"] = 4,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -64143,10 +64281,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
-                                                                        ["name"] = 5,
-                                                                        ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
+                                                                        ["name"] = 19,
+                                                                        ["value"] = true,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -64157,25 +64293,6 @@ mission =
                                                             ["enabled"] = true,
                                                             ["id"] = "WrappedAction",
                                                             ["number"] = 4,
-                                                            ["params"] =
-                                                            {
-                                                                ["action"] =
-                                                                {
-                                                                    ["id"] = "Option",
-                                                                    ["params"] =
-                                                                    {
-                                                                        ["name"] = 15,
-                                                                        ["value"] = true,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [4]
-                                                        [5] =
-                                                        {
-                                                            ["auto"] = true,
-                                                            ["enabled"] = true,
-                                                            ["id"] = "WrappedAction",
-                                                            ["number"] = 5,
                                                             ["params"] =
                                                             {
                                                                 ["action"] =
@@ -64223,13 +64340,13 @@ mission =
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
-                                                        }, -- end of [5]
-                                                        [6] =
+                                                        }, -- end of [4]
+                                                        [5] =
                                                         {
                                                             ["auto"] = true,
                                                             ["enabled"] = true,
                                                             ["id"] = "WrappedAction",
-                                                            ["number"] = 6,
+                                                            ["number"] = 5,
                                                             ["params"] =
                                                             {
                                                                 ["action"] =
@@ -64242,7 +64359,7 @@ mission =
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
-                                                        }, -- end of [6]
+                                                        }, -- end of [5]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -64253,7 +64370,7 @@ mission =
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
-                                ["task"] = "Ground Attack",
+                                ["task"] = "Escort",
                                 ["taskSelected"] = true,
                                 ["tasks"] =
                                 {
@@ -64479,8 +64596,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 260803.68802527,
-                                            ["y"] = 451797.39672428,
+                                            ["x"] = 269043.19922387,
+                                            ["y"] = 458858.97480053,
                                         }, -- end of [1]
                                         [2] =
                                         {
@@ -64537,43 +64654,43 @@ mission =
                                     [1] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.23081295920725,
+                                        ["heading"] = 0.16079161808065,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_10th_Pyotr_veliky",
                                         ["skill"] = "Average",
                                         ["type"] = "PIOTR",
                                         ["unitId"] = 284,
-                                        ["x"] = 260803.68802527,
-                                        ["y"] = 451797.39672428,
+                                        ["x"] = 269043.19922387,
+                                        ["y"] = 458858.97480053,
                                     }, -- end of [1]
                                     [2] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.23081295920725,
+                                        ["heading"] = 0.16079161808065,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 211_Rezky6_SAG_Pyotr_veliky",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 283,
-                                        ["x"] = 264891.03334617,
-                                        ["y"] = 452830.72168208,
+                                        ["x"] = 273130.54454476,
+                                        ["y"] = 459892.29975833,
                                     }, -- end of [2]
                                     [3] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.23081295920725,
+                                        ["heading"] = 0.16079161808065,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 211_Rezky5_SAG_Pyotr_veliky",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 282,
-                                        ["x"] = 256973.82742372,
-                                        ["y"] = 450605.62459276,
+                                        ["x"] = 265213.33862232,
+                                        ["y"] = 457667.20266901,
                                     }, -- end of [3]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 260803.68802527,
-                                ["y"] = 451797.39672428,
+                                ["x"] = 269043.19922387,
+                                ["y"] = 458858.97480053,
                             }, -- end of [1]
                             [2] =
                             {
@@ -64607,8 +64724,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 231969.01195306,
-                                            ["y"] = 446908.54020771,
+                                            ["x"] = 242352.59421209,
+                                            ["y"] = 457405.54210566,
                                         }, -- end of [1]
                                         [2] =
                                         {
@@ -64646,79 +64763,79 @@ mission =
                                     [1] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.4791192121637,
+                                        ["heading"] = 0.4340189368655,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_CV_RUS_CSG_CV",
                                         ["skill"] = "Average",
                                         ["type"] = "CV_1143_5",
                                         ["unitId"] = 2359,
-                                        ["x"] = 231969.01195306,
-                                        ["y"] = 446908.54020771,
+                                        ["x"] = 242352.59421209,
+                                        ["y"] = 457405.54210566,
                                     }, -- end of [1]
                                     [2] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.4791192121637,
+                                        ["heading"] = 0.4340189368655,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 211_Rezky2_CSG_Rezky",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 2358,
-                                        ["x"] = 227349.09717572,
-                                        ["y"] = 447225.47698906,
+                                        ["x"] = 237732.67943475,
+                                        ["y"] = 457722.47888701,
                                     }, -- end of [2]
                                     [3] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.4791192121637,
+                                        ["heading"] = 0.4340189368655,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 211_Rezky4_CSG",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 2357,
-                                        ["x"] = 239354.27216925,
-                                        ["y"] = 444793.39412399,
+                                        ["x"] = 249737.85442828,
+                                        ["y"] = 455290.39602194,
                                     }, -- end of [3]
                                     [4] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.4791192121637,
+                                        ["heading"] = 0.4340189368655,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 211_Rezky3_CSG_Rezky",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 2356,
-                                        ["x"] = 234800.58510274,
-                                        ["y"] = 454366.48625245,
+                                        ["x"] = 245184.16736177,
+                                        ["y"] = 464863.4881504,
                                     }, -- end of [4]
                                     [5] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.4791192121637,
+                                        ["heading"] = 0.4340189368655,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_10th_Moskva_1",
                                         ["skill"] = "Average",
                                         ["type"] = "MOSCOW",
                                         ["unitId"] = 2355,
-                                        ["x"] = 232799.24052579,
-                                        ["y"] = 445132.77353827,
+                                        ["x"] = 243182.82278482,
+                                        ["y"] = 455629.77543622,
                                     }, -- end of [5]
                                     [6] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.4791192121637,
+                                        ["heading"] = 0.4340189368655,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 211_Rezky1_CSG_Rezky",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 2354,
-                                        ["x"] = 229367.20848929,
-                                        ["y"] = 441222.8894923,
+                                        ["x"] = 239750.79074832,
+                                        ["y"] = 451719.89139025,
                                     }, -- end of [6]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 231969.01195306,
-                                ["y"] = 446908.54020771,
+                                ["x"] = 242352.59421209,
+                                ["y"] = 457405.54210566,
                             }, -- end of [2]
                             [3] =
                             {
@@ -64752,12 +64869,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 235081.14855211,
-                                            ["y"] = 425160.06239642,
+                                            ["x"] = 243262.76941923,
+                                            ["y"] = 425393.59444031,
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 8509.7138703104,
+                                            ["ETA"] = 7950.1501218534,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
@@ -64776,12 +64893,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 257243.51450329,
-                                            ["y"] = 411114.52554455,
+                                            ["x"] = 264413.57499909,
+                                            ["y"] = 416034.95072136,
                                         }, -- end of [2]
                                         [3] =
                                         {
-                                            ["ETA"] = 33067.392158064,
+                                            ["ETA"] = 29502.687100803,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
@@ -64800,8 +64917,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 301857.96219415,
-                                            ["y"] = 349934.50464586,
+                                            ["x"] = 312502.06777388,
+                                            ["y"] = 370170.09253383,
                                         }, -- end of [3]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -64815,79 +64932,79 @@ mission =
                                     [1] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.7183141623489,
+                                        ["heading"] = 5.8666090986811,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_10th_Moskva_2",
                                         ["skill"] = "Average",
                                         ["type"] = "MOSCOW",
                                         ["unitId"] = 2365,
-                                        ["x"] = 235081.14855211,
-                                        ["y"] = 425160.06239642,
+                                        ["x"] = 243262.76941923,
+                                        ["y"] = 425393.59444031,
                                     }, -- end of [1]
                                     [2] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.7183141623489,
+                                        ["heading"] = 5.8666090986811,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 30th_Ropucha2_ATG",
                                         ["skill"] = "Average",
                                         ["type"] = "BDK-775",
                                         ["unitId"] = 2364,
-                                        ["x"] = 234601.24941048,
-                                        ["y"] = 424015.44517702,
+                                        ["x"] = 242782.8702776,
+                                        ["y"] = 424248.97722091,
                                     }, -- end of [2]
                                     [3] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.7183141623489,
+                                        ["heading"] = 5.8666090986811,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 30th_Ropucha1_ATG",
                                         ["skill"] = "Average",
                                         ["type"] = "BDK-775",
                                         ["unitId"] = 2363,
-                                        ["x"] = 235622.16577429,
-                                        ["y"] = 426426.28381927,
+                                        ["x"] = 243803.78664141,
+                                        ["y"] = 426659.81586316,
                                     }, -- end of [3]
                                     [4] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.7183141623489,
+                                        ["heading"] = 5.8666090986811,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 30th_Ropucha3_ATG_Ropucha",
                                         ["skill"] = "Average",
                                         ["type"] = "BDK-775",
                                         ["unitId"] = 2362,
-                                        ["x"] = 236003.47188608,
-                                        ["y"] = 424728.85661197,
+                                        ["x"] = 244185.0927532,
+                                        ["y"] = 424962.38865586,
                                     }, -- end of [4]
                                     [5] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.7183141623489,
+                                        ["heading"] = 5.8666090986811,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 212_Neustrashimy1_ATG1",
                                         ["skill"] = "Average",
                                         ["type"] = "NEUSTRASH",
                                         ["unitId"] = 2361,
-                                        ["x"] = 239132.87923095,
-                                        ["y"] = 416925.68410399,
+                                        ["x"] = 247314.50009807,
+                                        ["y"] = 417159.21614788,
                                     }, -- end of [5]
                                     [6] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.7183141623489,
+                                        ["heading"] = 5.8666090986811,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 212_Neustrashimy2_ATG",
                                         ["skill"] = "Average",
                                         ["type"] = "NEUSTRASH",
                                         ["unitId"] = 2360,
-                                        ["x"] = 243381.39079494,
-                                        ["y"] = 426276.38053961,
+                                        ["x"] = 251563.01166206,
+                                        ["y"] = 426509.9125835,
                                     }, -- end of [6]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 235081.14855211,
-                                ["y"] = 425160.06239642,
+                                ["x"] = 243262.76941923,
+                                ["y"] = 425393.59444031,
                             }, -- end of [3]
                         }, -- end of ["group"]
                     }, -- end of ["ship"]
@@ -76585,6 +76702,9 @@ mission =
                                         ["heading"] = 3.4906585039887,
                                         ["name"] = "Static IFV BMP-3-26-1",
                                         ["rate"] = 15,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
                                         ["type"] = "BMP-3",
                                         ["unitId"] = 1583,
                                         ["x"] = 70718.996660692,
@@ -88100,6 +88220,9 @@ mission =
                                         ["name"] = "1C_FARP-1",
                                         ["rate"] = 100,
                                         ["shape_name"] = "invisiblefarp",
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
                                         ["type"] = "Invisible FARP",
                                         ["unitId"] = 2109,
                                         ["x"] = 89397.111463496,
@@ -94008,402 +94131,6 @@ mission =
                                 ["x"] = 170019.28646487,
                                 ["y"] = 429964.69789517,
                             }, -- end of [663]
-                            [664] =
-                            {
-                                ["dead"] = false,
-                                ["groupId"] = 1323,
-                                ["heading"] = 0.10783456660449,
-                                ["name"] = "Static Container 20ft-1",
-                                ["route"] =
-                                {
-                                    ["points"] =
-                                    {
-                                        [1] =
-                                        {
-                                            ["action"] = "",
-                                            ["alt"] = 0,
-                                            ["formation_template"] = "",
-                                            ["name"] = "",
-                                            ["speed"] = 0,
-                                            ["type"] = "",
-                                            ["x"] = 170043.30942711,
-                                            ["y"] = 429988.28279526,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["units"] =
-                                {
-                                    [1] =
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["heading"] = 0.10783456660449,
-                                        ["name"] = "Static Container 20ft-1-1",
-                                        ["rate"] = 1,
-                                        ["shape_name"] = "container_20ft",
-                                        ["tasks"] =
-                                        {
-                                        }, -- end of ["tasks"]
-                                        ["type"] = "container_20ft",
-                                        ["unitId"] = 2747,
-                                        ["x"] = 170043.30942711,
-                                        ["y"] = 429988.28279526,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["x"] = 170043.30942711,
-                                ["y"] = 429988.28279526,
-                            }, -- end of [664]
-                            [665] =
-                            {
-                                ["dead"] = false,
-                                ["groupId"] = 1324,
-                                ["heading"] = 0.41887902047864,
-                                ["name"] = "Static M92 Cargo 02-1",
-                                ["route"] =
-                                {
-                                    ["points"] =
-                                    {
-                                        [1] =
-                                        {
-                                            ["action"] = "",
-                                            ["alt"] = 0,
-                                            ["formation_template"] = "",
-                                            ["name"] = "",
-                                            ["speed"] = 0,
-                                            ["type"] = "",
-                                            ["x"] = 170040.51537298,
-                                            ["y"] = 429970.75990298,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["units"] =
-                                {
-                                    [1] =
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["heading"] = 0.41887902047864,
-                                        ["name"] = "Static M92 Cargo 02-1",
-                                        ["rate"] = 1,
-                                        ["shape_name"] = "M92_Cargo02",
-                                        ["tasks"] =
-                                        {
-                                        }, -- end of ["tasks"]
-                                        ["type"] = "Cargo02",
-                                        ["unitId"] = 2748,
-                                        ["x"] = 170040.51537298,
-                                        ["y"] = 429970.75990298,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["x"] = 170040.51537298,
-                                ["y"] = 429970.75990298,
-                            }, -- end of [665]
-                            [666] =
-                            {
-                                ["dead"] = false,
-                                ["groupId"] = 1325,
-                                ["heading"] = 0.10783456660449,
-                                ["name"] = "Static M92 Cargo 01-2",
-                                ["route"] =
-                                {
-                                    ["points"] =
-                                    {
-                                        [1] =
-                                        {
-                                            ["action"] = "",
-                                            ["alt"] = 0,
-                                            ["formation_template"] = "",
-                                            ["name"] = "",
-                                            ["speed"] = 0,
-                                            ["type"] = "",
-                                            ["x"] = 170038.0234556,
-                                            ["y"] = 429984.75881425,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["units"] =
-                                {
-                                    [1] =
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["heading"] = 0.10783456660449,
-                                        ["name"] = "Static M92 Cargo 01-2-1",
-                                        ["rate"] = 1,
-                                        ["shape_name"] = "M92_Cargo01",
-                                        ["tasks"] =
-                                        {
-                                        }, -- end of ["tasks"]
-                                        ["type"] = "Cargo01",
-                                        ["unitId"] = 2749,
-                                        ["x"] = 170038.0234556,
-                                        ["y"] = 429984.75881425,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["x"] = 170038.0234556,
-                                ["y"] = 429984.75881425,
-                            }, -- end of [666]
-                            [667] =
-                            {
-                                ["dead"] = false,
-                                ["groupId"] = 1326,
-                                ["heading"] = 0.10783456660449,
-                                ["name"] = "Static M92 Cargo 03-1",
-                                ["route"] =
-                                {
-                                    ["points"] =
-                                    {
-                                        [1] =
-                                        {
-                                            ["action"] = "",
-                                            ["alt"] = 0,
-                                            ["formation_template"] = "",
-                                            ["name"] = "",
-                                            ["speed"] = 0,
-                                            ["type"] = "",
-                                            ["x"] = 170123.57296727,
-                                            ["y"] = 430009.46639827,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["units"] =
-                                {
-                                    [1] =
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["heading"] = 0.10783456660449,
-                                        ["name"] = "Static M92 Cargo 03-1",
-                                        ["rate"] = 1,
-                                        ["shape_name"] = "M92_Cargo03",
-                                        ["tasks"] =
-                                        {
-                                        }, -- end of ["tasks"]
-                                        ["type"] = "Cargo03",
-                                        ["unitId"] = 2750,
-                                        ["x"] = 170123.57296727,
-                                        ["y"] = 430009.46639827,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["x"] = 170123.57296727,
-                                ["y"] = 430009.46639827,
-                            }, -- end of [667]
-                            [668] =
-                            {
-                                ["dead"] = false,
-                                ["groupId"] = 1327,
-                                ["heading"] = 0.10783456660449,
-                                ["name"] = "Static M92 Cargo 05-1",
-                                ["route"] =
-                                {
-                                    ["points"] =
-                                    {
-                                        [1] =
-                                        {
-                                            ["action"] = "",
-                                            ["alt"] = 0,
-                                            ["formation_template"] = "",
-                                            ["name"] = "",
-                                            ["speed"] = 0,
-                                            ["type"] = "",
-                                            ["x"] = 170032.29698647,
-                                            ["y"] = 429991.36627864,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["units"] =
-                                {
-                                    [1] =
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["heading"] = 0.10783456660449,
-                                        ["name"] = "Static M92 Cargo 05-1",
-                                        ["rate"] = 1,
-                                        ["shape_name"] = "M92_Cargo05",
-                                        ["tasks"] =
-                                        {
-                                        }, -- end of ["tasks"]
-                                        ["type"] = "Cargo05",
-                                        ["unitId"] = 2751,
-                                        ["x"] = 170032.29698647,
-                                        ["y"] = 429991.36627864,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["x"] = 170032.29698647,
-                                ["y"] = 429991.36627864,
-                            }, -- end of [668]
-                            [669] =
-                            {
-                                ["dead"] = false,
-                                ["groupId"] = 1328,
-                                ["heading"] = 0.10783456660449,
-                                ["name"] = "Static M92 Cargo 04-2",
-                                ["route"] =
-                                {
-                                    ["points"] =
-                                    {
-                                        [1] =
-                                        {
-                                            ["action"] = "",
-                                            ["alt"] = 0,
-                                            ["formation_template"] = "",
-                                            ["name"] = "",
-                                            ["speed"] = 0,
-                                            ["type"] = "",
-                                            ["x"] = 170034.93997223,
-                                            ["y"] = 429985.6398095,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["units"] =
-                                {
-                                    [1] =
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["heading"] = 0.10783456660449,
-                                        ["name"] = "Static M92 Cargo 04-2-1",
-                                        ["rate"] = 1,
-                                        ["shape_name"] = "M92_Cargo04",
-                                        ["tasks"] =
-                                        {
-                                        }, -- end of ["tasks"]
-                                        ["type"] = "Cargo04",
-                                        ["unitId"] = 2752,
-                                        ["x"] = 170034.93997223,
-                                        ["y"] = 429985.6398095,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["x"] = 170034.93997223,
-                                ["y"] = 429985.6398095,
-                            }, -- end of [669]
-                            [670] =
-                            {
-                                ["dead"] = false,
-                                ["groupId"] = 1329,
-                                ["heading"] = 5.8643062867009,
-                                ["name"] = "Static TowerCrane-1",
-                                ["route"] =
-                                {
-                                    ["points"] =
-                                    {
-                                        [1] =
-                                        {
-                                            ["action"] = "",
-                                            ["alt"] = 0,
-                                            ["formation_template"] = "",
-                                            ["name"] = "",
-                                            ["speed"] = 0,
-                                            ["type"] = "",
-                                            ["x"] = 170025.96543708,
-                                            ["y"] = 429981.86297778,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["units"] =
-                                {
-                                    [1] =
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["heading"] = 5.8643062867009,
-                                        ["name"] = "Static TowerCrane-1",
-                                        ["rate"] = 3,
-                                        ["shape_name"] = "TowerCrane_01",
-                                        ["tasks"] =
-                                        {
-                                        }, -- end of ["tasks"]
-                                        ["type"] = "Tower Crane",
-                                        ["unitId"] = 2753,
-                                        ["x"] = 170025.96543708,
-                                        ["y"] = 429981.86297778,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["x"] = 170025.96543708,
-                                ["y"] = 429981.86297778,
-                            }, -- end of [670]
-                            [671] =
-                            {
-                                ["dead"] = false,
-                                ["groupId"] = 1330,
-                                ["heading"] = 0.10783456660449,
-                                ["name"] = "Static M92 Cargo 06-2",
-                                ["route"] =
-                                {
-                                    ["points"] =
-                                    {
-                                        [1] =
-                                        {
-                                            ["action"] = "",
-                                            ["alt"] = 0,
-                                            ["formation_template"] = "",
-                                            ["name"] = "",
-                                            ["speed"] = 0,
-                                            ["type"] = "",
-                                            ["x"] = 170039.34494848,
-                                            ["y"] = 429990.92578101,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["units"] =
-                                {
-                                    [1] =
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["heading"] = 0.10783456660449,
-                                        ["name"] = "Static M92 Cargo 06-2-1",
-                                        ["rate"] = 1,
-                                        ["shape_name"] = "M92_Cargo06",
-                                        ["tasks"] =
-                                        {
-                                        }, -- end of ["tasks"]
-                                        ["type"] = "Cargo06",
-                                        ["unitId"] = 2754,
-                                        ["x"] = 170039.34494848,
-                                        ["y"] = 429990.92578101,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["x"] = 170039.34494848,
-                                ["y"] = 429990.92578101,
-                            }, -- end of [671]
-                            [672] =
-                            {
-                                ["dead"] = false,
-                                ["groupId"] = 1331,
-                                ["heading"] = 5.8643062867009,
-                                ["name"] = "Static TowerCrane-2",
-                                ["route"] =
-                                {
-                                    ["points"] =
-                                    {
-                                        [1] =
-                                        {
-                                            ["action"] = "",
-                                            ["alt"] = 0,
-                                            ["formation_template"] = "",
-                                            ["name"] = "",
-                                            ["speed"] = 0,
-                                            ["type"] = "",
-                                            ["x"] = 170134.3379077,
-                                            ["y"] = 430033.74618946,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["units"] =
-                                {
-                                    [1] =
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["heading"] = 5.8643062867009,
-                                        ["name"] = "Static TowerCrane-2-1",
-                                        ["rate"] = 3,
-                                        ["shape_name"] = "TowerCrane_01",
-                                        ["tasks"] =
-                                        {
-                                        }, -- end of ["tasks"]
-                                        ["type"] = "Tower Crane",
-                                        ["unitId"] = 2755,
-                                        ["x"] = 170134.3379077,
-                                        ["y"] = 430033.74618946,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["x"] = 170134.3379077,
-                                ["y"] = 430033.74618946,
-                            }, -- end of [672]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["vehicle"] =
@@ -95700,8 +95427,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "SA-11 Buk LN 9A310M1",
                                         ["unitId"] = 507,
-                                        ["x"] = -14886.419919294,
-                                        ["y"] = 433851.3748292,
+                                        ["x"] = -14876.494965985,
+                                        ["y"] = 433849.1026654,
                                     }, -- end of [4]
                                     [5] =
                                     {
@@ -106448,7 +106175,7 @@ mission =
                                         ["heading"] = 4.8171087355043,
                                         ["name"] = "SECONDAD_SA15_BN_2-1",
                                         ["playerCanDrive"] = false,
-                                        ["skill"] = "High",
+                                        ["skill"] = "Excellent",
                                         ["type"] = "Tor 9A331",
                                         ["unitId"] = 1831,
                                         ["x"] = 187436.48664819,
@@ -106460,7 +106187,7 @@ mission =
                                         ["heading"] = 6.2482787221397,
                                         ["name"] = "SECONDAD_SA15_BN_2-2",
                                         ["playerCanDrive"] = false,
-                                        ["skill"] = "High",
+                                        ["skill"] = "Excellent",
                                         ["type"] = "Tor 9A331",
                                         ["unitId"] = 1832,
                                         ["x"] = 188532.84849047,
@@ -106472,7 +106199,7 @@ mission =
                                         ["heading"] = 3.4208453339089,
                                         ["name"] = "SECONDAD_SA15_BN_2-3",
                                         ["playerCanDrive"] = false,
-                                        ["skill"] = "High",
+                                        ["skill"] = "Excellent",
                                         ["type"] = "Tor 9A331",
                                         ["unitId"] = 1833,
                                         ["x"] = 186533.87968357,
@@ -106484,7 +106211,7 @@ mission =
                                         ["heading"] = 1.6406094968747,
                                         ["name"] = "SECONDAD_SA15_BN_2-4",
                                         ["playerCanDrive"] = false,
-                                        ["skill"] = "High",
+                                        ["skill"] = "Excellent",
                                         ["type"] = "Tor 9A331",
                                         ["unitId"] = 1834,
                                         ["x"] = 186904.85633086,
@@ -106496,7 +106223,7 @@ mission =
                                         ["heading"] = 1.5707963267949,
                                         ["name"] = "SECONDAD_SA15_BN_2-5",
                                         ["playerCanDrive"] = false,
-                                        ["skill"] = "High",
+                                        ["skill"] = "Excellent",
                                         ["type"] = "GAZ-66",
                                         ["unitId"] = 1835,
                                         ["x"] = 187427.86787247,
@@ -109654,8 +109381,8 @@ mission =
                                         ["skill"] = "Excellent",
                                         ["type"] = "SA-11 Buk LN 9A310M1",
                                         ["unitId"] = 2254,
-                                        ["x"] = 185138.84046055,
-                                        ["y"] = 328568.05320208,
+                                        ["x"] = 185139.05201145,
+                                        ["y"] = 328567.05306255,
                                     }, -- end of [4]
                                     [5] =
                                     {
@@ -109663,7 +109390,7 @@ mission =
                                         ["heading"] = 0,
                                         ["name"] = "SECONDAD_SA11_Battery_2-5",
                                         ["playerCanDrive"] = true,
-                                        ["skill"] = "High",
+                                        ["skill"] = "Excellent",
                                         ["type"] = "GAZ-66",
                                         ["unitId"] = 2255,
                                         ["x"] = 185132.23467121,
@@ -111356,7 +111083,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 2297481,
+    ["currentKey"] = 2370709,
     ["date"] =
     {
         ["Day"] = 24,
@@ -118857,9 +118584,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 5534.2235058506,
-        ["centerY"] = 461769.94382349,
-        ["zoom"] = 1106.6949070305,
+        ["centerX"] = 233834.95494049,
+        ["centerY"] = 339702.6588683,
+        ["zoom"] = 929652.91545613,
     }, -- end of ["map"]
     ["maxDictId"] = 20,
     ["pictureFileNameB"] =
@@ -118945,25 +118672,25 @@ mission =
             [19] = "a_group_off(409);a_group_off(749);a_group_off(761);a_group_off(353);a_group_off(354);a_group_off(359);a_group_off(360);a_group_off(366);a_group_off(373);a_group_off(378);a_group_off(350);a_group_off(358);a_group_off(432);a_group_off(259);a_group_off(258);a_group_off(301);a_group_off(317);a_group_off(365);a_group_off(33);a_group_off(368);a_group_off(369);a_group_off(367); mission.trig.func[19]=nil;",
             [20] = "a_ai_task(403, 1);a_ai_task(542, 1); mission.trig.func[20]=nil;",
             [21] = "a_ai_task(400, 1); mission.trig.func[21]=nil;",
-            [22] = "a_ai_task(952, 1); mission.trig.func[22]=nil;",
-            [23] = "a_group_on(749);a_group_on(1065);a_group_on(761);a_group_on(759);a_group_on(916);a_group_on(760);a_group_on(384); mission.trig.func[23]=nil;",
-            [24] = "a_group_on(763); mission.trig.func[24]=nil;",
-            [25] = "a_group_on(764); mission.trig.func[25]=nil;",
-            [26] = "a_ai_task(135, 1); mission.trig.func[26]=nil;",
-            [27] = "a_remove_scene_objects(5732, 1); mission.trig.func[27]=nil;",
-            [28] = "a_remove_scene_objects(5733, 1); mission.trig.func[28]=nil;",
-            [29] = "a_remove_scene_objects(5794, 1); mission.trig.func[29]=nil;",
-            [30] = "a_group_on(387);a_group_on(390); mission.trig.func[30]=nil;",
-            [31] = "a_group_on(385);a_group_on(967);a_group_on(759);a_group_on(915);a_group_on(1172);a_group_on(384); mission.trig.func[31]=nil;",
-            [32] = "a_set_flag(\"50\");a_group_on(356);a_group_on(362); mission.trig.func[32]=nil;",
-            [33] = "a_activate_group(971); mission.trig.func[33]=nil;",
-            [34] = "a_activate_group(977); mission.trig.func[34]=nil;",
-            [35] = "a_group_on(997); mission.trig.func[35]=nil;",
-            [36] = "a_ai_task(1069, 1);a_ai_task(1070, 1); mission.trig.func[36]=nil;",
-            [37] = "a_ai_task(1146, 1); mission.trig.func[37]=nil;",
-            [38] = "a_ai_task(1180, 1); mission.trig.func[38]=nil;",
-            [39] = "a_group_off(1179); mission.trig.func[39]=nil;",
-            [40] = "a_scenery_destruction_zone(7166, 70);a_scenery_destruction_zone(7234, 70);a_scenery_destruction_zone(7235, 70); mission.trig.func[40]=nil;",
+            [22] = "a_ai_task(1216, 1); mission.trig.func[22]=nil;",
+            [23] = "a_ai_task(952, 1); mission.trig.func[23]=nil;",
+            [24] = "a_group_on(749);a_group_on(1065);a_group_on(761);a_group_on(759);a_group_on(916);a_group_on(760);a_group_on(384); mission.trig.func[24]=nil;",
+            [25] = "a_group_on(763); mission.trig.func[25]=nil;",
+            [26] = "a_group_on(764); mission.trig.func[26]=nil;",
+            [27] = "a_ai_task(135, 1); mission.trig.func[27]=nil;",
+            [28] = "a_remove_scene_objects(5732, 1); mission.trig.func[28]=nil;",
+            [29] = "a_remove_scene_objects(5733, 1); mission.trig.func[29]=nil;",
+            [30] = "a_remove_scene_objects(5794, 1); mission.trig.func[30]=nil;",
+            [31] = "a_group_on(387);a_group_on(390); mission.trig.func[31]=nil;",
+            [32] = "a_group_on(385);a_group_on(967);a_group_on(759);a_group_on(915);a_group_on(1172);a_group_on(384); mission.trig.func[32]=nil;",
+            [33] = "a_set_flag(\"50\");a_group_on(356);a_group_on(362); mission.trig.func[33]=nil;",
+            [34] = "a_activate_group(971); mission.trig.func[34]=nil;",
+            [35] = "a_activate_group(977); mission.trig.func[35]=nil;",
+            [36] = "a_group_on(997); mission.trig.func[36]=nil;",
+            [37] = "a_ai_task(1069, 1);a_ai_task(1070, 1); mission.trig.func[37]=nil;",
+            [38] = "a_ai_task(1146, 1); mission.trig.func[38]=nil;",
+            [39] = "a_ai_task(1180, 1); mission.trig.func[39]=nil;",
+            [40] = "a_group_off(1179);a_group_off(1337); mission.trig.func[40]=nil;",
         }, -- end of ["actions"]
         ["conditions"] =
         {
@@ -118988,25 +118715,25 @@ mission =
             [19] = "return(c_time_after(15) )",
             [20] = "return(c_time_after(3610) )",
             [21] = "return(c_time_after(7000) )",
-            [22] = "return(c_time_after(99997300) )",
-            [23] = "return(c_time_after(3600) )",
-            [24] = "return(c_part_of_coalition_in_zone(\"red\", 5502, \"ALL\") )",
-            [25] = "return(c_part_of_coalition_in_zone(\"red\", 5503, \"ALL\") )",
-            [26] = "return(c_part_of_coalition_in_zone(\"blue\", 5557, \"ALL\") )",
-            [27] = "return(c_time_after(10) )",
+            [22] = "return(c_time_after(7200) )",
+            [23] = "return(c_time_after(99997300) )",
+            [24] = "return(c_time_after(3600) )",
+            [25] = "return(c_part_of_coalition_in_zone(\"red\", 5502, \"ALL\") )",
+            [26] = "return(c_part_of_coalition_in_zone(\"red\", 5503, \"ALL\") )",
+            [27] = "return(c_part_of_coalition_in_zone(\"blue\", 5557, \"ALL\") )",
             [28] = "return(c_time_after(10) )",
             [29] = "return(c_time_after(10) )",
-            [30] = "return(c_group_life_less(356, 95) or c_group_life_less(362, 95) )",
-            [31] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"ALL\") or c_part_of_coalition_in_zone(\"blue\", 6198, \"ALL\") )",
-            [32] = "return(c_part_of_coalition_in_zone(\"blue\", 6198, \"HELICOPTER\") or c_time_after(6800) )",
-            [33] = "return(c_time_after(7000) )",
-            [34] = "return(c_time_after(7500) )",
-            [35] = "return(c_time_after(6300) )",
-            [36] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"HELICOPTER\") )",
-            [37] = "return(c_time_after(7100) )",
-            [38] = "return(c_time_after(7600) )",
-            [39] = "return(c_time_after(10) )",
-            [40] = "return(c_time_after(25) )",
+            [30] = "return(c_time_after(10) )",
+            [31] = "return(c_group_life_less(356, 95) or c_group_life_less(362, 95) )",
+            [32] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"ALL\") or c_part_of_coalition_in_zone(\"blue\", 6198, \"ALL\") )",
+            [33] = "return(c_part_of_coalition_in_zone(\"blue\", 6198, \"HELICOPTER\") or c_time_after(6800) )",
+            [34] = "return(c_time_after(7000) )",
+            [35] = "return(c_time_after(7500) )",
+            [36] = "return(c_time_after(6300) )",
+            [37] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"HELICOPTER\") )",
+            [38] = "return(c_time_after(7100) )",
+            [39] = "return(c_time_after(7600) )",
+            [40] = "return(c_time_after(10) )",
         }, -- end of ["conditions"]
         ["custom"] =
         {
@@ -133889,69 +133616,6 @@ mission =
                 ["y"] = 203099.03722257,
                 ["zoneId"] = 7100,
             }, -- end of [615]
-            [616] =
-            {
-                ["color"] =
-                {
-                    [1] = 1,
-                    [2] = 1,
-                    [3] = 1,
-                    [4] = 0.15,
-                }, -- end of ["color"]
-                ["heading"] = 0,
-                ["hidden"] = false,
-                ["name"] = "@@@TEST1",
-                ["properties"] =
-                {
-                }, -- end of ["properties"]
-                ["radius"] = 91.44,
-                ["type"] = 0,
-                ["x"] = 6070.7388121693,
-                ["y"] = 461339.10111364,
-                ["zoneId"] = 7166,
-            }, -- end of [616]
-            [617] =
-            {
-                ["color"] =
-                {
-                    [1] = 1,
-                    [2] = 1,
-                    [3] = 1,
-                    [4] = 0.15,
-                }, -- end of ["color"]
-                ["heading"] = 0,
-                ["hidden"] = false,
-                ["name"] = "@@@TEST1-3",
-                ["properties"] =
-                {
-                }, -- end of ["properties"]
-                ["radius"] = 91.44,
-                ["type"] = 0,
-                ["x"] = 5436.3722365786,
-                ["y"] = 461595.80400168,
-                ["zoneId"] = 7234,
-            }, -- end of [617]
-            [618] =
-            {
-                ["color"] =
-                {
-                    [1] = 1,
-                    [2] = 1,
-                    [3] = 1,
-                    [4] = 0.15,
-                }, -- end of ["color"]
-                ["heading"] = 0,
-                ["hidden"] = false,
-                ["name"] = "@@@TEST1-1",
-                ["properties"] =
-                {
-                }, -- end of ["properties"]
-                ["radius"] = 91.44,
-                ["type"] = 0,
-                ["x"] = 5347.5012061459,
-                ["y"] = 461193.66919938,
-                ["zoneId"] = 7235,
-            }, -- end of [618]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] =
@@ -135511,6 +135175,36 @@ mission =
                 {
                     ["ai_task"] =
                     {
+                        [1] = 1216,
+                        [2] = 1,
+                    }, -- end of ["ai_task"]
+                    ["predicate"] = "a_ai_task",
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x00ffffff",
+            ["comment"] = "Start H-6 Show of force",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["coalitionlist"] = "red",
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 7200,
+                    ["unitType"] = "ALL",
+                    ["zone"] = 5284,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [22]
+        [23] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["ai_task"] =
+                    {
                         [1] = 952,
                         [2] = 1,
                     }, -- end of ["ai_task"]
@@ -135532,8 +135226,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [22]
-        [23] =
+        }, -- end of [23]
+        [24] =
         {
             ["actions"] =
             {
@@ -135588,8 +135282,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [23]
-        [24] =
+        }, -- end of [24]
+        [25] =
         {
             ["actions"] =
             {
@@ -135613,8 +135307,8 @@ mission =
                     ["zone"] = 5502,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [24]
-        [25] =
+        }, -- end of [25]
+        [26] =
         {
             ["actions"] =
             {
@@ -135638,8 +135332,8 @@ mission =
                     ["zone"] = 5503,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [25]
-        [26] =
+        }, -- end of [26]
+        [27] =
         {
             ["actions"] =
             {
@@ -135667,29 +135361,6 @@ mission =
                     ["zone"] = 5557,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [26]
-        [27] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
-                    ["objects_mask"] = 1,
-                    ["predicate"] = "a_remove_scene_objects",
-                    ["zone"] = 5732,
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["comment"] = "Clear trees_JTAC 1",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["predicate"] = "c_time_after",
-                    ["seconds"] = 10,
-                }, -- end of [1]
-            }, -- end of ["rules"]
         }, -- end of [27]
         [28] =
         {
@@ -135699,7 +135370,7 @@ mission =
                 {
                     ["objects_mask"] = 1,
                     ["predicate"] = "a_remove_scene_objects",
-                    ["zone"] = 5733,
+                    ["zone"] = 5732,
                 }, -- end of [1]
             }, -- end of ["actions"]
             ["comment"] = "Clear trees_JTAC 1",
@@ -135722,7 +135393,7 @@ mission =
                 {
                     ["objects_mask"] = 1,
                     ["predicate"] = "a_remove_scene_objects",
-                    ["zone"] = 5794,
+                    ["zone"] = 5733,
                 }, -- end of [1]
             }, -- end of ["actions"]
             ["comment"] = "Clear trees_JTAC 1",
@@ -135738,6 +135409,29 @@ mission =
             }, -- end of ["rules"]
         }, -- end of [29]
         [30] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["objects_mask"] = 1,
+                    ["predicate"] = "a_remove_scene_objects",
+                    ["zone"] = 5794,
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["comment"] = "Clear trees_JTAC 1",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 10,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [30]
+        [31] =
         {
             ["actions"] =
             {
@@ -135775,8 +135469,8 @@ mission =
                     ["predicate"] = "c_group_life_less",
                 }, -- end of [3]
             }, -- end of ["rules"]
-        }, -- end of [30]
-        [31] =
+        }, -- end of [31]
+        [32] =
         {
             ["actions"] =
             {
@@ -135836,8 +135530,8 @@ mission =
                     ["zone"] = 6198,
                 }, -- end of [3]
             }, -- end of ["rules"]
-        }, -- end of [31]
-        [32] =
+        }, -- end of [32]
+        [33] =
         {
             ["actions"] =
             {
@@ -135880,8 +135574,8 @@ mission =
                     ["seconds"] = 6800,
                 }, -- end of [3]
             }, -- end of ["rules"]
-        }, -- end of [32]
-        [33] =
+        }, -- end of [33]
+        [34] =
         {
             ["actions"] =
             {
@@ -135903,8 +135597,8 @@ mission =
                     ["seconds"] = 7000,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [33]
-        [34] =
+        }, -- end of [34]
+        [35] =
         {
             ["actions"] =
             {
@@ -135926,8 +135620,8 @@ mission =
                     ["seconds"] = 7500,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [34]
-        [35] =
+        }, -- end of [35]
+        [36] =
         {
             ["actions"] =
             {
@@ -135948,8 +135642,8 @@ mission =
                     ["seconds"] = 6300,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [35]
-        [36] =
+        }, -- end of [36]
+        [37] =
         {
             ["actions"] =
             {
@@ -135985,8 +135679,8 @@ mission =
                     ["zone"] = 6076,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [36]
-        [37] =
+        }, -- end of [37]
+        [38] =
         {
             ["actions"] =
             {
@@ -136012,8 +135706,8 @@ mission =
                     ["seconds"] = 7100,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [37]
-        [38] =
+        }, -- end of [38]
+        [39] =
         {
             ["actions"] =
             {
@@ -136039,8 +135733,8 @@ mission =
                     ["seconds"] = 7600,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [38]
-        [39] =
+        }, -- end of [39]
+        [40] =
         {
             ["actions"] =
             {
@@ -136049,6 +135743,11 @@ mission =
                     ["group"] = 1179,
                     ["predicate"] = "a_group_off",
                 }, -- end of [1]
+                [2] =
+                {
+                    ["group"] = 1337,
+                    ["predicate"] = "a_group_off",
+                }, -- end of [2]
             }, -- end of ["actions"]
             ["comment"] = "Turn off BDA veichles",
             ["eventlist"] = "",
@@ -136059,41 +135758,6 @@ mission =
                 {
                     ["predicate"] = "c_time_after",
                     ["seconds"] = 10,
-                }, -- end of [1]
-            }, -- end of ["rules"]
-        }, -- end of [39]
-        [40] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
-                    ["destruction_level"] = 70,
-                    ["predicate"] = "a_scenery_destruction_zone",
-                    ["zone"] = 7166,
-                }, -- end of [1]
-                [2] =
-                {
-                    ["destruction_level"] = 70,
-                    ["predicate"] = "a_scenery_destruction_zone",
-                    ["zone"] = 7234,
-                }, -- end of [2]
-                [3] =
-                {
-                    ["destruction_level"] = 70,
-                    ["predicate"] = "a_scenery_destruction_zone",
-                    ["zone"] = 7235,
-                }, -- end of [3]
-            }, -- end of ["actions"]
-            ["comment"] = "Trigger 1772565613",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["predicate"] = "c_time_after",
-                    ["seconds"] = 25,
                 }, -- end of [1]
             }, -- end of ["rules"]
         }, -- end of [40]

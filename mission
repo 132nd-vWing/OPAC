@@ -38863,7 +38863,7 @@ mission =
                                         ["alt"] = 170,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = 128,
-                                        ["heading"] = 0.26291288462785,
+                                        ["heading"] = 2.7133318352485,
                                         ["livery_id"] = "115 GvIAP_Termez",
                                         ["name"] = "AA_712_MIG29_Sevoromorsk3_2-1",
                                         ["onboard_num"] = "058",
@@ -38943,7 +38943,7 @@ mission =
                                                 }, -- end of [7]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -2.7133318352486,
+                                        ["psi"] = -2.7133318352485,
                                         ["skill"] = "Excellent",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "MiG-29S",
@@ -38956,7 +38956,7 @@ mission =
                                         ["alt"] = 170,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = 128,
-                                        ["heading"] = 0,
+                                        ["heading"] = 2.7133318352485,
                                         ["livery_id"] = "115 GvIAP_Termez",
                                         ["name"] = "AA_712_MIG29_Sevoromorsk3_2-2",
                                         ["onboard_num"] = "059",
@@ -39036,7 +39036,7 @@ mission =
                                                 }, -- end of [7]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -2.7133318352486,
+                                        ["psi"] = -2.7133318352485,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "MiG-29S",
@@ -39049,7 +39049,7 @@ mission =
                                         ["alt"] = 170,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = 128,
-                                        ["heading"] = 0,
+                                        ["heading"] = 2.7133318352485,
                                         ["livery_id"] = "115 GvIAP_Termez",
                                         ["name"] = "AA_712_MIG29_Sevoromorsk3_2-3",
                                         ["onboard_num"] = "060",
@@ -39129,7 +39129,7 @@ mission =
                                                 }, -- end of [7]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -2.7133318352486,
+                                        ["psi"] = -2.7133318352485,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "MiG-29S",
@@ -39142,7 +39142,7 @@ mission =
                                         ["alt"] = 170,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = 128,
-                                        ["heading"] = 0,
+                                        ["heading"] = 2.7133318352485,
                                         ["livery_id"] = "115 GvIAP_Termez",
                                         ["name"] = "AA_712_MIG29_Sevoromorsk3_2-4",
                                         ["onboard_num"] = "061",
@@ -39222,7 +39222,7 @@ mission =
                                                 }, -- end of [7]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -2.7133318352486,
+                                        ["psi"] = -2.7133318352485,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "MiG-29S",
@@ -44151,8 +44151,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 190402.56800183,
-                                            ["y"] = 323223.28595876,
+                                            ["x"] = 190401.08152184,
+                                            ["y"] = 323218.91663423,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -44172,15 +44172,27 @@ mission =
                                     {
                                         ["coldAtStart"] = false,
                                         ["heading"] = 4.5326200674293,
+                                        ["name"] = "SRNTGT061 - Notian Army 2nd Corps HQ_BDA_veichle-5",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "High",
+                                        ["type"] = "BTR-80",
+                                        ["unitId"] = 2766,
+                                        ["x"] = 190401.08152184,
+                                        ["y"] = 323218.91663423,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 0.70511301780571,
                                         ["name"] = "SRNTGT061 - Notian Army 2nd Corps HQ_BDA_veichle-3",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "BTR-80",
                                         ["unitId"] = 2764,
-                                        ["x"] = 190402.56800183,
-                                        ["y"] = 323223.28595876,
-                                    }, -- end of [1]
-                                    [2] =
+                                        ["x"] = 190396.38070252,
+                                        ["y"] = 323260.55246252,
+                                    }, -- end of [2]
+                                    [3] =
                                     {
                                         ["coldAtStart"] = false,
                                         ["heading"] = 3.8990655489553,
@@ -44189,37 +44201,121 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "BTR-80",
                                         ["unitId"] = 2763,
-                                        ["x"] = 190353.25556015,
-                                        ["y"] = 323245.28525925,
-                                    }, -- end of [2]
-                                    [3] =
+                                        ["x"] = 190356.53566254,
+                                        ["y"] = 323244.21151916,
+                                    }, -- end of [3]
+                                    [4] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 1.2130038301361,
+                                        ["heading"] = 2.2567107228287,
                                         ["name"] = "SRNTGT061 - Notian Army 2nd Corps HQ_BDA_veichle-1",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "BTR-80",
                                         ["unitId"] = 2762,
-                                        ["x"] = 190396.2976698,
-                                        ["y"] = 323258.35730737,
-                                    }, -- end of [3]
-                                    [4] =
+                                        ["x"] = 190365.26575557,
+                                        ["y"] = 323275.32646611,
+                                    }, -- end of [4]
+                                    [5] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 2.0001473227855,
+                                        ["heading"] = 4.307472593922,
                                         ["name"] = "SRNTGT061 - Notian Army 2nd Corps HQ_BDA_veichle-4",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
-                                        ["type"] = "BTR-80",
-                                        ["unitId"] = 2761,
-                                        ["x"] = 190363.98951836,
-                                        ["y"] = 323274.40510628,
-                                    }, -- end of [4]
+                                        ["type"] = "CHAP_9K720_HE",
+                                        ["unitId"] = 2769,
+                                        ["x"] = 190360.25362072,
+                                        ["y"] = 323118.36077497,
+                                    }, -- end of [5]
+                                    [6] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.307472593922,
+                                        ["name"] = "SRNTGT061 - Notian Army 2nd Corps HQ_BDA_veichle-6",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "High",
+                                        ["type"] = "CHAP_9K720_HE",
+                                        ["unitId"] = 2775,
+                                        ["x"] = 190349.29680038,
+                                        ["y"] = 323120.6747307,
+                                    }, -- end of [6]
+                                    [7] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.307472593922,
+                                        ["name"] = "SRNTGT061 - Notian Army 2nd Corps HQ_BDA_veichle-7",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "High",
+                                        ["type"] = "CHAP_9K720_HE",
+                                        ["unitId"] = 2777,
+                                        ["x"] = 190329.3766228,
+                                        ["y"] = 323129.5112083,
+                                    }, -- end of [7]
+                                    [8] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.307472593922,
+                                        ["name"] = "SRNTGT061 - Notian Army 2nd Corps HQ_BDA_veichle-8",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "High",
+                                        ["type"] = "CHAP_9K720_HE",
+                                        ["unitId"] = 2778,
+                                        ["x"] = 190339.11709485,
+                                        ["y"] = 323123.94522427,
+                                    }, -- end of [8]
+                                    [9] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.307472593922,
+                                        ["name"] = "SRNTGT061 - Notian Army 2nd Corps HQ_BDA_veichle-9",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "CHAP_TOS1A",
+                                        ["unitId"] = 2779,
+                                        ["x"] = 190289.06452128,
+                                        ["y"] = 323178.66378155,
+                                    }, -- end of [9]
+                                    [10] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.307472593922,
+                                        ["name"] = "SRNTGT061 - Notian Army 2nd Corps HQ_BDA_veichle-10",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "CHAP_TOS1A",
+                                        ["unitId"] = 2780,
+                                        ["x"] = 190278.52704215,
+                                        ["y"] = 323183.35565182,
+                                    }, -- end of [10]
+                                    [11] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.307472593922,
+                                        ["name"] = "SRNTGT061 - Notian Army 2nd Corps HQ_BDA_veichle-11",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "CHAP_TOS1A",
+                                        ["unitId"] = 2781,
+                                        ["x"] = 190257.52899981,
+                                        ["y"] = 323193.2778037,
+                                    }, -- end of [11]
+                                    [12] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.307472593922,
+                                        ["name"] = "SRNTGT061 - Notian Army 2nd Corps HQ_BDA_veichle-12",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "CHAP_TOS1A",
+                                        ["unitId"] = 2782,
+                                        ["x"] = 190267.14348806,
+                                        ["y"] = 323188.89359705,
+                                    }, -- end of [12]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 190402.56800183,
-                                ["y"] = 323223.28595876,
+                                ["x"] = 190401.08152184,
+                                ["y"] = 323218.91663423,
                             }, -- end of [25]
                         }, -- end of ["group"]
                     }, -- end of ["vehicle"]
@@ -65278,7 +65374,7 @@ mission =
                                     [1] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.30428670370826,
+                                        ["heading"] = 0.30428670370823,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_10th_Pyotr_veliky",
                                         ["skill"] = "Average",
@@ -65290,7 +65386,7 @@ mission =
                                     [2] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.30428670370826,
+                                        ["heading"] = 0.30428670370823,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 211_Rezky6_SAG_Pyotr_veliky",
                                         ["skill"] = "Average",
@@ -65302,7 +65398,7 @@ mission =
                                     [3] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.30428670370826,
+                                        ["heading"] = 0.30428670370823,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 211_Rezky5_SAG_Pyotr_veliky",
                                         ["skill"] = "Average",
@@ -65556,7 +65652,7 @@ mission =
                                     [1] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.9490465725059,
+                                        ["heading"] = 5.9490465725062,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_10th_Moskva_2",
                                         ["skill"] = "Average",
@@ -65568,7 +65664,7 @@ mission =
                                     [2] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.9490465725059,
+                                        ["heading"] = 5.9490465725062,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 30th_Ropucha2_ATG",
                                         ["skill"] = "Average",
@@ -65580,7 +65676,7 @@ mission =
                                     [3] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.9490465725059,
+                                        ["heading"] = 5.9490465725062,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 30th_Ropucha1_ATG",
                                         ["skill"] = "Average",
@@ -65592,7 +65688,7 @@ mission =
                                     [4] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.9490465725059,
+                                        ["heading"] = 5.9490465725062,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 30th_Ropucha3_ATG_Ropucha",
                                         ["skill"] = "Average",
@@ -65604,7 +65700,7 @@ mission =
                                     [5] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.9490465725059,
+                                        ["heading"] = 5.9490465725062,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 212_Neustrashimy1_ATG1",
                                         ["skill"] = "Average",
@@ -65616,7 +65712,7 @@ mission =
                                     [6] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.9490465725059,
+                                        ["heading"] = 5.9490465725062,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 212_Neustrashimy2_ATG",
                                         ["skill"] = "Average",
@@ -111710,7 +111806,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 2463322,
+    ["currentKey"] = 2492837,
     ["date"] =
     {
         ["Day"] = 24,
@@ -119211,9 +119307,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 200120.27286862,
-        ["centerY"] = 238703.62661325,
-        ["zoom"] = 1507422.5523945,
+        ["centerX"] = 176328.54470832,
+        ["centerY"] = 323651.17203537,
+        ["zoom"] = 237386.14211892,
     }, -- end of ["map"]
     ["maxDictId"] = 20,
     ["pictureFileNameB"] =
@@ -119272,7 +119368,7 @@ mission =
         ["total"] = 0,
     }, -- end of ["result"]
     ["sortie"] = "DictKey_sortie_5",
-    ["start_time"] = 21600,
+    ["start_time"] = 28800,
     ["theatre"] = "Kola",
     ["trig"] =
     {

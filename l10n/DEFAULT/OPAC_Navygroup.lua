@@ -31,8 +31,8 @@ local carrier_info = { weather = {}, ship = {}, recovery= {}, marshal= { stack =
 
 local carrier_name = "CVN-73"         -- DCS unit name (unit, not group)
 local tanker_name = "CVN73_Tanker#IFF:5327FR" -- DCS tanker unit name
-local rescue_name = "CVN73_Rescue"     -- DCS rescue helo unit name 
-local rescue_airbase = "Plane Guard"    -- DCS escort ship name to land helo.
+local rescue_name = "Plane Guard"     -- DCS rescue helo unit name 
+local rescue_airbase = "CVN73_Rescue"    -- DCS escort ship name to land helo.
 
 local carrier_unit = UNIT:FindByName(carrier_name)  -- find the ME unit
 local carrier_navygroup = NAVYGROUP:New(carrier_name):SetPatrolAdInfinitum():Activate() -- spawn and task the carrier 

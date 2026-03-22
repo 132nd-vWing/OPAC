@@ -13,6 +13,100 @@ mission =
             {
                 [1] =
                 {
+                    ["helicopter"] =
+                    {
+                        ["group"] =
+                        {
+                            [1] =
+                            {
+                                ["communication"] = true,
+                                ["dynSpawnTemplate"] = false,
+                                ["frequency"] = 127.5,
+                                ["groupId"] = 1339,
+                                ["hidden"] = false,
+                                ["lateActivation"] = true,
+                                ["modulation"] = 0,
+                                ["name"] = "Plane Guard",
+                                ["radioSet"] = false,
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 500,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 46.25,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 320902.59180385,
+                                            ["y"] = -114735.7186917,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["routeRelativeTOT"] = true,
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Transport",
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrolled"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["alt"] = 500,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 2,
+                                            [2] = 1,
+                                            [3] = 1,
+                                            ["name"] = "Springfield11",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "standard",
+                                        ["name"] = "Plane Guard",
+                                        ["onboard_num"] = "062",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 30,
+                                            ["flare"] = 30,
+                                            ["fuel"] = "1100",
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["ropeLength"] = 15,
+                                        ["skill"] = "High",
+                                        ["speed"] = 46.25,
+                                        ["type"] = "SH-60B",
+                                        ["unitId"] = 2766,
+                                        ["x"] = 320902.59180385,
+                                        ["y"] = -114735.7186917,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 320902.59180385,
+                                ["y"] = -114735.7186917,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["helicopter"]
                     ["id"] = 2,
                     ["name"] = "USA",
                     ["plane"] =
@@ -935,7 +1029,7 @@ mission =
                                             [4] = "Magic11",
                                             ["name"] = "Magic11",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -0.12435499454676,
+                                        ["heading"] = -0.12435499454672,
                                         ["livery_id"] = "nato",
                                         ["name"] = "#IFF:5611FR",
                                         ["onboard_num"] = "611",
@@ -949,7 +1043,7 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.12435499454676,
+                                        ["psi"] = 0.12435499454672,
                                         ["skill"] = "High",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "E-3A",
@@ -1113,7 +1207,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Overlord11",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -0.02157938356653,
+                                        ["heading"] = -0.021579383566529,
                                         ["livery_id"] = "nato",
                                         ["name"] = "#IFF:5603FR",
                                         ["onboard_num"] = "603",
@@ -1127,7 +1221,7 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.02157938356653,
+                                        ["psi"] = 0.021579383566529,
                                         ["skill"] = "High",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "E-3A",
@@ -3298,8 +3392,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 316197.91761169,
-                                            ["y"] = -151673.03538932,
+                                            ["x"] = 316192.93283496,
+                                            ["y"] = -151664.95122903,
                                         }, -- end of [1]
                                         [2] =
                                         {
@@ -3327,7 +3421,7 @@ mission =
                                         }, -- end of [2]
                                         [3] =
                                         {
-                                            ["ETA"] = 14420.766044691,
+                                            ["ETA"] = 14419.789265102,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
@@ -3484,19 +3578,31 @@ mission =
                                         ["allowAirboss"] = true,
                                         ["allowLso"] = true,
                                         ["frequency"] = 309500000,
-                                        ["heading"] = 1.5603072009997,
+                                        ["heading"] = 1.5602552253602,
                                         ["modulation"] = 1,
                                         ["name"] = "CVN-73",
                                         ["skill"] = "Excellent",
                                         ["type"] = "CVN_73",
                                         ["unitId"] = 2239,
-                                        ["x"] = 316197.91761169,
-                                        ["y"] = -151673.03538932,
+                                        ["x"] = 316192.93283496,
+                                        ["y"] = -151664.95122903,
                                     }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["frequency"] = 127500000,
+                                        ["heading"] = 1.5602552253602,
+                                        ["modulation"] = 0,
+                                        ["name"] = "CVN73_Rescue",
+                                        ["skill"] = "Excellent",
+                                        ["type"] = "USS_Arleigh_Burke_IIa",
+                                        ["unitId"] = 2769,
+                                        ["x"] = 324840.17833782,
+                                        ["y"] = -172238.76871463,
+                                    }, -- end of [2]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 316197.91761169,
-                                ["y"] = -151673.03538932,
+                                ["x"] = 316192.93283496,
+                                ["y"] = -151664.95122903,
                             }, -- end of [1]
                         }, -- end of ["group"]
                     }, -- end of ["ship"]
@@ -17857,8 +17963,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 316180.52745649,
-                                            ["y"] = -151612.89567683,
+                                            ["x"] = 316175.54580558,
+                                            ["y"] = -151604.81061276,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -18039,7 +18145,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0,
+                                        ["heading"] = -5.1975639467683e-5,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "HORNET 1-1",
                                         ["onboard_num"] = "311",
@@ -18061,8 +18167,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 857,
-                                        ["x"] = 316180.52745649,
-                                        ["y"] = -151612.89567683,
+                                        ["x"] = 316175.54580558,
+                                        ["y"] = -151604.81061276,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -18231,7 +18337,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0,
+                                        ["heading"] = -5.1975639467683e-5,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "HORNET 1-2",
                                         ["onboard_num"] = "312",
@@ -18253,8 +18359,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 858,
-                                        ["x"] = 316217.68648917,
-                                        ["y"] = -151710.61881124,
+                                        ["x"] = 316212.69975899,
+                                        ["y"] = -151702.5356784,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -18423,7 +18529,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0,
+                                        ["heading"] = -5.1975639467683e-5,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "HORNET 1-3",
                                         ["onboard_num"] = "313",
@@ -18445,8 +18551,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 859,
-                                        ["x"] = 316202.28615458,
-                                        ["y"] = -151614.27797841,
+                                        ["x"] = 316197.3044318,
+                                        ["y"] = -151606.19404526,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -18615,7 +18721,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0,
+                                        ["heading"] = -5.1975639467683e-5,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "HORNET 1-4",
                                         ["onboard_num"] = "314",
@@ -18637,12 +18743,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 860,
-                                        ["x"] = 316230.22657552,
-                                        ["y"] = -151729.55338497,
+                                        ["x"] = 316225.23886119,
+                                        ["y"] = -151721.47090388,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = 316180.52745649,
-                                ["y"] = -151612.89567683,
+                                ["x"] = 316175.54580558,
+                                ["y"] = -151604.81061276,
                             }, -- end of [8]
                             [9] =
                             {
@@ -18827,8 +18933,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 316180.52745649,
-                                            ["y"] = -151612.89567683,
+                                            ["x"] = 316175.54580558,
+                                            ["y"] = -151604.81061276,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -19009,7 +19115,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0,
+                                        ["heading"] = -5.1975639467683e-5,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "SQUID 2-1",
                                         ["onboard_num"] = "321",
@@ -19031,8 +19137,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 861,
-                                        ["x"] = 316180.52745649,
-                                        ["y"] = -151612.89567683,
+                                        ["x"] = 316175.54580558,
+                                        ["y"] = -151604.81061276,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -19201,7 +19307,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0,
+                                        ["heading"] = -5.1975639467683e-5,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "SQUID 2-2",
                                         ["onboard_num"] = "322",
@@ -19223,8 +19329,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 865,
-                                        ["x"] = 316217.68648917,
-                                        ["y"] = -151710.61881124,
+                                        ["x"] = 316212.69975899,
+                                        ["y"] = -151702.5356784,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -19393,7 +19499,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0,
+                                        ["heading"] = -5.1975639467683e-5,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "SQUID 2-3",
                                         ["onboard_num"] = "323",
@@ -19415,8 +19521,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 866,
-                                        ["x"] = 316202.28615458,
-                                        ["y"] = -151614.27797841,
+                                        ["x"] = 316197.3044318,
+                                        ["y"] = -151606.19404526,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -19585,7 +19691,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0,
+                                        ["heading"] = -5.1975639467683e-5,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "SQUID 2-4",
                                         ["onboard_num"] = "324",
@@ -19607,12 +19713,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 867,
-                                        ["x"] = 316230.22657552,
-                                        ["y"] = -151729.55338497,
+                                        ["x"] = 316225.23886119,
+                                        ["y"] = -151721.47090388,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = 316180.52745649,
-                                ["y"] = -151612.89567683,
+                                ["x"] = 316175.54580558,
+                                ["y"] = -151604.81061276,
                             }, -- end of [9]
                             [10] =
                             {
@@ -19797,8 +19903,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 316180.52745649,
-                                            ["y"] = -151612.89567683,
+                                            ["x"] = 316175.54580558,
+                                            ["y"] = -151604.81061276,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -19979,7 +20085,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0,
+                                        ["heading"] = -5.1975639467683e-5,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "ROMAN 3-1",
                                         ["onboard_num"] = "331",
@@ -20001,8 +20107,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 868,
-                                        ["x"] = 316180.52745649,
-                                        ["y"] = -151612.89567683,
+                                        ["x"] = 316175.54580558,
+                                        ["y"] = -151604.81061276,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -20171,7 +20277,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0,
+                                        ["heading"] = -5.1975639467683e-5,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "ROMAN 3-1-1",
                                         ["onboard_num"] = "332",
@@ -20193,8 +20299,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 872,
-                                        ["x"] = 316217.68648917,
-                                        ["y"] = -151710.61881124,
+                                        ["x"] = 316212.69975899,
+                                        ["y"] = -151702.5356784,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -20363,7 +20469,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0,
+                                        ["heading"] = -5.1975639467683e-5,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "ROMAN 3-1-2",
                                         ["onboard_num"] = "333",
@@ -20385,8 +20491,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 873,
-                                        ["x"] = 316202.28615458,
-                                        ["y"] = -151614.27797841,
+                                        ["x"] = 316197.3044318,
+                                        ["y"] = -151606.19404526,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -20555,7 +20661,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0,
+                                        ["heading"] = -5.1975639467683e-5,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "ROMAN 3-1-3",
                                         ["onboard_num"] = "334",
@@ -20577,12 +20683,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 874,
-                                        ["x"] = 316230.22657552,
-                                        ["y"] = -151729.55338497,
+                                        ["x"] = 316225.23886119,
+                                        ["y"] = -151721.47090388,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = 316180.52745649,
-                                ["y"] = -151612.89567683,
+                                ["x"] = 316175.54580558,
+                                ["y"] = -151604.81061276,
                             }, -- end of [10]
                             [11] =
                             {
@@ -20767,8 +20873,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 316180.52745649,
-                                            ["y"] = -151612.89567683,
+                                            ["x"] = 316175.54580558,
+                                            ["y"] = -151604.81061276,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -20949,7 +21055,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0,
+                                        ["heading"] = -5.1975639467683e-5,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "STING 4-1",
                                         ["onboard_num"] = "341",
@@ -20971,8 +21077,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 875,
-                                        ["x"] = 316180.52745649,
-                                        ["y"] = -151612.89567683,
+                                        ["x"] = 316175.54580558,
+                                        ["y"] = -151604.81061276,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -21141,7 +21247,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0,
+                                        ["heading"] = -5.1975639467683e-5,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "STING 4-1-1",
                                         ["onboard_num"] = "342",
@@ -21163,8 +21269,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 885,
-                                        ["x"] = 316217.68648917,
-                                        ["y"] = -151710.61881124,
+                                        ["x"] = 316212.69975899,
+                                        ["y"] = -151702.5356784,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -21333,7 +21439,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0,
+                                        ["heading"] = -5.1975639467683e-5,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "STING 4-1-2",
                                         ["onboard_num"] = "343",
@@ -21355,8 +21461,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 886,
-                                        ["x"] = 316202.28615458,
-                                        ["y"] = -151614.27797841,
+                                        ["x"] = 316197.3044318,
+                                        ["y"] = -151606.19404526,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -21525,7 +21631,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0,
+                                        ["heading"] = -5.1975639467683e-5,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "STING 4-1-3",
                                         ["onboard_num"] = "344",
@@ -21547,12 +21653,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 887,
-                                        ["x"] = 316230.22657552,
-                                        ["y"] = -151729.55338497,
+                                        ["x"] = 316225.23886119,
+                                        ["y"] = -151721.47090388,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = 316180.52745649,
-                                ["y"] = -151612.89567683,
+                                ["x"] = 316175.54580558,
+                                ["y"] = -151604.81061276,
                             }, -- end of [11]
                             [12] =
                             {
@@ -21737,8 +21843,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 316180.52745649,
-                                            ["y"] = -151612.89567683,
+                                            ["x"] = 316175.54580558,
+                                            ["y"] = -151604.81061276,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -21919,7 +22025,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0.92502450355699,
+                                        ["heading"] = 0.92497252791752,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "JURY 5-1",
                                         ["onboard_num"] = "351",
@@ -21941,8 +22047,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 891,
-                                        ["x"] = 316180.52745649,
-                                        ["y"] = -151612.89567683,
+                                        ["x"] = 316175.54580558,
+                                        ["y"] = -151604.81061276,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -22111,7 +22217,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0.5235987755983,
+                                        ["heading"] = 0.52354679995883,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "JURY 5-1-1",
                                         ["onboard_num"] = "352",
@@ -22133,8 +22239,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 895,
-                                        ["x"] = 316217.68648917,
-                                        ["y"] = -151710.61881124,
+                                        ["x"] = 316212.69975899,
+                                        ["y"] = -151702.5356784,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -22303,7 +22409,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0.61086523819802,
+                                        ["heading"] = 0.61081326255855,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "JURY 5-1-2",
                                         ["onboard_num"] = "353",
@@ -22325,8 +22431,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 896,
-                                        ["x"] = 316202.28615458,
-                                        ["y"] = -151614.27797841,
+                                        ["x"] = 316197.3044318,
+                                        ["y"] = -151606.19404526,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -22495,7 +22601,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0.50614548307836,
+                                        ["heading"] = 0.50609350743889,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "JURY 5-1-3",
                                         ["onboard_num"] = "354",
@@ -22517,12 +22623,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 897,
-                                        ["x"] = 316230.22657552,
-                                        ["y"] = -151729.55338497,
+                                        ["x"] = 316225.23886119,
+                                        ["y"] = -151721.47090388,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = 316180.52745649,
-                                ["y"] = -151612.89567683,
+                                ["x"] = 316175.54580558,
+                                ["y"] = -151604.81061276,
                             }, -- end of [12]
                             [13] =
                             {
@@ -22707,8 +22813,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 316180.52745649,
-                                            ["y"] = -151612.89567683,
+                                            ["x"] = 316175.54580558,
+                                            ["y"] = -151604.81061276,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -22881,7 +22987,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0.5235987755983,
+                                        ["heading"] = 0.52354679995883,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "RAM 6-1",
                                         ["onboard_num"] = "361",
@@ -22903,8 +23009,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 898,
-                                        ["x"] = 316180.52745649,
-                                        ["y"] = -151612.89567683,
+                                        ["x"] = 316175.54580558,
+                                        ["y"] = -151604.81061276,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -23065,7 +23171,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0.5235987755983,
+                                        ["heading"] = 0.52354679995883,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "RAM 6-1-1",
                                         ["onboard_num"] = "362",
@@ -23087,12 +23193,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 902,
-                                        ["x"] = 316217.68648917,
-                                        ["y"] = -151710.61881124,
+                                        ["x"] = 316212.69975899,
+                                        ["y"] = -151702.5356784,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 316180.52745649,
-                                ["y"] = -151612.89567683,
+                                ["x"] = 316175.54580558,
+                                ["y"] = -151604.81061276,
                             }, -- end of [13]
                             [14] =
                             {
@@ -23277,8 +23383,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 316180.52745649,
-                                            ["y"] = -151612.89567683,
+                                            ["x"] = 316175.54580558,
+                                            ["y"] = -151604.81061276,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -23451,7 +23557,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0.5235987755983,
+                                        ["heading"] = 0.52354679995883,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "SNAKE 7-1",
                                         ["onboard_num"] = "371",
@@ -23473,8 +23579,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 905,
-                                        ["x"] = 316180.52745649,
-                                        ["y"] = -151612.89567683,
+                                        ["x"] = 316175.54580558,
+                                        ["y"] = -151604.81061276,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -23635,7 +23741,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0.5235987755983,
+                                        ["heading"] = 0.52354679995883,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "SNAKE 7-1-1",
                                         ["onboard_num"] = "372",
@@ -23657,12 +23763,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 909,
-                                        ["x"] = 316217.68648917,
-                                        ["y"] = -151710.61881124,
+                                        ["x"] = 316212.69975899,
+                                        ["y"] = -151702.5356784,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 316180.52745649,
-                                ["y"] = -151612.89567683,
+                                ["x"] = 316175.54580558,
+                                ["y"] = -151604.81061276,
                             }, -- end of [14]
                             [15] =
                             {
@@ -23812,8 +23918,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 316180.52745649,
-                                            ["y"] = -151612.89567683,
+                                            ["x"] = 316175.54580558,
+                                            ["y"] = -151604.81061276,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -23956,7 +24062,7 @@ mission =
                                             [4] = "Springfield11",
                                             ["name"] = "Springfield11",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0,
+                                        ["heading"] = -5.1975639467683e-5,
                                         ["livery_id"] = "vf-102 diamondbacks",
                                         ["name"] = "SPECTRE 1-1",
                                         ["onboard_num"] = "211",
@@ -23978,8 +24084,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "F-14B",
                                         ["unitId"] = 888,
-                                        ["x"] = 316180.52745649,
-                                        ["y"] = -151612.89567683,
+                                        ["x"] = 316175.54580558,
+                                        ["y"] = -151604.81061276,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -24110,7 +24216,7 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Springfield12",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0,
+                                        ["heading"] = -5.1975639467683e-5,
                                         ["livery_id"] = "vf-102 diamondbacks",
                                         ["name"] = "SPECTRE 1-2",
                                         ["onboard_num"] = "212",
@@ -24131,8 +24237,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "F-14B",
                                         ["unitId"] = 959,
-                                        ["x"] = 316217.68648917,
-                                        ["y"] = -151710.61881124,
+                                        ["x"] = 316212.69975899,
+                                        ["y"] = -151702.5356784,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -24263,7 +24369,7 @@ mission =
                                             [3] = 3,
                                             ["name"] = "Springfield13",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0,
+                                        ["heading"] = -5.1975639467683e-5,
                                         ["livery_id"] = "vf-102 diamondbacks",
                                         ["name"] = "SPECTRE 1-3",
                                         ["onboard_num"] = "213",
@@ -24284,8 +24390,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "F-14B",
                                         ["unitId"] = 960,
-                                        ["x"] = 316202.28615458,
-                                        ["y"] = -151614.27797841,
+                                        ["x"] = 316197.3044318,
+                                        ["y"] = -151606.19404526,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -24416,7 +24522,7 @@ mission =
                                             [3] = 4,
                                             ["name"] = "Springfield14",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0,
+                                        ["heading"] = -5.1975639467683e-5,
                                         ["livery_id"] = "vf-102 diamondbacks",
                                         ["name"] = "SPECTRE 1-4",
                                         ["onboard_num"] = "214",
@@ -24437,12 +24543,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "F-14B",
                                         ["unitId"] = 961,
-                                        ["x"] = 316230.22657552,
-                                        ["y"] = -151729.55338497,
+                                        ["x"] = 316225.23886119,
+                                        ["y"] = -151721.47090388,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = 316180.52745649,
-                                ["y"] = -151612.89567683,
+                                ["x"] = 316175.54580558,
+                                ["y"] = -151604.81061276,
                             }, -- end of [15]
                             [16] =
                             {
@@ -29320,8 +29426,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 316180.52745649,
-                                            ["y"] = -151612.89567683,
+                                            ["x"] = 316175.54580558,
+                                            ["y"] = -151604.81061276,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -29464,7 +29570,7 @@ mission =
                                             [4] = "Colt21",
                                             ["name"] = "Colt21",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 3.6651914291881,
+                                        ["heading"] = 3.6651394535486,
                                         ["livery_id"] = "108th - High-Vis",
                                         ["name"] = "GHOST 2-1",
                                         ["onboard_num"] = "221",
@@ -29486,8 +29592,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "F-14B",
                                         ["unitId"] = 962,
-                                        ["x"] = 316180.52745649,
-                                        ["y"] = -151612.89567683,
+                                        ["x"] = 316175.54580558,
+                                        ["y"] = -151604.81061276,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -29619,7 +29725,7 @@ mission =
                                             [4] = "Colt22",
                                             ["name"] = "Colt22",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 3.6651914291881,
+                                        ["heading"] = 3.6651394535486,
                                         ["livery_id"] = "vf-102 diamondbacks",
                                         ["name"] = "GHOST 2-2",
                                         ["onboard_num"] = "020",
@@ -29641,8 +29747,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "F-14B",
                                         ["unitId"] = 963,
-                                        ["x"] = 316217.68648917,
-                                        ["y"] = -151710.61881124,
+                                        ["x"] = 316212.69975899,
+                                        ["y"] = -151702.5356784,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -29774,7 +29880,7 @@ mission =
                                             [4] = "Colt23",
                                             ["name"] = "Colt23",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 3.6651914291881,
+                                        ["heading"] = 3.6651394535486,
                                         ["livery_id"] = "vf-102 diamondbacks",
                                         ["name"] = "GHOST 2-3",
                                         ["onboard_num"] = "021",
@@ -29796,8 +29902,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "F-14B",
                                         ["unitId"] = 964,
-                                        ["x"] = 316202.28615458,
-                                        ["y"] = -151614.27797841,
+                                        ["x"] = 316197.3044318,
+                                        ["y"] = -151606.19404526,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -29929,7 +30035,7 @@ mission =
                                             [4] = "Colt24",
                                             ["name"] = "Colt24",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 3.6651914291881,
+                                        ["heading"] = 3.6651394535486,
                                         ["livery_id"] = "vf-102 diamondbacks",
                                         ["name"] = "GHOST 2-4",
                                         ["onboard_num"] = "022",
@@ -29951,12 +30057,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "F-14B",
                                         ["unitId"] = 965,
-                                        ["x"] = 316230.22657552,
-                                        ["y"] = -151729.55338497,
+                                        ["x"] = 316225.23886119,
+                                        ["y"] = -151721.47090388,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = 316180.52745649,
-                                ["y"] = -151612.89567683,
+                                ["x"] = 316175.54580558,
+                                ["y"] = -151604.81061276,
                             }, -- end of [20]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
@@ -40658,7 +40764,7 @@ mission =
                             {
                                 ["groupId"] = 13,
                                 ["hidden"] = false,
-                                ["name"] = "XX_IADS_NORTH_8001_SA5_BN",
+                                ["name"] = "IADS_NORTH_8001_SA5_BN",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -40722,7 +40828,7 @@ mission =
                                     {
                                         ["coldAtStart"] = false,
                                         ["heading"] = 0,
-                                        ["name"] = "XX_IADS_NORTH_8001_SA5_BN-1",
+                                        ["name"] = "IADS_NORTH_8001_SA5_BN-1",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
                                         ["type"] = "RPC_5N62V",
@@ -40734,7 +40840,7 @@ mission =
                                     {
                                         ["coldAtStart"] = false,
                                         ["heading"] = 0,
-                                        ["name"] = "XX_IADS_NORTH_8001_SA5_BN-2",
+                                        ["name"] = "IADS_NORTH_8001_SA5_BN-2",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
                                         ["type"] = "RLS_19J6",
@@ -40746,19 +40852,19 @@ mission =
                                     {
                                         ["coldAtStart"] = false,
                                         ["heading"] = 0,
-                                        ["name"] = "XX_IADS_NORTH_8001_SA5_BN-3",
+                                        ["name"] = "IADS_NORTH_8001_SA5_BN-3",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
                                         ["type"] = "p-19 s-125 sr",
                                         ["unitId"] = 136,
-                                        ["x"] = 204953.54967482,
-                                        ["y"] = 446204.29585401,
+                                        ["x"] = 204962.89303654,
+                                        ["y"] = 446204.32480735,
                                     }, -- end of [3]
                                     [4] =
                                     {
                                         ["coldAtStart"] = false,
                                         ["heading"] = 4.1887902047864,
-                                        ["name"] = "XX_IADS_NORTH_8001_SA5_BN-4",
+                                        ["name"] = "IADS_NORTH_8001_SA5_BN-4",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
                                         ["type"] = "S-200_Launcher",
@@ -40770,7 +40876,7 @@ mission =
                                     {
                                         ["coldAtStart"] = false,
                                         ["heading"] = 2.0943951023932,
-                                        ["name"] = "XX_IADS_NORTH_8001_SA5_BN-5",
+                                        ["name"] = "IADS_NORTH_8001_SA5_BN-5",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
                                         ["type"] = "S-200_Launcher",
@@ -40782,19 +40888,19 @@ mission =
                                     {
                                         ["coldAtStart"] = false,
                                         ["heading"] = 4.7123889803847,
-                                        ["name"] = "XX_IADS_NORTH_8001_SA5_BN-6",
+                                        ["name"] = "IADS_NORTH_8001_SA5_BN-6",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
                                         ["type"] = "S-200_Launcher",
                                         ["unitId"] = 139,
-                                        ["x"] = 205004.03677301,
-                                        ["y"] = 446094.74228048,
+                                        ["x"] = 205004.10488892,
+                                        ["y"] = 446094.96262347,
                                     }, -- end of [6]
                                     [7] =
                                     {
                                         ["coldAtStart"] = false,
                                         ["heading"] = 1.5707963267949,
-                                        ["name"] = "XX_IADS_NORTH_8001_SA5_BN-7",
+                                        ["name"] = "IADS_NORTH_8001_SA5_BN-7",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
                                         ["type"] = "S-200_Launcher",
@@ -40806,7 +40912,7 @@ mission =
                                     {
                                         ["coldAtStart"] = false,
                                         ["heading"] = 5.5850536063819,
-                                        ["name"] = "XX_IADS_NORTH_8001_SA5_BN-8",
+                                        ["name"] = "IADS_NORTH_8001_SA5_BN-8",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
                                         ["type"] = "S-200_Launcher",
@@ -40818,7 +40924,7 @@ mission =
                                     {
                                         ["coldAtStart"] = false,
                                         ["heading"] = 0.69813170079773,
-                                        ["name"] = "XX_IADS_NORTH_8001_SA5_BN-9",
+                                        ["name"] = "IADS_NORTH_8001_SA5_BN-9",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
                                         ["type"] = "S-200_Launcher",
@@ -40830,7 +40936,7 @@ mission =
                                     {
                                         ["coldAtStart"] = false,
                                         ["heading"] = 5.4628805587423,
-                                        ["name"] = "XX_IADS_NORTH_8001_SA5_BN-10",
+                                        ["name"] = "IADS_NORTH_8001_SA5_BN-10",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "GAZ-66",
@@ -40842,7 +40948,7 @@ mission =
                                     {
                                         ["coldAtStart"] = false,
                                         ["heading"] = 0.78539816339745,
-                                        ["name"] = "XX_IADS_NORTH_8001_SA5_BN-11",
+                                        ["name"] = "IADS_NORTH_8001_SA5_BN-11",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "GAZ-66",
@@ -54696,7 +54802,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Pontiac31",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0,
+                                        ["heading"] = 0.70630510919343,
                                         ["livery_id"] = "planaf standard",
                                         ["name"] = "AB_XIL_H6J_Olenya_1-1",
                                         ["onboard_num"] = "046",
@@ -54712,7 +54818,7 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.70630510919339,
+                                        ["psi"] = -0.70630510919343,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "H-6J",
@@ -65269,6 +65375,9 @@ mission =
                                         ["name"] = "AWACS Connection Node",
                                         ["rate"] = 100,
                                         ["shape_name"] = "tele_bash_m",
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
                                         ["type"] = "Comms tower M",
                                         ["unitId"] = 281,
                                         ["x"] = 207519.71246671,
@@ -95690,7 +95799,7 @@ mission =
                                 ["hidden"] = true,
                                 ["hiddenOnMFD"] = true,
                                 ["hiddenOnPlanner"] = true,
-                                ["name"] = "xx_IADS_NORTH_PD2_SA15_1",
+                                ["name"] = "IADS_NORTH_PD2_SA15_1",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -95752,7 +95861,7 @@ mission =
                                         ["heading"] = 4.2411500823462,
                                         ["name"] = "IADS_NORTH_PD2_SA15_1",
                                         ["playerCanDrive"] = false,
-                                        ["skill"] = "High",
+                                        ["skill"] = "Excellent",
                                         ["type"] = "Tor 9A331",
                                         ["unitId"] = 518,
                                         ["x"] = 204872.9484975,
@@ -95769,7 +95878,7 @@ mission =
                                 ["hidden"] = true,
                                 ["hiddenOnMFD"] = true,
                                 ["hiddenOnPlanner"] = true,
-                                ["name"] = "xx_IADS_NORTH_PD2_SA15_2",
+                                ["name"] = "IADS_NORTH_PD2_SA15_2",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -95829,9 +95938,9 @@ mission =
                                     {
                                         ["coldAtStart"] = false,
                                         ["heading"] = 5.0614548307836,
-                                        ["name"] = "xx_IADS_NORTH_PD2_SA15_2",
+                                        ["name"] = "IADS_NORTH_PD2_SA15_2",
                                         ["playerCanDrive"] = false,
-                                        ["skill"] = "High",
+                                        ["skill"] = "Excellent",
                                         ["type"] = "Tor 9A331",
                                         ["unitId"] = 519,
                                         ["x"] = 204900.05171556,
@@ -95848,7 +95957,7 @@ mission =
                                 ["hidden"] = true,
                                 ["hiddenOnMFD"] = true,
                                 ["hiddenOnPlanner"] = true,
-                                ["name"] = "xx_IADS_NORTH_PD2_SA15_3",
+                                ["name"] = "IADS_NORTH_PD2_SA15_3",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -95908,9 +96017,9 @@ mission =
                                     {
                                         ["coldAtStart"] = false,
                                         ["heading"] = 5.9515727493007,
-                                        ["name"] = "xx_IADS_NORTH_PD2_SA15_3",
+                                        ["name"] = "IADS_NORTH_PD2_SA15_3",
                                         ["playerCanDrive"] = false,
-                                        ["skill"] = "High",
+                                        ["skill"] = "Excellent",
                                         ["type"] = "Tor 9A331",
                                         ["unitId"] = 520,
                                         ["x"] = 205144.76852184,
@@ -111083,7 +111192,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 2370709,
+    ["currentKey"] = 2396714,
     ["date"] =
     {
         ["Day"] = 24,
@@ -118584,9 +118693,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 233834.95494049,
-        ["centerY"] = 339702.6588683,
-        ["zoom"] = 929652.91545613,
+        ["centerX"] = 277024.26659135,
+        ["centerY"] = 401492.03742491,
+        ["zoom"] = 927210.34801669,
     }, -- end of ["map"]
     ["maxDictId"] = 20,
     ["pictureFileNameB"] =

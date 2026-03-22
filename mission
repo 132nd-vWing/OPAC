@@ -13,100 +13,6 @@ mission =
             {
                 [1] =
                 {
-                    ["helicopter"] =
-                    {
-                        ["group"] =
-                        {
-                            [1] =
-                            {
-                                ["communication"] = true,
-                                ["dynSpawnTemplate"] = false,
-                                ["frequency"] = 127.5,
-                                ["groupId"] = 1339,
-                                ["hidden"] = false,
-                                ["lateActivation"] = true,
-                                ["modulation"] = 0,
-                                ["name"] = "Plane Guard",
-                                ["radioSet"] = false,
-                                ["route"] =
-                                {
-                                    ["points"] =
-                                    {
-                                        [1] =
-                                        {
-                                            ["ETA"] = 0,
-                                            ["ETA_locked"] = true,
-                                            ["action"] = "Turning Point",
-                                            ["alt"] = 500,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["speed"] = 46.25,
-                                            ["speed_locked"] = true,
-                                            ["task"] =
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] =
-                                                {
-                                                    ["tasks"] =
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["x"] = 320902.59180385,
-                                            ["y"] = -114735.7186917,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                    ["routeRelativeTOT"] = true,
-                                }, -- end of ["route"]
-                                ["start_time"] = 0,
-                                ["task"] = "Transport",
-                                ["tasks"] =
-                                {
-                                }, -- end of ["tasks"]
-                                ["uncontrolled"] = false,
-                                ["units"] =
-                                {
-                                    [1] =
-                                    {
-                                        ["alt"] = 500,
-                                        ["alt_type"] = "BARO",
-                                        ["callsign"] =
-                                        {
-                                            [1] = 2,
-                                            [2] = 1,
-                                            [3] = 1,
-                                            ["name"] = "Springfield11",
-                                        }, -- end of ["callsign"]
-                                        ["heading"] = 0,
-                                        ["livery_id"] = "standard",
-                                        ["name"] = "Plane Guard",
-                                        ["onboard_num"] = "062",
-                                        ["payload"] =
-                                        {
-                                            ["chaff"] = 30,
-                                            ["flare"] = 30,
-                                            ["fuel"] = "1100",
-                                            ["gun"] = 100,
-                                            ["pylons"] =
-                                            {
-                                            }, -- end of ["pylons"]
-                                        }, -- end of ["payload"]
-                                        ["psi"] = 0,
-                                        ["ropeLength"] = 15,
-                                        ["skill"] = "High",
-                                        ["speed"] = 46.25,
-                                        ["type"] = "SH-60B",
-                                        ["unitId"] = 2766,
-                                        ["x"] = 320902.59180385,
-                                        ["y"] = -114735.7186917,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["x"] = 320902.59180385,
-                                ["y"] = -114735.7186917,
-                            }, -- end of [1]
-                        }, -- end of ["group"]
-                    }, -- end of ["helicopter"]
                     ["id"] = 2,
                     ["name"] = "USA",
                     ["plane"] =
@@ -3392,12 +3298,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 316192.93283496,
-                                            ["y"] = -151664.95122903,
+                                            ["x"] = 317453.5822467,
+                                            ["y"] = -5325.5242963327,
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 11862.997061318,
+                                            ["ETA"] = 8294.489159487,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
@@ -3416,12 +3322,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 317221.01025858,
-                                            ["y"] = -54138.20305253,
+                                            ["x"] = 317115.80371221,
+                                            ["y"] = -73523.820900929,
                                         }, -- end of [2]
                                         [3] =
                                         {
-                                            ["ETA"] = 14419.789265102,
+                                            ["ETA"] = 18381.30460729,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
@@ -3440,12 +3346,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 296190.77251696,
-                                            ["y"] = -54024.526091764,
+                                            ["x"] = 316966.05224824,
+                                            ["y"] = -156459.8238179,
                                         }, -- end of [3]
                                         [4] =
                                         {
-                                            ["ETA"] = 27048.997798172,
+                                            ["ETA"] = 30817.068095503,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
@@ -3464,8 +3370,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 315174.82496479,
-                                            ["y"] = -156106.43685917,
+                                            ["x"] = 307093.56977949,
+                                            ["y"] = -54687.936640071,
                                         }, -- end of [4]
                                         [5] =
                                         {
@@ -3578,31 +3484,19 @@ mission =
                                         ["allowAirboss"] = true,
                                         ["allowLso"] = true,
                                         ["frequency"] = 309500000,
-                                        ["heading"] = 1.5602552253602,
+                                        ["heading"] = 4.707436132743,
                                         ["modulation"] = 1,
                                         ["name"] = "CVN-73",
                                         ["skill"] = "Excellent",
                                         ["type"] = "CVN_73",
                                         ["unitId"] = 2239,
-                                        ["x"] = 316192.93283496,
-                                        ["y"] = -151664.95122903,
+                                        ["x"] = 317453.5822467,
+                                        ["y"] = -5325.5242963327,
                                     }, -- end of [1]
-                                    [2] =
-                                    {
-                                        ["frequency"] = 127500000,
-                                        ["heading"] = 1.5602552253602,
-                                        ["modulation"] = 0,
-                                        ["name"] = "CVN73_Rescue",
-                                        ["skill"] = "Excellent",
-                                        ["type"] = "USS_Arleigh_Burke_IIa",
-                                        ["unitId"] = 2769,
-                                        ["x"] = 324840.17833782,
-                                        ["y"] = -172238.76871463,
-                                    }, -- end of [2]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 316192.93283496,
-                                ["y"] = -151664.95122903,
+                                ["x"] = 317453.5822467,
+                                ["y"] = -5325.5242963327,
                             }, -- end of [1]
                         }, -- end of ["group"]
                     }, -- end of ["ship"]
@@ -17963,8 +17857,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 316175.54580558,
-                                            ["y"] = -151604.81061276,
+                                            ["x"] = 317471.30508387,
+                                            ["y"] = -5385.5668109251,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -18145,7 +18039,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = -5.1975639467683e-5,
+                                        ["heading"] = 3.1471289317433,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "HORNET 1-1",
                                         ["onboard_num"] = "311",
@@ -18167,8 +18061,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 857,
-                                        ["x"] = 316175.54580558,
-                                        ["y"] = -151604.81061276,
+                                        ["x"] = 317471.30508387,
+                                        ["y"] = -5385.5668109251,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -18337,7 +18231,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = -5.1975639467683e-5,
+                                        ["heading"] = 3.1471289317433,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "HORNET 1-2",
                                         ["onboard_num"] = "312",
@@ -18359,8 +18253,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 858,
-                                        ["x"] = 316212.69975899,
-                                        ["y"] = -151702.5356784,
+                                        ["x"] = 317433.60560096,
+                                        ["y"] = -5288.0508958292,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -18529,7 +18423,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = -5.1975639467683e-5,
+                                        ["heading"] = 3.1471289317433,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "HORNET 1-3",
                                         ["onboard_num"] = "313",
@@ -18551,8 +18445,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 859,
-                                        ["x"] = 316197.3044318,
-                                        ["y"] = -151606.19404526,
+                                        ["x"] = 317449.53906646,
+                                        ["y"] = -5384.3049921188,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -18721,7 +18615,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = -5.1975639467683e-5,
+                                        ["heading"] = 3.1471289317433,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "HORNET 1-4",
                                         ["onboard_num"] = "314",
@@ -18743,12 +18637,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 860,
-                                        ["x"] = 316225.23886119,
-                                        ["y"] = -151721.47090388,
+                                        ["x"] = 317420.96088026,
+                                        ["y"] = -5269.186037329,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = 316175.54580558,
-                                ["y"] = -151604.81061276,
+                                ["x"] = 317471.30508387,
+                                ["y"] = -5385.5668109251,
                             }, -- end of [8]
                             [9] =
                             {
@@ -18933,8 +18827,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 316175.54580558,
-                                            ["y"] = -151604.81061276,
+                                            ["x"] = 317471.30508387,
+                                            ["y"] = -5385.5668109251,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -19115,7 +19009,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = -5.1975639467683e-5,
+                                        ["heading"] = 3.1471289317433,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "SQUID 2-1",
                                         ["onboard_num"] = "321",
@@ -19137,8 +19031,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 861,
-                                        ["x"] = 316175.54580558,
-                                        ["y"] = -151604.81061276,
+                                        ["x"] = 317471.30508387,
+                                        ["y"] = -5385.5668109251,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -19307,7 +19201,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = -5.1975639467683e-5,
+                                        ["heading"] = 3.1471289317433,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "SQUID 2-2",
                                         ["onboard_num"] = "322",
@@ -19329,8 +19223,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 865,
-                                        ["x"] = 316212.69975899,
-                                        ["y"] = -151702.5356784,
+                                        ["x"] = 317433.60560096,
+                                        ["y"] = -5288.0508958292,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -19499,7 +19393,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = -5.1975639467683e-5,
+                                        ["heading"] = 3.1471289317433,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "SQUID 2-3",
                                         ["onboard_num"] = "323",
@@ -19521,8 +19415,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 866,
-                                        ["x"] = 316197.3044318,
-                                        ["y"] = -151606.19404526,
+                                        ["x"] = 317449.53906646,
+                                        ["y"] = -5384.3049921188,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -19691,7 +19585,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = -5.1975639467683e-5,
+                                        ["heading"] = 3.1471289317433,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "SQUID 2-4",
                                         ["onboard_num"] = "324",
@@ -19713,12 +19607,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 867,
-                                        ["x"] = 316225.23886119,
-                                        ["y"] = -151721.47090388,
+                                        ["x"] = 317420.96088026,
+                                        ["y"] = -5269.186037329,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = 316175.54580558,
-                                ["y"] = -151604.81061276,
+                                ["x"] = 317471.30508387,
+                                ["y"] = -5385.5668109251,
                             }, -- end of [9]
                             [10] =
                             {
@@ -19903,8 +19797,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 316175.54580558,
-                                            ["y"] = -151604.81061276,
+                                            ["x"] = 317471.30508387,
+                                            ["y"] = -5385.5668109251,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -20085,7 +19979,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = -5.1975639467683e-5,
+                                        ["heading"] = 3.1471289317433,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "ROMAN 3-1",
                                         ["onboard_num"] = "331",
@@ -20107,8 +20001,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 868,
-                                        ["x"] = 316175.54580558,
-                                        ["y"] = -151604.81061276,
+                                        ["x"] = 317471.30508387,
+                                        ["y"] = -5385.5668109251,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -20277,7 +20171,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = -5.1975639467683e-5,
+                                        ["heading"] = 3.1471289317433,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "ROMAN 3-1-1",
                                         ["onboard_num"] = "332",
@@ -20299,8 +20193,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 872,
-                                        ["x"] = 316212.69975899,
-                                        ["y"] = -151702.5356784,
+                                        ["x"] = 317433.60560096,
+                                        ["y"] = -5288.0508958292,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -20469,7 +20363,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = -5.1975639467683e-5,
+                                        ["heading"] = 3.1471289317433,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "ROMAN 3-1-2",
                                         ["onboard_num"] = "333",
@@ -20491,8 +20385,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 873,
-                                        ["x"] = 316197.3044318,
-                                        ["y"] = -151606.19404526,
+                                        ["x"] = 317449.53906646,
+                                        ["y"] = -5384.3049921188,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -20661,7 +20555,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = -5.1975639467683e-5,
+                                        ["heading"] = 3.1471289317433,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "ROMAN 3-1-3",
                                         ["onboard_num"] = "334",
@@ -20683,12 +20577,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 874,
-                                        ["x"] = 316225.23886119,
-                                        ["y"] = -151721.47090388,
+                                        ["x"] = 317420.96088026,
+                                        ["y"] = -5269.186037329,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = 316175.54580558,
-                                ["y"] = -151604.81061276,
+                                ["x"] = 317471.30508387,
+                                ["y"] = -5385.5668109251,
                             }, -- end of [10]
                             [11] =
                             {
@@ -20873,8 +20767,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 316175.54580558,
-                                            ["y"] = -151604.81061276,
+                                            ["x"] = 317471.30508387,
+                                            ["y"] = -5385.5668109251,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -21055,7 +20949,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = -5.1975639467683e-5,
+                                        ["heading"] = 3.1471289317433,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "STING 4-1",
                                         ["onboard_num"] = "341",
@@ -21077,8 +20971,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 875,
-                                        ["x"] = 316175.54580558,
-                                        ["y"] = -151604.81061276,
+                                        ["x"] = 317471.30508387,
+                                        ["y"] = -5385.5668109251,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -21247,7 +21141,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = -5.1975639467683e-5,
+                                        ["heading"] = 3.1471289317433,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "STING 4-1-1",
                                         ["onboard_num"] = "342",
@@ -21269,8 +21163,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 885,
-                                        ["x"] = 316212.69975899,
-                                        ["y"] = -151702.5356784,
+                                        ["x"] = 317433.60560096,
+                                        ["y"] = -5288.0508958292,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -21439,7 +21333,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = -5.1975639467683e-5,
+                                        ["heading"] = 3.1471289317433,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "STING 4-1-2",
                                         ["onboard_num"] = "343",
@@ -21461,8 +21355,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 886,
-                                        ["x"] = 316197.3044318,
-                                        ["y"] = -151606.19404526,
+                                        ["x"] = 317449.53906646,
+                                        ["y"] = -5384.3049921188,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -21631,7 +21525,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = -5.1975639467683e-5,
+                                        ["heading"] = 3.1471289317433,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "STING 4-1-3",
                                         ["onboard_num"] = "344",
@@ -21653,12 +21547,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 887,
-                                        ["x"] = 316225.23886119,
-                                        ["y"] = -151721.47090388,
+                                        ["x"] = 317420.96088026,
+                                        ["y"] = -5269.186037329,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = 316175.54580558,
-                                ["y"] = -151604.81061276,
+                                ["x"] = 317471.30508387,
+                                ["y"] = -5385.5668109251,
                             }, -- end of [11]
                             [12] =
                             {
@@ -21843,8 +21737,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 316175.54580558,
-                                            ["y"] = -151604.81061276,
+                                            ["x"] = 317471.30508387,
+                                            ["y"] = -5385.5668109251,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -22025,7 +21919,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0.92497252791752,
+                                        ["heading"] = 4.0721534353003,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "JURY 5-1",
                                         ["onboard_num"] = "351",
@@ -22047,8 +21941,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 891,
-                                        ["x"] = 316175.54580558,
-                                        ["y"] = -151604.81061276,
+                                        ["x"] = 317471.30508387,
+                                        ["y"] = -5385.5668109251,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -22217,7 +22111,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0.52354679995883,
+                                        ["heading"] = 3.6707277073416,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "JURY 5-1-1",
                                         ["onboard_num"] = "352",
@@ -22239,8 +22133,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 895,
-                                        ["x"] = 316212.69975899,
-                                        ["y"] = -151702.5356784,
+                                        ["x"] = 317433.60560096,
+                                        ["y"] = -5288.0508958292,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -22409,7 +22303,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0.61081326255855,
+                                        ["heading"] = 3.7579941699413,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "JURY 5-1-2",
                                         ["onboard_num"] = "353",
@@ -22431,8 +22325,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 896,
-                                        ["x"] = 316197.3044318,
-                                        ["y"] = -151606.19404526,
+                                        ["x"] = 317449.53906646,
+                                        ["y"] = -5384.3049921188,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -22601,7 +22495,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0.50609350743889,
+                                        ["heading"] = 3.6532744148217,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "JURY 5-1-3",
                                         ["onboard_num"] = "354",
@@ -22623,12 +22517,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 897,
-                                        ["x"] = 316225.23886119,
-                                        ["y"] = -151721.47090388,
+                                        ["x"] = 317420.96088026,
+                                        ["y"] = -5269.186037329,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = 316175.54580558,
-                                ["y"] = -151604.81061276,
+                                ["x"] = 317471.30508387,
+                                ["y"] = -5385.5668109251,
                             }, -- end of [12]
                             [13] =
                             {
@@ -22813,8 +22707,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 316175.54580558,
-                                            ["y"] = -151604.81061276,
+                                            ["x"] = 317471.30508387,
+                                            ["y"] = -5385.5668109251,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -22987,7 +22881,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0.52354679995883,
+                                        ["heading"] = 3.6707277073416,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "RAM 6-1",
                                         ["onboard_num"] = "361",
@@ -23009,8 +22903,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 898,
-                                        ["x"] = 316175.54580558,
-                                        ["y"] = -151604.81061276,
+                                        ["x"] = 317471.30508387,
+                                        ["y"] = -5385.5668109251,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -23171,7 +23065,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0.52354679995883,
+                                        ["heading"] = 3.6707277073416,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "RAM 6-1-1",
                                         ["onboard_num"] = "362",
@@ -23193,12 +23087,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 902,
-                                        ["x"] = 316212.69975899,
-                                        ["y"] = -151702.5356784,
+                                        ["x"] = 317433.60560096,
+                                        ["y"] = -5288.0508958292,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 316175.54580558,
-                                ["y"] = -151604.81061276,
+                                ["x"] = 317471.30508387,
+                                ["y"] = -5385.5668109251,
                             }, -- end of [13]
                             [14] =
                             {
@@ -23383,8 +23277,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 316175.54580558,
-                                            ["y"] = -151604.81061276,
+                                            ["x"] = 317471.30508387,
+                                            ["y"] = -5385.5668109251,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -23557,7 +23451,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0.52354679995883,
+                                        ["heading"] = 3.6707277073416,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "SNAKE 7-1",
                                         ["onboard_num"] = "371",
@@ -23579,8 +23473,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 905,
-                                        ["x"] = 316175.54580558,
-                                        ["y"] = -151604.81061276,
+                                        ["x"] = 317471.30508387,
+                                        ["y"] = -5385.5668109251,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -23741,7 +23635,7 @@ mission =
                                                 }, -- end of ["settings"]
                                             }, -- end of ["Link16"]
                                         }, -- end of ["datalinks"]
-                                        ["heading"] = 0.52354679995883,
+                                        ["heading"] = 3.6707277073416,
                                         ["livery_id"] = "132_494_LoVis",
                                         ["name"] = "SNAKE 7-1-1",
                                         ["onboard_num"] = "372",
@@ -23763,12 +23657,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 909,
-                                        ["x"] = 316212.69975899,
-                                        ["y"] = -151702.5356784,
+                                        ["x"] = 317433.60560096,
+                                        ["y"] = -5288.0508958292,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 316175.54580558,
-                                ["y"] = -151604.81061276,
+                                ["x"] = 317471.30508387,
+                                ["y"] = -5385.5668109251,
                             }, -- end of [14]
                             [15] =
                             {
@@ -23918,8 +23812,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 316175.54580558,
-                                            ["y"] = -151604.81061276,
+                                            ["x"] = 317471.30508387,
+                                            ["y"] = -5385.5668109251,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -24062,7 +23956,7 @@ mission =
                                             [4] = "Springfield11",
                                             ["name"] = "Springfield11",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -5.1975639467683e-5,
+                                        ["heading"] = 3.1471289317433,
                                         ["livery_id"] = "vf-102 diamondbacks",
                                         ["name"] = "SPECTRE 1-1",
                                         ["onboard_num"] = "211",
@@ -24084,8 +23978,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "F-14B",
                                         ["unitId"] = 888,
-                                        ["x"] = 316175.54580558,
-                                        ["y"] = -151604.81061276,
+                                        ["x"] = 317471.30508387,
+                                        ["y"] = -5385.5668109251,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -24216,7 +24110,7 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Springfield12",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -5.1975639467683e-5,
+                                        ["heading"] = 3.1471289317433,
                                         ["livery_id"] = "vf-102 diamondbacks",
                                         ["name"] = "SPECTRE 1-2",
                                         ["onboard_num"] = "212",
@@ -24237,8 +24131,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "F-14B",
                                         ["unitId"] = 959,
-                                        ["x"] = 316212.69975899,
-                                        ["y"] = -151702.5356784,
+                                        ["x"] = 317433.60560096,
+                                        ["y"] = -5288.0508958292,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -24369,7 +24263,7 @@ mission =
                                             [3] = 3,
                                             ["name"] = "Springfield13",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -5.1975639467683e-5,
+                                        ["heading"] = 3.1471289317433,
                                         ["livery_id"] = "vf-102 diamondbacks",
                                         ["name"] = "SPECTRE 1-3",
                                         ["onboard_num"] = "213",
@@ -24390,8 +24284,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "F-14B",
                                         ["unitId"] = 960,
-                                        ["x"] = 316197.3044318,
-                                        ["y"] = -151606.19404526,
+                                        ["x"] = 317449.53906646,
+                                        ["y"] = -5384.3049921188,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -24522,7 +24416,7 @@ mission =
                                             [3] = 4,
                                             ["name"] = "Springfield14",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -5.1975639467683e-5,
+                                        ["heading"] = 3.1471289317433,
                                         ["livery_id"] = "vf-102 diamondbacks",
                                         ["name"] = "SPECTRE 1-4",
                                         ["onboard_num"] = "214",
@@ -24543,12 +24437,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "F-14B",
                                         ["unitId"] = 961,
-                                        ["x"] = 316225.23886119,
-                                        ["y"] = -151721.47090388,
+                                        ["x"] = 317420.96088026,
+                                        ["y"] = -5269.186037329,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = 316175.54580558,
-                                ["y"] = -151604.81061276,
+                                ["x"] = 317471.30508387,
+                                ["y"] = -5385.5668109251,
                             }, -- end of [15]
                             [16] =
                             {
@@ -29426,8 +29320,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 316175.54580558,
-                                            ["y"] = -151604.81061276,
+                                            ["x"] = 317471.30508387,
+                                            ["y"] = -5385.5668109251,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -29570,7 +29464,7 @@ mission =
                                             [4] = "Colt21",
                                             ["name"] = "Colt21",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 3.6651394535486,
+                                        ["heading"] = 0.5291350537518,
                                         ["livery_id"] = "108th - High-Vis",
                                         ["name"] = "GHOST 2-1",
                                         ["onboard_num"] = "221",
@@ -29592,8 +29486,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "F-14B",
                                         ["unitId"] = 962,
-                                        ["x"] = 316175.54580558,
-                                        ["y"] = -151604.81061276,
+                                        ["x"] = 317471.30508387,
+                                        ["y"] = -5385.5668109251,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -29725,7 +29619,7 @@ mission =
                                             [4] = "Colt22",
                                             ["name"] = "Colt22",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 3.6651394535486,
+                                        ["heading"] = 0.5291350537518,
                                         ["livery_id"] = "vf-102 diamondbacks",
                                         ["name"] = "GHOST 2-2",
                                         ["onboard_num"] = "020",
@@ -29747,8 +29641,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "F-14B",
                                         ["unitId"] = 963,
-                                        ["x"] = 316212.69975899,
-                                        ["y"] = -151702.5356784,
+                                        ["x"] = 317433.60560096,
+                                        ["y"] = -5288.0508958292,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -29880,7 +29774,7 @@ mission =
                                             [4] = "Colt23",
                                             ["name"] = "Colt23",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 3.6651394535486,
+                                        ["heading"] = 0.5291350537518,
                                         ["livery_id"] = "vf-102 diamondbacks",
                                         ["name"] = "GHOST 2-3",
                                         ["onboard_num"] = "021",
@@ -29902,8 +29796,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "F-14B",
                                         ["unitId"] = 964,
-                                        ["x"] = 316197.3044318,
-                                        ["y"] = -151606.19404526,
+                                        ["x"] = 317449.53906646,
+                                        ["y"] = -5384.3049921188,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -30035,7 +29929,7 @@ mission =
                                             [4] = "Colt24",
                                             ["name"] = "Colt24",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 3.6651394535486,
+                                        ["heading"] = 0.5291350537518,
                                         ["livery_id"] = "vf-102 diamondbacks",
                                         ["name"] = "GHOST 2-4",
                                         ["onboard_num"] = "022",
@@ -30057,12 +29951,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "F-14B",
                                         ["unitId"] = 965,
-                                        ["x"] = 316225.23886119,
-                                        ["y"] = -151721.47090388,
+                                        ["x"] = 317420.96088026,
+                                        ["y"] = -5269.186037329,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = 316175.54580558,
-                                ["y"] = -151604.81061276,
+                                ["x"] = 317471.30508387,
+                                ["y"] = -5385.5668109251,
                             }, -- end of [20]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
@@ -32491,6 +32385,151 @@ mission =
                                             ["x"] = 147543.546875,
                                             ["y"] = 446424.9375,
                                         }, -- end of [1]
+                                        [2] =
+                                        {
+                                            ["ETA"] = 168.54097553978,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 4572,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 221.26576306153,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 183490.00898812,
+                                            ["y"] = 456353.23282608,
+                                        }, -- end of [2]
+                                        [3] =
+                                        {
+                                            ["ETA"] = 349.42637305174,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 216.82755183002,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 199702.81236317,
+                                            ["y"] = 449644.48660192,
+                                        }, -- end of [3]
+                                        [4] =
+                                        {
+                                            ["ETA"] = 545.45581819629,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 216.82755183002,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 203336.71656793,
+                                            ["y"] = 407295.52606191,
+                                        }, -- end of [4]
+                                        [5] =
+                                        {
+                                            ["ETA"] = 662.08710004388,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 216.82755183002,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 187752.85815139,
+                                            ["y"] = 387378.93570893,
+                                        }, -- end of [5]
+                                        [6] =
+                                        {
+                                            ["ETA"] = 788.74207352183,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 3048,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 225.61668505188,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 168185.68166425,
+                                            ["y"] = 366553.86930476,
+                                        }, -- end of [6]
+                                        [7] =
+                                        {
+                                            ["ETA"] = 887.03337444319,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Landing",
+                                            ["airdromeId"] = 28,
+                                            ["alt"] = 93,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 233.82245100621,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Land",
+                                            ["x"] = 163480.617188,
+                                            ["y"] = 389049.8125,
+                                        }, -- end of [7]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
@@ -32524,7 +32563,7 @@ mission =
                                         ["alt"] = 170,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = 102,
-                                        ["heading"] = 0.26291288462785,
+                                        ["heading"] = 0.26947846140922,
                                         ["livery_id"] = "773 IAP_Damgarten",
                                         ["name"] = "AA_711_MIG29_Sevoromorsk3_1-1",
                                         ["onboard_num"] = "911",
@@ -32604,7 +32643,7 @@ mission =
                                                 }, -- end of [7]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.26291288462785,
+                                        ["psi"] = -0.26947846140922,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "MiG-29S",
@@ -32617,7 +32656,7 @@ mission =
                                         ["alt"] = 170,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = 104,
-                                        ["heading"] = 0,
+                                        ["heading"] = 0.26947846140922,
                                         ["livery_id"] = "773 IAP_Damgarten",
                                         ["name"] = "AA_711_MIG29_Sevoromorsk3_1-2",
                                         ["onboard_num"] = "912",
@@ -32697,7 +32736,7 @@ mission =
                                                 }, -- end of [7]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0,
+                                        ["psi"] = -0.26947846140922,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "MiG-29S",
@@ -32710,7 +32749,7 @@ mission =
                                         ["alt"] = 170,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = 105,
-                                        ["heading"] = 0,
+                                        ["heading"] = 0.26947846140922,
                                         ["livery_id"] = "773 IAP_Damgarten",
                                         ["name"] = "AA_711_MIG29_Sevoromorsk3_1-3",
                                         ["onboard_num"] = "913",
@@ -32790,7 +32829,7 @@ mission =
                                                 }, -- end of [7]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0,
+                                        ["psi"] = -0.26947846140922,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "MiG-29S",
@@ -32803,7 +32842,7 @@ mission =
                                         ["alt"] = 170,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = 122,
-                                        ["heading"] = 0,
+                                        ["heading"] = 0.26947846140922,
                                         ["livery_id"] = "773 IAP_Damgarten",
                                         ["name"] = "AA_711_MIG29_Sevoromorsk3_1-4",
                                         ["onboard_num"] = "914",
@@ -32883,7 +32922,7 @@ mission =
                                                 }, -- end of [7]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0,
+                                        ["psi"] = -0.26947846140922,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "MiG-29S",
@@ -37265,6 +37304,151 @@ mission =
                                             ["x"] = 147796.65625,
                                             ["y"] = 446405.4375,
                                         }, -- end of [1]
+                                        [2] =
+                                        {
+                                            ["ETA"] = 167.14537091606,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 4572,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 221.26576306153,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 183351.21949603,
+                                            ["y"] = 456586.58958896,
+                                        }, -- end of [2]
+                                        [3] =
+                                        {
+                                            ["ETA"] = 253.15638075668,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 216.82755183002,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 199971.6597963,
+                                            ["y"] = 448126.86565054,
+                                        }, -- end of [3]
+                                        [4] =
+                                        {
+                                            ["ETA"] = 445.70053540552,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 216.82755183002,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 203223.95000403,
+                                            ["y"] = 406504.85950895,
+                                        }, -- end of [4]
+                                        [5] =
+                                        {
+                                            ["ETA"] = 560.19820047296,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 216.82755183002,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 187779.98832969,
+                                            ["y"] = 387067.09580632,
+                                        }, -- end of [5]
+                                        [6] =
+                                        {
+                                            ["ETA"] = 688.0035781939,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 3048,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 225.61668505188,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 168024.35317329,
+                                            ["y"] = 366062.96326085,
+                                        }, -- end of [6]
+                                        [7] =
+                                        {
+                                            ["ETA"] = 856.71123586753,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Landing",
+                                            ["airdromeId"] = 28,
+                                            ["alt"] = 93,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Land",
+                                            ["x"] = 163480.617188,
+                                            ["y"] = 389049.8125,
+                                        }, -- end of [7]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
@@ -37298,7 +37482,7 @@ mission =
                                         ["alt"] = 170,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = 123,
-                                        ["heading"] = 0.26291288462785,
+                                        ["heading"] = 0.27888997101374,
                                         ["livery_id"] = "773 IAP_Damgarten",
                                         ["name"] = "AA_711_MIG29_Sevoromorsk3_2-1",
                                         ["onboard_num"] = "047",
@@ -37378,7 +37562,7 @@ mission =
                                                 }, -- end of [7]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.26291288462785,
+                                        ["psi"] = -0.27888997101374,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "MiG-29S",
@@ -37391,7 +37575,7 @@ mission =
                                         ["alt"] = 170,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = 123,
-                                        ["heading"] = 0,
+                                        ["heading"] = 0.27888997101374,
                                         ["livery_id"] = "773 IAP_Damgarten",
                                         ["name"] = "AA_711_MIG29_Sevoromorsk3_2-2",
                                         ["onboard_num"] = "048",
@@ -37471,7 +37655,7 @@ mission =
                                                 }, -- end of [7]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0,
+                                        ["psi"] = -0.27888997101374,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "MiG-29S",
@@ -37484,7 +37668,7 @@ mission =
                                         ["alt"] = 170,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = 123,
-                                        ["heading"] = 0,
+                                        ["heading"] = 0.27888997101374,
                                         ["livery_id"] = "773 IAP_Damgarten",
                                         ["name"] = "AA_711_MIG29_Sevoromorsk3_2-3",
                                         ["onboard_num"] = "049",
@@ -37564,7 +37748,7 @@ mission =
                                                 }, -- end of [7]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0,
+                                        ["psi"] = -0.27888997101374,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "MiG-29S",
@@ -37577,7 +37761,7 @@ mission =
                                         ["alt"] = 170,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = 123,
-                                        ["heading"] = 0,
+                                        ["heading"] = 0.27888997101374,
                                         ["livery_id"] = "773 IAP_Damgarten",
                                         ["name"] = "AA_711_MIG29_Sevoromorsk3_2-4",
                                         ["onboard_num"] = "050",
@@ -37657,7 +37841,7 @@ mission =
                                                 }, -- end of [7]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0,
+                                        ["psi"] = -0.27888997101374,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "MiG-29S",
@@ -38457,6 +38641,195 @@ mission =
                                             ["x"] = 147256.546875,
                                             ["y"] = 445889.84375,
                                         }, -- end of [1]
+                                        [2] =
+                                        {
+                                            ["ETA"] = 102.37719999699,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 4572,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 221.26576306153,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 126649.74497732,
+                                            ["y"] = 455297.21375541,
+                                        }, -- end of [2]
+                                        [3] =
+                                        {
+                                            ["ETA"] = 119.56335871751,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 7620,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 221.26576306153,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 126244.65867903,
+                                            ["y"] = 451516.14284827,
+                                        }, -- end of [3]
+                                        [4] =
+                                        {
+                                            ["ETA"] = 923.27859781332,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 7620,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 247.78080690925,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 105950.57336536,
+                                            ["y"] = 253407.67520038,
+                                        }, -- end of [4]
+                                        [5] =
+                                        {
+                                            ["ETA"] = 1110.1210230902,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 247.78080690925,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "Bombing",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["altitude"] = 6096,
+                                                                ["altitudeEnabled"] = false,
+                                                                ["attackQty"] = 1,
+                                                                ["attackQtyLimit"] = false,
+                                                                ["direction"] = 0,
+                                                                ["directionEnabled"] = false,
+                                                                ["expend"] = "All",
+                                                                ["groupAttack"] = false,
+                                                                ["weaponType"] = 2032,
+                                                                ["x"] = 80792.46424613,
+                                                                ["y"] = 200961.23569432,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 84603.518403459,
+                                            ["y"] = 212327.02530706,
+                                        }, -- end of [5]
+                                        [6] =
+                                        {
+                                            ["ETA"] = 1258.8697669328,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 247.78080690925,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 83063.512037196,
+                                            ["y"] = 249151.9218428,
+                                        }, -- end of [6]
+                                        [7] =
+                                        {
+                                            ["ETA"] = 2109.6582943802,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 4572,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 247.78080690925,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 126596.51346593,
+                                            ["y"] = 455417.14157264,
+                                        }, -- end of [7]
+                                        [8] =
+                                        {
+                                            ["ETA"] = 2220.2342274713,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Fly Over Point",
+                                            ["alt"] = 4572,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 247.78080690925,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 148023.87653022,
+                                            ["y"] = 446009.87044347,
+                                        }, -- end of [8]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
@@ -38570,8 +38943,8 @@ mission =
                                                 }, -- end of [7]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.26291288462785,
-                                        ["skill"] = "High",
+                                        ["psi"] = -2.7133318352486,
+                                        ["skill"] = "Excellent",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "MiG-29S",
                                         ["unitId"] = 2583,
@@ -38663,7 +39036,7 @@ mission =
                                                 }, -- end of [7]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0,
+                                        ["psi"] = -2.7133318352486,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "MiG-29S",
@@ -38756,7 +39129,7 @@ mission =
                                                 }, -- end of [7]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0,
+                                        ["psi"] = -2.7133318352486,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "MiG-29S",
@@ -38849,7 +39222,7 @@ mission =
                                                 }, -- end of [7]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0,
+                                        ["psi"] = -2.7133318352486,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "MiG-29S",
@@ -46925,6 +47298,151 @@ mission =
                                             ["x"] = 148349.15625,
                                             ["y"] = 446350.1875,
                                         }, -- end of [1]
+                                        [2] =
+                                        {
+                                            ["ETA"] = 152.21312055133,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 4572,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 237.05917941139,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 183457.06671801,
+                                            ["y"] = 454684.14540669,
+                                        }, -- end of [2]
+                                        [3] =
+                                        {
+                                            ["ETA"] = 235.79615897928,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 216.82755183002,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 200501.25529155,
+                                            ["y"] = 448524.38953944,
+                                        }, -- end of [3]
+                                        [4] =
+                                        {
+                                            ["ETA"] = 411.78429109381,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 237.05917941139,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 203913.19146949,
+                                            ["y"] = 406944.53987629,
+                                        }, -- end of [4]
+                                        [5] =
+                                        {
+                                            ["ETA"] = 511.46173277974,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 237.05917941139,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 188194.96659891,
+                                            ["y"] = 387100.48289243,
+                                        }, -- end of [5]
+                                        [6] =
+                                        {
+                                            ["ETA"] = 634.27889911417,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 3048,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 237.05917941139,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 168472.02570587,
+                                            ["y"] = 365683.54707607,
+                                        }, -- end of [6]
+                                        [7] =
+                                        {
+                                            ["ETA"] = 748.64769103909,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Landing",
+                                            ["airdromeId"] = 30,
+                                            ["alt"] = 144,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Land",
+                                            ["x"] = 172272.046875,
+                                            ["y"] = 338839,
+                                        }, -- end of [7]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
@@ -46963,7 +47481,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Springfield11",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.29201640859304,
+                                        ["heading"] = 0.23306734064497,
                                         ["livery_id"] = "af standard",
                                         ["name"] = "AA_731_SU24_Sevoromorsk3_1-1",
                                         ["onboard_num"] = "018",
@@ -47039,7 +47557,7 @@ mission =
                                                 }, -- end of [8]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.29201640859304,
+                                        ["psi"] = -0.23306734064497,
                                         ["skill"] = "Excellent",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-24M",
@@ -47058,7 +47576,7 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Springfield12",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0,
+                                        ["heading"] = 0.23306734064497,
                                         ["livery_id"] = "af standard",
                                         ["name"] = "AA_731_SU24_Sevoromorsk3_1-2",
                                         ["onboard_num"] = "096",
@@ -47134,7 +47652,7 @@ mission =
                                                 }, -- end of [8]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0,
+                                        ["psi"] = -0.23306734064497,
                                         ["skill"] = "Excellent",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-24M",
@@ -47153,7 +47671,7 @@ mission =
                                             [3] = 3,
                                             ["name"] = "Springfield13",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0,
+                                        ["heading"] = 0.23306734064497,
                                         ["livery_id"] = "af standard",
                                         ["name"] = "AA_731_SU24_Sevoromorsk3_1-3",
                                         ["onboard_num"] = "097",
@@ -47229,7 +47747,7 @@ mission =
                                                 }, -- end of [8]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0,
+                                        ["psi"] = -0.23306734064497,
                                         ["skill"] = "Excellent",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-24M",
@@ -47248,7 +47766,7 @@ mission =
                                             [3] = 4,
                                             ["name"] = "Springfield14",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0,
+                                        ["heading"] = 0.23306734064497,
                                         ["livery_id"] = "af standard",
                                         ["name"] = "AA_731_SU24_Sevoromorsk3_1-4",
                                         ["onboard_num"] = "098",
@@ -47324,7 +47842,7 @@ mission =
                                                 }, -- end of [8]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0,
+                                        ["psi"] = -0.23306734064497,
                                         ["skill"] = "Excellent",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-24M",
@@ -54785,7 +55303,7 @@ mission =
                                         }, -- end of ["params"]
                                     }, -- end of [1]
                                 }, -- end of ["tasks"]
-                                ["uncontrolled"] = false,
+                                ["uncontrolled"] = true,
                                 ["units"] =
                                 {
                                     [1] =
@@ -64707,7 +65225,7 @@ mission =
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 12091.046779521,
+                                            ["ETA"] = 15838.853407427,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
@@ -64726,8 +65244,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 339436.50667346,
-                                            ["y"] = 470276.19198275,
+                                            ["x"] = 369994.61651053,
+                                            ["y"] = 490561.69819242,
                                         }, -- end of [2]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -64760,7 +65278,7 @@ mission =
                                     [1] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.16079161808065,
+                                        ["heading"] = 0.30428670370826,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_10th_Pyotr_veliky",
                                         ["skill"] = "Average",
@@ -64772,7 +65290,7 @@ mission =
                                     [2] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.16079161808065,
+                                        ["heading"] = 0.30428670370826,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 211_Rezky6_SAG_Pyotr_veliky",
                                         ["skill"] = "Average",
@@ -64784,7 +65302,7 @@ mission =
                                     [3] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.16079161808065,
+                                        ["heading"] = 0.30428670370826,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 211_Rezky5_SAG_Pyotr_veliky",
                                         ["skill"] = "Average",
@@ -64980,7 +65498,7 @@ mission =
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 7950.1501218534,
+                                            ["ETA"] = 5418.2640859093,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
@@ -64999,12 +65517,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 264413.57499909,
-                                            ["y"] = 416034.95072136,
+                                            ["x"] = 259045.10951258,
+                                            ["y"] = 419914.66411633,
                                         }, -- end of [2]
                                         [3] =
                                         {
-                                            ["ETA"] = 29502.687100803,
+                                            ["ETA"] = 13680.894096277,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
@@ -65023,8 +65541,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 312502.06777388,
-                                            ["y"] = 370170.09253383,
+                                            ["x"] = 239733.23580065,
+                                            ["y"] = 403298.3872223,
                                         }, -- end of [3]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -65038,7 +65556,7 @@ mission =
                                     [1] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.8666090986811,
+                                        ["heading"] = 5.9490465725059,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_10th_Moskva_2",
                                         ["skill"] = "Average",
@@ -65050,7 +65568,7 @@ mission =
                                     [2] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.8666090986811,
+                                        ["heading"] = 5.9490465725059,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 30th_Ropucha2_ATG",
                                         ["skill"] = "Average",
@@ -65062,7 +65580,7 @@ mission =
                                     [3] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.8666090986811,
+                                        ["heading"] = 5.9490465725059,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 30th_Ropucha1_ATG",
                                         ["skill"] = "Average",
@@ -65074,7 +65592,7 @@ mission =
                                     [4] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.8666090986811,
+                                        ["heading"] = 5.9490465725059,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 30th_Ropucha3_ATG_Ropucha",
                                         ["skill"] = "Average",
@@ -65086,7 +65604,7 @@ mission =
                                     [5] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.8666090986811,
+                                        ["heading"] = 5.9490465725059,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 212_Neustrashimy1_ATG1",
                                         ["skill"] = "Average",
@@ -65098,7 +65616,7 @@ mission =
                                     [6] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.8666090986811,
+                                        ["heading"] = 5.9490465725059,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 212_Neustrashimy2_ATG",
                                         ["skill"] = "Average",
@@ -111192,7 +111710,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 2396714,
+    ["currentKey"] = 2463322,
     ["date"] =
     {
         ["Day"] = 24,
@@ -118693,9 +119211,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 277024.26659135,
-        ["centerY"] = 401492.03742491,
-        ["zoom"] = 927210.34801669,
+        ["centerX"] = 200120.27286862,
+        ["centerY"] = 238703.62661325,
+        ["zoom"] = 1507422.5523945,
     }, -- end of ["map"]
     ["maxDictId"] = 20,
     ["pictureFileNameB"] =
@@ -118754,7 +119272,7 @@ mission =
         ["total"] = 0,
     }, -- end of ["result"]
     ["sortie"] = "DictKey_sortie_5",
-    ["start_time"] = 28500,
+    ["start_time"] = 21600,
     ["theatre"] = "Kola",
     ["trig"] =
     {
@@ -118798,8 +119316,10 @@ mission =
             [36] = "a_group_on(997); mission.trig.func[36]=nil;",
             [37] = "a_ai_task(1069, 1);a_ai_task(1070, 1); mission.trig.func[37]=nil;",
             [38] = "a_ai_task(1146, 1); mission.trig.func[38]=nil;",
-            [39] = "a_ai_task(1180, 1); mission.trig.func[39]=nil;",
-            [40] = "a_group_off(1179);a_group_off(1337); mission.trig.func[40]=nil;",
+            [39] = "a_ai_task(1235, 1); mission.trig.func[39]=nil;",
+            [40] = "a_ai_task(1180, 1); mission.trig.func[40]=nil;",
+            [41] = "a_ai_task(1232, 1); mission.trig.func[41]=nil;",
+            [42] = "a_group_off(1179);a_group_off(1337); mission.trig.func[42]=nil;",
         }, -- end of ["actions"]
         ["conditions"] =
         {
@@ -118841,8 +119361,10 @@ mission =
             [36] = "return(c_time_after(6300) )",
             [37] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"HELICOPTER\") )",
             [38] = "return(c_time_after(7100) )",
-            [39] = "return(c_time_after(7600) )",
-            [40] = "return(c_time_after(10) )",
+            [39] = "return(c_time_after(7100) )",
+            [40] = "return(c_time_after(7600) )",
+            [41] = "return(c_time_after(8000) )",
+            [42] = "return(c_time_after(10) )",
         }, -- end of ["conditions"]
         ["custom"] =
         {
@@ -118895,6 +119417,8 @@ mission =
             [38] = true,
             [39] = true,
             [40] = true,
+            [41] = true,
+            [42] = true,
         }, -- end of ["flag"]
         ["func"] =
         {
@@ -118936,6 +119460,8 @@ mission =
             [38] = "if mission.trig.conditions[38]() then mission.trig.actions[38]() end",
             [39] = "if mission.trig.conditions[39]() then mission.trig.actions[39]() end",
             [40] = "if mission.trig.conditions[40]() then mission.trig.actions[40]() end",
+            [41] = "if mission.trig.conditions[41]() then mission.trig.actions[41]() end",
+            [42] = "if mission.trig.conditions[42]() then mission.trig.actions[42]() end",
         }, -- end of ["func"]
         ["funcStartup"] =
         {
@@ -133725,6 +134251,27 @@ mission =
                 ["y"] = 203099.03722257,
                 ["zoneId"] = 7100,
             }, -- end of [615]
+            [616] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "SRN_ACP_Severomorsk3_FL150",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["type"] = 0,
+                ["x"] = 126698.33340184,
+                ["y"] = 455186.69479276,
+                ["zoneId"] = 7166,
+            }, -- end of [616]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] =
@@ -135824,6 +136371,33 @@ mission =
                 {
                     ["ai_task"] =
                     {
+                        [1] = 1235,
+                        [2] = 1,
+                    }, -- end of ["ai_task"]
+                    ["predicate"] = "a_ai_task",
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x00ffffff",
+            ["comment"] = "Move SU24 forward",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 7100,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [39]
+        [40] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["ai_task"] =
+                    {
                         [1] = 1180,
                         [2] = 1,
                     }, -- end of ["ai_task"]
@@ -135842,8 +136416,35 @@ mission =
                     ["seconds"] = 7600,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [39]
-        [40] =
+        }, -- end of [40]
+        [41] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["ai_task"] =
+                    {
+                        [1] = 1232,
+                        [2] = 1,
+                    }, -- end of ["ai_task"]
+                    ["predicate"] = "a_ai_task",
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x00ffffff",
+            ["comment"] = "Move MiG29 2 forward",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 8000,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [41]
+        [42] =
         {
             ["actions"] =
             {
@@ -135869,7 +136470,7 @@ mission =
                     ["seconds"] = 10,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [40]
+        }, -- end of [42]
     }, -- end of ["trigrules"]
     ["version"] = 23,
     ["weather"] =

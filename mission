@@ -29999,6 +29999,9 @@ mission =
                                         ["name"] = "FARP LONDON",
                                         ["rate"] = 100,
                                         ["shape_name"] = "invisiblefarp",
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
                                         ["type"] = "Invisible FARP",
                                         ["unitId"] = 914,
                                         ["x"] = 15661.880819337,
@@ -30120,6 +30123,9 @@ mission =
                                         ["heading"] = 2.5481807079117,
                                         ["name"] = "Static APC M113-8-1",
                                         ["rate"] = 10,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
                                         ["type"] = "M-113",
                                         ["unitId"] = 1622,
                                         ["x"] = 85453.624825975,
@@ -31414,7 +31420,7 @@ mission =
                             }, -- end of [36]
                             [37] =
                             {
-                                ["dead"] = false,
+                                ["dead"] = true,
                                 ["groupId"] = 1162,
                                 ["heading"] = 0.83775804095728,
                                 ["name"] = "Static MBT M1A2 Abrams-10",
@@ -31443,6 +31449,9 @@ mission =
                                         ["heading"] = 0.83775804095728,
                                         ["name"] = "Static MBT M1A2 Abrams-10-1",
                                         ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
                                         ["type"] = "M-1 Abrams",
                                         ["unitId"] = 2387,
                                         ["x"] = 80804.64668928,
@@ -31454,7 +31463,7 @@ mission =
                             }, -- end of [37]
                             [38] =
                             {
-                                ["dead"] = false,
+                                ["dead"] = true,
                                 ["groupId"] = 1163,
                                 ["heading"] = 0.47123889803847,
                                 ["name"] = "Static MBT M1A2 Abrams-11",
@@ -31483,6 +31492,9 @@ mission =
                                         ["heading"] = 0.47123889803847,
                                         ["name"] = "Static MBT M1A2 Abrams-11-1",
                                         ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
                                         ["type"] = "M-1 Abrams",
                                         ["unitId"] = 2388,
                                         ["x"] = 80773.858933042,
@@ -31494,7 +31506,7 @@ mission =
                             }, -- end of [38]
                             [39] =
                             {
-                                ["dead"] = false,
+                                ["dead"] = true,
                                 ["groupId"] = 1164,
                                 ["heading"] = 0.6457718232379,
                                 ["name"] = "Static MBT M1A2 Abrams-12",
@@ -31523,6 +31535,9 @@ mission =
                                         ["heading"] = 0.6457718232379,
                                         ["name"] = "Static MBT M1A2 Abrams-12-1",
                                         ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
                                         ["type"] = "M-1 Abrams",
                                         ["unitId"] = 2389,
                                         ["x"] = 80758.295891428,
@@ -31534,7 +31549,7 @@ mission =
                             }, -- end of [39]
                             [40] =
                             {
-                                ["dead"] = false,
+                                ["dead"] = true,
                                 ["groupId"] = 1165,
                                 ["heading"] = 0.6457718232379,
                                 ["name"] = "Static MBT M1A2 Abrams-13",
@@ -31563,6 +31578,9 @@ mission =
                                         ["heading"] = 0.6457718232379,
                                         ["name"] = "Static MBT M1A2 Abrams-13-1",
                                         ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
                                         ["type"] = "M-1 Abrams",
                                         ["unitId"] = 2390,
                                         ["x"] = 80665.406581919,
@@ -31574,7 +31592,7 @@ mission =
                             }, -- end of [40]
                             [41] =
                             {
-                                ["dead"] = false,
+                                ["dead"] = true,
                                 ["groupId"] = 1166,
                                 ["heading"] = 0.6457718232379,
                                 ["name"] = "Static MBT M1A2 Abrams-14",
@@ -31590,8 +31608,8 @@ mission =
                                             ["name"] = "",
                                             ["speed"] = 0,
                                             ["type"] = "",
-                                            ["x"] = 80654.098505164,
-                                            ["y"] = 200887.08476334,
+                                            ["x"] = 80653.548122715,
+                                            ["y"] = 200885.88877027,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -31603,18 +31621,21 @@ mission =
                                         ["heading"] = 0.6457718232379,
                                         ["name"] = "Static MBT M1A2 Abrams-14-1",
                                         ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
                                         ["type"] = "M-1 Abrams",
                                         ["unitId"] = 2391,
-                                        ["x"] = 80654.098505164,
-                                        ["y"] = 200887.08476334,
+                                        ["x"] = 80653.548122715,
+                                        ["y"] = 200885.88877027,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 80654.098505164,
-                                ["y"] = 200887.08476334,
+                                ["x"] = 80653.548122715,
+                                ["y"] = 200885.88877027,
                             }, -- end of [41]
                             [42] =
                             {
-                                ["dead"] = false,
+                                ["dead"] = true,
                                 ["groupId"] = 1167,
                                 ["heading"] = 1.0821041362365,
                                 ["name"] = "Static MBT M1A2 Abrams-15",
@@ -31643,6 +31664,9 @@ mission =
                                         ["heading"] = 1.0821041362365,
                                         ["name"] = "Static MBT M1A2 Abrams-15-1",
                                         ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
                                         ["type"] = "M-1 Abrams",
                                         ["unitId"] = 2392,
                                         ["x"] = 80643.579363996,
@@ -31723,6 +31747,9 @@ mission =
                                         ["heading"] = 1.0821041362365,
                                         ["name"] = "Static MBT M1A2 Abrams-17-1",
                                         ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
                                         ["type"] = "M-1 Abrams",
                                         ["unitId"] = 2394,
                                         ["x"] = 80531.81346161,
@@ -31812,6 +31839,182 @@ mission =
                                 ["x"] = 81041.565671427,
                                 ["y"] = 199506.94676133,
                             }, -- end of [46]
+                            [47] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1339,
+                                ["heading"] = 0,
+                                ["name"] = "FARP MADRID",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 59963.577602112,
+                                            ["y"] = 200254.57452558,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Heliports",
+                                        ["heading"] = 0,
+                                        ["heliport_callsign_id"] = 7,
+                                        ["heliport_frequency"] = "126.35",
+                                        ["heliport_modulation"] = 0,
+                                        ["name"] = "FARP MADRID",
+                                        ["rate"] = 100,
+                                        ["shape_name"] = "invisiblefarp",
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "Invisible FARP",
+                                        ["unitId"] = 2784,
+                                        ["x"] = 59963.577602112,
+                                        ["y"] = 200254.57452558,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 59963.577602112,
+                                ["y"] = 200254.57452558,
+                            }, -- end of [47]
+                            [48] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1341,
+                                ["heading"] = 3.8048177693476,
+                                ["name"] = "Static MBT M1A2 Abrams-20",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 77944.175498732,
+                                            ["y"] = 195643.21046518,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 3.8048177693476,
+                                        ["name"] = "Static MBT M1A2 Abrams-20-1",
+                                        ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "M-1 Abrams",
+                                        ["unitId"] = 2788,
+                                        ["x"] = 77944.175498732,
+                                        ["y"] = 195643.21046518,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 77944.175498732,
+                                ["y"] = 195643.21046518,
+                            }, -- end of [48]
+                            [49] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1342,
+                                ["heading"] = 3.8048177693476,
+                                ["name"] = "Static MBT M1A2 Abrams-21",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 77994.358490612,
+                                            ["y"] = 195691.25387214,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 3.8048177693476,
+                                        ["name"] = "Static MBT M1A2 Abrams-21-1",
+                                        ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "M-1 Abrams",
+                                        ["unitId"] = 2789,
+                                        ["x"] = 77994.358490612,
+                                        ["y"] = 195691.25387214,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 77994.358490612,
+                                ["y"] = 195691.25387214,
+                            }, -- end of [49]
+                            [50] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1343,
+                                ["heading"] = 3.8048177693476,
+                                ["name"] = "Static MBT M1A2 Abrams-22",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 77966.932902027,
+                                            ["y"] = 195667.03766094,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 3.8048177693476,
+                                        ["name"] = "Static MBT M1A2 Abrams-22-1",
+                                        ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "M-1 Abrams",
+                                        ["unitId"] = 2790,
+                                        ["x"] = 77966.932902027,
+                                        ["y"] = 195667.03766094,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 77966.932902027,
+                                ["y"] = 195667.03766094,
+                            }, -- end of [50]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["vehicle"] =
@@ -32059,7 +32262,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 149,
+                                            ["alt"] = 144,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -32094,8 +32297,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 80792.48595039,
-                                            ["y"] = 200961.30847196,
+                                            ["x"] = 80544.74575444,
+                                            ["y"] = 199335.88420659,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -32120,20 +32323,20 @@ mission =
                                         ["skill"] = "Excellent",
                                         ["type"] = "M1043 HMMWV Armament",
                                         ["unitId"] = 2384,
-                                        ["x"] = 80792.48595039,
-                                        ["y"] = 200961.30847196,
+                                        ["x"] = 80544.74575444,
+                                        ["y"] = 199335.88420659,
                                     }, -- end of [1]
                                     [2] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 0,
+                                        ["heading"] = 3.6320301734002,
                                         ["name"] = "Friendly forces_MBT-1-2",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Excellent",
                                         ["type"] = "M1043 HMMWV Armament",
                                         ["unitId"] = 2385,
-                                        ["x"] = 79662.361540176,
-                                        ["y"] = 200705.34398072,
+                                        ["x"] = 78016.726878465,
+                                        ["y"] = 195706.81448977,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -32144,14 +32347,134 @@ mission =
                                         ["skill"] = "Excellent",
                                         ["type"] = "M1043 HMMWV Armament",
                                         ["unitId"] = 2386,
-                                        ["x"] = 80626.521874996,
-                                        ["y"] = 200866.80326806,
+                                        ["x"] = 81039.210465947,
+                                        ["y"] = 199471.16829139,
                                     }, -- end of [3]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 80792.48595039,
-                                ["y"] = 200961.30847196,
+                                ["x"] = 80544.74575444,
+                                ["y"] = 199335.88420659,
                             }, -- end of [3]
+                            [4] =
+                            {
+                                ["groupId"] = 1340,
+                                ["hidden"] = false,
+                                ["name"] = "FARP LONDON Vehicles-1",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 316,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["groupId"] = 5,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 59982.476429031,
+                                            ["y"] = 200247.14407844,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                        [1] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["x"] = 59982.476429031,
+                                                ["y"] = 200247.14407844,
+                                            }, -- end of [1]
+                                            [2] =
+                                            {
+                                                ["x"] = 59982.476429031,
+                                                ["y"] = 200247.14407844,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 5.3756140961425,
+                                        ["name"] = "FARP LONDON Vehicles-1-1",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "M1043 HMMWV Armament",
+                                        ["unitId"] = 2785,
+                                        ["x"] = 59982.476429031,
+                                        ["y"] = 200247.14407844,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 6.16101225954,
+                                        ["name"] = "FARP LONDON Vehicles-1-2",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "M978 HEMTT Tanker",
+                                        ["unitId"] = 2786,
+                                        ["x"] = 59937.762333108,
+                                        ["y"] = 200225.6360323,
+                                    }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 3.4557519189488,
+                                        ["name"] = "FARP LONDON Vehicles-1-3",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "M 818",
+                                        ["unitId"] = 2787,
+                                        ["x"] = 59955.874371963,
+                                        ["y"] = 200227.61703655,
+                                    }, -- end of [3]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 59982.476429031,
+                                ["y"] = 200247.14407844,
+                            }, -- end of [4]
                         }, -- end of ["group"]
                     }, -- end of ["vehicle"]
                 }, -- end of [2]
@@ -40823,8 +41146,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 5188.6815889982,
-                                            ["y"] = 460167.42405484,
+                                            ["x"] = 5188.6796543712,
+                                            ["y"] = 460167.40305427,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -40847,8 +41170,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "SNR_75V",
                                         ["unitId"] = 114,
-                                        ["x"] = 5188.6815889982,
-                                        ["y"] = 460167.42405484,
+                                        ["x"] = 5188.6796543712,
+                                        ["y"] = 460167.40305427,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -40859,8 +41182,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "S_75M_Volhov",
                                         ["unitId"] = 115,
-                                        ["x"] = 5267.7806507682,
-                                        ["y"] = 460120.32735744,
+                                        ["x"] = 5267.7787161412,
+                                        ["y"] = 460120.30635687,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -40871,8 +41194,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "S_75M_Volhov",
                                         ["unitId"] = 116,
-                                        ["x"] = 5188.8997958682,
-                                        ["y"] = 460274.22458733,
+                                        ["x"] = 5188.8978612412,
+                                        ["y"] = 460274.20358676,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -40883,8 +41206,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "S_75M_Volhov",
                                         ["unitId"] = 117,
-                                        ["x"] = 5186.8538947282,
-                                        ["y"] = 460069.17982905,
+                                        ["x"] = 5186.8519601012,
+                                        ["y"] = 460069.15882848,
                                     }, -- end of [4]
                                     [5] =
                                     {
@@ -40895,8 +41218,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "S_75M_Volhov",
                                         ["unitId"] = 118,
-                                        ["x"] = 5103.4265928582,
-                                        ["y"] = 460120.55467979,
+                                        ["x"] = 5103.4246582312,
+                                        ["y"] = 460120.53367922,
                                     }, -- end of [5]
                                     [6] =
                                     {
@@ -40907,8 +41230,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "S_75M_Volhov",
                                         ["unitId"] = 119,
-                                        ["x"] = 5100.9260470282,
-                                        ["y"] = 460225.35028241,
+                                        ["x"] = 5100.9241124012,
+                                        ["y"] = 460225.32928184,
                                     }, -- end of [6]
                                     [7] =
                                     {
@@ -40919,8 +41242,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "S_75M_Volhov",
                                         ["unitId"] = 120,
-                                        ["x"] = 5269.3719072082,
-                                        ["y"] = 460221.71312484,
+                                        ["x"] = 5269.3699725812,
+                                        ["y"] = 460221.69212427,
                                     }, -- end of [7]
                                     [8] =
                                     {
@@ -40931,8 +41254,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "p-19 s-125 sr",
                                         ["unitId"] = 121,
-                                        ["x"] = 5202.6037857486,
-                                        ["y"] = 460184.92519897,
+                                        ["x"] = 5202.6018511216,
+                                        ["y"] = 460184.9041984,
                                     }, -- end of [8]
                                     [9] =
                                     {
@@ -40943,8 +41266,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "GAZ-66",
                                         ["unitId"] = 122,
-                                        ["x"] = 5159.3241738568,
-                                        ["y"] = 460148.34148444,
+                                        ["x"] = 5159.3222392298,
+                                        ["y"] = 460148.32048387,
                                     }, -- end of [9]
                                     [10] =
                                     {
@@ -40955,13 +41278,13 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "GAZ-66",
                                         ["unitId"] = 123,
-                                        ["x"] = 5163.1032107773,
-                                        ["y"] = 460151.51099928,
+                                        ["x"] = 5163.1012761503,
+                                        ["y"] = 460151.48999871,
                                     }, -- end of [10]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 5188.6815889982,
-                                ["y"] = 460167.42405484,
+                                ["x"] = 5188.6796543712,
+                                ["y"] = 460167.40305427,
                             }, -- end of [4]
                             [5] =
                             {
@@ -65380,12 +65703,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 269043.19922387,
-                                            ["y"] = 458858.97480053,
+                                            ["x"] = 354091.47707523,
+                                            ["y"] = 526892.77390512,
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 15838.853407427,
+                                            ["ETA"] = 17848.816540043,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
@@ -65404,8 +65727,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 369994.61651053,
-                                            ["y"] = 490561.69819242,
+                                            ["x"] = 462462.92495535,
+                                            ["y"] = 576630.1782163,
                                         }, -- end of [2]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -65438,43 +65761,43 @@ mission =
                                     [1] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.30428670370823,
+                                        ["heading"] = 0.4302742750413,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_10th_Pyotr_veliky",
                                         ["skill"] = "Average",
                                         ["type"] = "PIOTR",
                                         ["unitId"] = 284,
-                                        ["x"] = 269043.19922387,
-                                        ["y"] = 458858.97480053,
+                                        ["x"] = 354091.47707523,
+                                        ["y"] = 526892.77390512,
                                     }, -- end of [1]
                                     [2] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.30428670370823,
+                                        ["heading"] = 0.4302742750413,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 211_Rezky6_SAG_Pyotr_veliky",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 283,
-                                        ["x"] = 273130.54454476,
-                                        ["y"] = 459892.29975833,
+                                        ["x"] = 358178.82239612,
+                                        ["y"] = 527926.09886292,
                                     }, -- end of [2]
                                     [3] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.30428670370823,
+                                        ["heading"] = 0.4302742750413,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 211_Rezky5_SAG_Pyotr_veliky",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 282,
-                                        ["x"] = 265213.33862232,
-                                        ["y"] = 457667.20266901,
+                                        ["x"] = 350261.61647368,
+                                        ["y"] = 525701.0017736,
                                     }, -- end of [3]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 269043.19922387,
-                                ["y"] = 458858.97480053,
+                                ["x"] = 354091.47707523,
+                                ["y"] = 526892.77390512,
                             }, -- end of [1]
                             [2] =
                             {
@@ -65508,12 +65831,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 242352.59421209,
-                                            ["y"] = 457405.54210566,
+                                            ["x"] = 286898.63935231,
+                                            ["y"] = 470858.3135658,
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 26478.895553238,
+                                            ["ETA"] = 22236.081257552,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
@@ -65532,8 +65855,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 333478.27277799,
-                                            ["y"] = 499641.77332472,
+                                            ["x"] = 411883.27871025,
+                                            ["y"] = 457508.02070447,
                                         }, -- end of [2]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -65547,79 +65870,79 @@ mission =
                                     [1] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.4340189368655,
+                                        ["heading"] = 6.1767733183338,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_CV_RUS_CSG_CV",
                                         ["skill"] = "Average",
                                         ["type"] = "CV_1143_5",
                                         ["unitId"] = 2359,
-                                        ["x"] = 242352.59421209,
-                                        ["y"] = 457405.54210566,
+                                        ["x"] = 286898.63935231,
+                                        ["y"] = 470858.3135658,
                                     }, -- end of [1]
                                     [2] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.4340189368655,
+                                        ["heading"] = 6.1767733183338,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 211_Rezky2_CSG_Rezky",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 2358,
-                                        ["x"] = 237732.67943475,
-                                        ["y"] = 457722.47888701,
+                                        ["x"] = 282278.72457497,
+                                        ["y"] = 471175.25034715,
                                     }, -- end of [2]
                                     [3] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.4340189368655,
+                                        ["heading"] = 6.1767733183338,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 211_Rezky4_CSG",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 2357,
-                                        ["x"] = 249737.85442828,
-                                        ["y"] = 455290.39602194,
+                                        ["x"] = 294283.8995685,
+                                        ["y"] = 468743.16748208,
                                     }, -- end of [3]
                                     [4] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.4340189368655,
+                                        ["heading"] = 6.1767733183338,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 211_Rezky3_CSG_Rezky",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 2356,
-                                        ["x"] = 245184.16736177,
-                                        ["y"] = 464863.4881504,
+                                        ["x"] = 289730.21250199,
+                                        ["y"] = 478316.25961054,
                                     }, -- end of [4]
                                     [5] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.4340189368655,
+                                        ["heading"] = 6.1767733183338,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_10th_Moskva_1",
                                         ["skill"] = "Average",
                                         ["type"] = "MOSCOW",
                                         ["unitId"] = 2355,
-                                        ["x"] = 243182.82278482,
-                                        ["y"] = 455629.77543622,
+                                        ["x"] = 287728.86792504,
+                                        ["y"] = 469082.54689636,
                                     }, -- end of [5]
                                     [6] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.4340189368655,
+                                        ["heading"] = 6.1767733183338,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 211_Rezky1_CSG_Rezky",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 2354,
-                                        ["x"] = 239750.79074832,
-                                        ["y"] = 451719.89139025,
+                                        ["x"] = 284296.83588854,
+                                        ["y"] = 465172.66285039,
                                     }, -- end of [6]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 242352.59421209,
-                                ["y"] = 457405.54210566,
+                                ["x"] = 286898.63935231,
+                                ["y"] = 470858.3135658,
                             }, -- end of [2]
                             [3] =
                             {
@@ -90088,6 +90411,9 @@ mission =
                                         ["heading"] = 5.2883476335428,
                                         ["name"] = "Static IFV BMP-3-56-1",
                                         ["rate"] = 15,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
                                         ["type"] = "BMP-3",
                                         ["unitId"] = 2180,
                                         ["x"] = 66176.604512913,
@@ -90217,6 +90543,9 @@ mission =
                                         ["heading"] = 3.6477381366681,
                                         ["name"] = "Static SPAAA ZSU-23-4 Shilka \"Gun Dish\"-1",
                                         ["rate"] = 10,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
                                         ["type"] = "ZSU-23-4 Shilka",
                                         ["unitId"] = 2183,
                                         ["x"] = 66204.758452249,
@@ -90260,6 +90589,9 @@ mission =
                                         ["heading"] = 3.6477381366681,
                                         ["name"] = "Static SPAAA ZSU-23-4 Shilka \"Gun Dish\"-2-1",
                                         ["rate"] = 10,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
                                         ["type"] = "ZSU-23-4 Shilka",
                                         ["unitId"] = 2184,
                                         ["x"] = 71114.056360978,
@@ -96202,8 +96534,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "SA-11 Buk LN 9A310M1",
                                         ["unitId"] = 506,
-                                        ["x"] = -15037.552583804,
-                                        ["y"] = 433828.83373577,
+                                        ["x"] = -14948.307094832,
+                                        ["y"] = 433710.84717071,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -104115,7 +104447,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 206,
+                                            ["alt"] = 217,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 2.5694444444444,
@@ -104131,8 +104463,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 71134.833939221,
-                                            ["y"] = 217168.39903279,
+                                            ["x"] = 72470.625207705,
+                                            ["y"] = 206875.49962032,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -104141,13 +104473,13 @@ mission =
                                         {
                                             [1] =
                                             {
-                                                ["x"] = 71134.833939221,
-                                                ["y"] = 217168.39903279,
+                                                ["x"] = 72470.625207705,
+                                                ["y"] = 206875.49962032,
                                             }, -- end of [1]
                                             [2] =
                                             {
-                                                ["x"] = 71134.833939221,
-                                                ["y"] = 217168.39903279,
+                                                ["x"] = 72470.625207705,
+                                                ["y"] = 206875.49962032,
                                             }, -- end of [2]
                                         }, -- end of [1]
                                     }, -- end of ["spans"]
@@ -104168,8 +104500,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "BMP-3",
                                         ["unitId"] = 1189,
-                                        ["x"] = 71134.833939221,
-                                        ["y"] = 217168.39903279,
+                                        ["x"] = 72470.625207705,
+                                        ["y"] = 206875.49962032,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -104180,32 +104512,32 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "BMP-3",
                                         ["unitId"] = 1190,
-                                        ["x"] = 71086.212977441,
-                                        ["y"] = 217133.66977437,
+                                        ["x"] = 72429.724677394,
+                                        ["y"] = 206833.66792794,
                                     }, -- end of [2]
                                     [3] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 4.310963252426,
+                                        ["heading"] = 3.708824660488,
                                         ["name"] = "1C_11_DIV_BMP3_Coy-4",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "BMP-3",
                                         ["unitId"] = 1191,
-                                        ["x"] = 71196.714453346,
-                                        ["y"] = 217286.97130797,
+                                        ["x"] = 73634.030412885,
+                                        ["y"] = 208258.40551733,
                                     }, -- end of [3]
                                     [4] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 4.3296454705394,
+                                        ["heading"] = 2.761110876655,
                                         ["name"] = "1C_11_DIV_BMP3_Coy-5",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "BMP-3",
                                         ["unitId"] = 1192,
-                                        ["x"] = 71162.756498904,
-                                        ["y"] = 217283.68808033,
+                                        ["x"] = 73617.996126431,
+                                        ["y"] = 208268.8520979,
                                     }, -- end of [4]
                                     [5] =
                                     {
@@ -104216,8 +104548,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "BMP-3",
                                         ["unitId"] = 1193,
-                                        ["x"] = 71202.436650089,
-                                        ["y"] = 217318.49029331,
+                                        ["x"] = 73626.256213392,
+                                        ["y"] = 208234.59703138,
                                     }, -- end of [5]
                                     [6] =
                                     {
@@ -104228,61 +104560,61 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "BMP-3",
                                         ["unitId"] = 1194,
-                                        ["x"] = 71101.19841146,
-                                        ["y"] = 217184.33390901,
+                                        ["x"] = 72436.320938001,
+                                        ["y"] = 206893.40073232,
                                     }, -- end of [6]
                                     [7] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 4.7123889803847,
+                                        ["heading"] = 4.2184608020703,
                                         ["name"] = "1C_11_DIV_BMP3_Coy-8",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "BMP-3",
                                         ["unitId"] = 1195,
-                                        ["x"] = 71111.669658365,
-                                        ["y"] = 217194.36761546,
+                                        ["x"] = 74096.583142296,
+                                        ["y"] = 209878.71462645,
                                     }, -- end of [7]
                                     [8] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 4.6425758103049,
+                                        ["heading"] = 4.2865286428981,
                                         ["name"] = "1C_11_DIV_BMP3_Coy-9",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "BMP-3",
                                         ["unitId"] = 1196,
-                                        ["x"] = 71099.979818264,
-                                        ["y"] = 217210.87012816,
+                                        ["x"] = 74046.933064665,
+                                        ["y"] = 209755.90941465,
                                     }, -- end of [8]
                                     [9] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 5.2010811709431,
+                                        ["heading"] = 4.3319072034499,
                                         ["name"] = "1C_11_DIV_BMP3_Coy-10",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "Ural-375",
                                         ["unitId"] = 1197,
-                                        ["x"] = 69294.939495891,
-                                        ["y"] = 225082.73320027,
+                                        ["x"] = 74078.304068107,
+                                        ["y"] = 209843.1101689,
                                     }, -- end of [9]
                                     [10] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 5.846852994181,
+                                        ["heading"] = 4.4854961776254,
                                         ["name"] = "1C_11_DIV_BMP3_Coy-11",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "High",
                                         ["type"] = "ATMZ-5",
                                         ["unitId"] = 1198,
-                                        ["x"] = 69398.41201957,
-                                        ["y"] = 225321.80176826,
+                                        ["x"] = 74060.978684745,
+                                        ["y"] = 209796.22036989,
                                     }, -- end of [10]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 71134.833939221,
-                                ["y"] = 217168.39903279,
+                                ["x"] = 72470.625207705,
+                                ["y"] = 206875.49962032,
                             }, -- end of [76]
                             [77] =
                             {
@@ -104316,8 +104648,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 72586.656654767,
-                                            ["y"] = 203502.37825378,
+                                            ["x"] = 72593.528952004,
+                                            ["y"] = 203502.9176076,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -104326,13 +104658,13 @@ mission =
                                         {
                                             [1] =
                                             {
-                                                ["x"] = 72586.656654767,
-                                                ["y"] = 203502.37825378,
+                                                ["x"] = 72593.528952004,
+                                                ["y"] = 203502.9176076,
                                             }, -- end of [1]
                                             [2] =
                                             {
-                                                ["x"] = 72586.656654767,
-                                                ["y"] = 203502.37825378,
+                                                ["x"] = 72593.528952004,
+                                                ["y"] = 203502.9176076,
                                             }, -- end of [2]
                                         }, -- end of [1]
                                     }, -- end of ["spans"]
@@ -104353,8 +104685,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "BMP-3",
                                         ["unitId"] = 1199,
-                                        ["x"] = 72586.656654767,
-                                        ["y"] = 203502.37825378,
+                                        ["x"] = 72593.528952004,
+                                        ["y"] = 203502.9176076,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -104365,8 +104697,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "BMP-3",
                                         ["unitId"] = 1200,
-                                        ["x"] = 72529.610608297,
-                                        ["y"] = 203517.28801593,
+                                        ["x"] = 72536.482905534,
+                                        ["y"] = 203517.82736975,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -104377,8 +104709,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "BMP-3",
                                         ["unitId"] = 1201,
-                                        ["x"] = 72601.080229017,
-                                        ["y"] = 203521.50164436,
+                                        ["x"] = 72607.952526254,
+                                        ["y"] = 203522.04099818,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -104389,8 +104721,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "BMP-3",
                                         ["unitId"] = 1202,
-                                        ["x"] = 72632.844504892,
-                                        ["y"] = 203623.11491464,
+                                        ["x"] = 72635.424186536,
+                                        ["y"] = 203618.208253,
                                     }, -- end of [4]
                                     [5] =
                                     {
@@ -104401,8 +104733,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "BMP-3",
                                         ["unitId"] = 1203,
-                                        ["x"] = 72716.306760381,
-                                        ["y"] = 203603.34327353,
+                                        ["x"] = 72725.987193513,
+                                        ["y"] = 203596.15812956,
                                     }, -- end of [5]
                                     [6] =
                                     {
@@ -104413,8 +104745,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "BMP-3",
                                         ["unitId"] = 1204,
-                                        ["x"] = 73156.996811222,
-                                        ["y"] = 205609.01274704,
+                                        ["x"] = 73159.448013443,
+                                        ["y"] = 205607.22082871,
                                     }, -- end of [6]
                                     [7] =
                                     {
@@ -104425,8 +104757,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "BMP-3",
                                         ["unitId"] = 1205,
-                                        ["x"] = 73182.602438176,
-                                        ["y"] = 205607.10594503,
+                                        ["x"] = 73198.199557497,
+                                        ["y"] = 205565.6492492,
                                     }, -- end of [7]
                                     [8] =
                                     {
@@ -104437,8 +104769,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "BMP-3",
                                         ["unitId"] = 1206,
-                                        ["x"] = 72658.936588647,
-                                        ["y"] = 203618.41509831,
+                                        ["x"] = 72665.808885884,
+                                        ["y"] = 203618.95445213,
                                     }, -- end of [8]
                                     [9] =
                                     {
@@ -104449,13 +104781,13 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "BMP-3",
                                         ["unitId"] = 1207,
-                                        ["x"] = 73203.032459681,
-                                        ["y"] = 205643.33518317,
+                                        ["x"] = 73202.77070815,
+                                        ["y"] = 205642.95006217,
                                     }, -- end of [9]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 72586.656654767,
-                                ["y"] = 203502.37825378,
+                                ["x"] = 72593.528952004,
+                                ["y"] = 203502.9176076,
                             }, -- end of [77]
                             [78] =
                             {
@@ -105410,7 +105742,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 121,
+                                            ["alt"] = 136,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 2.5694444444444,
@@ -105426,8 +105758,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 85435.562888094,
-                                            ["y"] = 202787.41834178,
+                                            ["x"] = 81290.060394916,
+                                            ["y"] = 201895.14061533,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -105436,13 +105768,13 @@ mission =
                                         {
                                             [1] =
                                             {
-                                                ["x"] = 85435.562888094,
-                                                ["y"] = 202787.41834178,
+                                                ["x"] = 81290.060394916,
+                                                ["y"] = 201895.14061533,
                                             }, -- end of [1]
                                             [2] =
                                             {
-                                                ["x"] = 85435.562888094,
-                                                ["y"] = 202787.41834178,
+                                                ["x"] = 81290.060394916,
+                                                ["y"] = 201895.14061533,
                                             }, -- end of [2]
                                         }, -- end of [1]
                                     }, -- end of ["spans"]
@@ -105457,110 +105789,110 @@ mission =
                                     [1] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 3.0856510823564,
+                                        ["heading"] = 3.993313328563,
                                         ["name"] = "1C_10DIV_T80_Coy-2_MOVING-1",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1265,
-                                        ["x"] = 85435.562888094,
-                                        ["y"] = 202787.41834178,
+                                        ["x"] = 81290.060394916,
+                                        ["y"] = 201895.14061533,
                                     }, -- end of [1]
                                     [2] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 3.0856510823564,
+                                        ["heading"] = 3.6058502346203,
                                         ["name"] = "1C_10DIV_T80_Coy-2_MOVING-2",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1266,
-                                        ["x"] = 85451.512093378,
-                                        ["y"] = 202765.99913903,
+                                        ["x"] = 81279.579201843,
+                                        ["y"] = 201863.52234956,
                                     }, -- end of [2]
                                     [3] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 2.8274333882308,
+                                        ["heading"] = 3.9269908169872,
                                         ["name"] = "1C_10DIV_T80_Coy-2_MOVING-3",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1267,
-                                        ["x"] = 85497.07389388,
-                                        ["y"] = 202810.47426863,
+                                        ["x"] = 81324.82301861,
+                                        ["y"] = 201942.30598416,
                                     }, -- end of [3]
                                     [4] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 3.0054569719342,
+                                        ["heading"] = 3.6407568196602,
                                         ["name"] = "1C_10DIV_T80_Coy-2_MOVING-4",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1268,
-                                        ["x"] = 85237.782244122,
-                                        ["y"] = 199917.16668338,
+                                        ["x"] = 80945.958232569,
+                                        ["y"] = 201121.07694437,
                                     }, -- end of [4]
                                     [5] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 3.2079151651656,
+                                        ["heading"] = 3.5465090400525,
                                         ["name"] = "1C_10DIV_T80_Coy-2_MOVING-5",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1269,
-                                        ["x"] = 85226.729068478,
-                                        ["y"] = 199868.51357801,
+                                        ["x"] = 80986.444264831,
+                                        ["y"] = 201145.10370183,
                                     }, -- end of [5]
                                     [6] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 3.8746309394274,
+                                        ["heading"] = 5.534439058074,
                                         ["name"] = "1C_10DIV_T80_Coy-2_MOVING-6",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1270,
-                                        ["x"] = 85233.093497755,
-                                        ["y"] = 199914.39050572,
+                                        ["x"] = 81001.948677617,
+                                        ["y"] = 201198.28829013,
                                     }, -- end of [6]
                                     [7] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 5.2010811709431,
+                                        ["heading"] = 4.003785304075,
                                         ["name"] = "1C_10DIV_T80_Coy-2_MOVING-7",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1271,
-                                        ["x"] = 84629.441599372,
-                                        ["y"] = 202842.84464144,
+                                        ["x"] = 80778.173776937,
+                                        ["y"] = 200991.57814082,
                                     }, -- end of [7]
                                     [8] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 3.7175513067479,
+                                        ["heading"] = 4.7595128701885,
                                         ["name"] = "1C_10DIV_T80_Coy-2_MOVING-8",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1272,
-                                        ["x"] = 84661.661384305,
-                                        ["y"] = 202858.21357105,
+                                        ["x"] = 80811.053899015,
+                                        ["y"] = 200961.43802891,
                                     }, -- end of [8]
                                     [9] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 1.0995574287564,
+                                        ["heading"] = 5.1609385981472,
                                         ["name"] = "1C_10DIV_T80_Coy-2_MOVING-9",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "T-80UD",
                                         ["unitId"] = 1273,
-                                        ["x"] = 84659.048425882,
-                                        ["y"] = 202852.1941656,
+                                        ["x"] = 80782.96879474,
+                                        ["y"] = 200958.69801874,
                                     }, -- end of [9]
                                     [10] =
                                     {
@@ -105571,8 +105903,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "Ural-375",
                                         ["unitId"] = 1274,
-                                        ["x"] = 85929.714975755,
-                                        ["y"] = 202788.21647134,
+                                        ["x"] = 81784.212482577,
+                                        ["y"] = 201895.93874489,
                                     }, -- end of [10]
                                     [11] =
                                     {
@@ -105583,13 +105915,13 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "ATMZ-5",
                                         ["unitId"] = 1275,
-                                        ["x"] = 85975.266814283,
-                                        ["y"] = 202776.21274962,
+                                        ["x"] = 81829.764321105,
+                                        ["y"] = 201883.93502317,
                                     }, -- end of [11]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 85435.562888094,
-                                ["y"] = 202787.41834178,
+                                ["x"] = 81290.060394916,
+                                ["y"] = 201895.14061533,
                             }, -- end of [83]
                             [84] =
                             {
@@ -108198,8 +108530,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 72684.704547138,
-                                            ["y"] = 203607.88102723,
+                                            ["x"] = 72683.461955454,
+                                            ["y"] = 203605.92318423,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -108224,8 +108556,8 @@ mission =
                                         ["skill"] = "Excellent",
                                         ["type"] = "ZSU-23-4 Shilka",
                                         ["unitId"] = 1986,
-                                        ["x"] = 72684.704547138,
-                                        ["y"] = 203607.88102723,
+                                        ["x"] = 72683.461955454,
+                                        ["y"] = 203605.92318423,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -108236,8 +108568,8 @@ mission =
                                         ["skill"] = "Excellent",
                                         ["type"] = "ZSU-23-4 Shilka",
                                         ["unitId"] = 1987,
-                                        ["x"] = 78651.131152342,
-                                        ["y"] = 220192.63575636,
+                                        ["x"] = 78649.888560658,
+                                        ["y"] = 220190.67791336,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -108248,13 +108580,13 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "GAZ-66",
                                         ["unitId"] = 1988,
-                                        ["x"] = 72690.376739258,
-                                        ["y"] = 203621.17016305,
+                                        ["x"] = 72689.134147574,
+                                        ["y"] = 203619.21232005,
                                     }, -- end of [3]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 72684.704547138,
-                                ["y"] = 203607.88102723,
+                                ["x"] = 72683.461955454,
+                                ["y"] = 203605.92318423,
                             }, -- end of [104]
                             [105] =
                             {
@@ -111870,7 +112202,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 2519814,
+    ["currentKey"] = 2632461,
     ["date"] =
     {
         ["Day"] = 24,
@@ -119371,9 +119703,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 75193.823872412,
-        ["centerY"] = 489470.8942579,
-        ["zoom"] = 579153.01030583,
+        ["centerX"] = 282018.88156008,
+        ["centerY"] = 98056.105340237,
+        ["zoom"] = 2113787.7540312,
     }, -- end of ["map"]
     ["maxDictId"] = 20,
     ["pictureFileNameB"] =
@@ -119454,32 +119786,33 @@ mission =
             [14] = "a_explosion(6623, 1, 750);a_explosion(6624, 1, 750);a_explosion(6625, 1, 750);a_explosion(6626, 1, 750);a_explosion(6622, 1, 750);a_explosion(6620, 1, 750);a_explosion(6621, 1, 750);a_explosion(6617, 1, 750);a_explosion(6618, 1, 750);a_explosion(6619, 1, 750);a_explosion(6612, 1, 750);a_explosion(6615, 1, 750);a_explosion(6616, 1, 750);a_explosion(6613, 1, 750);a_explosion(6614, 1, 750);a_explosion(6609, 1, 750);a_explosion(6610, 1, 750);a_explosion(6611, 1, 750); mission.trig.func[14]=nil;",
             [15] = "a_explosion(6758, 1, 750);a_explosion(6759, 1, 750);a_explosion(6825, 1, 750);a_explosion(6826, 1, 750); mission.trig.func[15]=nil;",
             [16] = "a_explosion(6958, 1, 2000);a_explosion(6959, 1, 2000);a_explosion(7100, 1, 750);a_explosion(7034, 1, 750);a_explosion(7033, 1, 750);a_explosion(7032, 1, 750);a_explosion(7028, 1, 750);a_explosion(7029, 1, 750);a_explosion(7030, 1, 750);a_explosion(7025, 1, 750);a_explosion(7026, 1, 750);a_explosion(7027, 1, 750);a_explosion(7031, 1, 750); mission.trig.func[16]=nil;",
-            [17] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_15\")); mission.trig.func[17]=nil;",
-            [18] = "a_group_off(760);a_group_off(387);a_group_off(390);a_group_off(389);a_group_off(386);a_group_off(388);a_group_off(356);a_group_off(362);a_group_off(925);a_group_off(355);a_group_off(361);a_group_off(352);a_group_off(248);a_group_off(228);a_group_off(224);a_group_off(255);a_group_off(759);a_group_off(383);a_group_off(385);a_group_off(384);a_group_off(902);a_group_off(363); mission.trig.func[18]=nil;",
-            [19] = "a_group_off(409);a_group_off(749);a_group_off(761);a_group_off(353);a_group_off(354);a_group_off(359);a_group_off(360);a_group_off(366);a_group_off(373);a_group_off(378);a_group_off(350);a_group_off(358);a_group_off(432);a_group_off(259);a_group_off(258);a_group_off(301);a_group_off(317);a_group_off(365);a_group_off(33);a_group_off(368);a_group_off(369);a_group_off(367); mission.trig.func[19]=nil;",
-            [20] = "a_ai_task(403, 1);a_ai_task(542, 1); mission.trig.func[20]=nil;",
-            [21] = "a_ai_task(400, 1); mission.trig.func[21]=nil;",
-            [22] = "a_ai_task(1216, 1); mission.trig.func[22]=nil;",
-            [23] = "a_ai_task(952, 1); mission.trig.func[23]=nil;",
-            [24] = "a_group_on(749);a_group_on(1065);a_group_on(761);a_group_on(759);a_group_on(916);a_group_on(760);a_group_on(384); mission.trig.func[24]=nil;",
-            [25] = "a_group_on(763); mission.trig.func[25]=nil;",
-            [26] = "a_group_on(764); mission.trig.func[26]=nil;",
-            [27] = "a_ai_task(135, 1); mission.trig.func[27]=nil;",
-            [28] = "a_remove_scene_objects(5732, 1); mission.trig.func[28]=nil;",
-            [29] = "a_remove_scene_objects(5733, 1); mission.trig.func[29]=nil;",
-            [30] = "a_remove_scene_objects(5794, 1); mission.trig.func[30]=nil;",
-            [31] = "a_group_on(387);a_group_on(390); mission.trig.func[31]=nil;",
-            [32] = "a_group_on(385);a_group_on(967);a_group_on(759);a_group_on(915);a_group_on(1172);a_group_on(384); mission.trig.func[32]=nil;",
-            [33] = "a_set_flag(\"50\");a_group_on(356);a_group_on(362); mission.trig.func[33]=nil;",
-            [34] = "a_activate_group(971); mission.trig.func[34]=nil;",
-            [35] = "a_activate_group(977); mission.trig.func[35]=nil;",
-            [36] = "a_group_on(997); mission.trig.func[36]=nil;",
-            [37] = "a_ai_task(1069, 1);a_ai_task(1070, 1); mission.trig.func[37]=nil;",
-            [38] = "a_ai_task(1146, 1); mission.trig.func[38]=nil;",
-            [39] = "a_ai_task(1235, 1); mission.trig.func[39]=nil;",
-            [40] = "a_ai_task(1180, 1); mission.trig.func[40]=nil;",
-            [41] = "a_ai_task(1232, 1); mission.trig.func[41]=nil;",
-            [42] = "a_group_off(1179);a_group_off(1337); mission.trig.func[42]=nil;",
+            [17] = "a_explosion(7236, 1, 750);a_explosion(7237, 1, 750);a_explosion(7235, 1, 750);a_explosion(7238, 1, 750);a_explosion(7232, 1, 750);a_explosion(7233, 1, 750);a_explosion(7234, 1, 750);a_explosion(7239, 1, 750);a_explosion(7240, 1, 2000);a_explosion(7241, 1, 2000);a_explosion(7307, 1, 500);a_explosion(7308, 1, 500);a_explosion(7375, 1, 500);a_explosion(7376, 1, 500);a_explosion(7374, 1, 500);a_explosion(7377, 1, 500);a_explosion(7443, 1, 500);a_explosion(7444, 1, 500); mission.trig.func[17]=nil;",
+            [18] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_15\")); mission.trig.func[18]=nil;",
+            [19] = "a_group_off(760);a_group_off(387);a_group_off(390);a_group_off(389);a_group_off(386);a_group_off(388);a_group_off(356);a_group_off(362);a_group_off(925);a_group_off(355);a_group_off(361);a_group_off(352);a_group_off(248);a_group_off(228);a_group_off(224);a_group_off(255);a_group_off(759);a_group_off(383);a_group_off(385);a_group_off(384);a_group_off(902);a_group_off(363); mission.trig.func[19]=nil;",
+            [20] = "a_group_off(409);a_group_off(749);a_group_off(761);a_group_off(353);a_group_off(354);a_group_off(359);a_group_off(360);a_group_off(366);a_group_off(373);a_group_off(378);a_group_off(350);a_group_off(358);a_group_off(432);a_group_off(259);a_group_off(258);a_group_off(301);a_group_off(317);a_group_off(365);a_group_off(33);a_group_off(368);a_group_off(369);a_group_off(367); mission.trig.func[20]=nil;",
+            [21] = "a_ai_task(403, 1);a_ai_task(542, 1); mission.trig.func[21]=nil;",
+            [22] = "a_ai_task(400, 1); mission.trig.func[22]=nil;",
+            [23] = "a_ai_task(1216, 1); mission.trig.func[23]=nil;",
+            [24] = "a_ai_task(952, 1); mission.trig.func[24]=nil;",
+            [25] = "a_group_on(749);a_group_on(1065);a_group_on(761);a_group_on(759);a_group_on(916);a_group_on(760);a_group_on(384); mission.trig.func[25]=nil;",
+            [26] = "a_group_on(763); mission.trig.func[26]=nil;",
+            [27] = "a_group_on(764); mission.trig.func[27]=nil;",
+            [28] = "a_ai_task(135, 1); mission.trig.func[28]=nil;",
+            [29] = "a_remove_scene_objects(5732, 1); mission.trig.func[29]=nil;",
+            [30] = "a_remove_scene_objects(5733, 1); mission.trig.func[30]=nil;",
+            [31] = "a_remove_scene_objects(5794, 1); mission.trig.func[31]=nil;",
+            [32] = "a_group_on(387);a_group_on(390); mission.trig.func[32]=nil;",
+            [33] = "a_group_on(385);a_group_on(967);a_group_on(759);a_group_on(915);a_group_on(1172);a_group_on(384); mission.trig.func[33]=nil;",
+            [34] = "a_set_flag(\"50\");a_group_on(356);a_group_on(362); mission.trig.func[34]=nil;",
+            [35] = "a_activate_group(971); mission.trig.func[35]=nil;",
+            [36] = "a_activate_group(977); mission.trig.func[36]=nil;",
+            [37] = "a_group_on(997); mission.trig.func[37]=nil;",
+            [38] = "a_ai_task(1069, 1);a_ai_task(1070, 1); mission.trig.func[38]=nil;",
+            [39] = "a_ai_task(1146, 1); mission.trig.func[39]=nil;",
+            [40] = "a_ai_task(1235, 1); mission.trig.func[40]=nil;",
+            [41] = "a_ai_task(1180, 1); mission.trig.func[41]=nil;",
+            [42] = "a_ai_task(1232, 1); mission.trig.func[42]=nil;",
+            [43] = "a_group_off(1179);a_group_off(1337); mission.trig.func[43]=nil;",
         }, -- end of ["actions"]
         ["conditions"] =
         {
@@ -119499,32 +119832,33 @@ mission =
             [14] = "return(c_time_after(20) )",
             [15] = "return(c_time_after(22) )",
             [16] = "return(c_time_after(24) )",
-            [17] = "return(c_time_after(1800) )",
-            [18] = "return(c_time_after(20) )",
-            [19] = "return(c_time_after(15) )",
-            [20] = "return(c_time_after(3610) )",
-            [21] = "return(c_time_after(7000) )",
-            [22] = "return(c_time_after(7200) )",
-            [23] = "return(c_time_after(99997300) )",
-            [24] = "return(c_time_after(3600) )",
-            [25] = "return(c_part_of_coalition_in_zone(\"red\", 5502, \"ALL\") )",
-            [26] = "return(c_part_of_coalition_in_zone(\"red\", 5503, \"ALL\") )",
-            [27] = "return(c_part_of_coalition_in_zone(\"blue\", 5557, \"ALL\") )",
-            [28] = "return(c_time_after(10) )",
+            [17] = "return(c_time_after(26) )",
+            [18] = "return(c_time_after(1800) )",
+            [19] = "return(c_time_after(20) )",
+            [20] = "return(c_time_after(15) )",
+            [21] = "return(c_time_after(3610) )",
+            [22] = "return(c_time_after(7000) )",
+            [23] = "return(c_time_after(7200) )",
+            [24] = "return(c_time_after(99997300) )",
+            [25] = "return(c_time_after(3600) )",
+            [26] = "return(c_part_of_coalition_in_zone(\"red\", 5502, \"ALL\") )",
+            [27] = "return(c_part_of_coalition_in_zone(\"red\", 5503, \"ALL\") )",
+            [28] = "return(c_part_of_coalition_in_zone(\"blue\", 5557, \"ALL\") )",
             [29] = "return(c_time_after(10) )",
             [30] = "return(c_time_after(10) )",
-            [31] = "return(c_group_life_less(356, 95) or c_group_life_less(362, 95) )",
-            [32] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"ALL\") or c_part_of_coalition_in_zone(\"blue\", 6198, \"ALL\") )",
-            [33] = "return(c_part_of_coalition_in_zone(\"blue\", 6198, \"HELICOPTER\") or c_time_after(6800) )",
-            [34] = "return(c_time_after(7000) )",
-            [35] = "return(c_time_after(7500) )",
-            [36] = "return(c_time_after(6300) )",
-            [37] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"HELICOPTER\") )",
-            [38] = "return(c_time_after(7100) )",
+            [31] = "return(c_time_after(10) )",
+            [32] = "return(c_group_life_less(356, 95) or c_group_life_less(362, 95) )",
+            [33] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"ALL\") or c_part_of_coalition_in_zone(\"blue\", 6198, \"ALL\") )",
+            [34] = "return(c_part_of_coalition_in_zone(\"blue\", 6198, \"HELICOPTER\") or c_time_after(6800) )",
+            [35] = "return(c_time_after(7000) )",
+            [36] = "return(c_time_after(7500) )",
+            [37] = "return(c_time_after(6300) )",
+            [38] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"HELICOPTER\") )",
             [39] = "return(c_time_after(7100) )",
-            [40] = "return(c_time_after(7600) )",
-            [41] = "return(c_time_after(8000) )",
-            [42] = "return(c_time_after(10) )",
+            [40] = "return(c_time_after(7100) )",
+            [41] = "return(c_time_after(7600) )",
+            [42] = "return(c_time_after(8000) )",
+            [43] = "return(c_time_after(10) )",
         }, -- end of ["conditions"]
         ["custom"] =
         {
@@ -119579,6 +119913,7 @@ mission =
             [40] = true,
             [41] = true,
             [42] = true,
+            [43] = true,
         }, -- end of ["flag"]
         ["func"] =
         {
@@ -119622,6 +119957,7 @@ mission =
             [40] = "if mission.trig.conditions[40]() then mission.trig.actions[40]() end",
             [41] = "if mission.trig.conditions[41]() then mission.trig.actions[41]() end",
             [42] = "if mission.trig.conditions[42]() then mission.trig.actions[42]() end",
+            [43] = "if mission.trig.conditions[43]() then mission.trig.actions[43]() end",
         }, -- end of ["func"]
         ["funcStartup"] =
         {
@@ -134432,6 +134768,384 @@ mission =
                 ["y"] = 455186.69479276,
                 ["zoneId"] = 7166,
             }, -- end of [616]
+            [617] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = true,
+                ["name"] = "Bomb_D4.1_IADS_SOUTH_SA11_BN_1-1",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = -15008.676793537,
+                ["y"] = 433896.55918037,
+                ["zoneId"] = 7232,
+            }, -- end of [617]
+            [618] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = true,
+                ["name"] = "Bomb_D4.1_IADS_SOUTH_SA11_BN_1-2",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = -14961.750930595,
+                ["y"] = 433859.98943749,
+                ["zoneId"] = 7233,
+            }, -- end of [618]
+            [619] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = true,
+                ["name"] = "Bomb_D4.1_IADS_SOUTH_SA11_BN_1-3",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = -14876.555661676,
+                ["y"] = 433848.98605992,
+                ["zoneId"] = 7234,
+            }, -- end of [619]
+            [620] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = true,
+                ["name"] = "Bomb_D4.1_IADS_AD_N_SA2_2-2  8411_SA2_BN",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = 5269.1088803016,
+                ["y"] = 460221.20191218,
+                ["zoneId"] = 7235,
+            }, -- end of [620]
+            [621] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = true,
+                ["name"] = "Bomb_D4.1_IADS_AD_N_SA2_2-1",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = 5189.2867773261,
+                ["y"] = 460273.85053329,
+                ["zoneId"] = 7236,
+            }, -- end of [621]
+            [622] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = true,
+                ["name"] = "Bomb_D4.1_IADS_AD_N_SA2_2-2",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = 5188.7575825097,
+                ["y"] = 460168.3645821,
+                ["zoneId"] = 7237,
+            }, -- end of [622]
+            [623] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = true,
+                ["name"] = "Bomb_D4.1_IADS_AD_N_SA2_2-3",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = 5202.5208447673,
+                ["y"] = 460183.16531711,
+                ["zoneId"] = 7238,
+            }, -- end of [623]
+            [624] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = true,
+                ["name"] = "Bomb_D4.1_SECONDAD_SA15_BN_2",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = 186533.9803414,
+                ["y"] = 327532.6986311,
+                ["zoneId"] = 7239,
+            }, -- end of [624]
+            [625] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "Bomb_D4.1_SRNTGT061 2nd Army Corps HQ",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = 190384.95985653,
+                ["y"] = 323230.31834761,
+                ["zoneId"] = 7240,
+            }, -- end of [625]
+            [626] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "Bomb_D4.1_SRNTGT061 2nd Army Corps HQ-1",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = 190379.51723858,
+                ["y"] = 323267.20720259,
+                ["zoneId"] = 7241,
+            }, -- end of [626]
+            [627] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "Bomb_D4.1_SRNTGT061 2nd Army Corps HQ-2",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = 190493.55594141,
+                ["y"] = 323238.76937213,
+                ["zoneId"] = 7307,
+            }, -- end of [627]
+            [628] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "Bomb_D4.1_SRNTGT061 2nd Army Corps HQ-3",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = 190504.1233526,
+                ["y"] = 323261.37961706,
+                ["zoneId"] = 7308,
+            }, -- end of [628]
+            [629] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "Bomb_D4.1_1C_11_DIV_BMP3_Coy-2_ACTIVE",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = 76700.002898602,
+                ["y"] = 216000.81510631,
+                ["zoneId"] = 7374,
+            }, -- end of [629]
+            [630] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "Bomb_D4.1_1C_11_DIV_BMP3_Coy-1",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = 76768.021341356,
+                ["y"] = 216083.72111706,
+                ["zoneId"] = 7375,
+            }, -- end of [630]
+            [631] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "Bomb_D4.1_1C_11_DIV_BMP3_Coy-2",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = 76815.746322743,
+                ["y"] = 216139.67454351,
+                ["zoneId"] = 7376,
+            }, -- end of [631]
+            [632] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "Bomb_D4.1_1C_11_DIV_BMP3_Coy-3",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = 76819.449123023,
+                ["y"] = 216152.42863337,
+                ["zoneId"] = 7377,
+            }, -- end of [632]
+            [633] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "Bomb_D4.1_1C_11_DIV_BMP3_Coy-1_MOVING",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = 73159.109667669,
+                ["y"] = 205606.92473748,
+                ["zoneId"] = 7443,
+            }, -- end of [633]
+            [634] =
+            {
+                ["color"] =
+                {
+                    [1] = 0.50196078431373,
+                    [2] = 0.50196078431373,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "Bomb_D4.1_1C_11_DIV_BMP3_Coy-4",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["type"] = 0,
+                ["x"] = 73202.459257234,
+                ["y"] = 205642.72366256,
+                ["zoneId"] = 7444,
+            }, -- end of [634]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] =
@@ -135630,6 +136344,150 @@ mission =
             {
                 [1] =
                 {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 7236,
+                }, -- end of [1]
+                [2] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 7237,
+                }, -- end of [2]
+                [3] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 7235,
+                }, -- end of [3]
+                [4] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 7238,
+                }, -- end of [4]
+                [5] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 7232,
+                }, -- end of [5]
+                [6] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 7233,
+                }, -- end of [6]
+                [7] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 7234,
+                }, -- end of [7]
+                [8] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 750,
+                    ["zone"] = 7239,
+                }, -- end of [8]
+                [9] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 2000,
+                    ["zone"] = 7240,
+                }, -- end of [9]
+                [10] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 2000,
+                    ["zone"] = 7241,
+                }, -- end of [10]
+                [11] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 500,
+                    ["zone"] = 7307,
+                }, -- end of [11]
+                [12] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 500,
+                    ["zone"] = 7308,
+                }, -- end of [12]
+                [13] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 500,
+                    ["zone"] = 7375,
+                }, -- end of [13]
+                [14] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 500,
+                    ["zone"] = 7376,
+                }, -- end of [14]
+                [15] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 500,
+                    ["zone"] = 7374,
+                }, -- end of [15]
+                [16] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 500,
+                    ["zone"] = 7377,
+                }, -- end of [16]
+                [17] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 500,
+                    ["zone"] = 7443,
+                }, -- end of [17]
+                [18] =
+                {
+                    ["altitude"] = 1,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 500,
+                    ["zone"] = 7444,
+                }, -- end of [18]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x808080ff",
+            ["comment"] = "Bomb_D4.1",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 26,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [17]
+        [18] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
                     ["file"] = "ResKey_Action_15",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [1]
@@ -135649,8 +136507,8 @@ mission =
                     ["zone"] = 2831,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [17]
-        [18] =
+        }, -- end of [18]
+        [19] =
         {
             ["actions"] =
             {
@@ -135780,8 +136638,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [18]
-        [19] =
+        }, -- end of [19]
+        [20] =
         {
             ["actions"] =
             {
@@ -135913,8 +136771,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [19]
-        [20] =
+        }, -- end of [20]
+        [21] =
         {
             ["actions"] =
             {
@@ -135952,8 +136810,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [20]
-        [21] =
+        }, -- end of [21]
+        [22] =
         {
             ["actions"] =
             {
@@ -135982,8 +136840,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [21]
-        [22] =
+        }, -- end of [22]
+        [23] =
         {
             ["actions"] =
             {
@@ -136012,8 +136870,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [22]
-        [23] =
+        }, -- end of [23]
+        [24] =
         {
             ["actions"] =
             {
@@ -136042,8 +136900,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [23]
-        [24] =
+        }, -- end of [24]
+        [25] =
         {
             ["actions"] =
             {
@@ -136098,8 +136956,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [24]
-        [25] =
+        }, -- end of [25]
+        [26] =
         {
             ["actions"] =
             {
@@ -136123,8 +136981,8 @@ mission =
                     ["zone"] = 5502,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [25]
-        [26] =
+        }, -- end of [26]
+        [27] =
         {
             ["actions"] =
             {
@@ -136148,8 +137006,8 @@ mission =
                     ["zone"] = 5503,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [26]
-        [27] =
+        }, -- end of [27]
+        [28] =
         {
             ["actions"] =
             {
@@ -136177,29 +137035,6 @@ mission =
                     ["zone"] = 5557,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [27]
-        [28] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
-                    ["objects_mask"] = 1,
-                    ["predicate"] = "a_remove_scene_objects",
-                    ["zone"] = 5732,
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["comment"] = "Clear trees_JTAC 1",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["predicate"] = "c_time_after",
-                    ["seconds"] = 10,
-                }, -- end of [1]
-            }, -- end of ["rules"]
         }, -- end of [28]
         [29] =
         {
@@ -136209,7 +137044,7 @@ mission =
                 {
                     ["objects_mask"] = 1,
                     ["predicate"] = "a_remove_scene_objects",
-                    ["zone"] = 5733,
+                    ["zone"] = 5732,
                 }, -- end of [1]
             }, -- end of ["actions"]
             ["comment"] = "Clear trees_JTAC 1",
@@ -136232,7 +137067,7 @@ mission =
                 {
                     ["objects_mask"] = 1,
                     ["predicate"] = "a_remove_scene_objects",
-                    ["zone"] = 5794,
+                    ["zone"] = 5733,
                 }, -- end of [1]
             }, -- end of ["actions"]
             ["comment"] = "Clear trees_JTAC 1",
@@ -136248,6 +137083,29 @@ mission =
             }, -- end of ["rules"]
         }, -- end of [30]
         [31] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["objects_mask"] = 1,
+                    ["predicate"] = "a_remove_scene_objects",
+                    ["zone"] = 5794,
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["comment"] = "Clear trees_JTAC 1",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 10,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [31]
+        [32] =
         {
             ["actions"] =
             {
@@ -136285,8 +137143,8 @@ mission =
                     ["predicate"] = "c_group_life_less",
                 }, -- end of [3]
             }, -- end of ["rules"]
-        }, -- end of [31]
-        [32] =
+        }, -- end of [32]
+        [33] =
         {
             ["actions"] =
             {
@@ -136346,8 +137204,8 @@ mission =
                     ["zone"] = 6198,
                 }, -- end of [3]
             }, -- end of ["rules"]
-        }, -- end of [32]
-        [33] =
+        }, -- end of [33]
+        [34] =
         {
             ["actions"] =
             {
@@ -136390,8 +137248,8 @@ mission =
                     ["seconds"] = 6800,
                 }, -- end of [3]
             }, -- end of ["rules"]
-        }, -- end of [33]
-        [34] =
+        }, -- end of [34]
+        [35] =
         {
             ["actions"] =
             {
@@ -136413,8 +137271,8 @@ mission =
                     ["seconds"] = 7000,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [34]
-        [35] =
+        }, -- end of [35]
+        [36] =
         {
             ["actions"] =
             {
@@ -136436,8 +137294,8 @@ mission =
                     ["seconds"] = 7500,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [35]
-        [36] =
+        }, -- end of [36]
+        [37] =
         {
             ["actions"] =
             {
@@ -136458,8 +137316,8 @@ mission =
                     ["seconds"] = 6300,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [36]
-        [37] =
+        }, -- end of [37]
+        [38] =
         {
             ["actions"] =
             {
@@ -136495,33 +137353,6 @@ mission =
                     ["zone"] = 6076,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [37]
-        [38] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
-                    ["ai_task"] =
-                    {
-                        [1] = 1146,
-                        [2] = 1,
-                    }, -- end of ["ai_task"]
-                    ["predicate"] = "a_ai_task",
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["colorItem"] = "0x00ffffff",
-            ["comment"] = "Move SU24 forward",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["predicate"] = "c_time_after",
-                    ["seconds"] = 7100,
-                }, -- end of [1]
-            }, -- end of ["rules"]
         }, -- end of [38]
         [39] =
         {
@@ -136531,7 +137362,7 @@ mission =
                 {
                     ["ai_task"] =
                     {
-                        [1] = 1235,
+                        [1] = 1146,
                         [2] = 1,
                     }, -- end of ["ai_task"]
                     ["predicate"] = "a_ai_task",
@@ -136558,6 +137389,33 @@ mission =
                 {
                     ["ai_task"] =
                     {
+                        [1] = 1235,
+                        [2] = 1,
+                    }, -- end of ["ai_task"]
+                    ["predicate"] = "a_ai_task",
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x00ffffff",
+            ["comment"] = "Move SU24 forward",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 7100,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [40]
+        [41] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["ai_task"] =
+                    {
                         [1] = 1180,
                         [2] = 1,
                     }, -- end of ["ai_task"]
@@ -136576,8 +137434,8 @@ mission =
                     ["seconds"] = 7600,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [40]
-        [41] =
+        }, -- end of [41]
+        [42] =
         {
             ["actions"] =
             {
@@ -136603,8 +137461,8 @@ mission =
                     ["seconds"] = 8000,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [41]
-        [42] =
+        }, -- end of [42]
+        [43] =
         {
             ["actions"] =
             {
@@ -136630,7 +137488,7 @@ mission =
                     ["seconds"] = 10,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [42]
+        }, -- end of [43]
     }, -- end of ["trigrules"]
     ["version"] = 23,
     ["weather"] =

@@ -1113,7 +1113,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Overlord11",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -0.01625872980513,
+                                        ["heading"] = -0.01625872980523,
                                         ["livery_id"] = "nato",
                                         ["name"] = "#IFF:5603FR",
                                         ["onboard_num"] = "603",
@@ -1127,7 +1127,7 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.01625872980513,
+                                        ["psi"] = 0.01625872980523,
                                         ["skill"] = "High",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "E-3A",
@@ -66065,7 +66065,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Dodge31",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -1.4025895549378,
+                                        ["heading"] = -1.4062719990988,
                                         ["livery_id"] = "plaaf 7th ad (reworked)",
                                         ["name"] = "AB_XX1_J11_AA_AG_Kilpyavr_2_ESCORT-1",
                                         ["onboard_num"] = "073",
@@ -66081,7 +66081,7 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 1.4062719990989,
+                                        ["psi"] = 1.4062719990988,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "J-11A",
@@ -66100,7 +66100,7 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Dodge32",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0,
+                                        ["heading"] = -1.4062719990988,
                                         ["livery_id"] = "plaaf 7th ad (reworked)",
                                         ["name"] = "AB_XX1_J11_AA_AG_Kilpyavr_2_ESCORT-2",
                                         ["onboard_num"] = "085",
@@ -66156,7 +66156,7 @@ mission =
                                                 }, -- end of [10]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 1.4062719990989,
+                                        ["psi"] = 1.4062719990988,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "J-11A",
@@ -112722,6 +112722,238 @@ mission =
                             }, -- end of [2]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
+                    ["vehicle"] =
+                    {
+                        ["group"] =
+                        {
+                            [1] =
+                            {
+                                ["groupId"] = 1349,
+                                ["hidden"] = false,
+                                ["name"] = "XIL_HQ_22_SAM_Static",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 204,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["groupId"] = 11,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 69624.836768528,
+                                            ["y"] = 451220.27693759,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 6.0388392119004,
+                                        ["name"] = "XIL_HQ_22_SAM_Static-1",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "CH_HQ22_LN",
+                                        ["unitId"] = 2818,
+                                        ["x"] = 69624.836768528,
+                                        ["y"] = 451220.27693759,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 6.0388392119004,
+                                        ["name"] = "XIL_HQ_22_SAM_Static-2",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "CH_HQ22_LN",
+                                        ["unitId"] = 2817,
+                                        ["x"] = 69628.813752922,
+                                        ["y"] = 451235.92829553,
+                                    }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 6.0388392119004,
+                                        ["name"] = "XIL_HQ_22_SAM_Static-3",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "CH_HQ22_SR",
+                                        ["unitId"] = 2816,
+                                        ["x"] = 69618.743002118,
+                                        ["y"] = 451198.85253779,
+                                    }, -- end of [3]
+                                    [4] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 6.0388392119004,
+                                        ["name"] = "XIL_HQ_22_SAM_Static-4",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "CH_HQ22_STR",
+                                        ["unitId"] = 2806,
+                                        ["x"] = 69613.867988989,
+                                        ["y"] = 451179.73735473,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 69624.836768528,
+                                ["y"] = 451220.27693759,
+                            }, -- end of [1]
+                            [2] =
+                            {
+                                ["groupId"] = 1354,
+                                ["hidden"] = false,
+                                ["name"] = "XIL_HQ_22_Anti-ship_Static",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 204,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["groupId"] = 12,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 69651.622022426,
+                                            ["y"] = 451303.67087158,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 6.0388392119004,
+                                        ["name"] = "XIL_HQ_22_Anti-ship_Static-1",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "Average",
+                                        ["type"] = "CH_DF21D",
+                                        ["unitId"] = 2813,
+                                        ["x"] = 69651.622022426,
+                                        ["y"] = 451303.67087158,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 6.0388392119004,
+                                        ["name"] = "XIL_HQ_22_Anti-ship_Static-2",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "Average",
+                                        ["type"] = "CH_YJ12B",
+                                        ["unitId"] = 2814,
+                                        ["x"] = 69655.152594673,
+                                        ["y"] = 451318.40717313,
+                                    }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 6.0388392119004,
+                                        ["name"] = "XIL_HQ_22_Anti-ship_Static-3",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "Average",
+                                        ["type"] = "CH_YJ12B",
+                                        ["unitId"] = 2815,
+                                        ["x"] = 69658.990173201,
+                                        ["y"] = 451332.37595898,
+                                    }, -- end of [3]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 69651.622022426,
+                                ["y"] = 451303.67087158,
+                            }, -- end of [2]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
                 }, -- end of [3]
             }, -- end of ["country"]
             ["name"] = "red",
@@ -112834,7 +113066,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 2646912,
+    ["currentKey"] = 2674565,
     ["date"] =
     {
         ["Day"] = 24,
@@ -120335,9 +120567,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 68563.054331108,
-        ["centerY"] = 360311.79909408,
-        ["zoom"] = 950664.28448943,
+        ["centerX"] = 58363.287242387,
+        ["centerY"] = 463231.372712,
+        ["zoom"] = 250762.39890513,
     }, -- end of ["map"]
     ["maxDictId"] = 20,
     ["pictureFileNameB"] =
@@ -120354,6 +120586,7 @@ mission =
     }, -- end of ["pictureFileNameServer"]
     ["requiredModules"] =
     {
+        ["Military Asset Pack China by Currenthill"] = "Military Asset Pack China by Currenthill",
     }, -- end of ["requiredModules"]
     ["result"] =
     {
@@ -120411,41 +120644,42 @@ mission =
             [7] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_20\")); mission.trig.func[7]=nil;",
             [8] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_16\")); mission.trig.func[8]=nil;",
             [9] = "a_group_off(763);a_group_off(764);a_group_off(997); mission.trig.func[9]=nil;",
-            [10] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_19\")); mission.trig.func[10]=nil;",
-            [11] = "a_explosion(5611, 1, 700);a_explosion(5669, 1, 700);a_explosion(5671, 1, 700);a_explosion(5671, 1, 700); mission.trig.func[11]=nil;",
-            [12] = "a_explosion(6002, 1, 700);a_explosion(6003, 1, 700);a_explosion(6004, 1, 700);a_explosion(6005, 1, 700);a_explosion(6006, 1, 700);a_explosion(6007, 1, 700);a_explosion(6008, 1, 700);a_explosion(6009, 1, 700);a_explosion(6010, 1, 700);a_explosion(6011, 1, 700);a_explosion(6012, 1, 700);a_explosion(6013, 1, 700);a_explosion(6014, 1, 700);a_explosion(6015, 1, 700);a_explosion(5919, 1, 700);a_explosion(5927, 1, 700);a_explosion(5928, 1, 700);a_explosion(5929, 1, 700);a_explosion(5930, 1, 700);a_explosion(5931, 1, 700);a_explosion(5932, 1, 700);a_explosion(5933, 1, 700);a_explosion(5934, 1, 700);a_explosion(5935, 1, 700);a_explosion(5920, 1, 700);a_explosion(5921, 1, 700);a_explosion(5923, 1, 700);a_explosion(5918, 1, 700);a_explosion(5924, 1, 700);a_explosion(5925, 1, 700);a_explosion(5926, 1, 700);a_explosion(5922, 1, 700);a_explosion(5916, 1, 700);a_explosion(5940, 1, 700);a_explosion(5941, 1, 700);a_explosion(5936, 1, 700);a_explosion(5937, 1, 700);a_explosion(5938, 1, 700);a_explosion(5939, 1, 700);a_explosion(6137, 1, 2500); mission.trig.func[12]=nil;",
-            [13] = "a_explosion(6536, 1, 750);a_explosion(6530, 1, 750);a_explosion(6526, 1, 750);a_explosion(6527, 1, 750);a_explosion(6528, 1, 750);a_explosion(6529, 1, 750);a_explosion(6531, 1, 750);a_explosion(6524, 1, 750);a_explosion(6525, 1, 750);a_explosion(6508, 1, 750);a_explosion(6509, 1, 750);a_explosion(6510, 1, 750);a_explosion(6511, 1, 750);a_explosion(6512, 1, 750);a_explosion(6513, 1, 750);a_explosion(6514, 1, 750);a_explosion(6515, 1, 750);a_explosion(6516, 1, 750);a_explosion(6517, 1, 750);a_explosion(6518, 1, 750);a_explosion(6519, 1, 750);a_explosion(6520, 1, 750);a_explosion(6521, 1, 750);a_explosion(6522, 1, 750);a_explosion(6522, 1, 750);a_explosion(6523, 1, 750);a_explosion(6532, 1, 750);a_explosion(6533, 1, 750);a_explosion(6534, 1, 750);a_explosion(6535, 1, 750);a_explosion(6537, 1, 750);a_explosion(6538, 1, 750);a_explosion(6542, 1, 750);a_explosion(6540, 1, 750);a_explosion(6539, 1, 750);a_explosion(6541, 1, 750);a_explosion(6543, 1, 750);a_explosion(6505, 1, 750);a_explosion(6506, 1, 750);a_explosion(6507, 1, 750); mission.trig.func[13]=nil;",
-            [14] = "a_explosion(6623, 1, 750);a_explosion(6624, 1, 750);a_explosion(6625, 1, 750);a_explosion(6626, 1, 750);a_explosion(6622, 1, 750);a_explosion(6620, 1, 750);a_explosion(6621, 1, 750);a_explosion(6617, 1, 750);a_explosion(6618, 1, 750);a_explosion(6619, 1, 750);a_explosion(6612, 1, 750);a_explosion(6615, 1, 750);a_explosion(6616, 1, 750);a_explosion(6613, 1, 750);a_explosion(6614, 1, 750);a_explosion(6609, 1, 750);a_explosion(6610, 1, 750);a_explosion(6611, 1, 750); mission.trig.func[14]=nil;",
-            [15] = "a_explosion(6758, 1, 750);a_explosion(6759, 1, 750);a_explosion(6825, 1, 750);a_explosion(6826, 1, 750); mission.trig.func[15]=nil;",
-            [16] = "a_explosion(6958, 1, 2000);a_explosion(6959, 1, 2000);a_explosion(7100, 1, 750);a_explosion(7034, 1, 750);a_explosion(7033, 1, 750);a_explosion(7032, 1, 750);a_explosion(7028, 1, 750);a_explosion(7029, 1, 750);a_explosion(7030, 1, 750);a_explosion(7025, 1, 750);a_explosion(7026, 1, 750);a_explosion(7027, 1, 750);a_explosion(7031, 1, 750); mission.trig.func[16]=nil;",
-            [17] = "a_explosion(7236, 1, 750);a_explosion(7237, 1, 750);a_explosion(7235, 1, 750);a_explosion(7238, 1, 750);a_explosion(7232, 1, 750);a_explosion(7233, 1, 750);a_explosion(7234, 1, 750);a_explosion(7239, 1, 750);a_explosion(7240, 1, 2000);a_explosion(7241, 1, 2000);a_explosion(7307, 1, 500);a_explosion(7308, 1, 500);a_explosion(7375, 1, 500);a_explosion(7376, 1, 500);a_explosion(7374, 1, 500);a_explosion(7377, 1, 500);a_explosion(7443, 1, 500);a_explosion(7444, 1, 500); mission.trig.func[17]=nil;",
-            [18] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_15\")); mission.trig.func[18]=nil;",
-            [19] = "a_group_off(760);a_group_off(387);a_group_off(390);a_group_off(389);a_group_off(386);a_group_off(388);a_group_off(356);a_group_off(362);a_group_off(925);a_group_off(355);a_group_off(361);a_group_off(352);a_group_off(248);a_group_off(228);a_group_off(224);a_group_off(255);a_group_off(759);a_group_off(383);a_group_off(385);a_group_off(384);a_group_off(902);a_group_off(363); mission.trig.func[19]=nil;",
-            [20] = "a_group_off(409);a_group_off(749);a_group_off(761);a_group_off(353);a_group_off(354);a_group_off(359);a_group_off(360);a_group_off(366);a_group_off(373);a_group_off(378);a_group_off(350);a_group_off(358);a_group_off(432);a_group_off(259);a_group_off(258);a_group_off(301);a_group_off(317);a_group_off(365);a_group_off(33);a_group_off(368);a_group_off(369);a_group_off(367); mission.trig.func[20]=nil;",
-            [21] = "a_ai_task(403, 1);a_ai_task(542, 1); mission.trig.func[21]=nil;",
-            [22] = "a_ai_task(400, 1); mission.trig.func[22]=nil;",
-            [23] = "a_ai_task(1216, 1); mission.trig.func[23]=nil;",
-            [24] = "a_ai_task(952, 1); mission.trig.func[24]=nil;",
-            [25] = "a_group_on(749);a_group_on(1065);a_group_on(761);a_group_on(759);a_group_on(916);a_group_on(760);a_group_on(384); mission.trig.func[25]=nil;",
-            [26] = "a_group_on(763); mission.trig.func[26]=nil;",
-            [27] = "a_group_on(764); mission.trig.func[27]=nil;",
-            [28] = "a_ai_task(135, 1); mission.trig.func[28]=nil;",
-            [29] = "a_remove_scene_objects(5732, 1); mission.trig.func[29]=nil;",
-            [30] = "a_remove_scene_objects(5733, 1); mission.trig.func[30]=nil;",
-            [31] = "a_remove_scene_objects(5794, 1); mission.trig.func[31]=nil;",
-            [32] = "a_group_on(387);a_group_on(390); mission.trig.func[32]=nil;",
-            [33] = "a_group_on(385);a_group_on(967);a_group_on(759);a_group_on(915);a_group_on(1172);a_group_on(384); mission.trig.func[33]=nil;",
-            [34] = "a_set_flag(\"50\");a_group_on(356);a_group_on(362); mission.trig.func[34]=nil;",
-            [35] = "a_activate_group(971); mission.trig.func[35]=nil;",
-            [36] = "a_activate_group(977); mission.trig.func[36]=nil;",
-            [37] = "a_group_on(997); mission.trig.func[37]=nil;",
-            [38] = "a_ai_task(1069, 1);a_ai_task(1070, 1); mission.trig.func[38]=nil;",
-            [39] = "a_ai_task(1146, 1); mission.trig.func[39]=nil;",
-            [40] = "a_ai_task(1235, 1); mission.trig.func[40]=nil;",
-            [41] = "a_ai_task(1180, 1); mission.trig.func[41]=nil;",
-            [42] = "a_ai_task(1232, 1); mission.trig.func[42]=nil;",
-            [43] = "a_group_off(1179);a_group_off(1337); mission.trig.func[43]=nil;",
-            [44] = "a_ai_task(1348, 1); mission.trig.func[44]=nil;",
+            [10] = "a_group_off(1354);a_group_off(1349); mission.trig.func[10]=nil;",
+            [11] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_19\")); mission.trig.func[11]=nil;",
+            [12] = "a_explosion(5611, 1, 700);a_explosion(5669, 1, 700);a_explosion(5671, 1, 700);a_explosion(5671, 1, 700); mission.trig.func[12]=nil;",
+            [13] = "a_explosion(6002, 1, 700);a_explosion(6003, 1, 700);a_explosion(6004, 1, 700);a_explosion(6005, 1, 700);a_explosion(6006, 1, 700);a_explosion(6007, 1, 700);a_explosion(6008, 1, 700);a_explosion(6009, 1, 700);a_explosion(6010, 1, 700);a_explosion(6011, 1, 700);a_explosion(6012, 1, 700);a_explosion(6013, 1, 700);a_explosion(6014, 1, 700);a_explosion(6015, 1, 700);a_explosion(5919, 1, 700);a_explosion(5927, 1, 700);a_explosion(5928, 1, 700);a_explosion(5929, 1, 700);a_explosion(5930, 1, 700);a_explosion(5931, 1, 700);a_explosion(5932, 1, 700);a_explosion(5933, 1, 700);a_explosion(5934, 1, 700);a_explosion(5935, 1, 700);a_explosion(5920, 1, 700);a_explosion(5921, 1, 700);a_explosion(5923, 1, 700);a_explosion(5918, 1, 700);a_explosion(5924, 1, 700);a_explosion(5925, 1, 700);a_explosion(5926, 1, 700);a_explosion(5922, 1, 700);a_explosion(5916, 1, 700);a_explosion(5940, 1, 700);a_explosion(5941, 1, 700);a_explosion(5936, 1, 700);a_explosion(5937, 1, 700);a_explosion(5938, 1, 700);a_explosion(5939, 1, 700);a_explosion(6137, 1, 2500); mission.trig.func[13]=nil;",
+            [14] = "a_explosion(6536, 1, 750);a_explosion(6530, 1, 750);a_explosion(6526, 1, 750);a_explosion(6527, 1, 750);a_explosion(6528, 1, 750);a_explosion(6529, 1, 750);a_explosion(6531, 1, 750);a_explosion(6524, 1, 750);a_explosion(6525, 1, 750);a_explosion(6508, 1, 750);a_explosion(6509, 1, 750);a_explosion(6510, 1, 750);a_explosion(6511, 1, 750);a_explosion(6512, 1, 750);a_explosion(6513, 1, 750);a_explosion(6514, 1, 750);a_explosion(6515, 1, 750);a_explosion(6516, 1, 750);a_explosion(6517, 1, 750);a_explosion(6518, 1, 750);a_explosion(6519, 1, 750);a_explosion(6520, 1, 750);a_explosion(6521, 1, 750);a_explosion(6522, 1, 750);a_explosion(6522, 1, 750);a_explosion(6523, 1, 750);a_explosion(6532, 1, 750);a_explosion(6533, 1, 750);a_explosion(6534, 1, 750);a_explosion(6535, 1, 750);a_explosion(6537, 1, 750);a_explosion(6538, 1, 750);a_explosion(6542, 1, 750);a_explosion(6540, 1, 750);a_explosion(6539, 1, 750);a_explosion(6541, 1, 750);a_explosion(6543, 1, 750);a_explosion(6505, 1, 750);a_explosion(6506, 1, 750);a_explosion(6507, 1, 750); mission.trig.func[14]=nil;",
+            [15] = "a_explosion(6623, 1, 750);a_explosion(6624, 1, 750);a_explosion(6625, 1, 750);a_explosion(6626, 1, 750);a_explosion(6622, 1, 750);a_explosion(6620, 1, 750);a_explosion(6621, 1, 750);a_explosion(6617, 1, 750);a_explosion(6618, 1, 750);a_explosion(6619, 1, 750);a_explosion(6612, 1, 750);a_explosion(6615, 1, 750);a_explosion(6616, 1, 750);a_explosion(6613, 1, 750);a_explosion(6614, 1, 750);a_explosion(6609, 1, 750);a_explosion(6610, 1, 750);a_explosion(6611, 1, 750); mission.trig.func[15]=nil;",
+            [16] = "a_explosion(6758, 1, 750);a_explosion(6759, 1, 750);a_explosion(6825, 1, 750);a_explosion(6826, 1, 750); mission.trig.func[16]=nil;",
+            [17] = "a_explosion(6958, 1, 2000);a_explosion(6959, 1, 2000);a_explosion(7100, 1, 750);a_explosion(7034, 1, 750);a_explosion(7033, 1, 750);a_explosion(7032, 1, 750);a_explosion(7028, 1, 750);a_explosion(7029, 1, 750);a_explosion(7030, 1, 750);a_explosion(7025, 1, 750);a_explosion(7026, 1, 750);a_explosion(7027, 1, 750);a_explosion(7031, 1, 750); mission.trig.func[17]=nil;",
+            [18] = "a_explosion(7236, 1, 750);a_explosion(7237, 1, 750);a_explosion(7235, 1, 750);a_explosion(7238, 1, 750);a_explosion(7232, 1, 750);a_explosion(7233, 1, 750);a_explosion(7234, 1, 750);a_explosion(7239, 1, 750);a_explosion(7240, 1, 2000);a_explosion(7241, 1, 2000);a_explosion(7307, 1, 500);a_explosion(7308, 1, 500);a_explosion(7375, 1, 500);a_explosion(7376, 1, 500);a_explosion(7374, 1, 500);a_explosion(7377, 1, 500);a_explosion(7443, 1, 500);a_explosion(7444, 1, 500); mission.trig.func[18]=nil;",
+            [19] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_15\")); mission.trig.func[19]=nil;",
+            [20] = "a_group_off(760);a_group_off(387);a_group_off(390);a_group_off(389);a_group_off(386);a_group_off(388);a_group_off(356);a_group_off(362);a_group_off(925);a_group_off(355);a_group_off(361);a_group_off(352);a_group_off(248);a_group_off(228);a_group_off(224);a_group_off(255);a_group_off(759);a_group_off(383);a_group_off(385);a_group_off(384);a_group_off(902);a_group_off(363); mission.trig.func[20]=nil;",
+            [21] = "a_group_off(409);a_group_off(749);a_group_off(761);a_group_off(353);a_group_off(354);a_group_off(359);a_group_off(360);a_group_off(366);a_group_off(373);a_group_off(378);a_group_off(350);a_group_off(358);a_group_off(432);a_group_off(259);a_group_off(258);a_group_off(301);a_group_off(317);a_group_off(365);a_group_off(33);a_group_off(368);a_group_off(369);a_group_off(367); mission.trig.func[21]=nil;",
+            [22] = "a_ai_task(403, 1);a_ai_task(542, 1); mission.trig.func[22]=nil;",
+            [23] = "a_ai_task(400, 1); mission.trig.func[23]=nil;",
+            [24] = "a_ai_task(1216, 1); mission.trig.func[24]=nil;",
+            [25] = "a_ai_task(952, 1); mission.trig.func[25]=nil;",
+            [26] = "a_group_on(749);a_group_on(1065);a_group_on(761);a_group_on(759);a_group_on(916);a_group_on(760);a_group_on(384); mission.trig.func[26]=nil;",
+            [27] = "a_group_on(763); mission.trig.func[27]=nil;",
+            [28] = "a_group_on(764); mission.trig.func[28]=nil;",
+            [29] = "a_ai_task(135, 1); mission.trig.func[29]=nil;",
+            [30] = "a_remove_scene_objects(5732, 1); mission.trig.func[30]=nil;",
+            [31] = "a_remove_scene_objects(5733, 1); mission.trig.func[31]=nil;",
+            [32] = "a_remove_scene_objects(5794, 1); mission.trig.func[32]=nil;",
+            [33] = "a_group_on(387);a_group_on(390); mission.trig.func[33]=nil;",
+            [34] = "a_group_on(385);a_group_on(967);a_group_on(759);a_group_on(915);a_group_on(1172);a_group_on(384); mission.trig.func[34]=nil;",
+            [35] = "a_set_flag(\"50\");a_group_on(356);a_group_on(362); mission.trig.func[35]=nil;",
+            [36] = "a_activate_group(971); mission.trig.func[36]=nil;",
+            [37] = "a_activate_group(977); mission.trig.func[37]=nil;",
+            [38] = "a_group_on(997); mission.trig.func[38]=nil;",
+            [39] = "a_ai_task(1069, 1);a_ai_task(1070, 1); mission.trig.func[39]=nil;",
+            [40] = "a_ai_task(1146, 1); mission.trig.func[40]=nil;",
+            [41] = "a_ai_task(1235, 1); mission.trig.func[41]=nil;",
+            [42] = "a_ai_task(1180, 1); mission.trig.func[42]=nil;",
+            [43] = "a_ai_task(1232, 1); mission.trig.func[43]=nil;",
+            [44] = "a_group_off(1179);a_group_off(1337); mission.trig.func[44]=nil;",
+            [45] = "a_ai_task(1348, 1); mission.trig.func[45]=nil;",
         }, -- end of ["actions"]
         ["conditions"] =
         {
@@ -120458,41 +120692,42 @@ mission =
             [7] = "return(c_time_after(6) )",
             [8] = "return(c_time_after(7) )",
             [9] = "return(c_time_after(8) )",
-            [10] = "return(c_time_after(10) )",
-            [11] = "return(c_time_after(14) )",
-            [12] = "return(c_time_after(16) )",
-            [13] = "return(c_time_after(18) )",
-            [14] = "return(c_time_after(20) )",
-            [15] = "return(c_time_after(22) )",
-            [16] = "return(c_time_after(24) )",
-            [17] = "return(c_time_after(26) )",
-            [18] = "return(c_time_after(1800) )",
-            [19] = "return(c_time_after(20) )",
-            [20] = "return(c_time_after(15) )",
-            [21] = "return(c_time_after(3610) )",
-            [22] = "return(c_time_after(7000) )",
-            [23] = "return(c_time_after(7200) )",
-            [24] = "return(c_time_after(99997300) )",
-            [25] = "return(c_time_after(3600) )",
-            [26] = "return(c_part_of_coalition_in_zone(\"red\", 5502, \"ALL\") )",
-            [27] = "return(c_part_of_coalition_in_zone(\"red\", 5503, \"ALL\") )",
-            [28] = "return(c_part_of_coalition_in_zone(\"blue\", 5557, \"ALL\") )",
-            [29] = "return(c_time_after(10) )",
+            [10] = "return(c_time_after(8) )",
+            [11] = "return(c_time_after(10) )",
+            [12] = "return(c_time_after(14) )",
+            [13] = "return(c_time_after(16) )",
+            [14] = "return(c_time_after(18) )",
+            [15] = "return(c_time_after(20) )",
+            [16] = "return(c_time_after(22) )",
+            [17] = "return(c_time_after(24) )",
+            [18] = "return(c_time_after(26) )",
+            [19] = "return(c_time_after(1800) )",
+            [20] = "return(c_time_after(20) )",
+            [21] = "return(c_time_after(15) )",
+            [22] = "return(c_time_after(3610) )",
+            [23] = "return(c_time_after(7000) )",
+            [24] = "return(c_time_after(7200) )",
+            [25] = "return(c_time_after(99997300) )",
+            [26] = "return(c_time_after(3600) )",
+            [27] = "return(c_part_of_coalition_in_zone(\"red\", 5502, \"ALL\") )",
+            [28] = "return(c_part_of_coalition_in_zone(\"red\", 5503, \"ALL\") )",
+            [29] = "return(c_part_of_coalition_in_zone(\"blue\", 5557, \"ALL\") )",
             [30] = "return(c_time_after(10) )",
             [31] = "return(c_time_after(10) )",
-            [32] = "return(c_group_life_less(356, 95) or c_group_life_less(362, 95) )",
-            [33] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"ALL\") or c_part_of_coalition_in_zone(\"blue\", 6198, \"ALL\") )",
-            [34] = "return(c_part_of_coalition_in_zone(\"blue\", 6198, \"HELICOPTER\") or c_time_after(6800) )",
-            [35] = "return(c_time_after(7000) )",
-            [36] = "return(c_time_after(7500) )",
-            [37] = "return(c_time_after(6300) )",
-            [38] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"HELICOPTER\") )",
-            [39] = "return(c_time_after(7100) )",
+            [32] = "return(c_time_after(10) )",
+            [33] = "return(c_group_life_less(356, 95) or c_group_life_less(362, 95) )",
+            [34] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"ALL\") or c_part_of_coalition_in_zone(\"blue\", 6198, \"ALL\") )",
+            [35] = "return(c_part_of_coalition_in_zone(\"blue\", 6198, \"HELICOPTER\") or c_time_after(6800) )",
+            [36] = "return(c_time_after(7000) )",
+            [37] = "return(c_time_after(7500) )",
+            [38] = "return(c_time_after(6300) )",
+            [39] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"HELICOPTER\") )",
             [40] = "return(c_time_after(7100) )",
-            [41] = "return(c_time_after(7600) )",
-            [42] = "return(c_time_after(8000) )",
-            [43] = "return(c_time_after(10) )",
-            [44] = "return(c_part_of_group_in_zone(1216, 7510) )",
+            [41] = "return(c_time_after(7100) )",
+            [42] = "return(c_time_after(7600) )",
+            [43] = "return(c_time_after(8000) )",
+            [44] = "return(c_time_after(10) )",
+            [45] = "return(c_part_of_group_in_zone(1216, 7510) )",
         }, -- end of ["conditions"]
         ["custom"] =
         {
@@ -120549,6 +120784,7 @@ mission =
             [42] = true,
             [43] = true,
             [44] = true,
+            [45] = true,
         }, -- end of ["flag"]
         ["func"] =
         {
@@ -120594,6 +120830,7 @@ mission =
             [42] = "if mission.trig.conditions[42]() then mission.trig.actions[42]() end",
             [43] = "if mission.trig.conditions[43]() then mission.trig.actions[43]() end",
             [44] = "if mission.trig.conditions[44]() then mission.trig.actions[44]() end",
+            [45] = "if mission.trig.conditions[45]() then mission.trig.actions[45]() end",
         }, -- end of ["func"]
         ["funcStartup"] =
         {
@@ -136037,6 +136274,37 @@ mission =
             {
                 [1] =
                 {
+                    ["group"] = 1354,
+                    ["predicate"] = "a_group_off",
+                }, -- end of [1]
+                [2] =
+                {
+                    ["group"] = 1349,
+                    ["predicate"] = "a_group_off",
+                }, -- end of [2]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x800000ff",
+            ["comment"] = "AI off enemy",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["coalitionlist"] = "red",
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 8,
+                    ["unitType"] = "ALL",
+                    ["zone"] = 5284,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [10]
+        [11] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
                     ["file"] = "ResKey_Action_19",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [1]
@@ -136053,8 +136321,8 @@ mission =
                     ["seconds"] = 10,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [10]
-        [11] =
+        }, -- end of [11]
+        [12] =
         {
             ["actions"] =
             {
@@ -136099,8 +136367,8 @@ mission =
                     ["seconds"] = 14,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [11]
-        [12] =
+        }, -- end of [12]
+        [13] =
         {
             ["actions"] =
             {
@@ -136397,8 +136665,8 @@ mission =
                     ["seconds"] = 16,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [12]
-        [13] =
+        }, -- end of [13]
+        [14] =
         {
             ["actions"] =
             {
@@ -136695,8 +136963,8 @@ mission =
                     ["seconds"] = 18,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [13]
-        [14] =
+        }, -- end of [14]
+        [15] =
         {
             ["actions"] =
             {
@@ -136839,8 +137107,8 @@ mission =
                     ["seconds"] = 20,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [14]
-        [15] =
+        }, -- end of [15]
+        [16] =
         {
             ["actions"] =
             {
@@ -136885,8 +137153,8 @@ mission =
                     ["seconds"] = 22,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [15]
-        [16] =
+        }, -- end of [16]
+        [17] =
         {
             ["actions"] =
             {
@@ -136994,8 +137262,8 @@ mission =
                     ["seconds"] = 24,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [16]
-        [17] =
+        }, -- end of [17]
+        [18] =
         {
             ["actions"] =
             {
@@ -137138,8 +137406,8 @@ mission =
                     ["seconds"] = 26,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [17]
-        [18] =
+        }, -- end of [18]
+        [19] =
         {
             ["actions"] =
             {
@@ -137164,8 +137432,8 @@ mission =
                     ["zone"] = 2831,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [18]
-        [19] =
+        }, -- end of [19]
+        [20] =
         {
             ["actions"] =
             {
@@ -137295,8 +137563,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [19]
-        [20] =
+        }, -- end of [20]
+        [21] =
         {
             ["actions"] =
             {
@@ -137428,8 +137696,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [20]
-        [21] =
+        }, -- end of [21]
+        [22] =
         {
             ["actions"] =
             {
@@ -137467,8 +137735,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [21]
-        [22] =
+        }, -- end of [22]
+        [23] =
         {
             ["actions"] =
             {
@@ -137497,8 +137765,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [22]
-        [23] =
+        }, -- end of [23]
+        [24] =
         {
             ["actions"] =
             {
@@ -137527,8 +137795,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [23]
-        [24] =
+        }, -- end of [24]
+        [25] =
         {
             ["actions"] =
             {
@@ -137557,8 +137825,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [24]
-        [25] =
+        }, -- end of [25]
+        [26] =
         {
             ["actions"] =
             {
@@ -137613,8 +137881,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [25]
-        [26] =
+        }, -- end of [26]
+        [27] =
         {
             ["actions"] =
             {
@@ -137638,8 +137906,8 @@ mission =
                     ["zone"] = 5502,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [26]
-        [27] =
+        }, -- end of [27]
+        [28] =
         {
             ["actions"] =
             {
@@ -137663,8 +137931,8 @@ mission =
                     ["zone"] = 5503,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [27]
-        [28] =
+        }, -- end of [28]
+        [29] =
         {
             ["actions"] =
             {
@@ -137692,29 +137960,6 @@ mission =
                     ["zone"] = 5557,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [28]
-        [29] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
-                    ["objects_mask"] = 1,
-                    ["predicate"] = "a_remove_scene_objects",
-                    ["zone"] = 5732,
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["comment"] = "Clear trees_JTAC 1",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["predicate"] = "c_time_after",
-                    ["seconds"] = 10,
-                }, -- end of [1]
-            }, -- end of ["rules"]
         }, -- end of [29]
         [30] =
         {
@@ -137724,7 +137969,7 @@ mission =
                 {
                     ["objects_mask"] = 1,
                     ["predicate"] = "a_remove_scene_objects",
-                    ["zone"] = 5733,
+                    ["zone"] = 5732,
                 }, -- end of [1]
             }, -- end of ["actions"]
             ["comment"] = "Clear trees_JTAC 1",
@@ -137747,7 +137992,7 @@ mission =
                 {
                     ["objects_mask"] = 1,
                     ["predicate"] = "a_remove_scene_objects",
-                    ["zone"] = 5794,
+                    ["zone"] = 5733,
                 }, -- end of [1]
             }, -- end of ["actions"]
             ["comment"] = "Clear trees_JTAC 1",
@@ -137763,6 +138008,29 @@ mission =
             }, -- end of ["rules"]
         }, -- end of [31]
         [32] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["objects_mask"] = 1,
+                    ["predicate"] = "a_remove_scene_objects",
+                    ["zone"] = 5794,
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["comment"] = "Clear trees_JTAC 1",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 10,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [32]
+        [33] =
         {
             ["actions"] =
             {
@@ -137800,8 +138068,8 @@ mission =
                     ["predicate"] = "c_group_life_less",
                 }, -- end of [3]
             }, -- end of ["rules"]
-        }, -- end of [32]
-        [33] =
+        }, -- end of [33]
+        [34] =
         {
             ["actions"] =
             {
@@ -137861,8 +138129,8 @@ mission =
                     ["zone"] = 6198,
                 }, -- end of [3]
             }, -- end of ["rules"]
-        }, -- end of [33]
-        [34] =
+        }, -- end of [34]
+        [35] =
         {
             ["actions"] =
             {
@@ -137905,8 +138173,8 @@ mission =
                     ["seconds"] = 6800,
                 }, -- end of [3]
             }, -- end of ["rules"]
-        }, -- end of [34]
-        [35] =
+        }, -- end of [35]
+        [36] =
         {
             ["actions"] =
             {
@@ -137928,8 +138196,8 @@ mission =
                     ["seconds"] = 7000,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [35]
-        [36] =
+        }, -- end of [36]
+        [37] =
         {
             ["actions"] =
             {
@@ -137951,8 +138219,8 @@ mission =
                     ["seconds"] = 7500,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [36]
-        [37] =
+        }, -- end of [37]
+        [38] =
         {
             ["actions"] =
             {
@@ -137973,8 +138241,8 @@ mission =
                     ["seconds"] = 6300,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [37]
-        [38] =
+        }, -- end of [38]
+        [39] =
         {
             ["actions"] =
             {
@@ -138010,33 +138278,6 @@ mission =
                     ["zone"] = 6076,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [38]
-        [39] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
-                    ["ai_task"] =
-                    {
-                        [1] = 1146,
-                        [2] = 1,
-                    }, -- end of ["ai_task"]
-                    ["predicate"] = "a_ai_task",
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["colorItem"] = "0x00ffffff",
-            ["comment"] = "Move SU24 forward",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["predicate"] = "c_time_after",
-                    ["seconds"] = 7100,
-                }, -- end of [1]
-            }, -- end of ["rules"]
         }, -- end of [39]
         [40] =
         {
@@ -138046,7 +138287,7 @@ mission =
                 {
                     ["ai_task"] =
                     {
-                        [1] = 1235,
+                        [1] = 1146,
                         [2] = 1,
                     }, -- end of ["ai_task"]
                     ["predicate"] = "a_ai_task",
@@ -138073,6 +138314,33 @@ mission =
                 {
                     ["ai_task"] =
                     {
+                        [1] = 1235,
+                        [2] = 1,
+                    }, -- end of ["ai_task"]
+                    ["predicate"] = "a_ai_task",
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x00ffffff",
+            ["comment"] = "Move SU24 forward",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 7100,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [41]
+        [42] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["ai_task"] =
+                    {
                         [1] = 1180,
                         [2] = 1,
                     }, -- end of ["ai_task"]
@@ -138091,8 +138359,8 @@ mission =
                     ["seconds"] = 7600,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [41]
-        [42] =
+        }, -- end of [42]
+        [43] =
         {
             ["actions"] =
             {
@@ -138118,8 +138386,8 @@ mission =
                     ["seconds"] = 8000,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [42]
-        [43] =
+        }, -- end of [43]
+        [44] =
         {
             ["actions"] =
             {
@@ -138145,8 +138413,8 @@ mission =
                     ["seconds"] = 10,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [43]
-        [44] =
+        }, -- end of [44]
+        [45] =
         {
             ["actions"] =
             {
@@ -138173,7 +138441,7 @@ mission =
                     ["zone"] = 7510,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [44]
+        }, -- end of [45]
     }, -- end of ["trigrules"]
     ["version"] = 23,
     ["weather"] =

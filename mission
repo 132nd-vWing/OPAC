@@ -34335,8 +34335,8 @@ mission =
                                         ["livery_id"] = "`desert` test paint scheme",
                                         ["name"] = "AA_701_SU30_Monchegorsk_1-3",
                                         ["onboard_num"] = "012",
-                                        ["parking"] = "91",
-                                        ["parking_id"] = "C14",
+                                        ["parking"] = 33,
+                                        ["parking_id"] = "B18",
                                         ["payload"] =
                                         {
                                             ["chaff"] = 96,
@@ -34352,8 +34352,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-30",
                                         ["unitId"] = 2434,
-                                        ["x"] = 45916.9453125,
-                                        ["y"] = 436800.875,
+                                        ["x"] = 46911.05078125,
+                                        ["y"] = 436996.25,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -34969,8 +34969,8 @@ mission =
                                         ["livery_id"] = "`desert` test paint scheme",
                                         ["name"] = "AA_701_SU30_Monchegorsk_3-3",
                                         ["onboard_num"] = "020",
-                                        ["parking"] = "46",
-                                        ["parking_id"] = "C17",
+                                        ["parking"] = 58,
+                                        ["parking_id"] = "A11",
                                         ["payload"] =
                                         {
                                             ["chaff"] = 96,
@@ -34986,8 +34986,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-30",
                                         ["unitId"] = 2442,
-                                        ["x"] = 45849.109375,
-                                        ["y"] = 436660.90625,
+                                        ["x"] = 47491.046875,
+                                        ["y"] = 437256.875,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -34998,8 +34998,8 @@ mission =
                                         ["livery_id"] = "`desert` test paint scheme",
                                         ["name"] = "AA_701_SU30_Monchegorsk_3-4",
                                         ["onboard_num"] = "021",
-                                        ["parking"] = "92",
-                                        ["parking_id"] = "C16",
+                                        ["parking"] = 88,
+                                        ["parking_id"] = "C05",
                                         ["payload"] =
                                         {
                                             ["chaff"] = 96,
@@ -35015,8 +35015,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-30",
                                         ["unitId"] = 2443,
-                                        ["x"] = 45844.51953125,
-                                        ["y"] = 436756.875,
+                                        ["x"] = 46258.95703125,
+                                        ["y"] = 436664.0625,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
                                 ["x"] = 45983.125,
@@ -35845,8 +35845,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 47491.046875,
-                                            ["y"] = 437256.875,
+                                            ["x"] = 45916.9453125,
+                                            ["y"] = 436800.875,
                                         }, -- end of [1]
                                         [2] =
                                         {
@@ -36084,7 +36084,7 @@ mission =
                                         }, -- end of [9]
                                         [10] =
                                         {
-                                            ["ETA"] = 2648.1572588477,
+                                            ["ETA"] = 2622.9619857761,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -36139,12 +36139,12 @@ mission =
                                         ["alt"] = 168,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = 125,
-                                        ["heading"] = 0.2495980466903,
+                                        ["heading"] = 0.25059880648791,
                                         ["livery_id"] = "`desert` test paint scheme",
                                         ["name"] = "AA_702_SU30_Monchegorsk_3-1",
                                         ["onboard_num"] = "030",
-                                        ["parking"] = "58",
-                                        ["parking_id"] = "A11",
+                                        ["parking"] = 91,
+                                        ["parking_id"] = "C14",
                                         ["payload"] =
                                         {
                                             ["chaff"] = 96,
@@ -36187,25 +36187,25 @@ mission =
                                                 }, -- end of [10]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.2495980466903,
+                                        ["psi"] = -0.25059880648791,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-30",
                                         ["unitId"] = 2452,
-                                        ["x"] = 47491.046875,
-                                        ["y"] = 437256.875,
+                                        ["x"] = 45916.9453125,
+                                        ["y"] = 436800.875,
                                     }, -- end of [1]
                                     [2] =
                                     {
                                         ["alt"] = 168,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = 126,
-                                        ["heading"] = 0.2495980466903,
+                                        ["heading"] = 0.25059880648791,
                                         ["livery_id"] = "`desert` test paint scheme",
                                         ["name"] = "AA_702_SU30_Monchegorsk_3-2",
                                         ["onboard_num"] = "031",
-                                        ["parking"] = "57",
-                                        ["parking_id"] = "A12",
+                                        ["parking"] = 46,
+                                        ["parking_id"] = "C17",
                                         ["payload"] =
                                         {
                                             ["chaff"] = 96,
@@ -36248,17 +36248,17 @@ mission =
                                                 }, -- end of [10]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.2495980466903,
+                                        ["psi"] = -0.25059880648791,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-30",
                                         ["unitId"] = 2453,
-                                        ["x"] = 47411.765625,
-                                        ["y"] = 437233.90625,
+                                        ["x"] = 45849.109375,
+                                        ["y"] = 436660.90625,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 47491.046875,
-                                ["y"] = 437256.875,
+                                ["x"] = 45916.9453125,
+                                ["y"] = 436800.875,
                             }, -- end of [7]
                             [8] =
                             {
@@ -39331,23 +39331,6 @@ mission =
                                 ["taskSelected"] = true,
                                 ["tasks"] =
                                 {
-                                    [1] =
-                                    {
-                                        ["auto"] = false,
-                                        ["enabled"] = true,
-                                        ["id"] = "WrappedAction",
-                                        ["number"] = 1,
-                                        ["params"] =
-                                        {
-                                            ["action"] =
-                                            {
-                                                ["id"] = "Start",
-                                                ["params"] =
-                                                {
-                                                }, -- end of ["params"]
-                                            }, -- end of ["action"]
-                                        }, -- end of ["params"]
-                                    }, -- end of [1]
                                 }, -- end of ["tasks"]
                                 ["uncontrolled"] = true,
                                 ["units"] =
@@ -56908,7 +56891,7 @@ mission =
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 527.38010083495,
+                                            ["ETA"] = 526.99708136137,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 4572,
@@ -56927,8 +56910,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 145044.78120175,
-                                            ["y"] = 516632.01258571,
+                                            ["x"] = 144922.91665794,
+                                            ["y"] = 516662.83867992,
                                         }, -- end of [2]
                                         [3] =
                                         {
@@ -57188,7 +57171,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Pontiac31",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.70630510919343,
+                                        ["heading"] = 0.70733096552147,
                                         ["livery_id"] = "planaf standard",
                                         ["name"] = "AB_XIL_H6J_Olenya_1-1",
                                         ["onboard_num"] = "046",
@@ -57204,7 +57187,7 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.70630510919343,
+                                        ["psi"] = -0.70733096552147,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "H-6J",
@@ -62575,7 +62558,7 @@ mission =
                                 ["hiddenOnMFD"] = true,
                                 ["hiddenOnPlanner"] = true,
                                 ["modulation"] = 0,
-                                ["name"] = "AA_472_TU142_Severomorsk1_2",
+                                ["name"] = "@@AA_472_TU142_Severomorsk1_2",
                                 ["radioSet"] = false,
                                 ["route"] =
                                 {
@@ -62919,7 +62902,7 @@ mission =
                                         }, -- end of [7]
                                         [8] =
                                         {
-                                            ["ETA"] = 7858.1798306659,
+                                            ["ETA"] = 7845.0346346999,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
@@ -64805,7 +64788,7 @@ mission =
                                         }, -- end of ["params"]
                                     }, -- end of [1]
                                 }, -- end of ["tasks"]
-                                ["uncontrolled"] = false,
+                                ["uncontrolled"] = true,
                                 ["units"] =
                                 {
                                     [1] =
@@ -64823,6 +64806,8 @@ mission =
                                         ["livery_id"] = "279th kiap 1st squad navy",
                                         ["name"] = "AA_452_SU33_Severomorsk1_1-1",
                                         ["onboard_num"] = "018",
+                                        ["parking"] = 13,
+                                        ["parking_id"] = "A02",
                                         ["payload"] =
                                         {
                                             ["chaff"] = 48,
@@ -64838,8 +64823,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 2635,
-                                        ["x"] = 166171.703125,
-                                        ["y"] = 429372.28125,
+                                        ["x"] = 166139.03125,
+                                        ["y"] = 429404.84375,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -65103,7 +65088,7 @@ mission =
                                         }, -- end of ["params"]
                                     }, -- end of [1]
                                 }, -- end of ["tasks"]
-                                ["uncontrolled"] = false,
+                                ["uncontrolled"] = true,
                                 ["units"] =
                                 {
                                     [1] =
@@ -65121,6 +65106,8 @@ mission =
                                         ["livery_id"] = "279th kiap 1st squad navy",
                                         ["name"] = "AA_452_SU33_Severomorsk1_2-1",
                                         ["onboard_num"] = "141",
+                                        ["parking"] = 5,
+                                        ["parking_id"] = "A01",
                                         ["payload"] =
                                         {
                                             ["chaff"] = 48,
@@ -65136,8 +65123,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 2639,
-                                        ["x"] = 166006.5,
-                                        ["y"] = 429532.9375,
+                                        ["x"] = 166171.703125,
+                                        ["y"] = 429372.28125,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -65528,7 +65515,7 @@ mission =
                                         }, -- end of ["params"]
                                     }, -- end of [1]
                                 }, -- end of ["tasks"]
-                                ["uncontrolled"] = false,
+                                ["uncontrolled"] = true,
                                 ["units"] =
                                 {
                                     [1] =
@@ -67802,8 +67789,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 163975.4375,
-                                            ["y"] = 389582.5,
+                                            ["x"] = 164508.453125,
+                                            ["y"] = 389979.59375,
                                         }, -- end of [1]
                                         [2] =
                                         {
@@ -67972,12 +67959,12 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Dodge31",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -1.4062719990988,
+                                        ["heading"] = -1.430167363722,
                                         ["livery_id"] = "plaaf 7th ad (reworked)",
                                         ["name"] = "AB_XX1_J11_AA_AG_Kilpyavr_2_ESCORT-1",
                                         ["onboard_num"] = "073",
-                                        ["parking"] = "4",
-                                        ["parking_id"] = "F03",
+                                        ["parking"] = 41,
+                                        ["parking_id"] = "B11",
                                         ["payload"] =
                                         {
                                             ["chaff"] = 96,
@@ -67988,13 +67975,13 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 1.4062719990988,
+                                        ["psi"] = 1.430167363722,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "J-11A",
                                         ["unitId"] = 2801,
-                                        ["x"] = 163975.4375,
-                                        ["y"] = 389582.5,
+                                        ["x"] = 164508.453125,
+                                        ["y"] = 389979.59375,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -68007,12 +67994,12 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Dodge32",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -1.4062719990988,
+                                        ["heading"] = -1.430167363722,
                                         ["livery_id"] = "plaaf 7th ad (reworked)",
                                         ["name"] = "AB_XX1_J11_AA_AG_Kilpyavr_2_ESCORT-2",
                                         ["onboard_num"] = "085",
-                                        ["parking"] = "5",
-                                        ["parking_id"] = "F04",
+                                        ["parking"] = 37,
+                                        ["parking_id"] = "B12",
                                         ["payload"] =
                                         {
                                             ["chaff"] = 96,
@@ -68063,17 +68050,17 @@ mission =
                                                 }, -- end of [10]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 1.4062719990988,
+                                        ["psi"] = 1.430167363722,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "J-11A",
                                         ["unitId"] = 2805,
-                                        ["x"] = 164002.09375,
-                                        ["y"] = 389600.1875,
+                                        ["x"] = 164513.375,
+                                        ["y"] = 390006.40625,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 163975.4375,
-                                ["y"] = 389582.5,
+                                ["x"] = 164508.453125,
+                                ["y"] = 389979.59375,
                             }, -- end of [75]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
@@ -115066,7 +115053,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 2729160,
+    ["currentKey"] = 2809048,
     ["date"] =
     {
         ["Day"] = 24,
@@ -122567,9 +122554,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 113166.91050244,
-        ["centerY"] = 462552.13253756,
-        ["zoom"] = 1097264.9690187,
+        ["centerX"] = 45941.887152116,
+        ["centerY"] = 437119.45610865,
+        ["zoom"] = 2861.1848387928,
     }, -- end of ["map"]
     ["maxDictId"] = 20,
     ["pictureFileNameB"] =
@@ -122659,32 +122646,28 @@ mission =
             [22] = "a_ai_task(403, 1);a_ai_task(542, 1); mission.trig.func[22]=nil;",
             [23] = "a_ai_task(400, 1); mission.trig.func[23]=nil;",
             [24] = "a_ai_task(1216, 1); mission.trig.func[24]=nil;",
-            [25] = "a_ai_task(952, 1); mission.trig.func[25]=nil;",
-            [26] = "a_group_on(749);a_group_on(1065);a_group_on(761);a_group_on(759);a_group_on(916);a_group_on(760);a_group_on(384); mission.trig.func[26]=nil;",
-            [27] = "a_group_on(763); mission.trig.func[27]=nil;",
-            [28] = "a_group_on(764); mission.trig.func[28]=nil;",
-            [29] = "a_ai_task(135, 1); mission.trig.func[29]=nil;",
-            [30] = "a_remove_scene_objects(5732, 1); mission.trig.func[30]=nil;",
-            [31] = "a_remove_scene_objects(5733, 1); mission.trig.func[31]=nil;",
-            [32] = "a_remove_scene_objects(5794, 1); mission.trig.func[32]=nil;",
-            [33] = "a_group_on(387);a_group_on(390); mission.trig.func[33]=nil;",
-            [34] = "a_group_on(385);a_group_on(967);a_group_on(759);a_group_on(915);a_group_on(1172);a_group_on(384); mission.trig.func[34]=nil;",
-            [35] = "a_set_flag(\"50\");a_group_on(356);a_group_on(362); mission.trig.func[35]=nil;",
-            [36] = "a_activate_group(971); mission.trig.func[36]=nil;",
-            [37] = "a_activate_group(977); mission.trig.func[37]=nil;",
-            [38] = "a_group_on(997); mission.trig.func[38]=nil;",
-            [39] = "a_ai_task(1069, 1);a_ai_task(1070, 1); mission.trig.func[39]=nil;",
-            [40] = "a_ai_task(1146, 1); mission.trig.func[40]=nil;",
-            [41] = "a_ai_task(1235, 1); mission.trig.func[41]=nil;",
-            [42] = "a_ai_task(1180, 1); mission.trig.func[42]=nil;",
-            [43] = "a_ai_task(1232, 1); mission.trig.func[43]=nil;",
-            [44] = "a_ai_task(1189, 1); mission.trig.func[44]=nil;",
-            [45] = "a_group_off(1179);a_group_off(1337); mission.trig.func[45]=nil;",
-            [46] = "a_ai_task(1348, 1); mission.trig.func[46]=nil;",
-            [47] = "a_ai_task(1252, 1); mission.trig.func[47]=nil;",
-            [48] = "a_ai_task(1253, 1); mission.trig.func[48]=nil;",
-            [49] = "a_ai_task(1254, 1); mission.trig.func[49]=nil;",
-            [50] = "a_ai_task(1355, 1); mission.trig.func[50]=nil;",
+            [25] = "a_group_on(749);a_group_on(1065);a_group_on(761);a_group_on(759);a_group_on(916);a_group_on(760);a_group_on(384); mission.trig.func[25]=nil;",
+            [26] = "a_group_on(763); mission.trig.func[26]=nil;",
+            [27] = "a_group_on(764); mission.trig.func[27]=nil;",
+            [28] = "a_ai_task(135, 1); mission.trig.func[28]=nil;",
+            [29] = "a_remove_scene_objects(5732, 1); mission.trig.func[29]=nil;",
+            [30] = "a_remove_scene_objects(5733, 1); mission.trig.func[30]=nil;",
+            [31] = "a_remove_scene_objects(5794, 1); mission.trig.func[31]=nil;",
+            [32] = "a_group_on(387);a_group_on(390); mission.trig.func[32]=nil;",
+            [33] = "a_group_on(385);a_group_on(967);a_group_on(759);a_group_on(915);a_group_on(1172);a_group_on(384); mission.trig.func[33]=nil;",
+            [34] = "a_set_flag(\"50\");a_group_on(356);a_group_on(362); mission.trig.func[34]=nil;",
+            [35] = "a_activate_group(971); mission.trig.func[35]=nil;",
+            [36] = "a_activate_group(977); mission.trig.func[36]=nil;",
+            [37] = "a_group_on(997); mission.trig.func[37]=nil;",
+            [38] = "a_ai_task(1069, 1);a_ai_task(1070, 1); mission.trig.func[38]=nil;",
+            [39] = "a_ai_task(1189, 1); mission.trig.func[39]=nil;",
+            [40] = "a_ai_task(1244, 1); mission.trig.func[40]=nil;",
+            [41] = "a_group_off(1179);a_group_off(1337); mission.trig.func[41]=nil;",
+            [42] = "a_ai_task(1348, 1); mission.trig.func[42]=nil;",
+            [43] = "a_ai_task(1252, 1); mission.trig.func[43]=nil;",
+            [44] = "a_ai_task(1253, 1); mission.trig.func[44]=nil;",
+            [45] = "a_ai_task(1254, 1); mission.trig.func[45]=nil;",
+            [46] = "a_ai_task(1355, 1); mission.trig.func[46]=nil;",
         }, -- end of ["actions"]
         ["conditions"] =
         {
@@ -122712,32 +122695,28 @@ mission =
             [22] = "return(c_time_after(3610) )",
             [23] = "return(c_time_after(7000) )",
             [24] = "return(c_time_after(7200) )",
-            [25] = "return(c_time_after(99997300) )",
-            [26] = "return(c_time_after(3600) )",
-            [27] = "return(c_part_of_coalition_in_zone(\"red\", 5502, \"ALL\") )",
-            [28] = "return(c_part_of_coalition_in_zone(\"red\", 5503, \"ALL\") )",
-            [29] = "return(c_part_of_coalition_in_zone(\"blue\", 5557, \"ALL\") )",
+            [25] = "return(c_time_after(3600) )",
+            [26] = "return(c_part_of_coalition_in_zone(\"red\", 5502, \"ALL\") )",
+            [27] = "return(c_part_of_coalition_in_zone(\"red\", 5503, \"ALL\") )",
+            [28] = "return(c_part_of_coalition_in_zone(\"blue\", 5557, \"ALL\") )",
+            [29] = "return(c_time_after(10) )",
             [30] = "return(c_time_after(10) )",
             [31] = "return(c_time_after(10) )",
-            [32] = "return(c_time_after(10) )",
-            [33] = "return(c_group_life_less(356, 95) or c_group_life_less(362, 95) )",
-            [34] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"ALL\") or c_part_of_coalition_in_zone(\"blue\", 6198, \"ALL\") )",
-            [35] = "return(c_part_of_coalition_in_zone(\"blue\", 6198, \"HELICOPTER\") or c_time_after(6800) )",
-            [36] = "return(c_time_after(7000) )",
-            [37] = "return(c_time_after(7500) )",
-            [38] = "return(c_time_after(6300) )",
-            [39] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"HELICOPTER\") )",
-            [40] = "return(c_time_after(7100) )",
-            [41] = "return(c_time_after(7100) )",
-            [42] = "return(c_time_after(7600) )",
-            [43] = "return(c_time_after(8000) )",
-            [44] = "return(c_time_after(6900) )",
-            [45] = "return(c_time_after(10) )",
-            [46] = "return(c_part_of_group_in_zone(1216, 7510) )",
-            [47] = "return(c_time_after(5400) )",
-            [48] = "return(c_time_after(7200) )",
-            [49] = "return(c_time_after(8000) )",
-            [50] = "return(c_part_of_coalition_in_zone(\"blue\", 7576, \"ALL\") )",
+            [32] = "return(c_group_life_less(356, 95) or c_group_life_less(362, 95) )",
+            [33] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"ALL\") or c_part_of_coalition_in_zone(\"blue\", 6198, \"ALL\") )",
+            [34] = "return(c_part_of_coalition_in_zone(\"blue\", 6198, \"HELICOPTER\") or c_time_after(6800) )",
+            [35] = "return(c_time_after(7000) )",
+            [36] = "return(c_time_after(7500) )",
+            [37] = "return(c_time_after(6300) )",
+            [38] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"HELICOPTER\") )",
+            [39] = "return(c_time_after(6900) )",
+            [40] = "return(c_time_after(2000) )",
+            [41] = "return(c_time_after(10) )",
+            [42] = "return(c_part_of_group_in_zone(1216, 7510) )",
+            [43] = "return(c_time_after(5000) )",
+            [44] = "return(c_time_after(7800) )",
+            [45] = "return(c_time_after(8900) )",
+            [46] = "return(c_part_of_coalition_in_zone(\"blue\", 7576, \"ALL\") )",
         }, -- end of ["conditions"]
         ["custom"] =
         {
@@ -122796,10 +122775,6 @@ mission =
             [44] = true,
             [45] = true,
             [46] = true,
-            [47] = true,
-            [48] = true,
-            [49] = true,
-            [50] = true,
         }, -- end of ["flag"]
         ["func"] =
         {
@@ -122847,10 +122822,6 @@ mission =
             [44] = "if mission.trig.conditions[44]() then mission.trig.actions[44]() end",
             [45] = "if mission.trig.conditions[45]() then mission.trig.actions[45]() end",
             [46] = "if mission.trig.conditions[46]() then mission.trig.actions[46]() end",
-            [47] = "if mission.trig.conditions[47]() then mission.trig.actions[47]() end",
-            [48] = "if mission.trig.conditions[48]() then mission.trig.actions[48]() end",
-            [49] = "if mission.trig.conditions[49]() then mission.trig.actions[49]() end",
-            [50] = "if mission.trig.conditions[50]() then mission.trig.actions[50]() end",
         }, -- end of ["func"]
         ["funcStartup"] =
         {
@@ -138056,8 +138027,8 @@ mission =
                 }, -- end of ["properties"]
                 ["radius"] = 9144,
                 ["type"] = 0,
-                ["x"] = 147108.60215975,
-                ["y"] = 516221.60643823,
+                ["x"] = 89156.995343776,
+                ["y"] = 471174.10283691,
                 ["zoneId"] = 7510,
             }, -- end of [635]
             [636] =
@@ -139843,36 +139814,6 @@ mission =
             {
                 [1] =
                 {
-                    ["ai_task"] =
-                    {
-                        [1] = 952,
-                        [2] = 1,
-                    }, -- end of ["ai_task"]
-                    ["predicate"] = "a_ai_task",
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["colorItem"] = "0x00ffffff",
-            ["comment"] = "Start Mig29_escort_TU95",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["coalitionlist"] = "red",
-                    ["predicate"] = "c_time_after",
-                    ["seconds"] = 99997300,
-                    ["unitType"] = "ALL",
-                    ["zone"] = 5284,
-                }, -- end of [1]
-            }, -- end of ["rules"]
-        }, -- end of [25]
-        [26] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
                     ["group"] = 749,
                     ["predicate"] = "a_group_on",
                 }, -- end of [1]
@@ -139922,8 +139863,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [26]
-        [27] =
+        }, -- end of [25]
+        [26] =
         {
             ["actions"] =
             {
@@ -139947,8 +139888,8 @@ mission =
                     ["zone"] = 5502,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [27]
-        [28] =
+        }, -- end of [26]
+        [27] =
         {
             ["actions"] =
             {
@@ -139972,8 +139913,8 @@ mission =
                     ["zone"] = 5503,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [28]
-        [29] =
+        }, -- end of [27]
+        [28] =
         {
             ["actions"] =
             {
@@ -140001,6 +139942,29 @@ mission =
                     ["zone"] = 5557,
                 }, -- end of [1]
             }, -- end of ["rules"]
+        }, -- end of [28]
+        [29] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["objects_mask"] = 1,
+                    ["predicate"] = "a_remove_scene_objects",
+                    ["zone"] = 5732,
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["comment"] = "Clear trees_JTAC 1",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 10,
+                }, -- end of [1]
+            }, -- end of ["rules"]
         }, -- end of [29]
         [30] =
         {
@@ -140010,7 +139974,7 @@ mission =
                 {
                     ["objects_mask"] = 1,
                     ["predicate"] = "a_remove_scene_objects",
-                    ["zone"] = 5732,
+                    ["zone"] = 5733,
                 }, -- end of [1]
             }, -- end of ["actions"]
             ["comment"] = "Clear trees_JTAC 1",
@@ -140033,7 +139997,7 @@ mission =
                 {
                     ["objects_mask"] = 1,
                     ["predicate"] = "a_remove_scene_objects",
-                    ["zone"] = 5733,
+                    ["zone"] = 5794,
                 }, -- end of [1]
             }, -- end of ["actions"]
             ["comment"] = "Clear trees_JTAC 1",
@@ -140049,29 +140013,6 @@ mission =
             }, -- end of ["rules"]
         }, -- end of [31]
         [32] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
-                    ["objects_mask"] = 1,
-                    ["predicate"] = "a_remove_scene_objects",
-                    ["zone"] = 5794,
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["comment"] = "Clear trees_JTAC 1",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["predicate"] = "c_time_after",
-                    ["seconds"] = 10,
-                }, -- end of [1]
-            }, -- end of ["rules"]
-        }, -- end of [32]
-        [33] =
         {
             ["actions"] =
             {
@@ -140109,8 +140050,8 @@ mission =
                     ["predicate"] = "c_group_life_less",
                 }, -- end of [3]
             }, -- end of ["rules"]
-        }, -- end of [33]
-        [34] =
+        }, -- end of [32]
+        [33] =
         {
             ["actions"] =
             {
@@ -140170,8 +140111,8 @@ mission =
                     ["zone"] = 6198,
                 }, -- end of [3]
             }, -- end of ["rules"]
-        }, -- end of [34]
-        [35] =
+        }, -- end of [33]
+        [34] =
         {
             ["actions"] =
             {
@@ -140214,8 +140155,8 @@ mission =
                     ["seconds"] = 6800,
                 }, -- end of [3]
             }, -- end of ["rules"]
-        }, -- end of [35]
-        [36] =
+        }, -- end of [34]
+        [35] =
         {
             ["actions"] =
             {
@@ -140237,8 +140178,8 @@ mission =
                     ["seconds"] = 7000,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [36]
-        [37] =
+        }, -- end of [35]
+        [36] =
         {
             ["actions"] =
             {
@@ -140260,8 +140201,8 @@ mission =
                     ["seconds"] = 7500,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [37]
-        [38] =
+        }, -- end of [36]
+        [37] =
         {
             ["actions"] =
             {
@@ -140282,8 +140223,8 @@ mission =
                     ["seconds"] = 6300,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [38]
-        [39] =
+        }, -- end of [37]
+        [38] =
         {
             ["actions"] =
             {
@@ -140319,116 +140260,8 @@ mission =
                     ["zone"] = 6076,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [39]
-        [40] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
-                    ["ai_task"] =
-                    {
-                        [1] = 1146,
-                        [2] = 1,
-                    }, -- end of ["ai_task"]
-                    ["predicate"] = "a_ai_task",
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["colorItem"] = "0x00ffffff",
-            ["comment"] = "Move SU24 forward",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["predicate"] = "c_time_after",
-                    ["seconds"] = 7100,
-                }, -- end of [1]
-            }, -- end of ["rules"]
-        }, -- end of [40]
-        [41] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
-                    ["ai_task"] =
-                    {
-                        [1] = 1235,
-                        [2] = 1,
-                    }, -- end of ["ai_task"]
-                    ["predicate"] = "a_ai_task",
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["colorItem"] = "0x00ffffff",
-            ["comment"] = "Move SU24 forward",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["predicate"] = "c_time_after",
-                    ["seconds"] = 7100,
-                }, -- end of [1]
-            }, -- end of ["rules"]
-        }, -- end of [41]
-        [42] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
-                    ["ai_task"] =
-                    {
-                        [1] = 1180,
-                        [2] = 1,
-                    }, -- end of ["ai_task"]
-                    ["predicate"] = "a_ai_task",
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["colorItem"] = "0x00ffffff",
-            ["comment"] = "Move MiG29 forward",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["predicate"] = "c_time_after",
-                    ["seconds"] = 7600,
-                }, -- end of [1]
-            }, -- end of ["rules"]
-        }, -- end of [42]
-        [43] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
-                    ["ai_task"] =
-                    {
-                        [1] = 1232,
-                        [2] = 1,
-                    }, -- end of ["ai_task"]
-                    ["predicate"] = "a_ai_task",
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["colorItem"] = "0x00ffffff",
-            ["comment"] = "Move MiG29 2 forward",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["predicate"] = "c_time_after",
-                    ["seconds"] = 8000,
-                }, -- end of [1]
-            }, -- end of ["rules"]
-        }, -- end of [43]
-        [44] =
+        }, -- end of [38]
+        [39] =
         {
             ["actions"] =
             {
@@ -140454,8 +140287,35 @@ mission =
                     ["seconds"] = 6900,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [44]
-        [45] =
+        }, -- end of [39]
+        [40] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["ai_task"] =
+                    {
+                        [1] = 1244,
+                        [2] = 1,
+                    }, -- end of ["ai_task"]
+                    ["predicate"] = "a_ai_task",
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x00ffffff",
+            ["comment"] = "Start TU142 ASUW search",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 2000,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [40]
+        [41] =
         {
             ["actions"] =
             {
@@ -140481,8 +140341,8 @@ mission =
                     ["seconds"] = 10,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [45]
-        [46] =
+        }, -- end of [41]
+        [42] =
         {
             ["actions"] =
             {
@@ -140509,8 +140369,8 @@ mission =
                     ["zone"] = 7510,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [46]
-        [47] =
+        }, -- end of [42]
+        [43] =
         {
             ["actions"] =
             {
@@ -140533,11 +140393,11 @@ mission =
                 [1] =
                 {
                     ["predicate"] = "c_time_after",
-                    ["seconds"] = 5400,
+                    ["seconds"] = 5000,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [47]
-        [48] =
+        }, -- end of [43]
+        [44] =
         {
             ["actions"] =
             {
@@ -140560,11 +140420,11 @@ mission =
                 [1] =
                 {
                     ["predicate"] = "c_time_after",
-                    ["seconds"] = 7200,
+                    ["seconds"] = 7800,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [48]
-        [49] =
+        }, -- end of [44]
+        [45] =
         {
             ["actions"] =
             {
@@ -140587,11 +140447,11 @@ mission =
                 [1] =
                 {
                     ["predicate"] = "c_time_after",
-                    ["seconds"] = 8000,
+                    ["seconds"] = 8900,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [49]
-        [50] =
+        }, -- end of [45]
+        [46] =
         {
             ["actions"] =
             {
@@ -140618,7 +140478,7 @@ mission =
                     ["zone"] = 7576,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [50]
+        }, -- end of [46]
     }, -- end of ["trigrules"]
     ["version"] = 23,
     ["weather"] =

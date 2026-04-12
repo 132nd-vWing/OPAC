@@ -111,6 +111,16 @@ local sa15 = redIADS:getSAMSiteByGroupName('IADS_NORTH_PD4_SA15_3')
 redIADS:getSAMSiteByGroupName('IADS_NORTH_8111_SA2_BN'):addPointDefence(sa15)
 
 
+-- POINT DEFENCE SECTOR NORTH
+-- SA-2 Olenya
+local sa15 = redIADS:getSAMSiteByGroupName('IADS_SOUTH_PD1_SA15_1')
+redIADS:getSAMSiteByGroupName('IADS_AD_S_SA2_1  8311_SA2_BN'):addPointDefence(sa15)
+
+-- SA-6 Monchegorsk
+local sa15 = redIADS:getSAMSiteByGroupName('IADS_SOUTH_PD1_SA15_2')
+redIADS:getSAMSiteByGroupName('IADS_SOUTH_SA6_BN_2'):addPointDefence(sa15)
+
+
 
 
 --activate the IADS

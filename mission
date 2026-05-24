@@ -46967,6 +46967,169 @@ mission =
                                 ["x"] = 40098.257523246,
                                 ["y"] = 435980.57936703,
                             }, -- end of [26]
+                            [27] =
+                            {
+                                ["groupId"] = 1376,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "1C_Iskander_TOS",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 107,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 81099.699118258,
+                                            ["y"] = 272520.17250924,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                        [1] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["x"] = 81099.699118258,
+                                                ["y"] = 272520.17250924,
+                                            }, -- end of [1]
+                                            [2] =
+                                            {
+                                                ["x"] = 81099.699118258,
+                                                ["y"] = 272520.17250924,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.2548435076947,
+                                        ["name"] = "1C_Iskander_TOS-1",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "High",
+                                        ["type"] = "CHAP_9K720_HE",
+                                        ["unitId"] = 2850,
+                                        ["x"] = 81099.699118258,
+                                        ["y"] = 272520.17250924,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.2548435076947,
+                                        ["name"] = "1C_Iskander_TOS-2",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "High",
+                                        ["type"] = "CHAP_9K720_HE",
+                                        ["unitId"] = 2851,
+                                        ["x"] = 80933.603189951,
+                                        ["y"] = 272644.72629981,
+                                    }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.2548435076947,
+                                        ["name"] = "1C_Iskander_TOS-3",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "High",
+                                        ["type"] = "CHAP_9K720_HE",
+                                        ["unitId"] = 2852,
+                                        ["x"] = 80935.434498456,
+                                        ["y"] = 272876.59952215,
+                                    }, -- end of [3]
+                                    [4] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.2548435076947,
+                                        ["name"] = "1C_Iskander_TOS-4",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "High",
+                                        ["type"] = "CHAP_9K720_HE",
+                                        ["unitId"] = 2853,
+                                        ["x"] = 81295.891558281,
+                                        ["y"] = 272609.00772828,
+                                    }, -- end of [4]
+                                    [5] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.2548435076947,
+                                        ["name"] = "1C_Iskander_TOS-5",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "CHAP_TOS1A",
+                                        ["unitId"] = 2854,
+                                        ["x"] = 74206.065328217,
+                                        ["y"] = 210062.24183098,
+                                    }, -- end of [5]
+                                    [6] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.2548435076947,
+                                        ["name"] = "1C_Iskander_TOS-6",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "CHAP_TOS1A",
+                                        ["unitId"] = 2855,
+                                        ["x"] = 74144.107118921,
+                                        ["y"] = 209995.87641956,
+                                    }, -- end of [6]
+                                    [7] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.2548435076947,
+                                        ["name"] = "1C_Iskander_TOS-7",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "CHAP_TOS1A",
+                                        ["unitId"] = 2856,
+                                        ["x"] = 74122.706405016,
+                                        ["y"] = 209962.26087337,
+                                    }, -- end of [7]
+                                    [8] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.2548435076947,
+                                        ["name"] = "1C_Iskander_TOS-8",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "CHAP_TOS1A",
+                                        ["unitId"] = 2857,
+                                        ["x"] = 74172.222552501,
+                                        ["y"] = 210028.62562639,
+                                    }, -- end of [8]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 81099.699118258,
+                                ["y"] = 272520.17250924,
+                            }, -- end of [27]
                         }, -- end of ["group"]
                     }, -- end of ["vehicle"]
                 }, -- end of [1]
@@ -65093,7 +65256,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Springfield11",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -0.4373250212297,
+                                        ["heading"] = 5.8458602859499,
                                         ["livery_id"] = "279th kiap 1st squad navy",
                                         ["name"] = "AA_452_SU33_Kutzentzov_1-1",
                                         ["onboard_num"] = "018",
@@ -65176,7 +65339,7 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Springfield12",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -0.4373250212297,
+                                        ["heading"] = 5.8458602859499,
                                         ["livery_id"] = "279th kiap 1st squad navy",
                                         ["name"] = "AA_452_SU33_Kutzentzov_1-2",
                                         ["onboard_num"] = "138",
@@ -65568,7 +65731,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Colt71",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.36549642841321,
+                                        ["heading"] = 0.36549642841311,
                                         ["livery_id"] = "279th kiap 1st squad navy",
                                         ["name"] = "AA_452_SU33_Kuznetsov_escort_2-1",
                                         ["onboard_num"] = "141",
@@ -65584,7 +65747,7 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.36549642841321,
+                                        ["psi"] = -0.36549642841311,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
@@ -65603,7 +65766,7 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Colt72",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.36549642841321,
+                                        ["heading"] = 0.36549642841311,
                                         ["livery_id"] = "279th kiap 1st squad navy",
                                         ["name"] = "AA_452_SU33_Kuznetsov_escort_2-2",
                                         ["onboard_num"] = "142",
@@ -65619,7 +65782,7 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.36549642841321,
+                                        ["psi"] = -0.36549642841311,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
@@ -68508,7 +68671,7 @@ mission =
                                     [1] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.46318611934274,
+                                        ["heading"] = 0.46318611934275,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_10th_Pyotr_veliky",
                                         ["skill"] = "Average",
@@ -68520,7 +68683,7 @@ mission =
                                     [2] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.46318611934274,
+                                        ["heading"] = 0.46318611934275,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 211_Rezky6_SAG_Pyotr_veliky",
                                         ["skill"] = "Average",
@@ -68532,7 +68695,7 @@ mission =
                                     [3] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0.46318611934274,
+                                        ["heading"] = 0.46318611934275,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 211_Rezky5_SAG_Pyotr_veliky",
                                         ["skill"] = "Average",
@@ -98071,6 +98234,1386 @@ mission =
                                 ["x"] = 170019.28646487,
                                 ["y"] = 429964.69789517,
                             }, -- end of [663]
+                            [664] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1378,
+                                ["heading"] = 0.069813170079773,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "1C_10DIV_T80_static-28",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 89340.173811665,
+                                            ["y"] = 209206.73236607,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 0.069813170079773,
+                                        ["name"] = "1C_10DIV_T80_static-28-1",
+                                        ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "T-80UD",
+                                        ["unitId"] = 2868,
+                                        ["x"] = 89340.173811665,
+                                        ["y"] = 209206.73236607,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 89340.173811665,
+                                ["y"] = 209206.73236607,
+                            }, -- end of [664]
+                            [665] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1379,
+                                ["heading"] = 1.5707963267949,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "1C_10DIV_T80_static-29",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 89332.822721395,
+                                            ["y"] = 209210.97337969,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 1.5707963267949,
+                                        ["name"] = "1C_10DIV_T80_static-29-1",
+                                        ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "T-80UD",
+                                        ["unitId"] = 2869,
+                                        ["x"] = 89332.822721395,
+                                        ["y"] = 209210.97337969,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 89332.822721395,
+                                ["y"] = 209210.97337969,
+                            }, -- end of [665]
+                            [666] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1380,
+                                ["heading"] = 1.9373154697137,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "1C_10DIV_T80_static-30",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 89336.781000771,
+                                            ["y"] = 209164.88769838,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 1.9373154697137,
+                                        ["name"] = "1C_10DIV_T80_static-30-1",
+                                        ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "T-80UD",
+                                        ["unitId"] = 2870,
+                                        ["x"] = 89336.781000771,
+                                        ["y"] = 209164.88769838,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 89336.781000771,
+                                ["y"] = 209164.88769838,
+                            }, -- end of [666]
+                            [667] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1381,
+                                ["heading"] = 1.6929693744345,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "1C_10DIV_T80_static-31",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 90277.913903079,
+                                            ["y"] = 208166.23649607,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 1.6929693744345,
+                                        ["name"] = "1C_10DIV_T80_static-31-1",
+                                        ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "T-80UD",
+                                        ["unitId"] = 2871,
+                                        ["x"] = 90277.913903079,
+                                        ["y"] = 208166.23649607,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 90277.913903079,
+                                ["y"] = 208166.23649607,
+                            }, -- end of [667]
+                            [668] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1382,
+                                ["heading"] = 4.2236967898263,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "1C_10DIV_T80_static-32",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 90287.160733811,
+                                            ["y"] = 208141.47885249,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 4.2236967898263,
+                                        ["name"] = "1C_10DIV_T80_static-32-1",
+                                        ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "T-80UD",
+                                        ["unitId"] = 2872,
+                                        ["x"] = 90287.160733811,
+                                        ["y"] = 208141.47885249,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 90287.160733811,
+                                ["y"] = 208141.47885249,
+                            }, -- end of [668]
+                            [669] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1383,
+                                ["heading"] = 4.2236967898263,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "1C_10DIV_T80_static-33",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 90270.158496659,
+                                            ["y"] = 208134.3200158,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 4.2236967898263,
+                                        ["name"] = "1C_10DIV_T80_static-33-1",
+                                        ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "T-80UD",
+                                        ["unitId"] = 2873,
+                                        ["x"] = 90270.158496659,
+                                        ["y"] = 208134.3200158,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 90270.158496659,
+                                ["y"] = 208134.3200158,
+                            }, -- end of [669]
+                            [670] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1384,
+                                ["heading"] = 3.1415926535898,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "1C_10DIV_T80_static-34",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 84689.612642236,
+                                            ["y"] = 203875.44950857,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 3.1415926535898,
+                                        ["name"] = "1C_10DIV_T80_static-34-1",
+                                        ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "T-80UD",
+                                        ["unitId"] = 2874,
+                                        ["x"] = 84689.612642236,
+                                        ["y"] = 203875.44950857,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 84689.612642236,
+                                ["y"] = 203875.44950857,
+                            }, -- end of [670]
+                            [671] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1385,
+                                ["heading"] = 3.07177948351,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "1C_10DIV_T80_static-35",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 84711.53862701,
+                                            ["y"] = 203889.97877559,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 3.07177948351,
+                                        ["name"] = "1C_10DIV_T80_static-35-1",
+                                        ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "T-80UD",
+                                        ["unitId"] = 2875,
+                                        ["x"] = 84711.53862701,
+                                        ["y"] = 203889.97877559,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 84711.53862701,
+                                ["y"] = 203889.97877559,
+                            }, -- end of [671]
+                            [672] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1386,
+                                ["heading"] = 1.6406094968747,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "1C_10DIV_T80_static-36",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 84725.539557047,
+                                            ["y"] = 203923.52817398,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 1.6406094968747,
+                                        ["name"] = "1C_10DIV_T80_static-36-1",
+                                        ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "T-80UD",
+                                        ["unitId"] = 2876,
+                                        ["x"] = 84725.539557047,
+                                        ["y"] = 203923.52817398,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 84725.539557047,
+                                ["y"] = 203923.52817398,
+                            }, -- end of [672]
+                            [673] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1387,
+                                ["heading"] = 1.7976891295542,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "1C_10DIV_T80_static-37",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 79731.392455574,
+                                            ["y"] = 200148.04189156,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 1.7976891295542,
+                                        ["name"] = "1C_10DIV_T80_static-37-1",
+                                        ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "T-80UD",
+                                        ["unitId"] = 2877,
+                                        ["x"] = 79731.392455574,
+                                        ["y"] = 200148.04189156,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 79731.392455574,
+                                ["y"] = 200148.04189156,
+                            }, -- end of [673]
+                            [674] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1388,
+                                ["heading"] = 1.7976891295542,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "1C_10DIV_T80_static-38",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 79742.002101139,
+                                            ["y"] = 200125.69556848,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 1.7976891295542,
+                                        ["name"] = "1C_10DIV_T80_static-38-1",
+                                        ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "T-80UD",
+                                        ["unitId"] = 2878,
+                                        ["x"] = 79742.002101139,
+                                        ["y"] = 200125.69556848,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 79742.002101139,
+                                ["y"] = 200125.69556848,
+                            }, -- end of [674]
+                            [675] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1389,
+                                ["heading"] = 1.7976891295542,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "1C_10DIV_T80_static-39",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 79736.988752136,
+                                            ["y"] = 200098.87998079,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 1.7976891295542,
+                                        ["name"] = "1C_10DIV_T80_static-39-1",
+                                        ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "T-80UD",
+                                        ["unitId"] = 2879,
+                                        ["x"] = 79736.988752136,
+                                        ["y"] = 200098.87998079,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 79736.988752136,
+                                ["y"] = 200098.87998079,
+                            }, -- end of [675]
+                            [676] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1390,
+                                ["heading"] = 4.0666171571468,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "1C_10DIV_T80_static-40",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 79907.263143962,
+                                            ["y"] = 199075.53444252,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 4.0666171571468,
+                                        ["name"] = "1C_10DIV_T80_static-40-1",
+                                        ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "T-80UD",
+                                        ["unitId"] = 2880,
+                                        ["x"] = 79907.263143962,
+                                        ["y"] = 199075.53444252,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 79907.263143962,
+                                ["y"] = 199075.53444252,
+                            }, -- end of [676]
+                            [677] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1391,
+                                ["heading"] = 3.3161255787892,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "1C_10DIV_T80_static-41",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 79881.914164361,
+                                            ["y"] = 199101.2160859,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 3.3161255787892,
+                                        ["name"] = "1C_10DIV_T80_static-41-1",
+                                        ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "T-80UD",
+                                        ["unitId"] = 2881,
+                                        ["x"] = 79881.914164361,
+                                        ["y"] = 199101.2160859,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 79881.914164361,
+                                ["y"] = 199101.2160859,
+                            }, -- end of [677]
+                            [678] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1392,
+                                ["heading"] = 1.7976891295542,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "1C_10DIV_T80_static-42",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 79883.777081497,
+                                            ["y"] = 199122.90576398,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 1.7976891295542,
+                                        ["name"] = "1C_10DIV_T80_static-42-1",
+                                        ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "T-80UD",
+                                        ["unitId"] = 2882,
+                                        ["x"] = 79883.777081497,
+                                        ["y"] = 199122.90576398,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 79883.777081497,
+                                ["y"] = 199122.90576398,
+                            }, -- end of [678]
+                            [679] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1393,
+                                ["heading"] = 4.2760566673861,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "1C_10DIV_T80_static-43",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 78908.411546056,
+                                            ["y"] = 196564.21703573,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 4.2760566673861,
+                                        ["name"] = "1C_10DIV_T80_static-43-1",
+                                        ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "T-80UD",
+                                        ["unitId"] = 2883,
+                                        ["x"] = 78908.411546056,
+                                        ["y"] = 196564.21703573,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 78908.411546056,
+                                ["y"] = 196564.21703573,
+                            }, -- end of [679]
+                            [680] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1394,
+                                ["heading"] = 4.0840704496667,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "1C_10DIV_T80_static-44",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 78934.791925139,
+                                            ["y"] = 196590.59741481,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 4.0840704496667,
+                                        ["name"] = "1C_10DIV_T80_static-44-1",
+                                        ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "T-80UD",
+                                        ["unitId"] = 2884,
+                                        ["x"] = 78934.791925139,
+                                        ["y"] = 196590.59741481,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 78934.791925139,
+                                ["y"] = 196590.59741481,
+                            }, -- end of [680]
+                            [681] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1395,
+                                ["heading"] = 4.2760566673861,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "1C_10DIV_T80_static-45",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 78935.32486209,
+                                            ["y"] = 196557.02238689,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 4.2760566673861,
+                                        ["name"] = "1C_10DIV_T80_static-45-1",
+                                        ["rate"] = 20,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "T-80UD",
+                                        ["unitId"] = 2885,
+                                        ["x"] = 78935.32486209,
+                                        ["y"] = 196557.02238689,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 78935.32486209,
+                                ["y"] = 196557.02238689,
+                            }, -- end of [681]
+                            [682] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1396,
+                                ["heading"] = 4.4680428851055,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Static IFV BMP-3-5",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 72118.455284228,
+                                            ["y"] = 213047.01857246,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 4.4680428851055,
+                                        ["name"] = "Static IFV BMP-3-5-1",
+                                        ["rate"] = 15,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "BMP-3",
+                                        ["unitId"] = 2886,
+                                        ["x"] = 72118.455284228,
+                                        ["y"] = 213047.01857246,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 72118.455284228,
+                                ["y"] = 213047.01857246,
+                            }, -- end of [682]
+                            [683] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1397,
+                                ["heading"] = 4.4680428851055,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Static IFV BMP-3-8",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 72149.748913574,
+                                            ["y"] = 213018.78627642,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 4.4680428851055,
+                                        ["name"] = "Static IFV BMP-3-8-1",
+                                        ["rate"] = 15,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "BMP-3",
+                                        ["unitId"] = 2887,
+                                        ["x"] = 72149.748913574,
+                                        ["y"] = 213018.78627642,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 72149.748913574,
+                                ["y"] = 213018.78627642,
+                            }, -- end of [683]
+                            [684] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1398,
+                                ["heading"] = 3.2812189937493,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Static IFV BMP-3-9",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 72097.366099234,
+                                            ["y"] = 213083.75457212,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 3.2812189937493,
+                                        ["name"] = "Static IFV BMP-3-9-1",
+                                        ["rate"] = 15,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "BMP-3",
+                                        ["unitId"] = 2888,
+                                        ["x"] = 72097.366099234,
+                                        ["y"] = 213083.75457212,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 72097.366099234,
+                                ["y"] = 213083.75457212,
+                            }, -- end of [684]
+                            [685] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1399,
+                                ["heading"] = 5.0614548307836,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Static IFV BMP-3-30",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 71844.203886052,
+                                            ["y"] = 216073.1605045,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 5.0614548307836,
+                                        ["name"] = "Static IFV BMP-3-30-1",
+                                        ["rate"] = 15,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "BMP-3",
+                                        ["unitId"] = 2889,
+                                        ["x"] = 71844.203886052,
+                                        ["y"] = 216073.1605045,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 71844.203886052,
+                                ["y"] = 216073.1605045,
+                            }, -- end of [685]
+                            [686] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1400,
+                                ["heading"] = 0,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Static IFV BMP-3-31",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 71855.940456342,
+                                            ["y"] = 216106.69356248,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 0,
+                                        ["name"] = "Static IFV BMP-3-31-1",
+                                        ["rate"] = 15,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "BMP-3",
+                                        ["unitId"] = 2890,
+                                        ["x"] = 71855.940456342,
+                                        ["y"] = 216106.69356248,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 71855.940456342,
+                                ["y"] = 216106.69356248,
+                            }, -- end of [686]
+                            [687] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1401,
+                                ["heading"] = 3.7175513067479,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Static IFV BMP-3-32",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 71819.892419022,
+                                            ["y"] = 216091.18452316,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 3.7175513067479,
+                                        ["name"] = "Static IFV BMP-3-32-1",
+                                        ["rate"] = 15,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "BMP-3",
+                                        ["unitId"] = 2891,
+                                        ["x"] = 71819.892419022,
+                                        ["y"] = 216091.18452316,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 71819.892419022,
+                                ["y"] = 216091.18452316,
+                            }, -- end of [687]
+                            [688] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 1402,
+                                ["heading"] = 5.218534463463,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Static IFV BMP-3-33",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 71085.858117694,
+                                            ["y"] = 217132.42345443,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 5.218534463463,
+                                        ["name"] = "Static IFV BMP-3-33-1",
+                                        ["rate"] = 15,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "BMP-3",
+                                        ["unitId"] = 2892,
+                                        ["x"] = 71085.858117694,
+                                        ["y"] = 217132.42345443,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 71085.858117694,
+                                ["y"] = 217132.42345443,
+                            }, -- end of [688]
+                            [689] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 1403,
+                                ["heading"] = 5.218534463463,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Static IFV BMP-3-38",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 71133.718339942,
+                                            ["y"] = 217167.59613617,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 5.218534463463,
+                                        ["name"] = "Static IFV BMP-3-38-1",
+                                        ["rate"] = 15,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "BMP-3",
+                                        ["unitId"] = 2893,
+                                        ["x"] = 71133.718339942,
+                                        ["y"] = 217167.59613617,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 71133.718339942,
+                                ["y"] = 217167.59613617,
+                            }, -- end of [689]
+                            [690] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 1404,
+                                ["heading"] = 5.218534463463,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Static IFV BMP-3-41",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 71112.008548407,
+                                            ["y"] = 217193.46462154,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 5.218534463463,
+                                        ["name"] = "Static IFV BMP-3-41-1",
+                                        ["rate"] = 15,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "BMP-3",
+                                        ["unitId"] = 2894,
+                                        ["x"] = 71112.008548407,
+                                        ["y"] = 217193.46462154,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 71112.008548407,
+                                ["y"] = 217193.46462154,
+                            }, -- end of [690]
+                            [691] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 1405,
+                                ["heading"] = 5.218534463463,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Static IFV BMP-3-59",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 71100.096357597,
+                                            ["y"] = 217182.82118478,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 5.218534463463,
+                                        ["name"] = "Static IFV BMP-3-59-1",
+                                        ["rate"] = 15,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "BMP-3",
+                                        ["unitId"] = 2895,
+                                        ["x"] = 71100.096357597,
+                                        ["y"] = 217182.82118478,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 71100.096357597,
+                                ["y"] = 217182.82118478,
+                            }, -- end of [691]
+                            [692] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 1406,
+                                ["heading"] = 5.218534463463,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Static IFV BMP-3-60",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 71098.404685529,
+                                            ["y"] = 217210.16988321,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 5.218534463463,
+                                        ["name"] = "Static IFV BMP-3-60-1",
+                                        ["rate"] = 15,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "BMP-3",
+                                        ["unitId"] = 2896,
+                                        ["x"] = 71098.404685529,
+                                        ["y"] = 217210.16988321,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 71098.404685529,
+                                ["y"] = 217210.16988321,
+                            }, -- end of [692]
+                            [693] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 1407,
+                                ["heading"] = 3.4208453339089,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "Static IFV BMP-3-61",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 71162.681820851,
+                                            ["y"] = 217284.002381,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 3.4208453339089,
+                                        ["name"] = "Static IFV BMP-3-61-1",
+                                        ["rate"] = 15,
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "BMP-3",
+                                        ["unitId"] = 2897,
+                                        ["x"] = 71162.681820851,
+                                        ["y"] = 217284.002381,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 71162.681820851,
+                                ["y"] = 217284.002381,
+                            }, -- end of [693]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["vehicle"] =
@@ -101219,8 +102762,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "Tor 9A331",
                                         ["unitId"] = 646,
-                                        ["x"] = 119181.07642238,
-                                        ["y"] = 240397.76463451,
+                                        ["x"] = 119182.48324234,
+                                        ["y"] = 240394.45085662,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -107369,8 +108912,8 @@ mission =
                                         ["skill"] = "High",
                                         ["type"] = "BMP-3",
                                         ["unitId"] = 1193,
-                                        ["x"] = 73626.256213392,
-                                        ["y"] = 208234.59703138,
+                                        ["x"] = 73620.760485271,
+                                        ["y"] = 208229.34794503,
                                     }, -- end of [5]
                                     [6] =
                                     {
@@ -107781,26 +109324,26 @@ mission =
                                     [10] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 5.004985050929,
+                                        ["heading"] = 3.8170350741116,
                                         ["name"] = "1C_11_DIV_BMP3_Coy-2_ACTIVE-10",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "High",
                                         ["type"] = "Ural-375",
                                         ["unitId"] = 1219,
-                                        ["x"] = 69714.342487923,
-                                        ["y"] = 221895.21081671,
+                                        ["x"] = 76641.684564369,
+                                        ["y"] = 221065.3193995,
                                     }, -- end of [10]
                                     [11] =
                                     {
                                         ["coldAtStart"] = false,
-                                        ["heading"] = 5.7770398241012,
+                                        ["heading"] = 4.1364303272266,
                                         ["name"] = "1C_11_DIV_BMP3_Coy-2_ACTIVE-11",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "High",
                                         ["type"] = "ATMZ-5",
                                         ["unitId"] = 1220,
-                                        ["x"] = 69809.646337627,
-                                        ["y"] = 222151.23559217,
+                                        ["x"] = 76639.277565717,
+                                        ["y"] = 221080.73923462,
                                     }, -- end of [11]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
@@ -114502,6 +116045,191 @@ mission =
                                 ["x"] = 46292.972113757,
                                 ["y"] = 436223.35728213,
                             }, -- end of [128]
+                            [129] =
+                            {
+                                ["groupId"] = 1377,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "1C_11_DIV_BMP3_Coy_MOVING-1",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 243,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 2.5694444444444,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 75397.42948158,
+                                            ["y"] = 212923.67997049,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                        [1] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["x"] = 75397.42948158,
+                                                ["y"] = 212923.67997049,
+                                            }, -- end of [1]
+                                            [2] =
+                                            {
+                                                ["x"] = 75397.42948158,
+                                                ["y"] = 212923.67997049,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 5.4070300226784,
+                                        ["name"] = "1C_11_DIV_BMP3_Coy_MOVING-1-1",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "High",
+                                        ["type"] = "BMP-3",
+                                        ["unitId"] = 2858,
+                                        ["x"] = 75397.42948158,
+                                        ["y"] = 212923.67997049,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.628613176289,
+                                        ["name"] = "1C_11_DIV_BMP3_Coy_MOVING-1-2",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "High",
+                                        ["type"] = "BMP-3",
+                                        ["unitId"] = 2859,
+                                        ["x"] = 75369.153962544,
+                                        ["y"] = 212831.04010886,
+                                    }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 5.0649454892875,
+                                        ["name"] = "1C_11_DIV_BMP3_Coy_MOVING-1-3",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "High",
+                                        ["type"] = "BMP-3",
+                                        ["unitId"] = 2860,
+                                        ["x"] = 81856.672758159,
+                                        ["y"] = 217750.7841436,
+                                    }, -- end of [3]
+                                    [4] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 5.3651421206306,
+                                        ["name"] = "1C_11_DIV_BMP3_Coy_MOVING-1-4",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "High",
+                                        ["type"] = "BMP-3",
+                                        ["unitId"] = 2861,
+                                        ["x"] = 81885.463960311,
+                                        ["y"] = 217805.0761248,
+                                    }, -- end of [4]
+                                    [5] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 3.996803987067,
+                                        ["name"] = "1C_11_DIV_BMP3_Coy_MOVING-1-5",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "High",
+                                        ["type"] = "BMP-3",
+                                        ["unitId"] = 2862,
+                                        ["x"] = 81812.252046266,
+                                        ["y"] = 217817.41521144,
+                                    }, -- end of [5]
+                                    [6] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.0840704496667,
+                                        ["name"] = "1C_11_DIV_BMP3_Coy_MOVING-1-6",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "High",
+                                        ["type"] = "BMP-3",
+                                        ["unitId"] = 2863,
+                                        ["x"] = 75334.013702166,
+                                        ["y"] = 212917.6357505,
+                                    }, -- end of [6]
+                                    [7] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.2184608020703,
+                                        ["name"] = "1C_11_DIV_BMP3_Coy_MOVING-1-7",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "High",
+                                        ["type"] = "BMP-3",
+                                        ["unitId"] = 2864,
+                                        ["x"] = 77914.356191546,
+                                        ["y"] = 215311.58308616,
+                                    }, -- end of [7]
+                                    [8] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.2865286428981,
+                                        ["name"] = "1C_11_DIV_BMP3_Coy_MOVING-1-8",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "High",
+                                        ["type"] = "BMP-3",
+                                        ["unitId"] = 2865,
+                                        ["x"] = 77889.934507558,
+                                        ["y"] = 215393.49748453,
+                                    }, -- end of [8]
+                                    [9] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.3319072034499,
+                                        ["name"] = "1C_11_DIV_BMP3_Coy_MOVING-1-9",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "High",
+                                        ["type"] = "Ural-375",
+                                        ["unitId"] = 2866,
+                                        ["x"] = 77953.532642942,
+                                        ["y"] = 215361.4440243,
+                                    }, -- end of [9]
+                                    [10] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 4.4854961776254,
+                                        ["name"] = "1C_11_DIV_BMP3_Coy_MOVING-1-10",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "High",
+                                        ["type"] = "ATMZ-5",
+                                        ["unitId"] = 2867,
+                                        ["x"] = 77968.28741035,
+                                        ["y"] = 215383.32178287,
+                                    }, -- end of [10]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 75397.42948158,
+                                ["y"] = 212923.67997049,
+                            }, -- end of [129]
                         }, -- end of ["group"]
                     }, -- end of ["vehicle"]
                 }, -- end of [2]
@@ -115518,7 +117246,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 2992916,
+    ["currentKey"] = 3021688,
     ["date"] =
     {
         ["Day"] = 25,
@@ -123019,9 +124747,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 117466.68699118,
-        ["centerY"] = 392329.0487635,
-        ["zoom"] = 953844.12025063,
+        ["centerX"] = 123928.9264437,
+        ["centerY"] = 219315.12706275,
+        ["zoom"] = 741295.75120756,
     }, -- end of ["map"]
     ["maxDictId"] = 20,
     ["pictureFileNameB"] =

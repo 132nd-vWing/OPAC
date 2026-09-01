@@ -24606,6 +24606,7 @@ mission =
                                             ["IlsChannel"] = 1,
                                             ["KY28Key"] = 1,
                                             ["M61BURST"] = 0,
+                                            ["RefuelingProbeCoverRemoved"] = false,
                                             ["TacanBand"] = 0,
                                             ["TacanChannel"] = 0,
                                             ["UseLAU138"] = true,
@@ -24761,6 +24762,7 @@ mission =
                                             ["IlsChannel"] = 1,
                                             ["KY28Key"] = 1,
                                             ["M61BURST"] = 0,
+                                            ["RefuelingProbeCoverRemoved"] = false,
                                             ["TacanBand"] = 0,
                                             ["TacanChannel"] = 0,
                                             ["UseLAU138"] = true,
@@ -24914,6 +24916,7 @@ mission =
                                             ["IlsChannel"] = 1,
                                             ["KY28Key"] = 1,
                                             ["M61BURST"] = 0,
+                                            ["RefuelingProbeCoverRemoved"] = false,
                                             ["TacanBand"] = 0,
                                             ["TacanChannel"] = 0,
                                             ["UseLAU138"] = true,
@@ -25067,6 +25070,7 @@ mission =
                                             ["IlsChannel"] = 1,
                                             ["KY28Key"] = 1,
                                             ["M61BURST"] = 0,
+                                            ["RefuelingProbeCoverRemoved"] = false,
                                             ["TacanBand"] = 0,
                                             ["TacanChannel"] = 0,
                                             ["UseLAU138"] = true,
@@ -30114,6 +30118,7 @@ mission =
                                             ["IlsChannel"] = 1,
                                             ["KY28Key"] = 1,
                                             ["M61BURST"] = 0,
+                                            ["RefuelingProbeCoverRemoved"] = false,
                                             ["TacanBand"] = 0,
                                             ["TacanChannel"] = 0,
                                             ["UseLAU138"] = true,
@@ -30269,6 +30274,7 @@ mission =
                                             ["IlsChannel"] = 1,
                                             ["KY28Key"] = 1,
                                             ["M61BURST"] = 0,
+                                            ["RefuelingProbeCoverRemoved"] = false,
                                             ["TacanBand"] = 0,
                                             ["TacanChannel"] = 0,
                                             ["UseLAU138"] = true,
@@ -30424,6 +30430,7 @@ mission =
                                             ["IlsChannel"] = 1,
                                             ["KY28Key"] = 1,
                                             ["M61BURST"] = 0,
+                                            ["RefuelingProbeCoverRemoved"] = false,
                                             ["TacanBand"] = 0,
                                             ["TacanChannel"] = 0,
                                             ["UseLAU138"] = true,
@@ -30579,6 +30586,7 @@ mission =
                                             ["IlsChannel"] = 1,
                                             ["KY28Key"] = 1,
                                             ["M61BURST"] = 0,
+                                            ["RefuelingProbeCoverRemoved"] = false,
                                             ["TacanBand"] = 0,
                                             ["TacanChannel"] = 0,
                                             ["UseLAU138"] = true,
@@ -64016,6 +64024,7 @@ mission =
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
                                 ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
                                 ["tasks"] =
                                 {
                                 }, -- end of ["tasks"]
@@ -64393,6 +64402,7 @@ mission =
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
                                 ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
                                 ["tasks"] =
                                 {
                                 }, -- end of ["tasks"]
@@ -140476,10 +140486,10 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 3722426,
+    ["currentKey"] = 3731034,
     ["date"] =
     {
-        ["Day"] = 25,
+        ["Day"] = 26,
         ["Month"] = 9,
         ["Year"] = 2020,
     }, -- end of ["date"]
@@ -148039,7 +148049,7 @@ mission =
         ["total"] = 0,
     }, -- end of ["result"]
     ["sortie"] = "DictKey_sortie_5",
-    ["start_time"] = 79200,
+    ["start_time"] = 25200,
     ["theatre"] = "Kola",
     ["trig"] =
     {
@@ -167562,10 +167572,10 @@ mission =
         ["atmosphere_type"] = 0,
         ["clouds"] =
         {
-            ["base"] = 3600,
+            ["base"] = 4600,
             ["density"] = 0,
             ["iprecptns"] = 0,
-            ["preset"] = "Preset1",
+            ["preset"] = "Preset5",
             ["thickness"] = 200,
         }, -- end of ["clouds"]
         ["cyclones"] =
@@ -167579,17 +167589,17 @@ mission =
             ["thickness"] = 0,
             ["visibility"] = 0,
         }, -- end of ["fog"]
-        ["groundTurbulence"] = 7.731,
+        ["groundTurbulence"] = 8.7618,
         ["halo"] =
         {
             ["preset"] = "auto",
         }, -- end of ["halo"]
         ["modifiedTime"] = true,
         ["name"] = "Winter, clean sky",
-        ["qnh"] = 764.032,
+        ["qnh"] = 763.27,
         ["season"] =
         {
-            ["temperature"] = 3,
+            ["temperature"] = 6,
         }, -- end of ["season"]
         ["type_weather"] = 0,
         ["visibility"] =
@@ -167600,17 +167610,17 @@ mission =
         {
             ["at2000"] =
             {
-                ["dir"] = 240,
+                ["dir"] = 286,
                 ["speed"] = 9.2772,
             }, -- end of ["at2000"]
             ["at8000"] =
             {
-                ["dir"] = 238,
+                ["dir"] = 270,
                 ["speed"] = 14.4312,
             }, -- end of ["at8000"]
             ["atGround"] =
             {
-                ["dir"] = 234,
+                ["dir"] = 266,
                 ["speed"] = 3.0924,
             }, -- end of ["atGround"]
         }, -- end of ["wind"]

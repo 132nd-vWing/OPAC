@@ -10,4 +10,5 @@ mapResource =
     ["ResKey_Action_16"] = "skynet-iads-setup-OPAC_3rd_corps.lua",
     ["ResKey_Action_19"] = "OPAC_Navygroup.lua",
     ["ResKey_Action_20"] = "skynet-iads-setup-OPAC_2nd_corps.lua",
+    ["ResKey_Action_21"] = "OPAC_EW_Jamming.lua",
 } -- end of mapResource

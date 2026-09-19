@@ -65,7 +65,7 @@ do
 
         {
             unitName = "1C_EW_Jammer_platoon1-1",
-            frequency = 237.000,
+            frequency = 235.750,
 
             blocks = {
                 -- 00:00 -> 07:00
@@ -81,7 +81,7 @@ do
 
         {
             unitName = "1C_EW_Jammer_platoon2-1",
-            frequency = 238.000,
+            frequency = 231.750,
 
             blocks = {
                 -- 01:15 -> 07:45
@@ -97,7 +97,7 @@ do
 
         {
             unitName = "1C_EW_Jammer_platoon3-1",
-            frequency = 239.000,
+            frequency = 229.000,
 
             blocks = {
                 -- 03:00 -> 09:00

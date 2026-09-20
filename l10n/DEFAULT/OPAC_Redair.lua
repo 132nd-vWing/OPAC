@@ -23,13 +23,11 @@ airfield_Cap_table = {
 --"Rovaniemi",
 --"Vidsel",
 --"Vuojarvi",
-
-"Severomorsk-1",
+--"Severomorsk-1",
 "Severomorsk-3",
-"Monchegorsk",
+--"Monchegorsk",
 --"Murmansk_International",
-"Olenya",
-
+--"Olenya",
 --"Alakourtti",
 }
 -- these are the airfields that will launch QRF fighters upon detection by Skynet. you can comment out as many as you want..
@@ -50,12 +48,11 @@ airfield_GCI_table = {
 --"Rovaniemi",
 --"Vidsel",
 --"Vuojarvi",
-
 --"Severomorsk-1",
---"Severomorsk-3",
-"Monchegorsk",
+"Severomorsk-3",
+--"Monchegorsk",
 --"Murmansk_International",
-"Olenya",
+--"Olenya",
 
 --"Alakourtti",
 

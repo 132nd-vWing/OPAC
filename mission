@@ -24729,7 +24729,7 @@ mission =
                                             ["name"] = "Springfield11",
                                         }, -- end of ["callsign"]
                                         ["heading"] = 3.1352744993879,
-                                        ["livery_id"] = "vf-102 diamondbacks",
+                                        ["livery_id"] = "nawcwd  2000 buno 163223",
                                         ["name"] = "SPECTRE 1-1",
                                         ["onboard_num"] = "211",
                                         ["parking"] = "1",
@@ -24748,7 +24748,7 @@ mission =
                                         ["psi"] = 0,
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
-                                        ["type"] = "F-14B",
+                                        ["type"] = "F-14BU",
                                         ["unitId"] = 888,
                                         ["x"] = 425445.74082166,
                                         ["y"] = 111018.76036949,
@@ -24902,7 +24902,7 @@ mission =
                                         ["psi"] = 0,
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
-                                        ["type"] = "F-14B",
+                                        ["type"] = "F-14BU",
                                         ["unitId"] = 959,
                                         ["x"] = 425409.19995637,
                                         ["y"] = 111116.71632834,
@@ -25056,7 +25056,7 @@ mission =
                                         ["psi"] = 0,
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
-                                        ["type"] = "F-14B",
+                                        ["type"] = "F-14BU",
                                         ["unitId"] = 960,
                                         ["x"] = 425423.99129139,
                                         ["y"] = 111020.28011738,
@@ -25210,7 +25210,7 @@ mission =
                                         ["psi"] = 0,
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
-                                        ["type"] = "F-14B",
+                                        ["type"] = "F-14BU",
                                         ["unitId"] = 961,
                                         ["x"] = 425396.77975107,
                                         ["y"] = 111135.72975381,
@@ -30252,7 +30252,7 @@ mission =
                                         ["psi"] = -3.6651914291881,
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
-                                        ["type"] = "F-14B",
+                                        ["type"] = "F-14BU",
                                         ["unitId"] = 962,
                                         ["x"] = 425445.74082166,
                                         ["y"] = 111018.76036949,
@@ -30408,7 +30408,7 @@ mission =
                                         ["psi"] = -3.6651914291881,
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
-                                        ["type"] = "F-14B",
+                                        ["type"] = "F-14BU",
                                         ["unitId"] = 963,
                                         ["x"] = 425409.19995637,
                                         ["y"] = 111116.71632834,
@@ -30564,7 +30564,7 @@ mission =
                                         ["psi"] = -3.6651914291881,
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
-                                        ["type"] = "F-14B",
+                                        ["type"] = "F-14BU",
                                         ["unitId"] = 964,
                                         ["x"] = 425423.99129139,
                                         ["y"] = 111020.28011738,
@@ -30720,7 +30720,7 @@ mission =
                                         ["psi"] = -3.6651914291881,
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
-                                        ["type"] = "F-14B",
+                                        ["type"] = "F-14BU",
                                         ["unitId"] = 965,
                                         ["x"] = 425396.77975107,
                                         ["y"] = 111135.72975381,
@@ -83391,8 +83391,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 471048.31393024,
-                                            ["y"] = 457504.31089166,
+                                            ["x"] = 507602.94050151,
+                                            ["y"] = 446986.91306234,
                                         }, -- end of [1]
                                         [2] =
                                         {
@@ -83491,8 +83491,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Land",
-                                            ["x"] = 470972.98511706,
-                                            ["y"] = 457528.64137466,
+                                            ["x"] = 507528.06057862,
+                                            ["y"] = 447012.59184047,
                                         }, -- end of [4]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -83533,7 +83533,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Springfield11",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 5.3797250836221,
+                                        ["heading"] = 5.3617732793006,
                                         ["livery_id"] = "279th kiap 1st squad navy",
                                         ["name"] = "AA_452_SU33_Kutzentzov_CAP_1-1",
                                         ["onboard_num"] = "018",
@@ -83597,13 +83597,13 @@ mission =
                                                 }, -- end of [12]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.90346022355749,
+                                        ["psi"] = 1.1942876876417,
                                         ["skill"] = "Excellent",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 2635,
-                                        ["x"] = 471048.31393024,
-                                        ["y"] = 457504.31089166,
+                                        ["x"] = 507602.94050151,
+                                        ["y"] = 446986.91306234,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -83616,7 +83616,7 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Springfield12",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 5.3797250836221,
+                                        ["heading"] = 5.3617732793006,
                                         ["livery_id"] = "279th kiap 1st squad navy",
                                         ["name"] = "AA_452_SU33_Kutzentzov_CAP_1-2",
                                         ["onboard_num"] = "138",
@@ -83680,17 +83680,17 @@ mission =
                                                 }, -- end of [12]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.90346022355749,
+                                        ["psi"] = 1.1942876876417,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 2636,
-                                        ["x"] = 471038.43054437,
-                                        ["y"] = 457484.14233485,
+                                        ["x"] = 507592.69666561,
+                                        ["y"] = 446966.92517036,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 471048.31393024,
-                                ["y"] = 457504.31089166,
+                                ["x"] = 507602.94050151,
+                                ["y"] = 446986.91306234,
                             }, -- end of [61]
                             [62] =
                             {
@@ -83861,12 +83861,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 471048.31393024,
-                                            ["y"] = 457504.31089166,
+                                            ["x"] = 507602.94050151,
+                                            ["y"] = 446986.91306234,
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 320.05697914277,
+                                            ["ETA"] = 82.017745368941,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6400.8,
@@ -83885,12 +83885,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 513267.53498354,
-                                            ["y"] = 462793.54977509,
+                                            ["x"] = 522618.80941488,
+                                            ["y"] = 460555.57156532,
                                         }, -- end of [2]
                                         [3] =
                                         {
-                                            ["ETA"] = 246.84805295808,
+                                            ["ETA"] = 132.17346825554,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 7620,
@@ -83951,8 +83951,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 501734.51441844,
-                                            ["y"] = 450406.23139036,
+                                            ["x"] = 530125.48960523,
+                                            ["y"] = 451965.45299699,
                                         }, -- end of [3]
                                         [4] =
                                         {
@@ -83977,8 +83977,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Land",
-                                            ["x"] = 470972.98511706,
-                                            ["y"] = 457528.64137466,
+                                            ["x"] = 507528.06057862,
+                                            ["y"] = 447012.59184047,
                                         }, -- end of [4]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -84019,7 +84019,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Colt71",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.12463102411074,
+                                        ["heading"] = 0.73481220346636,
                                         ["livery_id"] = "279th kiap 1st squad navy",
                                         ["name"] = "AA_452_SU33_Kuznetsov_escort_2-1",
                                         ["onboard_num"] = "141",
@@ -84083,13 +84083,13 @@ mission =
                                                 }, -- end of [12]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.12463102411074,
+                                        ["psi"] = -0.73481220346636,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 2639,
-                                        ["x"] = 471048.31393024,
-                                        ["y"] = 457504.31089166,
+                                        ["x"] = 507602.94050151,
+                                        ["y"] = 446986.91306234,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -84102,7 +84102,7 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Colt72",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.12463102411074,
+                                        ["heading"] = 0.73481220346636,
                                         ["livery_id"] = "279th kiap 1st squad navy",
                                         ["name"] = "AA_452_SU33_Kuznetsov_escort_2-2",
                                         ["onboard_num"] = "142",
@@ -84166,17 +84166,17 @@ mission =
                                                 }, -- end of [12]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.12463102411074,
+                                        ["psi"] = -0.73481220346636,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 2640,
-                                        ["x"] = 471038.43054437,
-                                        ["y"] = 457484.14233485,
+                                        ["x"] = 507592.69666561,
+                                        ["y"] = 446966.92517036,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 471048.31393024,
-                                ["y"] = 457504.31089166,
+                                ["x"] = 507602.94050151,
+                                ["y"] = 446986.91306234,
                             }, -- end of [62]
                             [63] =
                             {
@@ -84363,12 +84363,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 471051.11478188,
-                                            ["y"] = 457515.90724828,
+                                            ["x"] = 507605.9490662,
+                                            ["y"] = 446998.45727281,
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 256.93722656627,
+                                            ["ETA"] = 274.25212548953,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -84387,8 +84387,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 468537.46070234,
-                                            ["y"] = 421918.8206114,
+                                            ["x"] = 501491.76104412,
+                                            ["y"] = 409401.80243318,
                                         }, -- end of [2]
                                         [3] =
                                         {
@@ -84485,8 +84485,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Land",
-                                            ["x"] = 470972.98511706,
-                                            ["y"] = 457528.64137466,
+                                            ["x"] = 507528.06057862,
+                                            ["y"] = 447012.59184047,
                                         }, -- end of [6]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -84527,7 +84527,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Dodge71",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 4.6418919596486,
+                                        ["heading"] = -1.7320108430147,
                                         ["livery_id"] = "279th kiap 1st squad navy",
                                         ["name"] = "AA_452_SU33_Kuznetzov_SWEEP_3-1",
                                         ["onboard_num"] = "145",
@@ -84591,13 +84591,13 @@ mission =
                                                 }, -- end of [12]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 1.641293347531,
+                                        ["psi"] = 1.7320108430147,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 2643,
-                                        ["x"] = 471051.11478188,
-                                        ["y"] = 457515.90724828,
+                                        ["x"] = 507605.9490662,
+                                        ["y"] = 446998.45727281,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -84610,7 +84610,7 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Dodge72",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 4.6418919596486,
+                                        ["heading"] = -1.7320108430147,
                                         ["livery_id"] = "279th kiap 1st squad navy",
                                         ["name"] = "AA_452_SU33_Kuznetzov_SWEEP_3-2",
                                         ["onboard_num"] = "146",
@@ -84672,17 +84672,17 @@ mission =
                                                 }, -- end of [12]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 1.641293347531,
+                                        ["psi"] = 1.7320108430147,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 2644,
-                                        ["x"] = 471043.89410934,
-                                        ["y"] = 457494.22337493,
+                                        ["x"] = 507598.34031338,
+                                        ["y"] = 446976.90651051,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 471051.11478188,
-                                ["y"] = 457515.90724828,
+                                ["x"] = 507605.9490662,
+                                ["y"] = 446998.45727281,
                             }, -- end of [63]
                             [64] =
                             {
@@ -87225,8 +87225,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 721891.62551934,
-                                            ["y"] = 158798.62764198,
+                                            ["x"] = 719344.52661669,
+                                            ["y"] = 28238.239200676,
                                         }, -- end of [1]
                                         [2] =
                                         {
@@ -87324,8 +87324,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Land",
-                                            ["x"] = 721866.6760674,
-                                            ["y"] = 158873.75371834,
+                                            ["x"] = 719317.45290247,
+                                            ["y"] = 28312.626138371,
                                         }, -- end of [4]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -87366,7 +87366,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Springfield11",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 4.829670641953,
+                                        ["heading"] = 4.8580844810551,
                                         ["livery_id"] = "plan carrier air wings highvis",
                                         ["name"] = "AB_XIL_Carrier1_CAP-1",
                                         ["onboard_num"] = "018",
@@ -87430,13 +87430,13 @@ mission =
                                                 }, -- end of [12]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 1.4535146652266,
+                                        ["psi"] = 1.1750231855045,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 2898,
-                                        ["x"] = 721891.62551934,
-                                        ["y"] = 158798.62764198,
+                                        ["x"] = 719344.52661669,
+                                        ["y"] = 28238.239200676,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -87449,7 +87449,7 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Springfield12",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 4.829670641953,
+                                        ["heading"] = 4.8580844810551,
                                         ["livery_id"] = "plan carrier air wings highvis",
                                         ["name"] = "AB_XIL_Carrier1_CAP-2",
                                         ["onboard_num"] = "037",
@@ -87511,17 +87511,17 @@ mission =
                                                 }, -- end of [12]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 1.4535146652266,
+                                        ["psi"] = 1.1750231855045,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 2900,
-                                        ["x"] = 721891.62551934,
-                                        ["y"] = 158798.62764198,
+                                        ["x"] = 719344.52661669,
+                                        ["y"] = 28238.239200676,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 721891.62551934,
-                                ["y"] = 158798.62764198,
+                                ["x"] = 719344.52661669,
+                                ["y"] = 28238.239200676,
                             }, -- end of [75]
                             [76] =
                             {
@@ -87692,12 +87692,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 721886.26853744,
-                                            ["y"] = 158797.05601551,
+                                            ["x"] = 719339.21644705,
+                                            ["y"] = 28236.516016646,
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 296.89524601498,
+                                            ["ETA"] = 450.4000407586,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 1524,
@@ -87716,12 +87716,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 759084.84514701,
-                                            ["y"] = 132147.94081542,
+                                            ["x"] = 762223.67582817,
+                                            ["y"] = 82847.638455153,
                                         }, -- end of [2]
                                         [3] =
                                         {
-                                            ["ETA"] = 525.31782609046,
+                                            ["ETA"] = 547.47273523999,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6400.8,
@@ -87771,8 +87771,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 780267.52648488,
-                                            ["y"] = 187777.22545038,
+                                            ["x"] = 786684.2328232,
+                                            ["y"] = 76431.754653179,
                                         }, -- end of [3]
                                         [4] =
                                         {
@@ -87797,8 +87797,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Land",
-                                            ["x"] = 721866.6760674,
-                                            ["y"] = 158873.75371834,
+                                            ["x"] = 719317.45290247,
+                                            ["y"] = 28312.626138371,
                                         }, -- end of [4]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -87839,7 +87839,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Springfield31",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 5.6615362451018,
+                                        ["heading"] = 0.90510203859276,
                                         ["livery_id"] = "plan carrier air wings highvis",
                                         ["name"] = "AB_XIL_Carrier1_Escort-1",
                                         ["onboard_num"] = "070",
@@ -87903,13 +87903,13 @@ mission =
                                                 }, -- end of [12]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.6216490620778,
+                                        ["psi"] = -0.90510203859276,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 3015,
-                                        ["x"] = 721886.26853744,
-                                        ["y"] = 158797.05601551,
+                                        ["x"] = 719339.21644705,
+                                        ["y"] = 28236.516016646,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -87922,7 +87922,7 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Springfield32",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 5.6615362451018,
+                                        ["heading"] = 0.90510203859276,
                                         ["livery_id"] = "plan carrier air wings highvis",
                                         ["name"] = "AB_XIL_Carrier1_Escort-2",
                                         ["onboard_num"] = "071",
@@ -87986,17 +87986,17 @@ mission =
                                                 }, -- end of [12]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.6216490620778,
+                                        ["psi"] = -0.90510203859276,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 3016,
-                                        ["x"] = 721863.93666137,
-                                        ["y"] = 158794.66032952,
+                                        ["x"] = 719316.96164663,
+                                        ["y"] = 28233.486848709,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 721886.26853744,
-                                ["y"] = 158797.05601551,
+                                ["x"] = 719339.21644705,
+                                ["y"] = 28236.516016646,
                             }, -- end of [76]
                             [77] =
                             {
@@ -88454,12 +88454,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 721878.72026248,
-                                            ["y"] = 158795.51472637,
+                                            ["x"] = 719331.71500697,
+                                            ["y"] = 28234.760903029,
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 527.12298380797,
+                                            ["ETA"] = 445.27286079835,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6400.8,
@@ -88478,12 +88478,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 577981.02172709,
-                                            ["y"] = 102706.84088418,
+                                            ["x"] = 588994.81317486,
+                                            ["y"] = 33926.524465098,
                                         }, -- end of [2]
                                         [3] =
                                         {
-                                            ["ETA"] = 1425.805630889,
+                                            ["ETA"] = 1639.2329333084,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Landing",
                                             ["alt"] = 0,
@@ -88504,8 +88504,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Land",
-                                            ["x"] = 721866.6760674,
-                                            ["y"] = 158873.75371834,
+                                            ["x"] = 719317.45290247,
+                                            ["y"] = 28312.626138371,
                                         }, -- end of [3]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -88546,7 +88546,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Ford81",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 3.5132591385277,
+                                        ["heading"] = 3.0979507572154,
                                         ["livery_id"] = "plan carrier air wings highvis",
                                         ["name"] = "AB_XIL_Carrier1_QRA-1",
                                         ["onboard_num"] = "063",
@@ -88610,13 +88610,13 @@ mission =
                                                 }, -- end of [12]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 2.7699261686519,
+                                        ["psi"] = -3.0979507572154,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 3187,
-                                        ["x"] = 721878.72026248,
-                                        ["y"] = 158795.51472637,
+                                        ["x"] = 719331.71500697,
+                                        ["y"] = 28234.760903029,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -88629,10 +88629,12 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Ford82",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 3.5132591385277,
+                                        ["heading"] = 3.0979507572154,
                                         ["livery_id"] = "plan carrier air wings highvis",
                                         ["name"] = "AB_XIL_Carrier1_QRA-2",
                                         ["onboard_num"] = "139",
+                                        ["parking"] = 1,
+                                        ["parking_id"] = "1",
                                         ["payload"] =
                                         {
                                             ["chaff"] = 48,
@@ -88691,17 +88693,17 @@ mission =
                                                 }, -- end of [12]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 2.7699261686519,
+                                        ["psi"] = -3.0979507572154,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 3188,
-                                        ["x"] = 721856.26126876,
-                                        ["y"] = 158795.30118193,
+                                        ["x"] = 719309.27114553,
+                                        ["y"] = 28233.909384415,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 721878.72026248,
-                                ["y"] = 158795.51472637,
+                                ["x"] = 719331.71500697,
+                                ["y"] = 28234.760903029,
                             }, -- end of [78]
                             [79] =
                             {
@@ -90328,12 +90330,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 440344.0836883,
-                                            ["y"] = 555858.55276775,
+                                            ["x"] = 447446.87599244,
+                                            ["y"] = 518094.92297719,
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 12146.670750592,
+                                            ["ETA"] = 9527.5425393708,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
@@ -90352,8 +90354,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 459116.00464524,
-                                            ["y"] = 476878.70363885,
+                                            ["x"] = 461618.05156107,
+                                            ["y"] = 456043.26484901,
                                         }, -- end of [2]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -90386,43 +90388,43 @@ mission =
                                     [1] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 4.9457390482716,
+                                        ["heading"] = 4.936915427862,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_10th_Pyotr_veliky",
                                         ["skill"] = "Average",
                                         ["type"] = "PIOTR",
                                         ["unitId"] = 284,
-                                        ["x"] = 440344.0836883,
-                                        ["y"] = 555858.55276775,
+                                        ["x"] = 447446.87599244,
+                                        ["y"] = 518094.92297719,
                                     }, -- end of [1]
                                     [2] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 4.9457390482716,
+                                        ["heading"] = 4.936915427862,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 211_Rezky6_SAG_Pyotr_veliky",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 283,
-                                        ["x"] = 444431.42900919,
-                                        ["y"] = 556891.87772555,
+                                        ["x"] = 451534.22131333,
+                                        ["y"] = 519128.24793499,
                                     }, -- end of [2]
                                     [3] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 4.9457390482716,
+                                        ["heading"] = 4.936915427862,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 211_Rezky5_SAG_Pyotr_veliky",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 282,
-                                        ["x"] = 436514.22308675,
-                                        ["y"] = 554666.78063623,
+                                        ["x"] = 443617.01539089,
+                                        ["y"] = 516903.15084567,
                                     }, -- end of [3]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 440344.0836883,
-                                ["y"] = 555858.55276775,
+                                ["x"] = 447446.87599244,
+                                ["y"] = 518094.92297719,
                             }, -- end of [1]
                             [2] =
                             {
@@ -90456,8 +90458,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 470972.98511706,
-                                            ["y"] = 457528.64137466,
+                                            ["x"] = 507528.06057862,
+                                            ["y"] = 447012.59184047,
                                         }, -- end of [1]
                                         [2] =
                                         {
@@ -90495,79 +90497,79 @@ mission =
                                     [1] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.9792752021565,
+                                        ["heading"] = 5.9702992999957,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_CV_RUS_CSG_CV",
                                         ["skill"] = "Average",
                                         ["type"] = "CV_1143_5",
                                         ["unitId"] = 2359,
-                                        ["x"] = 470972.98511706,
-                                        ["y"] = 457528.64137466,
+                                        ["x"] = 507528.06057862,
+                                        ["y"] = 447012.59184047,
                                     }, -- end of [1]
                                     [2] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.9792752021565,
+                                        ["heading"] = 5.9702992999957,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 211_Rezky2_CSG_Rezky",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 2358,
-                                        ["x"] = 455543.45138331,
-                                        ["y"] = 460223.11720625,
+                                        ["x"] = 492098.52684487,
+                                        ["y"] = 449707.06767206,
                                     }, -- end of [2]
                                     [3] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.9792752021565,
+                                        ["heading"] = 5.9702992999957,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 211_Rezky4_CSG",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 2357,
-                                        ["x"] = 489637.13367732,
-                                        ["y"] = 454489.17972953,
+                                        ["x"] = 526192.20913888,
+                                        ["y"] = 443973.13019534,
                                     }, -- end of [3]
                                     [4] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.9792752021565,
+                                        ["heading"] = 5.9702992999957,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 211_Rezky3_CSG_Rezky",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 2356,
-                                        ["x"] = 473985.03407871,
-                                        ["y"] = 471536.02087654,
+                                        ["x"] = 510540.10954027,
+                                        ["y"] = 461019.97134235,
                                     }, -- end of [4]
                                     [5] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.9792752021565,
+                                        ["heading"] = 5.9702992999957,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_10th_Moskva_1",
                                         ["skill"] = "Average",
                                         ["type"] = "MOSCOW",
                                         ["unitId"] = 2355,
-                                        ["x"] = 480958.74182067,
-                                        ["y"] = 441161.64937824,
+                                        ["x"] = 517513.81728223,
+                                        ["y"] = 430645.59984405,
                                     }, -- end of [5]
                                     [6] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.9792752021565,
+                                        ["heading"] = 5.9702992999957,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 211_Rezky1_CSG_Rezky",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 2354,
-                                        ["x"] = 468870.98173461,
-                                        ["y"] = 442711.36220978,
+                                        ["x"] = 505426.05719617,
+                                        ["y"] = 432195.31267559,
                                     }, -- end of [6]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 470972.98511706,
-                                ["y"] = 457528.64137466,
+                                ["x"] = 507528.06057862,
+                                ["y"] = 447012.59184047,
                             }, -- end of [2]
                             [3] =
                             {
@@ -90601,12 +90603,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 251668.02345814,
-                                            ["y"] = 419401.94529866,
+                                            ["x"] = 285190.75337762,
+                                            ["y"] = 384595.38696304,
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 18626.71418211,
+                                            ["ETA"] = 13860.237010146,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
@@ -90625,8 +90627,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 324490.22053423,
-                                            ["y"] = 343352.78203831,
+                                            ["x"] = 331713.7203557,
+                                            ["y"] = 321554.49359861,
                                         }, -- end of [2]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -90640,79 +90642,79 @@ mission =
                                     [1] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.4761143323412,
+                                        ["heading"] = 5.3481532996439,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_10th_Moskva_2",
                                         ["skill"] = "Average",
                                         ["type"] = "MOSCOW",
                                         ["unitId"] = 2365,
-                                        ["x"] = 251668.02345814,
-                                        ["y"] = 419401.94529866,
+                                        ["x"] = 285190.75337762,
+                                        ["y"] = 384595.38696304,
                                     }, -- end of [1]
                                     [2] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.4761143323412,
+                                        ["heading"] = 5.3481532996439,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 30th_Ropucha2_ATG",
                                         ["skill"] = "Average",
                                         ["type"] = "BDK-775",
                                         ["unitId"] = 2364,
-                                        ["x"] = 252666.47969032,
-                                        ["y"] = 417654.64689235,
+                                        ["x"] = 286189.2096098,
+                                        ["y"] = 382848.08855673,
                                     }, -- end of [2]
                                     [3] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.4761143323412,
+                                        ["heading"] = 5.3481532996439,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 30th_Ropucha1_ATG",
                                         ["skill"] = "Average",
                                         ["type"] = "BDK-775",
                                         ["unitId"] = 2363,
-                                        ["x"] = 250063.36165642,
-                                        ["y"] = 417975.57925269,
+                                        ["x"] = 283586.0915759,
+                                        ["y"] = 383169.02091707,
                                     }, -- end of [3]
                                     [4] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.4761143323412,
+                                        ["heading"] = 5.3481532996439,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 30th_Ropucha3_ATG_Ropucha",
                                         ["skill"] = "Average",
                                         ["type"] = "BDK-775",
                                         ["unitId"] = 2362,
-                                        ["x"] = 253058.73035296,
-                                        ["y"] = 420293.42407739,
+                                        ["x"] = 286581.46027244,
+                                        ["y"] = 385486.86574177,
                                     }, -- end of [4]
                                     [5] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.4761143323412,
+                                        ["heading"] = 5.3481532996439,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ RUS_ATG1-1",
                                         ["skill"] = "Average",
                                         ["type"] = "NEUSTRASH",
                                         ["unitId"] = 3183,
-                                        ["x"] = 255613.60396398,
-                                        ["y"] = 398797.24710148,
+                                        ["x"] = 289136.33388346,
+                                        ["y"] = 363990.68876586,
                                     }, -- end of [5]
                                     [6] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 5.4761143323412,
+                                        ["heading"] = 5.3481532996439,
                                         ["modulation"] = 0,
                                         ["name"] = "NN_ 212_Neustrashimy2_ATG",
                                         ["skill"] = "Average",
                                         ["type"] = "NEUSTRASH",
                                         ["unitId"] = 2360,
-                                        ["x"] = 278629.49024807,
-                                        ["y"] = 414141.17129087,
+                                        ["x"] = 312152.22016755,
+                                        ["y"] = 379334.61295525,
                                     }, -- end of [6]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 251668.02345814,
-                                ["y"] = 419401.94529866,
+                                ["x"] = 285190.75337762,
+                                ["y"] = 384595.38696304,
                             }, -- end of [3]
                             [4] =
                             {
@@ -90746,8 +90748,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 721866.6760674,
-                                            ["y"] = 158873.75371834,
+                                            ["x"] = 719317.45290247,
+                                            ["y"] = 28312.626138371,
                                         }, -- end of [1]
                                         [2] =
                                         {
@@ -90785,43 +90787,43 @@ mission =
                                     [1] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 4.717121751518,
+                                        ["heading"] = 4.731328671069,
                                         ["modulation"] = 0,
                                         ["name"] = "XIL_CSG_1-1",
                                         ["skill"] = "Excellent",
                                         ["type"] = "CV_1143_5",
                                         ["unitId"] = 2842,
-                                        ["x"] = 721866.6760674,
-                                        ["y"] = 158873.75371834,
+                                        ["x"] = 719317.45290247,
+                                        ["y"] = 28312.626138371,
                                     }, -- end of [1]
                                     [2] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 4.717121751518,
+                                        ["heading"] = 4.731328671069,
                                         ["modulation"] = 0,
                                         ["name"] = "XIL_CSG_1-2",
                                         ["skill"] = "Excellent",
                                         ["type"] = "Type_054A",
                                         ["unitId"] = 2843,
-                                        ["x"] = 728905.98881655,
-                                        ["y"] = 150195.08773438,
+                                        ["x"] = 726356.76565162,
+                                        ["y"] = 19633.960154411,
                                     }, -- end of [2]
                                     [3] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 4.717121751518,
+                                        ["heading"] = 4.731328671069,
                                         ["modulation"] = 0,
                                         ["name"] = "CVN-1-1",
                                         ["skill"] = "Excellent",
                                         ["type"] = "Type_052C",
                                         ["unitId"] = 2841,
-                                        ["x"] = 702488.00636701,
-                                        ["y"] = 139627.18160845,
+                                        ["x"] = 699938.78320208,
+                                        ["y"] = 9066.0540284808,
                                     }, -- end of [3]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 721866.6760674,
-                                ["y"] = 158873.75371834,
+                                ["x"] = 719317.45290247,
+                                ["y"] = 28312.626138371,
                             }, -- end of [4]
                             [5] =
                             {
@@ -90855,12 +90857,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 744354.10280142,
-                                            ["y"] = 709346.97686178,
+                                            ["x"] = 755996.52385821,
+                                            ["y"] = 584838.3592521,
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 30041.433144736,
+                                            ["ETA"] = 26588.19119827,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
@@ -90879,8 +90881,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 770640.9654394,
-                                            ["y"] = 370730.68051198,
+                                            ["x"] = 769073.07270068,
+                                            ["y"] = 284528.65135257,
                                         }, -- end of [2]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -90894,43 +90896,43 @@ mission =
                                     [1] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 4.7898638317824,
+                                        ["heading"] = 4.7559050350907,
                                         ["modulation"] = 0,
                                         ["name"] = "XIL_CSG_2-1",
                                         ["skill"] = "Excellent",
                                         ["type"] = "CV_1143_5",
                                         ["unitId"] = 3184,
-                                        ["x"] = 744354.10280142,
-                                        ["y"] = 709346.97686178,
+                                        ["x"] = 755996.52385821,
+                                        ["y"] = 584838.3592521,
                                     }, -- end of [1]
                                     [2] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 4.7898638317824,
+                                        ["heading"] = 4.7559050350907,
                                         ["modulation"] = 0,
                                         ["name"] = "XIL_CSG_2-2",
                                         ["skill"] = "Excellent",
                                         ["type"] = "Type_054A",
                                         ["unitId"] = 3185,
-                                        ["x"] = 751393.41555057,
-                                        ["y"] = 700668.31087782,
+                                        ["x"] = 763035.83660736,
+                                        ["y"] = 576159.69326814,
                                     }, -- end of [2]
                                     [3] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 4.7898638317824,
+                                        ["heading"] = 4.7559050350907,
                                         ["modulation"] = 0,
                                         ["name"] = "XIL_CSG_2-3",
                                         ["skill"] = "Excellent",
                                         ["type"] = "Type_052C",
                                         ["unitId"] = 3186,
-                                        ["x"] = 729009.39387227,
-                                        ["y"] = 690962.18558698,
+                                        ["x"] = 740651.81492906,
+                                        ["y"] = 566453.5679773,
                                     }, -- end of [3]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 744354.10280142,
-                                ["y"] = 709346.97686178,
+                                ["x"] = 755996.52385821,
+                                ["y"] = 584838.3592521,
                             }, -- end of [5]
                         }, -- end of ["group"]
                     }, -- end of ["ship"]
@@ -142813,12 +142815,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 667916.89269479,
-                                            ["y"] = 333472.86700382,
+                                            ["x"] = 600222.60982832,
+                                            ["y"] = 304997.61509852,
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 18545.023892384,
+                                            ["ETA"] = 28695.662517039,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
@@ -142837,8 +142839,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 545600.10108513,
-                                            ["y"] = 280183.05383861,
+                                            ["x"] = 413760.98683344,
+                                            ["y"] = 216378.22008374,
                                         }, -- end of [2]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -142852,55 +142854,55 @@ mission =
                                     [1] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 3.5524664521822,
+                                        ["heading"] = 3.5852602978704,
                                         ["modulation"] = 0,
                                         ["name"] = "XIL_Notian_ATG-1",
                                         ["skill"] = "Average",
                                         ["type"] = "Type_071",
                                         ["unitId"] = 3020,
-                                        ["x"] = 667916.89269479,
-                                        ["y"] = 333472.86700382,
+                                        ["x"] = 600222.60982832,
+                                        ["y"] = 304997.61509852,
                                     }, -- end of [1]
                                     [2] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 3.5524664521822,
+                                        ["heading"] = 3.5852602978704,
                                         ["modulation"] = 0,
                                         ["name"] = "XIL_Notian_ATG-2",
                                         ["skill"] = "Average",
                                         ["type"] = "Type_052C",
                                         ["unitId"] = 3019,
-                                        ["x"] = 688265.98171735,
-                                        ["y"] = 341616.74109531,
+                                        ["x"] = 620571.69885088,
+                                        ["y"] = 313141.48919001,
                                     }, -- end of [2]
                                     [3] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 3.5524664521822,
+                                        ["heading"] = 3.5852602978704,
                                         ["modulation"] = 0,
                                         ["name"] = "XIL_Notian_ATG-3",
                                         ["skill"] = "Average",
                                         ["type"] = "Type_071",
                                         ["unitId"] = 3018,
-                                        ["x"] = 675928.73676021,
-                                        ["y"] = 336057.09512578,
+                                        ["x"] = 607112.9761598,
+                                        ["y"] = 306997.81125259,
                                     }, -- end of [3]
                                     [4] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 3.5524664521822,
+                                        ["heading"] = 3.5852602978704,
                                         ["modulation"] = 0,
                                         ["name"] = "XIL_Notian_ATG-4",
                                         ["skill"] = "Average",
                                         ["type"] = "Type_052B",
                                         ["unitId"] = 3017,
-                                        ["x"] = 636336.22495642,
-                                        ["y"] = 317232.82596054,
+                                        ["x"] = 568641.94208995,
+                                        ["y"] = 288757.57405524,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 667916.89269479,
-                                ["y"] = 333472.86700382,
+                                ["x"] = 600222.60982832,
+                                ["y"] = 304997.61509852,
                             }, -- end of [1]
                         }, -- end of ["group"]
                     }, -- end of ["ship"]
@@ -143252,7 +143254,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 4159698,
+    ["currentKey"] = 4176493,
     ["date"] =
     {
         ["Day"] = 26,
@@ -150753,9 +150755,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 84912.035417981,
-        ["centerY"] = 123848.86294739,
-        ["zoom"] = 2041855.7607045,
+        ["centerX"] = 511797.44025721,
+        ["centerY"] = 322149.99521486,
+        ["zoom"] = 1468926.8999591,
     }, -- end of ["map"]
     ["maxDictId"] = 21,
     ["pictureFileNameB"] =
@@ -163104,7 +163106,7 @@ mission =
                     [3] = 1,
                     [4] = 0.15,
                 }, -- end of ["color"]
-                ["heading"] = 4.9457390482716,
+                ["heading"] = 4.936915427862,
                 ["hidden"] = false,
                 ["linkUnit"] = 284,
                 ["name"] = "D4.2_ BLUE in SAG zone",
@@ -163113,8 +163115,8 @@ mission =
                 }, -- end of ["properties"]
                 ["radius"] = 91440,
                 ["type"] = 0,
-                ["x"] = 67.628719169414,
-                ["y"] = 120.42860997643,
+                ["x"] = 68.156606306846,
+                ["y"] = 59.526672245294,
                 ["zoneId"] = 5557,
             }, -- end of [486]
             [487] =
@@ -168632,7 +168634,7 @@ mission =
                     [3] = 1,
                     [4] = 0.15,
                 }, -- end of ["color"]
-                ["heading"] = 4.717121751518,
+                ["heading"] = 4.731328671069,
                 ["hidden"] = false,
                 ["linkUnit"] = 2842,
                 ["name"] = "XIL_CSG1_QRA_Zone",
@@ -168641,8 +168643,8 @@ mission =
                 }, -- end of ["properties"]
                 ["radius"] = 182880,
                 ["type"] = 0,
-                ["x"] = -3.6002820176072,
-                ["y"] = 78.278425437689,
+                ["x"] = -4.7119765720563,
+                ["y"] = 78.219378649919,
                 ["zoneId"] = 8881,
             }, -- end of [747]
             [748] =
@@ -172713,7 +172715,7 @@ mission =
         ["atmosphere_type"] = 0,
         ["clouds"] =
         {
-            ["base"] = 3400,
+            ["base"] = 3360,
             ["density"] = 0,
             ["iprecptns"] = 0,
             ["preset"] = "Preset23",

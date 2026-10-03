@@ -25328,10 +25328,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -26515,10 +26513,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -27694,10 +27690,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -28876,10 +28870,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -34483,10 +34475,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -37253,10 +37243,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -37742,10 +37730,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -38022,10 +38008,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -38302,10 +38286,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -38582,10 +38564,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -38862,10 +38842,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -39126,10 +39104,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -39722,10 +39698,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -40318,10 +40292,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -40897,10 +40869,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -41493,10 +41463,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -41838,10 +41806,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -67335,10 +67301,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -67938,10 +67902,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -68541,10 +68503,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -69994,10 +69954,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -70340,10 +70298,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -70686,10 +70642,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -71032,10 +70986,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -71717,10 +71669,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -72063,10 +72013,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -74954,10 +74902,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -75212,10 +75158,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -75470,10 +75414,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -75991,10 +75933,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -76255,10 +76195,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -76519,10 +76457,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -78093,10 +78029,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -78456,10 +78390,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -78784,10 +78716,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -81286,10 +81216,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -81849,10 +81777,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -82106,10 +82032,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -82363,10 +82287,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -82620,10 +82542,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -82877,10 +82797,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -83134,10 +83052,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -85514,10 +85430,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -142263,10 +142177,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["formationIndex"] = 2,
                                                                         ["name"] = 5,
                                                                         ["value"] = 131074,
-                                                                        ["variantIndex"] = 2,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -143340,7 +143252,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 4141960,
+    ["currentKey"] = 4159698,
     ["date"] =
     {
         ["Day"] = 26,
@@ -150841,9 +150753,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 81544.688018785,
-        ["centerY"] = 197710.77251943,
-        ["zoom"] = 73371.63213832,
+        ["centerX"] = 84912.035417981,
+        ["centerY"] = 123848.86294739,
+        ["zoom"] = 2041855.7607045,
     }, -- end of ["map"]
     ["maxDictId"] = 21,
     ["pictureFileNameB"] =
@@ -150903,7 +150815,7 @@ mission =
         ["total"] = 0,
     }, -- end of ["result"]
     ["sortie"] = "DictKey_sortie_5",
-    ["start_time"] = 25200,
+    ["start_time"] = 54000,
     ["theatre"] = "Kola",
     ["trig"] =
     {
@@ -172801,10 +172713,10 @@ mission =
         ["atmosphere_type"] = 0,
         ["clouds"] =
         {
-            ["base"] = 4600,
+            ["base"] = 3400,
             ["density"] = 0,
             ["iprecptns"] = 0,
-            ["preset"] = "Preset5",
+            ["preset"] = "Preset23",
             ["thickness"] = 200,
         }, -- end of ["clouds"]
         ["cyclones"] =
@@ -172825,10 +172737,10 @@ mission =
         }, -- end of ["halo"]
         ["modifiedTime"] = true,
         ["name"] = "Winter, clean sky",
-        ["qnh"] = 763.27,
+        ["qnh"] = 757.428,
         ["season"] =
         {
-            ["temperature"] = 6,
+            ["temperature"] = 8,
         }, -- end of ["season"]
         ["type_weather"] = 0,
         ["visibility"] =
@@ -172839,17 +172751,17 @@ mission =
         {
             ["at2000"] =
             {
-                ["dir"] = 286,
+                ["dir"] = 302,
                 ["speed"] = 9.2772,
             }, -- end of ["at2000"]
             ["at8000"] =
             {
-                ["dir"] = 270,
+                ["dir"] = 312,
                 ["speed"] = 14.4312,
             }, -- end of ["at8000"]
             ["atGround"] =
             {
-                ["dir"] = 266,
+                ["dir"] = 315,
                 ["speed"] = 3.0924,
             }, -- end of ["atGround"]
         }, -- end of ["wind"]

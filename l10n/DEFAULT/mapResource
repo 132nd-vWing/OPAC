@@ -6,7 +6,7 @@ mapResource =
     ["ResKey_Action_10"] = "skynet-iads-setup-OPAC_1st_corps.lua",
     ["ResKey_Action_12"] = "Moose.lua",
     ["ResKey_Action_13"] = "OPAC_MISC.lua",
-    ["ResKey_Action_15"] = "OPAC_RedAir_3.2.1.lua",
+    ["ResKey_Action_15"] = "132_ControllerComms.lua",
     ["ResKey_Action_16"] = "skynet-iads-setup-OPAC_3rd_corps.lua",
     ["ResKey_Action_19"] = "OPAC_Navygroup.lua",
     ["ResKey_Action_20"] = "skynet-iads-setup-OPAC_2nd_corps.lua",
@@ -14,4 +14,6 @@ mapResource =
     ["ResKey_Action_22"] = "OPAC_Carrier_XIL_CSG_1.lua",
     ["ResKey_Action_23"] = "OPAC_Carrier_XIL_CSG_2.lua",
     ["ResKey_Action_24"] = "OPAC_Carrier_NOT_CSG_1.lua",
+    ["ResKey_Action_25"] = "OPAC_RedAir_3.2.1.lua",
+    ["ResKey_Action_26"] = "OPAC_Comms_call Rovanemi under attack.lua",
 } -- end of mapResource

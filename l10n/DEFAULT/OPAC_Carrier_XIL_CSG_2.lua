@@ -1,4 +1,4 @@
--- OPAC Carrier Ops 1.2.0 | OPAC_0.7.1.139 | 2026-10-24
+-- OPAC Carrier Ops 1.3.0 | OPAC_0.7.1.140 | 2026-10-24
 -- Self-contained. Load once AFTER the mission's Moose.lua.
 -- Read README_NO.txt: old launch triggers must be removed; pool flights must be uncontrolled.
 -- Flights 1-3: shared finite CAP/QRA pool. Flight 4: mission designer owns tasking.
@@ -17,7 +17,7 @@ local CONFIG = {
     maxContinuousWindSec = 45*60,
   },
   cycle = {
-    enabled = true, periodSec = 3600, startMinute = 20,
+    enabled = true, periodSec = 3600, startMinute = 30,
     openSec = 25*60, closeBufferSec = 2*60,
     -- DCS mission clock: turn HH:20; routine window HH:30-HH:55, buffer to HH:57.
   },
@@ -32,8 +32,12 @@ local CONFIG = {
   },
   cap = {
     enabled = true, startSec = 0, allowOffCycle = true,
-    offsetNm = 35, bearingDeg = 270, headingDeg = 270, legNm = 20,
+    offsetNm = 35, bearingDeg = 235 headingDeg = 235, legNm = 30,
     altitudeFt = 23000, speedKtas = 440,
+    formation = "FingerFour.Open", joinSpeedKtas = 360,
+    altitudeToleranceFt = 1500, joinDistanceNm = 5,
+    formationGraceSec = 180, joinRetrySec = 180, maxJoinRetries = 2,
+    -- Shared flight route/altitude. All survivors must assemble before CAP handover.
     retaskSec = 120, relocateNm = 10,
     reliefFuel = 0.50, reliefSortieSec = 60*60, minimumReliefAgeSec = 10*60,
     onStationRadiusNm = 12, minimumOnStationAgeSec = 30, reserveReadyForQRA = 1,
@@ -73,11 +77,11 @@ local CONFIG = {
   },
 }
 
--- OPAC Carrier Ops 1.2.0. Lua 5.1-compatible mission-side code.
+-- OPAC Carrier Ops 1.3.0. Lua 5.1-compatible mission-side code.
 -- CONFIG is intentionally local and unique to this file/carrier.
 -- Uses the mission's MOOSE NAVYGROUP. Aircraft use native DCS controllers.
 local C = CONFIG
-local VERSION = "1.2.0"
+local VERSION = "1.3.0"
 if rawget(_G, C.globalName) then
   env.info("[OPAC_CARRIER " .. C.key .. "] DUPLICATE_LOAD ignored")
   return
@@ -184,26 +188,76 @@ local function wp(p,alt,speed,tasks)
     task={id="ComboTask",params={tasks=tasks or {}}}}
 end
 local function leadPoint(r)
-  for _,f in ipairs(r.frames) do local u=unit(f.name); if u then return point(u) end end
+  for _,f in ipairs(r.frames) do
+    local u=not f.lost and unit(f.name); if u then return point(u) end
+  end
 end
-local function mission(points) return {id="Mission",params={route={points=points}}} end
+local function mission(points)
+  -- Matches MOOSE CONTROLLABLE:TaskRoute for aircraft (including on-deck aircraft).
+  -- Do not omit airborne when replacing an aircraft group's runtime route.
+  return {id="Mission",params={airborne=true,route={points=points}}}
+end
+local function phase()
+  local abs=timer.getAbsTime()
+  local start=math.floor(abs/C.cycle.periodSec)*C.cycle.periodSec+C.cycle.startMinute*60
+  if start>abs then start=start-C.cycle.periodSec end
+  local age=abs-start
+  local enabled=C.cycle.enabled and O.running
+  local close=C.deck.preparationSec+C.cycle.openSec
+  local scheduled=enabled and age>=0 and age<close+C.cycle.closeBufferSec
+  local routineOpen=scheduled and age>=C.deck.preparationSec and age<close
+  local closing=scheduled and age>=close
+  return scheduled,age,start,routineOpen,closing
+end
+local function capMayPrepare()
+  local scheduled,_,__,___,closing=phase()
+  return not closing and (scheduled or C.cap.allowOffCycle)
+end
+local function capMayStart()
+  local _,__,___,routineOpen,closing=phase()
+  -- The close buffer blocks automatic CAP, including otherwise off-cycle CAP.
+  -- QRA and explicit designer requests use their own dispatch priorities.
+  return not closing and (routineOpen or C.cap.allowOffCycle)
+end
+local function capFormation(r,center)
+  local lead=leadPoint(r)
+  local formed=lead~=nil
+  local onStation=center~=nil
+  local minAlt,maxAlt=math.huge,-math.huge
+  local alive=0
+  for _,f in ipairs(r.frames) do if not f.lost then
+    local u=unit(f.name);local p=u and point(u)
+    if not p or call(u,"inAir")~=true then formed=false;onStation=false
+    else
+      alive=alive+1;minAlt=math.min(minAlt,p.y/FT);maxAlt=math.max(maxAlt,p.y/FT)
+      if math.abs(p.y-C.cap.altitudeFt*FT)>C.cap.altitudeToleranceFt*FT or
+        dist(p,lead)>C.cap.joinDistanceNm*NM then formed=false end
+      if dist(p,center)>C.cap.onStationRadiusNm*NM then onStation=false end
+    end
+  end end
+  return formed and alive>0,onStation and alive>0,
+    alive>0 and minAlt or nil,alive>0 and maxAlt or nil
+end
 
 function O:Status()
   local rows={}
   for _,r in ipairs(self.flights) do
-    rows[#rows+1]={name=r.name,role=r.role,sortieRole=r.sortieRole,capMode=r.capMode,roe=r.roe,targetGroupId=r.target and r.target.groupId,state=r.state,alive=r.stats and r.stats.alive or 0,
+    rows[#rows+1]={name=r.name,role=r.role,sortieRole=r.sortieRole,capMode=r.capMode,roe=r.roe,formationReady=r.formationReady,minAltitudeFt=r.minAltitudeFt,maxAltitudeFt=r.maxAltitudeFt,targetGroupId=r.target and r.target.groupId,state=r.state,alive=r.stats and r.stats.alive or 0,
       airborne=r.stats and r.stats.air or 0,readyIn=math.max(0,(r.readyAt or 0)-now())}
-    log("FLIGHT_STATUS",r.name.." "..r.state.." alive="..tostring(rows[#rows].alive))
+    log("FLIGHT_STATUS",r.name.." "..r.state.." alive="..tostring(rows[#rows].alive)..
+      " cap="..tostring(r.capMode).." formed="..tostring(r.formationReady)..
+      " altFt="..tostring(r.minAltitudeFt)..".."..tostring(r.maxAltitudeFt))
   end
   log("STATUS","running="..tostring(self.running).." deck="..tostring(self.deckReady)..
     " wind="..tostring(self.window~=nil).." stationNm="..string.format("%.1f",dist(point(self.ship),self.station)/NM))
   return {version=VERSION,initialized=self.initialized,running=self.running,
     deckReady=self.deckReady,qraZone=self.qraZone and self.qraZone.name,
-    detectionMode=C.qra.detectionMode,flights=rows}
+    detectionMode=C.qra.detectionMode,routineLaunchOpen=self.routineLaunchOpen,
+    closingBuffer=self.closingBuffer,flights=rows}
 end
 
 local function snapshot(r,t)
-  local s={alive=0,air=0,deck=0,parked=0,fuel=math.huge,life=1,empty=false,ammoKnown=true,
+  local s={alive=0,air=0,deck=0,parked=0,unaccounted=0,fuel=math.huge,life=1,empty=false,ammoKnown=true,
     minDistance=math.huge,maxDistance=0,allStationary=true}
   for _,f in ipairs(r.frames) do
     local u=unit(f.name)
@@ -235,6 +289,9 @@ local function snapshot(r,t)
       if f.parked then f.recovered=true
       else f.lost=true; log("LOSS",f.name.." disappeared without verified parking") end
     end
+    if not u and not f.lost and not f.recovered and not r.spawning then
+      s.unaccounted=s.unaccounted+1
+    end
   end
   r.stats=s
   return s
@@ -243,7 +300,7 @@ end
 local function committed(r,role)
   return r.role=="POOL" and r.sortieRole==role and
     (r.state=="QUEUED" or r.state=="STARTING" or r.state=="SPAWNING" or r.state=="ACTIVE"
-      or r.state=="EXTERNAL_STARTING")
+      or r.state=="EXTERNAL_STARTING" or r.state=="LAUNCH_BLOCKED")
 end
 local function readyPool()
   local pool={}
@@ -272,6 +329,7 @@ local function queue(r,role,t,target,notBefore)
   r.fromHangar=r.state=="HANGAR"; r.state="QUEUED"; r.sortieRole=role
   r.queuedAt=t; r.notBefore=notBefore or t; r.target=target
   r.launchRequestedAt=nil; r.launchExpires=nil; r.tasked=false; r.relieves=nil; r.onStation=false; r.capMode=nil; r.engagedSignature=nil
+  r.capJoinRetries=0;r.lastJoinAttempt=nil;r.formationLostAt=nil;r.formationReady=false
   log("QUEUED",r.name.." "..role)
   return true
 end
@@ -281,22 +339,66 @@ local function closeQueue(r,why)
   log("QUEUE_CANCEL",r.name.." "..why)
 end
 
-local function capTask(r,t)
+local function capTask(r,t,joining)
   local shipPoint=point(O.ship); local p=leadPoint(r)
-  if not p or not shipPoint then return false end
+  if not p or not shipPoint or not r.stats or r.stats.air~=r.stats.alive then return false end
   local center=shift(shipPoint,C.cap.offsetNm,C.cap.bearingDeg)
   local a=shift(center,C.cap.legNm/2,C.cap.headingDeg)
   local b=shift(center,C.cap.legNm/2,C.cap.headingDeg+180)
-  local alt,speed=C.cap.altitudeFt*FT,C.cap.speedKtas*KT
-  local orbit={id="Orbit",enabled=true,auto=false,number=1,
-    params={pattern="Race-Track",point={x=a.x,y=a.z},point2={x=b.x,y=b.z},speed=speed,altitude=alt}}
+  if joining==nil then joining=not capFormation(r,center) end
+  local alt=C.cap.altitudeFt*FT
+  local speed=(joining and C.cap.joinSpeedKtas or C.cap.speedKtas)*KT
+  -- Same orbit factory used by AUFTRAG:NewGCICAP in OPAC Red Air.
+  -- Keep one native controller owner; do not introduce a second flight FSM.
+  local orbit=CONTROLLABLE.TaskOrbit(nil,a,alt,speed,b)
+  orbit.enabled=true;orbit.auto=false;orbit.number=1
   if not setOptions(r,false) then return false end
-  local ok=setTask(r,mission({wp(p,math.max(p.y,alt),speed),wp(a,alt,speed,{orbit}),wp(b,alt,speed)}))
+  local ctrl=call(group(r.name),"getController")
+  if not ctrl or not pcall(ctrl.setOption,ctrl,AI.Option.Air.id.FORMATION,O.capFormationOption) then
+    warn("CAP_FORMATION_OPTION_ERROR",r.name);return false
+  end
+  -- Start at the actual aircraft altitude and command a common climb/patrol.
+  -- This route is assigned to the entire surviving group, never only its leader.
+  local ok=setTask(r,mission({wp(p,p.y,speed),wp(a,alt,speed,{orbit}),wp(b,alt,speed)}))
   if ok then
-    r.tasked=true;r.capMode="PATROL";r.target=nil;r.engagedSignature=nil
-    r.lastCapTask=t;r.capCenter=center;log("CAP_ASSIGN",r.name.." patrol; sensor-gated engagement")
+    if joining and r.capMode~="REJOIN" then r.capJoinRetries=0;r.lastJoinAttempt=t end
+    r.tasked=true;r.capMode=joining and "REJOIN" or "PATROL";r.target=nil;r.engagedSignature=nil
+    if not joining then r.capJoinRetries=0;r.formationLostAt=nil end
+    r.lastCapTask=t;r.capCenter=center
+    log(joining and "CAP_REJOIN" or "CAP_ASSIGN",r.name.." shared "..C.cap.altitudeFt..
+      " ft; "..C.cap.formation.."; sensor-gated engagement")
   end
   return ok
+end
+local function maintainCAP(r,t)
+  local center=shift(point(O.ship),C.cap.offsetNm,C.cap.bearingDeg)
+  local formed,onStation,minAlt,maxAlt=capFormation(r,center)
+  r.formationReady=formed;r.minAltitudeFt=minAlt;r.maxAltitudeFt=maxAlt
+  if r.capMode~="INTERCEPT" then
+    if not r.tasked then capTask(r,t)
+    elseif r.capMode=="REJOIN" then
+      if formed then capTask(r,t,false)
+      elseif t-(r.lastJoinAttempt or r.lastCapTask or t)>=C.cap.joinRetrySec then
+        if (r.capJoinRetries or 0)<C.cap.maxJoinRetries then
+          r.capJoinRetries=(r.capJoinRetries or 0)+1;r.lastJoinAttempt=t
+          capTask(r,t,true)
+        else
+          warn("CAP_NOT_FORMED_"..r.name,string.format("%.0f..%.0f ft; inspect flight; no endless retasking",
+            minAlt or 0,maxAlt or 0))
+        end
+      end
+    elseif not formed then
+      r.formationLostAt=r.formationLostAt or t
+      if t-r.formationLostAt>=C.cap.formationGraceSec then capTask(r,t,true) end
+    else
+      r.formationLostAt=nil
+      if t-(r.lastCapTask or 0)>=C.cap.retaskSec and dist(center,r.capCenter)>C.cap.relocateNm*NM then
+        capTask(r,t,false)
+      end
+    end
+  end
+  r.onStation=r.capMode=="PATROL" and formed and onStation and
+    t-(r.airborneAt or t)>=C.cap.minimumOnStationAgeSec
 end
 local function interceptTask(r,t)
   local target=r.target;local p=leadPoint(r)
@@ -352,6 +454,12 @@ function O:RequestRecovery(name)
   if r.state=="RETURN_WAIT" or r.state=="RETURNING" then return true end
   local s=r.stats or snapshot(r,now())
   if s.air==0 then return false end
+  if (r.state=="STARTING" or r.state=="EXTERNAL_STARTING" or r.state=="LAUNCH_BLOCKED") and
+    (s.air<s.alive or (s.unaccounted or 0)>0) then
+    r.recoveryAfterLaunch=true
+    log("RECOVERY_DEFERRED",name.." remaining departure still owns deck/wind")
+    return true
+  end
   local t=now(); r.returnAt=t; r.recoveryExpires=t+C.recovery.requestTimeoutSec
   r.wasRecoveryRequested=true; r.recoveryTimedOut=false
   if r.role=="EXTERNAL" then
@@ -378,13 +486,19 @@ function O:RegisterFlight(name,willRecoverHere)
   self.flights[#self.flights+1]=r;self.byName[name]=r;OPAC_CARRIER_OWNERS[name]=C.key
   for _,f in ipairs(r.frames) do self.byUnit[f.name]={record=r,frame=f} end
   local s=snapshot(r,now())
-  if s.air>0 then r.state="ACTIVE";r.sortieAt=now() end
+  if s.air>0 then
+    r.sortieAt=now()
+    if s.air<s.alive then
+      r.state="EXTERNAL_STARTING";r.startedAt=now();r.launchExpires=now()+C.deck.launchTimeoutSec
+    else r.state="ACTIVE" end
+  end
   log("REGISTER_EXTERNAL",name);return true
 end
 function O:RequestLaunch(name)
   local r=self.byName and self.byName[name]
   if not r then log("UNKNOWN_FLIGHT",name); return false end
-  if r.state=="QUEUED" or r.state=="STARTING" or r.state=="SPAWNING" then return true end
+  if r.state=="QUEUED" or r.state=="STARTING" or r.state=="EXTERNAL_STARTING" or
+    r.state=="SPAWNING" or r.state=="LAUNCH_BLOCKED" then return true end
   if r.role~="EXTERNAL" then
     log("OWNED_FLIGHT",name.." is controlled by CAP/QRA; use EnableCAP/SetQRA")
     return false
@@ -445,7 +559,7 @@ local function validSensor(name)
   if call(call(u,"getGroup"),"getName")==C.groupName then return true end
   local x=O.byUnit[name];local r=x and x.record
   return r and r.role=="POOL" and r.sortieRole=="CAP" and call(u,"inAir")==true and
-    (r.state=="STARTING" or r.state=="EXTERNAL_STARTING" or r.state=="ACTIVE" or
+    (r.state=="STARTING" or r.state=="EXTERNAL_STARTING" or r.state=="LAUNCH_BLOCKED" or r.state=="ACTIVE" or
       r.state=="RETURN_WAIT" or r.state=="RETURNING") or false
 end
 local function authorizedContact(c,t)
@@ -736,6 +850,7 @@ local function startFlight(r,t)
   r.state="STARTING"; r.startedAt=t; r.sortieAt=t; r.tasked=false; r.onStation=false
   r.sorties=(r.sorties or 0)+1
   r.launchExpires=t+C.deck.launchTimeoutSec; r.wasRecoveryRequested=false
+  r.recoveryAfterLaunch=false
   r.lateLogged=false; r.recoveryTimedOut=false; r.externalRecovery=false
   log("START",r.name.." "..tostring(r.sortieRole))
   return true
@@ -756,18 +871,23 @@ local function updateFlights(t)
         r.state="QUEUED"; r.fromHangar=false
       else r.state="QUARANTINE"; log("SPAWN_INVALID",r.name.." no retry/no teleport") end
     elseif r.state=="QUEUED" then
-      if r.state=="QUEUED" and r.launchExpires and t>=r.launchExpires then
+      if r.sortieRole=="CAP" and not capMayPrepare() then
+        -- Waiting for the next permitted cycle is not a blocked deck request.
+        r.launchRequestedAt=nil;r.launchExpires=nil
+      elseif r.launchExpires and t>=r.launchExpires then
         r.state="QUARANTINE"; log("LAUNCH_REQUEST_TIMEOUT",r.name)
       end
-    elseif r.state=="STARTING" or r.state=="EXTERNAL_STARTING" then
-      if s.alive>0 and s.air==s.alive then
+    elseif r.state=="STARTING" or r.state=="EXTERNAL_STARTING" or r.state=="LAUNCH_BLOCKED" then
+      if s.alive>0 and s.air==s.alive and s.unaccounted==0 then
         r.state="ACTIVE"; r.airborneAt=t; r.sortieAt=r.sortieAt or t
         r.clearUntil=t+C.deck.departureClearSec; r.launchExpires=nil
         log("AIRBORNE",r.name)
-        if not O.running and r.role~="EXTERNAL" then O:RequestRecovery(r.name) end
+        if r.recoveryAfterLaunch or (not O.running and r.role~="EXTERNAL") then
+          r.recoveryAfterLaunch=false;O:RequestRecovery(r.name)
+        end
       elseif r.launchExpires and t>=r.launchExpires then
-        r.state="QUARANTINE"; r.launchExpires=nil
-        log("LAUNCH_BLOCKED",r.name.." no deletion; check deck/ATC")
+        r.state="LAUNCH_BLOCKED"; r.launchExpires=nil
+        log("LAUNCH_BLOCKED",r.name.." wind/deck reservation retained; inspect deck/ATC; no automatic release")
       end
     elseif r.state=="ACTIVE" and r.role~="EXTERNAL" then
       if s.air==0 and s.alive>0 then retire(r,t)
@@ -776,16 +896,7 @@ local function updateFlights(t)
           t-(r.sortieAt or t)>=C.recovery.maxSortieSec or s.maxDistance>C.recovery.pursuitLimitNm*NM then
           O:RequestRecovery(r.name)
         elseif r.sortieRole=="CAP" then
-          local c=shift(point(O.ship),C.cap.offsetNm,C.cap.bearingDeg)
-          if r.capMode~="INTERCEPT" then
-            if not r.tasked then capTask(r,t)
-            elseif t-(r.lastCapTask or 0)>=C.cap.retaskSec and dist(c,r.capCenter)>C.cap.relocateNm*NM then
-              capTask(r,t)
-            end
-          end
-          r.onStation=r.capMode=="PATROL" and r.capCenter~=nil and
-            dist(leadPoint(r),r.capCenter)<=C.cap.onStationRadiusNm*NM and
-            t-(r.airborneAt or t)>=C.cap.minimumOnStationAgeSec
+          maintainCAP(r,t)
         end
       end
     elseif r.state=="RETURN_WAIT" or r.state=="RETURNING" then
@@ -810,7 +921,7 @@ local function updateFlights(t)
       r.externalRecovery=false; r.clearUntil=t+C.deck.recoveryClearSec
       if s.air>0 then r.recoveryTimedOut=true; log("EXTERNAL_RECOVERY_TIMEOUT",r.name) end
     end
-    if s.alive==0 and r.state~="SERVICE" and r.state~="HANGAR" and r.state~="SPAWNING" and
+    if s.alive==0 and s.unaccounted==0 and r.state~="SERVICE" and r.state~="HANGAR" and r.state~="SPAWNING" and
       r.state~="MISSING" and r.state~="QUARANTINE" and not (r.state=="QUEUED" and r.fromHangar) then
       local retained=false
       for _,f in ipairs(r.frames) do if not f.lost and (f.recovered or f.parked) then retained=true end end
@@ -820,17 +931,10 @@ local function updateFlights(t)
   end
 end
 
-local function phase(t)
-  local abs=timer.getAbsTime()
-  local start=math.floor(abs/C.cycle.periodSec)*C.cycle.periodSec+C.cycle.startMinute*60
-  if start>abs then start=start-C.cycle.periodSec end
-  local age=abs-start
-  return C.cycle.enabled and O.running and age>=0 and age<C.deck.preparationSec+C.cycle.openSec+C.cycle.closeBufferSec,
-    age, start
-end
 local function launchBusy()
   for _,r in ipairs(O.flights) do
-    if r.state=="STARTING" or r.state=="EXTERNAL_STARTING" or r.state=="SPAWNING" then return true end
+    if r.state=="STARTING" or r.state=="EXTERNAL_STARTING" or r.state=="SPAWNING" or
+      r.state=="LAUNCH_BLOCKED" then return true end
   end
   return false
 end
@@ -843,16 +947,17 @@ local function finalBusy()
   return false
 end
 local function requestWind(t)
-  local scheduled,age=phase(t); local needed=scheduled or t<O.manualUntil
+  local scheduled,age,_,routineOpen,closing=phase(); local needed=scheduled or t<O.manualUntil
   for _,r in ipairs(O.flights) do
     if r.state=="QUEUED" then
-      local eligible=(r.sortieRole~="CAP" or scheduled or C.cap.allowOffCycle)
+      local eligible=(r.sortieRole~="CAP" or capMayPrepare())
       if eligible and t>=(r.windNotBefore or 0) then
         r.launchRequestedAt=r.launchRequestedAt or t
         r.launchExpires=r.launchExpires or t+C.deck.requestTimeoutSec
         needed=true
       end
-    elseif r.state=="STARTING" or r.state=="EXTERNAL_STARTING" or r.state=="SPAWNING" then needed=true
+    elseif r.state=="STARTING" or r.state=="EXTERNAL_STARTING" or r.state=="SPAWNING" or
+      r.state=="LAUNCH_BLOCKED" then needed=true
     elseif (r.state=="RETURN_WAIT" or r.state=="RETURNING" or r.externalRecovery) and
       not r.recoveryTimedOut then needed=true end
     if (r.clearUntil or 0)>t then needed=true end
@@ -905,7 +1010,7 @@ local function requestWind(t)
     O.deckReady=O.readySince~=nil and t-O.readySince>=C.deck.stableSec
     if not O.deckReady then warn("DECK_WAIT",string.format("headwind %.1f crosswind %.1f kt",head,cross)) end
   end
-  O.scheduled=scheduled; O.cycleAge=age
+  O.scheduled=scheduled; O.cycleAge=age;O.routineLaunchOpen=routineOpen;O.closingBuffer=closing
 end
 
 local function dispatch(t)
@@ -928,7 +1033,7 @@ local function dispatch(t)
   local selected
   for _,r in ipairs(O.flights) do
     if r.state=="QUEUED" and r.launchRequestedAt and t>=r.notBefore then
-      if r.sortieRole~="CAP" or (O.scheduled and O.cycleAge>=C.deck.preparationSec) or C.cap.allowOffCycle then
+      if r.sortieRole~="CAP" or capMayStart() then
         if not selected or (r.sortieRole=="QRA" and selected.sortieRole~="QRA") or
           (r.sortieRole==selected.sortieRole and r.queuedAt<selected.queuedAt) then selected=r end
       end
@@ -968,11 +1073,25 @@ local function indexMission()
   if O.qraZone.linkUnit and tonumber(O.qraZone.linkUnit)~=shipId then
     error("QRA zone linked to another unit: "..C.qra.zoneName)
   end
-  if C.qra.detectionMode~="SENSOR" then error("1.2 requires SENSOR mode; the zone is only a geographic limit") end
+  if C.qra.detectionMode~="SENSOR" then error("SENSOR mode required; the zone is only a geographic limit") end
   if not AI or not AI.Option or not AI.Option.Air or not AI.Option.Air.id or
     not AI.Option.Air.val or not AI.Option.Air.val.ROE or
     AI.Option.Air.id.ROE==nil or AI.Option.Air.val.ROE.WEAPON_HOLD==nil or
     AI.Option.Air.val.ROE.OPEN_FIRE==nil then error("DCS air ROE options unavailable") end
+  if AI.Option.Air.id.FORMATION==nil or not CONTROLLABLE or type(CONTROLLABLE.TaskOrbit)~="function" then
+    error("MOOSE TaskOrbit / DCS formation option unavailable")
+  end
+  local family,spacing=string.match(C.cap.formation or "","^([%w_]+)%.([%w_]+)$")
+  local formations=ENUMS and ENUMS.Formation and ENUMS.Formation.FixedWing
+  O.capFormationOption=formations and formations[family] and formations[family][spacing]
+  if not finite(O.capFormationOption) then error("Unknown CAP formation "..tostring(C.cap.formation)) end
+  for _,key in ipairs({"altitudeFt","speedKtas","joinSpeedKtas","altitudeToleranceFt","joinDistanceNm",
+    "formationGraceSec","joinRetrySec"}) do
+    if not finite(C.cap[key]) or C.cap[key]<=0 then error("Invalid cap."..key) end
+  end
+  if not finite(C.cap.maxJoinRetries) or C.cap.maxJoinRetries<0 or C.cap.maxJoinRetries%1~=0 then
+    error("cap.maxJoinRetries must be a nonnegative integer")
+  end
   if not Controller or not Controller.Detection then error("DCS detection API unavailable") end
   O.detectionMethods={}
   local organic={RADAR=true,VISUAL=true,IRST=true,OPTIC=true}
@@ -1038,7 +1157,8 @@ local function eventHandler(e)
     f.lost=true;f.parked=false;f.recovered=false;log("LOSS",f.name)
   elseif e.id==ev.S_EVENT_ENGINE_STARTUP then
     f.shutdown=false
-    if onDeck(e.initiator) and r.state~="STARTING" and r.state~="SPAWNING" then
+    if onDeck(e.initiator) and r.state~="STARTING" and r.state~="SPAWNING" and
+      r.state~="EXTERNAL_STARTING" and r.state~="LAUNCH_BLOCKED" then
       r.state="EXTERNAL_STARTING";r.startedAt=t;r.sortieAt=t;r.sortieRole=r.sortieRole or (r.role=="POOL" and "CAP" or "EXTERNAL")
       r.launchExpires=t+C.deck.launchTimeoutSec;r.tasked=false
       log("UNANNOUNCED_START",r.name.." request wind immediately")
@@ -1122,7 +1242,11 @@ function O:Init()
     end
     if s.alive==0 then r.state="LOST";log("INITIAL_MISSING",r.name)
     elseif s.air>0 then
-      r.state="ACTIVE";r.sortieRole=r.sortieRole or (r.role=="POOL" and "CAP" or "EXTERNAL");r.sortieAt=now()
+      r.sortieRole=r.sortieRole or (r.role=="POOL" and "CAP" or "EXTERNAL");r.sortieAt=now()
+      if s.air<s.alive then
+        r.state="EXTERNAL_STARTING";r.startedAt=now();r.launchExpires=now()+C.deck.launchTimeoutSec
+        log("PARTIAL_DEPARTURE",r.name.." departure already in progress at initialization")
+      else r.state="ACTIVE";r.airborneAt=now() end
     elseif r.role=="EXTERNAL" and r.template and not r.template.uncontrolled and
       not r.template.lateActivation and s.deck>0 then
       r.state="EXTERNAL_STARTING";r.sortieRole="EXTERNAL";r.startedAt=now();r.sortieAt=now()

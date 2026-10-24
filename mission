@@ -1446,7 +1446,7 @@ mission =
                                         }, -- end of [6]
                                         [7] =
                                         {
-                                            ["ETA"] = 4445.1488132238,
+                                            ["ETA"] = 4388.8399561544,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -1465,12 +1465,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 415474.39740612,
-                                            ["y"] = 160994.53537455,
+                                            ["x"] = 407442.412221,
+                                            ["y"] = 194999.90751176,
                                         }, -- end of [7]
                                         [8] =
                                         {
-                                            ["ETA"] = 4741.5907094412,
+                                            ["ETA"] = 4746.724374449,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -1489,8 +1489,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 349974.17578552,
-                                            ["y"] = 160168.93538477,
+                                            ["x"] = 348926.68204099,
+                                            ["y"] = 164497.02688601,
                                         }, -- end of [8]
                                         [9] =
                                         {
@@ -1518,7 +1518,7 @@ mission =
                                         }, -- end of [9]
                                         [10] =
                                         {
-                                            ["ETA"] = 5396.3120460547,
+                                            ["ETA"] = 5282.3804933398,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -1537,12 +1537,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 230015.00053188,
-                                            ["y"] = 141713.67765344,
+                                            ["x"] = 231480.21650237,
+                                            ["y"] = 161799.49322523,
                                         }, -- end of [10]
                                         [11] =
                                         {
-                                            ["ETA"] = 5524.5293790283,
+                                            ["ETA"] = 5505.7017049965,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -1561,12 +1561,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 191395.66490891,
-                                            ["y"] = 145814.84603818,
+                                            ["x"] = 191224.71417995,
+                                            ["y"] = 168439.57608253,
                                         }, -- end of [11]
                                         [12] =
                                         {
-                                            ["ETA"] = 5653.9010277966,
+                                            ["ETA"] = 5969.811733341,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -1585,12 +1585,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 172841.59327451,
-                                            ["y"] = 182395.77165134,
+                                            ["x"] = 121768.18275459,
+                                            ["y"] = 232036.33226467,
                                         }, -- end of [12]
                                         [13] =
                                         {
-                                            ["ETA"] = 5823.4244944509,
+                                            ["ETA"] = 6060.5454462455,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -1609,12 +1609,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 154793.78487213,
-                                            ["y"] = 183496.24777344,
+                                            ["x"] = 103027.41442286,
+                                            ["y"] = 239161.72855746,
                                         }, -- end of [13]
                                         [14] =
                                         {
-                                            ["ETA"] = 5911.9005786692,
+                                            ["ETA"] = 6450.088657265,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -1633,12 +1633,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 132344.07198137,
-                                            ["y"] = 184816.81911995,
+                                            ["x"] = 62810.482341266,
+                                            ["y"] = 224405.43486127,
                                         }, -- end of [14]
                                         [15] =
                                         {
-                                            ["ETA"] = 6013.6706773776,
+                                            ["ETA"] = 6536.4126225991,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -1657,58 +1657,10 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 109013.97819294,
-                                            ["y"] = 185477.10479321,
+                                            ["x"] = 46024.2440805,
+                                            ["y"] = 215345.33546922,
                                         }, -- end of [15]
                                         [16] =
-                                        {
-                                            ["ETA"] = 6189.0090740516,
-                                            ["ETA_locked"] = false,
-                                            ["action"] = "Turning Point",
-                                            ["alt"] = 2000,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["speed"] = 220.97222222222,
-                                            ["speed_locked"] = true,
-                                            ["task"] =
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] =
-                                                {
-                                                    ["tasks"] =
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["x"] = 69616.933021895,
-                                            ["y"] = 190759.39017927,
-                                        }, -- end of [16]
-                                        [17] =
-                                        {
-                                            ["ETA"] = 6360.0511499936,
-                                            ["ETA_locked"] = false,
-                                            ["action"] = "Turning Point",
-                                            ["alt"] = 2000,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["speed"] = 220.97222222222,
-                                            ["speed_locked"] = true,
-                                            ["task"] =
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] =
-                                                {
-                                                    ["tasks"] =
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["x"] = 49368.172375327,
-                                            ["y"] = 222673.19772006,
-                                        }, -- end of [17]
-                                        [18] =
                                         {
                                             ["ETA"] = 6471.5491663147,
                                             ["ETA_locked"] = false,
@@ -1731,8 +1683,8 @@ mission =
                                             ["type"] = "Turning Point",
                                             ["x"] = 31215.286031142,
                                             ["y"] = 242744.05981896,
-                                        }, -- end of [18]
-                                        [19] =
+                                        }, -- end of [16]
+                                        [17] =
                                         {
                                             ["ETA"] = 4814.1947163972,
                                             ["ETA_locked"] = false,
@@ -1755,8 +1707,8 @@ mission =
                                             ["type"] = "Turning Point",
                                             ["x"] = 24007.25017864,
                                             ["y"] = 252655.10911615,
-                                        }, -- end of [19]
-                                        [20] =
+                                        }, -- end of [17]
+                                        [18] =
                                         {
                                             ["ETA"] = 4972.2193442055,
                                             ["ETA_locked"] = false,
@@ -1779,8 +1731,8 @@ mission =
                                             ["type"] = "Turning Point",
                                             ["x"] = -636.89091891943,
                                             ["y"] = 241175.64461031,
-                                        }, -- end of [20]
-                                        [21] =
+                                        }, -- end of [18]
+                                        [19] =
                                         {
                                             ["ETA"] = 7014.6444720336,
                                             ["ETA_locked"] = false,
@@ -1803,8 +1755,8 @@ mission =
                                             ["type"] = "Turning Point",
                                             ["x"] = -49024.168632476,
                                             ["y"] = 221653.88084312,
-                                        }, -- end of [21]
-                                        [22] =
+                                        }, -- end of [19]
+                                        [20] =
                                         {
                                             ["ETA"] = 5497.7950846882,
                                             ["ETA_locked"] = false,
@@ -1827,8 +1779,8 @@ mission =
                                             ["type"] = "Turning Point",
                                             ["x"] = -64207.762673626,
                                             ["y"] = 291398.30182335,
-                                        }, -- end of [22]
-                                        [23] =
+                                        }, -- end of [20]
+                                        [21] =
                                         {
                                             ["ETA"] = 5564.191010468,
                                             ["ETA_locked"] = false,
@@ -1851,8 +1803,8 @@ mission =
                                             ["type"] = "Turning Point",
                                             ["x"] = -78223.38794238,
                                             ["y"] = 287060.1320973,
-                                        }, -- end of [23]
-                                        [24] =
+                                        }, -- end of [21]
+                                        [22] =
                                         {
                                             ["ETA"] = 4740.4292012248,
                                             ["ETA_locked"] = false,
@@ -1875,8 +1827,8 @@ mission =
                                             ["type"] = "Turning Point",
                                             ["x"] = -73184.975825872,
                                             ["y"] = 448447.75646116,
-                                        }, -- end of [24]
-                                        [25] =
+                                        }, -- end of [22]
+                                        [23] =
                                         {
                                             ["ETA"] = 5764.376851179,
                                             ["ETA_locked"] = false,
@@ -1899,8 +1851,8 @@ mission =
                                             ["type"] = "Turning Point",
                                             ["x"] = -132082.85132509,
                                             ["y"] = 666911.55751015,
-                                        }, -- end of [25]
-                                        [26] =
+                                        }, -- end of [23]
+                                        [24] =
                                         {
                                             ["ETA"] = 6956.5693946419,
                                             ["ETA_locked"] = false,
@@ -1923,7 +1875,7 @@ mission =
                                             ["type"] = "Turning Point",
                                             ["x"] = 111702.99635734,
                                             ["y"] = 766760.69613869,
-                                        }, -- end of [26]
+                                        }, -- end of [24]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = true,
                                 }, -- end of ["route"]
@@ -3708,8 +3660,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 346383.21052548,
-                                            ["y"] = -35985.094992685,
+                                            ["x"] = 358510.35951418,
+                                            ["y"] = -21160.816599976,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -3819,13 +3771,13 @@ mission =
                                         ["skill"] = "Excellent",
                                         ["type"] = "TICONDEROG",
                                         ["unitId"] = 2844,
-                                        ["x"] = 346383.21052548,
-                                        ["y"] = -35985.094992685,
+                                        ["x"] = 358510.35951418,
+                                        ["y"] = -21160.816599976,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 346383.21052548,
-                                ["y"] = -35985.094992685,
+                                ["x"] = 358510.35951418,
+                                ["y"] = -21160.816599976,
                             }, -- end of [2]
                         }, -- end of ["group"]
                     }, -- end of ["ship"]
@@ -67039,13 +66991,76 @@ mission =
                                                                 ["attackQtyLimit"] = true,
                                                                 ["direction"] = 0,
                                                                 ["directionEnabled"] = false,
-                                                                ["expend"] = "All",
+                                                                ["expend"] = "Two",
                                                                 ["groupAttack"] = false,
                                                                 ["weaponType"] = 2097152,
-                                                                ["x"] = -153093.15830072,
-                                                                ["y"] = 151903.39995623,
+                                                                ["x"] = -153645.5142308,
+                                                                ["y"] = 151059.02831352,
                                                             }, -- end of ["params"]
                                                         }, -- end of [1]
+                                                        [2] =
+                                                        {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "AttackMapObject",
+                                                            ["number"] = 2,
+                                                            ["params"] =
+                                                            {
+                                                                ["altitude"] = 7620,
+                                                                ["altitudeEnabled"] = false,
+                                                                ["attackQty"] = 1,
+                                                                ["attackQtyLimit"] = true,
+                                                                ["direction"] = 0,
+                                                                ["directionEnabled"] = false,
+                                                                ["expend"] = "Two",
+                                                                ["groupAttack"] = false,
+                                                                ["weaponType"] = 2097152,
+                                                                ["x"] = -152662.95277007,
+                                                                ["y"] = 151785.45612957,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                        [3] =
+                                                        {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "AttackMapObject",
+                                                            ["number"] = 3,
+                                                            ["params"] =
+                                                            {
+                                                                ["altitude"] = 7620,
+                                                                ["altitudeEnabled"] = false,
+                                                                ["attackQty"] = 1,
+                                                                ["attackQtyLimit"] = true,
+                                                                ["direction"] = 0,
+                                                                ["directionEnabled"] = false,
+                                                                ["expend"] = "Two",
+                                                                ["groupAttack"] = false,
+                                                                ["weaponType"] = 2097152,
+                                                                ["x"] = -152662.15643046,
+                                                                ["y"] = 151785.54145167,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [3]
+                                                        [4] =
+                                                        {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "AttackMapObject",
+                                                            ["number"] = 4,
+                                                            ["params"] =
+                                                            {
+                                                                ["altitude"] = 7620,
+                                                                ["altitudeEnabled"] = false,
+                                                                ["attackQty"] = 1,
+                                                                ["attackQtyLimit"] = true,
+                                                                ["direction"] = 0,
+                                                                ["directionEnabled"] = false,
+                                                                ["expend"] = "Two",
+                                                                ["groupAttack"] = false,
+                                                                ["weaponType"] = 2097152,
+                                                                ["x"] = -153085.82708317,
+                                                                ["y"] = 151705.89961254,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [4]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -67055,7 +67070,7 @@ mission =
                                         }, -- end of [5]
                                         [6] =
                                         {
-                                            ["ETA"] = 1772.903435203,
+                                            ["ETA"] = 1906.8247534534,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 7620,
@@ -67074,8 +67089,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -143441.75354067,
-                                            ["y"] = 319382.53468458,
+                                            ["x"] = -144510.6263459,
+                                            ["y"] = 291873.57723329,
                                         }, -- end of [6]
                                         [7] =
                                         {
@@ -67200,17 +67215,17 @@ mission =
                                         {
                                             ["chaff"] = 48,
                                             ["flare"] = 48,
-                                            ["fuel"] = 79170,
+                                            ["fuel"] = 69600,
                                             ["gun"] = 100,
                                             ["pylons"] =
                                             {
                                                 [2] =
                                                 {
-                                                    ["CLSID"] = "<CLEAN>",
+                                                    ["CLSID"] = "{Kh-101}",
                                                 }, -- end of [2]
                                                 [3] =
                                                 {
-                                                    ["CLSID"] = "<CLEAN>",
+                                                    ["CLSID"] = "{Kh-101}",
                                                 }, -- end of [3]
                                                 [4] =
                                                 {
@@ -67230,11 +67245,11 @@ mission =
                                                 }, -- end of [7]
                                                 [8] =
                                                 {
-                                                    ["CLSID"] = "<CLEAN>",
+                                                    ["CLSID"] = "{Kh-101}",
                                                 }, -- end of [8]
                                                 [9] =
                                                 {
-                                                    ["CLSID"] = "<CLEAN>",
+                                                    ["CLSID"] = "{Kh-101}",
                                                 }, -- end of [9]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
@@ -75312,23 +75327,86 @@ mission =
                                                         {
                                                             ["auto"] = false,
                                                             ["enabled"] = true,
-                                                            ["id"] = "AttackMapObject",
+                                                            ["id"] = "Bombing",
                                                             ["number"] = 1,
                                                             ["params"] =
                                                             {
                                                                 ["altitude"] = 7924.8,
                                                                 ["altitudeEnabled"] = false,
                                                                 ["attackQty"] = 1,
-                                                                ["attackQtyLimit"] = true,
+                                                                ["attackQtyLimit"] = false,
                                                                 ["direction"] = 0,
                                                                 ["directionEnabled"] = false,
-                                                                ["expend"] = "All",
+                                                                ["expend"] = "Two",
                                                                 ["groupAttack"] = false,
                                                                 ["weaponType"] = 2097152,
-                                                                ["x"] = -151712.6756089,
-                                                                ["y"] = 150964.6835811,
+                                                                ["x"] = -151713.09471043,
+                                                                ["y"] = 150964.32168342,
                                                             }, -- end of ["params"]
                                                         }, -- end of [1]
+                                                        [2] =
+                                                        {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "Bombing",
+                                                            ["number"] = 2,
+                                                            ["params"] =
+                                                            {
+                                                                ["altitude"] = 7924.8,
+                                                                ["altitudeEnabled"] = false,
+                                                                ["attackQty"] = 1,
+                                                                ["attackQtyLimit"] = false,
+                                                                ["direction"] = 0,
+                                                                ["directionEnabled"] = false,
+                                                                ["expend"] = "Two",
+                                                                ["groupAttack"] = false,
+                                                                ["weaponType"] = 2097152,
+                                                                ["x"] = -151719.95262543,
+                                                                ["y"] = 150973.67751636,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                        [3] =
+                                                        {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "Bombing",
+                                                            ["number"] = 3,
+                                                            ["params"] =
+                                                            {
+                                                                ["altitude"] = 7924.8,
+                                                                ["altitudeEnabled"] = false,
+                                                                ["attackQty"] = 1,
+                                                                ["attackQtyLimit"] = false,
+                                                                ["direction"] = 0,
+                                                                ["directionEnabled"] = false,
+                                                                ["expend"] = "Two",
+                                                                ["groupAttack"] = false,
+                                                                ["weaponType"] = 2097152,
+                                                                ["x"] = -152036.11825702,
+                                                                ["y"] = 151336.48922787,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [3]
+                                                        [4] =
+                                                        {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "Bombing",
+                                                            ["number"] = 4,
+                                                            ["params"] =
+                                                            {
+                                                                ["altitude"] = 7924.8,
+                                                                ["altitudeEnabled"] = false,
+                                                                ["attackQty"] = 1,
+                                                                ["attackQtyLimit"] = false,
+                                                                ["direction"] = 0,
+                                                                ["directionEnabled"] = false,
+                                                                ["expend"] = "Two",
+                                                                ["groupAttack"] = false,
+                                                                ["weaponType"] = 2097152,
+                                                                ["x"] = -152130.60955998,
+                                                                ["y"] = 151277.25044947,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [4]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -75338,7 +75416,7 @@ mission =
                                         }, -- end of [5]
                                         [6] =
                                         {
-                                            ["ETA"] = 1773.968523881,
+                                            ["ETA"] = 1907.5948835288,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 7924.8,
@@ -75357,8 +75435,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -142030.86152146,
-                                            ["y"] = 319360.20171979,
+                                            ["x"] = -143218.05950052,
+                                            ["y"] = 291918.14850382,
                                         }, -- end of [6]
                                         [7] =
                                         {
@@ -75412,7 +75490,7 @@ mission =
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
-                                ["task"] = "Ground Attack",
+                                ["task"] = "Pinpoint Strike",
                                 ["taskSelected"] = true,
                                 ["tasks"] =
                                 {
@@ -75459,17 +75537,17 @@ mission =
                                         {
                                             ["chaff"] = 48,
                                             ["flare"] = 48,
-                                            ["fuel"] = 78300,
+                                            ["fuel"] = 69600,
                                             ["gun"] = 100,
                                             ["pylons"] =
                                             {
                                                 [2] =
                                                 {
-                                                    ["CLSID"] = "<CLEAN>",
+                                                    ["CLSID"] = "{Kh-101}",
                                                 }, -- end of [2]
                                                 [3] =
                                                 {
-                                                    ["CLSID"] = "<CLEAN>",
+                                                    ["CLSID"] = "{Kh-101}",
                                                 }, -- end of [3]
                                                 [4] =
                                                 {
@@ -75489,11 +75567,11 @@ mission =
                                                 }, -- end of [7]
                                                 [8] =
                                                 {
-                                                    ["CLSID"] = "<CLEAN>",
+                                                    ["CLSID"] = "{Kh-101}",
                                                 }, -- end of [8]
                                                 [9] =
                                                 {
-                                                    ["CLSID"] = "<CLEAN>",
+                                                    ["CLSID"] = "{Kh-101}",
                                                 }, -- end of [9]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
@@ -75792,84 +75870,84 @@ mission =
                                                         {
                                                             ["auto"] = false,
                                                             ["enabled"] = true,
-                                                            ["id"] = "AttackMapObject",
+                                                            ["id"] = "Bombing",
                                                             ["number"] = 1,
                                                             ["params"] =
                                                             {
                                                                 ["altitude"] = 7924.8,
                                                                 ["altitudeEnabled"] = false,
                                                                 ["attackQty"] = 1,
-                                                                ["attackQtyLimit"] = true,
+                                                                ["attackQtyLimit"] = false,
                                                                 ["direction"] = 0,
                                                                 ["directionEnabled"] = false,
-                                                                ["expend"] = "One",
+                                                                ["expend"] = "Two",
                                                                 ["groupAttack"] = false,
                                                                 ["weaponType"] = 2097152,
-                                                                ["x"] = -152651.47745742,
-                                                                ["y"] = 151918.97640939,
+                                                                ["x"] = -153117.86085575,
+                                                                ["y"] = 151952.39520605,
                                                             }, -- end of ["params"]
                                                         }, -- end of [1]
                                                         [2] =
                                                         {
                                                             ["auto"] = false,
                                                             ["enabled"] = true,
-                                                            ["id"] = "AttackMapObject",
+                                                            ["id"] = "Bombing",
                                                             ["number"] = 2,
                                                             ["params"] =
                                                             {
                                                                 ["altitude"] = 7924.8,
                                                                 ["altitudeEnabled"] = false,
                                                                 ["attackQty"] = 1,
-                                                                ["attackQtyLimit"] = true,
+                                                                ["attackQtyLimit"] = false,
                                                                 ["direction"] = 0,
                                                                 ["directionEnabled"] = false,
-                                                                ["expend"] = "One",
+                                                                ["expend"] = "Two",
                                                                 ["groupAttack"] = false,
                                                                 ["weaponType"] = 2097152,
-                                                                ["x"] = -152645.62288464,
-                                                                ["y"] = 151909.08420021,
+                                                                ["x"] = -153093.15862391,
+                                                                ["y"] = 151903.72369637,
                                                             }, -- end of ["params"]
                                                         }, -- end of [2]
                                                         [3] =
                                                         {
                                                             ["auto"] = false,
                                                             ["enabled"] = true,
-                                                            ["id"] = "AttackMapObject",
+                                                            ["id"] = "Bombing",
                                                             ["number"] = 3,
                                                             ["params"] =
                                                             {
                                                                 ["altitude"] = 7924.8,
                                                                 ["altitudeEnabled"] = false,
                                                                 ["attackQty"] = 1,
-                                                                ["attackQtyLimit"] = true,
+                                                                ["attackQtyLimit"] = false,
                                                                 ["direction"] = 0,
                                                                 ["directionEnabled"] = false,
-                                                                ["expend"] = "One",
+                                                                ["expend"] = "Two",
                                                                 ["groupAttack"] = false,
                                                                 ["weaponType"] = 2097152,
-                                                                ["x"] = -151719.91109189,
-                                                                ["y"] = 150973.87821123,
+                                                                ["x"] = -153089.65965363,
+                                                                ["y"] = 151734.76728649,
                                                             }, -- end of ["params"]
                                                         }, -- end of [3]
                                                         [4] =
                                                         {
                                                             ["auto"] = false,
                                                             ["enabled"] = true,
-                                                            ["id"] = "AttackMapObject",
+                                                            ["id"] = "Bombing",
                                                             ["number"] = 4,
                                                             ["params"] =
                                                             {
                                                                 ["altitude"] = 7924.8,
                                                                 ["altitudeEnabled"] = false,
                                                                 ["attackQty"] = 1,
-                                                                ["attackQtyLimit"] = true,
+                                                                ["attackQtyLimit"] = false,
                                                                 ["direction"] = 0,
                                                                 ["directionEnabled"] = false,
-                                                                ["expend"] = "One",
+                                                                ["expend"] = "Two",
                                                                 ["groupAttack"] = false,
                                                                 ["weaponType"] = 2097152,
-                                                                ["x"] = -152651.47745742,
-                                                                ["y"] = 151918.97640939,
+                                                                ["x"] = -153647.65596534,
+                                                                ["y"] = 151058.1046009,
                                                             }, -- end of ["params"]
                                                         }, -- end of [4]
                                                     }, -- end of ["tasks"]
@@ -75881,7 +75959,7 @@ mission =
                                         }, -- end of [5]
                                         [6] =
                                         {
-                                            ["ETA"] = 1785.8885090756,
+                                            ["ETA"] = 1917.2404186908,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 7924.8,
@@ -75900,8 +75978,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -144450.08232415,
-                                            ["y"] = 319278.65495116,
+                                            ["x"] = -145936.90700287,
+                                            ["y"] = 292319.2899386,
                                         }, -- end of [6]
                                         [7] =
                                         {
@@ -76026,17 +76104,17 @@ mission =
                                         {
                                             ["chaff"] = 48,
                                             ["flare"] = 48,
-                                            ["fuel"] = 78300,
+                                            ["fuel"] = 69600,
                                             ["gun"] = 100,
                                             ["pylons"] =
                                             {
                                                 [2] =
                                                 {
-                                                    ["CLSID"] = "<CLEAN>",
+                                                    ["CLSID"] = "{Kh-101}",
                                                 }, -- end of [2]
                                                 [3] =
                                                 {
-                                                    ["CLSID"] = "<CLEAN>",
+                                                    ["CLSID"] = "{Kh-101}",
                                                 }, -- end of [3]
                                                 [4] =
                                                 {
@@ -76056,11 +76134,11 @@ mission =
                                                 }, -- end of [7]
                                                 [8] =
                                                 {
-                                                    ["CLSID"] = "<CLEAN>",
+                                                    ["CLSID"] = "{Kh-101}",
                                                 }, -- end of [8]
                                                 [9] =
                                                 {
-                                                    ["CLSID"] = "<CLEAN>",
+                                                    ["CLSID"] = "{Kh-101}",
                                                 }, -- end of [9]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
@@ -84585,8 +84663,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 628767.13408336,
-                                            ["y"] = 397576.50019105,
+                                            ["x"] = 628682.62524923,
+                                            ["y"] = 397490.38188828,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -84627,7 +84705,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Springfield11",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 3.3808095748196,
+                                        ["heading"] = 1.6477015941607,
                                         ["livery_id"] = "279th kiap 1st squad navy",
                                         ["name"] = "AA_452_SU33_Kuznetzov_2-1",
                                         ["onboard_num"] = "018",
@@ -84696,8 +84774,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 2635,
-                                        ["x"] = 628767.13408336,
-                                        ["y"] = 397576.50019105,
+                                        ["x"] = 628682.62524923,
+                                        ["y"] = 397490.38188828,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -84710,7 +84788,7 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Springfield12",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 3.3808095748196,
+                                        ["heading"] = 1.6477015941607,
                                         ["livery_id"] = "279th kiap 1st squad navy",
                                         ["name"] = "AA_452_SU33_Kuznetzov_2-2",
                                         ["onboard_num"] = "138",
@@ -84779,12 +84857,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 2636,
-                                        ["x"] = 628767.13408336,
-                                        ["y"] = 397576.50019105,
+                                        ["x"] = 628682.62524923,
+                                        ["y"] = 397490.38188828,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 628767.13408336,
-                                ["y"] = 397576.50019105,
+                                ["x"] = 628682.62524923,
+                                ["y"] = 397490.38188828,
                             }, -- end of [60]
                             [61] =
                             {
@@ -84971,8 +85049,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 628767.13408336,
-                                            ["y"] = 397576.50019105,
+                                            ["x"] = 628682.62524923,
+                                            ["y"] = 397490.38188828,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -85013,7 +85091,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Colt71",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 2.6061559738863,
+                                        ["heading"] = 0.87304799322743,
                                         ["livery_id"] = "279th kiap 1st squad navy",
                                         ["name"] = "AA_452_SU33_Kuznetzov_3-1",
                                         ["onboard_num"] = "141",
@@ -85082,8 +85160,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 2639,
-                                        ["x"] = 628767.13408336,
-                                        ["y"] = 397576.50019105,
+                                        ["x"] = 628682.62524923,
+                                        ["y"] = 397490.38188828,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -85096,7 +85174,7 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Colt72",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 2.6061559738863,
+                                        ["heading"] = 0.87304799322743,
                                         ["livery_id"] = "279th kiap 1st squad navy",
                                         ["name"] = "AA_452_SU33_Kuznetzov_3-2",
                                         ["onboard_num"] = "142",
@@ -85165,12 +85243,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 2640,
-                                        ["x"] = 628767.13408336,
-                                        ["y"] = 397576.50019105,
+                                        ["x"] = 628682.62524923,
+                                        ["y"] = 397490.38188828,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 628767.13408336,
-                                ["y"] = 397576.50019105,
+                                ["x"] = 628682.62524923,
+                                ["y"] = 397490.38188828,
                             }, -- end of [61]
                             [62] =
                             {
@@ -85357,8 +85435,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 628767.13408336,
-                                            ["y"] = 397576.50019105,
+                                            ["x"] = 628682.62524923,
+                                            ["y"] = 397490.38188828,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -85399,7 +85477,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Dodge71",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 3.0490958319979,
+                                        ["heading"] = 1.315987851339,
                                         ["livery_id"] = "279th kiap 1st squad navy",
                                         ["name"] = "AA_452_SU33_Kuznetzov_1-1",
                                         ["onboard_num"] = "145",
@@ -85468,8 +85546,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 2643,
-                                        ["x"] = 628767.13408336,
-                                        ["y"] = 397576.50019105,
+                                        ["x"] = 628682.62524923,
+                                        ["y"] = 397490.38188828,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -85482,7 +85560,7 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Dodge72",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 3.0490958319979,
+                                        ["heading"] = 1.315987851339,
                                         ["livery_id"] = "279th kiap 1st squad navy",
                                         ["name"] = "AA_452_SU33_Kuznetzov_1-2",
                                         ["onboard_num"] = "146",
@@ -85551,12 +85629,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 2644,
-                                        ["x"] = 628767.13408336,
-                                        ["y"] = 397576.50019105,
+                                        ["x"] = 628682.62524923,
+                                        ["y"] = 397490.38188828,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 628767.13408336,
-                                ["y"] = 397576.50019105,
+                                ["x"] = 628682.62524923,
+                                ["y"] = 397490.38188828,
                             }, -- end of [62]
                             [63] =
                             {
@@ -86196,7 +86274,7 @@ mission =
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 126.48712184855,
+                                            ["ETA"] = 126.48712184856,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 4572,
@@ -86220,7 +86298,7 @@ mission =
                                         }, -- end of [2]
                                         [3] =
                                         {
-                                            ["ETA"] = 344.45291113182,
+                                            ["ETA"] = 344.45291113184,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
@@ -86287,7 +86365,7 @@ mission =
                                         }, -- end of [4]
                                         [5] =
                                         {
-                                            ["ETA"] = 2835.2546291691,
+                                            ["ETA"] = 2864.736228805,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
@@ -86318,7 +86396,7 @@ mission =
                                                                 ["directionEnabled"] = false,
                                                                 ["expend"] = "All",
                                                                 ["groupAttack"] = false,
-                                                                ["groupId"] = 1075,
+                                                                ["groupId"] = 1374,
                                                                 ["weaponType"] = 65536,
                                                             }, -- end of ["params"]
                                                         }, -- end of [1]
@@ -86326,12 +86404,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 380890.24860919,
-                                            ["y"] = 138449.39993852,
+                                            ["x"] = 379856.56870937,
+                                            ["y"] = 130822.79224051,
                                         }, -- end of [5]
                                         [6] =
                                         {
-                                            ["ETA"] = 2613.1309670246,
+                                            ["ETA"] = 3042.5152940416,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
@@ -86350,12 +86428,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 398372.80666898,
-                                            ["y"] = 197202.11521902,
+                                            ["x"] = 388167.41331037,
+                                            ["y"] = 192063.17995962,
                                         }, -- end of [6]
                                         [7] =
                                         {
-                                            ["ETA"] = 4530.4789252252,
+                                            ["ETA"] = 4444.9556522351,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
@@ -86393,12 +86471,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 437434.92292656,
-                                            ["y"] = 535720.95611685,
+                                            ["x"] = 233661.49460397,
+                                            ["y"] = 467715.78492444,
                                         }, -- end of [7]
                                         [8] =
                                         {
-                                            ["ETA"] = 5046.8979301363,
+                                            ["ETA"] = 5500.5369321128,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
@@ -86422,7 +86500,7 @@ mission =
                                         }, -- end of [8]
                                         [9] =
                                         {
-                                            ["ETA"] = 5260.5579895064,
+                                            ["ETA"] = 5714.1969914828,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 4572,
@@ -86446,7 +86524,7 @@ mission =
                                         }, -- end of [9]
                                         [10] =
                                         {
-                                            ["ETA"] = 4261.9948061529,
+                                            ["ETA"] = 5928.293041526,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -86994,7 +87072,51 @@ mission =
                                         }, -- end of [6]
                                         [7] =
                                         {
-                                            ["ETA"] = 7665.3327449067,
+                                            ["ETA"] = 7655.9968104272,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 189.11111111111,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "AttackUnit",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["altitude"] = 6096,
+                                                                ["altitudeEnabled"] = false,
+                                                                ["attackQty"] = 1,
+                                                                ["attackQtyLimit"] = false,
+                                                                ["direction"] = 0,
+                                                                ["directionEnabled"] = false,
+                                                                ["expend"] = "Auto",
+                                                                ["groupAttack"] = false,
+                                                                ["unitId"] = 2844,
+                                                                ["weaponType"] = 13958643710,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 513899.83474865,
+                                            ["y"] = -111130.98800254,
+                                        }, -- end of [7]
+                                        [8] =
+                                        {
+                                            ["ETA"] = 8903.2502666254,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
@@ -87013,9 +87135,129 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 512420.71713147,
-                                            ["y"] = -110149.80079681,
-                                        }, -- end of [7]
+                                            ["x"] = 582808.32338391,
+                                            ["y"] = 113121.89027823,
+                                        }, -- end of [8]
+                                        [9] =
+                                        {
+                                            ["ETA"] = 9497.133297619,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 189.11111111111,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 611832.39836839,
+                                            ["y"] = 221616.64676783,
+                                        }, -- end of [9]
+                                        [10] =
+                                        {
+                                            ["ETA"] = 11261.242472809,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 189.11111111111,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 446594.80476405,
+                                            ["y"] = 511433.71906012,
+                                        }, -- end of [10]
+                                        [11] =
+                                        {
+                                            ["ETA"] = 12437.28506463,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 189.11111111111,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 227249.65442941,
+                                            ["y"] = 474682.18241787,
+                                        }, -- end of [11]
+                                        [12] =
+                                        {
+                                            ["ETA"] = 12698.118470845,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 4572,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 189.11111111111,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 181898.88309156,
+                                            ["y"] = 455280.87642819,
+                                        }, -- end of [12]
+                                        [13] =
+                                        {
+                                            ["ETA"] = 12916.554914939,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 2000,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 164318.273438,
+                                            ["y"] = 430555.578125,
+                                        }, -- end of [13]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
@@ -88164,8 +88406,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 719330.1649138,
-                                            ["y"] = 28234.492872293,
+                                            ["x"] = 719312.04130612,
+                                            ["y"] = 28233.650717353,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -88206,7 +88448,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Springfield11",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 5.1081621216751,
+                                        ["heading"] = 4.8784631540645,
                                         ["livery_id"] = "plan carrier air wings highvis",
                                         ["name"] = "AB_XIL_Carrier1_Flight1-1",
                                         ["onboard_num"] = "018",
@@ -88275,8 +88517,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 2898,
-                                        ["x"] = 719330.1649138,
-                                        ["y"] = 28234.492872293,
+                                        ["x"] = 719312.04130612,
+                                        ["y"] = 28233.650717353,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -88289,7 +88531,7 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Springfield12",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 5.1081621216751,
+                                        ["heading"] = 4.8784631540645,
                                         ["livery_id"] = "plan carrier air wings highvis",
                                         ["name"] = "AB_XIL_Carrier1_Flight1-2",
                                         ["onboard_num"] = "037",
@@ -88358,12 +88600,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 2900,
-                                        ["x"] = 719330.1649138,
-                                        ["y"] = 28234.492872293,
+                                        ["x"] = 719312.04130612,
+                                        ["y"] = 28233.650717353,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 719330.1649138,
-                                ["y"] = 28234.492872293,
+                                ["x"] = 719312.04130612,
+                                ["y"] = 28233.650717353,
                             }, -- end of [71]
                             [72] =
                             {
@@ -88550,8 +88792,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 719330.1649138,
-                                            ["y"] = 28234.492872293,
+                                            ["x"] = 719312.04130612,
+                                            ["y"] = 28233.650717353,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -88592,7 +88834,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Springfield31",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.62115009832112,
+                                        ["heading"] = 0.39145113071051,
                                         ["livery_id"] = "plan carrier air wings highvis",
                                         ["name"] = "AB_XIL_Carrier1_Flight2-1",
                                         ["onboard_num"] = "070",
@@ -88661,8 +88903,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 3015,
-                                        ["x"] = 719330.1649138,
-                                        ["y"] = 28234.492872293,
+                                        ["x"] = 719312.04130612,
+                                        ["y"] = 28233.650717353,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -88675,7 +88917,7 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Springfield32",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.62115009832112,
+                                        ["heading"] = 0.39145113071051,
                                         ["livery_id"] = "plan carrier air wings highvis",
                                         ["name"] = "AB_XIL_Carrier1_Flight2-2",
                                         ["onboard_num"] = "071",
@@ -88744,12 +88986,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 3016,
-                                        ["x"] = 719330.1649138,
-                                        ["y"] = 28234.492872293,
+                                        ["x"] = 719312.04130612,
+                                        ["y"] = 28233.650717353,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 719330.1649138,
-                                ["y"] = 28234.492872293,
+                                ["x"] = 719312.04130612,
+                                ["y"] = 28233.650717353,
                             }, -- end of [72]
                             [73] =
                             {
@@ -89263,8 +89505,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 719330.1649138,
-                                            ["y"] = 28234.492872293,
+                                            ["x"] = 719312.04130612,
+                                            ["y"] = 28233.650717353,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -89305,7 +89547,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Ford81",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 3.4709338113446,
+                                        ["heading"] = 3.241234843734,
                                         ["livery_id"] = "plan carrier air wings highvis",
                                         ["name"] = "AB_XIL_Carrier1_Flight3-1",
                                         ["onboard_num"] = "063",
@@ -89374,8 +89616,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 3187,
-                                        ["x"] = 719330.1649138,
-                                        ["y"] = 28234.492872293,
+                                        ["x"] = 719312.04130612,
+                                        ["y"] = 28233.650717353,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -89388,7 +89630,7 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Ford82",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 3.4709338113446,
+                                        ["heading"] = 3.241234843734,
                                         ["livery_id"] = "plan carrier air wings highvis",
                                         ["name"] = "AB_XIL_Carrier1_Flight3-2",
                                         ["onboard_num"] = "139",
@@ -89457,12 +89699,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 3188,
-                                        ["x"] = 719330.1649138,
-                                        ["y"] = 28234.492872293,
+                                        ["x"] = 719312.04130612,
+                                        ["y"] = 28233.650717353,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 719330.1649138,
-                                ["y"] = 28234.492872293,
+                                ["x"] = 719312.04130612,
+                                ["y"] = 28233.650717353,
                             }, -- end of [74]
                             [75] =
                             {
@@ -94292,8 +94534,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 766832.97618467,
-                                            ["y"] = 449993.77572694,
+                                            ["x"] = 766852.60249195,
+                                            ["y"] = 449836.69388326,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -94334,7 +94576,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Springfield101",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -4.3691935032973,
+                                        ["heading"] = 5.0857783050146,
                                         ["livery_id"] = "plan carrier air wings j-15",
                                         ["name"] = "AB_XIL_Carrier2_Flight1-1",
                                         ["onboard_num"] = "162",
@@ -94403,8 +94645,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 3340,
-                                        ["x"] = 766832.97618467,
-                                        ["y"] = 449993.77572694,
+                                        ["x"] = 766852.60249195,
+                                        ["y"] = 449836.69388326,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -94417,7 +94659,7 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Springfield102",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -4.3691935032973,
+                                        ["heading"] = 5.0857783050146,
                                         ["livery_id"] = "plan carrier air wings j-15",
                                         ["name"] = "AB_XIL_Carrier2_Flight1-2",
                                         ["onboard_num"] = "163",
@@ -94486,12 +94728,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 3341,
-                                        ["x"] = 766832.97618467,
-                                        ["y"] = 449993.77572694,
+                                        ["x"] = 766852.60249195,
+                                        ["y"] = 449836.69388326,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 766832.97618467,
-                                ["y"] = 449993.77572694,
+                                ["x"] = 766852.60249195,
+                                ["y"] = 449836.69388326,
                             }, -- end of [91]
                             [92] =
                             {
@@ -94678,8 +94920,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 766832.97618467,
-                                            ["y"] = 449993.77572694,
+                                            ["x"] = 766852.60249195,
+                                            ["y"] = 449836.69388326,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -94720,7 +94962,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Uzi101",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -4.3691935032973,
+                                        ["heading"] = 5.0857783050146,
                                         ["livery_id"] = "plan carrier air wings j-15",
                                         ["name"] = "AB_XIL_Carrier2_Flight2-1",
                                         ["onboard_num"] = "164",
@@ -94789,8 +95031,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 3342,
-                                        ["x"] = 766832.97618467,
-                                        ["y"] = 449993.77572694,
+                                        ["x"] = 766852.60249195,
+                                        ["y"] = 449836.69388326,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -94803,7 +95045,7 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Uzi102",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -4.3691935032973,
+                                        ["heading"] = 5.0857783050146,
                                         ["livery_id"] = "plan carrier air wings j-15",
                                         ["name"] = "AB_XIL_Carrier2_Flight2-2",
                                         ["onboard_num"] = "165",
@@ -94872,12 +95114,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 3343,
-                                        ["x"] = 766855.42318849,
-                                        ["y"] = 449993.0115151,
+                                        ["x"] = 766830.14264848,
+                                        ["y"] = 449836.78008834,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 766832.97618467,
-                                ["y"] = 449993.77572694,
+                                ["x"] = 766852.60249195,
+                                ["y"] = 449836.69388326,
                             }, -- end of [92]
                             [93] =
                             {
@@ -95064,8 +95306,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 766832.97618467,
-                                            ["y"] = 449993.77572694,
+                                            ["x"] = 766852.60249195,
+                                            ["y"] = 449836.69388326,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -95106,7 +95348,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Colt101",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -4.3691935032973,
+                                        ["heading"] = 5.0857783050146,
                                         ["livery_id"] = "plan carrier air wings j-15",
                                         ["name"] = "AB_XIL_Carrier2_Flight3-1",
                                         ["onboard_num"] = "167",
@@ -95175,8 +95417,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 3344,
-                                        ["x"] = 766832.97618467,
-                                        ["y"] = 449993.77572694,
+                                        ["x"] = 766852.60249195,
+                                        ["y"] = 449836.69388326,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -95189,7 +95431,7 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Colt102",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -4.3691935032973,
+                                        ["heading"] = 5.0857783050146,
                                         ["livery_id"] = "plan carrier air wings j-15",
                                         ["name"] = "AB_XIL_Carrier2_Flight3-2",
                                         ["onboard_num"] = "168",
@@ -95258,12 +95500,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 3345,
-                                        ["x"] = 766855.42318849,
-                                        ["y"] = 449993.0115151,
+                                        ["x"] = 766830.14264848,
+                                        ["y"] = 449836.78008834,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 766832.97618467,
-                                ["y"] = 449993.77572694,
+                                ["x"] = 766852.60249195,
+                                ["y"] = 449836.69388326,
                             }, -- end of [93]
                             [94] =
                             {
@@ -95450,8 +95692,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 766832.97618467,
-                                            ["y"] = 449993.77572694,
+                                            ["x"] = 766852.60249195,
+                                            ["y"] = 449836.69388326,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -95492,7 +95734,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Dodge101",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -4.3691935032973,
+                                        ["heading"] = 5.0857783050146,
                                         ["livery_id"] = "plan carrier air wings j-15",
                                         ["name"] = "AB_XIL_Carrier2_Flight4-1",
                                         ["onboard_num"] = "169",
@@ -95561,8 +95803,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 3346,
-                                        ["x"] = 766832.97618467,
-                                        ["y"] = 449993.77572694,
+                                        ["x"] = 766852.60249195,
+                                        ["y"] = 449836.69388326,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -95575,7 +95817,7 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Dodge102",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -4.3691935032973,
+                                        ["heading"] = 5.0857783050146,
                                         ["livery_id"] = "plan carrier air wings j-15",
                                         ["name"] = "AB_XIL_Carrier2_Flight4-2",
                                         ["onboard_num"] = "174",
@@ -95644,12 +95886,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 3347,
-                                        ["x"] = 766855.42318849,
-                                        ["y"] = 449993.0115151,
+                                        ["x"] = 766830.14264848,
+                                        ["y"] = 449836.78008834,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 766832.97618467,
-                                ["y"] = 449993.77572694,
+                                ["x"] = 766852.60249195,
+                                ["y"] = 449836.69388326,
                             }, -- end of [94]
                             [95] =
                             {
@@ -95836,8 +96078,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 719330.1649138,
-                                            ["y"] = 28234.492872293,
+                                            ["x"] = 719312.04130612,
+                                            ["y"] = 28233.650717353,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -95878,7 +96120,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Ford101",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 3.4709338113446,
+                                        ["heading"] = 3.241234843734,
                                         ["livery_id"] = "plan carrier air wings highvis",
                                         ["name"] = "AB_XIL_Carrier1_Flight4-1",
                                         ["onboard_num"] = "175",
@@ -95947,8 +96189,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 3348,
-                                        ["x"] = 719330.1649138,
-                                        ["y"] = 28234.492872293,
+                                        ["x"] = 719312.04130612,
+                                        ["y"] = 28233.650717353,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -95961,7 +96203,7 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Ford102",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 3.4709338113446,
+                                        ["heading"] = 3.241234843734,
                                         ["livery_id"] = "plan carrier air wings highvis",
                                         ["name"] = "AB_XIL_Carrier1_Flight4-2",
                                         ["onboard_num"] = "176",
@@ -96030,12 +96272,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 3349,
-                                        ["x"] = 719307.70856324,
-                                        ["y"] = 28234.087508685,
+                                        ["x"] = 719290.0824771,
+                                        ["y"] = 28238.368961513,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 719330.1649138,
-                                ["y"] = 28234.492872293,
+                                ["x"] = 719312.04130612,
+                                ["y"] = 28233.650717353,
                             }, -- end of [95]
                             [96] =
                             {
@@ -96222,8 +96464,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 628767.13408336,
-                                            ["y"] = 397576.50019105,
+                                            ["x"] = 628682.62524923,
+                                            ["y"] = 397490.38188828,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -96264,7 +96506,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Chevy101",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 2.6061559738863,
+                                        ["heading"] = 0.87304799322743,
                                         ["livery_id"] = "279th kiap 1st squad navy",
                                         ["name"] = "AA_452_SU33_Kuznetzov_4-1",
                                         ["onboard_num"] = "177",
@@ -96333,8 +96575,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 3350,
-                                        ["x"] = 628767.13408336,
-                                        ["y"] = 397576.50019105,
+                                        ["x"] = 628682.62524923,
+                                        ["y"] = 397490.38188828,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -96347,7 +96589,7 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Chevy102",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 2.6061559738863,
+                                        ["heading"] = 0.87304799322743,
                                         ["livery_id"] = "279th kiap 1st squad navy",
                                         ["name"] = "AA_452_SU33_Kuznetzov_4-2",
                                         ["onboard_num"] = "178",
@@ -96416,12 +96658,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 3351,
-                                        ["x"] = 628765.95220116,
-                                        ["y"] = 397554.07129998,
+                                        ["x"] = 628660.68214754,
+                                        ["y"] = 397495.17274295,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 628767.13408336,
-                                ["y"] = 397576.50019105,
+                                ["x"] = 628682.62524923,
+                                ["y"] = 397490.38188828,
                             }, -- end of [96]
                             [97] =
                             {
@@ -96657,7 +96899,7 @@ mission =
                                         }, -- end of [3]
                                         [4] =
                                         {
-                                            ["ETA"] = 1275.5613362051,
+                                            ["ETA"] = 1273.2647946684,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
@@ -96676,8 +96918,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 434546.7144301,
-                                            ["y"] = 531720.47075663,
+                                            ["x"] = 434036.35792633,
+                                            ["y"] = 531581.15757154,
                                         }, -- end of [4]
                                         [5] =
                                         {
@@ -96743,7 +96985,7 @@ mission =
                                         }, -- end of [5]
                                         [6] =
                                         {
-                                            ["ETA"] = 2858.6794860914,
+                                            ["ETA"] = 2883.8071183714,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
@@ -96784,12 +97026,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 378951.95455374,
-                                            ["y"] = 138299.1660419,
+                                            ["x"] = 377944.51296841,
+                                            ["y"] = 130969.87345135,
                                         }, -- end of [6]
                                         [7] =
                                         {
-                                            ["ETA"] = 3059.8024147764,
+                                            ["ETA"] = 3064.5670853156,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
@@ -96808,12 +97050,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 399118.14802275,
-                                            ["y"] = 196611.05752048,
+                                            ["x"] = 388386.88194489,
+                                            ["y"] = 192063.17995962,
                                         }, -- end of [7]
                                         [8] =
                                         {
-                                            ["ETA"] = 4559.6999938952,
+                                            ["ETA"] = 4472.4236267118,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
@@ -96832,8 +97074,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 434969.02461037,
-                                            ["y"] = 532095.85758354,
+                                            ["x"] = 230369.46508608,
+                                            ["y"] = 466179.50448276,
                                         }, -- end of [8]
                                         [9] =
                                         {
@@ -97368,7 +97610,7 @@ mission =
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 3740.3898107554,
+                                            ["ETA"] = 4473.4191479756,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
@@ -97387,57 +97629,9 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 670918.85966659,
-                                            ["y"] = 395381.72278042,
+                                            ["x"] = 617944.45911239,
+                                            ["y"] = 348149.2131963,
                                         }, -- end of [2]
-                                        [3] =
-                                        {
-                                            ["ETA"] = 4632.5603079647,
-                                            ["ETA_locked"] = false,
-                                            ["action"] = "Turning Point",
-                                            ["alt"] = 0,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["speed"] = 11.305555555556,
-                                            ["speed_locked"] = true,
-                                            ["task"] =
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] =
-                                                {
-                                                    ["tasks"] =
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["x"] = 672262.37612832,
-                                            ["y"] = 385385.11809323,
-                                        }, -- end of [3]
-                                        [4] =
-                                        {
-                                            ["ETA"] = 12537.75998221,
-                                            ["ETA_locked"] = false,
-                                            ["action"] = "Turning Point",
-                                            ["alt"] = 0,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["speed"] = 11.305555555556,
-                                            ["speed_locked"] = true,
-                                            ["task"] =
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] =
-                                                {
-                                                    ["tasks"] =
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["x"] = 583668.63445139,
-                                            ["y"] = 386417.67918503,
-                                        }, -- end of [4]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
@@ -97450,7 +97644,7 @@ mission =
                                     [1] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 6.2314298368934,
+                                        ["heading"] = 4.4983218562345,
                                         ["modulation"] = 0,
                                         ["name"] = "NOT_CSG_1-1 CVN",
                                         ["skill"] = "Average",
@@ -97462,62 +97656,62 @@ mission =
                                     [2] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 6.2314298368934,
+                                        ["heading"] = 4.4983218562345,
                                         ["modulation"] = 0,
                                         ["name"] = "NOT_CSG_1-2",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 2358,
-                                        ["x"] = 608731.64615483,
-                                        ["y"] = 400042.37054647,
+                                        ["x"] = 592799.65086598,
+                                        ["y"] = 399289.84437951,
                                     }, -- end of [2]
                                     [3] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 6.2314298368934,
+                                        ["heading"] = 4.4983218562345,
                                         ["modulation"] = 0,
                                         ["name"] = "NOT_CSG_1-3",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 2357,
-                                        ["x"] = 647352.44661438,
-                                        ["y"] = 394529.8773314,
+                                        ["x"] = 660510.24087346,
+                                        ["y"] = 407597.89223319,
                                     }, -- end of [3]
                                     [4] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 6.2314298368934,
+                                        ["heading"] = 4.4983218562345,
                                         ["modulation"] = 0,
                                         ["name"] = "NOT_CSG_1-4",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 2356,
-                                        ["x"] = 631705.2179621,
-                                        ["y"] = 417030.27227989,
+                                        ["x"] = 638909.31645389,
+                                        ["y"] = 439376.17527351,
                                     }, -- end of [4]
                                     [5] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 6.2314298368934,
+                                        ["heading"] = 4.4983218562345,
                                         ["modulation"] = 0,
                                         ["name"] = "NOT_CSG_1-5",
                                         ["skill"] = "Average",
                                         ["type"] = "MOSCOW",
                                         ["unitId"] = 2355,
-                                        ["x"] = 641432.36311101,
-                                        ["y"] = 374136.81370507,
+                                        ["x"] = 658716.21836441,
+                                        ["y"] = 359512.21855754,
                                     }, -- end of [5]
                                     [6] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 6.2314298368934,
+                                        ["heading"] = 4.4983218562345,
                                         ["modulation"] = 0,
                                         ["name"] = "NOT_CSG_1-6",
                                         ["skill"] = "Average",
                                         ["type"] = "REZKY",
                                         ["unitId"] = 2354,
-                                        ["x"] = 623283.52527967,
-                                        ["y"] = 371599.87938456,
+                                        ["x"] = 620423.90997946,
+                                        ["y"] = 354426.38596965,
                                     }, -- end of [6]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
@@ -97706,7 +97900,7 @@ mission =
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 19719.036303943,
+                                            ["ETA"] = 18852.57616974,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
@@ -97725,8 +97919,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 723539.51398614,
-                                            ["y"] = -194582.05083717,
+                                            ["x"] = 674728.28685259,
+                                            ["y"] = -180109.96015936,
                                         }, -- end of [2]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -97740,7 +97934,7 @@ mission =
                                     [1] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 4.731328671069,
+                                        ["heading"] = 4.5016297034584,
                                         ["modulation"] = 0,
                                         ["name"] = "XIL_CSG_1-1",
                                         ["skill"] = "Excellent",
@@ -97752,26 +97946,26 @@ mission =
                                     [2] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 4.731328671069,
+                                        ["heading"] = 4.5016297034584,
                                         ["modulation"] = 0,
                                         ["name"] = "XIL_CSG_1-2",
                                         ["skill"] = "Excellent",
                                         ["type"] = "Type_054A",
                                         ["unitId"] = 2843,
-                                        ["x"] = 726356.76565162,
-                                        ["y"] = 19633.960154411,
+                                        ["x"] = 732801.64388267,
+                                        ["y"] = 51251.991045547,
                                     }, -- end of [2]
                                     [3] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 4.731328671069,
+                                        ["heading"] = 4.5016297034584,
                                         ["modulation"] = 0,
                                         ["name"] = "CVN-1-1",
                                         ["skill"] = "Excellent",
                                         ["type"] = "Type_052C",
                                         ["unitId"] = 2841,
-                                        ["x"] = 689792.49072293,
-                                        ["y"] = 1755.7346960096,
+                                        ["x"] = 706473.25593791,
+                                        ["y"] = 1111.8992977967,
                                     }, -- end of [3]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
@@ -97813,6 +98007,30 @@ mission =
                                             ["x"] = 766841.60352191,
                                             ["y"] = 449915.08664541,
                                         }, -- end of [1]
+                                        [2] =
+                                        {
+                                            ["ETA"] = 15183.430895082,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 9.25,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 766427.60976049,
+                                            ["y"] = 309468.96103034,
+                                        }, -- end of [2]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
@@ -97825,7 +98043,7 @@ mission =
                                     [1] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 1.5376547826851,
+                                        ["heading"] = 4.7094412838174,
                                         ["modulation"] = 0,
                                         ["name"] = "XIL_CSG_2-1",
                                         ["skill"] = "Excellent",
@@ -97837,26 +98055,26 @@ mission =
                                     [2] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 1.5376547826851,
+                                        ["heading"] = 4.7094412838174,
                                         ["modulation"] = 0,
                                         ["name"] = "XIL_CSG_2-2",
                                         ["skill"] = "Excellent",
                                         ["type"] = "Type_054A",
                                         ["unitId"] = 3185,
-                                        ["x"] = 773880.91627106,
-                                        ["y"] = 441236.42066145,
+                                        ["x"] = 775359.35410242,
+                                        ["y"] = 437961.97878531,
                                     }, -- end of [2]
                                     [3] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 1.5376547826851,
+                                        ["heading"] = 4.7094412838174,
                                         ["modulation"] = 0,
                                         ["name"] = "XIL_CSG_2-3",
                                         ["skill"] = "Excellent",
                                         ["type"] = "Type_052C",
                                         ["unitId"] = 3186,
-                                        ["x"] = 751496.89459276,
-                                        ["y"] = 431530.29537061,
+                                        ["x"] = 760884.61961907,
+                                        ["y"] = 425510.11092231,
                                     }, -- end of [3]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
@@ -149963,7 +150181,7 @@ mission =
                                         }, -- end of [2]
                                         [3] =
                                         {
-                                            ["ETA"] = 18940.556917778,
+                                            ["ETA"] = 18026.784507642,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
@@ -149982,8 +150200,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 357573.13183423,
-                                            ["y"] = 201505.46604362,
+                                            ["x"] = 363089.31067328,
+                                            ["y"] = 202892.58555351,
                                         }, -- end of [3]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -150397,7 +150615,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 5072738,
+    ["currentKey"] = 5231629,
     ["date"] =
     {
         ["Day"] = 27,
@@ -157898,11 +158116,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 533524.6605475,
-        ["centerY"] = 220403.25907356,
-        ["zoom"] = 1186863.6712989,
+        ["centerX"] = 391315.22832907,
+        ["centerY"] = 114196.20968129,
+        ["zoom"] = 2068775.510849,
     }, -- end of ["map"]
-    ["maxDictId"] = 24,
+    ["maxDictId"] = 26,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
@@ -157989,54 +158207,53 @@ mission =
             [21] = "a_explosion(8700, 1, 1000);a_explosion(8713, 1, 1000);a_explosion(8721, 1, 1000);a_explosion(8722, 1, 1000);a_explosion(8723, 1, 1000);a_explosion(8724, 1, 1000);a_explosion(8725, 1, 1000);a_explosion(8726, 1, 1000);a_explosion(8727, 1, 1000);a_explosion(8728, 1, 1000);a_explosion(8729, 1, 1000);a_explosion(8714, 1, 1000);a_explosion(8712, 1, 1000);a_explosion(8715, 1, 1000);a_explosion(8716, 1, 1000);a_explosion(8717, 1, 1000);a_explosion(8718, 1, 1000);a_explosion(8719, 1, 1000);a_explosion(8720, 1, 1000);a_explosion(8548, 1, 1000);a_explosion(8549, 1, 1000);a_explosion(8550, 1, 1000);a_explosion(8551, 1, 1000);a_explosion(8552, 1, 1000);a_explosion(8553, 1, 1000);a_explosion(8625, 1, 1000);a_explosion(8696, 1, 1000);a_explosion(8695, 1, 1000);a_explosion(8802, 1, 1000);a_explosion(8803, 1, 1000);a_explosion(8804, 1, 1000);a_explosion(8805, 1, 1000);a_explosion(8806, 1, 1000);a_explosion(8807, 1, 1000);a_explosion(8808, 1, 1000);a_explosion(8809, 1, 1000);a_explosion(8810, 1, 1000);a_explosion(8811, 1, 1000);a_explosion(8698, 1, 1000);a_explosion(8697, 1, 1000);a_explosion(8623, 1, 1000);a_explosion(8624, 1, 1000);a_explosion(8703, 1, 1000);a_explosion(8704, 1, 1000);a_explosion(8705, 1, 1000);a_explosion(8706, 1, 1000);a_explosion(8707, 1, 1000);a_explosion(8708, 1, 1000);a_explosion(8709, 1, 1000);a_explosion(8710, 1, 1000);a_explosion(8711, 1, 1000);a_explosion(8699, 1, 1000);a_explosion(8799, 1, 1000);a_explosion(8801, 1, 1000);a_explosion(8546, 1, 1000);a_explosion(8547, 1, 1000);a_explosion(8701, 1, 1000);a_explosion(8702, 1, 1000); mission.trig.func[21]=nil;",
             [22] = "a_explosion(9031, 1, 1000);a_explosion(9030, 1, 1000);a_explosion(9032, 1, 1000);a_explosion(9033, 1, 1000);a_explosion(9029, 1, 1000);a_explosion(9034, 1, 1000);a_explosion(9035, 1, 1000);a_explosion(9028, 1, 1000);a_explosion(9194, 1, 1000);a_explosion(9195, 1, 1000);a_explosion(9193, 1, 1000);a_explosion(9196, 1, 1000);a_explosion(9183, 1, 1000);a_explosion(9184, 1, 1000);a_explosion(9192, 1, 1000);a_explosion(9197, 1, 1000);a_explosion(9198, 1, 1000);a_explosion(9199, 1, 1000);a_explosion(9200, 1, 1000);a_explosion(9185, 1, 1000);a_explosion(9186, 1, 1000);a_explosion(9187, 1, 1000);a_explosion(9189, 1, 1000);a_explosion(9190, 1, 1000);a_explosion(9179, 1, 1000);a_explosion(9180, 1, 1000);a_explosion(9182, 1, 1000);a_explosion(9181, 1, 1000); mission.trig.func[22]=nil;",
             [23] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_15\")); mission.trig.func[23]=nil;",
-            [24] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_22\")); mission.trig.func[24]=nil;",
-            [25] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_23\")); mission.trig.func[25]=nil;",
-            [26] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_24\")); mission.trig.func[26]=nil;",
-            [27] = "a_group_off(760);a_group_off(387);a_group_off(390);a_group_off(1529);a_group_off(389);a_group_off(386);a_group_off(388);a_group_off(356);a_group_off(1528);a_group_off(1499);a_group_off(362);a_group_off(925);a_group_off(355);a_group_off(361);a_group_off(352);a_group_off(248);a_group_off(228);a_group_off(224);a_group_off(255);a_group_off(759);a_group_off(383);a_group_off(385);a_group_off(384);a_group_off(902);a_group_off(363); mission.trig.func[27]=nil;",
-            [28] = "a_group_off(409);a_group_off(749);a_group_off(761);a_group_off(353);a_group_off(354);a_group_off(359);a_group_off(360);a_group_off(366);a_group_off(373);a_group_off(378);a_group_off(350);a_group_off(358);a_group_off(432);a_group_off(259);a_group_off(258);a_group_off(301);a_group_off(317);a_group_off(365);a_group_off(33);a_group_off(368);a_group_off(369);a_group_off(367); mission.trig.func[28]=nil;",
-            [29] = "a_ai_task(403, 1);a_ai_task(542, 1); mission.trig.func[29]=nil;",
-            [30] = "a_ai_task(400, 1); mission.trig.func[30]=nil;",
-            [31] = "a_ai_task(1204, 1); mission.trig.func[31]=nil;",
-            [32] = "a_ai_task(1206, 1); mission.trig.func[32]=nil;",
-            [33] = "a_group_on(749);a_group_on(1065);a_group_on(761);a_group_on(759);a_group_on(916);a_group_on(760);a_group_on(384); mission.trig.func[33]=nil;",
-            [34] = "a_group_on(763); mission.trig.func[34]=nil;",
-            [35] = "a_group_on(764); mission.trig.func[35]=nil;",
-            [36] = "a_ai_task(135, 1); mission.trig.func[36]=nil;",
-            [37] = "a_remove_scene_objects(5732, 1); mission.trig.func[37]=nil;",
-            [38] = "a_remove_scene_objects(5794, 1); mission.trig.func[38]=nil;",
-            [39] = "a_group_on(387);a_group_on(390);a_group_on(1529); mission.trig.func[39]=nil;",
-            [40] = "a_group_on(385);a_group_on(967);a_group_on(759);a_group_on(915);a_group_on(1172);a_group_on(384); mission.trig.func[40]=nil;",
-            [41] = "a_activate_group(971); mission.trig.func[41]=nil;",
-            [42] = "a_activate_group(977); mission.trig.func[42]=nil;",
-            [43] = "a_group_on(997); mission.trig.func[43]=nil;",
-            [44] = "a_ai_task(1069, 1); mission.trig.func[44]=nil;",
-            [45] = "a_ai_task(1189, 1); mission.trig.func[45]=nil;",
-            [46] = "a_ai_task(1198, 1); mission.trig.func[46]=nil;",
-            [47] = "a_ai_task(1195, 1); mission.trig.func[47]=nil;",
-            [48] = "a_ai_task(1244, 1); mission.trig.func[48]=nil;",
+            [24] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_25\")); mission.trig.func[24]=nil;",
+            [25] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_22\")); mission.trig.func[25]=nil;",
+            [26] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_23\")); mission.trig.func[26]=nil;",
+            [27] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_24\")); mission.trig.func[27]=nil;",
+            [28] = "a_group_off(760);a_group_off(387);a_group_off(390);a_group_off(1529);a_group_off(389);a_group_off(386);a_group_off(388);a_group_off(356);a_group_off(1528);a_group_off(1499);a_group_off(362);a_group_off(925);a_group_off(355);a_group_off(361);a_group_off(352);a_group_off(248);a_group_off(228);a_group_off(224);a_group_off(255);a_group_off(759);a_group_off(383);a_group_off(385);a_group_off(384);a_group_off(902);a_group_off(363); mission.trig.func[28]=nil;",
+            [29] = "a_group_off(409);a_group_off(749);a_group_off(761);a_group_off(353);a_group_off(354);a_group_off(359);a_group_off(360);a_group_off(366);a_group_off(373);a_group_off(378);a_group_off(350);a_group_off(358);a_group_off(432);a_group_off(259);a_group_off(258);a_group_off(301);a_group_off(317);a_group_off(365);a_group_off(33);a_group_off(368);a_group_off(369);a_group_off(367); mission.trig.func[29]=nil;",
+            [30] = "a_ai_task(403, 1);a_ai_task(542, 1); mission.trig.func[30]=nil;",
+            [31] = "a_ai_task(400, 1); mission.trig.func[31]=nil;",
+            [32] = "a_ai_task(1204, 1); mission.trig.func[32]=nil;",
+            [33] = "a_ai_task(1206, 1); mission.trig.func[33]=nil;",
+            [34] = "a_group_on(749);a_group_on(1065);a_group_on(761);a_group_on(759);a_group_on(916);a_group_on(760);a_group_on(384); mission.trig.func[34]=nil;",
+            [35] = "a_group_on(763); mission.trig.func[35]=nil;",
+            [36] = "a_group_on(764); mission.trig.func[36]=nil;",
+            [37] = "a_ai_task(135, 1); mission.trig.func[37]=nil;",
+            [38] = "a_remove_scene_objects(5732, 1); mission.trig.func[38]=nil;",
+            [39] = "a_remove_scene_objects(5794, 1); mission.trig.func[39]=nil;",
+            [40] = "a_group_on(387);a_group_on(390);a_group_on(1529); mission.trig.func[40]=nil;",
+            [41] = "a_group_on(385);a_group_on(967);a_group_on(759);a_group_on(915);a_group_on(1172);a_group_on(384); mission.trig.func[41]=nil;",
+            [42] = "a_activate_group(971); mission.trig.func[42]=nil;",
+            [43] = "a_activate_group(977); mission.trig.func[43]=nil;",
+            [44] = "a_group_on(997); mission.trig.func[44]=nil;",
+            [45] = "a_ai_task(1069, 1); mission.trig.func[45]=nil;",
+            [46] = "a_ai_task(1189, 1); mission.trig.func[46]=nil;",
+            [47] = "a_ai_task(1198, 1); mission.trig.func[47]=nil;",
+            [48] = "a_ai_task(1195, 1); mission.trig.func[48]=nil;",
             [49] = "a_ai_task(1281, 1); mission.trig.func[49]=nil;",
-            [50] = "a_ai_task(1266, 1); mission.trig.func[50]=nil;",
-            [51] = "a_ai_task(1612, 1); mission.trig.func[51]=nil;",
-            [52] = "a_group_off(1179);a_group_off(1337); mission.trig.func[52]=nil;",
-            [53] = "a_ai_task(1348, 1); mission.trig.func[53]=nil;",
+            [50] = "a_ai_task(1244, 1); mission.trig.func[50]=nil;",
+            [51] = "a_ai_task(1266, 1); mission.trig.func[51]=nil;",
+            [52] = "a_ai_task(1612, 1); mission.trig.func[52]=nil;",
+            [53] = "a_group_off(1179);a_group_off(1337); mission.trig.func[53]=nil;",
             [54] = "a_ai_task(1210, 1); mission.trig.func[54]=nil;",
             [55] = "a_activate_group(1499);a_activate_group(1493);a_activate_group(1503);a_activate_group(1510);a_activate_group(1511);a_activate_group(1513);a_activate_group(1512);a_activate_group(356);a_activate_group(1528); mission.trig.func[55]=nil;",
             [56] = "a_activate_group(1376); mission.trig.func[56]=nil;",
             [57] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_21\")); mission.trig.func[57]=nil;",
-            [58] = "a_ai_task(1536, 1); mission.trig.func[58]=nil;",
-            [59] = "a_ai_task(1540, 1); mission.trig.func[59]=nil;",
-            [60] = "a_explosion(8951, 1, 1000); mission.trig.func[60]=nil;",
-            [61] = "a_explosion(8952, 1, 1000); mission.trig.func[61]=nil;",
-            [62] = "a_explosion(8953, 1, 1000); mission.trig.func[62]=nil;",
-            [63] = "a_explosion(8954, 1, 1000); mission.trig.func[63]=nil;",
-            [64] = "a_explosion(8955, 1, 1000); mission.trig.func[64]=nil;",
-            [65] = "a_explosion(8956, 1, 1000); mission.trig.func[65]=nil;",
-            [66] = "a_explosion(8957, 1, 1000); mission.trig.func[66]=nil;",
-            [67] = "a_explosion(8958, 1, 1000); mission.trig.func[67]=nil;",
-            [68] = "a_activate_group(1603);a_ai_task(1182, 1); mission.trig.func[68]=nil;",
-            [69] = "a_ai_task(1242, 1);a_ai_task(1235, 1); mission.trig.func[69]=nil;",
-            [70] = "a_activate_group(1604);a_set_flag(\"66\"); mission.trig.func[70]=nil;",
-            [71] = "a_deactivate_group(1603); mission.trig.func[71]=nil;",
+            [58] = "a_explosion(8951, 1, 1000); mission.trig.func[58]=nil;",
+            [59] = "a_explosion(8952, 1, 1000); mission.trig.func[59]=nil;",
+            [60] = "a_explosion(8953, 1, 1000); mission.trig.func[60]=nil;",
+            [61] = "a_explosion(8954, 1, 1000); mission.trig.func[61]=nil;",
+            [62] = "a_explosion(8955, 1, 1000); mission.trig.func[62]=nil;",
+            [63] = "a_explosion(8956, 1, 1000); mission.trig.func[63]=nil;",
+            [64] = "a_explosion(8957, 1, 1000); mission.trig.func[64]=nil;",
+            [65] = "a_explosion(8958, 1, 1000); mission.trig.func[65]=nil;",
+            [66] = "a_activate_group(1603);a_ai_task(1182, 1); mission.trig.func[66]=nil;",
+            [67] = "a_ai_task(1242, 1);a_ai_task(1235, 1); mission.trig.func[67]=nil;",
+            [68] = "a_activate_group(1604);a_set_flag(\"66\"); mission.trig.func[68]=nil;",
+            [69] = "a_deactivate_group(1603); mission.trig.func[69]=nil;",
+            [70] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_26\")); mission.trig.func[70]=nil;",
         }, -- end of ["actions"]
         ["conditions"] =
         {
@@ -158062,55 +158279,54 @@ mission =
             [20] = "return(c_time_after(30) )",
             [21] = "return(c_time_after(30) )",
             [22] = "return(c_time_after(32) )",
-            [23] = "return(c_time_after(1800) )",
+            [23] = "return(c_time_after(80) )",
             [24] = "return(c_time_after(1800) )",
             [25] = "return(c_time_after(1800) )",
-            [26] = "return(c_time_after(1800) )",
-            [27] = "return(c_time_after(20) )",
-            [28] = "return(c_time_after(15) )",
-            [29] = "return(c_time_after(60) )",
-            [30] = "return(c_time_after(8400) )",
-            [31] = "return(c_time_after(9000) )",
-            [32] = "return(c_time_after(9600) )",
-            [33] = "return(c_time_after(3600) )",
-            [34] = "return(c_part_of_coalition_in_zone(\"red\", 5502, \"ALL\") )",
-            [35] = "return(c_part_of_coalition_in_zone(\"red\", 5503, \"ALL\") )",
-            [36] = "return(c_part_of_coalition_in_zone(\"blue\", 5557, \"ALL\") )",
-            [37] = "return(c_time_after(10) )",
+            [26] = "return(c_time_after(1860) )",
+            [27] = "return(c_time_after(1920) )",
+            [28] = "return(c_time_after(20) )",
+            [29] = "return(c_time_after(15) )",
+            [30] = "return(c_time_after(60) )",
+            [31] = "return(c_time_after(8400) )",
+            [32] = "return(c_time_after(9000) )",
+            [33] = "return(c_time_after(9500) )",
+            [34] = "return(c_time_after(3600) )",
+            [35] = "return(c_part_of_coalition_in_zone(\"red\", 5502, \"ALL\") )",
+            [36] = "return(c_part_of_coalition_in_zone(\"red\", 5503, \"ALL\") )",
+            [37] = "return(c_part_of_coalition_in_zone(\"blue\", 5557, \"ALL\") )",
             [38] = "return(c_time_after(10) )",
-            [39] = "return(c_group_life_less(356, 95) or c_group_life_less(362, 95) )",
-            [40] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"ALL\") or c_part_of_coalition_in_zone(\"blue\", 6198, \"ALL\") )",
-            [41] = "return(c_time_after(7000) )",
-            [42] = "return(c_time_after(7500) )",
-            [43] = "return(c_time_after(6300) )",
-            [44] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"HELICOPTER\") )",
-            [45] = "return(c_time_after(6700) )",
-            [46] = "return(c_time_after(7000) )",
-            [47] = "return(c_time_after(7100) )",
-            [48] = "return(c_time_after(2000) )",
-            [49] = "return(c_time_after(800) )",
-            [50] = "return(c_time_after(5600) )",
-            [51] = "return(c_time_after(5500) )",
-            [52] = "return(c_time_after(10) )",
-            [53] = "return(c_part_of_group_in_zone(1216, 7510) )",
+            [39] = "return(c_time_after(10) )",
+            [40] = "return(c_group_life_less(356, 95) or c_group_life_less(362, 95) )",
+            [41] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"ALL\") or c_part_of_coalition_in_zone(\"blue\", 6198, \"ALL\") )",
+            [42] = "return(c_time_after(99000) )",
+            [43] = "return(c_time_after(99000) )",
+            [44] = "return(c_time_after(6300) )",
+            [45] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"HELICOPTER\") )",
+            [46] = "return(c_time_after(6700) )",
+            [47] = "return(c_time_after(7000) )",
+            [48] = "return(c_time_after(7100) )",
+            [49] = "return(c_time_after(1220) )",
+            [50] = "return(c_time_after(2000) )",
+            [51] = "return(c_time_after(6680) )",
+            [52] = "return(c_time_after(6580) )",
+            [53] = "return(c_time_after(10) )",
             [54] = "return(c_time_after(5400) )",
             [55] = "return(c_time_after(7200) )",
             [56] = "return(c_time_after(8000) )",
             [57] = "return(c_time_after(5400) )",
-            [58] = "return(c_time_after(5020) )",
-            [59] = "return(c_time_after(5160) )",
-            [60] = "return(c_missile_in_zone(\"4.4.8.461\", 1, 8951) )",
-            [61] = "return(c_missile_in_zone(\"4.4.8.461\", 1, 8952) )",
-            [62] = "return(c_missile_in_zone(\"4.4.8.461\", 1, 8953) )",
-            [63] = "return(c_missile_in_zone(\"4.4.8.461\", 1, 8954) )",
-            [64] = "return(c_missile_in_zone(\"4.4.8.461\", 1, 8955) )",
-            [65] = "return(c_missile_in_zone(\"4.4.8.461\", 1, 8956) )",
-            [66] = "return(c_missile_in_zone(\"4.4.8.461\", 1, 8957) )",
-            [67] = "return(c_missile_in_zone(\"4.4.8.461\", 1, 8958) )",
-            [68] = "return(c_time_after(6900) )",
-            [69] = "return(c_part_of_group_in_zone(1603, 9341) )",
-            [70] = "return(c_part_of_group_in_zone(1603, 9270) )",
-            [71] = "return(c_part_of_group_in_zone(1603, 9271) and c_flag_is_true(\"66\") )",
+            [58] = "return(c_missile_in_zone(\"4.4.8.461\", 1, 8951) )",
+            [59] = "return(c_missile_in_zone(\"4.4.8.461\", 1, 8952) )",
+            [60] = "return(c_missile_in_zone(\"4.4.8.461\", 1, 8953) )",
+            [61] = "return(c_missile_in_zone(\"4.4.8.461\", 1, 8954) )",
+            [62] = "return(c_missile_in_zone(\"4.4.8.461\", 1, 8955) )",
+            [63] = "return(c_missile_in_zone(\"4.4.8.461\", 1, 8956) )",
+            [64] = "return(c_missile_in_zone(\"4.4.8.461\", 1, 8957) )",
+            [65] = "return(c_missile_in_zone(\"4.4.8.461\", 1, 8958) )",
+            [66] = "return(c_time_after(6900) )",
+            [67] = "return(c_part_of_group_in_zone(1603, 9341) )",
+            [68] = "return(c_part_of_group_in_zone(1603, 9270) )",
+            [69] = "return(c_part_of_group_in_zone(1603, 9271) and c_flag_is_true(\"66\") )",
+            [70] = "return(c_missile_in_zone(\"4.4.8.461\", 1, 9482) )",
         }, -- end of ["conditions"]
         ["custom"] =
         {
@@ -158193,7 +158409,6 @@ mission =
             [68] = true,
             [69] = true,
             [70] = true,
-            [71] = true,
         }, -- end of ["flag"]
         ["func"] =
         {
@@ -158265,7 +158480,6 @@ mission =
             [68] = "if mission.trig.conditions[68]() then mission.trig.actions[68]() end",
             [69] = "if mission.trig.conditions[69]() then mission.trig.actions[69]() end",
             [70] = "if mission.trig.conditions[70]() then mission.trig.actions[70]() end",
-            [71] = "if mission.trig.conditions[71]() then mission.trig.actions[71]() end",
         }, -- end of ["func"]
         ["funcStartup"] =
         {
@@ -175793,7 +176007,7 @@ mission =
                     [3] = 1,
                     [4] = 0.15,
                 }, -- end of ["color"]
-                ["heading"] = 4.731328671069,
+                ["heading"] = 4.5016297034584,
                 ["hidden"] = false,
                 ["linkUnit"] = 2842,
                 ["name"] = "XIL_CSG1_QRA_Zone",
@@ -175802,8 +176016,8 @@ mission =
                 }, -- end of ["properties"]
                 ["radius"] = 228600,
                 ["type"] = 0,
-                ["x"] = -4.7119765720563,
-                ["y"] = 78.219378649919,
+                ["x"] = 13.221116518369,
+                ["y"] = 77.237788663402,
                 ["zoneId"] = 8881,
             }, -- end of [747]
             [748] =
@@ -176739,7 +176953,7 @@ mission =
                     [3] = 1,
                     [4] = 0.15,
                 }, -- end of ["color"]
-                ["heading"] = 1.5376547826851,
+                ["heading"] = 4.7094412838174,
                 ["hidden"] = false,
                 ["linkUnit"] = 3184,
                 ["name"] = "XIL_CSG2_QRA_Zone",
@@ -176748,8 +176962,8 @@ mission =
                 }, -- end of ["properties"]
                 ["radius"] = 198120,
                 ["type"] = 0,
-                ["x"] = -568.38513048564,
-                ["y"] = 71.518330926076,
+                ["x"] = 570.28514626296,
+                ["y"] = -54.32660644158,
                 ["zoneId"] = 9411,
             }, -- end of [792]
             [793] =
@@ -176761,7 +176975,7 @@ mission =
                     [3] = 1,
                     [4] = 0.15,
                 }, -- end of ["color"]
-                ["heading"] = 6.2314298368934,
+                ["heading"] = 4.4983218562345,
                 ["hidden"] = false,
                 ["linkUnit"] = 2359,
                 ["name"] = "NOT_CSG1_QRA_Zone",
@@ -176770,10 +176984,31 @@ mission =
                 }, -- end of ["properties"]
                 ["radius"] = 198120,
                 ["type"] = 0,
-                ["x"] = -260.38556310348,
-                ["y"] = 1012.9942406335,
+                ["x"] = 1041.7580890859,
+                ["y"] = 93.263373584545,
                 ["zoneId"] = 9412,
             }, -- end of [793]
+            [794] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "@Cruisemissile Rovanemi",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1524,
+                ["type"] = 0,
+                ["x"] = -152467.35544155,
+                ["y"] = 151330.34821867,
+                ["zoneId"] = 9482,
+            }, -- end of [794]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] =
@@ -177066,7 +177301,7 @@ mission =
                     ["predicate"] = "a_group_off",
                 }, -- end of [19]
             }, -- end of ["actions"]
-            ["colorItem"] = "0x0000ffff",
+            ["colorItem"] = "0x004080ff",
             ["comment"] = "AI off friendlies",
             ["eventlist"] = "",
             ["predicate"] = "triggerOnce",
@@ -177123,7 +177358,7 @@ mission =
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [1]
             }, -- end of ["actions"]
-            ["colorItem"] = "0x004080ff",
+            ["colorItem"] = "0x0000ffff",
             ["comment"] = "Load Navygroup lua",
             ["eventlist"] = "",
             ["predicate"] = "triggerOnce",
@@ -179262,6 +179497,32 @@ mission =
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [1]
             }, -- end of ["actions"]
+            ["comment"] = "OPAC_132nd Comms script",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["coalitionlist"] = "red",
+                    ["flag"] = "1",
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 80,
+                    ["unitType"] = "ALL",
+                    ["zone"] = 2831,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [23]
+        [24] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["file"] = "ResKey_Action_25",
+                    ["predicate"] = "a_do_script_file",
+                }, -- end of [1]
+            }, -- end of ["actions"]
             ["comment"] = "OPAC_RedAir",
             ["eventlist"] = "",
             ["predicate"] = "triggerOnce",
@@ -179277,8 +179538,8 @@ mission =
                     ["zone"] = 2831,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [23]
-        [24] =
+        }, -- end of [24]
+        [25] =
         {
             ["actions"] =
             {
@@ -179304,8 +179565,8 @@ mission =
                     ["zone"] = 2831,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [24]
-        [25] =
+        }, -- end of [25]
+        [26] =
         {
             ["actions"] =
             {
@@ -179326,13 +179587,13 @@ mission =
                     ["coalitionlist"] = "red",
                     ["flag"] = "1",
                     ["predicate"] = "c_time_after",
-                    ["seconds"] = 1800,
+                    ["seconds"] = 1860,
                     ["unitType"] = "ALL",
                     ["zone"] = 2831,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [25]
-        [26] =
+        }, -- end of [26]
+        [27] =
         {
             ["actions"] =
             {
@@ -179353,13 +179614,13 @@ mission =
                     ["coalitionlist"] = "red",
                     ["flag"] = "1",
                     ["predicate"] = "c_time_after",
-                    ["seconds"] = 1800,
+                    ["seconds"] = 1920,
                     ["unitType"] = "ALL",
                     ["zone"] = 2831,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [26]
-        [27] =
+        }, -- end of [27]
+        [28] =
         {
             ["actions"] =
             {
@@ -179504,8 +179765,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [27]
-        [28] =
+        }, -- end of [28]
+        [29] =
         {
             ["actions"] =
             {
@@ -179637,8 +179898,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [28]
-        [29] =
+        }, -- end of [29]
+        [30] =
         {
             ["actions"] =
             {
@@ -179676,8 +179937,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [29]
-        [30] =
+        }, -- end of [30]
+        [31] =
         {
             ["actions"] =
             {
@@ -179706,8 +179967,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [30]
-        [31] =
+        }, -- end of [31]
+        [32] =
         {
             ["actions"] =
             {
@@ -179736,8 +179997,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [31]
-        [32] =
+        }, -- end of [32]
+        [33] =
         {
             ["actions"] =
             {
@@ -179761,13 +180022,13 @@ mission =
                 {
                     ["coalitionlist"] = "red",
                     ["predicate"] = "c_time_after",
-                    ["seconds"] = 9600,
+                    ["seconds"] = 9500,
                     ["unitType"] = "ALL",
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [32]
-        [33] =
+        }, -- end of [33]
+        [34] =
         {
             ["actions"] =
             {
@@ -179822,8 +180083,8 @@ mission =
                     ["zone"] = 5284,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [33]
-        [34] =
+        }, -- end of [34]
+        [35] =
         {
             ["actions"] =
             {
@@ -179847,8 +180108,8 @@ mission =
                     ["zone"] = 5502,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [34]
-        [35] =
+        }, -- end of [35]
+        [36] =
         {
             ["actions"] =
             {
@@ -179872,8 +180133,8 @@ mission =
                     ["zone"] = 5503,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [35]
-        [36] =
+        }, -- end of [36]
+        [37] =
         {
             ["actions"] =
             {
@@ -179901,8 +180162,8 @@ mission =
                     ["zone"] = 5557,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [36]
-        [37] =
+        }, -- end of [37]
+        [38] =
         {
             ["actions"] =
             {
@@ -179924,8 +180185,8 @@ mission =
                     ["seconds"] = 10,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [37]
-        [38] =
+        }, -- end of [38]
+        [39] =
         {
             ["actions"] =
             {
@@ -179947,8 +180208,8 @@ mission =
                     ["seconds"] = 10,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [38]
-        [39] =
+        }, -- end of [39]
+        [40] =
         {
             ["actions"] =
             {
@@ -179991,8 +180252,8 @@ mission =
                     ["predicate"] = "c_group_life_less",
                 }, -- end of [3]
             }, -- end of ["rules"]
-        }, -- end of [39]
-        [40] =
+        }, -- end of [40]
+        [41] =
         {
             ["actions"] =
             {
@@ -180052,8 +180313,8 @@ mission =
                     ["zone"] = 6198,
                 }, -- end of [3]
             }, -- end of ["rules"]
-        }, -- end of [40]
-        [41] =
+        }, -- end of [41]
+        [42] =
         {
             ["actions"] =
             {
@@ -180072,11 +180333,11 @@ mission =
                 [1] =
                 {
                     ["predicate"] = "c_time_after",
-                    ["seconds"] = 7000,
+                    ["seconds"] = 99000,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [41]
-        [42] =
+        }, -- end of [42]
+        [43] =
         {
             ["actions"] =
             {
@@ -180095,11 +180356,11 @@ mission =
                 [1] =
                 {
                     ["predicate"] = "c_time_after",
-                    ["seconds"] = 7500,
+                    ["seconds"] = 99000,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [42]
-        [43] =
+        }, -- end of [43]
+        [44] =
         {
             ["actions"] =
             {
@@ -180120,8 +180381,8 @@ mission =
                     ["seconds"] = 6300,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [43]
-        [44] =
+        }, -- end of [44]
+        [45] =
         {
             ["actions"] =
             {
@@ -180148,8 +180409,8 @@ mission =
                     ["zone"] = 6076,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [44]
-        [45] =
+        }, -- end of [45]
+        [46] =
         {
             ["actions"] =
             {
@@ -180175,8 +180436,8 @@ mission =
                     ["seconds"] = 6700,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [45]
-        [46] =
+        }, -- end of [46]
+        [47] =
         {
             ["actions"] =
             {
@@ -180202,8 +180463,8 @@ mission =
                     ["seconds"] = 7000,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [46]
-        [47] =
+        }, -- end of [47]
+        [48] =
         {
             ["actions"] =
             {
@@ -180227,33 +180488,6 @@ mission =
                 {
                     ["predicate"] = "c_time_after",
                     ["seconds"] = 7100,
-                }, -- end of [1]
-            }, -- end of ["rules"]
-        }, -- end of [47]
-        [48] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
-                    ["ai_task"] =
-                    {
-                        [1] = 1244,
-                        [2] = 1,
-                    }, -- end of ["ai_task"]
-                    ["predicate"] = "a_ai_task",
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["colorItem"] = "0x0080ffff",
-            ["comment"] = "Start TU142_ ASUW Strike2",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["predicate"] = "c_time_after",
-                    ["seconds"] = 2000,
                 }, -- end of [1]
             }, -- end of ["rules"]
         }, -- end of [48]
@@ -180280,11 +180514,38 @@ mission =
                 [1] =
                 {
                     ["predicate"] = "c_time_after",
-                    ["seconds"] = 800,
+                    ["seconds"] = 1220,
                 }, -- end of [1]
             }, -- end of ["rules"]
         }, -- end of [49]
         [50] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["ai_task"] =
+                    {
+                        [1] = 1244,
+                        [2] = 1,
+                    }, -- end of ["ai_task"]
+                    ["predicate"] = "a_ai_task",
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x0080ffff",
+            ["comment"] = "Start TU142_ ASUW Strike2",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 2000,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [50]
+        [51] =
         {
             ["actions"] =
             {
@@ -180307,11 +180568,11 @@ mission =
                 [1] =
                 {
                     ["predicate"] = "c_time_after",
-                    ["seconds"] = 5600,
+                    ["seconds"] = 6680,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [50]
-        [51] =
+        }, -- end of [51]
+        [52] =
         {
             ["actions"] =
             {
@@ -180334,11 +180595,11 @@ mission =
                 [1] =
                 {
                     ["predicate"] = "c_time_after",
-                    ["seconds"] = 5500,
+                    ["seconds"] = 6580,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [51]
-        [52] =
+        }, -- end of [52]
+        [53] =
         {
             ["actions"] =
             {
@@ -180362,34 +180623,6 @@ mission =
                 {
                     ["predicate"] = "c_time_after",
                     ["seconds"] = 10,
-                }, -- end of [1]
-            }, -- end of ["rules"]
-        }, -- end of [52]
-        [53] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
-                    ["ai_task"] =
-                    {
-                        [1] = 1348,
-                        [2] = 1,
-                    }, -- end of ["ai_task"]
-                    ["predicate"] = "a_ai_task",
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["colorItem"] = "0x0080ffff",
-            ["comment"] = "Start XIL J11_escort H6",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["group"] = 1216,
-                    ["predicate"] = "c_part_of_group_in_zone",
-                    ["zone"] = 7510,
                 }, -- end of [1]
             }, -- end of ["rules"]
         }, -- end of [53]
@@ -180535,60 +180768,6 @@ mission =
             {
                 [1] =
                 {
-                    ["ai_task"] =
-                    {
-                        [1] = 1536,
-                        [2] = 1,
-                    }, -- end of ["ai_task"]
-                    ["predicate"] = "a_ai_task",
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["colorItem"] = "0x00ffffff",
-            ["comment"] = "Start RECON AC for invation",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["predicate"] = "c_time_after",
-                    ["seconds"] = 5020,
-                }, -- end of [1]
-            }, -- end of ["rules"]
-        }, -- end of [58]
-        [59] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
-                    ["ai_task"] =
-                    {
-                        [1] = 1540,
-                        [2] = 1,
-                    }, -- end of ["ai_task"]
-                    ["predicate"] = "a_ai_task",
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["colorItem"] = "0x00ffffff",
-            ["comment"] = "Start RECON AC2 for invation",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["predicate"] = "c_time_after",
-                    ["seconds"] = 5160,
-                }, -- end of [1]
-            }, -- end of ["rules"]
-        }, -- end of [59]
-        [60] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
                     ["altitude"] = 1,
                     ["predicate"] = "a_explosion",
                     ["volume"] = 1000,
@@ -180615,8 +180794,8 @@ mission =
                     ["zone"] = 8951,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [60]
-        [61] =
+        }, -- end of [58]
+        [59] =
         {
             ["actions"] =
             {
@@ -180648,8 +180827,8 @@ mission =
                     ["zone"] = 8952,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [61]
-        [62] =
+        }, -- end of [59]
+        [60] =
         {
             ["actions"] =
             {
@@ -180681,8 +180860,8 @@ mission =
                     ["zone"] = 8953,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [62]
-        [63] =
+        }, -- end of [60]
+        [61] =
         {
             ["actions"] =
             {
@@ -180714,8 +180893,8 @@ mission =
                     ["zone"] = 8954,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [63]
-        [64] =
+        }, -- end of [61]
+        [62] =
         {
             ["actions"] =
             {
@@ -180747,8 +180926,8 @@ mission =
                     ["zone"] = 8955,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [64]
-        [65] =
+        }, -- end of [62]
+        [63] =
         {
             ["actions"] =
             {
@@ -180780,8 +180959,8 @@ mission =
                     ["zone"] = 8956,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [65]
-        [66] =
+        }, -- end of [63]
+        [64] =
         {
             ["actions"] =
             {
@@ -180813,8 +180992,8 @@ mission =
                     ["zone"] = 8957,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [66]
-        [67] =
+        }, -- end of [64]
+        [65] =
         {
             ["actions"] =
             {
@@ -180846,8 +181025,8 @@ mission =
                     ["zone"] = 8958,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [67]
-        [68] =
+        }, -- end of [65]
+        [66] =
         {
             ["actions"] =
             {
@@ -180878,8 +181057,8 @@ mission =
                     ["seconds"] = 6900,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [68]
-        [69] =
+        }, -- end of [66]
+        [67] =
         {
             ["actions"] =
             {
@@ -180915,8 +181094,8 @@ mission =
                     ["zone"] = 9341,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [69]
-        [70] =
+        }, -- end of [67]
+        [68] =
         {
             ["actions"] =
             {
@@ -180944,8 +181123,8 @@ mission =
                     ["zone"] = 9270,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [70]
-        [71] =
+        }, -- end of [68]
+        [69] =
         {
             ["actions"] =
             {
@@ -180973,7 +181152,37 @@ mission =
                     ["predicate"] = "c_flag_is_true",
                 }, -- end of [2]
             }, -- end of ["rules"]
-        }, -- end of [71]
+        }, -- end of [69]
+        [70] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["file"] = "ResKey_Action_26",
+                    ["predicate"] = "a_do_script_file",
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["comment"] = "Comms_Rovanemi under attack",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["nummissiles"] = 1,
+                    ["predicate"] = "c_missile_in_zone",
+                    ["typemissile"] =
+                    {
+                        [1] = 4,
+                        [2] = 4,
+                        [3] = 8,
+                        [4] = 461,
+                    }, -- end of ["typemissile"]
+                    ["zone"] = 9482,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [70]
     }, -- end of ["trigrules"]
     ["version"] = 23,
     ["weather"] =

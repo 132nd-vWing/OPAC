@@ -67631,7 +67631,7 @@ mission =
                                         }, -- end of [4]
                                         [5] =
                                         {
-                                            ["ETA"] = 1084.4413126925,
+                                            ["ETA"] = 1622.8814613244,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
@@ -67675,12 +67675,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 145728.46871945,
-                                            ["y"] = 440711.11262568,
+                                            ["x"] = 406248.36062575,
+                                            ["y"] = 536975.14930813,
                                         }, -- end of [5]
                                         [6] =
                                         {
-                                            ["ETA"] = 1293.0860517444,
+                                            ["ETA"] = 1941.7772045144,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
@@ -67699,8 +67699,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 106951.84608829,
-                                            ["y"] = 445761.84918688,
+                                            ["x"] = 405687.18907579,
+                                            ["y"] = 477210.37923734,
                                         }, -- end of [6]
                                         [7] =
                                         {
@@ -67805,7 +67805,7 @@ mission =
                                 ["hiddenOnMFD"] = true,
                                 ["hiddenOnPlanner"] = true,
                                 ["modulation"] = 0,
-                                ["name"] = "AA_603_MiG_29_Monchegorsk_3_escort",
+                                ["name"] = "A!A_603_MiG_29_Afrikanda_5_escort",
                                 ["radioSet"] = false,
                                 ["route"] =
                                 {
@@ -67968,7 +67968,7 @@ mission =
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 382.31705403797,
+                                            ["ETA"] = 338.7875468109,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 3048,
@@ -68062,7 +68062,7 @@ mission =
                                         }, -- end of ["callsign"]
                                         ["heading"] = 1.2548600079737,
                                         ["livery_id"] = "Domna 120th AR",
-                                        ["name"] = "AA_603_MiG_29_Monchegorsk_3_escort-1",
+                                        ["name"] = "A!A_603_MiG_29_Afrikanda_5_escort-1",
                                         ["onboard_num"] = "011",
                                         ["parking"] = "8",
                                         ["parking_id"] = "Q01",
@@ -68125,7 +68125,7 @@ mission =
                                         }, -- end of ["callsign"]
                                         ["heading"] = 1.2548600079737,
                                         ["livery_id"] = "Domna 120th AR",
-                                        ["name"] = "AA_603_MiG_29_Monchegorsk_3_escort-2",
+                                        ["name"] = "A!A_603_MiG_29_Afrikanda_5_escort-2",
                                         ["onboard_num"] = "028",
                                         ["parking"] = "5",
                                         ["parking_id"] = "Q02",
@@ -70538,7 +70538,7 @@ mission =
                                 ["hiddenOnMFD"] = true,
                                 ["hiddenOnPlanner"] = true,
                                 ["modulation"] = 0,
-                                ["name"] = "AA_603_MiG_29_Monchegorsk_1",
+                                ["name"] = "AA_603_MiG_29_Afrikanda_1",
                                 ["radioSet"] = false,
                                 ["route"] =
                                 {
@@ -70721,6 +70721,23 @@ mission =
                                 ["task"] = "CAP",
                                 ["tasks"] =
                                 {
+                                    [1] =
+                                    {
+                                        ["auto"] = false,
+                                        ["enabled"] = true,
+                                        ["id"] = "WrappedAction",
+                                        ["number"] = 1,
+                                        ["params"] =
+                                        {
+                                            ["action"] =
+                                            {
+                                                ["id"] = "Start",
+                                                ["params"] =
+                                                {
+                                                }, -- end of ["params"]
+                                            }, -- end of ["action"]
+                                        }, -- end of ["params"]
+                                    }, -- end of [1]
                                 }, -- end of ["tasks"]
                                 ["uncontrolled"] = true,
                                 ["units"] =
@@ -70738,7 +70755,7 @@ mission =
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "Domna 120th AR",
-                                        ["name"] = "AA_603_MiG_29_Monchegorsk_1-1",
+                                        ["name"] = "AA_603_MiG_29_Afrikanda_1-1",
                                         ["onboard_num"] = "034",
                                         ["parking"] = "23",
                                         ["parking_id"] = "F04",
@@ -70801,7 +70818,7 @@ mission =
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "Domna 120th AR",
-                                        ["name"] = "AA_603_MiG_29_Monchegorsk_1-2",
+                                        ["name"] = "AA_603_MiG_29_Afrikanda_1-2",
                                         ["onboard_num"] = "041",
                                         ["parking"] = "24",
                                         ["parking_id"] = "F03",
@@ -70851,132 +70868,6 @@ mission =
                                         ["x"] = -13621.377929688,
                                         ["y"] = 438641.78125,
                                     }, -- end of [2]
-                                    [3] =
-                                    {
-                                        ["alt"] = 166,
-                                        ["alt_type"] = "BARO",
-                                        ["callsign"] =
-                                        {
-                                            [1] = 1,
-                                            [2] = 1,
-                                            [3] = 3,
-                                            ["name"] = "Enfield13",
-                                        }, -- end of ["callsign"]
-                                        ["heading"] = 0,
-                                        ["livery_id"] = "Domna 120th AR",
-                                        ["name"] = "AA_603_MiG_29_Monchegorsk_1-3",
-                                        ["onboard_num"] = "042",
-                                        ["parking"] = "22",
-                                        ["parking_id"] = "F05",
-                                        ["payload"] =
-                                        {
-                                            ["chaff"] = 30,
-                                            ["flare"] = 30,
-                                            ["fuel"] = "3376",
-                                            ["gun"] = 100,
-                                            ["pylons"] =
-                                            {
-                                                [1] =
-                                                {
-                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
-                                                }, -- end of [1]
-                                                [2] =
-                                                {
-                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
-                                                }, -- end of [2]
-                                                [3] =
-                                                {
-                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
-                                                }, -- end of [3]
-                                                [4] =
-                                                {
-                                                    ["CLSID"] = "{2BEC576B-CDF5-4B7F-961F-B0FA4312B841}",
-                                                }, -- end of [4]
-                                                [5] =
-                                                {
-                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
-                                                }, -- end of [5]
-                                                [6] =
-                                                {
-                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
-                                                }, -- end of [6]
-                                                [7] =
-                                                {
-                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
-                                                }, -- end of [7]
-                                            }, -- end of ["pylons"]
-                                        }, -- end of ["payload"]
-                                        ["psi"] = 0,
-                                        ["skill"] = "Excellent",
-                                        ["speed"] = 138.88888888889,
-                                        ["type"] = "MiG-29A",
-                                        ["unitId"] = 2458,
-                                        ["x"] = -13691.322265625,
-                                        ["y"] = 438872.625,
-                                    }, -- end of [3]
-                                    [4] =
-                                    {
-                                        ["alt"] = 166,
-                                        ["alt_type"] = "BARO",
-                                        ["callsign"] =
-                                        {
-                                            [1] = 1,
-                                            [2] = 1,
-                                            [3] = 4,
-                                            ["name"] = "Enfield14",
-                                        }, -- end of ["callsign"]
-                                        ["heading"] = 0,
-                                        ["livery_id"] = "Domna 120th AR",
-                                        ["name"] = "AA_603_MiG_29_Monchegorsk_1-4",
-                                        ["onboard_num"] = "043",
-                                        ["parking"] = "31",
-                                        ["parking_id"] = "F28",
-                                        ["payload"] =
-                                        {
-                                            ["chaff"] = 30,
-                                            ["flare"] = 30,
-                                            ["fuel"] = "3376",
-                                            ["gun"] = 100,
-                                            ["pylons"] =
-                                            {
-                                                [1] =
-                                                {
-                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
-                                                }, -- end of [1]
-                                                [2] =
-                                                {
-                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
-                                                }, -- end of [2]
-                                                [3] =
-                                                {
-                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
-                                                }, -- end of [3]
-                                                [4] =
-                                                {
-                                                    ["CLSID"] = "{2BEC576B-CDF5-4B7F-961F-B0FA4312B841}",
-                                                }, -- end of [4]
-                                                [5] =
-                                                {
-                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
-                                                }, -- end of [5]
-                                                [6] =
-                                                {
-                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
-                                                }, -- end of [6]
-                                                [7] =
-                                                {
-                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
-                                                }, -- end of [7]
-                                            }, -- end of ["pylons"]
-                                        }, -- end of ["payload"]
-                                        ["psi"] = 0,
-                                        ["skill"] = "Excellent",
-                                        ["speed"] = 138.88888888889,
-                                        ["type"] = "MiG-29A",
-                                        ["unitId"] = 2459,
-                                        ["x"] = -13812.681640625,
-                                        ["y"] = 438817.53125,
-                                    }, -- end of [4]
                                 }, -- end of ["units"]
                                 ["x"] = -13647.321289062,
                                 ["y"] = 438734.59375,
@@ -70991,7 +70882,7 @@ mission =
                                 ["hiddenOnMFD"] = true,
                                 ["hiddenOnPlanner"] = true,
                                 ["modulation"] = 0,
-                                ["name"] = "AA_603_MiG_29_Monchegorsk_2",
+                                ["name"] = "AA_603_MiG_29_Afrikanda_2",
                                 ["radioSet"] = false,
                                 ["route"] =
                                 {
@@ -71174,6 +71065,23 @@ mission =
                                 ["task"] = "CAP",
                                 ["tasks"] =
                                 {
+                                    [1] =
+                                    {
+                                        ["auto"] = false,
+                                        ["enabled"] = true,
+                                        ["id"] = "WrappedAction",
+                                        ["number"] = 1,
+                                        ["params"] =
+                                        {
+                                            ["action"] =
+                                            {
+                                                ["id"] = "Start",
+                                                ["params"] =
+                                                {
+                                                }, -- end of ["params"]
+                                            }, -- end of ["action"]
+                                        }, -- end of ["params"]
+                                    }, -- end of [1]
                                 }, -- end of ["tasks"]
                                 ["uncontrolled"] = true,
                                 ["units"] =
@@ -71191,7 +71099,7 @@ mission =
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "Domna 120th AR",
-                                        ["name"] = "AA_603_MiG_29_Monchegorsk_2-1",
+                                        ["name"] = "AA_603_MiG_29_Afrikanda_2-1",
                                         ["onboard_num"] = "010",
                                         ["parking"] = "15",
                                         ["parking_id"] = "F12",
@@ -71254,7 +71162,7 @@ mission =
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "Domna 120th AR",
-                                        ["name"] = "AA_603_MiG_29_Monchegorsk_2-2",
+                                        ["name"] = "AA_603_MiG_29_Afrikanda_2-2",
                                         ["onboard_num"] = "013",
                                         ["parking"] = "16",
                                         ["parking_id"] = "F11",
@@ -71304,132 +71212,6 @@ mission =
                                         ["x"] = -13782.6171875,
                                         ["y"] = 439442.1875,
                                     }, -- end of [2]
-                                    [3] =
-                                    {
-                                        ["alt"] = 166,
-                                        ["alt_type"] = "BARO",
-                                        ["callsign"] =
-                                        {
-                                            [1] = 4,
-                                            [2] = 1,
-                                            [3] = 3,
-                                            ["name"] = "Colt13",
-                                        }, -- end of ["callsign"]
-                                        ["heading"] = 0,
-                                        ["livery_id"] = "Domna 120th AR",
-                                        ["name"] = "AA_603_MiG_29_Monchegorsk_2-3",
-                                        ["onboard_num"] = "015",
-                                        ["parking"] = "14",
-                                        ["parking_id"] = "F13",
-                                        ["payload"] =
-                                        {
-                                            ["chaff"] = 30,
-                                            ["flare"] = 30,
-                                            ["fuel"] = "3376",
-                                            ["gun"] = 100,
-                                            ["pylons"] =
-                                            {
-                                                [1] =
-                                                {
-                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
-                                                }, -- end of [1]
-                                                [2] =
-                                                {
-                                                    ["CLSID"] = "<CLEAN>",
-                                                }, -- end of [2]
-                                                [3] =
-                                                {
-                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
-                                                }, -- end of [3]
-                                                [4] =
-                                                {
-                                                    ["CLSID"] = "{2BEC576B-CDF5-4B7F-961F-B0FA4312B841}",
-                                                }, -- end of [4]
-                                                [5] =
-                                                {
-                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
-                                                }, -- end of [5]
-                                                [6] =
-                                                {
-                                                    ["CLSID"] = "<CLEAN>",
-                                                }, -- end of [6]
-                                                [7] =
-                                                {
-                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
-                                                }, -- end of [7]
-                                            }, -- end of ["pylons"]
-                                        }, -- end of ["payload"]
-                                        ["psi"] = 0,
-                                        ["skill"] = "Excellent",
-                                        ["speed"] = 138.88888888889,
-                                        ["type"] = "MiG-29A",
-                                        ["unitId"] = 2462,
-                                        ["x"] = -13799.23828125,
-                                        ["y"] = 439678.53125,
-                                    }, -- end of [3]
-                                    [4] =
-                                    {
-                                        ["alt"] = 166,
-                                        ["alt_type"] = "BARO",
-                                        ["callsign"] =
-                                        {
-                                            [1] = 4,
-                                            [2] = 1,
-                                            [3] = 4,
-                                            ["name"] = "Colt14",
-                                        }, -- end of ["callsign"]
-                                        ["heading"] = 0,
-                                        ["livery_id"] = "Domna 120th AR",
-                                        ["name"] = "AA_603_MiG_29_Monchegorsk_2-4",
-                                        ["onboard_num"] = "016",
-                                        ["parking"] = "34",
-                                        ["parking_id"] = "F25",
-                                        ["payload"] =
-                                        {
-                                            ["chaff"] = 30,
-                                            ["flare"] = 30,
-                                            ["fuel"] = "3376",
-                                            ["gun"] = 100,
-                                            ["pylons"] =
-                                            {
-                                                [1] =
-                                                {
-                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
-                                                }, -- end of [1]
-                                                [2] =
-                                                {
-                                                    ["CLSID"] = "<CLEAN>",
-                                                }, -- end of [2]
-                                                [3] =
-                                                {
-                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
-                                                }, -- end of [3]
-                                                [4] =
-                                                {
-                                                    ["CLSID"] = "{2BEC576B-CDF5-4B7F-961F-B0FA4312B841}",
-                                                }, -- end of [4]
-                                                [5] =
-                                                {
-                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
-                                                }, -- end of [5]
-                                                [6] =
-                                                {
-                                                    ["CLSID"] = "<CLEAN>",
-                                                }, -- end of [6]
-                                                [7] =
-                                                {
-                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
-                                                }, -- end of [7]
-                                            }, -- end of ["pylons"]
-                                        }, -- end of ["payload"]
-                                        ["psi"] = 0,
-                                        ["skill"] = "Excellent",
-                                        ["speed"] = 138.88888888889,
-                                        ["type"] = "MiG-29A",
-                                        ["unitId"] = 2463,
-                                        ["x"] = -13891.58203125,
-                                        ["y"] = 439636.46875,
-                                    }, -- end of [4]
                                 }, -- end of ["units"]
                                 ["x"] = -13776.78515625,
                                 ["y"] = 439535.75,
@@ -86322,7 +86104,41 @@ mission =
                                         }, -- end of [3]
                                         [4] =
                                         {
-                                            ["ETA"] = 1296.4611879741,
+                                            ["ETA"] = 1071.3546264402,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 230.35631389784,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "Refueling",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 387729.69947706,
+                                            ["y"] = 521542.93168422,
+                                        }, -- end of [4]
+                                        [5] =
+                                        {
+                                            ["ETA"] = 1296.4679873695,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
@@ -86362,8 +86178,8 @@ mission =
                                             ["type"] = "Turning Point",
                                             ["x"] = 437487.8457086,
                                             ["y"] = 536144.33837315,
-                                        }, -- end of [4]
-                                        [5] =
+                                        }, -- end of [5]
+                                        [6] =
                                         {
                                             ["ETA"] = 2864.736228805,
                                             ["ETA_locked"] = false,
@@ -86406,8 +86222,8 @@ mission =
                                             ["type"] = "Turning Point",
                                             ["x"] = 379856.56870937,
                                             ["y"] = 130822.79224051,
-                                        }, -- end of [5]
-                                        [6] =
+                                        }, -- end of [6]
+                                        [7] =
                                         {
                                             ["ETA"] = 3042.5152940416,
                                             ["ETA_locked"] = false,
@@ -86430,8 +86246,8 @@ mission =
                                             ["type"] = "Turning Point",
                                             ["x"] = 388167.41331037,
                                             ["y"] = 192063.17995962,
-                                        }, -- end of [6]
-                                        [7] =
+                                        }, -- end of [7]
+                                        [8] =
                                         {
                                             ["ETA"] = 4444.9556522351,
                                             ["ETA_locked"] = false,
@@ -86473,8 +86289,8 @@ mission =
                                             ["type"] = "Turning Point",
                                             ["x"] = 233661.49460397,
                                             ["y"] = 467715.78492444,
-                                        }, -- end of [7]
-                                        [8] =
+                                        }, -- end of [8]
+                                        [9] =
                                         {
                                             ["ETA"] = 5500.5369321128,
                                             ["ETA_locked"] = false,
@@ -86497,8 +86313,8 @@ mission =
                                             ["type"] = "Turning Point",
                                             ["x"] = 226643.02816202,
                                             ["y"] = 475927.98383974,
-                                        }, -- end of [8]
-                                        [9] =
+                                        }, -- end of [9]
+                                        [10] =
                                         {
                                             ["ETA"] = 5714.1969914828,
                                             ["ETA_locked"] = false,
@@ -86521,8 +86337,8 @@ mission =
                                             ["type"] = "Turning Point",
                                             ["x"] = 180840.27078157,
                                             ["y"] = 455278.58929531,
-                                        }, -- end of [9]
-                                        [10] =
+                                        }, -- end of [10]
+                                        [11] =
                                         {
                                             ["ETA"] = 5928.293041526,
                                             ["ETA_locked"] = false,
@@ -86545,7 +86361,7 @@ mission =
                                             ["type"] = "Turning Point",
                                             ["x"] = 164318.273438,
                                             ["y"] = 430555.578125,
-                                        }, -- end of [10]
+                                        }, -- end of [11]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
@@ -94534,8 +94350,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 766852.60249195,
-                                            ["y"] = 449836.69388326,
+                                            ["x"] = 766834.82438612,
+                                            ["y"] = 449824.77729087,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -94576,7 +94392,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Springfield101",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 5.0857783050146,
+                                        ["heading"] = 5.0859047182118,
                                         ["livery_id"] = "plan carrier air wings j-15",
                                         ["name"] = "AB_XIL_Carrier2_Flight1-1",
                                         ["onboard_num"] = "162",
@@ -94645,8 +94461,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 3340,
-                                        ["x"] = 766852.60249195,
-                                        ["y"] = 449836.69388326,
+                                        ["x"] = 766834.82438612,
+                                        ["y"] = 449824.77729087,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -94659,7 +94475,7 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Springfield102",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 5.0857783050146,
+                                        ["heading"] = 5.0859047182118,
                                         ["livery_id"] = "plan carrier air wings j-15",
                                         ["name"] = "AB_XIL_Carrier2_Flight1-2",
                                         ["onboard_num"] = "163",
@@ -94728,12 +94544,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 3341,
-                                        ["x"] = 766852.60249195,
-                                        ["y"] = 449836.69388326,
+                                        ["x"] = 766834.82438612,
+                                        ["y"] = 449824.77729087,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 766852.60249195,
-                                ["y"] = 449836.69388326,
+                                ["x"] = 766834.82438612,
+                                ["y"] = 449824.77729087,
                             }, -- end of [91]
                             [92] =
                             {
@@ -94920,8 +94736,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 766852.60249195,
-                                            ["y"] = 449836.69388326,
+                                            ["x"] = 766834.82438612,
+                                            ["y"] = 449824.77729087,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -94962,7 +94778,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Uzi101",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 5.0857783050146,
+                                        ["heading"] = 5.0859047182118,
                                         ["livery_id"] = "plan carrier air wings j-15",
                                         ["name"] = "AB_XIL_Carrier2_Flight2-1",
                                         ["onboard_num"] = "164",
@@ -95031,8 +94847,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 3342,
-                                        ["x"] = 766852.60249195,
-                                        ["y"] = 449836.69388326,
+                                        ["x"] = 766834.82438612,
+                                        ["y"] = 449824.77729087,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -95045,7 +94861,7 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Uzi102",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 5.0857783050146,
+                                        ["heading"] = 5.0859047182118,
                                         ["livery_id"] = "plan carrier air wings j-15",
                                         ["name"] = "AB_XIL_Carrier2_Flight2-2",
                                         ["onboard_num"] = "165",
@@ -95114,12 +94930,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 3343,
-                                        ["x"] = 766830.14264848,
-                                        ["y"] = 449836.78008834,
+                                        ["x"] = 766812.36453194,
+                                        ["y"] = 449824.86065673,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 766852.60249195,
-                                ["y"] = 449836.69388326,
+                                ["x"] = 766834.82438612,
+                                ["y"] = 449824.77729087,
                             }, -- end of [92]
                             [93] =
                             {
@@ -95306,8 +95122,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 766852.60249195,
-                                            ["y"] = 449836.69388326,
+                                            ["x"] = 766834.82438612,
+                                            ["y"] = 449824.77729087,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -95348,7 +95164,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Colt101",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 5.0857783050146,
+                                        ["heading"] = 5.0859047182118,
                                         ["livery_id"] = "plan carrier air wings j-15",
                                         ["name"] = "AB_XIL_Carrier2_Flight3-1",
                                         ["onboard_num"] = "167",
@@ -95417,8 +95233,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 3344,
-                                        ["x"] = 766852.60249195,
-                                        ["y"] = 449836.69388326,
+                                        ["x"] = 766834.82438612,
+                                        ["y"] = 449824.77729087,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -95431,7 +95247,7 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Colt102",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 5.0857783050146,
+                                        ["heading"] = 5.0859047182118,
                                         ["livery_id"] = "plan carrier air wings j-15",
                                         ["name"] = "AB_XIL_Carrier2_Flight3-2",
                                         ["onboard_num"] = "168",
@@ -95500,12 +95316,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 3345,
-                                        ["x"] = 766830.14264848,
-                                        ["y"] = 449836.78008834,
+                                        ["x"] = 766812.36453194,
+                                        ["y"] = 449824.86065673,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 766852.60249195,
-                                ["y"] = 449836.69388326,
+                                ["x"] = 766834.82438612,
+                                ["y"] = 449824.77729087,
                             }, -- end of [93]
                             [94] =
                             {
@@ -95692,8 +95508,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 766852.60249195,
-                                            ["y"] = 449836.69388326,
+                                            ["x"] = 766834.82438612,
+                                            ["y"] = 449824.77729087,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -95734,7 +95550,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Dodge101",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 5.0857783050146,
+                                        ["heading"] = 5.0859047182118,
                                         ["livery_id"] = "plan carrier air wings j-15",
                                         ["name"] = "AB_XIL_Carrier2_Flight4-1",
                                         ["onboard_num"] = "169",
@@ -95803,8 +95619,8 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 3346,
-                                        ["x"] = 766852.60249195,
-                                        ["y"] = 449836.69388326,
+                                        ["x"] = 766834.82438612,
+                                        ["y"] = 449824.77729087,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -95817,7 +95633,7 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Dodge102",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 5.0857783050146,
+                                        ["heading"] = 5.0859047182118,
                                         ["livery_id"] = "plan carrier air wings j-15",
                                         ["name"] = "AB_XIL_Carrier2_Flight4-2",
                                         ["onboard_num"] = "174",
@@ -95886,12 +95702,12 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
                                         ["unitId"] = 3347,
-                                        ["x"] = 766830.14264848,
-                                        ["y"] = 449836.78008834,
+                                        ["x"] = 766812.36453194,
+                                        ["y"] = 449824.86065673,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 766852.60249195,
-                                ["y"] = 449836.69388326,
+                                ["x"] = 766834.82438612,
+                                ["y"] = 449824.77729087,
                             }, -- end of [94]
                             [95] =
                             {
@@ -96899,7 +96715,7 @@ mission =
                                         }, -- end of [3]
                                         [4] =
                                         {
-                                            ["ETA"] = 1273.2647946684,
+                                            ["ETA"] = 1273.2647946685,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
@@ -97348,6 +97164,694 @@ mission =
                                 ["x"] = 165688.59375,
                                 ["y"] = 429585.34375,
                             }, -- end of [97]
+                            [98] =
+                            {
+                                ["communication"] = true,
+                                ["dynSpawnTemplate"] = false,
+                                ["frequency"] = 124,
+                                ["groupId"] = 1613,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["modulation"] = 0,
+                                ["name"] = "AA_603_MiG_29_Afrikanda_3",
+                                ["radioSet"] = false,
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 33,
+                                            ["alt"] = 151,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EngageTargets",
+                                                            ["key"] = "CAP",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["priority"] = 0,
+                                                                ["targetTypes"] =
+                                                                {
+                                                                    [1] = "Air",
+                                                                }, -- end of ["targetTypes"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 2,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 17,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                        [3] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 3,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 18,
+                                                                        ["value"] = 4,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [3]
+                                                        [4] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 4,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 19,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [4]
+                                                        [5] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 5,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 21,
+                                                                        ["noTargetTypes"] =
+                                                                        {
+                                                                            [1] = "Fighters",
+                                                                            [2] = "Multirole fighters",
+                                                                            [3] = "Bombers",
+                                                                            [4] = "Helicopters",
+                                                                            [5] = "UAVs",
+                                                                            [6] = "Infantry",
+                                                                            [7] = "Fortifications",
+                                                                            [8] = "Tanks",
+                                                                            [9] = "IFV",
+                                                                            [10] = "APC",
+                                                                            [11] = "Artillery",
+                                                                            [12] = "Unarmed vehicles",
+                                                                            [13] = "AAA",
+                                                                            [14] = "SR SAM",
+                                                                            [15] = "MR SAM",
+                                                                            [16] = "LR SAM",
+                                                                            [17] = "Aircraft Carriers",
+                                                                            [18] = "Cruisers",
+                                                                            [19] = "Destroyers",
+                                                                            [20] = "Frigates",
+                                                                            [21] = "Corvettes",
+                                                                            [22] = "Light armed ships",
+                                                                            [23] = "Unarmed ships",
+                                                                            [24] = "Submarines",
+                                                                            [25] = "Cruise missiles",
+                                                                            [26] = "Antiship Missiles",
+                                                                            [27] = "AA Missiles",
+                                                                            [28] = "AG Missiles",
+                                                                            [29] = "SA Missiles",
+                                                                        }, -- end of ["noTargetTypes"]
+                                                                        ["targetTypes"] =
+                                                                        {
+                                                                        }, -- end of ["targetTypes"]
+                                                                        ["value"] = "none;",
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [5]
+                                                        [6] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 6,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 35,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [6]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = -13691.322265625,
+                                            ["y"] = 438872.625,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "CAP",
+                                ["tasks"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["auto"] = false,
+                                        ["enabled"] = true,
+                                        ["id"] = "WrappedAction",
+                                        ["number"] = 1,
+                                        ["params"] =
+                                        {
+                                            ["action"] =
+                                            {
+                                                ["id"] = "Start",
+                                                ["params"] =
+                                                {
+                                                }, -- end of ["params"]
+                                            }, -- end of ["action"]
+                                        }, -- end of ["params"]
+                                    }, -- end of [1]
+                                }, -- end of ["tasks"]
+                                ["uncontrolled"] = true,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["alt"] = 151,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 1,
+                                            [2] = 11,
+                                            [3] = 1,
+                                            ["name"] = "Enfield111",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "Domna 120th AR",
+                                        ["name"] = "AA_603_MiG_29_Afrikanda_3-1",
+                                        ["onboard_num"] = "042",
+                                        ["parking"] = "22",
+                                        ["parking_id"] = "F05",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 30,
+                                            ["flare"] = 30,
+                                            ["fuel"] = "3376",
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                                [1] =
+                                                {
+                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+                                                }, -- end of [1]
+                                                [2] =
+                                                {
+                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+                                                }, -- end of [2]
+                                                [3] =
+                                                {
+                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
+                                                }, -- end of [3]
+                                                [4] =
+                                                {
+                                                    ["CLSID"] = "{2BEC576B-CDF5-4B7F-961F-B0FA4312B841}",
+                                                }, -- end of [4]
+                                                [5] =
+                                                {
+                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
+                                                }, -- end of [5]
+                                                [6] =
+                                                {
+                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+                                                }, -- end of [6]
+                                                [7] =
+                                                {
+                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+                                                }, -- end of [7]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "Excellent",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "MiG-29A",
+                                        ["unitId"] = 3355,
+                                        ["x"] = -13691.322265625,
+                                        ["y"] = 438872.625,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["alt"] = 151,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 1,
+                                            [2] = 11,
+                                            [3] = 2,
+                                            ["name"] = "Enfield112",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "Domna 120th AR",
+                                        ["name"] = "AA_603_MiG_29_Afrikanda_3-2",
+                                        ["onboard_num"] = "043",
+                                        ["parking"] = "21",
+                                        ["parking_id"] = "F06",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 30,
+                                            ["flare"] = 30,
+                                            ["fuel"] = "3376",
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                                [1] =
+                                                {
+                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+                                                }, -- end of [1]
+                                                [2] =
+                                                {
+                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+                                                }, -- end of [2]
+                                                [3] =
+                                                {
+                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
+                                                }, -- end of [3]
+                                                [4] =
+                                                {
+                                                    ["CLSID"] = "{2BEC576B-CDF5-4B7F-961F-B0FA4312B841}",
+                                                }, -- end of [4]
+                                                [5] =
+                                                {
+                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
+                                                }, -- end of [5]
+                                                [6] =
+                                                {
+                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+                                                }, -- end of [6]
+                                                [7] =
+                                                {
+                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+                                                }, -- end of [7]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "Excellent",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "MiG-29A",
+                                        ["unitId"] = 3356,
+                                        ["x"] = -13739.11328125,
+                                        ["y"] = 438953.375,
+                                    }, -- end of [2]
+                                }, -- end of ["units"]
+                                ["x"] = -13691.322265625,
+                                ["y"] = 438872.625,
+                            }, -- end of [98]
+                            [99] =
+                            {
+                                ["communication"] = true,
+                                ["dynSpawnTemplate"] = false,
+                                ["frequency"] = 124,
+                                ["groupId"] = 1614,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["modulation"] = 0,
+                                ["name"] = "AA_603_MiG_29_Afrikanda_4",
+                                ["radioSet"] = false,
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 33,
+                                            ["alt"] = 151,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EngageTargets",
+                                                            ["key"] = "CAP",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["priority"] = 0,
+                                                                ["targetTypes"] =
+                                                                {
+                                                                    [1] = "Air",
+                                                                }, -- end of ["targetTypes"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 2,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 17,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                        [3] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 3,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 18,
+                                                                        ["value"] = 4,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [3]
+                                                        [4] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 4,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 19,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [4]
+                                                        [5] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 5,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 21,
+                                                                        ["noTargetTypes"] =
+                                                                        {
+                                                                            [1] = "Fighters",
+                                                                            [2] = "Multirole fighters",
+                                                                            [3] = "Bombers",
+                                                                            [4] = "Helicopters",
+                                                                            [5] = "UAVs",
+                                                                            [6] = "Infantry",
+                                                                            [7] = "Fortifications",
+                                                                            [8] = "Tanks",
+                                                                            [9] = "IFV",
+                                                                            [10] = "APC",
+                                                                            [11] = "Artillery",
+                                                                            [12] = "Unarmed vehicles",
+                                                                            [13] = "AAA",
+                                                                            [14] = "SR SAM",
+                                                                            [15] = "MR SAM",
+                                                                            [16] = "LR SAM",
+                                                                            [17] = "Aircraft Carriers",
+                                                                            [18] = "Cruisers",
+                                                                            [19] = "Destroyers",
+                                                                            [20] = "Frigates",
+                                                                            [21] = "Corvettes",
+                                                                            [22] = "Light armed ships",
+                                                                            [23] = "Unarmed ships",
+                                                                            [24] = "Submarines",
+                                                                            [25] = "Cruise missiles",
+                                                                            [26] = "Antiship Missiles",
+                                                                            [27] = "AA Missiles",
+                                                                            [28] = "AG Missiles",
+                                                                            [29] = "SA Missiles",
+                                                                        }, -- end of ["noTargetTypes"]
+                                                                        ["targetTypes"] =
+                                                                        {
+                                                                        }, -- end of ["targetTypes"]
+                                                                        ["value"] = "none;",
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [5]
+                                                        [6] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 6,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 35,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [6]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = -13799.23828125,
+                                            ["y"] = 439678.53125,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "CAP",
+                                ["tasks"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["auto"] = false,
+                                        ["enabled"] = true,
+                                        ["id"] = "WrappedAction",
+                                        ["number"] = 1,
+                                        ["params"] =
+                                        {
+                                            ["action"] =
+                                            {
+                                                ["id"] = "Start",
+                                                ["params"] =
+                                                {
+                                                }, -- end of ["params"]
+                                            }, -- end of ["action"]
+                                        }, -- end of ["params"]
+                                    }, -- end of [1]
+                                }, -- end of ["tasks"]
+                                ["uncontrolled"] = true,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["alt"] = 151,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 2,
+                                            [2] = 11,
+                                            [3] = 1,
+                                            ["name"] = "Springfield111",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "Domna 120th AR",
+                                        ["name"] = "AA_603_MiG_29_Afrikanda_4-1",
+                                        ["onboard_num"] = "015",
+                                        ["parking"] = "14",
+                                        ["parking_id"] = "F13",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 30,
+                                            ["flare"] = 30,
+                                            ["fuel"] = "3376",
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                                [1] =
+                                                {
+                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+                                                }, -- end of [1]
+                                                [2] =
+                                                {
+                                                    ["CLSID"] = "<CLEAN>",
+                                                }, -- end of [2]
+                                                [3] =
+                                                {
+                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
+                                                }, -- end of [3]
+                                                [4] =
+                                                {
+                                                    ["CLSID"] = "{2BEC576B-CDF5-4B7F-961F-B0FA4312B841}",
+                                                }, -- end of [4]
+                                                [5] =
+                                                {
+                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
+                                                }, -- end of [5]
+                                                [6] =
+                                                {
+                                                    ["CLSID"] = "<CLEAN>",
+                                                }, -- end of [6]
+                                                [7] =
+                                                {
+                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+                                                }, -- end of [7]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "Excellent",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "MiG-29A",
+                                        ["unitId"] = 3357,
+                                        ["x"] = -13799.23828125,
+                                        ["y"] = 439678.53125,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["alt"] = 151,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 2,
+                                            [2] = 11,
+                                            [3] = 2,
+                                            ["name"] = "Springfield112",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "Domna 120th AR",
+                                        ["name"] = "AA_603_MiG_29_Afrikanda_4-2",
+                                        ["onboard_num"] = "016",
+                                        ["parking"] = "13",
+                                        ["parking_id"] = "F14",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 30,
+                                            ["flare"] = 30,
+                                            ["fuel"] = "3376",
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                                [1] =
+                                                {
+                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+                                                }, -- end of [1]
+                                                [2] =
+                                                {
+                                                    ["CLSID"] = "<CLEAN>",
+                                                }, -- end of [2]
+                                                [3] =
+                                                {
+                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
+                                                }, -- end of [3]
+                                                [4] =
+                                                {
+                                                    ["CLSID"] = "{2BEC576B-CDF5-4B7F-961F-B0FA4312B841}",
+                                                }, -- end of [4]
+                                                [5] =
+                                                {
+                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
+                                                }, -- end of [5]
+                                                [6] =
+                                                {
+                                                    ["CLSID"] = "<CLEAN>",
+                                                }, -- end of [6]
+                                                [7] =
+                                                {
+                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+                                                }, -- end of [7]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "Excellent",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "MiG-29A",
+                                        ["unitId"] = 3358,
+                                        ["x"] = -13835.818359375,
+                                        ["y"] = 439764.59375,
+                                    }, -- end of [2]
+                                }, -- end of ["units"]
+                                ["x"] = -13799.23828125,
+                                ["y"] = 439678.53125,
+                            }, -- end of [99]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
                     ["ship"] =
@@ -98004,8 +98508,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 766841.60352191,
-                                            ["y"] = 449915.08664541,
+                                            ["x"] = 766823.81550629,
+                                            ["y"] = 449903.16866198,
                                         }, -- end of [1]
                                         [2] =
                                         {
@@ -98043,43 +98547,43 @@ mission =
                                     [1] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 4.7094412838174,
+                                        ["heading"] = 4.7095676970146,
                                         ["modulation"] = 0,
                                         ["name"] = "XIL_CSG_2-1",
                                         ["skill"] = "Excellent",
                                         ["type"] = "CV_1143_5",
                                         ["unitId"] = 3184,
-                                        ["x"] = 766841.60352191,
-                                        ["y"] = 449915.08664541,
+                                        ["x"] = 766823.81550629,
+                                        ["y"] = 449903.16866198,
                                     }, -- end of [1]
                                     [2] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 4.7094412838174,
+                                        ["heading"] = 4.7095676970146,
                                         ["modulation"] = 0,
                                         ["name"] = "XIL_CSG_2-2",
                                         ["skill"] = "Excellent",
                                         ["type"] = "Type_054A",
                                         ["unitId"] = 3185,
-                                        ["x"] = 775359.35410242,
-                                        ["y"] = 437961.97878531,
+                                        ["x"] = 787875.24752961,
+                                        ["y"] = 470428.60141506,
                                     }, -- end of [2]
                                     [3] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 4.7094412838174,
+                                        ["heading"] = 4.7095676970146,
                                         ["modulation"] = 0,
                                         ["name"] = "XIL_CSG_2-3",
                                         ["skill"] = "Excellent",
                                         ["type"] = "Type_052C",
                                         ["unitId"] = 3186,
-                                        ["x"] = 760884.61961907,
-                                        ["y"] = 425510.11092231,
+                                        ["x"] = 749933.81894223,
+                                        ["y"] = 421055.03932318,
                                     }, -- end of [3]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 766841.60352191,
-                                ["y"] = 449915.08664541,
+                                ["x"] = 766823.81550629,
+                                ["y"] = 449903.16866198,
                             }, -- end of [5]
                             [6] =
                             {
@@ -150615,7 +151119,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 5231629,
+    ["currentKey"] = 5326055,
     ["date"] =
     {
         ["Day"] = 27,
@@ -158116,9 +158620,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 391315.22832907,
-        ["centerY"] = 114196.20968129,
-        ["zoom"] = 2068775.510849,
+        ["centerX"] = 164576.89243028,
+        ["centerY"] = -22000,
+        ["zoom"] = 2448605.5776892,
     }, -- end of ["map"]
     ["maxDictId"] = 26,
     ["pictureFileNameB"] =
@@ -158282,7 +158786,7 @@ mission =
             [23] = "return(c_time_after(80) )",
             [24] = "return(c_time_after(1800) )",
             [25] = "return(c_time_after(1800) )",
-            [26] = "return(c_time_after(1860) )",
+            [26] = "return(c_time_after(300) )",
             [27] = "return(c_time_after(1920) )",
             [28] = "return(c_time_after(20) )",
             [29] = "return(c_time_after(15) )",
@@ -158303,7 +158807,7 @@ mission =
             [44] = "return(c_time_after(6300) )",
             [45] = "return(c_part_of_coalition_in_zone(\"blue\", 6076, \"HELICOPTER\") )",
             [46] = "return(c_time_after(6700) )",
-            [47] = "return(c_time_after(7000) )",
+            [47] = "return(c_time_after(8700) )",
             [48] = "return(c_time_after(7100) )",
             [49] = "return(c_time_after(1220) )",
             [50] = "return(c_time_after(2000) )",
@@ -176940,8 +177444,8 @@ mission =
                 }, -- end of ["properties"]
                 ["radius"] = 4572,
                 ["type"] = 0,
-                ["x"] = 193666.42075297,
-                ["y"] = 459087.15372003,
+                ["x"] = 181680.74070712,
+                ["y"] = 454586.06590109,
                 ["zoneId"] = 9341,
             }, -- end of [791]
             [792] =
@@ -176953,7 +177457,7 @@ mission =
                     [3] = 1,
                     [4] = 0.15,
                 }, -- end of ["color"]
-                ["heading"] = 4.7094412838174,
+                ["heading"] = 4.7095676970146,
                 ["hidden"] = false,
                 ["linkUnit"] = 3184,
                 ["name"] = "XIL_CSG2_QRA_Zone",
@@ -176962,8 +177466,8 @@ mission =
                 }, -- end of ["properties"]
                 ["radius"] = 198120,
                 ["type"] = 0,
-                ["x"] = 570.28514626296,
-                ["y"] = -54.32660644158,
+                ["x"] = 570.29200930626,
+                ["y"] = -54.254514439031,
                 ["zoneId"] = 9411,
             }, -- end of [792]
             [793] =
@@ -179587,7 +180091,7 @@ mission =
                     ["coalitionlist"] = "red",
                     ["flag"] = "1",
                     ["predicate"] = "c_time_after",
-                    ["seconds"] = 1860,
+                    ["seconds"] = 300,
                     ["unitType"] = "ALL",
                     ["zone"] = 2831,
                 }, -- end of [1]
@@ -180452,7 +180956,7 @@ mission =
                 }, -- end of [1]
             }, -- end of ["actions"]
             ["colorItem"] = "0x00ffffff",
-            ["comment"] = "Start escort SU24 Strike FARP",
+            ["comment"] = "Start escort TU95 Strike FARP",
             ["eventlist"] = "",
             ["predicate"] = "triggerOnce",
             ["rules"] =
@@ -180460,7 +180964,7 @@ mission =
                 [1] =
                 {
                     ["predicate"] = "c_time_after",
-                    ["seconds"] = 7000,
+                    ["seconds"] = 8700,
                 }, -- end of [1]
             }, -- end of ["rules"]
         }, -- end of [47]

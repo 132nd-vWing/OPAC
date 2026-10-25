@@ -2065,12 +2065,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 390259.92770523,
-                                            ["y"] = 145221.16696857,
+                                            ["x"] = 387873.64253231,
+                                            ["y"] = 116697.06046312,
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 362.35597430214,
+                                            ["ETA"] = 398.22412844475,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 7315.2,
@@ -2089,8 +2089,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 312006.19314721,
-                                            ["y"] = 107279.96233438,
+                                            ["x"] = 314053.02209176,
+                                            ["y"] = 85363.128045902,
                                         }, -- end of [2]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = false,
@@ -2115,7 +2115,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Shell11",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -2.6901395620373,
+                                        ["heading"] = -2.7401791141474,
                                         ["livery_id"] = "100th arw",
                                         ["name"] = "AR301 #IFF:5301FR-1",
                                         ["onboard_num"] = "011",
@@ -2129,17 +2129,17 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 2.6901395620373,
+                                        ["psi"] = 2.7401791141474,
                                         ["skill"] = "High",
                                         ["speed"] = 201.38252921274,
                                         ["type"] = "KC135MPRS",
                                         ["unitId"] = 2039,
-                                        ["x"] = 390259.92770523,
-                                        ["y"] = 145221.16696857,
+                                        ["x"] = 387873.64253231,
+                                        ["y"] = 116697.06046312,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 390259.92770523,
-                                ["y"] = 145221.16696857,
+                                ["x"] = 387873.64253231,
+                                ["y"] = 116697.06046312,
                             }, -- end of [8]
                             [9] =
                             {
@@ -3660,8 +3660,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 358510.35951418,
-                                            ["y"] = -21160.816599976,
+                                            ["x"] = 362116.08791816,
+                                            ["y"] = -29882.013217411,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -3771,13 +3771,13 @@ mission =
                                         ["skill"] = "Excellent",
                                         ["type"] = "TICONDEROG",
                                         ["unitId"] = 2844,
-                                        ["x"] = 358510.35951418,
-                                        ["y"] = -21160.816599976,
+                                        ["x"] = 362116.08791816,
+                                        ["y"] = -29882.013217411,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 358510.35951418,
-                                ["y"] = -21160.816599976,
+                                ["x"] = 362116.08791816,
+                                ["y"] = -29882.013217411,
                             }, -- end of [2]
                         }, -- end of ["group"]
                     }, -- end of ["ship"]
@@ -5463,6 +5463,182 @@ mission =
                                 ["x"] = 15800.520276994,
                                 ["y"] = 212938.20065016,
                             }, -- end of [39]
+                            [40] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1615,
+                                ["heading"] = 2.1118483949131,
+                                ["name"] = "Ammunition depot Rovanemi-1",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -152415.70843265,
+                                            ["y"] = 150905.91118237,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Warehouses",
+                                        ["heading"] = 2.1118483949131,
+                                        ["name"] = "Ammunition depot Rovanemi-1",
+                                        ["rate"] = 100,
+                                        ["shape_name"] = "SkladC",
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = ".Ammunition depot",
+                                        ["unitId"] = 3359,
+                                        ["x"] = -152415.70843265,
+                                        ["y"] = 150905.91118237,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -152415.70843265,
+                                ["y"] = 150905.91118237,
+                            }, -- end of [40]
+                            [41] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1619,
+                                ["heading"] = 0,
+                                ["name"] = "Fuel Tank Rovanemi",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -152200.55004278,
+                                            ["y"] = 152045.60002324,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Warehouses",
+                                        ["heading"] = 0,
+                                        ["name"] = "Fuel Tank Rovanemi-1",
+                                        ["rate"] = 100,
+                                        ["shape_name"] = "bak",
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "Tank",
+                                        ["unitId"] = 3363,
+                                        ["x"] = -152200.55004278,
+                                        ["y"] = 152045.60002324,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -152200.55004278,
+                                ["y"] = 152045.60002324,
+                            }, -- end of [41]
+                            [42] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1621,
+                                ["heading"] = 0,
+                                ["name"] = "Fuel Tank Rovanemi-1",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -152157.95512335,
+                                            ["y"] = 152068.14520045,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Warehouses",
+                                        ["heading"] = 0,
+                                        ["name"] = "Fuel Tank Rovanemi-1-1",
+                                        ["rate"] = 100,
+                                        ["shape_name"] = "bak",
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = "Tank",
+                                        ["unitId"] = 3365,
+                                        ["x"] = -152157.95512335,
+                                        ["y"] = 152068.14520045,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -152157.95512335,
+                                ["y"] = 152068.14520045,
+                            }, -- end of [42]
+                            [43] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1622,
+                                ["heading"] = 2.1293016874331,
+                                ["name"] = "Ammunition depot Rovanemi-2",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -152560.05223134,
+                                            ["y"] = 150962.47992585,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Warehouses",
+                                        ["heading"] = 2.1293016874331,
+                                        ["name"] = "Ammunition depot Rovanemi-2",
+                                        ["rate"] = 100,
+                                        ["shape_name"] = "SkladC",
+                                        ["tasks"] =
+                                        {
+                                        }, -- end of ["tasks"]
+                                        ["type"] = ".Ammunition depot",
+                                        ["unitId"] = 3366,
+                                        ["x"] = -152560.05223134,
+                                        ["y"] = 150962.47992585,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -152560.05223134,
+                                ["y"] = 150962.47992585,
+                            }, -- end of [43]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["vehicle"] =
@@ -6130,6 +6306,90 @@ mission =
                                 ["x"] = -29498.443044664,
                                 ["y"] = 100591.11598775,
                             }, -- end of [5]
+                            [6] =
+                            {
+                                ["groupId"] = 1623,
+                                ["hidden"] = false,
+                                ["lateActivation"] = true,
+                                ["name"] = "@@@ TEST Rovanemi",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 177,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["groupId"] = 13,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -151772.15234006,
+                                            ["y"] = 152500.74904246,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["routeRelativeTOT"] = true,
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["coldAtStart"] = false,
+                                        ["heading"] = 0,
+                                        ["name"] = "@@@ TEST Rovanemi-1",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "Average",
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 3367,
+                                        ["x"] = -151772.15234006,
+                                        ["y"] = 152500.74904246,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -151772.15234006,
+                                ["y"] = 152500.74904246,
+                            }, -- end of [6]
                         }, -- end of ["group"]
                     }, -- end of ["vehicle"]
                 }, -- end of [1]
@@ -66994,8 +67254,8 @@ mission =
                                                                 ["expend"] = "Two",
                                                                 ["groupAttack"] = false,
                                                                 ["weaponType"] = 2097152,
-                                                                ["x"] = -153645.5142308,
-                                                                ["y"] = 151059.02831352,
+                                                                ["x"] = -152558.49083439,
+                                                                ["y"] = 150964.33498971,
                                                             }, -- end of ["params"]
                                                         }, -- end of [1]
                                                         [2] =
@@ -67015,8 +67275,8 @@ mission =
                                                                 ["expend"] = "Two",
                                                                 ["groupAttack"] = false,
                                                                 ["weaponType"] = 2097152,
-                                                                ["x"] = -152662.95277007,
-                                                                ["y"] = 151785.45612957,
+                                                                ["x"] = -152415.55341337,
+                                                                ["y"] = 150905.54152896,
                                                             }, -- end of ["params"]
                                                         }, -- end of [2]
                                                         [3] =
@@ -67036,8 +67296,8 @@ mission =
                                                                 ["expend"] = "Two",
                                                                 ["groupAttack"] = false,
                                                                 ["weaponType"] = 2097152,
-                                                                ["x"] = -152662.15643046,
-                                                                ["y"] = 151785.54145167,
+                                                                ["x"] = -152158.06823829,
+                                                                ["y"] = 152067.69274069,
                                                             }, -- end of ["params"]
                                                         }, -- end of [3]
                                                         [4] =
@@ -67057,8 +67317,8 @@ mission =
                                                                 ["expend"] = "Two",
                                                                 ["groupAttack"] = false,
                                                                 ["weaponType"] = 2097152,
-                                                                ["x"] = -153085.82708317,
-                                                                ["y"] = 151705.89961254,
+                                                                ["x"] = -152200.48634096,
+                                                                ["y"] = 152045.63532731,
                                                             }, -- end of ["params"]
                                                         }, -- end of [4]
                                                     }, -- end of ["tasks"]
@@ -75122,8 +75382,8 @@ mission =
                                                                 ["expend"] = "Two",
                                                                 ["groupAttack"] = false,
                                                                 ["weaponType"] = 2097152,
-                                                                ["x"] = -151713.09471043,
-                                                                ["y"] = 150964.32168342,
+                                                                ["x"] = -152269.08564345,
+                                                                ["y"] = 151628.29114629,
                                                             }, -- end of ["params"]
                                                         }, -- end of [1]
                                                         [2] =
@@ -75143,8 +75403,8 @@ mission =
                                                                 ["expend"] = "Two",
                                                                 ["groupAttack"] = false,
                                                                 ["weaponType"] = 2097152,
-                                                                ["x"] = -151719.95262543,
-                                                                ["y"] = 150973.67751636,
+                                                                ["x"] = -152211.38096111,
+                                                                ["y"] = 151670.39996854,
                                                             }, -- end of ["params"]
                                                         }, -- end of [2]
                                                         [3] =
@@ -75164,8 +75424,8 @@ mission =
                                                                 ["expend"] = "Two",
                                                                 ["groupAttack"] = false,
                                                                 ["weaponType"] = 2097152,
-                                                                ["x"] = -152036.11825702,
-                                                                ["y"] = 151336.48922787,
+                                                                ["x"] = -152248.81102533,
+                                                                ["y"] = 151655.84383245,
                                                             }, -- end of ["params"]
                                                         }, -- end of [3]
                                                         [4] =
@@ -75185,8 +75445,8 @@ mission =
                                                                 ["expend"] = "Two",
                                                                 ["groupAttack"] = false,
                                                                 ["weaponType"] = 2097152,
-                                                                ["x"] = -152130.60955998,
-                                                                ["y"] = 151277.25044947,
+                                                                ["x"] = -152236.33433726,
+                                                                ["y"] = 151632.45004231,
                                                             }, -- end of ["params"]
                                                         }, -- end of [4]
                                                     }, -- end of ["tasks"]
@@ -75633,7 +75893,7 @@ mission =
                                         }, -- end of [4]
                                         [5] =
                                         {
-                                            ["ETA"] = 1741.4818783029,
+                                            ["ETA"] = 1740.6535264973,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 7924.8,
@@ -75662,11 +75922,11 @@ mission =
                                                                 ["attackQtyLimit"] = false,
                                                                 ["direction"] = 0,
                                                                 ["directionEnabled"] = false,
-                                                                ["expend"] = "Two",
+                                                                ["expend"] = "One",
                                                                 ["groupAttack"] = false,
                                                                 ["weaponType"] = 2097152,
-                                                                ["x"] = -153117.86085575,
-                                                                ["y"] = 151952.39520605,
+                                                                ["x"] = -152560.1540945,
+                                                                ["y"] = 150961.81179664,
                                                             }, -- end of ["params"]
                                                         }, -- end of [1]
                                                         [2] =
@@ -75683,11 +75943,11 @@ mission =
                                                                 ["attackQtyLimit"] = false,
                                                                 ["direction"] = 0,
                                                                 ["directionEnabled"] = false,
-                                                                ["expend"] = "Two",
+                                                                ["expend"] = "One",
                                                                 ["groupAttack"] = false,
                                                                 ["weaponType"] = 2097152,
-                                                                ["x"] = -153093.15862391,
-                                                                ["y"] = 151903.72369637,
+                                                                ["x"] = -152156.88167383,
+                                                                ["y"] = 152069.15437467,
                                                             }, -- end of ["params"]
                                                         }, -- end of [2]
                                                         [3] =
@@ -75704,11 +75964,11 @@ mission =
                                                                 ["attackQtyLimit"] = false,
                                                                 ["direction"] = 0,
                                                                 ["directionEnabled"] = false,
-                                                                ["expend"] = "Two",
+                                                                ["expend"] = "One",
                                                                 ["groupAttack"] = false,
                                                                 ["weaponType"] = 2097152,
-                                                                ["x"] = -153089.65965363,
-                                                                ["y"] = 151734.76728649,
+                                                                ["x"] = -152683.25155256,
+                                                                ["y"] = 151359.56834877,
                                                             }, -- end of ["params"]
                                                         }, -- end of [3]
                                                         [4] =
@@ -75725,19 +75985,103 @@ mission =
                                                                 ["attackQtyLimit"] = false,
                                                                 ["direction"] = 0,
                                                                 ["directionEnabled"] = false,
-                                                                ["expend"] = "Two",
+                                                                ["expend"] = "One",
                                                                 ["groupAttack"] = false,
                                                                 ["weaponType"] = 2097152,
-                                                                ["x"] = -153647.65596534,
-                                                                ["y"] = 151058.1046009,
+                                                                ["x"] = -152699.93049275,
+                                                                ["y"] = 151324.35725282,
                                                             }, -- end of ["params"]
                                                         }, -- end of [4]
+                                                        [5] =
+                                                        {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "Bombing",
+                                                            ["number"] = 5,
+                                                            ["params"] =
+                                                            {
+                                                                ["altitude"] = 7924.8,
+                                                                ["altitudeEnabled"] = false,
+                                                                ["attackQty"] = 1,
+                                                                ["attackQtyLimit"] = false,
+                                                                ["direction"] = 0,
+                                                                ["directionEnabled"] = false,
+                                                                ["expend"] = "One",
+                                                                ["groupAttack"] = false,
+                                                                ["weaponType"] = 2097152,
+                                                                ["x"] = -152716.84108489,
+                                                                ["y"] = 151356.78852541,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [5]
+                                                        [6] =
+                                                        {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "Bombing",
+                                                            ["number"] = 6,
+                                                            ["params"] =
+                                                            {
+                                                                ["altitude"] = 7924.8,
+                                                                ["altitudeEnabled"] = false,
+                                                                ["attackQty"] = 1,
+                                                                ["attackQtyLimit"] = false,
+                                                                ["direction"] = 0,
+                                                                ["directionEnabled"] = false,
+                                                                ["expend"] = "One",
+                                                                ["groupAttack"] = false,
+                                                                ["weaponType"] = 2097152,
+                                                                ["x"] = -152720.08421214,
+                                                                ["y"] = 151330.38020344,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [6]
+                                                        [7] =
+                                                        {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "Bombing",
+                                                            ["number"] = 7,
+                                                            ["params"] =
+                                                            {
+                                                                ["altitude"] = 7924.8,
+                                                                ["altitudeEnabled"] = false,
+                                                                ["attackQty"] = 1,
+                                                                ["attackQtyLimit"] = false,
+                                                                ["direction"] = 0,
+                                                                ["directionEnabled"] = false,
+                                                                ["expend"] = "One",
+                                                                ["groupAttack"] = false,
+                                                                ["weaponType"] = 2097152,
+                                                                ["x"] = -152724.71725109,
+                                                                ["y"] = 151341.4994969,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [7]
+                                                        [8] =
+                                                        {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "Bombing",
+                                                            ["number"] = 8,
+                                                            ["params"] =
+                                                            {
+                                                                ["altitude"] = 7924.8,
+                                                                ["altitudeEnabled"] = false,
+                                                                ["attackQty"] = 1,
+                                                                ["attackQtyLimit"] = false,
+                                                                ["direction"] = 0,
+                                                                ["directionEnabled"] = false,
+                                                                ["expend"] = "One",
+                                                                ["groupAttack"] = false,
+                                                                ["weaponType"] = 2097152,
+                                                                ["x"] = -152743.94436269,
+                                                                ["y"] = 151344.74262416,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [8]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -144020.43499828,
-                                            ["y"] = 328396.56746596,
+                                            ["x"] = -143934.86693087,
+                                            ["y"] = 328561.69413386,
                                         }, -- end of [5]
                                         [6] =
                                         {
@@ -86181,7 +86525,7 @@ mission =
                                         }, -- end of [5]
                                         [6] =
                                         {
-                                            ["ETA"] = 2864.736228805,
+                                            ["ETA"] = 2864.7430282004,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
@@ -86888,7 +87232,7 @@ mission =
                                         }, -- end of [6]
                                         [7] =
                                         {
-                                            ["ETA"] = 7655.9968104272,
+                                            ["ETA"] = 7512.4435487921,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
@@ -86927,12 +87271,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 513899.83474865,
-                                            ["y"] = -111130.98800254,
+                                            ["x"] = 538103.62523954,
+                                            ["y"] = -123430.69582651,
                                         }, -- end of [7]
                                         [8] =
                                         {
-                                            ["ETA"] = 8903.2502666254,
+                                            ["ETA"] = 7616.2298871361,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
@@ -86951,8 +87295,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 582808.32338391,
-                                            ["y"] = 113121.89027823,
+                                            ["x"] = 520282.97042179,
+                                            ["y"] = -115205.77821831,
                                         }, -- end of [8]
                                         [9] =
                                         {
@@ -150661,13 +151005,13 @@ mission =
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 9965.3700440908,
+                                            ["ETA"] = 11137.766519866,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
-                                            ["speed"] = 9.7638888888889,
+                                            ["speed"] = 8.7361111111111,
                                             ["speed_locked"] = true,
                                             ["task"] =
                                             {
@@ -150737,8 +151081,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Type_052C",
                                         ["unitId"] = 3019,
-                                        ["x"] = 521284.86848405,
-                                        ["y"] = 265403.97233349,
+                                        ["x"] = 522768.87700642,
+                                        ["y"] = 265400.46854481,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -150761,8 +151105,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Type_052B",
                                         ["unitId"] = 3017,
-                                        ["x"] = 477627.40271072,
-                                        ["y"] = 248049.45177763,
+                                        ["x"] = 477361.22918147,
+                                        ["y"] = 248671.33513562,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
@@ -151119,7 +151463,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 5326055,
+    ["currentKey"] = 5438733,
     ["date"] =
     {
         ["Day"] = 27,
@@ -158620,7 +158964,7 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 164576.89243028,
+        ["centerX"] = 230353.77847321,
         ["centerY"] = -22000,
         ["zoom"] = 2448605.5776892,
     }, -- end of ["map"]
@@ -158744,20 +159088,12 @@ mission =
             [54] = "a_ai_task(1210, 1); mission.trig.func[54]=nil;",
             [55] = "a_activate_group(1499);a_activate_group(1493);a_activate_group(1503);a_activate_group(1510);a_activate_group(1511);a_activate_group(1513);a_activate_group(1512);a_activate_group(356);a_activate_group(1528); mission.trig.func[55]=nil;",
             [56] = "a_activate_group(1376); mission.trig.func[56]=nil;",
-            [57] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_21\")); mission.trig.func[57]=nil;",
-            [58] = "a_explosion(8951, 1, 1000); mission.trig.func[58]=nil;",
-            [59] = "a_explosion(8952, 1, 1000); mission.trig.func[59]=nil;",
-            [60] = "a_explosion(8953, 1, 1000); mission.trig.func[60]=nil;",
-            [61] = "a_explosion(8954, 1, 1000); mission.trig.func[61]=nil;",
-            [62] = "a_explosion(8955, 1, 1000); mission.trig.func[62]=nil;",
-            [63] = "a_explosion(8956, 1, 1000); mission.trig.func[63]=nil;",
-            [64] = "a_explosion(8957, 1, 1000); mission.trig.func[64]=nil;",
-            [65] = "a_explosion(8958, 1, 1000); mission.trig.func[65]=nil;",
-            [66] = "a_activate_group(1603);a_ai_task(1182, 1); mission.trig.func[66]=nil;",
-            [67] = "a_ai_task(1242, 1);a_ai_task(1235, 1); mission.trig.func[67]=nil;",
-            [68] = "a_activate_group(1604);a_set_flag(\"66\"); mission.trig.func[68]=nil;",
-            [69] = "a_deactivate_group(1603); mission.trig.func[69]=nil;",
-            [70] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_26\")); mission.trig.func[70]=nil;",
+            [57] = "a_activate_group(1603);a_ai_task(1182, 1); mission.trig.func[57]=nil;",
+            [58] = "a_ai_task(1182, 1); mission.trig.func[58]=nil;",
+            [59] = "a_ai_task(1242, 1);a_ai_task(1235, 1); mission.trig.func[59]=nil;",
+            [60] = "a_activate_group(1604);a_set_flag(\"66\"); mission.trig.func[60]=nil;",
+            [61] = "a_deactivate_group(1603); mission.trig.func[61]=nil;",
+            [62] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_26\"));a_activate_group(1623); mission.trig.func[62]=nil;",
         }, -- end of ["actions"]
         ["conditions"] =
         {
@@ -158817,20 +159153,12 @@ mission =
             [54] = "return(c_time_after(5400) )",
             [55] = "return(c_time_after(7200) )",
             [56] = "return(c_time_after(8000) )",
-            [57] = "return(c_time_after(5400) )",
-            [58] = "return(c_missile_in_zone(\"4.4.8.461\", 1, 8951) )",
-            [59] = "return(c_missile_in_zone(\"4.4.8.461\", 1, 8952) )",
-            [60] = "return(c_missile_in_zone(\"4.4.8.461\", 1, 8953) )",
-            [61] = "return(c_missile_in_zone(\"4.4.8.461\", 1, 8954) )",
-            [62] = "return(c_missile_in_zone(\"4.4.8.461\", 1, 8955) )",
-            [63] = "return(c_missile_in_zone(\"4.4.8.461\", 1, 8956) )",
-            [64] = "return(c_missile_in_zone(\"4.4.8.461\", 1, 8957) )",
-            [65] = "return(c_missile_in_zone(\"4.4.8.461\", 1, 8958) )",
-            [66] = "return(c_time_after(6900) )",
-            [67] = "return(c_part_of_group_in_zone(1603, 9341) )",
-            [68] = "return(c_part_of_group_in_zone(1603, 9270) )",
-            [69] = "return(c_part_of_group_in_zone(1603, 9271) and c_flag_is_true(\"66\") )",
-            [70] = "return(c_missile_in_zone(\"4.4.8.461\", 1, 9482) )",
+            [57] = "return(c_time_after(6900) )",
+            [58] = "return(c_time_after(6300) )",
+            [59] = "return(c_part_of_group_in_zone(1603, 9341) )",
+            [60] = "return(c_part_of_group_in_zone(1603, 9270) )",
+            [61] = "return(c_part_of_group_in_zone(1603, 9271) and c_flag_is_true(\"66\") )",
+            [62] = "return(c_missile_in_zone(\"4.4.8.461\", 1, 9482) )",
         }, -- end of ["conditions"]
         ["custom"] =
         {
@@ -158905,14 +159233,6 @@ mission =
             [60] = true,
             [61] = true,
             [62] = true,
-            [63] = true,
-            [64] = true,
-            [65] = true,
-            [66] = true,
-            [67] = true,
-            [68] = true,
-            [69] = true,
-            [70] = true,
         }, -- end of ["flag"]
         ["func"] =
         {
@@ -158976,14 +159296,6 @@ mission =
             [60] = "if mission.trig.conditions[60]() then mission.trig.actions[60]() end",
             [61] = "if mission.trig.conditions[61]() then mission.trig.actions[61]() end",
             [62] = "if mission.trig.conditions[62]() then mission.trig.actions[62]() end",
-            [63] = "if mission.trig.conditions[63]() then mission.trig.actions[63]() end",
-            [64] = "if mission.trig.conditions[64]() then mission.trig.actions[64]() end",
-            [65] = "if mission.trig.conditions[65]() then mission.trig.actions[65]() end",
-            [66] = "if mission.trig.conditions[66]() then mission.trig.actions[66]() end",
-            [67] = "if mission.trig.conditions[67]() then mission.trig.actions[67]() end",
-            [68] = "if mission.trig.conditions[68]() then mission.trig.actions[68]() end",
-            [69] = "if mission.trig.conditions[69]() then mission.trig.actions[69]() end",
-            [70] = "if mission.trig.conditions[70]() then mission.trig.actions[70]() end",
         }, -- end of ["func"]
         ["funcStartup"] =
         {
@@ -176528,174 +176840,6 @@ mission =
             {
                 ["color"] =
                 {
-                    [1] = 1,
-                    [2] = 1,
-                    [3] = 1,
-                    [4] = 0.15,
-                }, -- end of ["color"]
-                ["heading"] = 0,
-                ["hidden"] = false,
-                ["name"] = "@Cruisemissile in zone",
-                ["properties"] =
-                {
-                }, -- end of ["properties"]
-                ["radius"] = 6.096,
-                ["type"] = 0,
-                ["x"] = -152199.32549081,
-                ["y"] = 151653.95187493,
-                ["zoneId"] = 8951,
-            }, -- end of [748]
-            [749] =
-            {
-                ["color"] =
-                {
-                    [1] = 1,
-                    [2] = 1,
-                    [3] = 1,
-                    [4] = 0.15,
-                }, -- end of ["color"]
-                ["heading"] = 0,
-                ["hidden"] = false,
-                ["name"] = "@Cruisemissile in zone-1",
-                ["properties"] =
-                {
-                }, -- end of ["properties"]
-                ["radius"] = 6.096,
-                ["type"] = 0,
-                ["x"] = -152207.27793406,
-                ["y"] = 151678.56658024,
-                ["zoneId"] = 8952,
-            }, -- end of [749]
-            [750] =
-            {
-                ["color"] =
-                {
-                    [1] = 1,
-                    [2] = 1,
-                    [3] = 1,
-                    [4] = 0.15,
-                }, -- end of ["color"]
-                ["heading"] = 0,
-                ["hidden"] = false,
-                ["name"] = "@Cruisemissile in zone-2",
-                ["properties"] =
-                {
-                }, -- end of ["properties"]
-                ["radius"] = 6.096,
-                ["type"] = 0,
-                ["x"] = -151900.31000327,
-                ["y"] = 151849.1849666,
-                ["zoneId"] = 8953,
-            }, -- end of [750]
-            [751] =
-            {
-                ["color"] =
-                {
-                    [1] = 1,
-                    [2] = 1,
-                    [3] = 1,
-                    [4] = 0.15,
-                }, -- end of ["color"]
-                ["heading"] = 0,
-                ["hidden"] = false,
-                ["name"] = "@Cruisemissile in zone-3",
-                ["properties"] =
-                {
-                }, -- end of ["properties"]
-                ["radius"] = 6.096,
-                ["type"] = 0,
-                ["x"] = -151903.47416267,
-                ["y"] = 151884.97580044,
-                ["zoneId"] = 8954,
-            }, -- end of [751]
-            [752] =
-            {
-                ["color"] =
-                {
-                    [1] = 1,
-                    [2] = 1,
-                    [3] = 1,
-                    [4] = 0.15,
-                }, -- end of ["color"]
-                ["heading"] = 0,
-                ["hidden"] = false,
-                ["name"] = "@Cruisemissile in zone-4",
-                ["properties"] =
-                {
-                }, -- end of ["properties"]
-                ["radius"] = 6.096,
-                ["type"] = 0,
-                ["x"] = -152649.75040841,
-                ["y"] = 151369.78827751,
-                ["zoneId"] = 8955,
-            }, -- end of [752]
-            [753] =
-            {
-                ["color"] =
-                {
-                    [1] = 1,
-                    [2] = 1,
-                    [3] = 1,
-                    [4] = 0.15,
-                }, -- end of ["color"]
-                ["heading"] = 0,
-                ["hidden"] = false,
-                ["name"] = "@Cruisemissile in zone-5",
-                ["properties"] =
-                {
-                }, -- end of ["properties"]
-                ["radius"] = 6.096,
-                ["type"] = 0,
-                ["x"] = -152655.80666533,
-                ["y"] = 151386.3518573,
-                ["zoneId"] = 8956,
-            }, -- end of [753]
-            [754] =
-            {
-                ["color"] =
-                {
-                    [1] = 1,
-                    [2] = 1,
-                    [3] = 1,
-                    [4] = 0.15,
-                }, -- end of ["color"]
-                ["heading"] = 0,
-                ["hidden"] = false,
-                ["name"] = "@Cruisemissile in zone-6",
-                ["properties"] =
-                {
-                }, -- end of ["properties"]
-                ["radius"] = 6.096,
-                ["type"] = 0,
-                ["x"] = -152984.25958406,
-                ["y"] = 151150.86459903,
-                ["zoneId"] = 8957,
-            }, -- end of [754]
-            [755] =
-            {
-                ["color"] =
-                {
-                    [1] = 1,
-                    [2] = 1,
-                    [3] = 1,
-                    [4] = 0.15,
-                }, -- end of ["color"]
-                ["heading"] = 0,
-                ["hidden"] = false,
-                ["name"] = "@Cruisemissile in zone-7",
-                ["properties"] =
-                {
-                }, -- end of ["properties"]
-                ["radius"] = 6.096,
-                ["type"] = 0,
-                ["x"] = -152993.07515855,
-                ["y"] = 151176.97226195,
-                ["zoneId"] = 8958,
-            }, -- end of [755]
-            [756] =
-            {
-                ["color"] =
-                {
                     [1] = 0.50196078431373,
                     [2] = 0.50196078431373,
                     [3] = 0.50196078431373,
@@ -176712,8 +176856,8 @@ mission =
                 ["x"] = 72902.456566327,
                 ["y"] = 244293.91819107,
                 ["zoneId"] = 9028,
-            }, -- end of [756]
-            [757] =
+            }, -- end of [748]
+            [749] =
             {
                 ["color"] =
                 {
@@ -176733,8 +176877,8 @@ mission =
                 ["x"] = 82950.449231437,
                 ["y"] = 202953.79089283,
                 ["zoneId"] = 9029,
-            }, -- end of [757]
-            [758] =
+            }, -- end of [749]
+            [750] =
             {
                 ["color"] =
                 {
@@ -176754,8 +176898,8 @@ mission =
                 ["x"] = 85939.609876273,
                 ["y"] = 202781.77542657,
                 ["zoneId"] = 9030,
-            }, -- end of [758]
-            [759] =
+            }, -- end of [750]
+            [751] =
             {
                 ["color"] =
                 {
@@ -176775,8 +176919,8 @@ mission =
                 ["x"] = 85922.515912738,
                 ["y"] = 202790.91247256,
                 ["zoneId"] = 9031,
-            }, -- end of [759]
-            [760] =
+            }, -- end of [751]
+            [752] =
             {
                 ["color"] =
                 {
@@ -176796,8 +176940,8 @@ mission =
                 ["x"] = 85981.578822317,
                 ["y"] = 202776.28737114,
                 ["zoneId"] = 9032,
-            }, -- end of [760]
-            [761] =
+            }, -- end of [752]
+            [753] =
             {
                 ["color"] =
                 {
@@ -176817,8 +176961,8 @@ mission =
                 ["x"] = 85992.266396431,
                 ["y"] = 202780.08427247,
                 ["zoneId"] = 9033,
-            }, -- end of [761]
-            [762] =
+            }, -- end of [753]
+            [754] =
             {
                 ["color"] =
                 {
@@ -176838,8 +176982,8 @@ mission =
                 ["x"] = 83791.707880913,
                 ["y"] = 202992.90797232,
                 ["zoneId"] = 9034,
-            }, -- end of [762]
-            [763] =
+            }, -- end of [754]
+            [755] =
             {
                 ["color"] =
                 {
@@ -176859,8 +177003,8 @@ mission =
                 ["x"] = 83779.912048636,
                 ["y"] = 203030.91676521,
                 ["zoneId"] = 9035,
-            }, -- end of [763]
-            [764] =
+            }, -- end of [755]
+            [756] =
             {
                 ["color"] =
                 {
@@ -176880,8 +177024,8 @@ mission =
                 ["x"] = 177301.40086124,
                 ["y"] = 393456.24672621,
                 ["zoneId"] = 9105,
-            }, -- end of [764]
-            [765] =
+            }, -- end of [756]
+            [757] =
             {
                 ["color"] =
                 {
@@ -176901,8 +177045,8 @@ mission =
                 ["x"] = 129772.20328907,
                 ["y"] = 373460.67222533,
                 ["zoneId"] = 9106,
-            }, -- end of [765]
-            [766] =
+            }, -- end of [757]
+            [758] =
             {
                 ["color"] =
                 {
@@ -176922,8 +177066,8 @@ mission =
                 ["x"] = 80911.074018368,
                 ["y"] = 383338.97121053,
                 ["zoneId"] = 9107,
-            }, -- end of [766]
-            [767] =
+            }, -- end of [758]
+            [759] =
             {
                 ["color"] =
                 {
@@ -176943,8 +177087,8 @@ mission =
                 ["x"] = 25320.195564234,
                 ["y"] = 397207.50399628,
                 ["zoneId"] = 9108,
-            }, -- end of [767]
-            [768] =
+            }, -- end of [759]
+            [760] =
             {
                 ["color"] =
                 {
@@ -176964,8 +177108,8 @@ mission =
                 ["x"] = 114577.23886149,
                 ["y"] = 396082.54683927,
                 ["zoneId"] = 9109,
-            }, -- end of [768]
-            [769] =
+            }, -- end of [760]
+            [761] =
             {
                 ["color"] =
                 {
@@ -176985,8 +177129,8 @@ mission =
                 ["x"] = 101719.45332086,
                 ["y"] = 307883.4124391,
                 ["zoneId"] = 9179,
-            }, -- end of [769]
-            [770] =
+            }, -- end of [761]
+            [762] =
             {
                 ["color"] =
                 {
@@ -177006,8 +177150,8 @@ mission =
                 ["x"] = 101771.37331749,
                 ["y"] = 308850.71455558,
                 ["zoneId"] = 9180,
-            }, -- end of [770]
-            [771] =
+            }, -- end of [762]
+            [763] =
             {
                 ["color"] =
                 {
@@ -177027,8 +177171,8 @@ mission =
                 ["x"] = 101263.43116667,
                 ["y"] = 308157.01186763,
                 ["zoneId"] = 9181,
-            }, -- end of [771]
-            [772] =
+            }, -- end of [763]
+            [764] =
             {
                 ["color"] =
                 {
@@ -177048,8 +177192,8 @@ mission =
                 ["x"] = 101253.91576211,
                 ["y"] = 308140.72964266,
                 ["zoneId"] = 9182,
-            }, -- end of [772]
-            [773] =
+            }, -- end of [764]
+            [765] =
             {
                 ["color"] =
                 {
@@ -177069,8 +177213,8 @@ mission =
                 ["x"] = 79453.843642285,
                 ["y"] = 197033.16466775,
                 ["zoneId"] = 9183,
-            }, -- end of [773]
-            [774] =
+            }, -- end of [765]
+            [766] =
             {
                 ["color"] =
                 {
@@ -177090,8 +177234,8 @@ mission =
                 ["x"] = 79599.937606395,
                 ["y"] = 197183.41061812,
                 ["zoneId"] = 9184,
-            }, -- end of [774]
-            [775] =
+            }, -- end of [766]
+            [767] =
             {
                 ["color"] =
                 {
@@ -177111,8 +177255,8 @@ mission =
                 ["x"] = 79906.820838473,
                 ["y"] = 196992.83603627,
                 ["zoneId"] = 9185,
-            }, -- end of [775]
-            [776] =
+            }, -- end of [767]
+            [768] =
             {
                 ["color"] =
                 {
@@ -177132,8 +177276,8 @@ mission =
                 ["x"] = 79896.979384656,
                 ["y"] = 197005.82179472,
                 ["zoneId"] = 9186,
-            }, -- end of [776]
-            [777] =
+            }, -- end of [768]
+            [769] =
             {
                 ["color"] =
                 {
@@ -177153,8 +177297,8 @@ mission =
                 ["x"] = 79056.30406347,
                 ["y"] = 196547.81827105,
                 ["zoneId"] = 9187,
-            }, -- end of [777]
-            [778] =
+            }, -- end of [769]
+            [770] =
             {
                 ["color"] =
                 {
@@ -177174,8 +177318,8 @@ mission =
                 ["x"] = 79056.32222416,
                 ["y"] = 196638.52705685,
                 ["zoneId"] = 9189,
-            }, -- end of [778]
-            [779] =
+            }, -- end of [770]
+            [771] =
             {
                 ["color"] =
                 {
@@ -177195,8 +177339,8 @@ mission =
                 ["x"] = 79070.035197384,
                 ["y"] = 196404.30421029,
                 ["zoneId"] = 9190,
-            }, -- end of [779]
-            [780] =
+            }, -- end of [771]
+            [772] =
             {
                 ["color"] =
                 {
@@ -177216,8 +177360,8 @@ mission =
                 ["x"] = 79548.900782006,
                 ["y"] = 196990.92328784,
                 ["zoneId"] = 9192,
-            }, -- end of [780]
-            [781] =
+            }, -- end of [772]
+            [773] =
             {
                 ["color"] =
                 {
@@ -177237,8 +177381,8 @@ mission =
                 ["x"] = 79538.826840537,
                 ["y"] = 196864.2241009,
                 ["zoneId"] = 9193,
-            }, -- end of [781]
-            [782] =
+            }, -- end of [773]
+            [774] =
             {
                 ["color"] =
                 {
@@ -177258,8 +177402,8 @@ mission =
                 ["x"] = 79526.040684056,
                 ["y"] = 196891.73371029,
                 ["zoneId"] = 9194,
-            }, -- end of [782]
-            [783] =
+            }, -- end of [774]
+            [775] =
             {
                 ["color"] =
                 {
@@ -177279,8 +177423,8 @@ mission =
                 ["x"] = 79505.892801118,
                 ["y"] = 196866.54885662,
                 ["zoneId"] = 9195,
-            }, -- end of [783]
-            [784] =
+            }, -- end of [775]
+            [776] =
             {
                 ["color"] =
                 {
@@ -177300,8 +177444,8 @@ mission =
                 ["x"] = 79471.40892455,
                 ["y"] = 196873.91058308,
                 ["zoneId"] = 9196,
-            }, -- end of [784]
-            [785] =
+            }, -- end of [776]
+            [777] =
             {
                 ["color"] =
                 {
@@ -177321,8 +177465,8 @@ mission =
                 ["x"] = 79745.412729632,
                 ["y"] = 196835.43328331,
                 ["zoneId"] = 9197,
-            }, -- end of [785]
-            [786] =
+            }, -- end of [777]
+            [778] =
             {
                 ["color"] =
                 {
@@ -177342,8 +177486,8 @@ mission =
                 ["x"] = 79864.945867444,
                 ["y"] = 196822.68914897,
                 ["zoneId"] = 9198,
-            }, -- end of [786]
-            [787] =
+            }, -- end of [778]
+            [779] =
             {
                 ["color"] =
                 {
@@ -177363,8 +177507,8 @@ mission =
                 ["x"] = 79772.368132357,
                 ["y"] = 196739.74124921,
                 ["zoneId"] = 9199,
-            }, -- end of [787]
-            [788] =
+            }, -- end of [779]
+            [780] =
             {
                 ["color"] =
                 {
@@ -177384,8 +177528,8 @@ mission =
                 ["x"] = 79699.739309813,
                 ["y"] = 196813.81603464,
                 ["zoneId"] = 9200,
-            }, -- end of [788]
-            [789] =
+            }, -- end of [780]
+            [781] =
             {
                 ["color"] =
                 {
@@ -177405,8 +177549,8 @@ mission =
                 ["x"] = 262534.19143938,
                 ["y"] = 214659.33768685,
                 ["zoneId"] = 9270,
-            }, -- end of [789]
-            [790] =
+            }, -- end of [781]
+            [782] =
             {
                 ["color"] =
                 {
@@ -177426,8 +177570,8 @@ mission =
                 ["x"] = 132181.75152422,
                 ["y"] = 408857.07010032,
                 ["zoneId"] = 9271,
-            }, -- end of [790]
-            [791] =
+            }, -- end of [782]
+            [783] =
             {
                 ["color"] =
                 {
@@ -177447,8 +177591,8 @@ mission =
                 ["x"] = 181680.74070712,
                 ["y"] = 454586.06590109,
                 ["zoneId"] = 9341,
-            }, -- end of [791]
-            [792] =
+            }, -- end of [783]
+            [784] =
             {
                 ["color"] =
                 {
@@ -177469,8 +177613,8 @@ mission =
                 ["x"] = 570.29200930626,
                 ["y"] = -54.254514439031,
                 ["zoneId"] = 9411,
-            }, -- end of [792]
-            [793] =
+            }, -- end of [784]
+            [785] =
             {
                 ["color"] =
                 {
@@ -177491,8 +177635,8 @@ mission =
                 ["x"] = 1041.7580890859,
                 ["y"] = 93.263373584545,
                 ["zoneId"] = 9412,
-            }, -- end of [793]
-            [794] =
+            }, -- end of [785]
+            [786] =
             {
                 ["color"] =
                 {
@@ -177512,7 +177656,7 @@ mission =
                 ["x"] = -152467.35544155,
                 ["y"] = 151330.34821867,
                 ["zoneId"] = 9482,
-            }, -- end of [794]
+            }, -- end of [786]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] =
@@ -181249,293 +181393,6 @@ mission =
             {
                 [1] =
                 {
-                    ["file"] = "ResKey_Action_21",
-                    ["predicate"] = "a_do_script_file",
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["colorItem"] = "0xff0080ff",
-            ["comment"] = "EW_Jamming",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["predicate"] = "c_time_after",
-                    ["seconds"] = 5400,
-                }, -- end of [1]
-            }, -- end of ["rules"]
-        }, -- end of [57]
-        [58] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
-                    ["altitude"] = 1,
-                    ["predicate"] = "a_explosion",
-                    ["volume"] = 1000,
-                    ["zone"] = 8951,
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["colorItem"] = "0x808000ff",
-            ["comment"] = "Cruisemissile in zone",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["nummissiles"] = 1,
-                    ["predicate"] = "c_missile_in_zone",
-                    ["typemissile"] =
-                    {
-                        [1] = 4,
-                        [2] = 4,
-                        [3] = 8,
-                        [4] = 461,
-                    }, -- end of ["typemissile"]
-                    ["zone"] = 8951,
-                }, -- end of [1]
-            }, -- end of ["rules"]
-        }, -- end of [58]
-        [59] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
-                    ["altitude"] = 1,
-                    ["predicate"] = "a_explosion",
-                    ["volume"] = 1000,
-                    ["zone"] = 8952,
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["colorItem"] = "0x808000ff",
-            ["comment"] = "Cruisemissile in zone1",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["nummissiles"] = 1,
-                    ["predicate"] = "c_missile_in_zone",
-                    ["typemissile"] =
-                    {
-                        [1] = 4,
-                        [2] = 4,
-                        [3] = 8,
-                        [4] = 461,
-                    }, -- end of ["typemissile"]
-                    ["zone"] = 8952,
-                }, -- end of [1]
-            }, -- end of ["rules"]
-        }, -- end of [59]
-        [60] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
-                    ["altitude"] = 1,
-                    ["predicate"] = "a_explosion",
-                    ["volume"] = 1000,
-                    ["zone"] = 8953,
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["colorItem"] = "0x808000ff",
-            ["comment"] = "Cruisemissile in zone2",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["nummissiles"] = 1,
-                    ["predicate"] = "c_missile_in_zone",
-                    ["typemissile"] =
-                    {
-                        [1] = 4,
-                        [2] = 4,
-                        [3] = 8,
-                        [4] = 461,
-                    }, -- end of ["typemissile"]
-                    ["zone"] = 8953,
-                }, -- end of [1]
-            }, -- end of ["rules"]
-        }, -- end of [60]
-        [61] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
-                    ["altitude"] = 1,
-                    ["predicate"] = "a_explosion",
-                    ["volume"] = 1000,
-                    ["zone"] = 8954,
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["colorItem"] = "0x808000ff",
-            ["comment"] = "Cruisemissile in zone3",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["nummissiles"] = 1,
-                    ["predicate"] = "c_missile_in_zone",
-                    ["typemissile"] =
-                    {
-                        [1] = 4,
-                        [2] = 4,
-                        [3] = 8,
-                        [4] = 461,
-                    }, -- end of ["typemissile"]
-                    ["zone"] = 8954,
-                }, -- end of [1]
-            }, -- end of ["rules"]
-        }, -- end of [61]
-        [62] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
-                    ["altitude"] = 1,
-                    ["predicate"] = "a_explosion",
-                    ["volume"] = 1000,
-                    ["zone"] = 8955,
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["colorItem"] = "0x808000ff",
-            ["comment"] = "Cruisemissile in zone4",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["nummissiles"] = 1,
-                    ["predicate"] = "c_missile_in_zone",
-                    ["typemissile"] =
-                    {
-                        [1] = 4,
-                        [2] = 4,
-                        [3] = 8,
-                        [4] = 461,
-                    }, -- end of ["typemissile"]
-                    ["zone"] = 8955,
-                }, -- end of [1]
-            }, -- end of ["rules"]
-        }, -- end of [62]
-        [63] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
-                    ["altitude"] = 1,
-                    ["predicate"] = "a_explosion",
-                    ["volume"] = 1000,
-                    ["zone"] = 8956,
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["colorItem"] = "0x808000ff",
-            ["comment"] = "Cruisemissile in zone5",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["nummissiles"] = 1,
-                    ["predicate"] = "c_missile_in_zone",
-                    ["typemissile"] =
-                    {
-                        [1] = 4,
-                        [2] = 4,
-                        [3] = 8,
-                        [4] = 461,
-                    }, -- end of ["typemissile"]
-                    ["zone"] = 8956,
-                }, -- end of [1]
-            }, -- end of ["rules"]
-        }, -- end of [63]
-        [64] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
-                    ["altitude"] = 1,
-                    ["predicate"] = "a_explosion",
-                    ["volume"] = 1000,
-                    ["zone"] = 8957,
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["colorItem"] = "0x808000ff",
-            ["comment"] = "Cruisemissile in zone6",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["nummissiles"] = 1,
-                    ["predicate"] = "c_missile_in_zone",
-                    ["typemissile"] =
-                    {
-                        [1] = 4,
-                        [2] = 4,
-                        [3] = 8,
-                        [4] = 461,
-                    }, -- end of ["typemissile"]
-                    ["zone"] = 8957,
-                }, -- end of [1]
-            }, -- end of ["rules"]
-        }, -- end of [64]
-        [65] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
-                    ["altitude"] = 1,
-                    ["predicate"] = "a_explosion",
-                    ["volume"] = 1000,
-                    ["zone"] = 8958,
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["colorItem"] = "0x808000ff",
-            ["comment"] = "Cruisemissile in zone7",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["nummissiles"] = 1,
-                    ["predicate"] = "c_missile_in_zone",
-                    ["typemissile"] =
-                    {
-                        [1] = 4,
-                        [2] = 4,
-                        [3] = 8,
-                        [4] = 461,
-                    }, -- end of ["typemissile"]
-                    ["zone"] = 8958,
-                }, -- end of [1]
-            }, -- end of ["rules"]
-        }, -- end of [65]
-        [66] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
                     ["group"] = 1603,
                     ["predicate"] = "a_activate_group",
                 }, -- end of [1]
@@ -181561,8 +181418,35 @@ mission =
                     ["seconds"] = 6900,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [66]
-        [67] =
+        }, -- end of [57]
+        [58] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["ai_task"] =
+                    {
+                        [1] = 1182,
+                        [2] = 1,
+                    }, -- end of ["ai_task"]
+                    ["predicate"] = "a_ai_task",
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x0080ffff",
+            ["comment"] = "Start Sweep Finmark",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 6300,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [58]
+        [59] =
         {
             ["actions"] =
             {
@@ -181598,8 +181482,8 @@ mission =
                     ["zone"] = 9341,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [67]
-        [68] =
+        }, -- end of [59]
+        [60] =
         {
             ["actions"] =
             {
@@ -181627,8 +181511,8 @@ mission =
                     ["zone"] = 9270,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [68]
-        [69] =
+        }, -- end of [60]
+        [61] =
         {
             ["actions"] =
             {
@@ -181656,8 +181540,8 @@ mission =
                     ["predicate"] = "c_flag_is_true",
                 }, -- end of [2]
             }, -- end of ["rules"]
-        }, -- end of [69]
-        [70] =
+        }, -- end of [61]
+        [62] =
         {
             ["actions"] =
             {
@@ -181666,7 +181550,13 @@ mission =
                     ["file"] = "ResKey_Action_26",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [1]
+                [2] =
+                {
+                    ["group"] = 1623,
+                    ["predicate"] = "a_activate_group",
+                }, -- end of [2]
             }, -- end of ["actions"]
+            ["colorItem"] = "0x808000ff",
             ["comment"] = "Comms_Rovanemi under attack",
             ["eventlist"] = "",
             ["predicate"] = "triggerOnce",
@@ -181686,7 +181576,7 @@ mission =
                     ["zone"] = 9482,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [70]
+        }, -- end of [62]
     }, -- end of ["trigrules"]
     ["version"] = 23,
     ["weather"] =

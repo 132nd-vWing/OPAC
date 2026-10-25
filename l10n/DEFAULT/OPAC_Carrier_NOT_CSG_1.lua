@@ -1,4 +1,4 @@
--- OPAC Carrier Ops 1.3.0 | OPAC_0.7.1.140 | 2026-10-24
+-- OPAC Carrier Ops 1.4.0 | OPAC_0.7.1.146 | 2026-10-25
 -- Self-contained. Load once AFTER the mission's Moose.lua.
 -- Read README_NO.txt: old launch triggers must be removed; pool flights must be uncontrolled.
 -- Flights 1-3: shared finite CAP/QRA pool. Flight 4: mission designer owns tasking.
@@ -19,7 +19,7 @@ local CONFIG = {
   cycle = {
     enabled = true, periodSec = 3600, startMinute = 10,
     openSec = 25*60, closeBufferSec = 2*60,
-    -- DCS mission clock: turn HH:20; routine window HH:30-HH:55, buffer to HH:57.
+    -- DCS mission clock: turn at startMinute; open after preparationSec; then close buffer.
   },
   deck = {
     preparationSec = 10*60, windOverDeckKts = 25, minimumHeadwindKts = 20,
@@ -31,7 +31,7 @@ local CONFIG = {
     windowLeaseSec = 180,
   },
   cap = {
-    enabled = true, startSec = 0, allowOffCycle = true,
+    enabled = true, startSec = 0, allowOffCycle = true, overrideRecenter = true,
     offsetNm = 35, bearingDeg = 255, headingDeg = 250, legNm = 30,
     altitudeFt = 23000, speedKtas = 440,
     formation = "FingerFour.Open", joinSpeedKtas = 360,
@@ -57,12 +57,15 @@ local CONFIG = {
     -- Contacts must be currently detected, not merely remembered by DCS.
   },
   recovery = {
+    overrideRecenter = true, -- pending airborne recovery takes priority over soft station limits.
     returnFuel = 0.30, criticalFuel = 0.15, returnLife = 0.80,
     maxSortieSec = 90*60, pursuitLimitNm = 150, requestTimeoutSec = 35*60,
     holdDistanceNm = 20, holdAltitudeFt = 6000, approachDistanceNm = 8,
     finalProtectionNm = 15,
   },
   inventory = {
+    maxDeckAircraft = 4, -- conservative admission limit for dynamic respawns, not DCS capacity.
+    carrierEntryTerminalTypes = {72, 104}, -- fixed-wing parking; never helo/runway entries.
     minimumLaunchFuel = 0.45, minimumLaunchLife = 0.80,
     turnaroundSec = 30*60, repairExtraSec = 60*60, missingGraceSec = 15, spawnCheckSec = 10,
   },
@@ -77,11 +80,11 @@ local CONFIG = {
   },
 }
 
--- OPAC Carrier Ops 1.3.0. Lua 5.1-compatible mission-side code.
+-- OPAC Carrier Ops 1.4.0. Lua 5.1-compatible mission-side code.
 -- CONFIG is intentionally local and unique to this file/carrier.
 -- Uses the mission's MOOSE NAVYGROUP. Aircraft use native DCS controllers.
 local C = CONFIG
-local VERSION = "1.3.0"
+local VERSION = "1.4.0"
 if rawget(_G, C.globalName) then
   env.info("[OPAC_CARRIER " .. C.key .. "] DUPLICATE_LOAD ignored")
   return
@@ -151,6 +154,10 @@ local function relativeSpeed(u)
   local a,b=call(u,"getVelocity"),call(O.ship,"getVelocity")
   if not a or not b then return math.huge end
   return math.sqrt((a.x-b.x)^2+(a.y-b.y)^2+(a.z-b.z)^2)
+end
+local function recoveryOwnsDeck(r)
+  -- Touchdown is the beginning of deck handling, not proof that the deck is clear.
+  return r.state=="RETURNING" or r.recoverySlot==true or r.externalRecovery==true
 end
 local function aam(u)
   local ammo=call(u,"getAmmo")
@@ -261,6 +268,10 @@ local function snapshot(r,t)
     minDistance=math.huge,maxDistance=0,allStationary=true}
   for _,f in ipairs(r.frames) do
     local u=unit(f.name)
+    if f.retiring and not u then
+      f.retiring=false;f.recovered=true
+      log("PARKED_TO_HANGAR",f.name.." verified parked aircraft removed; remaining members still monitored")
+    end
     if u and not f.lost then
       f.seen=true; f.lastSeen=t; f.objectId=call(u,"getID")
       local airborne=call(u,"inAir")==true
@@ -283,7 +294,7 @@ local function snapshot(r,t)
         else f.stationarySince=nil; s.allStationary=false; f.parked=false end
       else s.allStationary=false; f.parked=false end
       if f.parked then s.parked=s.parked+1 end
-    elseif f.seen and not f.lost and not f.recovered and not r.spawning and
+    elseif f.seen and not f.lost and not f.recovered and not f.retiring and not r.spawning and
       r.state~="SERVICE" and t-(f.lastSeen or t)>C.inventory.missingGraceSec then
       -- Disappearance alone is never proof of a successful recovery.
       if f.parked then f.recovered=true
@@ -758,17 +769,18 @@ end
 
 local function retire(r,t)
   local survivors={}; local s=r.stats
-  if s.air>0 then return false end
+  if s.air>0 or s.unaccounted>0 then return false end
   for _,f in ipairs(r.frames) do
     if not f.lost then
       local u=unit(f.name)
       if u then
-        if not f.parked or not onDeck(u) or relativeSpeed(u)>C.deck.parkedRelativeSpeedMps then return false end
+        -- The per-aircraft parking handler must finish removing every survivor.
+        return false
       elseif not f.recovered then return false end
       survivors[#survivors+1]=f
     end
   end
-  if #survivors==0 then r.state="LOST"; return false end
+  if #survivors==0 then r.state="LOST";r.recoverySlot=false;r.externalRecovery=false;return false end
   -- Confirmed parked survivors move into a simulated hangar during service.
   for _,f in ipairs(survivors) do
     if f.objectId then O.retiredIds[f.objectId]=true end
@@ -780,35 +792,81 @@ local function retire(r,t)
     if not ok then r.state="QUARANTINE"; log("RETIRE_FAILED",r.name); return false end
   end
   r.state="SERVICE"; r.readyAt=t+C.inventory.turnaroundSec+(r.damaged and C.inventory.repairExtraSec or 0)
-  r.externalRecovery=false; r.launchExpires=nil; r.recoveryExpires=nil
+  r.externalRecovery=false;r.recoverySlot=false; r.launchExpires=nil; r.recoveryExpires=nil
+  r.clearUntil=t+C.deck.recoveryClearSec
   log("RECOVERED",r.name.." survivors="..#survivors.." serviceSeconds="..(r.readyAt-t))
   return true
 end
-local function freeParking(count)
-  local b=Airbase.getByName(C.unitName); local slots={}; local used={}
-  if not b then return nil end
-  for _,p in pairs(call(b,"getParking",true) or {}) do
-    if p.Term_Index and p.Term_Type~=16 and p.TO_AC~=true and not used[p.Term_Index] then
-      slots[#slots+1]=p.Term_Index; used[p.Term_Index]=true
+local function recoverParkedMembers(r,t)
+  if r.role~="POOL" or (r.state~="ACTIVE" and r.state~="RETURN_WAIT" and r.state~="RETURNING") then return end
+  for _,f in ipairs(r.frames) do
+    local u=unit(f.name)
+    if u and not f.lost and not f.recovered and not f.retiring and f.wasAir and
+      f.landed and f.shutdown and f.parked and onDeck(u) and
+      relativeSpeed(u)<=C.deck.parkedRelativeSpeedMps and t>=(f.nextRetireAttempt or 0) then
+      -- Free one verified parking place even if the wingman is still airborne.
+      -- The flight's deck reservation remains until ALL survivors are accounted for.
+      local id=call(u,"getID");if id then O.retiredIds[id]=true end
+      f.retiring=true;r.recoverySlot=true
+      local ok=type(u.destroy)=="function" and pcall(u.destroy,u)
+      if not ok then
+        f.retiring=false;f.nextRetireAttempt=t+30
+        if id then O.retiredIds[id]=nil end
+        warn("PARKING_RETIRE_FAILED",f.name.." parking reservation retained")
+      end
     end
   end
-  table.sort(slots)
-  if #slots>=count then return slots end
+end
+local function freeParking()
+  local b=Airbase.getByName(C.unitName); local slots={}; local used={};local allowed={}
+  if not b then return nil end
+  for _,kind in ipairs(C.inventory.carrierEntryTerminalTypes) do allowed[kind]=true end
+  for _,p in pairs(call(b,"getParking",true) or {}) do
+    local v=p.vTerminalPos
+    if p.Term_Index~=nil and allowed[p.Term_Type] and p.TO_AC==false and not used[p.Term_Index] and
+      v and finite(v.x) and finite(v.y) and finite(v.z) and dist(v,point(O.ship))<C.deck.radiusM then
+      slots[#slots+1]=p; used[p.Term_Index]=true
+    end
+  end
+  table.sort(slots,function(a,b)return a.Term_Index<b.Term_Index end)
+  return slots[1]
+end
+local function deckLoad(except)
+  local count=0
+  for _,r in ipairs(O.flights) do if r~=except then
+    for _,f in ipairs(r.frames) do
+      local u=not f.lost and not f.recovered and unit(f.name)
+      if u and call(u,"inAir")~=true then
+        -- Also reserve room for an initial DCS carrier-queue aircraft not yet visible.
+        -- All registered templates are carrier-linked; airborne traffic is separate.
+        if onDeck(u) or r.state=="READY" or r.state=="QUEUED" then count=count+1 end
+      end
+    end
+  end end
+  return count
 end
 local function respawn(r,t)
   if group(r.name) then warn("SPAWN_WAIT",r.name.." old group still exists"); return false end
   local count=0; for _,f in ipairs(r.frames) do if not f.lost and f.recovered then count=count+1 end end
-  local parking=freeParking(count)
+  if count==0 then r.state="LOST";return false end
+  if deckLoad(r)+count>C.inventory.maxDeckAircraft then
+    warn("DECK_CAPACITY_WAIT",r.name.." native queue/parked traffic reserves available deck room")
+    return false
+  end
+  local parking=freeParking()
   if not parking then warn("SPAWN_WAIT",r.name.." no reported free deck parking"); return false end
-  local template=copy(r.template); local p=point(O.ship); local units={}
+  local template=copy(r.template); local p=copy(parking.vTerminalPos); local units={}
   local byName={}; for _,u in ipairs(template.units) do byName[u.name]=u end
   for _,f in ipairs(r.frames) do
     if not f.lost and f.recovered then
       local u=byName[f.name]; u.unitId=nil; u.x=p.x; u.y=p.z; u.alt=p.y
       u.heading=math.rad(heading(O.ship)); u.psi=-u.heading; u.speed=0
-      u.parking=parking[#units+1]; u.parking_id=nil; units[#units+1]=u
+      -- MOOSE SPAWN:SpawnAtAirbase uses one procedural entry for a ship's whole
+      -- group. Distinct land-airfield parking indices are NOT deck reservations.
+      u.parking=parking.Term_Index; u.parking_id=nil; units[#units+1]=u
       f.seen=false; f.parked=false; f.shutdown=false; f.landed=false; f.wasAir=false
       f.recovered=false; f.lastSeen=nil; f.stationarySince=nil; f.objectId=nil
+      f.retiring=false;f.nextRetireAttempt=nil
     end
   end
   if #units==0 then r.state="LOST"; return false end
@@ -823,19 +881,23 @@ local function respawn(r,t)
   local first=template.route.points[1]
   first.type="TakeOffParking"; first.action="From Parking Area"
   first.linkUnit=O.ship:getID(); first.helipadId=O.ship:getID()
+  first.airdromeId=nil;first.alt=p.y
+  r.spawnFirstWaypoint=copy(first)
   r.spawning=true; r.spawnExpected=#units
   local ok,g=pcall(coalition.addGroup,r.country,Group.Category.AIRPLANE,template)
   if not ok or not g then
     r.spawning=false; r.state="QUARANTINE"; log("SPAWN_FAILED",r.name.." no automatic retry"); return false
   end
   r.state="SPAWNING"; r.spawnedAt=t; r.damaged=false
-  log("DECK_RESPAWN",r.name.." survivors="..#units)
+  log("DECK_RESPAWN",r.name.." survivors="..#units.." proceduralEntry="..parking.Term_Index)
   return true
 end
 local function departureTask(r)
   local p=point(O.ship); local out=shift(p,12,O.windHeading or heading(O.ship))
-  local first=copy(r.template.route.points[1])
-  first.x=p.x; first.y=p.z; first.linkUnit=O.ship:getID(); first.helipadId=O.ship:getID()
+  local first=copy(r.spawnFirstWaypoint or r.template.route.points[1])
+  local start=leadPoint(r) or p
+  first.x=start.x; first.y=start.z; first.linkUnit=O.ship:getID(); first.helipadId=O.ship:getID()
+  first.airdromeId=nil
   first.task={id="ComboTask",params={tasks={}}}
   local orbit={id="Orbit",enabled=true,auto=false,number=1,
     params={pattern="Circle",point={x=out.x,y=out.z},altitude=10000*FT,speed=350*KT}}
@@ -851,6 +913,7 @@ local function startFlight(r,t)
   r.sorties=(r.sorties or 0)+1
   r.launchExpires=t+C.deck.launchTimeoutSec; r.wasRecoveryRequested=false
   r.recoveryAfterLaunch=false
+  r.recoverySlot=false
   r.lateLogged=false; r.recoveryTimedOut=false; r.externalRecovery=false
   log("START",r.name.." "..tostring(r.sortieRole))
   return true
@@ -859,6 +922,9 @@ end
 local function updateFlights(t)
   for _,r in ipairs(O.flights) do
     local s=snapshot(r,t)
+    recoverParkedMembers(r,t)
+    -- Observe completed per-aircraft removals before deciding whether service can begin.
+    s=snapshot(r,t)
     if r.state=="SERVICE" and t>=r.readyAt then
       r.state="HANGAR"; log("READY_AGAIN",r.name)
     elseif r.state=="MISSING" then
@@ -875,11 +941,15 @@ local function updateFlights(t)
         -- Waiting for the next permitted cycle is not a blocked deck request.
         r.launchRequestedAt=nil;r.launchExpires=nil
       elseif r.launchExpires and t>=r.launchExpires then
-        r.state="QUARANTINE"; log("LAUNCH_REQUEST_TIMEOUT",r.name)
+        if r.role=="POOL" then
+          r.launchExpires=t+C.deck.requestTimeoutSec
+          log("LAUNCH_QUEUE_WAIT",r.name.." still serviceable; request retained while wind/deck/traffic unavailable")
+        else r.state="QUARANTINE"; log("LAUNCH_REQUEST_TIMEOUT",r.name) end
       end
     elseif r.state=="STARTING" or r.state=="EXTERNAL_STARTING" or r.state=="LAUNCH_BLOCKED" then
       if s.alive>0 and s.air==s.alive and s.unaccounted==0 then
         r.state="ACTIVE"; r.airborneAt=t; r.sortieAt=r.sortieAt or t
+        r.recoverySlot=false;r.externalRecovery=false
         r.clearUntil=t+C.deck.departureClearSec; r.launchExpires=nil
         log("AIRBORNE",r.name)
         if r.recoveryAfterLaunch or (not O.running and r.role~="EXTERNAL") then
@@ -917,16 +987,21 @@ local function updateFlights(t)
       end
       r.lastExternalPoint=copy(p)
     end
-    if r.externalRecovery and ((s.air==0 and s.deck==s.alive) or t>=(r.recoveryExpires or 0)) then
-      r.externalRecovery=false; r.clearUntil=t+C.deck.recoveryClearSec
-      if s.air>0 then r.recoveryTimedOut=true; log("EXTERNAL_RECOVERY_TIMEOUT",r.name) end
+    if r.externalRecovery then
+      if s.unaccounted==0 and s.air==0 and s.parked==s.alive then
+        r.externalRecovery=false;r.recoverySlot=false;r.clearUntil=t+C.deck.recoveryClearSec
+      elseif r.recoveryExpires and t>=r.recoveryExpires and not r.recoveryTimedOut then
+        r.recoveryTimedOut=true;log("EXTERNAL_RECOVERY_TIMEOUT",r.name.." deck reservation retained")
+      end
     end
     if s.alive==0 and s.unaccounted==0 and r.state~="SERVICE" and r.state~="HANGAR" and r.state~="SPAWNING" and
       r.state~="MISSING" and r.state~="QUARANTINE" and not (r.state=="QUEUED" and r.fromHangar) then
       local retained=false
       for _,f in ipairs(r.frames) do if not f.lost and (f.recovered or f.parked) then retained=true end end
       if retained and r.role~="EXTERNAL" then retire(r,t)
-      elseif not retained and r.state~="LOST" then r.state="LOST"; log("FLIGHT_LOST",r.name) end
+      elseif not retained and r.state~="LOST" then
+        r.state="LOST";r.recoverySlot=false;r.externalRecovery=false;log("FLIGHT_LOST",r.name)
+      end
     end
   end
 end
@@ -940,8 +1015,7 @@ local function launchBusy()
 end
 local function finalBusy()
   for _,r in ipairs(O.flights) do
-    if (r.state=="RETURNING" or r.externalRecovery) and r.stats and r.stats.air>0 and
-      r.stats.minDistance<C.recovery.finalProtectionNm*NM then return true end
+    if recoveryOwnsDeck(r) then return true end
     if (r.clearUntil or 0)>now() then return true end
   end
   return false
@@ -969,6 +1043,13 @@ local function requestWind(t)
     for _,r in ipairs(O.flights) do
       if committed(r,"QRA") and r.state=="QUEUED" then urgent=true end
     end
+  end
+  -- A soft station-return policy must not starve the next CAP or an airborne RTB.
+  -- Return to the station resumes once the short traffic window is complete.
+  for _,r in ipairs(O.flights) do
+    if C.cap.overrideRecenter and committed(r,"CAP") and r.state=="QUEUED" and
+      capMayPrepare() and t>=(r.windNotBefore or 0) then urgent=true end
+    if C.recovery.overrideRecenter and r.state=="RETURN_WAIT" and r.stats and r.stats.air>0 then urgent=true end
   end
   -- A timeout must never turn the ship underneath a real final approach.
   if protected then needed=true end
@@ -1016,16 +1097,16 @@ end
 local function dispatch(t)
   local recoveryBusy=false; local waiting={}
   for _,r in ipairs(O.flights) do
-    if (r.state=="RETURNING" or r.externalRecovery) and r.stats.air>0 then recoveryBusy=true end
+    if recoveryOwnsDeck(r) then recoveryBusy=true end
     if r.state=="RETURN_WAIT" and r.stats.air>0 then waiting[#waiting+1]=r end
   end
   table.sort(waiting,function(a,b) return a.stats.fuel<b.stats.fuel end)
   for i,r in ipairs(waiting) do
     if not r.holdTasked then r.holdTasked=holdTask(r) end
     local emergency=r.stats.fuel<=C.recovery.criticalFuel
-    if i==1 and not launchBusy() and (O.deckReady or emergency) and (not recoveryBusy or emergency) then
+    if i==1 and not launchBusy() and (O.deckReady or emergency) and not recoveryBusy then
       if landTask(r) then
-        r.state="RETURNING"; recoveryBusy=true; log("RECOVERY_RELEASE",r.name..(emergency and " critical fuel" or ""))
+        r.state="RETURNING";r.recoverySlot=true; recoveryBusy=true; log("RECOVERY_RELEASE",r.name..(emergency and " critical fuel" or ""))
       end
     end
   end
@@ -1092,6 +1173,8 @@ local function indexMission()
   if not finite(C.cap.maxJoinRetries) or C.cap.maxJoinRetries<0 or C.cap.maxJoinRetries%1~=0 then
     error("cap.maxJoinRetries must be a nonnegative integer")
   end
+  if not finite(C.inventory.maxDeckAircraft) or C.inventory.maxDeckAircraft<1 or
+    C.inventory.maxDeckAircraft%1~=0 then error("inventory.maxDeckAircraft must be a positive integer") end
   if not Controller or not Controller.Detection then error("DCS detection API unavailable") end
   O.detectionMethods={}
   local organic={RADAR=true,VISUAL=true,IRST=true,OPTIC=true}
@@ -1173,6 +1256,10 @@ local function eventHandler(e)
     local place=call(e.place,"getName")
     if place==C.unitName or onDeck(e.initiator) then
       f.landed=true;f.stationarySince=nil
+      r.recoverySlot=true
+      if r.role=="EXTERNAL" then
+        r.externalRecovery=true;r.recoveryExpires=r.recoveryExpires or t+C.recovery.requestTimeoutSec
+      end
       r.clearUntil=t+C.deck.recoveryClearSec
       log("LANDED",f.name.." waiting for parking/shutdown")
     end

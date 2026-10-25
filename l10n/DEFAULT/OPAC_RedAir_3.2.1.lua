@@ -245,11 +245,11 @@ local CONFIG = {
     -- The lists below are independent of QRA. Random squadron, then random
     -- eligible group, on EACH new sortie. No availability = visible gap/log.
     squadrons = {
-      [601] = {"AA_CAP1", "AA_CAP2", "AA_CAP3", "AA_CAP4", "AA_CAP5"},
-      [602] = {"AA_CAP1", "AA_CAP2", "AA_CAP3", "AA_CAP4", "AA_CAP5"},
-      [603] = {"AA_CAP1", "AA_CAP2", "AA_CAP3", "AA_CAP4", "AA_CAP5"},
-      [611] = {"AA_CAP1"},
-	  [612] = {"AA_CAP1", "AA_CAP2", "AA_CAP3", "AA_CAP4", "AA_CAP5"},
+      [601] = {"AA_CAP1", "AA_CAP2", "AA_CAP5"},
+      [602] = {"AA_CAP3", "AA_CAP4", "AA_CAP5"},
+      [603] = {"AA_CAP3", "AA_CAP4"},
+      [611] = {"AA_CAP1", "AA_CAP2", "AA_CAP5"},
+	  [612] = {"AA_CAP1", "AA_CAP2", "AA_CAP5"},
       -- [613] = {"AA_CAP2"},
       -- [621] = {"AA_CAP4"},
       -- [622] = {"AA_CAP5"},
@@ -288,7 +288,7 @@ local CONFIG = {
       -- 721,
       -- 722,
     },
-    normalAirborneSec = 15 * 60,
+    normalAirborneSec = 8 * 60,
     refuellingAirborneSec = 5 * 60,
     altitudeFt = 25000,
     speedKtas = 540,

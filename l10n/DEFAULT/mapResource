@@ -17,4 +17,6 @@ mapResource =
     ["ResKey_Action_25"] = "OPAC_RedAir_3.2.1.lua",
     ["ResKey_Action_26"] = "OPAC_Comms_call Rovanemi under attack.lua",
     ["ResKey_Action_27"] = "OPAC_Comms_call_imminent_scud_launch.lua",
+    ["ResKey_Action_28"] = "OPAC_Comms_call Finmark under attack.lua",
+    ["ResKey_Action_29"] = "OPAC_Comms_call FARP London under attack.lua",
 } -- end of mapResource

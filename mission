@@ -41359,7 +41359,7 @@ mission =
                                         }, -- end of [5]
                                         [6] =
                                         {
-                                            ["ETA"] = 633.03392003117,
+                                            ["ETA"] = 633.20651742515,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 3048,
@@ -152765,7 +152765,7 @@ mission =
             [20] = 48,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 5766176,
+    ["currentKey"] = 5798058,
     ["date"] =
     {
         ["Day"] = 27,
@@ -160266,11 +160266,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 287740.48645083,
-        ["centerY"] = 278472.8088759,
-        ["zoom"] = 1602969.9991549,
+        ["centerX"] = 208336.1874993,
+        ["centerY"] = 277698.63252719,
+        ["zoom"] = 176369.98252296,
     }, -- end of ["map"]
-    ["maxDictId"] = 27,
+    ["maxDictId"] = 29,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
@@ -160398,6 +160398,8 @@ mission =
             [62] = "a_deactivate_group(1603); mission.trig.func[62]=nil;",
             [63] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_26\"));a_activate_group(1623); mission.trig.func[63]=nil;",
             [64] = "a_activate_group(1626);a_do_script_file(getValueResourceByKey(\"ResKey_Action_27\")); mission.trig.func[64]=nil;",
+            [65] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_29\")); mission.trig.func[65]=nil;",
+            [66] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_28\")); mission.trig.func[66]=nil;",
         }, -- end of ["actions"]
         ["conditions"] =
         {
@@ -160465,6 +160467,8 @@ mission =
             [62] = "return(c_part_of_group_in_zone(1603, 9271) and c_flag_is_true(\"66\") )",
             [63] = "return(c_missile_in_zone(\"4.4.8.461\", 1, 9482) )",
             [64] = "return(c_part_of_coalition_in_zone(\"blue\", 9552, \"ALL\") )",
+            [65] = "return(c_missile_in_zone(\"4.4.11.455\", 1, 9623) )",
+            [66] = "return(c_part_of_group_in_zone(1235, 9624) )",
         }, -- end of ["conditions"]
         ["custom"] =
         {
@@ -160541,6 +160545,8 @@ mission =
             [62] = true,
             [63] = true,
             [64] = true,
+            [65] = true,
+            [66] = true,
         }, -- end of ["flag"]
         ["func"] =
         {
@@ -160606,6 +160612,8 @@ mission =
             [62] = "if mission.trig.conditions[62]() then mission.trig.actions[62]() end",
             [63] = "if mission.trig.conditions[63]() then mission.trig.actions[63]() end",
             [64] = "if mission.trig.conditions[64]() then mission.trig.actions[64]() end",
+            [65] = "if mission.trig.conditions[65]() then mission.trig.actions[65]() end",
+            [66] = "if mission.trig.conditions[66]() then mission.trig.actions[66]() end",
         }, -- end of ["func"]
         ["funcStartup"] =
         {
@@ -178967,6 +178975,48 @@ mission =
                 ["y"] = 355868.54549153,
                 ["zoneId"] = 9552,
             }, -- end of [786]
+            [787] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "FARP_HIT_ZONE",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["type"] = 0,
+                ["x"] = 15636.054885837,
+                ["y"] = 212658.94092316,
+                ["zoneId"] = 9623,
+            }, -- end of [787]
+            [788] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["heading"] = 0,
+                ["hidden"] = false,
+                ["name"] = "RED bombing Finmark",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 4572,
+                ["type"] = 0,
+                ["x"] = 216902.6792216,
+                ["y"] = 258825.68878253,
+                ["zoneId"] = 9624,
+            }, -- end of [788]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] =
@@ -182994,7 +183044,7 @@ mission =
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [2]
             }, -- end of ["actions"]
-            ["comment"] = "Start SCUD",
+            ["comment"] = "Comms+Start SCUD",
             ["eventlist"] = "",
             ["predicate"] = "triggerOnce",
             ["rules"] =
@@ -183008,6 +183058,59 @@ mission =
                 }, -- end of [1]
             }, -- end of ["rules"]
         }, -- end of [64]
+        [65] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["file"] = "ResKey_Action_29",
+                    ["predicate"] = "a_do_script_file",
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["comment"] = "Comms_ FARP London under attack",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["nummissiles"] = 1,
+                    ["predicate"] = "c_missile_in_zone",
+                    ["typemissile"] =
+                    {
+                        [1] = 4,
+                        [2] = 4,
+                        [3] = 11,
+                        [4] = 455,
+                    }, -- end of ["typemissile"]
+                    ["zone"] = 9623,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [65]
+        [66] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["file"] = "ResKey_Action_28",
+                    ["predicate"] = "a_do_script_file",
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["comment"] = "Comms_Finmark under attack",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["group"] = 1235,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 9624,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [66]
     }, -- end of ["trigrules"]
     ["version"] = 23,
     ["weather"] =

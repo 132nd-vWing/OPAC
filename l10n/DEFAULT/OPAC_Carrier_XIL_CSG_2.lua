@@ -32,7 +32,7 @@ local CONFIG = {
   },
   cap = {
     enabled = true, startSec = 0, allowOffCycle = true,
-    offsetNm = 35, bearingDeg = 235 headingDeg = 235, legNm = 30,
+    offsetNm = 35, bearingDeg = 235, headingDeg = 235, legNm = 30,
     altitudeFt = 23000, speedKtas = 440,
     formation = "FingerFour.Open", joinSpeedKtas = 360,
     altitudeToleranceFt = 1500, joinDistanceNm = 5,

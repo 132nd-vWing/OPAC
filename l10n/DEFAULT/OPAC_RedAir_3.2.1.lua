@@ -288,7 +288,7 @@ local CONFIG = {
       -- 721,
       -- 722,
     },
-    normalAirborneSec = 8 * 60,
+    normalAirborneSec = 15 * 60,
     refuellingAirborneSec = 5 * 60,
     altitudeFt = 25000,
     speedKtas = 540,

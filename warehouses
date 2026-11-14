@@ -3905,7 +3905,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -3916,7 +3916,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -3949,7 +3949,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -3960,7 +3960,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -3971,7 +3971,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -3982,7 +3982,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -4741,7 +4741,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -4818,7 +4818,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -4895,7 +4895,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -5126,7 +5126,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -5192,7 +5192,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -5368,7 +5368,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -11675,7 +11675,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -11686,7 +11686,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -11719,7 +11719,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -11730,7 +11730,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -11741,7 +11741,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -11752,7 +11752,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -12511,7 +12511,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -12588,7 +12588,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -12665,7 +12665,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -12896,7 +12896,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -12962,7 +12962,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -13138,7 +13138,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -19445,7 +19445,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -19456,7 +19456,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -19489,7 +19489,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -19500,7 +19500,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -19511,7 +19511,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -19522,7 +19522,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -20281,7 +20281,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -20358,7 +20358,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -20435,7 +20435,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -20666,7 +20666,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -20732,7 +20732,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -20908,7 +20908,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -27215,7 +27215,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -27226,7 +27226,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -27259,7 +27259,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -27270,7 +27270,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -27281,7 +27281,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -27292,7 +27292,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -28051,7 +28051,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -28128,7 +28128,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -28205,7 +28205,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -28436,7 +28436,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -28502,7 +28502,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -28678,7 +28678,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -34985,7 +34985,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -34996,7 +34996,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -35029,7 +35029,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -35040,7 +35040,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -35051,7 +35051,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -35062,7 +35062,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -35821,7 +35821,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -35898,7 +35898,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -35975,7 +35975,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -36206,7 +36206,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -36272,7 +36272,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -36448,7 +36448,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -42755,7 +42755,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -42766,7 +42766,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -42799,7 +42799,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -42810,7 +42810,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -42821,7 +42821,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -42832,7 +42832,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -43591,7 +43591,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -43668,7 +43668,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -43745,7 +43745,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -43976,7 +43976,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -44042,7 +44042,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -44218,7 +44218,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -50525,7 +50525,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -50536,7 +50536,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -50569,7 +50569,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -50580,7 +50580,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -50591,7 +50591,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -50602,7 +50602,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -51361,7 +51361,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -51438,7 +51438,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -51515,7 +51515,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -51746,7 +51746,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -51812,7 +51812,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -51988,7 +51988,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -58295,7 +58295,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -58306,7 +58306,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -58339,7 +58339,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -58350,7 +58350,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -58361,7 +58361,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -58372,7 +58372,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -59131,7 +59131,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -59208,7 +59208,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -59285,7 +59285,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -59516,7 +59516,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -59582,7 +59582,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -59758,7 +59758,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -66065,7 +66065,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -66076,7 +66076,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -66109,7 +66109,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -66120,7 +66120,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -66131,7 +66131,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -66142,7 +66142,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -66901,7 +66901,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -66978,7 +66978,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -67055,7 +67055,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -67286,7 +67286,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -67352,7 +67352,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -67528,7 +67528,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -73835,7 +73835,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -73846,7 +73846,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -73879,7 +73879,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -73890,7 +73890,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -73901,7 +73901,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -73912,7 +73912,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -74671,7 +74671,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -74748,7 +74748,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -74825,7 +74825,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -75056,7 +75056,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -75122,7 +75122,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -75298,7 +75298,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -81605,7 +81605,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -81616,7 +81616,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -81649,7 +81649,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -81660,7 +81660,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -81671,7 +81671,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -81682,7 +81682,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -82441,7 +82441,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -82518,7 +82518,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -82595,7 +82595,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -82826,7 +82826,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -82892,7 +82892,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -83068,7 +83068,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -89375,7 +89375,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -89386,7 +89386,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -89419,7 +89419,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -89430,7 +89430,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -89441,7 +89441,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -89452,7 +89452,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -90211,7 +90211,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -90288,7 +90288,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -90365,7 +90365,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -90596,7 +90596,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -90662,7 +90662,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -90838,7 +90838,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -97145,7 +97145,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -97156,7 +97156,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -97189,7 +97189,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -97200,7 +97200,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -97211,7 +97211,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -97222,7 +97222,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -97981,7 +97981,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -98058,7 +98058,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -98135,7 +98135,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -98366,7 +98366,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -98432,7 +98432,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -98608,7 +98608,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -104915,7 +104915,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -104926,7 +104926,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -104959,7 +104959,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -104970,7 +104970,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -104981,7 +104981,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -104992,7 +104992,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -105751,7 +105751,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -105828,7 +105828,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -105905,7 +105905,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -106136,7 +106136,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -106202,7 +106202,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -106378,7 +106378,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -112685,7 +112685,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -112696,7 +112696,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -112729,7 +112729,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -112740,7 +112740,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -112751,7 +112751,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -112762,7 +112762,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -113521,7 +113521,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -113598,7 +113598,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -113675,7 +113675,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -113906,7 +113906,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -113972,7 +113972,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -114148,7 +114148,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -120455,7 +120455,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -120466,7 +120466,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -120499,7 +120499,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -120510,7 +120510,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -120521,7 +120521,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -120532,7 +120532,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -121291,7 +121291,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -121368,7 +121368,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -121445,7 +121445,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -121676,7 +121676,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -121742,7 +121742,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -121918,7 +121918,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -128225,7 +128225,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -128236,7 +128236,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -128269,7 +128269,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -128280,7 +128280,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -128291,7 +128291,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -128302,7 +128302,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -129061,7 +129061,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -129138,7 +129138,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -129215,7 +129215,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -129446,7 +129446,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -129512,7 +129512,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -129688,7 +129688,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -135995,7 +135995,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -136006,7 +136006,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -136039,7 +136039,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -136050,7 +136050,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -136061,7 +136061,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -136072,7 +136072,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -136831,7 +136831,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -136908,7 +136908,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -136985,7 +136985,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -137216,7 +137216,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -137282,7 +137282,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -137458,7 +137458,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -143765,7 +143765,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -143776,7 +143776,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -143809,7 +143809,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -143820,7 +143820,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -143831,7 +143831,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -143842,7 +143842,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -144601,7 +144601,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -144678,7 +144678,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -144755,7 +144755,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -144986,7 +144986,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -145052,7 +145052,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -145228,7 +145228,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -151535,7 +151535,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -151546,7 +151546,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -151579,7 +151579,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -151590,7 +151590,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -151601,7 +151601,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -151612,7 +151612,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -152371,7 +152371,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -152448,7 +152448,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -152525,7 +152525,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -152756,7 +152756,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -152822,7 +152822,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -152998,7 +152998,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -159305,7 +159305,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -159316,7 +159316,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -159349,7 +159349,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -159360,7 +159360,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -159371,7 +159371,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -159382,7 +159382,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -160141,7 +160141,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -160218,7 +160218,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -160295,7 +160295,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -160526,7 +160526,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -160592,7 +160592,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -160768,7 +160768,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -167075,7 +167075,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -167086,7 +167086,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -167119,7 +167119,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -167130,7 +167130,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -167141,7 +167141,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -167152,7 +167152,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -167911,7 +167911,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -167988,7 +167988,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -168065,7 +168065,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -168296,7 +168296,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -168362,7 +168362,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -168538,7 +168538,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -174845,7 +174845,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -174856,7 +174856,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -174889,7 +174889,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -174900,7 +174900,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -174911,7 +174911,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -174922,7 +174922,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -175681,7 +175681,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -175758,7 +175758,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -175835,7 +175835,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -176066,7 +176066,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -176132,7 +176132,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -176308,7 +176308,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -182615,7 +182615,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -182626,7 +182626,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -182659,7 +182659,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -182670,7 +182670,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -182681,7 +182681,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -182692,7 +182692,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -183451,7 +183451,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -183528,7 +183528,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -183605,7 +183605,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -183836,7 +183836,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -183902,7 +183902,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -184078,7 +184078,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -190385,7 +190385,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -190396,7 +190396,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -190429,7 +190429,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -190440,7 +190440,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -190451,7 +190451,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -190462,7 +190462,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -191221,7 +191221,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -191298,7 +191298,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -191375,7 +191375,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -191606,7 +191606,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -191672,7 +191672,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -191848,7 +191848,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -198155,7 +198155,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -198166,7 +198166,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -198199,7 +198199,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -198210,7 +198210,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -198221,7 +198221,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -198232,7 +198232,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -198991,7 +198991,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -199068,7 +199068,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -199145,7 +199145,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -199376,7 +199376,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -199442,7 +199442,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -199618,7 +199618,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -205925,7 +205925,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -205936,7 +205936,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -205969,7 +205969,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -205980,7 +205980,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -205991,7 +205991,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -206002,7 +206002,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -206761,7 +206761,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -206838,7 +206838,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -206915,7 +206915,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -207146,7 +207146,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -207212,7 +207212,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -207388,7 +207388,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -213695,7 +213695,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -213706,7 +213706,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -213739,7 +213739,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -213750,7 +213750,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -213761,7 +213761,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -213772,7 +213772,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -214531,7 +214531,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -214608,7 +214608,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -214685,7 +214685,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -214916,7 +214916,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -214982,7 +214982,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -215158,7 +215158,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -221465,7 +221465,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -221476,7 +221476,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -221509,7 +221509,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -221520,7 +221520,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -221531,7 +221531,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -221542,7 +221542,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -222301,7 +222301,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -222378,7 +222378,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -222455,7 +222455,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -222686,7 +222686,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -222752,7 +222752,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -222928,7 +222928,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -229235,7 +229235,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -229246,7 +229246,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -229279,7 +229279,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -229290,7 +229290,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -229301,7 +229301,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -229312,7 +229312,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -230071,7 +230071,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -230148,7 +230148,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -230225,7 +230225,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -230456,7 +230456,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -230522,7 +230522,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -230698,7 +230698,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -237005,7 +237005,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -237016,7 +237016,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -237049,7 +237049,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -237060,7 +237060,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -237071,7 +237071,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -237082,7 +237082,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -237841,7 +237841,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -237918,7 +237918,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -237995,7 +237995,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -238226,7 +238226,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -238292,7 +238292,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -238468,7 +238468,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -244775,7 +244775,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -244786,7 +244786,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -244819,7 +244819,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -244830,7 +244830,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -244841,7 +244841,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -244852,7 +244852,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -245611,7 +245611,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -245688,7 +245688,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -245765,7 +245765,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -245996,7 +245996,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -246062,7 +246062,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -246238,7 +246238,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -252545,7 +252545,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -252556,7 +252556,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -252589,7 +252589,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -252600,7 +252600,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -252611,7 +252611,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -252622,7 +252622,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -253381,7 +253381,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -253458,7 +253458,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -253535,7 +253535,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -253766,7 +253766,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -253832,7 +253832,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -254008,7 +254008,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -260315,7 +260315,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -260326,7 +260326,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -260359,7 +260359,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -260370,7 +260370,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -260381,7 +260381,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -260392,7 +260392,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -261151,7 +261151,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -261228,7 +261228,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -261305,7 +261305,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -261536,7 +261536,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -261602,7 +261602,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -261778,7 +261778,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -268085,7 +268085,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -268096,7 +268096,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -268129,7 +268129,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -268140,7 +268140,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -268151,7 +268151,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -268162,7 +268162,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -268921,7 +268921,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -268998,7 +268998,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -269075,7 +269075,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -269306,7 +269306,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -269372,7 +269372,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -269548,7 +269548,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -275855,7 +275855,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -275866,7 +275866,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -275899,7 +275899,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -275910,7 +275910,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -275921,7 +275921,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -275932,7 +275932,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -276691,7 +276691,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -276768,7 +276768,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -276845,7 +276845,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -277076,7 +277076,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -277142,7 +277142,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -277318,7 +277318,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -283625,7 +283625,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -283636,7 +283636,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -283669,7 +283669,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -283680,7 +283680,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -283691,7 +283691,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -283702,7 +283702,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -284461,7 +284461,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -284538,7 +284538,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -284615,7 +284615,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -284846,7 +284846,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -284912,7 +284912,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -285088,7 +285088,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -296105,41 +296105,6 @@ warehouses =
 			["OperatingLevel_Fuel"] = 10,
 			["size"] = 100,
 		}, -- end of [2844]
-		[3184] = 
-		{
-			["allowHotStart"] = false,
-			["unlimitedMunitions"] = true,
-			["methanol_mixture"] = 
-			{
-				["InitFuel"] = 100,
-			}, -- end of ["methanol_mixture"]
-			["OperatingLevel_Air"] = 10,
-			["diesel"] = 
-			{
-				["InitFuel"] = 100,
-			}, -- end of ["diesel"]
-			["speed"] = 16.666666,
-			["dynamicSpawn"] = false,
-			["unlimitedAircrafts"] = true,
-			["unlimitedFuel"] = true,
-			["jet_fuel"] = 
-			{
-				["InitFuel"] = 100,
-			}, -- end of ["jet_fuel"]
-			["periodicity"] = 30,
-			["suppliers"] = {},
-			["coalition"] = "red",
-			["dynamicCargo"] = true,
-			["OperatingLevel_Eqp"] = 10,
-			["gasoline"] = 
-			{
-				["InitFuel"] = 100,
-			}, -- end of ["gasoline"]
-			["aircrafts"] = {},
-			["weapons"] = {},
-			["OperatingLevel_Fuel"] = 10,
-			["size"] = 100,
-		}, -- end of [3184]
 		[2239] = 
 		{
 			["allowHotStart"] = false,
@@ -300043,7 +300008,7 @@ warehouses =
 						[3] = 8,
 						[4] = 138,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [352]
 				[353] = 
 				{
@@ -300054,7 +300019,7 @@ warehouses =
 						[3] = 8,
 						[4] = 139,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [353]
 				[354] = 
 				{
@@ -300087,7 +300052,7 @@ warehouses =
 						[3] = 8,
 						[4] = 271,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [356]
 				[357] = 
 				{
@@ -300098,7 +300063,7 @@ warehouses =
 						[3] = 8,
 						[4] = 272,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [357]
 				[358] = 
 				{
@@ -300109,7 +300074,7 @@ warehouses =
 						[3] = 8,
 						[4] = 273,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [358]
 				[359] = 
 				{
@@ -300120,7 +300085,7 @@ warehouses =
 						[3] = 8,
 						[4] = 274,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [359]
 				[360] = 
 				{
@@ -300879,7 +300844,7 @@ warehouses =
 						[3] = 8,
 						[4] = 61,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [428]
 				[429] = 
 				{
@@ -300956,7 +300921,7 @@ warehouses =
 						[3] = 8,
 						[4] = 70,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [435]
 				[436] = 
 				{
@@ -301033,7 +300998,7 @@ warehouses =
 						[3] = 8,
 						[4] = 77,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 9,
+					["initialAmount"] = 7,
 				}, -- end of [442]
 				[443] = 
 				{
@@ -301264,7 +301229,7 @@ warehouses =
 						[3] = 36,
 						[4] = 290,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [463]
 				[464] = 
 				{
@@ -301330,7 +301295,7 @@ warehouses =
 						[3] = 36,
 						[4] = 38,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 22,
+					["initialAmount"] = 10,
 				}, -- end of [469]
 				[470] = 
 				{
@@ -301506,7 +301471,7 @@ warehouses =
 						[3] = 36,
 						[4] = 85,
 					}, -- end of ["wsType"]
-					["initialAmount"] = 8,
+					["initialAmount"] = 4,
 				}, -- end of [485]
 				[486] = 
 				{
@@ -303910,6 +303875,41 @@ warehouses =
 			["OperatingLevel_Fuel"] = 10,
 			["size"] = 100,
 		}, -- end of [2239]
+		[3184] = 
+		{
+			["allowHotStart"] = false,
+			["unlimitedMunitions"] = true,
+			["methanol_mixture"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["methanol_mixture"]
+			["OperatingLevel_Air"] = 10,
+			["diesel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["diesel"]
+			["speed"] = 16.666666,
+			["dynamicSpawn"] = false,
+			["unlimitedAircrafts"] = true,
+			["unlimitedFuel"] = true,
+			["jet_fuel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["jet_fuel"]
+			["periodicity"] = 30,
+			["suppliers"] = {},
+			["coalition"] = "red",
+			["dynamicCargo"] = true,
+			["OperatingLevel_Eqp"] = 10,
+			["gasoline"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["gasoline"]
+			["aircrafts"] = {},
+			["weapons"] = {},
+			["OperatingLevel_Fuel"] = 10,
+			["size"] = 100,
+		}, -- end of [3184]
 		[2372] = 
 		{
 			["allowHotStart"] = false,
